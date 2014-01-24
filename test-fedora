@@ -1,0 +1,1 @@
+sudo livecd-creator --verbose --config=fedora-install-fedora.ks --fslabel=test --cache=/var/cache/live --releasever=18
