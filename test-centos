@@ -1,1 +1,7 @@
-sudo livecd-creator --verbose --config=centos6-liveCD-desktop.cfg --fslabel=test --cache=/var/cache/live --releasever=6
+LANG=C sudo livecd-creator --verbose --config=centos6-liveCD-desktop.cfg --fslabel=test --cache=/var/cache/live --releasever=6
+
+# to test in vm
+# qemu -m 512 -cdrom test.iso 
+
+# to create usb stick
+# livecd-iso-to-disk --format --reset-mbr test.iso /dev/sdx
