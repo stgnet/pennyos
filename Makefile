@@ -8,8 +8,8 @@ RELEASE=6
 all: $(patsubst %.cfg,%.iso,$(wildcard *.cfg))
 
 %.iso: %.cfg
-	LANG=C setarch i686 livecd-creator --verbose --config=$< --fslabel=$(patsubst %.cfg,%,$<) --cache=/var/cache/live --releasever=$(RELEASE)
-	LANG=C livecd-creator --verbose --config=$< --fslabel=$(patsubst %.cfg,%,$<) --cache=/var/cache/live --releasever=$(RELEASE)
+	LANG=C setarch i686 livecd-creator --verbose --config=$< --fslabel=$(patsubst %.cfg,%,$<)-32 --cache=/var/cache/live --releasever=$(RELEASE)
+	LANG=C livecd-creator --verbose --config=$< --fslabel=$(patsubst %.cfg,%,$<)-64 --cache=/var/cache/live --releasever=$(RELEASE)
 
 .PHONY:clean
 clean:
