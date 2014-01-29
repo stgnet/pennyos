@@ -1,0 +1,101 @@
+#!/bin/sh
+
+MOCK64="PennyOS-6-x86_64"
+MOCK32="PennyOS-6-i386"
+
+MOCK64_BUILD="/var/lib/mock/$MOCK64/root/builddir/build"
+MOCK32_BUILD="/var/lib/mock/$MOCK32/root/builddir/build"
+
+[ ! -f $MOCK64.cfg ] && echo "ERROR: $MOCK64 file is missing" && exit 1
+[ ! -f $MOCK32.cfg ] && echo "ERROR: $MOCK32 file is missing" && exit 1
+
+# only copy if changed to prevent chroot rebuild on each run
+diff $MOCK64.cfg /etc/mock/$MOCK64.cfg || sudo cp $MOCK64.cfg /etc/mock
+diff $MOCK32.cfg /etc/mock/$MOCK32.cfg || sudo cp $MOCK32.cfg /etc/mock
+
+[ ! -d build/SRPMS ] && mkdir -p build/SRPMS
+[ ! -d build/x86_64 ] && mkdir -p build/x86_64
+[ ! -d build/i386 ] && mkdir -p build/i386
+
+# cleanup local diff files that show patches
+rm -f *.diff
+
+SPACKAGES="$1"
+[ ! -d "$SPACKAGES" ] && echo "ERROR: '$1' is not a directory" && exit 1
+
+ls $SPACKAGES | while read SRCRPM
+do
+    if [ "${SRCRPM: -8}" != ".src.rpm" ]
+    then
+        echo "WARNING: Unknown extension on file in packages directory: $SRCRPM"
+        continue
+    fi
+
+    # make sure the SOURCES and SPEC directories are empty
+    rm -rf ~/rpmbuild/SOURCES/* ~/rpmbuild/SPECS/*
+
+    echo "Installing RPM $SRCRPM"
+    rpm -ihv $SPACKAGES/$SRCRPM
+
+    basename ~/rpmbuild/SPECS/*.spec .spec
+    # there should be exactly 1 spec file in the spec directory
+    PKGNAME="`basename ~/rpmbuild/SPECS/*.spec .spec`"
+    if [ -z "$PKGNAME" ]
+    then
+        echo "ERROR: Unable to determine package from spec file name"
+        ls -lR ~/rpmbuild/SPECS
+        exit 1
+    fi
+
+    echo "Package name is \"$PKGNAME\""
+
+    fgrep -i centos ~/rpmbuild/SOURCES/*.patch
+    if [ $? -eq 0 ]
+    then
+        echo "Patching..."
+        PATCHED=/tmp/patch.$$
+        rm -rf $PATCHED
+        mkdir $PATCHED
+        cp ~/rpmbuild/SOURCES/*.patch $PATCHED
+
+        sed -i -e 's/centos\./PennyOS./g' -e 's/CentOS/PennyOS/g' -e 's/\"centos\"/\"PennyOS\"/g' -e 's/Centos/PennyOS/g' $PATCHED/*
+
+        fgrep -i centos $PATCHED/*
+        if [ $? -eq 0 ]
+        then
+            echo "ERROR: Patch of $PKGNAME in $PATCHED failed"
+            exit 1
+        fi
+        diff -r $PATCHED ~/rpmbuild/SOURCES > $PKGNAME.diff
+    fi
+
+    mock -r $MOCK64 --buildsrpm --spec ~/rpmbuild/SPECS/$PKGNAME.spec --sources ~/rpmbuild/SOURCES || exit $?
+
+    [ ! -d $MOCK64_BUILD ] && echo "ERROR: after mock 64 the build directory is missing" && exit 1
+
+    SRPM="`basename $MOCK64_BUILD/SRPMS/*.src.rpm`"
+    [ -z "$SRPM" ] && echo "ERROR: Unable to locate SRPM in $MOCK64_BUILD/SRPMS" && exit 1
+
+    # stow it locally
+    mv -v $MOCK64_BUILD/SRPMS/$SRPM build/SRPMS
+
+    mock -r $MOCK64 --rebuild build/SRPMS/$SRPM || exit $?
+
+    # stow and cleanup
+    mv -v $MOCK64_BUILD/RPMS/* build/x86_64
+    rm -rf $MOCK64_BUILD/originals/*
+    rm -rf $MOCK64_BUILD/SOURCES/*
+    rm -rf $MOCK64_BUILD/SPECS/*
+    rm -rf $MOCK64_BUILD/SRPMS/*
+
+    mock -r $MOCK32 --rebuild build/SRPMS/$SRPM || exit $?
+
+    # stow and cleanup
+    mv -v $MOCK64_BUILD/RPMS/* build/i386
+    rm -rf $MOCK64_BUILD/originals/*
+    rm -rf $MOCK64_BUILD/SOURCES/*
+    rm -rf $MOCK64_BUILD/SPECS/*
+    rm -rf $MOCK64_BUILD/SRPMS/*
+
+done
+
