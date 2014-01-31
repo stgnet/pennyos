@@ -1,0 +1,40 @@
+#!/bin/sh
+# a very simple script to grab instructions from build server and run them
+
+# don't run if there is something already running
+[ -f build-script ] && exit 0
+
+# don't run if the loadavg hits 1 or more
+#LOADAVG="`cat /proc/loadavg`"
+#[ "${LOADAVG%%.*}" -lt 1 ] || exit
+
+# get the MAC address
+HWADDR="`ifconfig |fgrep HWaddr |head -1 |tr -d ':'`"
+MAC="${HWADDR#*HWaddr }"
+MAC="${MAC:0:12}"
+
+# download script, ask for headers
+wget -qSO build-script --header="X-Agent-ID: $MAC" http://build.pennyos.org/getjob.php 2> build-script-header
+
+# if download didn't succeed (404 if nothing to do), stop
+if [ $? -ne 0 ]
+then
+    rm -f build-script build-script-header
+    exit 0
+fi
+
+# check md5
+SCRIPT_MD5="`md5sum <build-script`"
+HEADER_MD5="`fgrep Content-MD5: build-script-header`"
+
+if [ "${SCRIPT_MD5:0:32}" != "${HEADER_MD5: -32}" ]
+then
+    # something is wrong, but don't bother to log it or anything
+    rm -f build-script build-script-header
+    exit 0
+fi
+
+JOB_ID="`fgrep X-Job-ID: build-script-header`"
+JOB_ID="${JOB_ID#*X-Job-ID: }"
+
+sh build-script > build-script-output 2>&1

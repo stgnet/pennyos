@@ -1,0 +1,36 @@
+#!/bin/sh
+# install build-agent on this server
+
+# insanity exclusionary principle
+which which || echo "ERROR: which is not installed" 
+
+# make sure wget is installed
+which wget >/dev/null || sudo yum -y install wget
+
+# make sure md5sum is installed
+which md5sum >/dev/null || sudo yum -y install md5sum
+
+# make sure rpmbuild is installed
+which rpmbuild >/dev/null || sudo yum -y install rpm-build
+
+# make sure mock is installed
+which mock >/dev/null || sudo yum -y install mock
+
+# make sure redhat-rpm-config is installed
+[ -f /usr/lib/rpm/redhat/rpmsort ] || sudo yum -y install redhat-rpm-config
+
+# insure /etc/mock directory is writable by mock group
+sudo chgrp mock /etc/mock
+sudo chmod g+w /etc/mock
+
+# insure buildagent user exists and is in mock group
+grep '^buildagent:' /etc/passwd >/dev/null || (sudo useradd buildagent ; sudo usermod -a -G mock buildagent)
+
+# copy the client script in
+sudo cp build-agent-client ~buildagent
+
+# and make sure that the build-script isn't there
+sudo rm -f ~buildagent/build-script
+
+# update crontab to run build agent client regularly
+sudo sed -i -e '$a*/5 * * * * buildagent /home/buildagent/build-agent-client\n' -e '/buildagent/d' /etc/crontab
