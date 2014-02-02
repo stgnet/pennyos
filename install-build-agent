@@ -7,11 +7,15 @@ which which || echo "ERROR: which is not installed"
 # make sure wget is installed
 which wget >/dev/null || sudo yum -y install wget
 
+# make sure curl is installed
+which curl >/dev/null || sudo yum -y install curl
+
 # make sure md5sum is installed
 which md5sum >/dev/null || sudo yum -y install md5sum
 
 # make sure rpmbuild is installed
-which rpmbuild >/dev/null || sudo yum -y install rpm-build
+# this is actually installed inside the mock chroot
+#which rpmbuild >/dev/null || sudo yum -y install rpm-build
 
 # make sure mock is installed
 which mock >/dev/null || sudo yum -y install mock
@@ -33,4 +37,4 @@ sudo cp build-agent-client ~buildagent
 sudo rm -f ~buildagent/build-script
 
 # update crontab to run build agent client regularly
-sudo sed -i -e '$a*/5 * * * * buildagent /home/buildagent/build-agent-client\n' -e '/buildagent/d' /etc/crontab
+sudo sed -i -e '$a*/5 * * * * buildagent /home/buildagent/build-agent-client' -e '/buildagent/d' /etc/crontab

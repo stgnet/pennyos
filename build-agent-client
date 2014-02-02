@@ -37,4 +37,19 @@ fi
 JOB_ID="`fgrep X-Job-ID: build-script-header`"
 JOB_ID="${JOB_ID#*X-Job-ID: }"
 
-sh build-script > build-script-output 2>&1
+rm -rf build-dir result.tgz
+mkdir build-dir
+cd build-dir
+
+STATUS="fail"
+if sh ../build-script > build-script-output 2>&1
+then
+	STATUS="ok"
+fi
+tar cvfz ../result.tgz . 
+#>/dev/null 2>&1
+
+cd ..
+
+curl -q -F "userfile=@result.tgz" -F "jobid=$JOB_ID" -F "agentid=$MAC" -F "status=$STATUS" http://build.pennyos.org/result.php
+
