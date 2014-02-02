@@ -16,7 +16,7 @@ LOADAVG="`cat /proc/loadavg`"
 [ "${LOADAVG%%.*}" -lt 1 ] || exit
 
 # don't run if there are already 5 uploads or more in progress
-UPLOADS="`ls -1 result-*.tgz | wc -l`"
+UPLOADS="`ls -1 result-*.tgz 2>/dev/null | wc -l`"
 [ $UPLOADS -lt 1 ] || exit
 
 # get the MAC address

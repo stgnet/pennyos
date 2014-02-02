@@ -23,7 +23,12 @@ MOCK32_BUILD="/var/lib/mock/$MOCK32/root/builddir/build"
 # insure that the mock configs are up to date
 wget -q $PROJECT_URL/$MOCK64.cfg
 wget -q $PROJECT_URL/$MOCK32.cfg
+[ ! -f $MOCK64.cfg ] && echo "ERROR: $MOCK64 file is missing" && exit 1
+[ ! -f $MOCK32.cfg ] && echo "ERROR: $MOCK32 file is missing" && exit 1
+
 # this should not need sudo, /etc/mock set to mock group in agent install
+[ -f /etc/mock/$MOCK64.cfg ] || cp $MOCK64.cfg /etc/mock
+[ -f /etc/mock/$MOCK32.cfg ] || cp $MOCK32.cfg /etc/mock
 diff $MOCK64.cfg /etc/mock/$MOCK64.cfg || cp $MOCK64.cfg /etc/mock
 diff $MOCK32.cfg /etc/mock/$MOCK32.cfg || cp $MOCK32.cfg /etc/mock
 
@@ -96,153 +101,8 @@ grep ^ERROR mock-output && exit 1
 mkdir i386
 cp -v $MOCK32_BUILD/RPMS/* i386
 
+rm -f mock-output
+
 echo "$PKGNAME" > package_name.txt
 echo "### BUILD COMPLETED SUCCESSFULLY ###"
 exit 0
-
-[ ! -f $MOCK64.cfg ] && echo "ERROR: $MOCK64 file is missing" && exit 1
-[ ! -f $MOCK32.cfg ] && echo "ERROR: $MOCK32 file is missing" && exit 1
-
-# only copy if changed to prevent chroot rebuild on each run
-diff $MOCK64.cfg /etc/mock/$MOCK64.cfg || sudo cp $MOCK64.cfg /etc/mock
-diff $MOCK32.cfg /etc/mock/$MOCK32.cfg || sudo cp $MOCK32.cfg /etc/mock
-
-[ ! -d build/SRPMS ] && mkdir -p build/SRPMS
-[ ! -d build/x86_64 ] && mkdir -p build/x86_64
-[ ! -d build/i386 ] && mkdir -p build/i386
-
-# cleanup local diff files that show patches
-rm -f *.diff
-rm -f $FAIL
-
-SPACKAGES="$1"
-[ ! -d "$SPACKAGES" ] && echo "ERROR: '$1' is not a directory" && exit 1
-
-ls $SPACKAGES | while read SRCRPM
-do
-    if [ "${SRCRPM:0:10}" == "index.html" ]
-    then
-        # ignore index.html files - artifact of wget download
-        continue
-    fi
-
-    if [ "${SRCRPM: -8}" != ".src.rpm" ]
-    then
-        echo "WARNING: Unknown extension on file in packages directory: $SRCRPM" |tee -a $FAIL
-        continue
-    fi
-
-    # make sure the SOURCES and SPEC directories are empty
-    rm -rf ~/rpmbuild/SOURCES/* ~/rpmbuild/SPECS/*
-
-    echo "========================================"
-    echo "* Processing Source RPM $SRCRPM"
-    if ! rpm -ihv $SPACKAGES/$SRCRPM >temp 2>&1 
-    then
-        echo "$SRCRPM: ERROR: rpm install failed" |tee -a $FAIL
-        cat temp >>$FAIL
-        continue
-    fi
-
-    # there should be exactly 1 spec file in the spec directory
-    PKGNAME="`basename ~/rpmbuild/SPECS/*.spec .spec`"
-    if [ -z "$PKGNAME" ]
-    then
-        echo "$SRCRPM: ERROR: Unable to determine package from spec file name" |tee -a $FAIL
-        ls -lR ~/rpmbuild/SPECS >>$FAIL
-        continue
-    fi
-
-    #echo "Package name is \"$PKGNAME\""
-
-    fgrep -i centos ~/rpmbuild/SOURCES/*.patch
-    if [ $? -eq 0 ]
-    then
-        echo "Patching..."
-        PATCHED=/tmp/patch.$$
-        rm -rf $PATCHED
-        mkdir $PATCHED
-        cp ~/rpmbuild/SOURCES/*.patch $PATCHED
-
-        sed -i -e 's/centos\./PennyOS./g' -e 's/CentOS/PennyOS/g' -e 's/\"centos\"/\"PennyOS\"/g' -e 's/Centos/PennyOS/g' $PATCHED/*
-
-        fgrep -i centos $PATCHED/* >temp
-        if [ $? -eq 0 ]
-        then
-            echo "$SRCRPM: ERROR: Patch of $PKGNAME in $PATCHED failed" |tee -a $FAIL
-            cat temp >>$FAIL
-            continue
-        fi
-        diff -r $PATCHED ~/rpmbuild/SOURCES > $PKGNAME.diff
-    fi
-
-    echo "* Recreating source rpm for $PKGNAME"
-    if ! mock -r $MOCK64 --buildsrpm --spec ~/rpmbuild/SPECS/$PKGNAME.spec --sources ~/rpmbuild/SOURCES >temp 2>&1
-    then
-        echo "$SRCRPM: ERROR: mock buildsrpm failed" |tee -a $FAIL
-        cat temp >>$FAIL
-        continue
-    fi
-
-    if [ ! -d $MOCK64_BUILD ]
-    then
-        echo "$SRCRPM: ERROR: after mock 64 the build directory is missing" |tee -a $FAIL
-        continue
-    fi
-
-    SRPM="`basename $MOCK64_BUILD/SRPMS/*.src.rpm`"
-    if [ -z "$SRPM" ]
-    then
-        echo "$SRCRPM: ERROR: Unable to locate SRPM in $MOCK64_BUILD/SRPMS" |tee -a $FAIL
-        continue
-    fi
-
-    # stow it locally
-    mv -v $MOCK64_BUILD/SRPMS/$SRPM build/SRPMS
-
-    echo "* Building 64 bit RPM"
-    if ! mock -r $MOCK64 --rebuild build/SRPMS/$SRPM >temp 2>&1
-    then
-        echo "$SRCRPM: ERROR: mock rebuild 64 failed" |tee -a $FAIL
-        cat temp >>$FAIL
-        continue
-    fi
-
-    # stow and cleanup
-    mv -v $MOCK64_BUILD/RPMS/* build/x86_64
-    rm -rf $MOCK64_BUILD/originals/*
-    rm -rf $MOCK64_BUILD/SOURCES/*
-    rm -rf $MOCK64_BUILD/SPECS/*
-    rm -rf $MOCK64_BUILD/SRPMS/*
-
-    echo "* Building 32 bit RPM"
-    if ! mock -r $MOCK32 --rebuild build/SRPMS/$SRPM >temp 2>&1
-    then
-        echo "$SRCRPM: ERROR: mock rebuild 32 failed" |tee -a $FAIL
-        cat temp >>$FAIL
-        continue
-    fi
-
-    # stow and cleanup
-    mv -v $MOCK32_BUILD/RPMS/* build/i386
-    rm -rf $MOCK32_BUILD/originals/*
-    rm -rf $MOCK32_BUILD/SOURCES/*
-    rm -rf $MOCK32_BUILD/SPECS/*
-    rm -rf $MOCK32_BUILD/SRPMS/*
-
-done
-
-rm -f temp
-
-echo "========================================"
-
-if [ -f $FAIL ]
-then
-    cat $FAIL
-    echo "#### BUILD COMPLETED BUT HAD ERRORS ####"
-    exit 1
-fi
-
-
-echo "### Build completed successfully!!!"
-
