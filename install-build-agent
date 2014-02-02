@@ -36,7 +36,7 @@ sudo chown buildagent. ~buildagent/build-agent-client
 sudo chmod +x ~buildagent/build-agent-client
 
 # and make sure that the build-script isn't there
-sudo rm -f ~buildagent/build-script
+#sudo rm -f ~buildagent/build-script
 
 # update crontab to run build agent client regularly
 sudo sed -i -e '$a* * * * * buildagent /home/buildagent/build-agent-client' -e '/buildagent/d' /etc/crontab

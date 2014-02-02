@@ -1,10 +1,11 @@
 #!/bin/sh
 # a very simple script to grab instructions from build server and run them
 # cron doesn't put me in my home
-cd ~
+cd /home/buildagent
 
 # don't run if there is something already running
 [ -f build-script ] && exit 0
+touch build-script
 
 # don't run if the loadavg hits 1 or more
 #LOADAVG="`cat /proc/loadavg`"
@@ -53,5 +54,8 @@ tar cvfz ../result.tgz .
 
 cd ..
 
-curl -q -F "userfile=@result.tgz" -F "jobid=$JOB_ID" -F "agentid=$MAC" -F "status=$STATUS" http://build.pennyos.org/result.php
+echo "Uploading jobid=$JOB_ID agentid=$MAC status=$STATUS..." >upload-status
+curl -q -F "userfile=@result.tgz" -F "jobid=$JOB_ID" -F "agentid=$MAC" -F "status=$STATUS" http://build.pennyos.org/result.php >>upload-status
+echo "COMPLETED CURL ready for next job" >>upload-status
 
+rm -f build-script
