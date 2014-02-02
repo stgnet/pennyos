@@ -4,7 +4,8 @@
 # $1 argument is the project url to get files from
 # $2 argument is a URL to the source RPM to patch
 
-set -ex
+set -e
+set -x
 
 PROJECT_URL="$1"
 SRCRPM_URL="$2"
@@ -27,10 +28,15 @@ diff $MOCK64.cfg /etc/mock/$MOCK64.cfg || cp $MOCK64.cfg /etc/mock
 diff $MOCK32.cfg /etc/mock/$MOCK32.cfg || cp $MOCK32.cfg /etc/mock
 
 # initialize the chroot
-mock -r $MOCK64 --init
+# note: mock may not exit non-zero on failure
+# so check output for ERROR
+mock -r $MOCK64 --init |tee mock-output
+grep ^ERROR mock-output && exit 1
 
 # install source rpm
-mock -r $MOCK64 --shell "rpm -ihv  $SRCRPM_URL" 
+mock -r $MOCK64 --shell "rpm -ihv  $SRCRPM_URL"  |tee mock-output
+grep ^ERROR mock-output && exit 1
+
 
 # there should be exactly 1 spec file in the spec directory
 PKGNAME="`basename $MOCK64_BUILD/SPECS/*.spec .spec`"
@@ -61,7 +67,9 @@ then
 fi
 
 # recreate source rpm
-mock -r $MOCK64 --shell "rpmbuild -bs /builddir/build/SPECS/$PKGNAME.spec" 
+mock -r $MOCK64 --shell "rpmbuild -bs /builddir/build/SPECS/$PKGNAME.spec"  |tee mock-output
+grep ^ERROR mock-output && exit 1
+
 
 NEW_SRCRPM="`basename $MOCK64_BUILD/SRPMS/*.src.rpm`"
 if [ -z "$NEW_SRCRPM" ]
@@ -75,21 +83,15 @@ mkdir SRPMS
 cp -v $MOCK64_BUILD/SRPMS/$NEW_SRCRPM SRPMS
 
 # now rebuild for 64bit
-if ! mock -r $MOCK64 --rebuild SRPMS/$NEW_SRCRPM
-then
-    echo "ERROR: mock rebuild 64 failed"
-    exit 1
-fi
+mock -r $MOCK64 --rebuild SRPMS/$NEW_SRCRPM |tee mock-output
+grep ^ERROR mock-output && exit 1
 
 mkdir x86_64
 cp -v $MOCK64_BUILD/RPMS/* x86_64
 
 # and finally for 32bit
-if ! mock -r $MOCK32 --rebuild SRPMS/$NEW_SRCRPM
-then
-    echo "ERROR: mock rebuild 32 failed"
-    exit 1
-fi
+mock -r $MOCK32 --rebuild SRPMS/$NEW_SRCRPM |tee mock-output
+grep ^ERROR mock-output && exit 1
 
 mkdir i386
 cp -v $MOCK32_BUILD/RPMS/* i386

@@ -1,15 +1,23 @@
 #!/bin/sh
 # a very simple script to grab instructions from build server and run them
+
 # cron doesn't put me in my home
 cd /home/buildagent
+LOG="/home/buildagent/upload-$$.log"
+
+# cron doesn't set up my PATH correctly (can cause mock failure)
+PATH=/usr/local/bin:/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/sbin:/home/buildagent/bin
 
 # don't run if there is something already running
 [ -f build-script ] && exit 0
-touch build-script
 
 # don't run if the loadavg hits 1 or more
-#LOADAVG="`cat /proc/loadavg`"
-#[ "${LOADAVG%%.*}" -lt 1 ] || exit
+LOADAVG="`cat /proc/loadavg`"
+[ "${LOADAVG%%.*}" -lt 1 ] || exit
+
+# don't run if there are already 5 uploads or more in progress
+UPLOADS="`ls -1 result-*.tgz | wc -l`"
+[ $UPLOADS -lt 1 ] || exit
 
 # get the MAC address
 HWADDR="`ifconfig |fgrep HWaddr |head -1 |tr -d ':'`"
@@ -47,13 +55,16 @@ cd build-dir
 STATUS="fail"
 if sh ../build-script > build-script-output 2>&1
 then
+    echo "sh returned $? - OK" >>$LOG
 	STATUS="ok"
+else
+    echo "sh returned $? - fail" >>$LOG
 fi
+cat build-script-output >>$LOG
 
 RESULT="result-$$.tgz"
-LOG="upload-$$.log"
 
-echo "Creating archive jobid=$JOB_ID agentid=$MAC status=$STATUS" >$LOG
+echo "Creating archive jobid=$JOB_ID agentid=$MAC status=$STATUS" >>$LOG
 tar cvfz ../$RESULT . >>$LOG 2>&1
 
 cd ..
