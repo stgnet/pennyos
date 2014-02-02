@@ -49,13 +49,19 @@ if sh ../build-script > build-script-output 2>&1
 then
 	STATUS="ok"
 fi
-tar cvfz ../result.tgz . 
-#>/dev/null 2>&1
+
+RESULT="result-$$.tgz"
+LOG="upload-$$.log"
+
+echo "Creating archive jobid=$JOB_ID agentid=$MAC status=$STATUS" >$LOG
+tar cvfz ../$RESULT . >>$LOG 2>&1
 
 cd ..
+rm -rf build-dir build-script build-script-header
 
-echo "Uploading jobid=$JOB_ID agentid=$MAC status=$STATUS..." >upload-status
-curl -q -F "userfile=@result.tgz" -F "jobid=$JOB_ID" -F "agentid=$MAC" -F "status=$STATUS" http://build.pennyos.org/result.php >>upload-status
-echo "COMPLETED CURL ready for next job" >>upload-status
+echo "Uploading jobid=$JOB_ID agentid=$MAC status=$STATUS..." >>$LOG
+curl -q -F "userfile=@$RESULT" -F "jobid=$JOB_ID" -F "agentid=$MAC" -F "status=$STATUS" http://build.pennyos.org/result.php >>$LOG
+echo "COMPLETED upload rc=$? - ready for next job" >>$LOG
 
-rm -f build-script
+rm -f $RESULT
+
