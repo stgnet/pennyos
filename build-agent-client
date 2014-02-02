@@ -25,7 +25,7 @@ MAC="${HWADDR#*HWaddr }"
 MAC="${MAC:0:12}"
 
 # download script, ask for headers
-wget -qSO build-script --header="X-Agent-ID: $MAC" http://build.pennyos.org/getjob.php 2> build-script-header
+wget -qSO build-script --header="X-Agent-ID: $MAC" http://build.pennyos.org/getjob.php 2> build-script-header >>$LOG 2>&1
 
 # if download didn't succeed (404 if nothing to do), stop
 if [ $? -ne 0 ]
@@ -71,7 +71,7 @@ cd ..
 rm -rf build-dir build-script build-script-header
 
 echo "Uploading jobid=$JOB_ID agentid=$MAC status=$STATUS..." >>$LOG
-curl -q -F "userfile=@$RESULT" -F "jobid=$JOB_ID" -F "agentid=$MAC" -F "status=$STATUS" http://build.pennyos.org/result.php >>$LOG
+curl -q -F "userfile=@$RESULT" -F "jobid=$JOB_ID" -F "agentid=$MAC" -F "status=$STATUS" http://build.pennyos.org/result.php >>$LOG 2>&1
 echo "COMPLETED upload rc=$? - ready for next job" >>$LOG
 
 rm -f $RESULT
