@@ -25,7 +25,7 @@ MAC="${HWADDR#*HWaddr }"
 MAC="${MAC:0:12}"
 
 # download script, ask for headers
-wget -qSO build-script --header="X-Agent-ID: $MAC" http://build.pennyos.org/getjob.php 2> build-script-header >>$LOG 2>&1
+wget -qSO build-script --header="X-Agent-ID: $MAC" http://build.pennyos.org/getjob.php 2> build-script-header >>$LOG 
 
 # if download didn't succeed (404 if nothing to do), stop
 if [ $? -ne 0 ]
