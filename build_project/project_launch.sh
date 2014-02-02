@@ -28,7 +28,7 @@ do
     mkdir temp
     echo "{ \"name\":\"Patch ${SRCRPM##*/}\", \"description\": \"Patch and rebuild src rpm file\"}" > temp/step.json
     echo "SRCRPM='$SRCRPM'" > temp/step_launch.sh
-    echo "wget $PROJECT_URL/patchadams && sh patchadams $SRCRPM" >> temp/step_launch.sh
+    echo "wget $PROJECT_URL/patchadams && sh patchadams $PROJECT_URL $SRCRPM" >> temp/step_launch.sh
     mv temp s$STEP
 done
 

@@ -20,8 +20,8 @@ which mock >/dev/null || sudo yum -y install mock
 [ -f /usr/lib/rpm/redhat/rpmsort ] || sudo yum -y install redhat-rpm-config
 
 # insure /etc/mock directory is writable by mock group
-sudo chgrp mock /etc/mock
-sudo chmod g+w /etc/mock
+sudo chgrp mock /etc/mock /etc/mock/*
+sudo chmod g+w /etc/mock /etc/mock/*
 
 # insure buildagent user exists and is in mock group
 grep '^buildagent:' /etc/passwd >/dev/null || (sudo useradd buildagent ; sudo usermod -a -G mock buildagent)
