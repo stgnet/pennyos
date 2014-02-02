@@ -29,7 +29,7 @@ sudo chmod g+w /etc/mock /etc/mock/*
 
 # insure buildagent user exists and is in mock group
 grep '^buildagent:' /etc/passwd >/dev/null || sudo useradd buildagent 
-grep '^mock.*buildagent' /etc/group >/dev/null || sudo usermod -a -G mock buildagent)
+grep '^mock.*buildagent' /etc/group >/dev/null || sudo usermod -a -G mock buildagent
 
 # copy the client script in
 sudo cp build-agent-client ~buildagent
