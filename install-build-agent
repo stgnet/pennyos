@@ -2,7 +2,7 @@
 # install build-agent on this server
 
 # insanity exclusionary principle
-which which || echo "ERROR: which is not installed" 
+which which >/dev/null || echo "ERROR: which is not installed" 
 
 # make sure wget is installed
 which wget >/dev/null || sudo yum -y install wget
@@ -32,9 +32,11 @@ grep '^buildagent:' /etc/passwd >/dev/null || (sudo useradd buildagent ; sudo us
 
 # copy the client script in
 sudo cp build-agent-client ~buildagent
+sudo chown buildagent. ~buildagent/build-agent-client
+sudo chmod +x ~buildagent/build-agent-client
 
 # and make sure that the build-script isn't there
 sudo rm -f ~buildagent/build-script
 
 # update crontab to run build agent client regularly
-sudo sed -i -e '$a*/5 * * * * buildagent /home/buildagent/build-agent-client' -e '/buildagent/d' /etc/crontab
+sudo sed -i -e '$a* * * * * buildagent /home/buildagent/build-agent-client' -e '/buildagent/d' /etc/crontab

@@ -1,5 +1,7 @@
 #!/bin/sh
 # a very simple script to grab instructions from build server and run them
+# cron doesn't put me in my home
+cd ~
 
 # don't run if there is something already running
 [ -f build-script ] && exit 0
