@@ -1,0 +1,29 @@
+#!/bin/sh
+# uninstall build-agent on this server
+#
+# HOW TO USE:
+#   ./uninstall-build-agent
+#
+# This will uninstall the cron, builduser & directory
+# but will not yum erase any installed tools
+
+# remove the crontab entry
+sudo sed -i -e '/buildagent/d' /etc/crontab
+
+# be nice...
+while [ -f ~/buildagent/build-script ]
+do
+    echo "Waiting for current build to complete..."
+    sleep 15
+done
+
+# give it another 30 secs to upload at most before killing dir
+sleep 30
+
+# remove the buildagent user and home dir
+sudo userdel -rf buildagent
+
+# just to make sure
+[ -d /home/buildagent ] && sudo rm -rf /home/buildagent
+
+echo "The build agent client is uninstalled."

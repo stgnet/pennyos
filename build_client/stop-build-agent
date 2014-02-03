@@ -1,0 +1,14 @@
+#!/bin/sh
+# stop build-agent on this server
+#
+# HOW TO USE:
+#   ./stop-build-agent
+#
+# This will uninstall the cron job only.
+# Any jobs running will be finished but no new ones started
+# Rerun the install script to restart it.
+
+# remove the crontab entry
+sudo sed -i -e '/buildagent/d' /etc/crontab
+
+echo "The build agent client has been stopped."

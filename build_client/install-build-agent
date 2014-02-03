@@ -1,0 +1,72 @@
+#!/bin/sh
+# install build-agent on this server
+#
+# HOW TO USE:
+#   ./install-build-agent
+#
+# NOTES:
+#   * build agent can be run on ANY x86_64 rhel or derivitive
+#   * this script will try to yum install tools needed
+#   * can be re-run anytime to update the build-agent-client script
+#   * will run fine alongside other software and services on same box
+#   * adds user 'builduser' and grants user access to mock
+#   * uses sudo during installation only
+#   * does NOT require root access after installed
+#   * installs cron job to regularly run jobs
+#   * build runs under buildagent user from build-agent-client script
+#   * does not start a build unless load average is <1
+#   * build-agent-client will check in with build server for jobs
+#   * jobs are downloaded from build server and run under builagent user
+#   * mock used to create chroot version of target system for compiling
+#   * jobs will download (wget) additional files as needed
+#   * completed results will be tar.gz'd and upload to build server
+#   * when done local build directory is wiped and ready for next job
+#
+
+# x86_64 can build i386, but not vice versa
+[ `uname -m` != "x86_64" ] && echo "ERROR: x86_64 architecture required for build agent" && exit 1
+
+# the insanity exclusionary principle
+! which which >/dev/null && echo "ERROR: which is not installed" && exit 1
+
+install()
+{
+    which $1 >/dev/null || sudo yum -y install $1
+    ! which $1 >/dev/null && echo "ERROR: could not find or install $1" && exit 1
+}
+
+# we will be using these either here or in build-agent-client
+install wget
+install curl
+install md5sum
+install mock
+install sed
+
+# make sure redhat-rpm-config is installed
+[ -f /usr/lib/rpm/redhat/rpmsort ] || sudo yum -y install redhat-rpm-config
+
+# insure /etc/mock directory is writable by mock group
+sudo chgrp mock /etc/mock /etc/mock/*
+sudo chmod g+w /etc/mock /etc/mock/*
+
+# insure buildagent user exists and is in mock group
+grep '^buildagent:' /etc/passwd >/dev/null || sudo useradd buildagent 
+grep '^mock.*buildagent' /etc/group >/dev/null || sudo usermod -a -G mock buildagent
+
+# in case this wasn't the first time bineg run, wait for build to complete
+while [ -f ~/buildagent/build-script ]
+do
+    echo "Waiting for current build to complete before updating script..."
+    sleep 15
+done
+
+# copy the client script into the buildagent home and set permissions
+sudo cp build-agent-client ~buildagent
+sudo chown buildagent. ~buildagent/build-agent-client
+sudo chmod +x ~buildagent/build-agent-client
+
+# update crontab to run build agent client regularly
+sudo sed -i -e '$a* * * * * buildagent /home/buildagent/build-agent-client' -e '/buildagent/d' /etc/crontab
+
+# that's it you're installed
+echo "Thanks for installing the build agent client!"

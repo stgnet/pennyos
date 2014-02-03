@@ -1,5 +1,9 @@
 #!/bin/sh
-# a very simple script to grab instructions from build server and run them
+#
+# script to grab instructions from build server and run them
+# this is run from cron under buildagent user
+#
+# V0.1 - initial kinks worked out 2014-02-01
 
 # cron doesn't put me in my home
 cd /home/buildagent
@@ -15,19 +19,21 @@ PATH=/usr/local/bin:/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/sbin:/home/buildage
 LOADAVG="`cat /proc/loadavg`"
 [ "${LOADAVG%%.*}" -lt 1 ] || exit
 
-# don't run if there are already 5 uploads or more in progress
+# don't run if there are lots of uploads pending
 UPLOADS="`ls -1 result-*.tgz 2>/dev/null | wc -l`"
-[ $UPLOADS -lt 1 ] || exit
+[ $UPLOADS -lt 4 ] || exit
 
 # get the MAC address
+# this really could be any uniqueid, wouldn't have to be MAC
 HWADDR="`ifconfig |fgrep HWaddr |head -1 |tr -d ':'`"
-MAC="${HWADDR#*HWaddr }"
-MAC="${MAC:0:12}"
+AGENTID="${HWADDR#*HWaddr }"
+AGENTID="${AGENTID:0:12}"
+[ -z "$AGENTID" ] && exit
 
-# download script, ask for headers
-wget -qSO build-script --header="X-Agent-ID: $MAC" http://build.pennyos.org/getjob.php 2> build-script-header >>$LOG 
+# download a job script
+wget -qSO build-script --header="X-Agent-ID: $AGENTID" http://build.pennyos.org/getjob.php 2> build-script-header >>$LOG 
 
-# if download didn't succeed (404 if nothing to do), stop
+# if download didn't succeed (will give 404 if nothing to do), stop
 if [ $? -ne 0 ]
 then
     rm -f build-script build-script-header
@@ -48,7 +54,8 @@ fi
 JOB_ID="`fgrep X-Job-ID: build-script-header`"
 JOB_ID="${JOB_ID#*X-Job-ID: }"
 
-rm -rf build-dir result.tgz
+# insure build dir is clean
+rm -rf build-dir 
 mkdir build-dir
 cd build-dir
 
@@ -60,18 +67,19 @@ then
 else
     echo "sh returned $? - fail" >>$LOG
 fi
-cat build-script-output >>$LOG
 
 RESULT="result-$$.tgz"
 
-echo "Creating archive jobid=$JOB_ID agentid=$MAC status=$STATUS" >>$LOG
+echo "Creating archive jobid=$JOB_ID agentid=$AGENTID status=$STATUS" >>$LOG
 tar cvfz ../$RESULT . >>$LOG 2>&1
 
 cd ..
+# now that archive is build, remove the build-dir and script
+# so another job can start while upload continues
 rm -rf build-dir build-script build-script-header
 
 echo "Uploading `ls -lh $RESULT`" >>$LOG
-curl -q -F "userfile=@$RESULT" -F "jobid=$JOB_ID" -F "agentid=$MAC" -F "status=$STATUS" http://build.pennyos.org/result.php >>$LOG 2>&1
+curl -q -F "userfile=@$RESULT" -F "jobid=$JOB_ID" -F "agentid=$AGENTID" -F "status=$STATUS" http://build.pennyos.org/result.php >>$LOG 2>&1
 echo "COMPLETED upload rc=$? - ready for next job" >>$LOG
 
 rm -f $RESULT
