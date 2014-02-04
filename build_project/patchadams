@@ -1,14 +1,19 @@
 #!/bin/sh
 # this script patches a source RPM and rebuilds it
+# run by the build system, although it can be run manually to test
 #
 # $1 argument is the project url to get files from
 # $2 argument is a URL to the source RPM to patch
 
-set -e
-set -x
-
 PROJECT_URL="$1"
 SRCRPM_URL="$2"
+[ -z "$PROJECT_URL" ] && exit 1
+[ -z "$SRCRPM_URL" ] && exit 1
+
+# exit on any error
+set -e
+# log what steps are run in case of a failure
+set -x
 
 MOCK64="PennyOS-6-x86_64"
 MOCK64_RESULTS="/var/li/mock/$MOCK64/results"
@@ -20,7 +25,7 @@ MOCK32_RESULTS="/var/li/mock/$MOCK32/results"
 MOCK32_ROOT="/var/lib/mock/$MOCK32/root"
 MOCK32_BUILD="/var/lib/mock/$MOCK32/root/builddir/build"
 
-# insure that the mock configs are up to date
+# download the mock config for this build
 wget -q $PROJECT_URL/$MOCK64.cfg
 wget -q $PROJECT_URL/$MOCK32.cfg
 [ ! -f $MOCK64.cfg ] && echo "ERROR: $MOCK64 file is missing" && exit 1
@@ -29,19 +34,19 @@ wget -q $PROJECT_URL/$MOCK32.cfg
 # this should not need sudo, /etc/mock set to mock group in agent install
 [ -f /etc/mock/$MOCK64.cfg ] || cp $MOCK64.cfg /etc/mock
 [ -f /etc/mock/$MOCK32.cfg ] || cp $MOCK32.cfg /etc/mock
+# don't just copy them in every time, or mock wastes time rebuilding chroot
 diff $MOCK64.cfg /etc/mock/$MOCK64.cfg || cp $MOCK64.cfg /etc/mock
 diff $MOCK32.cfg /etc/mock/$MOCK32.cfg || cp $MOCK32.cfg /etc/mock
 
 # initialize the chroot
-# note: mock may not exit non-zero on failure
-# so check output for ERROR
+# note: mock may not exit non-zero on failure (bug!)
+# so tee output and check it for ERROR
 mock -r $MOCK64 --init |tee mock-output
 grep ^ERROR mock-output && exit 1
 
-# install source rpm
+# install source rpm in chroot
 mock -r $MOCK64 --shell "rpm -ihv  $SRCRPM_URL"  |tee mock-output
 grep ^ERROR mock-output && exit 1
-
 
 # there should be exactly 1 spec file in the spec directory
 PKGNAME="`basename $MOCK64_BUILD/SPECS/*.spec .spec`"
@@ -52,7 +57,7 @@ then
 fi
 echo "Package name is $PKGNAME"
 
-
+# patch the patches
 if !fgrep -i centos $MOCK64_BUILD/SOURCES/*.patch
 then
     echo "Patching..."
@@ -65,7 +70,7 @@ then
 
     if !fgrep -i centos $MOCK64_BUILD/SOURCES/*.patch
     then
-        echo "$SRCRPM: ERROR: Patch of $PKGNAME failed" 
+        echo "ERROR: Patch of $PKGNAME failed" 
         exit 1
     fi
     diff -r $PATCHED $MOCK64_BUILD/SOURCES > $PKGNAME.diff
@@ -74,7 +79,6 @@ fi
 # recreate source rpm
 mock -r $MOCK64 --shell "rpmbuild -bs /builddir/build/SPECS/$PKGNAME.spec"  |tee mock-output
 grep ^ERROR mock-output && exit 1
-
 
 NEW_SRCRPM="`basename $MOCK64_BUILD/SRPMS/*.src.rpm`"
 if [ -z "$NEW_SRCRPM" ]
