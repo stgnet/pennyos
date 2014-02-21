@@ -16,12 +16,12 @@ set -e
 set -x
 
 MOCK64="PennyOS-6-x86_64"
-MOCK64_RESULTS="/var/li/mock/$MOCK64/results"
+MOCK64_RESULT="/var/lib/mock/$MOCK64/result"
 MOCK64_ROOT="/var/lib/mock/$MOCK64/root"
 MOCK64_BUILD="/var/lib/mock/$MOCK64/root/builddir/build"
 
 MOCK32="PennyOS-6-i386"
-MOCK32_RESULTS="/var/li/mock/$MOCK32/results"
+MOCK32_RESULT="/var/lib/mock/$MOCK32/result"
 MOCK32_ROOT="/var/lib/mock/$MOCK32/root"
 MOCK32_BUILD="/var/lib/mock/$MOCK32/root/builddir/build"
 
@@ -41,12 +41,12 @@ diff $MOCK32.cfg /etc/mock/$MOCK32.cfg || cp $MOCK32.cfg /etc/mock
 # initialize the chroot
 # note: mock may not exit non-zero on failure (bug!)
 # so tee output and check it for ERROR
-mock -r $MOCK64 --init |tee mock-output
-grep ^ERROR mock-output && exit 1
+mock -r $MOCK64 --init 2>&1 |tee mock-output
+grep -i ^ERROR mock-output && more $MOCK64_RESULT/*.log && exit 1
 
 # install source rpm in chroot
-mock -r $MOCK64 --shell "rpm -ihv  $SRCRPM_URL"  |tee mock-output
-grep ^ERROR mock-output && exit 1
+mock -r $MOCK64 --shell "rpm -ihv  $SRCRPM_URL"  2>&1 |tee mock-output
+grep -i ^ERROR mock-output && more $MOCK64_RESULT/*.log && exit 1
 
 # there should be exactly 1 spec file in the spec directory
 PKGNAME="`basename $MOCK64_BUILD/SPECS/*.spec .spec`"
@@ -58,7 +58,7 @@ fi
 echo "Package name is $PKGNAME"
 
 # patch the patches
-if !fgrep -i centos $MOCK64_BUILD/SOURCES/*.patch
+if fgrep -i centos $MOCK64_BUILD/SOURCES/*.patch
 then
     echo "Patching..."
     UNPATCHED=/tmp/patch.$$
@@ -68,17 +68,18 @@ then
 
     sed -i -e 's/centos\./PennyOS./g' -e 's/CentOS/PennyOS/g' -e 's/\"centos\"/\"PennyOS\"/g' -e 's/Centos/PennyOS/g' $MOCK64_BUILD/SOURCES/*.patch
 
-    if !fgrep -i centos $MOCK64_BUILD/SOURCES/*.patch
+    if fgrep -i centos $MOCK64_BUILD/SOURCES/*.patch
     then
         echo "ERROR: Patch of $PKGNAME failed" 
+	more $MOCK64_BUILD/SOURCES/*.patch
         exit 1
     fi
     diff -r $PATCHED $MOCK64_BUILD/SOURCES > $PKGNAME.diff
 fi
 
 # recreate source rpm
-mock -r $MOCK64 --shell "rpmbuild -bs /builddir/build/SPECS/$PKGNAME.spec"  |tee mock-output
-grep ^ERROR mock-output && exit 1
+mock -r $MOCK64 --shell "rpmbuild -bs /builddir/build/SPECS/$PKGNAME.spec"  2>&1 |tee mock-output
+grep -i ^ERROR mock-output && more $MOCK64_RESULT/*.log && exit 1
 
 NEW_SRCRPM="`basename $MOCK64_BUILD/SRPMS/*.src.rpm`"
 if [ -z "$NEW_SRCRPM" ]
@@ -88,22 +89,22 @@ then
 fi
 
 # copy it to our directory, it goes home with us
-mkdir SRPMS
-cp -v $MOCK64_BUILD/SRPMS/$NEW_SRCRPM SRPMS
+mkdir -p Source/SRPMS
+cp -v $MOCK64_BUILD/SRPMS/$NEW_SRCRPM Source/SRPMS
 
 # now rebuild for 64bit
-mock -r $MOCK64 --rebuild SRPMS/$NEW_SRCRPM |tee mock-output
-grep ^ERROR mock-output && exit 1
+mock -r $MOCK64 --rebuild Source/SRPMS/$NEW_SRCRPM 2>&1 |tee mock-output
+grep -i ^ERROR mock-output && more $MOCK64_RESULT/*.log && exit 1
 
-mkdir x86_64
-cp -v $MOCK64_BUILD/RPMS/* x86_64
+mkdir -p x86_64/RPMS
+cp -v $MOCK64_BUILD/RPMS/* x86_64/RPMS
 
 # and finally for 32bit
-mock -r $MOCK32 --rebuild SRPMS/$NEW_SRCRPM |tee mock-output
-grep ^ERROR mock-output && exit 1
+mock -r $MOCK32 --rebuild Source/SRPMS/$NEW_SRCRPM 2>&1 |tee mock-output
+grep -i ^ERROR mock-output && more $MOCK32_RESULT/*.log && exit 1
 
-mkdir i386
-cp -v $MOCK32_BUILD/RPMS/* i386
+mkdir -p i386/RPMS
+cp -v $MOCK32_BUILD/RPMS/* i386/RPMS
 
 rm -f mock-output
 

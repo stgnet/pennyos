@@ -4,20 +4,37 @@
 #
 # $1 argument is URL to project dir for downloads
 
-set -ex
+set -e
 
-SITE=vault.centos.org
+SITE=mirror.pennyos.org
 RELEASE=6.5
 SPACKAGES=os/Source/SPackages
 
 # put a nice descriptor on the build dashboard
-echo "{\"name\":\"Rebuild PennyOS $RELEASE Repo os\",\"description\":\"Download upstream srpms, patch, rebuild, update repo\",\"started\":\"`date -u +%s`\"}" > project.json
+echo "{\"name\":\"PennyOS $RELEASE Repo os\",\"description\":\"Download upstream srpms, patch, rebuild, update repo\",\"started\":\"`date -u +%s`\"}" > project.json
 
 PROJECT_URL="$1"
 [ -z "$1" ] && echo "ERROR: No project directory argument" && exit 1
 
-lynx -dump http://${SITE}/${RELEASE}/${SPACKAGES} |fgrep "http://${SITE}/${RELEASE}/${SPACKAGES}" |grep '.src.rpm$' |sed 's/^.*http/http/' >source-package-url-list
-[ ! -s source-package-url-list ] && echo "ERROR: No sources found?!" && exit 1
+lynx -dump http://${SITE}/Upstream/${SPACKAGES} |fgrep "${SPACKAGES}" |grep '.src.rpm$' |sed 's/^.*http/http/' >source-package-url-list-full
+[ ! -s source-package-url-list-full ] && echo "ERROR: No sources found?!" && exit 1
+
+SDIR="/www/mirror.pennyos.org/PennyOS/6/os/Source/SRPMS"
+
+cp /dev/null source-package-url-list
+cat source-package-url-list-full |while read URL
+do
+	FILE="${URL##*/}"
+	FILE="${FILE%.el*.src.rpm}.pennyos.src.rpm"
+	if [ -f "$SDIR/$FILE" ]
+	then
+		echo "ALREADY BUILT: $FILE"
+		continue
+	fi
+	echo "$URL" >> source-package-url-list
+done
+
+[ ! -s source-package-url-list ] && echo "NO ERROR: there are no packages that need built" && exit 1
 
 rm -rf temp
 
