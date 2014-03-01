@@ -1,0 +1,14 @@
+# This file contains settings used by patchlist commands
+# to replace strings and generate images
+
+# the project name
+NAME="PennyOS"
+
+# a square transparent image containing project logo
+LOGO="US_Penny_front_T.png"
+
+# preferred font for rendering project name into graphic images
+FONT="Helvetica-Bold"
+
+# background color
+BACK="SeaGreen"

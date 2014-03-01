@@ -1,0 +1,33 @@
+#!/bin/sh
+# patchadams v3.0
+# copyright 2014 scott@stg.net
+# GPLv2
+set -ex
+
+[ -f project-settings ] && . ./project-settings
+[ -z "$NAME" ] && echo "ERROR: NAME is not set" && exit 1
+[ -z "$FONT" ] && echo "ERROR: FONT is not set" && exit 1
+[ -z "$LOGO" ] && echo "ERROR: LOGO is not set" && exit 1
+
+mkdir -p PATCHED
+
+cat testlist | while read LINE
+do
+	[ "${LINE:0:1}" = "#" ] && continue
+	FILE="PATCHED/${LINE%%: *}"
+	EXT="${FILE##*.}"
+	CMD=${LINE#*: }
+	TEMP="patmp$$.$EXT"
+	mkdir -p `dirname $FILE`
+	eval $CMD
+	[ $? -ne 0 ] && echo "ERROR: patch failed" && exit 1
+	[ -f $TEMP ] && rm -f $TEMP
+done
+exit 0
+#!/bin/bash
+set -x
+convert -list font  |fgrep Font: | while read FONT
+do
+	FONT="${FONT#*Font: }"
+	convert -background white -fill black -font $FONT -pointsize 32 label:PennyOS $FONT.png
+done

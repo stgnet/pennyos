@@ -1,0 +1,6 @@
+#!/bin/bash
+set -x
+convert -list color  |cut -d ' ' -f 1 | while read COLOR
+do
+	convert -size 20x20 xc:$COLOR $COLOR.png
+done

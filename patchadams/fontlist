@@ -1,0 +1,7 @@
+#!/bin/bash
+set -x
+convert -list font  |fgrep Font: | while read FONT
+do
+	FONT="${FONT#*Font: }"
+	convert -background white -fill black -font $FONT -pointsize 32 label:PennyOS $FONT.png
+done
