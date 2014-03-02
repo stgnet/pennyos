@@ -1,0 +1,201 @@
+# Patchlist created Sat Mar  1 18:40:40 CST 2014
+# 0097-Fix-bugs-discoverent-by-Coverity.-rhbz-905051.patch = cannot open `/builddir/build/SOURCES/ORIG' (No such file or directory)
+0097-Fix-bugs-discoverent-by-Coverity.-rhbz-905051.patch: copy
+# 0089-wizard-fix-unterminated-string-bug-in-ask-handling-r.patch = cannot open `/builddir/build/SOURCES/ORIG' (No such file or directory)
+0089-wizard-fix-unterminated-string-bug-in-ask-handling-r.patch: copy
+# 0029-strbuf-fix-conditional-jump-or-move-depends-on-unini.patch = cannot open `/builddir/build/SOURCES/ORIG' (No such file or directory)
+0029-strbuf-fix-conditional-jump-or-move-depends-on-unini.patch: copy
+# 0044-fixed-hyperlink-parsing-rhbz-831333.patch = cannot open `/builddir/build/SOURCES/ORIG' (No such file or directory)
+0044-fixed-hyperlink-parsing-rhbz-831333.patch: copy
+# 0010-Add-cgroup-information-filename.patch = cannot open `/builddir/build/SOURCES/ORIG' (No such file or directory)
+0010-Add-cgroup-information-filename.patch: copy
+# libreport-2.0.9.tar.gz = cannot open `/builddir/build/SOURCES/ORIG' (No such file or directory)
+libreport-2.0.9.tar.gz: copy
+# 0078-reporter-rhtsupport-factor-out-tarball-creation.patch = cannot open `/builddir/build/SOURCES/ORIG' (No such file or directory)
+0078-reporter-rhtsupport-factor-out-tarball-creation.patch: copy
+# 0042-reporter-bugzilla-get-function-names-consistent-in-..patch = cannot open `/builddir/build/SOURCES/ORIG' (No such file or directory)
+0042-reporter-bugzilla-get-function-names-consistent-in-..patch: copy
+# 0056-abrtd-make-it-ignore-non-problem-dirs-when-looking-f.patch = cannot open `/builddir/build/SOURCES/ORIG' (No such file or directory)
+0056-abrtd-make-it-ignore-non-problem-dirs-when-looking-f.patch: copy
+# 0054-don-t-try-to-delete-dump-dir-which-doesn-t-exist-rhb.patch = cannot open `/builddir/build/SOURCES/ORIG' (No such file or directory)
+0054-don-t-try-to-delete-dump-dir-which-doesn-t-exist-rhb.patch: copy
+# 0026-prelink-fix-undefined-non-weak-symbols-rhbz-826745.patch = cannot open `/builddir/build/SOURCES/ORIG' (No such file or directory)
+0026-prelink-fix-undefined-non-weak-symbols-rhbz-826745.patch: copy
+# 0013-debuginfo-don-t-give-up-downloading-when-some-repo-c.patch = cannot open `/builddir/build/SOURCES/ORIG' (No such file or directory)
+0013-debuginfo-don-t-give-up-downloading-when-some-repo-c.patch: copy
+# 0007-added-notify-only-to-mailx-rhbz-803618.patch = cannot open `/builddir/build/SOURCES/ORIG' (No such file or directory)
+0007-added-notify-only-to-mailx-rhbz-803618.patch: copy
+# 0099-report-python-export-dd_delete_item-too.patch = cannot open `/builddir/build/SOURCES/ORIG' (No such file or directory)
+0099-report-python-export-dd_delete_item-too.patch: copy
+# 0009-wizard-replace-exitcodes-by-messages.patch = cannot open `/builddir/build/SOURCES/ORIG' (No such file or directory)
+0009-wizard-replace-exitcodes-by-messages.patch: copy
+# 0060-rhbz-747410-reporter-bugzilla-do-not-attach-empty-fi.patch = cannot open `/builddir/build/SOURCES/ORIG' (No such file or directory)
+0060-rhbz-747410-reporter-bugzilla-do-not-attach-empty-fi.patch: copy
+# 0106-rhbz-get-id-of-duplicate-from-correct-field.patch = cannot open `/builddir/build/SOURCES/ORIG' (No such file or directory)
+0106-rhbz-get-id-of-duplicate-from-correct-field.patch: copy
+# 0006-libreport.pc-rhbz-803736-pkg-config-cflags-libreport.patch = cannot open `/builddir/build/SOURCES/ORIG' (No such file or directory)
+0006-libreport.pc-rhbz-803736-pkg-config-cflags-libreport.patch: copy
+# 0083-reporter-rhtsupport-fix-double-free-error.patch = cannot open `/builddir/build/SOURCES/ORIG' (No such file or directory)
+0083-reporter-rhtsupport-fix-double-free-error.patch: copy
+# 0011-rhbz-795548-opt-kernel-out-of-showing-smolt-informat.patch = cannot open `/builddir/build/SOURCES/ORIG' (No such file or directory)
+0011-rhbz-795548-opt-kernel-out-of-showing-smolt-informat.patch: copy
+# 0040-track-552-reporter-ureport-allows-to-enable-disable-.patch = cannot open `/builddir/build/SOURCES/ORIG' (No such file or directory)
+0040-track-552-reporter-ureport-allows-to-enable-disable-.patch: copy
+# 0008-debuginfo.py-send-cpio-s-output-to-dev-null.patch = cannot open `/builddir/build/SOURCES/ORIG' (No such file or directory)
+0008-debuginfo.py-send-cpio-s-output-to-dev-null.patch: copy
+# 0032-strbuf-strtrimch-memmove-reads-bytes-out-of-borders.patch = cannot open `/builddir/build/SOURCES/ORIG' (No such file or directory)
+0032-strbuf-strtrimch-memmove-reads-bytes-out-of-borders.patch: copy
+# 0086-remove-new-line-from-ask-ask_password-responses.patch = cannot open `/builddir/build/SOURCES/ORIG' (No such file or directory)
+0086-remove-new-line-from-ask-ask_password-responses.patch: copy
+# 0057-rhbz-747410-bugzillas-are-created-according-to-rh-bz.patch = cannot open `/builddir/build/SOURCES/ORIG' (No such file or directory)
+0057-rhbz-747410-bugzillas-are-created-according-to-rh-bz.patch: copy
+# 0018-ureport-ureport-introduction.patch = cannot open `/builddir/build/SOURCES/ORIG' (No such file or directory)
+0018-ureport-ureport-introduction.patch: copy
+# 0036-track-542-add-reporter-and-related_packages-fields-t.patch = cannot open `/builddir/build/SOURCES/ORIG' (No such file or directory)
+0036-track-542-add-reporter-and-related_packages-fields-t.patch: copy
+# 0019-build-add-inclusion-to-testsuite-to-see-abrt_curl.h.patch = cannot open `/builddir/build/SOURCES/ORIG' (No such file or directory)
+0019-build-add-inclusion-to-testsuite-to-see-abrt_curl.h.patch: copy
+# 0104-rhbz-replace-obsolete-methods-by-their-substitutes.patch = cannot open `/builddir/build/SOURCES/ORIG' (No such file or directory)
+0104-rhbz-replace-obsolete-methods-by-their-substitutes.patch: copy
+# 0105-reporter-bugzilla-use-base64-XMLRPC-type-for-encoded.patch = cannot open `/builddir/build/SOURCES/ORIG' (No such file or directory)
+0105-reporter-bugzilla-use-base64-XMLRPC-type-for-encoded.patch: copy
+# 0069-fixed-the-relro-flags-rhbz-812283.patch = cannot open `/builddir/build/SOURCES/ORIG' (No such file or directory)
+0069-fixed-the-relro-flags-rhbz-812283.patch: copy
+# 0084-reporter-rhtsupport-upload-file-to-BigFileURL-if-it-.patch = cannot open `/builddir/build/SOURCES/ORIG' (No such file or directory)
+0084-reporter-rhtsupport-upload-file-to-BigFileURL-if-it-.patch: copy
+# 0033-don-t-leak-release-variable.patch = cannot open `/builddir/build/SOURCES/ORIG' (No such file or directory)
+0033-don-t-leak-release-variable.patch: copy
+# 0062-reporter-bugzilla-fix-adding-users-to-CC.-Partially-.patch = cannot open `/builddir/build/SOURCES/ORIG' (No such file or directory)
+0062-reporter-bugzilla-fix-adding-users-to-CC.-Partially-.patch: copy
+# centos-disable-bugzilla.patch = cannot open `/builddir/build/SOURCES/ORIG' (No such file or directory)
+centos-disable-bugzilla.patch: copy
+# 0067-added-relro-to-reportclient.so-and-_pyreport.so-rhbz.patch = cannot open `/builddir/build/SOURCES/ORIG' (No such file or directory)
+0067-added-relro-to-reportclient.so-and-_pyreport.so-rhbz.patch: copy
+# 0077-RHTS-support-regularize-order-of-functions-and-comme.patch = cannot open `/builddir/build/SOURCES/ORIG' (No such file or directory)
+0077-RHTS-support-regularize-order-of-functions-and-comme.patch: copy
+# 0073-reporter-rhtsupport-retain-Beta-suffix-in-version.-C.patch = cannot open `/builddir/build/SOURCES/ORIG' (No such file or directory)
+0073-reporter-rhtsupport-retain-Beta-suffix-in-version.-C.patch: copy
+# 0103-updated-translation-rhbz-993626.patch = cannot open `/builddir/build/SOURCES/ORIG' (No such file or directory)
+0103-updated-translation-rhbz-993626.patch: copy
+# 0004-plugin-kerneloops-change-the-kerneloops-url-to-repor.patch = cannot open `/builddir/build/SOURCES/ORIG' (No such file or directory)
+0004-plugin-kerneloops-change-the-kerneloops-url-to-repor.patch: copy
+# 0059-rhbz-747410-generate-koops-according-to-default-rhbz.patch = cannot open `/builddir/build/SOURCES/ORIG' (No such file or directory)
+0059-rhbz-747410-generate-koops-according-to-default-rhbz.patch: copy
+# 0022-Die-on-out-of-memory-in-JSON-generator-functions.patch = cannot open `/builddir/build/SOURCES/ORIG' (No such file or directory)
+0022-Die-on-out-of-memory-in-JSON-generator-functions.patch: copy
+# 0076-fread_with_reporting-make-progress-indicator-less-no.patch = cannot open `/builddir/build/SOURCES/ORIG' (No such file or directory)
+0076-fread_with_reporting-make-progress-indicator-less-no.patch: copy
+# 0058-rhbz-747410-skip-not-provided-bz-bug-description-tem.patch = cannot open `/builddir/build/SOURCES/ORIG' (No such file or directory)
+0058-rhbz-747410-skip-not-provided-bz-bug-description-tem.patch: copy
+# 0041-use-retrace-instead-of-local-gdb-in-ureport-event.patch = cannot open `/builddir/build/SOURCES/ORIG' (No such file or directory)
+0041-use-retrace-instead-of-local-gdb-in-ureport-event.patch: copy
+# 0081-reporter-upload-factor-out-HTTP-PUT-upload.patch = cannot open `/builddir/build/SOURCES/ORIG' (No such file or directory)
+0081-reporter-upload-factor-out-HTTP-PUT-upload.patch: copy
+# 0074-don-t-suid-before-running-yum-related-to-rhbz-759443.patch = cannot open `/builddir/build/SOURCES/ORIG' (No such file or directory)
+0074-don-t-suid-before-running-yum-related-to-rhbz-759443.patch: copy
+# 0090-reporter-rhtsupport-generate-archive-name-from-probl.patch = cannot open `/builddir/build/SOURCES/ORIG' (No such file or directory)
+0090-reporter-rhtsupport-generate-archive-name-from-probl.patch: copy
+# 0037-track-546-ureport-url-from-an-environment-variable.patch = cannot open `/builddir/build/SOURCES/ORIG' (No such file or directory)
+0037-track-546-ureport-url-from-an-environment-variable.patch: copy
+# 0100-introduce-a-function-deleting-dd-s-element.patch = cannot open `/builddir/build/SOURCES/ORIG' (No such file or directory)
+0100-introduce-a-function-deleting-dd-s-element.patch: copy
+# 0012-debuginfo.py-fix-abort-handling.patch = cannot open `/builddir/build/SOURCES/ORIG' (No such file or directory)
+0012-debuginfo.py-fix-abort-handling.patch: copy
+# 0023-fixed-build-errors.patch = cannot open `/builddir/build/SOURCES/ORIG' (No such file or directory)
+0023-fixed-build-errors.patch: copy
+# 0014-trakc-480-use-macro-with-ISO-date-sample-instead-of-.patch = cannot open `/builddir/build/SOURCES/ORIG' (No such file or directory)
+0014-trakc-480-use-macro-with-ISO-date-sample-instead-of-.patch: copy
+# 0035-track-542-track-544-teach-reporter-ureport-upload-ur.patch = cannot open `/builddir/build/SOURCES/ORIG' (No such file or directory)
+0035-track-542-track-544-teach-reporter-ureport-upload-ur.patch: copy
+# 0016-xmlrpc-rising-XMLRPC_XML_SIZE_LIMIT_DEFAULT-up-to-4-.patch = cannot open `/builddir/build/SOURCES/ORIG' (No such file or directory)
+0016-xmlrpc-rising-XMLRPC_XML_SIZE_LIMIT_DEFAULT-up-to-4-.patch: copy
+# 0028-abrt-bodhi-after-Searching-for-updates-do-tell-its-r.patch = cannot open `/builddir/build/SOURCES/ORIG' (No such file or directory)
+0028-abrt-bodhi-after-Searching-for-updates-do-tell-its-r.patch: copy
+# 0063-don-t-show-the-credential-in-logs-rhbz-856960.patch = cannot open `/builddir/build/SOURCES/ORIG' (No such file or directory)
+0063-don-t-show-the-credential-in-logs-rhbz-856960.patch: copy
+# 0005-plugin-kerneloops-fix-the-libcurl-use-Expect-header.patch = cannot open `/builddir/build/SOURCES/ORIG' (No such file or directory)
+0005-plugin-kerneloops-fix-the-libcurl-use-Expect-header.patch: copy
+# 0025-trac-526-add-check-for-locale.h-to-configure.ac-and-.patch = cannot open `/builddir/build/SOURCES/ORIG' (No such file or directory)
+0025-trac-526-add-check-for-locale.h-to-configure.ac-and-.patch: copy
+# 0002-debuginfo-downloader-minor-fix.patch = cannot open `/builddir/build/SOURCES/ORIG' (No such file or directory)
+0002-debuginfo-downloader-minor-fix.patch: copy
+# 0047-reporter-rhtsupport-do-not-require-problem-directory.patch = cannot open `/builddir/build/SOURCES/ORIG' (No such file or directory)
+0047-reporter-rhtsupport-do-not-require-problem-directory.patch: copy
+# 0034-Teach-dd_create_basic_files-to-save-an-additional-fi.patch = cannot open `/builddir/build/SOURCES/ORIG' (No such file or directory)
+0034-Teach-dd_create_basic_files-to-save-an-additional-fi.patch: copy
+# 0043-track-557-remove-ureport-config-and-move-it-s-config.patch = cannot open `/builddir/build/SOURCES/ORIG' (No such file or directory)
+0043-track-557-remove-ureport-config-and-move-it-s-config.patch: copy
+# 0003-make-descr-don-t-include-superfluous-FILENAME_REASON.patch = cannot open `/builddir/build/SOURCES/ORIG' (No such file or directory)
+0003-make-descr-don-t-include-superfluous-FILENAME_REASON.patch: copy
+# 0087-Change-default-conf-to-show-three-options-new-case-e.patch = cannot open `/builddir/build/SOURCES/ORIG' (No such file or directory)
+0087-Change-default-conf-to-show-three-options-new-case-e.patch: copy
+# 0079-reporter-rhtsupport-make-t-CASE_ID-work-without-FILE.patch = cannot open `/builddir/build/SOURCES/ORIG' (No such file or directory)
+0079-reporter-rhtsupport-make-t-CASE_ID-work-without-FILE.patch: copy
+# 0020-internal_libreport-add-FILENAME_-for-storing-package.patch = cannot open `/builddir/build/SOURCES/ORIG' (No such file or directory)
+0020-internal_libreport-add-FILENAME_-for-storing-package.patch: copy
+# 0065-updated-translation-rhbz-864025.patch = cannot open `/builddir/build/SOURCES/ORIG' (No such file or directory)
+0065-updated-translation-rhbz-864025.patch: copy
+# 0061-rhbz-747410-show-the-description-file-in-bugzilla-co.patch = cannot open `/builddir/build/SOURCES/ORIG' (No such file or directory)
+0061-rhbz-747410-show-the-description-file-in-bugzilla-co.patch: copy
+# 0092-added-DD_DONT_WAIT_FOR_LOCK-and-int-dump_dir_accessi.patch = cannot open `/builddir/build/SOURCES/ORIG' (No such file or directory)
+0092-added-DD_DONT_WAIT_FOR_LOCK-and-int-dump_dir_accessi.patch: copy
+# 0048-report-gtk-fix-report-gtk-NONEXISTENT_DIR-behaviour..patch = cannot open `/builddir/build/SOURCES/ORIG' (No such file or directory)
+0048-report-gtk-fix-report-gtk-NONEXISTENT_DIR-behaviour..patch: copy
+# 0031-track-480-fixed-memory-leak-in-find_best_bt_rating_i.patch = cannot open `/builddir/build/SOURCES/ORIG' (No such file or directory)
+0031-track-480-fixed-memory-leak-in-find_best_bt_rating_i.patch: copy
+# 0094-create-last_occurrence-at-the-time-of-the-first-cras.patch = cannot open `/builddir/build/SOURCES/ORIG' (No such file or directory)
+0094-create-last_occurrence-at-the-time-of-the-first-cras.patch: copy
+# 0070-never-follow-symlinks-rhbz-887866.patch = cannot open `/builddir/build/SOURCES/ORIG' (No such file or directory)
+0070-never-follow-symlinks-rhbz-887866.patch: copy
+# 0001-bugzilla-exclude-appending-package-name-for-kernel-o.patch = cannot open `/builddir/build/SOURCES/ORIG' (No such file or directory)
+0001-bugzilla-exclude-appending-package-name-for-kernel-o.patch: copy
+# 0017-trac-480-fixed-memory-leak-in-is_comment_dup-functio.patch = cannot open `/builddir/build/SOURCES/ORIG' (No such file or directory)
+0017-trac-480-fixed-memory-leak-in-is_comment_dup-functio.patch: copy
+# 0071-Stop-reading-text-files-one-byte-at-a-time-realated-.patch = cannot open `/builddir/build/SOURCES/ORIG' (No such file or directory)
+0071-Stop-reading-text-files-one-byte-at-a-time-realated-.patch: copy
+# 0053-updated-translation.patch = cannot open `/builddir/build/SOURCES/ORIG' (No such file or directory)
+0053-updated-translation.patch: copy
+# 0068-Make-get_dirsize_find_largest_dir-less-talkative.-re.patch = cannot open `/builddir/build/SOURCES/ORIG' (No such file or directory)
+0068-Make-get_dirsize_find_largest_dir-less-talkative.-re.patch: copy
+# 0046-reporter-bugzilla-do-not-require-problem-directory-w.patch = cannot open `/builddir/build/SOURCES/ORIG' (No such file or directory)
+0046-reporter-bugzilla-do-not-require-problem-directory-w.patch: copy
+# 0015-pop_next_command-no-need-to-open-problem-directory-r.patch = cannot open `/builddir/build/SOURCES/ORIG' (No such file or directory)
+0015-pop_next_command-no-need-to-open-problem-directory-r.patch: copy
+# 0049-Fix-bugs-uncovered-by-Coverity.-Closes-rhbz-809416.patch = cannot open `/builddir/build/SOURCES/ORIG' (No such file or directory)
+0049-Fix-bugs-uncovered-by-Coverity.-Closes-rhbz-809416.patch: copy
+# 0038-track-543-integration-of-reporter-ureport-in-librepo.patch = cannot open `/builddir/build/SOURCES/ORIG' (No such file or directory)
+0038-track-543-integration-of-reporter-ureport-in-librepo.patch: copy
+# 0072-dd-open-symlinks-on-request-related-895442.patch = cannot open `/builddir/build/SOURCES/ORIG' (No such file or directory)
+0072-dd-open-symlinks-on-request-related-895442.patch: copy
+# 0051-remove-json-bodhi-and-ureport.patch = cannot open `/builddir/build/SOURCES/ORIG' (No such file or directory)
+0051-remove-json-bodhi-and-ureport.patch: copy
+# 0030-track-480-unused-pointer-value-in-bodhi_read_value.patch = cannot open `/builddir/build/SOURCES/ORIG' (No such file or directory)
+0030-track-480-unused-pointer-value-in-bodhi_read_value.patch: copy
+# 0093-includes-add-macro-for-last-occurrence-dump-dir-file.patch = cannot open `/builddir/build/SOURCES/ORIG' (No such file or directory)
+0093-includes-add-macro-for-last-occurrence-dump-dir-file.patch: copy
+# 0082-reporter-upload-move-file-upload-function-to-lib.patch = cannot open `/builddir/build/SOURCES/ORIG' (No such file or directory)
+0082-reporter-upload-move-file-upload-function-to-lib.patch: copy
+# 0021-Fix-abrt-build-breakage.patch = cannot open `/builddir/build/SOURCES/ORIG' (No such file or directory)
+0021-Fix-abrt-build-breakage.patch: copy
+# 0095-fixed-relro-flags-rhbz-812283.patch = cannot open `/builddir/build/SOURCES/ORIG' (No such file or directory)
+0095-fixed-relro-flags-rhbz-812283.patch: copy
+# 0027-iso_date_string-make-sure-year-is-between-0000-and-9.patch = cannot open `/builddir/build/SOURCES/ORIG' (No such file or directory)
+0027-iso_date_string-make-sure-year-is-between-0000-and-9.patch: copy
+# 0098-report-python-export-DD_OPEN_READONLY-too.patch = cannot open `/builddir/build/SOURCES/ORIG' (No such file or directory)
+0098-report-python-export-DD_OPEN_READONLY-too.patch: copy
+# 0045-save-type-element-with-the-same-value-as-analyzer.patch = cannot open `/builddir/build/SOURCES/ORIG' (No such file or directory)
+0045-save-type-element-with-the-same-value-as-analyzer.patch: copy
+# 0085-reporter-rhtsupport-improve-logging.patch = cannot open `/builddir/build/SOURCES/ORIG' (No such file or directory)
+0085-reporter-rhtsupport-improve-logging.patch: copy
+# 0080-reporter-rhtsupport-skip-hints-check-if-uploaded-dat.patch = cannot open `/builddir/build/SOURCES/ORIG' (No such file or directory)
+0080-reporter-rhtsupport-skip-hints-check-if-uploaded-dat.patch: copy
+# 0107-updated-translation-rhbz-993626.patch = cannot open `/builddir/build/SOURCES/ORIG' (No such file or directory)
+0107-updated-translation-rhbz-993626.patch: copy
+# 0024-rhbz-820985-bz-4.2-doesn-t-have-bug_id-member-it-s-i.patch = cannot open `/builddir/build/SOURCES/ORIG' (No such file or directory)
+0024-rhbz-820985-bz-4.2-doesn-t-have-bug_id-member-it-s-i.patch: copy
+# 0091-reporter-upload-create-tarball-with-the-name-based-o.patch = cannot open `/builddir/build/SOURCES/ORIG' (No such file or directory)
+0091-reporter-upload-create-tarball-with-the-name-based-o.patch: copy
+# 0096-reporter-bz-make-binary-attachments-have-application.patch = cannot open `/builddir/build/SOURCES/ORIG' (No such file or directory)
+0096-reporter-bz-make-binary-attachments-have-application.patch: copy
+# 0050-hide-mailx-from-UI.patch = cannot open `/builddir/build/SOURCES/ORIG' (No such file or directory)
+0050-hide-mailx-from-UI.patch: copy

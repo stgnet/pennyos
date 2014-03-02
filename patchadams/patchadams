@@ -2,32 +2,235 @@
 # patchadams v3.0
 # copyright 2014 scott@stg.net
 # GPLv2
-set -ex
+#set -e
 
-[ -f project-settings ] && . ./project-settings
-[ -z "$NAME" ] && echo "ERROR: NAME is not set" && exit 1
-[ -z "$FONT" ] && echo "ERROR: FONT is not set" && exit 1
-[ -z "$LOGO" ] && echo "ERROR: LOGO is not set" && exit 1
+get_build_dir()
+{
+	[ ! -f ~/.rpmmacros ] && echo "ERROR: no ~/.rpmmacros file?" && exit 1
+	TMP="`fgrep '%_topdir' ~/.rpmmacros`"
+	[ -z "$TMP" ] && echo "ERROR: no %_topdir in ~/.rpmmacros file?" && exit 1
+	export BUILD_DIR="${TMP#%_topdir }"
+}
 
-mkdir -p PATCHED
+parse_spec_file()
+{
+	cat $1 | while read LINE
+	do
+		LINE="${LINE%%#*}"
+		[ -z "${LINE:0:1}" ] && continue
+		if [ "${LINE:0:12}" = "%description" ]
+		then
+#			echo "# stopping parse spec at $LINE" >&2
+#			read PAUSE <&2
+			break
+		fi
+		if [ "${LINE:0:8}" = "%define " ]
+		then
+			DEF="${LINE:8}"
+			VAR="${DEF%% *}"
+			VAL="${DEF#* }"
+			echo export $VAR=\"$VAL\"
+			continue
+		fi
+		[ "${LINE:0:1}" = "%" ] && continue
+		VAR="${LINE%%: *}"
+		VAL=${LINE#*: }
+		if [ "$VAR" = "$VAL" ]
+		then
+			echo "# Ignoring: $LINE"
+			continue
+		fi 
+		VAL="`echo $VAL |sed -e 's/%{?/${_/g' -e 's/%{/${/g'`"
+		VAR="`echo $VAR |tr '[:upper:]()' '[:lower:]__'`"
+		echo export $VAR=\"$VAL\"
+	done > /tmp/patmp.$$
+	. /tmp/patmp.$$
+	rm /tmp/patmp.$$
+}
 
-cat testlist | while read LINE
-do
-	[ "${LINE:0:1}" = "#" ] && continue
-	FILE="PATCHED/${LINE%%: *}"
-	EXT="${FILE##*.}"
-	CMD=${LINE#*: }
-	TEMP="patmp$$.$EXT"
-	mkdir -p `dirname $FILE`
-	eval $CMD
-	[ $? -ne 0 ] && echo "ERROR: patch failed" && exit 1
-	[ -f $TEMP ] && rm -f $TEMP
-done
-exit 0
-#!/bin/bash
-set -x
-convert -list font  |fgrep Font: | while read FONT
-do
-	FONT="${FONT#*Font: }"
-	convert -background white -fill black -font $FONT -pointsize 32 label:PennyOS $FONT.png
-done
+apply_patchlist()
+{
+	PATCHLIST="$1"
+	ORIG_DIR="$2"
+	DEST_DIR="$3"
+
+	echo "Applying $PATCHLIST"
+
+	[ -z "$PATCHLIST" ] && echo "ERROR: patchlist not provided" && exit 1
+	[ -z "$ORIG_DIR" ] && echo "ERROR: original dir not provided" && exit 1
+	[ -z "$DEST_DIR" ] && echo "ERROR: patched dir not provided" && exit 1
+
+	if [ ! -f $PATCHLIST ]
+	then
+		echo "### WARNING: STARTING NEW PATCHLIST $PATCHLIST"
+		echo "# Patchlist created `date`" > $PATCHLIST
+		#git add $PATCHLIST
+	fi
+	[ ! -d $ORIG_DIR ] && echo "ERROR: original dir not found" && exit 1
+	[ ! -d $DEST_DIR ] && echo "ERROR: patched dir not found" && exit 1
+
+	[ -f project-settings ] && . ./project-settings
+	[ -z "$NAME" ] && echo "ERROR: NAME is not set" && exit 1
+	[ -z "$FONT" ] && echo "ERROR: FONT is not set" && exit 1
+	[ -z "$LOGO" ] && echo "ERROR: LOGO is not set" && exit 1
+	[ -z "$SED" ] && echo "ERROR: SED is not set" && exit 1
+
+	# first, process existing entries in the patchlist
+
+	cat $PATCHLIST | while read LINE
+	do
+		[ -z "$LINE" ] && continue
+		[ "${LINE:0:1}" = "#" ] && continue
+		ORIG="${LINE%%: *}"
+		[ "$ORIG" = "$LINE" ] && echo "ERROR: bad patchlist: $LINE" && exit 1
+		[ "$ORIG" = "${LINE#*: }" ] && echo "ERROR: problem patchlist: $LINE" && exit 1
+		
+		# 'patch' the file path (remove trademark)
+		FILE="`echo $ORIG | sed -f $SED`"
+		[ -z "$FILE" ] && echo "ERROR: file empty after sed" && exit 1
+
+		# the patch cmd may want a temp file of matching extension
+		EXT="${ORIG##*.}"
+		TEMP="patmp$$.$EXT"
+
+		# add the full path
+		ORIG="$ORIG_DIR/$ORIG"
+		FILE="$DEST_DIR/$FILE"
+
+		# sanity check
+		[ ! -f $ORIG ] && echo "ERROR: $ORIG not found" && exit 1
+
+		# insure the full directory tree is created
+		mkdir -p `dirname $FILE`
+
+		CMD=${LINE#*: }
+		[ "$CMD" = "copy" ] && CMD="cp -v $ORIG $FILE"
+		[ "$CMD" = "patch" ] && CMD="sed -f $SED <$ORIG >$FILE"
+		eval $CMD
+		[ $? -ne 0 ] && echo "ERROR: patch failed" && exit 1
+		[ -f $TEMP ] && rm -f $TEMP
+	done
+
+	# second, check each file in ORIG dir to insure nothing missed
+	# anything not found is added to patchlist and the patch fails
+
+	rm -f $BUILD_DIR/failed
+
+	echo "Checking destination for missed files..."
+	find $ORIG_DIR -type f | while read ORIG_PATH
+	do
+		# remove the dir from path
+		ORIG=${ORIG_PATH:${#ORIG_DIR}}
+		ORIG=${ORIG:1}
+		[ ! -f "$ORIG_DIR/$ORIG" ] && echo "ERROR: $ORIG path failure" && exit 1
+
+		# convert the destination file name
+		FILE="`echo $ORIG |sed -f $SED`"
+		[ -z "$FILE" ] && echo "ERROR: file empty after sed" && exit 1
+
+		if [ ! -f "$DEST_DIR/$FILE" ]
+		then
+			echo "WARNING: $FILE not in patchlist"
+
+			echo "# $ORIG = `file -b $ORIG_DIR/ORIG`" >> $PATCHLIST
+			if fgrep -i centos $ORIG_DIR/$ORIG >> $PATCHLIST
+			then
+				echo "$ORIG: false" >> $PATCHLIST
+				touch $BUILD_DIR/failed
+			else
+				echo "$ORIG: copy" >> $PATCHLIST
+				cp $ORIG_PATH $DEST_DIR/$FILE
+			fi
+		fi
+	done
+
+	[ -f $BUILD_DIR/failed ] && echo "ERROR: $PATCHLIST incomplete" && exit 1
+
+}
+
+process_upstream_srpm()
+{
+	get_build_dir
+	[ -z "$BUILD_DIR" ] && echo "ERROR: no BUILD_DIR?" && exit 1
+
+	[ ! -d $BUILD_DIR/SOURCES ] && echo "ERROR: no SOURCES path?" && exit 1
+	[ ! -d $BUILD_DIR/SPECS ] && echo "ERROR: no SPECS path?" && exit
+
+	#find Upstream | fgrep '.src.rpm' | while read SRPM_FILE
+	for SRPM_FILE in $(find Upstream -type f)
+	do
+		# make sure both are empty
+		rm -rf $BUILD_DIR/SOURCES/* $BUILD_DIR/SPECS/*
+
+		echo "Processing $SRPM_FILE"
+		rpm -ihv $SRPM_FILE
+		SPEC_FILE=$BUILD_DIR/SPECS/*.spec
+		[ -z "$SPEC_FILE" ] && echo "ERROR: spec file not found" && exit 1
+		SPEC_FILE="`basename $SPEC_FILE`"
+		PKG_NAME="${SPEC_FILE%.spec}"
+		echo "Package name: $PKG_NAME"
+
+		source=""
+		source0=""
+		parse_spec_file $BUILD_DIR/SPECS/$SPEC_FILE
+		[ -z "$source" -a ! -z "$source0" ] && source="$source0"
+		[ -z $source ] && echo "ERROR: no source?" && exit 1
+
+		if [[ ${source:0:5} == "http:" || ${source:0:6} == "https:" ]]
+		then
+			# this is not a source we can patch
+			# set the path to something invalid to skip tarball
+			echo "WARNING: Not patching $source"
+			source="-not-patching-"
+		else
+			[ ! -f $BUILD_DIR/SOURCES/$source ] && echo "ERROR: file $source not found" && exit 1
+		fi
+
+		# prepare target directory
+		rm -rf $BUILD_DIR/PATCHED
+		mkdir -p $BUILD_DIR/PATCHED
+
+		# is this a tarball?
+		if [[ $source == *.tar.* ]]
+		then
+			TARDIS="${source%.tar.*}"
+			echo "Patching tarball $TARDIS"
+
+			rm -rf $BUILD_DIR/ORIGINAL
+			mkdir -p $BUILD_DIR/ORIGINAL
+			tar xf $BUILD_DIR/SOURCES/$source --directory=$BUILD_DIR/ORIGINAL 
+
+			[ ! -d $BUILD_DIR/ORIGINAL/$TARDIS ] && echo "ERROR: tarball directory $TARDIS not found after tarball extraction" && exit 1
+
+			rm -rf $BUILD_DIR/TARBALL
+			mkdir -p $BUILD_DIR/TARBALL/$TARDIS
+
+			apply_patchlist $PKG_NAME.tarball.patchlist $BUILD_DIR/ORIGINAL/$TARDIS $BUILD_DIR/TARBALL/$TARDIS
+
+			tar cf $BUILD_DIR/PATCHED/$source --directory=$BUILD_DIR/TARBALL $TARDIS
+			rm -rf $BUILD_DIR/TARBALL
+		else
+			echo "### $source is not a tarball"
+		fi
+
+		apply_patchlist $PKG_NAME.patchlist $BUILD_DIR/SOURCES $BUILD_DIR/PATCHED
+
+		rm -rf $BUILD_DIR/SOURCES
+		mv $BUILD_DIR/PATCHED $BUILD_DIR/SOURCES
+
+		echo "Rebuilding src rpm"
+		rpmbuild -bs $BUILD_DIR/SPECS/$PKG_NAME.spec
+
+		NEW_SRCRPM=$BUILD_DIR/SRPMS/*.src.rpm
+
+		[ -z "$NEW_SRCRPM" ] && echo "ERROR: no src rpm found" && exit 1
+
+		mv $NEW_SRCRPM .
+		# now push it up to mirror and trigger rebuild
+
+		rm -rf $BUILD_DIR/*/*
+	done
+}
+
+
+process_upstream_srpm

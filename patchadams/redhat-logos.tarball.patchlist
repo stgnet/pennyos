@@ -1,0 +1,318 @@
+# Patchlist created Sat Mar  1 18:40:58 CST 2014
+# debuglinks.list = cannot open `/builddir/build/ORIGINAL/redhat-logos-60.0.14/ORIG' (No such file or directory)
+debuglinks.list: copy
+# kde-kdm/CentOS6/system_button-li.png = cannot open `/builddir/build/ORIGINAL/redhat-logos-60.0.14/ORIG' (No such file or directory)
+kde-kdm/CentOS6/system_button-li.png: copy
+# kde-kdm/CentOS6/session_button-li.png = cannot open `/builddir/build/ORIGINAL/redhat-logos-60.0.14/ORIG' (No such file or directory)
+kde-kdm/CentOS6/session_button-li.png: copy
+# kde-kdm/CentOS6/screenshot.png = cannot open `/builddir/build/ORIGINAL/redhat-logos-60.0.14/ORIG' (No such file or directory)
+kde-kdm/CentOS6/screenshot.png: copy
+# kde-kdm/CentOS6/session_button.png = cannot open `/builddir/build/ORIGINAL/redhat-logos-60.0.14/ORIG' (No such file or directory)
+kde-kdm/CentOS6/session_button.png: copy
+# kde-kdm/CentOS6/KdmGreeterTheme.desktop = cannot open `/builddir/build/ORIGINAL/redhat-logos-60.0.14/ORIG' (No such file or directory)
+Greeter=centos6.xml
+Name=CentOS 6
+Author=CentOS
+Copyright=(C) 2010 the CentOS Project
+kde-kdm/CentOS6/KdmGreeterTheme.desktop: false
+# kde-kdm/CentOS6/box.png = cannot open `/builddir/build/ORIGINAL/redhat-logos-60.0.14/ORIG' (No such file or directory)
+kde-kdm/CentOS6/box.png: copy
+# kde-kdm/CentOS6/system_button.png = cannot open `/builddir/build/ORIGINAL/redhat-logos-60.0.14/ORIG' (No such file or directory)
+kde-kdm/CentOS6/system_button.png: copy
+# kde-kdm/CentOS6/centos6.xml = cannot open `/builddir/build/ORIGINAL/redhat-logos-60.0.14/ORIG' (No such file or directory)
+CentOS KDM Theme 0.1, Marcus Moeller <mmoeller@fedoraproject.org>
+kde-kdm/CentOS6/centos6.xml: false
+# firstboot/firstboot-left.png = cannot open `/builddir/build/ORIGINAL/redhat-logos-60.0.14/ORIG' (No such file or directory)
+firstboot/firstboot-left.png: copy
+# firstboot/workstation.png = cannot open `/builddir/build/ORIGINAL/redhat-logos-60.0.14/ORIG' (No such file or directory)
+firstboot/workstation.png: copy
+# firstboot/splash-small.png = cannot open `/builddir/build/ORIGINAL/redhat-logos-60.0.14/ORIG' (No such file or directory)
+firstboot/splash-small.png: copy
+# firstboot/firstboot-small.png = cannot open `/builddir/build/ORIGINAL/redhat-logos-60.0.14/ORIG' (No such file or directory)
+firstboot/firstboot-small.png: copy
+# anaconda/syslinux-vesa-splash.jpg = cannot open `/builddir/build/ORIGINAL/redhat-logos-60.0.14/ORIG' (No such file or directory)
+anaconda/syslinux-vesa-splash.jpg: copy
+# anaconda/anaconda_header.png = cannot open `/builddir/build/ORIGINAL/redhat-logos-60.0.14/ORIG' (No such file or directory)
+anaconda/anaconda_header.png: copy
+# anaconda/splashtolss.sh = cannot open `/builddir/build/ORIGINAL/redhat-logos-60.0.14/ORIG' (No such file or directory)
+anaconda/splashtolss.sh: copy
+# anaconda/README = cannot open `/builddir/build/ORIGINAL/redhat-logos-60.0.14/ORIG' (No such file or directory)
+anaconda/README: copy
+# anaconda/progress_first-lowres.png = cannot open `/builddir/build/ORIGINAL/redhat-logos-60.0.14/ORIG' (No such file or directory)
+anaconda/progress_first-lowres.png: copy
+# anaconda/syslinux-splash.png = cannot open `/builddir/build/ORIGINAL/redhat-logos-60.0.14/ORIG' (No such file or directory)
+anaconda/syslinux-splash.png: copy
+# anaconda/progress_first.png = cannot open `/builddir/build/ORIGINAL/redhat-logos-60.0.14/ORIG' (No such file or directory)
+anaconda/progress_first.png: copy
+# anaconda/splash.png = cannot open `/builddir/build/ORIGINAL/redhat-logos-60.0.14/ORIG' (No such file or directory)
+anaconda/splash.png: copy
+# anaconda/Makefile = cannot open `/builddir/build/ORIGINAL/redhat-logos-60.0.14/ORIG' (No such file or directory)
+anaconda/Makefile: copy
+# bootloader/splash.xpm.gz = cannot open `/builddir/build/ORIGINAL/redhat-logos-60.0.14/ORIG' (No such file or directory)
+bootloader/splash.xpm.gz: copy
+# backgrounds/centos_1920x1200_logoonly.jpg = cannot open `/builddir/build/ORIGINAL/redhat-logos-60.0.14/ORIG' (No such file or directory)
+backgrounds/centos_1920x1200_logoonly.jpg: copy
+# backgrounds/centos_2048x1536_logoonly.jpg = cannot open `/builddir/build/ORIGINAL/redhat-logos-60.0.14/ORIG' (No such file or directory)
+backgrounds/centos_2048x1536_logoonly.jpg: copy
+# backgrounds/default_1920x1200.png = cannot open `/builddir/build/ORIGINAL/redhat-logos-60.0.14/ORIG' (No such file or directory)
+backgrounds/default_1920x1200.png: copy
+# backgrounds/centos_wallpaper_multicolor_1920x1080.png = cannot open `/builddir/build/ORIGINAL/redhat-logos-60.0.14/ORIG' (No such file or directory)
+backgrounds/centos_wallpaper_multicolor_1920x1080.png: copy
+# backgrounds/desktop-backgrounds-default.xml = cannot open `/builddir/build/ORIGINAL/redhat-logos-60.0.14/ORIG' (No such file or directory)
+        <name>CentOS Default Background</name>
+backgrounds/desktop-backgrounds-default.xml: false
+# backgrounds/default_1920x1440.png = cannot open `/builddir/build/ORIGINAL/redhat-logos-60.0.14/ORIG' (No such file or directory)
+backgrounds/default_1920x1440.png: copy
+# backgrounds/simple_waves.jpg = cannot open `/builddir/build/ORIGINAL/redhat-logos-60.0.14/ORIG' (No such file or directory)
+backgrounds/simple_waves.jpg: copy
+# backgrounds/centos_wallpaper_01_1920x1200.png = cannot open `/builddir/build/ORIGINAL/redhat-logos-60.0.14/ORIG' (No such file or directory)
+backgrounds/centos_wallpaper_01_1920x1200.png: copy
+# backgrounds/default.xml = cannot open `/builddir/build/ORIGINAL/redhat-logos-60.0.14/ORIG' (No such file or directory)
+backgrounds/default.xml: copy
+# backgrounds/wallpaper-six-2560x1240.png = cannot open `/builddir/build/ORIGINAL/redhat-logos-60.0.14/ORIG' (No such file or directory)
+backgrounds/wallpaper-six-2560x1240.png: copy
+# backgrounds/wallpaper-six-2048x1536.png = cannot open `/builddir/build/ORIGINAL/redhat-logos-60.0.14/ORIG' (No such file or directory)
+backgrounds/wallpaper-six-2048x1536.png: copy
+# backgrounds/blue_wallpaper_original_1600x1200.png = cannot open `/builddir/build/ORIGINAL/redhat-logos-60.0.14/ORIG' (No such file or directory)
+backgrounds/blue_wallpaper_original_1600x1200.png: copy
+# plymouth/rings/progress-21.png = cannot open `/builddir/build/ORIGINAL/redhat-logos-60.0.14/ORIG' (No such file or directory)
+plymouth/rings/progress-21.png: copy
+# plymouth/rings/progress-22.png = cannot open `/builddir/build/ORIGINAL/redhat-logos-60.0.14/ORIG' (No such file or directory)
+plymouth/rings/progress-22.png: copy
+# plymouth/rings/progress-32.png = cannot open `/builddir/build/ORIGINAL/redhat-logos-60.0.14/ORIG' (No such file or directory)
+plymouth/rings/progress-32.png: copy
+# plymouth/rings/throbber-09.png = cannot open `/builddir/build/ORIGINAL/redhat-logos-60.0.14/ORIG' (No such file or directory)
+plymouth/rings/throbber-09.png: copy
+# plymouth/rings/progress-02.png = cannot open `/builddir/build/ORIGINAL/redhat-logos-60.0.14/ORIG' (No such file or directory)
+plymouth/rings/progress-02.png: copy
+# plymouth/rings/animation-01.png = cannot open `/builddir/build/ORIGINAL/redhat-logos-60.0.14/ORIG' (No such file or directory)
+plymouth/rings/animation-01.png: copy
+# plymouth/rings/throbber-08.png = cannot open `/builddir/build/ORIGINAL/redhat-logos-60.0.14/ORIG' (No such file or directory)
+plymouth/rings/throbber-08.png: copy
+# plymouth/rings/progress-26.png = cannot open `/builddir/build/ORIGINAL/redhat-logos-60.0.14/ORIG' (No such file or directory)
+plymouth/rings/progress-26.png: copy
+# plymouth/rings/throbber-13.png = cannot open `/builddir/build/ORIGINAL/redhat-logos-60.0.14/ORIG' (No such file or directory)
+plymouth/rings/throbber-13.png: copy
+# plymouth/rings/progress-07.png = cannot open `/builddir/build/ORIGINAL/redhat-logos-60.0.14/ORIG' (No such file or directory)
+plymouth/rings/progress-07.png: copy
+# plymouth/rings/animation-07.png = cannot open `/builddir/build/ORIGINAL/redhat-logos-60.0.14/ORIG' (No such file or directory)
+plymouth/rings/animation-07.png: copy
+# plymouth/rings/throbber-20.png = cannot open `/builddir/build/ORIGINAL/redhat-logos-60.0.14/ORIG' (No such file or directory)
+plymouth/rings/throbber-20.png: copy
+# plymouth/rings/throbber-05.png = cannot open `/builddir/build/ORIGINAL/redhat-logos-60.0.14/ORIG' (No such file or directory)
+plymouth/rings/throbber-05.png: copy
+# plymouth/rings/animation-02.png = cannot open `/builddir/build/ORIGINAL/redhat-logos-60.0.14/ORIG' (No such file or directory)
+plymouth/rings/animation-02.png: copy
+# plymouth/rings/throbber-04.png = cannot open `/builddir/build/ORIGINAL/redhat-logos-60.0.14/ORIG' (No such file or directory)
+plymouth/rings/throbber-04.png: copy
+# plymouth/rings/progress-03.png = cannot open `/builddir/build/ORIGINAL/redhat-logos-60.0.14/ORIG' (No such file or directory)
+plymouth/rings/progress-03.png: copy
+# plymouth/rings/animation-12.png = cannot open `/builddir/build/ORIGINAL/redhat-logos-60.0.14/ORIG' (No such file or directory)
+plymouth/rings/animation-12.png: copy
+# plymouth/rings/animation-00.png = cannot open `/builddir/build/ORIGINAL/redhat-logos-60.0.14/ORIG' (No such file or directory)
+plymouth/rings/animation-00.png: copy
+# plymouth/rings/progress-15.png = cannot open `/builddir/build/ORIGINAL/redhat-logos-60.0.14/ORIG' (No such file or directory)
+plymouth/rings/progress-15.png: copy
+# plymouth/rings/throbber-12.png = cannot open `/builddir/build/ORIGINAL/redhat-logos-60.0.14/ORIG' (No such file or directory)
+plymouth/rings/throbber-12.png: copy
+# plymouth/rings/animation-03.png = cannot open `/builddir/build/ORIGINAL/redhat-logos-60.0.14/ORIG' (No such file or directory)
+plymouth/rings/animation-03.png: copy
+# plymouth/rings/throbber-21.png = cannot open `/builddir/build/ORIGINAL/redhat-logos-60.0.14/ORIG' (No such file or directory)
+plymouth/rings/throbber-21.png: copy
+# plymouth/rings/progress-10.png = cannot open `/builddir/build/ORIGINAL/redhat-logos-60.0.14/ORIG' (No such file or directory)
+plymouth/rings/progress-10.png: copy
+# plymouth/rings/throbber-11.png = cannot open `/builddir/build/ORIGINAL/redhat-logos-60.0.14/ORIG' (No such file or directory)
+plymouth/rings/throbber-11.png: copy
+# plymouth/rings/throbber-02.png = cannot open `/builddir/build/ORIGINAL/redhat-logos-60.0.14/ORIG' (No such file or directory)
+plymouth/rings/throbber-02.png: copy
+# plymouth/rings/progress-05.png = cannot open `/builddir/build/ORIGINAL/redhat-logos-60.0.14/ORIG' (No such file or directory)
+plymouth/rings/progress-05.png: copy
+# plymouth/rings/progress-14.png = cannot open `/builddir/build/ORIGINAL/redhat-logos-60.0.14/ORIG' (No such file or directory)
+plymouth/rings/progress-14.png: copy
+# plymouth/rings/throbber-03.png = cannot open `/builddir/build/ORIGINAL/redhat-logos-60.0.14/ORIG' (No such file or directory)
+plymouth/rings/throbber-03.png: copy
+# plymouth/rings/progress-00.png = cannot open `/builddir/build/ORIGINAL/redhat-logos-60.0.14/ORIG' (No such file or directory)
+plymouth/rings/progress-00.png: copy
+# plymouth/rings/progress-25.png = cannot open `/builddir/build/ORIGINAL/redhat-logos-60.0.14/ORIG' (No such file or directory)
+plymouth/rings/progress-25.png: copy
+# plymouth/rings/throbber-07.png = cannot open `/builddir/build/ORIGINAL/redhat-logos-60.0.14/ORIG' (No such file or directory)
+plymouth/rings/throbber-07.png: copy
+# plymouth/rings/progress-24.png = cannot open `/builddir/build/ORIGINAL/redhat-logos-60.0.14/ORIG' (No such file or directory)
+plymouth/rings/progress-24.png: copy
+# plymouth/rings/progress-13.png = cannot open `/builddir/build/ORIGINAL/redhat-logos-60.0.14/ORIG' (No such file or directory)
+plymouth/rings/progress-13.png: copy
+# plymouth/rings/progress-09.png = cannot open `/builddir/build/ORIGINAL/redhat-logos-60.0.14/ORIG' (No such file or directory)
+plymouth/rings/progress-09.png: copy
+# plymouth/rings/throbber-19.png = cannot open `/builddir/build/ORIGINAL/redhat-logos-60.0.14/ORIG' (No such file or directory)
+plymouth/rings/throbber-19.png: copy
+# plymouth/rings/animation-09.png = cannot open `/builddir/build/ORIGINAL/redhat-logos-60.0.14/ORIG' (No such file or directory)
+plymouth/rings/animation-09.png: copy
+# plymouth/rings/progress-08.png = cannot open `/builddir/build/ORIGINAL/redhat-logos-60.0.14/ORIG' (No such file or directory)
+plymouth/rings/progress-08.png: copy
+# plymouth/rings/progress-01.png = cannot open `/builddir/build/ORIGINAL/redhat-logos-60.0.14/ORIG' (No such file or directory)
+plymouth/rings/progress-01.png: copy
+# plymouth/rings/throbber-06.png = cannot open `/builddir/build/ORIGINAL/redhat-logos-60.0.14/ORIG' (No such file or directory)
+plymouth/rings/throbber-06.png: copy
+# plymouth/rings/throbber-17.png = cannot open `/builddir/build/ORIGINAL/redhat-logos-60.0.14/ORIG' (No such file or directory)
+plymouth/rings/throbber-17.png: copy
+# plymouth/rings/animation-08.png = cannot open `/builddir/build/ORIGINAL/redhat-logos-60.0.14/ORIG' (No such file or directory)
+plymouth/rings/animation-08.png: copy
+# plymouth/rings/progress-19.png = cannot open `/builddir/build/ORIGINAL/redhat-logos-60.0.14/ORIG' (No such file or directory)
+plymouth/rings/progress-19.png: copy
+# plymouth/rings/throbber-22.png = cannot open `/builddir/build/ORIGINAL/redhat-logos-60.0.14/ORIG' (No such file or directory)
+plymouth/rings/throbber-22.png: copy
+# plymouth/rings/progress-17.png = cannot open `/builddir/build/ORIGINAL/redhat-logos-60.0.14/ORIG' (No such file or directory)
+plymouth/rings/progress-17.png: copy
+# plymouth/rings/progress-33.png = cannot open `/builddir/build/ORIGINAL/redhat-logos-60.0.14/ORIG' (No such file or directory)
+plymouth/rings/progress-33.png: copy
+# plymouth/rings/progress-35.png = cannot open `/builddir/build/ORIGINAL/redhat-logos-60.0.14/ORIG' (No such file or directory)
+plymouth/rings/progress-35.png: copy
+# plymouth/rings/throbber-18.png = cannot open `/builddir/build/ORIGINAL/redhat-logos-60.0.14/ORIG' (No such file or directory)
+plymouth/rings/throbber-18.png: copy
+# plymouth/rings/progress-31.png = cannot open `/builddir/build/ORIGINAL/redhat-logos-60.0.14/ORIG' (No such file or directory)
+plymouth/rings/progress-31.png: copy
+# plymouth/rings/throbber-00.png = cannot open `/builddir/build/ORIGINAL/redhat-logos-60.0.14/ORIG' (No such file or directory)
+plymouth/rings/throbber-00.png: copy
+# plymouth/rings/animation-06.png = cannot open `/builddir/build/ORIGINAL/redhat-logos-60.0.14/ORIG' (No such file or directory)
+plymouth/rings/animation-06.png: copy
+# plymouth/rings/animation-11.png = cannot open `/builddir/build/ORIGINAL/redhat-logos-60.0.14/ORIG' (No such file or directory)
+plymouth/rings/animation-11.png: copy
+# plymouth/rings/animation-13.png = cannot open `/builddir/build/ORIGINAL/redhat-logos-60.0.14/ORIG' (No such file or directory)
+plymouth/rings/animation-13.png: copy
+# plymouth/rings/progress-28.png = cannot open `/builddir/build/ORIGINAL/redhat-logos-60.0.14/ORIG' (No such file or directory)
+plymouth/rings/progress-28.png: copy
+# plymouth/rings/throbber-01.png = cannot open `/builddir/build/ORIGINAL/redhat-logos-60.0.14/ORIG' (No such file or directory)
+plymouth/rings/throbber-01.png: copy
+# plymouth/rings/throbber-15.png = cannot open `/builddir/build/ORIGINAL/redhat-logos-60.0.14/ORIG' (No such file or directory)
+plymouth/rings/throbber-15.png: copy
+# plymouth/rings/progress-04.png = cannot open `/builddir/build/ORIGINAL/redhat-logos-60.0.14/ORIG' (No such file or directory)
+plymouth/rings/progress-04.png: copy
+# plymouth/rings/progress-23.png = cannot open `/builddir/build/ORIGINAL/redhat-logos-60.0.14/ORIG' (No such file or directory)
+plymouth/rings/progress-23.png: copy
+# plymouth/rings/progress-11.png = cannot open `/builddir/build/ORIGINAL/redhat-logos-60.0.14/ORIG' (No such file or directory)
+plymouth/rings/progress-11.png: copy
+# plymouth/rings/progress-16.png = cannot open `/builddir/build/ORIGINAL/redhat-logos-60.0.14/ORIG' (No such file or directory)
+plymouth/rings/progress-16.png: copy
+# plymouth/rings/header-image.png = cannot open `/builddir/build/ORIGINAL/redhat-logos-60.0.14/ORIG' (No such file or directory)
+plymouth/rings/header-image.png: copy
+# plymouth/rings/progress-20.png = cannot open `/builddir/build/ORIGINAL/redhat-logos-60.0.14/ORIG' (No such file or directory)
+plymouth/rings/progress-20.png: copy
+# plymouth/rings/progress-12.png = cannot open `/builddir/build/ORIGINAL/redhat-logos-60.0.14/ORIG' (No such file or directory)
+plymouth/rings/progress-12.png: copy
+# plymouth/rings/progress-29.png = cannot open `/builddir/build/ORIGINAL/redhat-logos-60.0.14/ORIG' (No such file or directory)
+plymouth/rings/progress-29.png: copy
+# plymouth/rings/throbber-14.png = cannot open `/builddir/build/ORIGINAL/redhat-logos-60.0.14/ORIG' (No such file or directory)
+plymouth/rings/throbber-14.png: copy
+# plymouth/rings/throbber-23.png = cannot open `/builddir/build/ORIGINAL/redhat-logos-60.0.14/ORIG' (No such file or directory)
+plymouth/rings/throbber-23.png: copy
+# plymouth/rings/progress-18.png = cannot open `/builddir/build/ORIGINAL/redhat-logos-60.0.14/ORIG' (No such file or directory)
+plymouth/rings/progress-18.png: copy
+# plymouth/rings/animation-04.png = cannot open `/builddir/build/ORIGINAL/redhat-logos-60.0.14/ORIG' (No such file or directory)
+plymouth/rings/animation-04.png: copy
+# plymouth/rings/throbber-10.png = cannot open `/builddir/build/ORIGINAL/redhat-logos-60.0.14/ORIG' (No such file or directory)
+plymouth/rings/throbber-10.png: copy
+# plymouth/rings/animation-10.png = cannot open `/builddir/build/ORIGINAL/redhat-logos-60.0.14/ORIG' (No such file or directory)
+plymouth/rings/animation-10.png: copy
+# plymouth/rings/throbber-16.png = cannot open `/builddir/build/ORIGINAL/redhat-logos-60.0.14/ORIG' (No such file or directory)
+plymouth/rings/throbber-16.png: copy
+# plymouth/rings/progress-34.png = cannot open `/builddir/build/ORIGINAL/redhat-logos-60.0.14/ORIG' (No such file or directory)
+plymouth/rings/progress-34.png: copy
+# plymouth/rings/progress-06.png = cannot open `/builddir/build/ORIGINAL/redhat-logos-60.0.14/ORIG' (No such file or directory)
+plymouth/rings/progress-06.png: copy
+# plymouth/rings/animation-05.png = cannot open `/builddir/build/ORIGINAL/redhat-logos-60.0.14/ORIG' (No such file or directory)
+plymouth/rings/animation-05.png: copy
+# plymouth/rings/progress-30.png = cannot open `/builddir/build/ORIGINAL/redhat-logos-60.0.14/ORIG' (No such file or directory)
+plymouth/rings/progress-30.png: copy
+# plymouth/rings/progress-27.png = cannot open `/builddir/build/ORIGINAL/redhat-logos-60.0.14/ORIG' (No such file or directory)
+plymouth/rings/progress-27.png: copy
+# debugsources.list = cannot open `/builddir/build/ORIGINAL/redhat-logos-60.0.14/ORIG' (No such file or directory)
+debugsources.list: copy
+# pixmaps/system-logo-white.png = cannot open `/builddir/build/ORIGINAL/redhat-logos-60.0.14/ORIG' (No such file or directory)
+pixmaps/system-logo-white.png: copy
+# pixmaps/system-logo.png = cannot open `/builddir/build/ORIGINAL/redhat-logos-60.0.14/ORIG' (No such file or directory)
+pixmaps/system-logo.png: copy
+# pixmaps/poweredby.png = cannot open `/builddir/build/ORIGINAL/redhat-logos-60.0.14/ORIG' (No such file or directory)
+pixmaps/poweredby.png: copy
+# pixmaps/system-logo-small.png = cannot open `/builddir/build/ORIGINAL/redhat-logos-60.0.14/ORIG' (No such file or directory)
+pixmaps/system-logo-small.png: copy
+# pixmaps/system-release-white.png = cannot open `/builddir/build/ORIGINAL/redhat-logos-60.0.14/ORIG' (No such file or directory)
+pixmaps/system-release-white.png: copy
+# icons/hicolor/48x48/apps/system-logo-icon.png = cannot open `/builddir/build/ORIGINAL/redhat-logos-60.0.14/ORIG' (No such file or directory)
+icons/hicolor/48x48/apps/system-logo-icon.png: copy
+# icons/hicolor/36x36/apps/system-logo-icon.png = cannot open `/builddir/build/ORIGINAL/redhat-logos-60.0.14/ORIG' (No such file or directory)
+icons/hicolor/36x36/apps/system-logo-icon.png: copy
+# icons/hicolor/scalable/apps/xfce4_xicon1.svg = cannot open `/builddir/build/ORIGINAL/redhat-logos-60.0.14/ORIG' (No such file or directory)
+icons/hicolor/scalable/apps/xfce4_xicon1.svg: copy
+# icons/hicolor/96x96/apps/system-logo-icon.png = cannot open `/builddir/build/ORIGINAL/redhat-logos-60.0.14/ORIG' (No such file or directory)
+icons/hicolor/96x96/apps/system-logo-icon.png: copy
+# icons/hicolor/16x16/apps/system-logo-icon.png = cannot open `/builddir/build/ORIGINAL/redhat-logos-60.0.14/ORIG' (No such file or directory)
+icons/hicolor/16x16/apps/system-logo-icon.png: copy
+# icons/hicolor/32x32/apps/system-logo-icon.png = cannot open `/builddir/build/ORIGINAL/redhat-logos-60.0.14/ORIG' (No such file or directory)
+icons/hicolor/32x32/apps/system-logo-icon.png: copy
+# icons/hicolor/24x24/apps/system-logo-icon.png = cannot open `/builddir/build/ORIGINAL/redhat-logos-60.0.14/ORIG' (No such file or directory)
+icons/hicolor/24x24/apps/system-logo-icon.png: copy
+# debugfiles.list = cannot open `/builddir/build/ORIGINAL/redhat-logos-60.0.14/ORIG' (No such file or directory)
+debugfiles.list: copy
+# kde-plasma/CentOS6/metadata.desktop = cannot open `/builddir/build/ORIGINAL/redhat-logos-60.0.14/ORIG' (No such file or directory)
+Name=CentOS 6
+X-KDE-PluginInfo-Name=CentOS6
+X-KDE-PluginInfo-Author=CentOS
+kde-plasma/CentOS6/metadata.desktop: false
+# kde-plasma/CentOS6/contents/images/1920x1200.png = cannot open `/builddir/build/ORIGINAL/redhat-logos-60.0.14/ORIG' (No such file or directory)
+kde-plasma/CentOS6/contents/images/1920x1200.png: copy
+# kde-plasma/CentOS6/contents/images/simple_waves.jpg = cannot open `/builddir/build/ORIGINAL/redhat-logos-60.0.14/ORIG' (No such file or directory)
+kde-plasma/CentOS6/contents/images/simple_waves.jpg: copy
+# kde-plasma/CentOS6/contents/images/1920x1440.png = cannot open `/builddir/build/ORIGINAL/redhat-logos-60.0.14/ORIG' (No such file or directory)
+kde-plasma/CentOS6/contents/images/1920x1440.png: copy
+# COPYING = cannot open `/builddir/build/ORIGINAL/redhat-logos-60.0.14/ORIG' (No such file or directory)
+incorporate the CentOS trademark, and CentOS logo (the "Marks"). 
+The CentOS Project grants you the right to use the Package during the
+Package.  The CentOS Project grants to you the right and license to copy
+CentOS.
+DISCLAIMED.  IN NO EVENT SHALL THE CENTOS PROJECT. BE LIABLE FOR ANY
+COPYING: false
+# kde-splash/CentOS6/1920x1200/progressbar1.png = cannot open `/builddir/build/ORIGINAL/redhat-logos-60.0.14/ORIG' (No such file or directory)
+kde-splash/CentOS6/1920x1200/progressbar1.png: copy
+# kde-splash/CentOS6/1920x1200/progressbar4.png = cannot open `/builddir/build/ORIGINAL/redhat-logos-60.0.14/ORIG' (No such file or directory)
+kde-splash/CentOS6/1920x1200/progressbar4.png: copy
+# kde-splash/CentOS6/1920x1200/progressbar3.png = cannot open `/builddir/build/ORIGINAL/redhat-logos-60.0.14/ORIG' (No such file or directory)
+kde-splash/CentOS6/1920x1200/progressbar3.png: copy
+# kde-splash/CentOS6/1920x1200/progressbar2.png = cannot open `/builddir/build/ORIGINAL/redhat-logos-60.0.14/ORIG' (No such file or directory)
+kde-splash/CentOS6/1920x1200/progressbar2.png: copy
+# kde-splash/CentOS6/1920x1200/progressbar5.png = cannot open `/builddir/build/ORIGINAL/redhat-logos-60.0.14/ORIG' (No such file or directory)
+kde-splash/CentOS6/1920x1200/progressbar5.png: copy
+# kde-splash/CentOS6/1920x1200/description.txt = cannot open `/builddir/build/ORIGINAL/redhat-logos-60.0.14/ORIG' (No such file or directory)
+kde-splash/CentOS6/1920x1200/description.txt: copy
+# kde-splash/CentOS6/Theme.rc = cannot open `/builddir/build/ORIGINAL/redhat-logos-60.0.14/ORIG' (No such file or directory)
+[KSplash Theme: CentOS6]
+Name = CentOS6
+Description = CentOS 6 Theme
+Author = CentOS
+Homepage = http://centos.org
+kde-splash/CentOS6/Theme.rc: false
+# kde-splash/CentOS6/Preview.png = cannot open `/builddir/build/ORIGINAL/redhat-logos-60.0.14/ORIG' (No such file or directory)
+kde-splash/CentOS6/Preview.png: copy
+# gnome-screensaver/lock-dialog-system.glade = cannot open `/builddir/build/ORIGINAL/redhat-logos-60.0.14/ORIG' (No such file or directory)
+gnome-screensaver/lock-dialog-system.glade: copy
+# gnome-screensaver/lock-dialog-system.png = cannot open `/builddir/build/ORIGINAL/redhat-logos-60.0.14/ORIG' (No such file or directory)
+gnome-screensaver/lock-dialog-system.png: copy
+# gnome-screensaver/lock-dialog-system.gtkrc = cannot open `/builddir/build/ORIGINAL/redhat-logos-60.0.14/ORIG' (No such file or directory)
+gnome-screensaver/lock-dialog-system.gtkrc: copy
+# redhat-pixmaps/rpmlogo-64.png = cannot open `/builddir/build/ORIGINAL/redhat-logos-60.0.14/ORIG' (No such file or directory)
+redhat-pixmaps/rpmlogo-64.png: copy
+# redhat-pixmaps/rpmlogo-mini.png = cannot open `/builddir/build/ORIGINAL/redhat-logos-60.0.14/ORIG' (No such file or directory)
+redhat-pixmaps/rpmlogo-mini.png: copy
+# redhat-pixmaps/rpmlogo-200.png = cannot open `/builddir/build/ORIGINAL/redhat-logos-60.0.14/ORIG' (No such file or directory)
+redhat-pixmaps/rpmlogo-200.png: copy
+# redhat-pixmaps/rpmlogo-32.png = cannot open `/builddir/build/ORIGINAL/redhat-logos-60.0.14/ORIG' (No such file or directory)
+redhat-pixmaps/rpmlogo-32.png: copy
+# redhat-pixmaps/shadowman-transparent.png = cannot open `/builddir/build/ORIGINAL/redhat-logos-60.0.14/ORIG' (No such file or directory)
+redhat-pixmaps/shadowman-transparent.png: copy
+# redhat-pixmaps/rhad.png = cannot open `/builddir/build/ORIGINAL/redhat-logos-60.0.14/ORIG' (No such file or directory)
+redhat-pixmaps/rhad.png: copy
+# redhat-pixmaps/rpm.tif = cannot open `/builddir/build/ORIGINAL/redhat-logos-60.0.14/ORIG' (No such file or directory)
+redhat-pixmaps/rpm.tif: copy
+# redhat-pixmaps/rpmlogo-48.png = cannot open `/builddir/build/ORIGINAL/redhat-logos-60.0.14/ORIG' (No such file or directory)
+redhat-pixmaps/rpmlogo-48.png: copy
+# redhat-logos-60.0.14.tar.bz2 = cannot open `/builddir/build/ORIGINAL/redhat-logos-60.0.14/ORIG' (No such file or directory)
+redhat-logos-60.0.14.tar.bz2: copy

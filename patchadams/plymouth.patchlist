@@ -1,0 +1,43 @@
+# Patchlist created Sat Mar  1 18:38:03 CST 2014
+# serial-console-fixes.patch = cannot open `/builddir/build/SOURCES/ORIG' (No such file or directory)
+serial-console-fixes.patch: copy
+# fix-assertion-on-shutdown.patch = cannot open `/builddir/build/SOURCES/ORIG' (No such file or directory)
+fix-assertion-on-shutdown.patch: copy
+# use-monospace-font.patch = cannot open `/builddir/build/SOURCES/ORIG' (No such file or directory)
+use-monospace-font.patch: copy
+# plymouth-0.8.3-i915.patch = cannot open `/builddir/build/SOURCES/ORIG' (No such file or directory)
+plymouth-0.8.3-i915.patch: copy
+# plymouth-0.8.3.tar.bz2 = cannot open `/builddir/build/SOURCES/ORIG' (No such file or directory)
+plymouth-0.8.3.tar.bz2: copy
+# fix-stair-stepping.patch = cannot open `/builddir/build/SOURCES/ORIG' (No such file or directory)
+fix-stair-stepping.patch: copy
+# build-details-in.patch = cannot open `/builddir/build/SOURCES/ORIG' (No such file or directory)
+build-details-in.patch: copy
+# plymouth-update-initrd = cannot open `/builddir/build/SOURCES/ORIG' (No such file or directory)
+plymouth-update-initrd: copy
+# rings.plymouth = cannot open `/builddir/build/SOURCES/ORIG' (No such file or directory)
+rings.plymouth: copy
+# boot-duration = cannot open `/builddir/build/SOURCES/ORIG' (No such file or directory)
+boot-duration: copy
+# lock.png = cannot open `/builddir/build/SOURCES/ORIG' (No such file or directory)
+lock.png: copy
+# return-text.patch = cannot open `/builddir/build/SOURCES/ORIG' (No such file or directory)
+return-text.patch: copy
+# fix-exit-crash-with-details.patch = cannot open `/builddir/build/SOURCES/ORIG' (No such file or directory)
+fix-exit-crash-with-details.patch: copy
+# tty-fix.patch = cannot open `/builddir/build/SOURCES/ORIG' (No such file or directory)
+tty-fix.patch: copy
+# add-window-icon.patch = cannot open `/builddir/build/SOURCES/ORIG' (No such file or directory)
+add-window-icon.patch: copy
+# force-enter-to-output-newline.patch = cannot open `/builddir/build/SOURCES/ORIG' (No such file or directory)
+force-enter-to-output-newline.patch: copy
+# better-tty-fallback.patch = cannot open `/builddir/build/SOURCES/ORIG' (No such file or directory)
+better-tty-fallback.patch: copy
+# handle-cloned-outputs.patch = cannot open `/builddir/build/SOURCES/ORIG' (No such file or directory)
+handle-cloned-outputs.patch: copy
+# filter-out-duplicate-consoles.patch = cannot open `/builddir/build/SOURCES/ORIG' (No such file or directory)
+filter-out-duplicate-consoles.patch: copy
+# fix-throbber-glitch.patch = cannot open `/builddir/build/SOURCES/ORIG' (No such file or directory)
+fix-throbber-glitch.patch: copy
+# fix-watch-keystroke.patch = cannot open `/builddir/build/SOURCES/ORIG' (No such file or directory)
+fix-watch-keystroke.patch: copy

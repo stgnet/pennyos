@@ -4,6 +4,9 @@
 # the project name
 NAME="PennyOS"
 
+# sed script file containing instructions for removing trademark
+SED="pennyos.sed"
+
 # a square transparent image containing project logo
 LOGO="US_Penny_front_T.png"
 
