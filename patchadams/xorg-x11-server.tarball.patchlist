@@ -1,0 +1,5176 @@
+# Patchlist created Sun Mar  2 22:49:14 CST 2014
+
+# docbook.am = ASCII English text 
+docbook.am: copy
+
+# doc/Xinput.xml = XML  document text 
+doc/Xinput.xml: copy
+
+# doc/Makefile.am = ASCII text 
+doc/Makefile.am: copy
+
+# doc/smartsched = ASCII English text 
+doc/smartsched: copy
+
+# doc/dtrace/Makefile.am = ASCII English text 
+doc/dtrace/Makefile.am: copy
+
+# doc/dtrace/Xserver-DTrace.xml = XML  document text 
+doc/dtrace/Xserver-DTrace.xml: copy
+
+# doc/dtrace/Makefile.in = ASCII English text 
+doc/dtrace/Makefile.in: copy
+
+# doc/Xserver-spec.xml = XML  document text 
+doc/Xserver-spec.xml: copy
+
+# doc/Makefile.in = ASCII English text 
+doc/Makefile.in: copy
+
+# xorg-server.pc.in = ASCII text 
+xorg-server.pc.in: copy
+
+# Xi/chgfctl.c = ASCII English text 
+Xi/chgfctl.c: copy
+
+# Xi/ungrdev.c = ASCII English text 
+Xi/ungrdev.c: copy
+
+# Xi/stubs.c = ASCII English text 
+Xi/stubs.c: copy
+
+# Xi/queryst.h = ASCII English text 
+Xi/queryst.h: copy
+
+# Xi/setmode.c = ASCII English text 
+Xi/setmode.c: copy
+
+# Xi/grabdevb.c = ASCII English text 
+Xi/grabdevb.c: copy
+
+# Xi/chgkmap.h = ASCII English text 
+Xi/chgkmap.h: copy
+
+# Xi/grabdevb.h = ASCII English text 
+Xi/grabdevb.h: copy
+
+# Xi/chgkbd.c = ASCII English text 
+Xi/chgkbd.c: copy
+
+# Xi/xisetdevfocus.c = ASCII C program text 
+Xi/xisetdevfocus.c: copy
+
+# Xi/xiwarppointer.c = ASCII C program text 
+Xi/xiwarppointer.c: copy
+
+# Xi/xiselectev.c = ASCII C program text 
+Xi/xiselectev.c: copy
+
+# Xi/devbell.h = ASCII English text 
+Xi/devbell.h: copy
+
+# Xi/getmmap.h = ASCII English text 
+Xi/getmmap.h: copy
+
+# Xi/xiqueryversion.h = UTF-8 Unicode C program text 
+Xi/xiqueryversion.h: copy
+
+# Xi/chgprop.c = ASCII English text 
+Xi/chgprop.c: copy
+
+# Xi/xiselectev.h = ASCII C program text 
+Xi/xiselectev.h: copy
+
+# Xi/selectev.c = ASCII English text 
+Xi/selectev.c: copy
+
+# Xi/setbmap.h = ASCII English text 
+Xi/setbmap.h: copy
+
+# Xi/queryst.c = ASCII C program text 
+Xi/queryst.c: copy
+
+# Xi/xiquerypointer.h = ASCII C program text 
+Xi/xiquerypointer.h: copy
+
+# Xi/selectev.h = ASCII English text 
+Xi/selectev.h: copy
+
+# Xi/Makefile.am = ASCII text 
+Xi/Makefile.am: copy
+
+# Xi/xichangehierarchy.c = ASCII C program text 
+Xi/xichangehierarchy.c: copy
+
+# Xi/gtmotion.c = ASCII English text 
+Xi/gtmotion.c: copy
+
+# Xi/ungrdev.h = ASCII English text 
+Xi/ungrdev.h: copy
+
+# Xi/ungrdevk.h = ASCII English text 
+Xi/ungrdevk.h: copy
+
+# Xi/exevents.c = UTF-8 Unicode English text 
+Xi/exevents.c: copy
+
+# Xi/allowev.c = ASCII English text 
+Xi/allowev.c: copy
+
+# Xi/xiquerydevice.h = UTF-8 Unicode C program text 
+Xi/xiquerydevice.h: copy
+
+# Xi/xisetclientpointer.c = ASCII C program text 
+Xi/xisetclientpointer.c: copy
+
+# Xi/grabdevk.c = ASCII English text 
+Xi/grabdevk.c: copy
+
+# Xi/setdval.h = ASCII English text 
+Xi/setdval.h: copy
+
+# Xi/setmmap.h = ASCII English text 
+Xi/setmmap.h: copy
+
+# Xi/xiallowev.h = UTF-8 Unicode C program text 
+Xi/xiallowev.h: copy
+
+# Xi/getfocus.c = ASCII English text 
+Xi/getfocus.c: copy
+
+# Xi/xichangecursor.h = ASCII C program text 
+Xi/xichangecursor.h: copy
+
+# Xi/ungrdevk.c = ASCII English text 
+Xi/ungrdevk.c: copy
+
+# Xi/xipassivegrab.h = UTF-8 Unicode C program text 
+Xi/xipassivegrab.h: copy
+
+# Xi/getselev.h = ASCII English text 
+Xi/getselev.h: copy
+
+# Xi/chgprop.h = ASCII English text 
+Xi/chgprop.h: copy
+
+# Xi/setfocus.c = ASCII English text 
+Xi/setfocus.c: copy
+
+# Xi/setbmap.c = ASCII English text 
+Xi/setbmap.c: copy
+
+# Xi/xipassivegrab.c = UTF-8 Unicode C program text 
+Xi/xipassivegrab.c: copy
+
+# Xi/xichangecursor.c = ASCII C program text 
+Xi/xichangecursor.c: copy
+
+# Xi/xigetclientpointer.h = ASCII C program text 
+Xi/xigetclientpointer.h: copy
+
+# Xi/closedev.c = ASCII English text 
+Xi/closedev.c: copy
+
+# Xi/grabdevk.h = ASCII English text 
+Xi/grabdevk.h: copy
+
+# Xi/getdctl.c = ASCII English text 
+Xi/getdctl.c: copy
+
+# Xi/opendev.h = ASCII English text 
+Xi/opendev.h: copy
+
+# Xi/chgfctl.h = ASCII English text 
+Xi/chgfctl.h: copy
+
+# Xi/grabdev.h = ASCII English text 
+Xi/grabdev.h: copy
+
+# Xi/ungrdevb.h = ASCII English text 
+Xi/ungrdevb.h: copy
+
+# Xi/xiquerypointer.c = ASCII C program text 
+Xi/xiquerypointer.c: copy
+
+# Xi/xisetdevfocus.h = ASCII C program text 
+Xi/xisetdevfocus.h: copy
+
+# Xi/grabdev.c = ASCII English text 
+Xi/grabdev.c: copy
+
+# Xi/sendexev.c = ASCII English text 
+Xi/sendexev.c: copy
+
+# Xi/getdctl.h = ASCII English text 
+Xi/getdctl.h: copy
+
+# Xi/xiallowev.c = UTF-8 Unicode C program text 
+Xi/xiallowev.c: copy
+
+# Xi/xigrabdev.h = UTF-8 Unicode C program text 
+Xi/xigrabdev.h: copy
+
+# Xi/sendexev.h = ASCII English text 
+Xi/sendexev.h: copy
+
+# Xi/getfctl.h = ASCII English text 
+Xi/getfctl.h: copy
+
+# Xi/xiquerydevice.c = UTF-8 Unicode C program text 
+Xi/xiquerydevice.c: copy
+
+# Xi/getprop.c = ASCII English text 
+Xi/getprop.c: copy
+
+# Xi/chgkbd.h = ASCII English text 
+Xi/chgkbd.h: copy
+
+# Xi/getkmap.h = ASCII English text 
+Xi/getkmap.h: copy
+
+# Xi/extinit.c = ASCII English text 
+Xi/extinit.c: copy
+
+# Xi/devbell.c = ASCII English text 
+Xi/devbell.c: copy
+
+# Xi/getvers.c = ASCII English text 
+Xi/getvers.c: copy
+
+# Xi/opendev.c = ASCII English text 
+Xi/opendev.c: copy
+
+# Xi/exglobals.h = ASCII English text 
+Xi/exglobals.h: copy
+
+# Xi/getkmap.c = ASCII English text 
+Xi/getkmap.c: copy
+
+# Xi/xiproperty.c = UTF-8 Unicode C program text 
+Xi/xiproperty.c: copy
+
+# Xi/xisetclientpointer.h = ASCII C program text 
+Xi/xisetclientpointer.h: copy
+
+# Xi/getprop.h = ASCII English text 
+Xi/getprop.h: copy
+
+# Xi/getfocus.h = ASCII English text 
+Xi/getfocus.h: copy
+
+# Xi/getselev.c = ASCII English text 
+Xi/getselev.c: copy
+
+# Xi/getbmap.c = ASCII English text 
+Xi/getbmap.c: copy
+
+# Xi/listdev.c = ASCII English text 
+Xi/listdev.c: copy
+
+# Xi/ungrdevb.c = ASCII English text 
+Xi/ungrdevb.c: copy
+
+# Xi/getvers.h = ASCII English text 
+Xi/getvers.h: copy
+
+# Xi/xichangehierarchy.h = ASCII C program text 
+Xi/xichangehierarchy.h: copy
+
+# Xi/chgptr.c = ASCII English text 
+Xi/chgptr.c: copy
+
+# Xi/chgkmap.c = ASCII English text 
+Xi/chgkmap.c: copy
+
+# Xi/xiproperty.h = UTF-8 Unicode C program text 
+Xi/xiproperty.h: copy
+
+# Xi/chgptr.h = ASCII English text 
+Xi/chgptr.h: copy
+
+# Xi/gtmotion.h = ASCII English text 
+Xi/gtmotion.h: copy
+
+# Xi/chgdctl.c = ASCII English text 
+Xi/chgdctl.c: copy
+
+# Xi/getfctl.c = ASCII English text 
+Xi/getfctl.c: copy
+
+# Xi/xigrabdev.c = UTF-8 Unicode C program text 
+Xi/xigrabdev.c: copy
+
+# Xi/setmode.h = ASCII English text 
+Xi/setmode.h: copy
+
+# Xi/setmmap.c = ASCII English text 
+Xi/setmmap.c: copy
+
+# Xi/xigetclientpointer.c = ASCII C program text 
+Xi/xigetclientpointer.c: copy
+
+# Xi/setdval.c = ASCII English text 
+Xi/setdval.c: copy
+
+# Xi/chgdctl.h = ASCII English text 
+Xi/chgdctl.h: copy
+
+# Xi/getmmap.c = ASCII English text 
+Xi/getmmap.c: copy
+
+# Xi/allowev.h = ASCII English text 
+Xi/allowev.h: copy
+
+# Xi/xiqueryversion.c = UTF-8 Unicode C program text 
+Xi/xiqueryversion.c: copy
+
+# Xi/Makefile.in = ASCII English text 
+Xi/Makefile.in: copy
+
+# Xi/getbmap.h = ASCII English text 
+Xi/getbmap.h: copy
+
+# Xi/xiwarppointer.h = ASCII C program text 
+Xi/xiwarppointer.h: copy
+
+# Xi/closedev.h = ASCII English text 
+Xi/closedev.h: copy
+
+# Xi/listdev.h = ASCII English text 
+Xi/listdev.h: copy
+
+# Xi/setfocus.h = ASCII English text 
+Xi/setfocus.h: copy
+
+# INSTALL = ASCII English text 
+INSTALL: copy
+
+# include/version-config.h.in = ASCII C program text 
+include/version-config.h.in: copy
+
+# include/dixfontstr.h = ASCII English text 
+include/dixfontstr.h: copy
+
+# include/events.h = UTF-8 Unicode C program text 
+include/events.h: copy
+
+# include/callback.h = ASCII English text 
+include/callback.h: copy
+
+# include/gcstruct.h = ASCII English text 
+include/gcstruct.h: copy
+
+# include/servermd.h = ASCII English text 
+include/servermd.h: copy
+
+# include/extension.h = ASCII English text 
+include/extension.h: copy
+
+# include/do-not-use-config.h.in = ASCII C program text 
+include/do-not-use-config.h.in: copy
+
+# include/glx_extinit.h = ASCII C program text 
+include/glx_extinit.h: copy
+
+# include/xsha1.h = ASCII C program text 
+include/xsha1.h: copy
+
+# include/ptrveloc.h = UTF-8 Unicode C program text 
+include/ptrveloc.h: copy
+
+# include/miscstruct.h = ASCII English text 
+include/miscstruct.h: copy
+
+# include/selection.h = ASCII English text 
+include/selection.h: copy
+
+# include/xwin-config.h.in = ASCII C program text 
+include/xwin-config.h.in: copy
+
+# include/Makefile.am = ASCII text 
+include/Makefile.am: copy
+
+# include/window.h = ASCII English text 
+include/window.h: copy
+
+# include/screenint.h = ASCII English text 
+include/screenint.h: copy
+
+# include/inputstr.h = ASCII English text 
+include/inputstr.h: copy
+
+# include/eventstr.h = UTF-8 Unicode C program text 
+include/eventstr.h: copy
+
+# include/closestr.h = ASCII C program text 
+include/closestr.h: copy
+
+# include/input.h = ASCII English text 
+include/input.h: copy
+
+# include/gc.h = ASCII English text 
+include/gc.h: copy
+
+# include/scrnintstr.h = ASCII English text 
+include/scrnintstr.h: copy
+
+# include/dixgrabs.h = ASCII English text 
+include/dixgrabs.h: copy
+
+# include/inpututils.h = UTF-8 Unicode C program text 
+include/inpututils.h: copy
+
+# include/site.h = ASCII English text 
+include/site.h: copy
+
+# include/colormap.h = ASCII C program text 
+include/colormap.h: copy
+
+# include/hotplug.h = UTF-8 Unicode C program text 
+include/hotplug.h: copy
+
+# include/colormapst.h = ASCII C program text 
+include/colormapst.h: copy
+
+# include/dix-config.h.in = ASCII C program text 
+include/dix-config.h.in: copy
+
+# include/validate.h = ASCII C program text 
+include/validate.h: copy
+
+# include/regionstr.h = ASCII English text 
+include/regionstr.h: copy
+
+# include/region.h = ASCII English text 
+include/region.h: copy
+
+# include/list.h = UTF-8 Unicode C program text 
+include/list.h: copy
+
+# include/pixmapstr.h = ASCII English text 
+include/pixmapstr.h: copy
+
+# include/extnsionst.h = ASCII English text 
+include/extnsionst.h: copy
+
+# include/xorg-config.h.in = ASCII C program text 
+include/xorg-config.h.in: copy
+
+# include/cursorstr.h = ASCII English text 
+include/cursorstr.h: copy
+
+# include/property.h = ASCII English text 
+include/property.h: copy
+
+# include/xkbfile.h = ASCII English text 
+include/xkbfile.h: copy
+
+# include/extinit.h = ASCII English text 
+include/extinit.h: copy
+
+# include/cursor.h = ASCII English text 
+include/cursor.h: copy
+
+# include/protocol-versions.h = UTF-8 Unicode C program text 
+include/protocol-versions.h: copy
+
+# include/os.h = ASCII English text 
+include/os.h: copy
+
+# include/privates.h = ASCII C program text 
+include/privates.h: copy
+
+# include/windowstr.h = ASCII English text 
+include/windowstr.h: copy
+
+# include/dixstruct.h = ASCII English text 
+include/dixstruct.h: copy
+
+# include/closure.h = ASCII English text 
+include/closure.h: copy
+
+# include/swapreq.h = ASCII English text 
+include/swapreq.h: copy
+
+# include/resource.h = ASCII English text 
+include/resource.h: copy
+
+# include/xkbrules.h = ASCII English text 
+include/xkbrules.h: copy
+
+# include/opaque.h = ASCII C program text 
+include/opaque.h: copy
+
+# include/Xprintf.h = ASCII C program text 
+include/Xprintf.h: copy
+
+# include/registry.h = ASCII C program text 
+include/registry.h: copy
+
+# include/optionstr.h = ASCII C program text 
+include/optionstr.h: copy
+
+# include/dixevents.h = ASCII English text 
+include/dixevents.h: copy
+
+# include/eventconvert.h = UTF-8 Unicode C program text 
+include/eventconvert.h: copy
+
+# include/pixmap.h = ASCII English text 
+include/pixmap.h: copy
+
+# include/dixfont.h = ASCII English text 
+include/dixfont.h: copy
+
+# include/client.h = UTF-8 Unicode C program text 
+include/client.h: copy
+
+# include/misc.h = ASCII English text 
+include/misc.h: copy
+
+# include/dixaccess.h = ASCII C program text 
+include/dixaccess.h: copy
+
+# include/xkbstr.h = ASCII English text 
+include/xkbstr.h: copy
+
+# include/rgb.h = ASCII English text 
+include/rgb.h: copy
+
+# include/globals.h = ASCII C program text 
+include/globals.h: copy
+
+# include/xserver-properties.h = ASCII C program text 
+include/xserver-properties.h: copy
+
+# include/xorg-server.h.in = ASCII C program text 
+include/xorg-server.h.in: copy
+
+# include/XIstubs.h = ASCII English text 
+include/XIstubs.h: copy
+
+# include/Makefile.in = ASCII English text 
+include/Makefile.in: copy
+
+# include/dix.h = ASCII English text 
+include/dix.h: copy
+
+# include/propertyst.h = ASCII English text 
+include/propertyst.h: copy
+
+# include/swaprep.h = ASCII English text 
+include/swaprep.h: copy
+
+# include/kdrive-config.h.in = ASCII C program text 
+include/kdrive-config.h.in: copy
+
+# include/dix-config-apple-verbatim.h = ASCII C program text 
+include/dix-config-apple-verbatim.h: copy
+
+# include/xkbsrv.h = ASCII English text 
+include/xkbsrv.h: copy
+
+# include/xkb-config.h.in = ASCII C program text 
+include/xkb-config.h.in: copy
+
+# include/exevents.h = ASCII English text 
+include/exevents.h: copy
+
+# aclocal.m4 = ASCII English text, with very long lines 
+aclocal.m4: copy
+
+# render/matrix.c = UTF-8 Unicode C program text 
+render/matrix.c: copy
+
+# render/picture.h = UTF-8 Unicode C program text 
+render/picture.h: copy
+
+# render/Makefile.am = ASCII text 
+render/Makefile.am: copy
+
+# render/picturestr.h = UTF-8 Unicode C program text 
+render/picturestr.h: copy
+
+# render/filter.c = UTF-8 Unicode C program text 
+render/filter.c: copy
+
+# render/mipict.c = UTF-8 Unicode C program text 
+render/mipict.c: copy
+
+# render/picture.c = UTF-8 Unicode C program text 
+render/picture.c: copy
+
+# render/glyphstr.h = UTF-8 Unicode C program text 
+render/glyphstr.h: copy
+
+# render/mitri.c = UTF-8 Unicode C program text 
+render/mitri.c: copy
+
+# render/miindex.c = UTF-8 Unicode C program text 
+render/miindex.c: copy
+
+# render/animcur.c = UTF-8 Unicode C program text 
+render/animcur.c: copy
+
+# render/mitrap.c = UTF-8 Unicode C program text 
+render/mitrap.c: copy
+
+# render/mipict.h = UTF-8 Unicode C program text 
+render/mipict.h: copy
+
+# render/mirect.c = UTF-8 Unicode C program text 
+render/mirect.c: copy
+
+# render/render.c = UTF-8 Unicode C program text 
+render/render.c: copy
+
+# render/Makefile.in = ASCII English text 
+render/Makefile.in: copy
+
+# render/glyph.c = UTF-8 Unicode C program text 
+render/glyph.c: copy
+
+# Makefile.am = ASCII Pascal program text 
+Makefile.am: copy
+
+# dix/dispatch.c = ASCII English text 
+dix/dispatch.c: copy
+
+# dix/initatoms.c = ASCII C program text 
+dix/initatoms.c: copy
+
+# dix/swapreq.c = ASCII English text 
+dix/swapreq.c: copy
+
+# dix/region.c = ASCII English text 
+dix/region.c: copy
+
+# dix/gc.c = ASCII English text 
+dix/gc.c: copy
+
+# dix/dixutils.c = ASCII English text 
+dix/dixutils.c: copy
+
+# dix/dispatch.h = ASCII English text 
+dix/dispatch.h: copy
+
+# dix/enterleave.c = UTF-8 Unicode C program text 
+dix/enterleave.c: copy
+
+# dix/Makefile.am = ASCII text 
+dix/Makefile.am: copy
+
+# dix/main.c = ASCII English text 
+dix/main.c: copy
+
+# dix/Xserver-dtrace.h.in = ASCII C program text 
+dix/Xserver-dtrace.h.in: copy
+
+# dix/ptrveloc.c = UTF-8 Unicode C program text 
+dix/ptrveloc.c: copy
+
+# dix/inpututils.c = UTF-8 Unicode C program text 
+dix/inpututils.c: copy
+
+# dix/property.c = ASCII English text 
+dix/property.c: copy
+
+# dix/cursor.c = ASCII English text 
+dix/cursor.c: copy
+
+# dix/protocol.txt = ASCII text 
+dix/protocol.txt: copy
+
+# dix/pixmap.c = ASCII C program text 
+dix/pixmap.c: copy
+
+# dix/tables.c = ASCII English text 
+dix/tables.c: copy
+
+# dix/globals.c = ASCII English text 
+dix/globals.c: copy
+
+# dix/enterleave.h = UTF-8 Unicode C program text 
+dix/enterleave.h: copy
+
+# dix/window.c = ASCII C program text 
+dix/window.c: copy
+
+# dix/resource.c = ASCII English text 
+dix/resource.c: copy
+
+# dix/registry.c = ASCII English text 
+dix/registry.c: copy
+
+# dix/ffs.c = ASCII C program text 
+dix/ffs.c: copy
+
+# dix/glyphcurs.c = ASCII English text 
+dix/glyphcurs.c: copy
+
+# dix/extension.c = ASCII English text 
+dix/extension.c: copy
+
+# dix/touch.c = UTF-8 Unicode C program text 
+dix/touch.c: copy
+
+# dix/BuiltInAtoms = ASCII English text 
+dix/BuiltInAtoms: copy
+
+# dix/buildatoms = POSIX shell script text executable 
+dix/buildatoms: copy
+
+# dix/privates.c = UTF-8 Unicode C program text 
+dix/privates.c: copy
+
+# dix/events.c = ASCII English text 
+dix/events.c: copy
+
+# dix/getevents.c = UTF-8 Unicode C program text 
+dix/getevents.c: copy
+
+# dix/Xserver.d = ASCII C program text 
+dix/Xserver.d: copy
+
+# dix/selection.c = ASCII English text 
+dix/selection.c: copy
+
+# dix/dixfonts.c = ASCII English text 
+dix/dixfonts.c: copy
+
+# dix/atom.c = ASCII English text 
+dix/atom.c: copy
+
+# dix/devices.c = ASCII English text 
+dix/devices.c: copy
+
+# dix/grabs.c = ASCII C program text 
+dix/grabs.c: copy
+
+# dix/colormap.c = ASCII English text 
+dix/colormap.c: copy
+
+# dix/swaprep.c = ASCII English text 
+dix/swaprep.c: copy
+
+# dix/Makefile.in = ASCII English text 
+dix/Makefile.in: copy
+
+# dix/eventconvert.c = UTF-8 Unicode C program text 
+dix/eventconvert.c: copy
+
+# config.guess = POSIX shell script text executable 
+config.guess: copy
+
+# miext/Makefile.am = ASCII text 
+miext/Makefile.am: copy
+
+# miext/damage/Makefile.am = ASCII text 
+miext/damage/Makefile.am: copy
+
+# miext/damage/damage.c = UTF-8 Unicode C program text 
+miext/damage/damage.c: copy
+
+# miext/damage/damagestr.h = UTF-8 Unicode C program text 
+miext/damage/damagestr.h: copy
+
+# miext/damage/damage.h = UTF-8 Unicode C program text 
+miext/damage/damage.h: copy
+
+# miext/damage/Makefile.in = ASCII English text 
+miext/damage/Makefile.in: copy
+
+# miext/sync/misync.c = UTF-8 Unicode C program text 
+miext/sync/misync.c: copy
+
+# miext/sync/Makefile.am = ASCII text 
+miext/sync/Makefile.am: copy
+
+# miext/sync/misyncstr.h = UTF-8 Unicode C program text 
+miext/sync/misyncstr.h: copy
+
+# miext/sync/misync.h = UTF-8 Unicode C program text 
+miext/sync/misync.h: copy
+
+# miext/sync/Makefile.in = ASCII English text 
+miext/sync/Makefile.in: copy
+
+# miext/shadow/shrot32pack.c = UTF-8 Unicode C program text 
+miext/shadow/shrot32pack.c: copy
+
+# miext/shadow/shplanar.c = UTF-8 Unicode C program text 
+miext/shadow/shplanar.c: copy
+
+# miext/shadow/shplanar8.c = UTF-8 Unicode C program text 
+miext/shadow/shplanar8.c: copy
+
+# miext/shadow/shrotate.c = UTF-8 Unicode C program text 
+miext/shadow/shrotate.c: copy
+
+# miext/shadow/Makefile.am = ASCII text 
+miext/shadow/Makefile.am: copy
+
+# miext/shadow/shpacked.c = UTF-8 Unicode C program text 
+miext/shadow/shpacked.c: copy
+
+# miext/shadow/shrot8pack_180.c = UTF-8 Unicode C program text 
+miext/shadow/shrot8pack_180.c: copy
+
+# miext/shadow/shrot16pack.c = UTF-8 Unicode C program text 
+miext/shadow/shrot16pack.c: copy
+
+# miext/shadow/shadow.c = UTF-8 Unicode C program text 
+miext/shadow/shadow.c: copy
+
+# miext/shadow/shrotpackYX.h = UTF-8 Unicode C program text 
+miext/shadow/shrotpackYX.h: copy
+
+# miext/shadow/shrot16pack_180.c = UTF-8 Unicode C program text 
+miext/shadow/shrot16pack_180.c: copy
+
+# miext/shadow/shrot32pack_90.c = UTF-8 Unicode C program text 
+miext/shadow/shrot32pack_90.c: copy
+
+# miext/shadow/shrot32pack_270.c = UTF-8 Unicode C program text 
+miext/shadow/shrot32pack_270.c: copy
+
+# miext/shadow/shrotpack.h = UTF-8 Unicode C program text 
+miext/shadow/shrotpack.h: copy
+
+# miext/shadow/shrot8pack.c = UTF-8 Unicode C program text 
+miext/shadow/shrot8pack.c: copy
+
+# miext/shadow/shrot16pack_90YX.c = ASCII C program text 
+miext/shadow/shrot16pack_90YX.c: copy
+
+# miext/shadow/shrot16pack_270YX.c = ASCII C program text 
+miext/shadow/shrot16pack_270YX.c: copy
+
+# miext/shadow/shrot8pack_90.c = UTF-8 Unicode C program text 
+miext/shadow/shrot8pack_90.c: copy
+
+# miext/shadow/shadow.h = UTF-8 Unicode C program text 
+miext/shadow/shadow.h: copy
+
+# miext/shadow/shrot8pack_270.c = UTF-8 Unicode C program text 
+miext/shadow/shrot8pack_270.c: copy
+
+# miext/shadow/shrot16pack_270.c = UTF-8 Unicode C program text 
+miext/shadow/shrot16pack_270.c: copy
+
+# miext/shadow/shrot16pack_90.c = UTF-8 Unicode C program text 
+miext/shadow/shrot16pack_90.c: copy
+
+# miext/shadow/shrot32pack_180.c = UTF-8 Unicode C program text 
+miext/shadow/shrot32pack_180.c: copy
+
+# miext/shadow/Makefile.in = ASCII English text 
+miext/shadow/Makefile.in: copy
+
+# miext/shadow/shalloc.c = UTF-8 Unicode C program text 
+miext/shadow/shalloc.c: copy
+
+# miext/rootless/rootlessWindow.h = ASCII C program text 
+miext/rootless/rootlessWindow.h: copy
+
+# miext/rootless/rootless.h = ASCII C program text 
+miext/rootless/rootless.h: copy
+
+# miext/rootless/Makefile.am = ASCII text 
+miext/rootless/Makefile.am: copy
+
+# miext/rootless/rootlessScreen.c = ASCII C program text 
+miext/rootless/rootlessScreen.c: copy
+
+# miext/rootless/rootlessGC.c = ASCII C program text 
+miext/rootless/rootlessGC.c: copy
+
+# miext/rootless/rootlessCommon.c = ASCII C program text 
+miext/rootless/rootlessCommon.c: copy
+
+# miext/rootless/rootlessCommon.h = ASCII C program text 
+miext/rootless/rootlessCommon.h: copy
+
+# miext/rootless/README.txt = ASCII English text 
+miext/rootless/README.txt: copy
+
+# miext/rootless/rootlessWindow.c = ASCII C program text 
+miext/rootless/rootlessWindow.c: copy
+
+# miext/rootless/rootlessConfig.h = ASCII C program text 
+miext/rootless/rootlessConfig.h: copy
+
+# miext/rootless/rootlessValTree.c = ASCII C program text 
+miext/rootless/rootlessValTree.c: copy
+
+# miext/rootless/Makefile.in = ASCII English text 
+miext/rootless/Makefile.in: copy
+
+# miext/Makefile.in = ASCII English text 
+miext/Makefile.in: copy
+
+# mi/mivalidate.h = ASCII C program text 
+mi/mivalidate.h: copy
+
+# mi/mizerarc.c = ASCII English text 
+mi/mizerarc.c: copy
+
+# mi/miscanfill.h = ASCII C program text 
+mi/miscanfill.h: copy
+
+# mi/miarc.c = ASCII English text 
+mi/miarc.c: copy
+
+# mi/midash.c = ASCII English text 
+mi/midash.c: copy
+
+# mi/micmap.c = ASCII C program text 
+mi/micmap.c: copy
+
+# mi/miwindow.c = ASCII English text 
+mi/miwindow.c: copy
+
+# mi/miglblt.c = ASCII English text 
+mi/miglblt.c: copy
+
+# mi/Makefile.am = ASCII text 
+mi/Makefile.am: copy
+
+# mi/mioverlay.c = ASCII C program text 
+mi/mioverlay.c: copy
+
+# mi/midispcur.c = ASCII C program text 
+mi/midispcur.c: copy
+
+# mi/mistruct.h = ASCII English text 
+mi/mistruct.h: copy
+
+# mi/mipointrst.h = ASCII C program text 
+mi/mipointrst.h: copy
+
+# mi/micopy.c = UTF-8 Unicode C program text 
+mi/micopy.c: copy
+
+# mi/mipoly.h = ASCII C program text 
+mi/mipoly.h: copy
+
+# mi/mivaltree.c = ASCII C program text 
+mi/mivaltree.c: copy
+
+# mi/mipolyutil.c = ASCII English text 
+mi/mipolyutil.c: copy
+
+# mi/misprite.c = ASCII C program text 
+mi/misprite.c: copy
+
+# mi/mifillrct.c = ASCII English text 
+mi/mifillrct.c: copy
+
+# mi/miwideline.c = ASCII C program text 
+mi/miwideline.c: copy
+
+# mi/mispans.c = ASCII English text 
+mi/mispans.c: copy
+
+# mi/mipolycon.c = ASCII English text 
+mi/mipolycon.c: copy
+
+# mi/mipoly.c = ASCII English text 
+mi/mipoly.c: copy
+
+# mi/miinitext.c = ASCII English text 
+mi/miinitext.c: copy
+
+# mi/mifpoly.h = ASCII English text 
+mi/mifpoly.h: copy
+
+# mi/micmap.h = ASCII C program text 
+mi/micmap.h: copy
+
+# mi/miscrinit.c = ASCII C program text 
+mi/miscrinit.c: copy
+
+# mi/migc.h = ASCII C program text 
+mi/migc.h: copy
+
+# mi/micoord.h = ASCII C program text 
+mi/micoord.h: copy
+
+# mi/mipolypnt.c = ASCII English text 
+mi/mipolypnt.c: copy
+
+# mi/mieq.c = ASCII C program text 
+mi/mieq.c: copy
+
+# mi/miwideline.h = ASCII C program text 
+mi/miwideline.h: copy
+
+# mi/mibitblt.c = ASCII English text 
+mi/mibitblt.c: copy
+
+# mi/mizerclip.c = ASCII English text 
+mi/mizerclip.c: copy
+
+# mi/mispans.h = ASCII English text 
+mi/mispans.h: copy
+
+# mi/mizerarc.h = ASCII English text 
+mi/mizerarc.h: copy
+
+# mi/mipolytext.c = ASCII English text 
+mi/mipolytext.c: copy
+
+# mi/mipointer.c = UTF-8 Unicode C program text 
+mi/mipointer.c: copy
+
+# mi/mipushpxl.c = ASCII English text 
+mi/mipushpxl.c: copy
+
+# mi/mifillarc.c = ASCII English text 
+mi/mifillarc.c: copy
+
+# mi/migc.c = ASCII C program text 
+mi/migc.c: copy
+
+# mi/mioverlay.h = ASCII C program text 
+mi/mioverlay.h: copy
+
+# mi/miline.h = ASCII C program text 
+mi/miline.h: copy
+
+# mi/mifpolycon.c = ASCII English text 
+mi/mifpolycon.c: copy
+
+# mi/micursor.c = ASCII English text 
+mi/micursor.c: copy
+
+# mi/mipolygen.c = ASCII English text 
+mi/mipolygen.c: copy
+
+# mi/miexpose.c = ASCII English text 
+mi/miexpose.c: copy
+
+# mi/mipointer.h = ASCII C program text 
+mi/mipointer.h: copy
+
+# mi/mibstore.h = ASCII English text 
+mi/mibstore.h: copy
+
+# mi/Makefile.in = ASCII English text 
+mi/Makefile.in: copy
+
+# mi/mipolyrect.c = ASCII English text 
+mi/mipolyrect.c: copy
+
+# mi/mifillarc.h = ASCII English text 
+mi/mifillarc.h: copy
+
+# mi/mipolyseg.c = ASCII English text 
+mi/mipolyseg.c: copy
+
+# mi/misprite.h = ASCII C program text 
+mi/misprite.h: copy
+
+# mi/mizerline.c = ASCII English text 
+mi/mizerline.c: copy
+
+# mi/mi.h = ASCII English text 
+mi/mi.h: copy
+
+# m4/ac_define_dir.m4 = ASCII English text 
+m4/ac_define_dir.m4: copy
+
+# m4/xorg-tls.m4 = UTF-8 Unicode M4 macro language pre-processor text 
+m4/xorg-tls.m4: copy
+
+# glx/indirect_dispatch.h = ASCII C program text 
+glx/indirect_dispatch.h: copy
+
+# glx/singlepixswap.c = ASCII C program text 
+glx/singlepixswap.c: copy
+
+# glx/render2.c = ASCII C program text 
+glx/render2.c: copy
+
+# glx/indirect_util.c = ASCII C program text 
+glx/indirect_util.c: copy
+
+# glx/dispatch.h = ASCII C program text 
+glx/dispatch.h: copy
+
+# glx/glxscreens.h = ASCII C program text 
+glx/glxscreens.h: copy
+
+# glx/indirect_dispatch_swap.c = ASCII C program text 
+glx/indirect_dispatch_swap.c: copy
+
+# glx/Makefile.am = ASCII text 
+glx/Makefile.am: copy
+
+# glx/glxdrawable.h = ASCII C program text 
+glx/glxdrawable.h: copy
+
+# glx/glxutil.h = ASCII C program text 
+glx/glxutil.h: copy
+
+# glx/xfont.c = ASCII C program text 
+glx/xfont.c: copy
+
+# glx/glthread.c = ASCII C program text 
+glx/glthread.c: copy
+
+# glx/glthread.h = ASCII C program text 
+glx/glthread.h: copy
+
+# glx/indirect_util.h = ASCII C program text 
+glx/indirect_util.h: copy
+
+# glx/glxdricommon.h = UTF-8 Unicode C program text 
+glx/glxdricommon.h: copy
+
+# glx/swap_interval.c = ASCII C program text 
+glx/swap_interval.c: copy
+
+# glx/glprocs.h = ASCII C program text 
+glx/glprocs.h: copy
+
+# glx/renderpix.c = ASCII C program text 
+glx/renderpix.c: copy
+
+# glx/glxscreens.c = ASCII C program text 
+glx/glxscreens.c: copy
+
+# glx/indirect_size_get.c = ASCII C program text 
+glx/indirect_size_get.c: copy
+
+# glx/render2swap.c = ASCII C program text 
+glx/render2swap.c: copy
+
+# glx/glxdri.c = UTF-8 Unicode C program text 
+glx/glxdri.c: copy
+
+# glx/singlesize.c = ASCII C program text 
+glx/singlesize.c: copy
+
+# glx/indirect_table.h = ASCII C program text 
+glx/indirect_table.h: copy
+
+# glx/indirect_table.c = ASCII C program text 
+glx/indirect_table.c: copy
+
+# glx/glxdri2.c = UTF-8 Unicode C program text 
+glx/glxdri2.c: copy
+
+# glx/glapi_gentable.c = ASCII C program text 
+glx/glapi_gentable.c: copy
+
+# glx/unpack.h = ASCII C program text 
+glx/unpack.h: copy
+
+# glx/glxext.c = ASCII C program text 
+glx/glxext.c: copy
+
+# glx/singlepix.c = ASCII C program text 
+glx/singlepix.c: copy
+
+# glx/glapitable.h = ASCII C program text 
+glx/glapitable.h: copy
+
+# glx/indirect_dispatch.c = ASCII C program text 
+glx/indirect_dispatch.c: copy
+
+# glx/glxext.h = ASCII C program text 
+glx/glxext.h: copy
+
+# glx/glxdricommon.c = UTF-8 Unicode C program text 
+glx/glxdricommon.c: copy
+
+# glx/glxbyteorder.h = ASCII C program text 
+glx/glxbyteorder.h: copy
+
+# glx/glxcontext.h = ASCII C program text 
+glx/glxcontext.h: copy
+
+# glx/single2swap.c = ASCII C program text 
+glx/single2swap.c: copy
+
+# glx/single2.c = ASCII C program text 
+glx/single2.c: copy
+
+# glx/indirect_texture_compression.c = ASCII C program text 
+glx/indirect_texture_compression.c: copy
+
+# glx/glxcmds.c = ASCII C program text 
+glx/glxcmds.c: copy
+
+# glx/indirect_reqsize.h = ASCII C program text 
+glx/indirect_reqsize.h: copy
+
+# glx/glapi.c = ASCII C program text 
+glx/glapi.c: copy
+
+# glx/clientinfo.c = UTF-8 Unicode C program text 
+glx/clientinfo.c: copy
+
+# glx/extension_string.c = ASCII C program text 
+glx/extension_string.c: copy
+
+# glx/renderpixswap.c = ASCII C program text 
+glx/renderpixswap.c: copy
+
+# glx/indirect_program.c = ASCII C program text 
+glx/indirect_program.c: copy
+
+# glx/glxdriswrast.c = UTF-8 Unicode C program text 
+glx/glxdriswrast.c: copy
+
+# glx/indirect_size_get.h = ASCII C program text 
+glx/indirect_size_get.h: copy
+
+# glx/glapi.h = LaTeX document text 
+glx/glapi.h: copy
+
+# glx/glxcmdsswap.c = ASCII C program text 
+glx/glxcmdsswap.c: copy
+
+# glx/glxserver.h = ASCII C program text 
+glx/glxserver.h: copy
+
+# glx/indirect_size.h = ASCII C program text 
+glx/indirect_size.h: copy
+
+# glx/Makefile.in = ASCII English text 
+glx/Makefile.in: copy
+
+# glx/singlesize.h = ASCII C program text 
+glx/singlesize.h: copy
+
+# glx/createcontext.c = UTF-8 Unicode C program text 
+glx/createcontext.c: copy
+
+# glx/extension_string.h = ASCII C program text 
+glx/extension_string.h: copy
+
+# glx/rensize.c = ASCII C program text 
+glx/rensize.c: copy
+
+# glx/indirect_reqsize.c = ASCII C program text 
+glx/indirect_reqsize.c: copy
+
+# os/backtrace.c = ASCII C program text 
+os/backtrace.c: copy
+
+# os/strlcpy.c = ASCII C program text 
+os/strlcpy.c: copy
+
+# os/oscolor.c = ASCII English text 
+os/oscolor.c: copy
+
+# os/xsha1.c = ASCII C program text 
+os/xsha1.c: copy
+
+# os/strlcat.c = ASCII C program text 
+os/strlcat.c: copy
+
+# os/access.c = ASCII English text 
+os/access.c: copy
+
+# os/Makefile.am = ASCII text 
+os/Makefile.am: copy
+
+# os/osinit.c = ASCII English text 
+os/osinit.c: copy
+
+# os/xdmauth.c = ASCII C program text 
+os/xdmauth.c: copy
+
+# os/xdmcp.c = ASCII C program text 
+os/xdmcp.c: copy
+
+# os/log.c = ASCII C program text 
+os/log.c: copy
+
+# os/strndup.c = ASCII C program text 
+os/strndup.c: copy
+
+# os/WaitFor.c = ASCII English text 
+os/WaitFor.c: copy
+
+# os/strcasecmp.c = ASCII C program text 
+os/strcasecmp.c: copy
+
+# os/xprintf.c = ASCII English text 
+os/xprintf.c: copy
+
+# os/auth.c = ASCII C program text 
+os/auth.c: copy
+
+# os/xstrans.c = ASCII C program text 
+os/xstrans.c: copy
+
+# os/client.c = UTF-8 Unicode C program text 
+os/client.c: copy
+
+# os/connection.c = ASCII English text 
+os/connection.c: copy
+
+# os/rpcauth.c = ASCII C program text 
+os/rpcauth.c: copy
+
+# os/io.c = ASCII English text 
+os/io.c: copy
+
+# os/Makefile.in = ASCII English text 
+os/Makefile.in: copy
+
+# os/mitauth.c = ASCII C program text 
+os/mitauth.c: copy
+
+# os/utils.c = ASCII C program text 
+os/utils.c: copy
+
+# os/strcasestr.c = ASCII English text 
+os/strcasestr.c: copy
+
+# os/osdep.h = ASCII English text 
+os/osdep.h: copy
+
+# autogen.sh = POSIX shell script text executable 
+autogen.sh: copy
+
+# ylwrap = POSIX shell script text executable 
+ylwrap: copy
+
+# README = ASCII English text 
+README: copy
+
+# record/Makefile.am = ASCII text 
+record/Makefile.am: copy
+
+# record/set.h = ASCII C program text 
+record/set.h: copy
+
+# record/set.c = ASCII C program text 
+record/set.c: copy
+
+# record/Makefile.in = ASCII English text 
+record/Makefile.in: copy
+
+# record/record.c = ASCII C program text 
+record/record.c: copy
+
+# ChangeLog = UTF-8 Unicode English text 
+ChangeLog: copy
+
+# xfixes/region.c = UTF-8 Unicode C program text 
+xfixes/region.c: copy
+
+# xfixes/select.c = UTF-8 Unicode C program text 
+xfixes/select.c: copy
+
+# xfixes/Makefile.am = ASCII text 
+xfixes/Makefile.am: copy
+
+# xfixes/cursor.c = UTF-8 Unicode C program text 
+xfixes/cursor.c: copy
+
+# xfixes/saveset.c = UTF-8 Unicode C program text 
+xfixes/saveset.c: copy
+
+# xfixes/xfixes.h = UTF-8 Unicode C program text 
+xfixes/xfixes.h: copy
+
+# xfixes/xfixesint.h = UTF-8 Unicode C program text 
+xfixes/xfixesint.h: copy
+
+# xfixes/xfixes.c = UTF-8 Unicode C program text 
+xfixes/xfixes.c: copy
+
+# xfixes/Makefile.in = ASCII English text 
+xfixes/Makefile.in: copy
+
+# hw/Makefile.am = ASCII text 
+hw/Makefile.am: copy
+
+# hw/xwin/winclipboardxevents.c = ASCII C program text 
+hw/xwin/winclipboardxevents.c: copy
+
+# hw/xwin/winmouse.c = ASCII C program text 
+hw/xwin/winmouse.c: copy
+
+# hw/xwin/winclipboardwrappers.c = ASCII C program text 
+hw/xwin/winclipboardwrappers.c: copy
+
+# hw/xwin/winmultiwindowclass.c = ASCII C program text 
+hw/xwin/winmultiwindowclass.c: copy
+
+# hw/xwin/windialogs.c = ASCII C program text 
+hw/xwin/windialogs.c: copy
+
+# hw/xwin/winclipboardtextconv.c = ASCII C program text 
+hw/xwin/winclipboardtextconv.c: copy
+
+# hw/xwin/winmultiwindowwm.c = ASCII C program text 
+hw/xwin/winmultiwindowwm.c: copy
+
+# hw/xwin/winwindow.c = ASCII C program text 
+hw/xwin/winwindow.c: copy
+
+# hw/xwin/wintrayicon.c = ASCII C program text 
+hw/xwin/wintrayicon.c: copy
+
+# hw/xwin/Makefile.am = ASCII text 
+hw/xwin/Makefile.am: copy
+
+# hw/xwin/winwndproc.c = ASCII C program text 
+hw/xwin/winwndproc.c: copy
+
+# hw/xwin/XWin.rc = ASCII C program text 
+hw/xwin/XWin.rc: copy
+
+# hw/xwin/winprefsyacc.c = ASCII C program text 
+hw/xwin/winprefsyacc.c: copy
+
+# hw/xwin/winwindowswm.c = ASCII C program text 
+hw/xwin/winwindowswm.c: copy
+
+# hw/xwin/winwin32rootless.c = ASCII C program text 
+hw/xwin/winwin32rootless.c: copy
+
+# hw/xwin/winconfig.h = ASCII C program text 
+hw/xwin/winconfig.h: copy
+
+# hw/xwin/winwakeup.c = ASCII C program text 
+hw/xwin/winwakeup.c: copy
+
+# hw/xwin/winengine.c = ASCII C program text 
+hw/xwin/winengine.c: copy
+
+# hw/xwin/winrop.c = ASCII C program text 
+hw/xwin/winrop.c: copy
+
+# hw/xwin/winwin32rootlesswindow.c = ASCII C program text 
+hw/xwin/winwin32rootlesswindow.c: copy
+
+# hw/xwin/glx/indirect.c = ASCII C program text 
+hw/xwin/glx/indirect.c: copy
+
+# hw/xwin/glx/Makefile.am = ASCII text 
+hw/xwin/glx/Makefile.am: copy
+
+# hw/xwin/glx/winpriv.c = ASCII C program text 
+hw/xwin/glx/winpriv.c: copy
+
+# hw/xwin/glx/glwindows.h = ASCII C program text 
+hw/xwin/glx/glwindows.h: copy
+
+# hw/xwin/glx/wgl_ext_api.c = ASCII C program text 
+hw/xwin/glx/wgl_ext_api.c: copy
+
+# hw/xwin/glx/gen_gl_wrappers.py = a /usr/bin/python script text executable 
+hw/xwin/glx/gen_gl_wrappers.py: copy
+
+# hw/xwin/glx/winpriv.h = ASCII C program text 
+hw/xwin/glx/winpriv.h: copy
+
+# hw/xwin/glx/glwrap.c = ASCII C program text 
+hw/xwin/glx/glwrap.c: copy
+
+# hw/xwin/glx/Makefile.in = ASCII English text 
+hw/xwin/glx/Makefile.in: copy
+
+# hw/xwin/ddraw.h = ASCII C program text 
+hw/xwin/ddraw.h: copy
+
+# hw/xwin/winmisc.c = ASCII C program text 
+hw/xwin/winmisc.c: copy
+
+# hw/xwin/winpixmap.c = ASCII C program text 
+hw/xwin/winpixmap.c: copy
+
+# hw/xwin/winms.h = ASCII C program text 
+hw/xwin/winms.h: copy
+
+# hw/xwin/winscrinit.c = ASCII C program text 
+hw/xwin/winscrinit.c: copy
+
+# hw/xwin/winsetsp.c = ASCII C program text 
+hw/xwin/winsetsp.c: copy
+
+# hw/xwin/winprefsyacc.y = lex description text 
+hw/xwin/winprefsyacc.y: copy
+
+# hw/xwin/winregistry.c = ASCII C program text 
+hw/xwin/winregistry.c: copy
+
+# hw/xwin/winvideo.c = ASCII C program text 
+hw/xwin/winvideo.c: copy
+
+# hw/xwin/X.ico = MS Windows icon resource - 9 icons, 48x48, 16-colors 
+hw/xwin/X.ico: copy
+
+# hw/xwin/winkeynames.h = ASCII C program text 
+hw/xwin/winkeynames.h: copy
+
+# hw/xwin/winblock.c = ASCII C program text 
+hw/xwin/winblock.c: copy
+
+# hw/xwin/winkeybd.c = ASCII C program text 
+hw/xwin/winkeybd.c: copy
+
+# hw/xwin/winclipboard.h = ASCII C program text 
+hw/xwin/winclipboard.h: copy
+
+# hw/xwin/winprefs.h = ASCII C program text 
+hw/xwin/winprefs.h: copy
+
+# hw/xwin/winfillsp.c = ASCII C program text 
+hw/xwin/winfillsp.c: copy
+
+# hw/xwin/winmonitors.c = ASCII C program text 
+hw/xwin/winmonitors.c: copy
+
+# hw/xwin/winclip.c = ASCII C program text 
+hw/xwin/winclip.c: copy
+
+# hw/xwin/winshaddd.c = ASCII C program text 
+hw/xwin/winshaddd.c: copy
+
+# hw/xwin/winvalargs.c = ASCII C program text 
+hw/xwin/winvalargs.c: copy
+
+# hw/xwin/winauth.c = ASCII C program text 
+hw/xwin/winauth.c: copy
+
+# hw/xwin/InitInput.c = ASCII C program text 
+hw/xwin/InitInput.c: copy
+
+# hw/xwin/winconfig.c = ASCII C program text 
+hw/xwin/winconfig.c: copy
+
+# hw/xwin/winmultiwindowwindow.c = ASCII C program text 
+hw/xwin/winmultiwindowwindow.c: copy
+
+# hw/xwin/winlayouts.h = ASCII C program text 
+hw/xwin/winlayouts.h: copy
+
+# hw/xwin/winfont.c = ASCII C program text 
+hw/xwin/winfont.c: copy
+
+# hw/xwin/win.h = ASCII C program text 
+hw/xwin/win.h: copy
+
+# hw/xwin/wincreatewnd.c = ASCII C program text 
+hw/xwin/wincreatewnd.c: copy
+
+# hw/xwin/winmsg.c = ASCII C program text 
+hw/xwin/winmsg.c: copy
+
+# hw/xwin/winmultiwindowclass.h = ASCII C program text 
+hw/xwin/winmultiwindowclass.h: copy
+
+# hw/xwin/winnativegdi.c = ASCII C program text 
+hw/xwin/winnativegdi.c: copy
+
+# hw/xwin/winclipboardinit.c = ASCII C program text 
+hw/xwin/winclipboardinit.c: copy
+
+# hw/xwin/winallpriv.c = ASCII C program text 
+hw/xwin/winallpriv.c: copy
+
+# hw/xwin/InitOutput.c = ASCII C program text 
+hw/xwin/InitOutput.c: copy
+
+# hw/xwin/winprefsyacc.h = ASCII C program text 
+hw/xwin/winprefsyacc.h: copy
+
+# hw/xwin/winmultiwindowwndproc.c = ASCII C program text 
+hw/xwin/winmultiwindowwndproc.c: copy
+
+# hw/xwin/winmessages.h = ASCII C program text 
+hw/xwin/winmessages.h: copy
+
+# hw/xwin/winshadddnl.c = ASCII C program text 
+hw/xwin/winshadddnl.c: copy
+
+# hw/xwin/winprocarg.c = ASCII C program text 
+hw/xwin/winprocarg.c: copy
+
+# hw/xwin/wincursor.c = ASCII C program text 
+hw/xwin/wincursor.c: copy
+
+# hw/xwin/winclipboardthread.c = ASCII C program text 
+hw/xwin/winclipboardthread.c: copy
+
+# hw/xwin/wincmap.c = ASCII C program text 
+hw/xwin/wincmap.c: copy
+
+# hw/xwin/winwindow.h = ASCII C program text 
+hw/xwin/winwindow.h: copy
+
+# hw/xwin/winshadgdi.c = ASCII C program text 
+hw/xwin/winshadgdi.c: copy
+
+# hw/xwin/winerror.c = ASCII C program text 
+hw/xwin/winerror.c: copy
+
+# hw/xwin/wingc.c = ASCII C program text 
+hw/xwin/wingc.c: copy
+
+# hw/xwin/winprefslex.c = C program text (from flex) 
+hw/xwin/winprefslex.c: copy
+
+# hw/xwin/winprefslex.l = lex description text 
+hw/xwin/winprefslex.l: copy
+
+# hw/xwin/wingetsp.c = ASCII C program text 
+hw/xwin/wingetsp.c: copy
+
+# hw/xwin/winmultiwindowicons.c = ASCII C program text 
+hw/xwin/winmultiwindowicons.c: copy
+
+# hw/xwin/winkeybd.h = ASCII C program text 
+hw/xwin/winkeybd.h: copy
+
+# hw/xwin/man/Makefile.am = ASCII text 
+hw/xwin/man/Makefile.am: copy
+
+# hw/xwin/man/XWinrc.man = troff or preprocessor input text 
+hw/xwin/man/XWinrc.man: copy
+
+# hw/xwin/man/XWin.man = troff or preprocessor input text 
+hw/xwin/man/XWin.man: copy
+
+# hw/xwin/man/Makefile.in = ASCII English text 
+hw/xwin/man/Makefile.in: copy
+
+# hw/xwin/winrandr.c = ASCII C program text 
+hw/xwin/winrandr.c: copy
+
+# hw/xwin/winprefs.c = ASCII C program text 
+hw/xwin/winprefs.c: copy
+
+# hw/xwin/XWin.exe.manifest = XML  document text 
+hw/xwin/XWin.exe.manifest: copy
+
+# hw/xwin/winpolyline.c = ASCII C program text 
+hw/xwin/winpolyline.c: copy
+
+# hw/xwin/winkeyhook.c = ASCII C program text 
+hw/xwin/winkeyhook.c: copy
+
+# hw/xwin/system.XWinrc = ASCII English text 
+hw/xwin/system.XWinrc: copy
+
+# hw/xwin/Makefile.in = ASCII English text, with very long lines 
+hw/xwin/Makefile.in: copy
+
+# hw/xwin/winglobals.c = ASCII C program text 
+hw/xwin/winglobals.c: copy
+
+# hw/xwin/winmsg.h = ASCII C program text 
+hw/xwin/winmsg.h: copy
+
+# hw/xwin/winmultiwindowshape.c = ASCII C program text 
+hw/xwin/winmultiwindowshape.c: copy
+
+# hw/xwin/winclipboardwndproc.c = ASCII C program text 
+hw/xwin/winclipboardwndproc.c: copy
+
+# hw/xwin/winwin32rootlesswndproc.c = ASCII C program text 
+hw/xwin/winwin32rootlesswndproc.c: copy
+
+# hw/xwin/winpfbdd.c = ASCII C program text 
+hw/xwin/winpfbdd.c: copy
+
+# hw/xwin/winresource.h = ASCII C program text 
+hw/xwin/winresource.h: copy
+
+# hw/kdrive/fbdev/fbdev.c = UTF-8 Unicode C program text 
+hw/kdrive/fbdev/fbdev.c: copy
+
+# hw/kdrive/fbdev/Makefile.am = ASCII text 
+hw/kdrive/fbdev/Makefile.am: copy
+
+# hw/kdrive/fbdev/fbdev.h = UTF-8 Unicode C program text 
+hw/kdrive/fbdev/fbdev.h: copy
+
+# hw/kdrive/fbdev/fbinit.c = UTF-8 Unicode C program text 
+hw/kdrive/fbdev/fbinit.c: copy
+
+# hw/kdrive/fbdev/Makefile.in = ASCII English text 
+hw/kdrive/fbdev/Makefile.in: copy
+
+# hw/kdrive/Makefile.am = ASCII text 
+hw/kdrive/Makefile.am: copy
+
+# hw/kdrive/src/kxv.c = ASCII C program text 
+hw/kdrive/src/kxv.c: copy
+
+# hw/kdrive/src/Makefile.am = ASCII text 
+hw/kdrive/src/Makefile.am: copy
+
+# hw/kdrive/src/kinfo.c = UTF-8 Unicode C program text 
+hw/kdrive/src/kinfo.c: copy
+
+# hw/kdrive/src/kdrive.c = UTF-8 Unicode C program text 
+hw/kdrive/src/kdrive.c: copy
+
+# hw/kdrive/src/kmode.c = ASCII C program text 
+hw/kdrive/src/kmode.c: copy
+
+# hw/kdrive/src/kshadow.c = UTF-8 Unicode C program text 
+hw/kdrive/src/kshadow.c: copy
+
+# hw/kdrive/src/kcmap.c = UTF-8 Unicode C program text 
+hw/kdrive/src/kcmap.c: copy
+
+# hw/kdrive/src/kdrive.h = UTF-8 Unicode C program text 
+hw/kdrive/src/kdrive.h: copy
+
+# hw/kdrive/src/kinput.c = UTF-8 Unicode C program text 
+hw/kdrive/src/kinput.c: copy
+
+# hw/kdrive/src/fourcc.h = ASCII C program text 
+hw/kdrive/src/fourcc.h: copy
+
+# hw/kdrive/src/kxv.h = ASCII C program text 
+hw/kdrive/src/kxv.h: copy
+
+# hw/kdrive/src/Makefile.in = ASCII English text, with very long lines 
+hw/kdrive/src/Makefile.in: copy
+
+# hw/kdrive/fake/mouse.c = UTF-8 Unicode C program text 
+hw/kdrive/fake/mouse.c: copy
+
+# hw/kdrive/fake/Makefile.am = ASCII text 
+hw/kdrive/fake/Makefile.am: copy
+
+# hw/kdrive/fake/fake.c = UTF-8 Unicode C program text 
+hw/kdrive/fake/fake.c: copy
+
+# hw/kdrive/fake/kbd.c = UTF-8 Unicode C program text 
+hw/kdrive/fake/kbd.c: copy
+
+# hw/kdrive/fake/fakeinit.c = UTF-8 Unicode C program text 
+hw/kdrive/fake/fakeinit.c: copy
+
+# hw/kdrive/fake/fake.h = UTF-8 Unicode C program text 
+hw/kdrive/fake/fake.h: copy
+
+# hw/kdrive/fake/os.c = UTF-8 Unicode C program text 
+hw/kdrive/fake/os.c: copy
+
+# hw/kdrive/fake/Makefile.in = ASCII English text 
+hw/kdrive/fake/Makefile.in: copy
+
+# hw/kdrive/ephyr/hostx.h = UTF-8 Unicode C program text 
+hw/kdrive/ephyr/hostx.h: copy
+
+# hw/kdrive/ephyr/Makefile.am = ASCII text 
+hw/kdrive/ephyr/Makefile.am: copy
+
+# hw/kdrive/ephyr/ephyr.h = UTF-8 Unicode C program text 
+hw/kdrive/ephyr/ephyr.h: copy
+
+# hw/kdrive/ephyr/ephyrinit.c = UTF-8 Unicode C program text 
+hw/kdrive/ephyr/ephyrinit.c: copy
+
+# hw/kdrive/ephyr/ephyrglxext.h = UTF-8 Unicode C program text 
+hw/kdrive/ephyr/ephyrglxext.h: copy
+
+# hw/kdrive/ephyr/ephyrdri.h = UTF-8 Unicode C program text 
+hw/kdrive/ephyr/ephyrdri.h: copy
+
+# hw/kdrive/ephyr/ephyrhostglx.h = UTF-8 Unicode C program text 
+hw/kdrive/ephyr/ephyrhostglx.h: copy
+
+# hw/kdrive/ephyr/README = ASCII English text 
+hw/kdrive/ephyr/README: copy
+
+# hw/kdrive/ephyr/ephyrhostvideo.c = UTF-8 Unicode C program text 
+hw/kdrive/ephyr/ephyrhostvideo.c: copy
+
+# hw/kdrive/ephyr/ephyr_draw.c = UTF-8 Unicode C program text 
+hw/kdrive/ephyr/ephyr_draw.c: copy
+
+# hw/kdrive/ephyr/ephyrlog.h = UTF-8 Unicode C program text 
+hw/kdrive/ephyr/ephyrlog.h: copy
+
+# hw/kdrive/ephyr/ephyrvideo.c = UTF-8 Unicode C program text 
+hw/kdrive/ephyr/ephyrvideo.c: copy
+
+# hw/kdrive/ephyr/ephyrdriext.c = UTF-8 Unicode C program text 
+hw/kdrive/ephyr/ephyrdriext.c: copy
+
+# hw/kdrive/ephyr/XF86dri.c = ASCII C program text 
+hw/kdrive/ephyr/XF86dri.c: copy
+
+# hw/kdrive/ephyr/ephyrdriext.h = UTF-8 Unicode C program text 
+hw/kdrive/ephyr/ephyrdriext.h: copy
+
+# hw/kdrive/ephyr/ephyr.c = UTF-8 Unicode C program text 
+hw/kdrive/ephyr/ephyr.c: copy
+
+# hw/kdrive/ephyr/ephyrhostvideo.h = UTF-8 Unicode C program text 
+hw/kdrive/ephyr/ephyrhostvideo.h: copy
+
+# hw/kdrive/ephyr/ephyrdri.c = UTF-8 Unicode C program text 
+hw/kdrive/ephyr/ephyrdri.c: copy
+
+# hw/kdrive/ephyr/os.c = UTF-8 Unicode C program text 
+hw/kdrive/ephyr/os.c: copy
+
+# hw/kdrive/ephyr/xf86dri.h = ASCII C program text 
+hw/kdrive/ephyr/xf86dri.h: copy
+
+# hw/kdrive/ephyr/ephyrglxext.c = UTF-8 Unicode C program text 
+hw/kdrive/ephyr/ephyrglxext.c: copy
+
+# hw/kdrive/ephyr/man/Makefile.am = ASCII text 
+hw/kdrive/ephyr/man/Makefile.am: copy
+
+# hw/kdrive/ephyr/man/Xephyr.man = troff or preprocessor input text 
+hw/kdrive/ephyr/man/Xephyr.man: copy
+
+# hw/kdrive/ephyr/man/Makefile.in = ASCII English text 
+hw/kdrive/ephyr/man/Makefile.in: copy
+
+# hw/kdrive/ephyr/ephyrhostglx.c = UTF-8 Unicode C program text 
+hw/kdrive/ephyr/ephyrhostglx.c: copy
+
+# hw/kdrive/ephyr/Makefile.in = ASCII English text 
+hw/kdrive/ephyr/Makefile.in: copy
+
+# hw/kdrive/ephyr/hostx.c = UTF-8 Unicode C program text 
+hw/kdrive/ephyr/hostx.c: copy
+
+# hw/kdrive/linux/mouse.c = UTF-8 Unicode C program text 
+hw/kdrive/linux/mouse.c: copy
+
+# hw/kdrive/linux/Makefile.am = ASCII text 
+hw/kdrive/linux/Makefile.am: copy
+
+# hw/kdrive/linux/ps2.c = UTF-8 Unicode C program text 
+hw/kdrive/linux/ps2.c: copy
+
+# hw/kdrive/linux/tslib.c = UTF-8 Unicode C program text 
+hw/kdrive/linux/tslib.c: copy
+
+# hw/kdrive/linux/evdev.c = UTF-8 Unicode C program text 
+hw/kdrive/linux/evdev.c: copy
+
+# hw/kdrive/linux/ms.c = ASCII C program text 
+hw/kdrive/linux/ms.c: copy
+
+# hw/kdrive/linux/linux.c = UTF-8 Unicode C program text 
+hw/kdrive/linux/linux.c: copy
+
+# hw/kdrive/linux/keyboard.c = UTF-8 Unicode C program text 
+hw/kdrive/linux/keyboard.c: copy
+
+# hw/kdrive/linux/Makefile.in = ASCII English text 
+hw/kdrive/linux/Makefile.in: copy
+
+# hw/kdrive/Makefile.in = ASCII English text 
+hw/kdrive/Makefile.in: copy
+
+# hw/xquartz/darwinfb.h = ASCII C program text 
+hw/xquartz/darwinfb.h: copy
+
+# hw/xquartz/X11Application.m = UTF-8 Unicode C program text, with very long lines 
+hw/xquartz/X11Application.m: copy
+
+# hw/xquartz/bundle/Resources/French.lproj/main.nib/keyedobjects.nib = Apple binary property list 
+hw/xquartz/bundle/Resources/French.lproj/main.nib/keyedobjects.nib: copy
+
+# hw/xquartz/bundle/Resources/French.lproj/main.nib/designable.nib = XML  document text 
+hw/xquartz/bundle/Resources/French.lproj/main.nib/designable.nib: copy
+
+# hw/xquartz/bundle/Resources/French.lproj/InfoPlist.strings = Big-endian UTF-16 Unicode C program text 
+hw/xquartz/bundle/Resources/French.lproj/InfoPlist.strings: copy
+
+# hw/xquartz/bundle/Resources/French.lproj/locversion.plist = XML  document text 
+hw/xquartz/bundle/Resources/French.lproj/locversion.plist: copy
+
+# hw/xquartz/bundle/Resources/French.lproj/Localizable.strings = Big-endian UTF-16 Unicode C program text, with very long lines 
+hw/xquartz/bundle/Resources/French.lproj/Localizable.strings: copy
+
+# hw/xquartz/bundle/Resources/Dutch.lproj/main.nib/keyedobjects.nib = Apple binary property list 
+hw/xquartz/bundle/Resources/Dutch.lproj/main.nib/keyedobjects.nib: copy
+
+# hw/xquartz/bundle/Resources/Dutch.lproj/main.nib/designable.nib = XML  document text 
+hw/xquartz/bundle/Resources/Dutch.lproj/main.nib/designable.nib: copy
+
+# hw/xquartz/bundle/Resources/Dutch.lproj/InfoPlist.strings = Big-endian UTF-16 Unicode C program text 
+hw/xquartz/bundle/Resources/Dutch.lproj/InfoPlist.strings: copy
+
+# hw/xquartz/bundle/Resources/Dutch.lproj/locversion.plist = XML  document text 
+hw/xquartz/bundle/Resources/Dutch.lproj/locversion.plist: copy
+
+# hw/xquartz/bundle/Resources/Dutch.lproj/Localizable.strings = Big-endian UTF-16 Unicode C program text, with very long lines 
+hw/xquartz/bundle/Resources/Dutch.lproj/Localizable.strings: copy
+
+# hw/xquartz/bundle/Resources/pt.lproj/main.nib/keyedobjects.nib = Apple binary property list 
+hw/xquartz/bundle/Resources/pt.lproj/main.nib/keyedobjects.nib: copy
+
+# hw/xquartz/bundle/Resources/pt.lproj/main.nib/designable.nib = XML  document text 
+hw/xquartz/bundle/Resources/pt.lproj/main.nib/designable.nib: copy
+
+# hw/xquartz/bundle/Resources/pt.lproj/InfoPlist.strings = Big-endian UTF-16 Unicode C program text 
+hw/xquartz/bundle/Resources/pt.lproj/InfoPlist.strings: copy
+
+# hw/xquartz/bundle/Resources/pt.lproj/locversion.plist = XML  document text 
+hw/xquartz/bundle/Resources/pt.lproj/locversion.plist: copy
+
+# hw/xquartz/bundle/Resources/pt.lproj/Localizable.strings = Big-endian UTF-16 Unicode C program text, with very long lines 
+hw/xquartz/bundle/Resources/pt.lproj/Localizable.strings: copy
+
+# hw/xquartz/bundle/Resources/Italian.lproj/main.nib/keyedobjects.nib = Apple binary property list 
+hw/xquartz/bundle/Resources/Italian.lproj/main.nib/keyedobjects.nib: copy
+
+# hw/xquartz/bundle/Resources/Italian.lproj/main.nib/designable.nib = XML  document text 
+hw/xquartz/bundle/Resources/Italian.lproj/main.nib/designable.nib: copy
+
+# hw/xquartz/bundle/Resources/Italian.lproj/InfoPlist.strings = Big-endian UTF-16 Unicode C program text 
+hw/xquartz/bundle/Resources/Italian.lproj/InfoPlist.strings: copy
+
+# hw/xquartz/bundle/Resources/Italian.lproj/locversion.plist = XML  document text 
+hw/xquartz/bundle/Resources/Italian.lproj/locversion.plist: copy
+
+# hw/xquartz/bundle/Resources/Italian.lproj/Localizable.strings = Big-endian UTF-16 Unicode C program text, with very long lines 
+hw/xquartz/bundle/Resources/Italian.lproj/Localizable.strings: copy
+
+# hw/xquartz/bundle/Resources/sk.lproj/main.nib/keyedobjects.nib = Apple binary property list 
+hw/xquartz/bundle/Resources/sk.lproj/main.nib/keyedobjects.nib: copy
+
+# hw/xquartz/bundle/Resources/sk.lproj/main.nib/designable.nib = XML  document text 
+hw/xquartz/bundle/Resources/sk.lproj/main.nib/designable.nib: copy
+
+# hw/xquartz/bundle/Resources/sk.lproj/InfoPlist.strings = Big-endian UTF-16 Unicode C program text 
+hw/xquartz/bundle/Resources/sk.lproj/InfoPlist.strings: copy
+
+# hw/xquartz/bundle/Resources/sk.lproj/locversion.plist = XML  document text 
+hw/xquartz/bundle/Resources/sk.lproj/locversion.plist: copy
+
+# hw/xquartz/bundle/Resources/sk.lproj/Localizable.strings = Big-endian UTF-16 Unicode C program text, with very long lines 
+hw/xquartz/bundle/Resources/sk.lproj/Localizable.strings: copy
+
+# hw/xquartz/bundle/Resources/ko.lproj/main.nib/keyedobjects.nib = Apple binary property list 
+hw/xquartz/bundle/Resources/ko.lproj/main.nib/keyedobjects.nib: copy
+
+# hw/xquartz/bundle/Resources/ko.lproj/main.nib/designable.nib = XML  document text 
+hw/xquartz/bundle/Resources/ko.lproj/main.nib/designable.nib: copy
+
+# hw/xquartz/bundle/Resources/ko.lproj/InfoPlist.strings = Big-endian UTF-16 Unicode C program text 
+hw/xquartz/bundle/Resources/ko.lproj/InfoPlist.strings: copy
+
+# hw/xquartz/bundle/Resources/ko.lproj/locversion.plist = XML  document text 
+hw/xquartz/bundle/Resources/ko.lproj/locversion.plist: copy
+
+# hw/xquartz/bundle/Resources/ko.lproj/Localizable.strings = Big-endian UTF-16 Unicode C program text, with very long lines 
+hw/xquartz/bundle/Resources/ko.lproj/Localizable.strings: copy
+
+# hw/xquartz/bundle/Resources/German.lproj/main.nib/keyedobjects.nib = Apple binary property list 
+hw/xquartz/bundle/Resources/German.lproj/main.nib/keyedobjects.nib: copy
+
+# hw/xquartz/bundle/Resources/German.lproj/main.nib/designable.nib = XML  document text 
+hw/xquartz/bundle/Resources/German.lproj/main.nib/designable.nib: copy
+
+# hw/xquartz/bundle/Resources/German.lproj/InfoPlist.strings = Big-endian UTF-16 Unicode C program text 
+hw/xquartz/bundle/Resources/German.lproj/InfoPlist.strings: copy
+
+# hw/xquartz/bundle/Resources/German.lproj/locversion.plist = XML  document text 
+hw/xquartz/bundle/Resources/German.lproj/locversion.plist: copy
+
+# hw/xquartz/bundle/Resources/German.lproj/Localizable.strings = Big-endian UTF-16 Unicode C program text, with very long lines 
+hw/xquartz/bundle/Resources/German.lproj/Localizable.strings: copy
+
+# hw/xquartz/bundle/Resources/fi.lproj/main.nib/keyedobjects.nib = Apple binary property list 
+hw/xquartz/bundle/Resources/fi.lproj/main.nib/keyedobjects.nib: copy
+
+# hw/xquartz/bundle/Resources/fi.lproj/main.nib/designable.nib = XML  document text 
+hw/xquartz/bundle/Resources/fi.lproj/main.nib/designable.nib: copy
+
+# hw/xquartz/bundle/Resources/fi.lproj/InfoPlist.strings = Big-endian UTF-16 Unicode C program text 
+hw/xquartz/bundle/Resources/fi.lproj/InfoPlist.strings: copy
+
+# hw/xquartz/bundle/Resources/fi.lproj/locversion.plist = XML  document text 
+hw/xquartz/bundle/Resources/fi.lproj/locversion.plist: copy
+
+# hw/xquartz/bundle/Resources/fi.lproj/Localizable.strings = Big-endian UTF-16 Unicode C program text, with very long lines 
+hw/xquartz/bundle/Resources/fi.lproj/Localizable.strings: copy
+
+# hw/xquartz/bundle/Resources/hu.lproj/main.nib/keyedobjects.nib = Apple binary property list 
+hw/xquartz/bundle/Resources/hu.lproj/main.nib/keyedobjects.nib: copy
+
+# hw/xquartz/bundle/Resources/hu.lproj/main.nib/designable.nib = XML  document text 
+hw/xquartz/bundle/Resources/hu.lproj/main.nib/designable.nib: copy
+
+# hw/xquartz/bundle/Resources/hu.lproj/InfoPlist.strings = Big-endian UTF-16 Unicode C program text 
+hw/xquartz/bundle/Resources/hu.lproj/InfoPlist.strings: copy
+
+# hw/xquartz/bundle/Resources/hu.lproj/locversion.plist = XML  document text 
+hw/xquartz/bundle/Resources/hu.lproj/locversion.plist: copy
+
+# hw/xquartz/bundle/Resources/hu.lproj/Localizable.strings = Big-endian UTF-16 Unicode C program text, with very long lines 
+hw/xquartz/bundle/Resources/hu.lproj/Localizable.strings: copy
+
+# hw/xquartz/bundle/Resources/sv.lproj/main.nib/keyedobjects.nib = Apple binary property list 
+hw/xquartz/bundle/Resources/sv.lproj/main.nib/keyedobjects.nib: copy
+
+# hw/xquartz/bundle/Resources/sv.lproj/main.nib/designable.nib = XML  document text 
+hw/xquartz/bundle/Resources/sv.lproj/main.nib/designable.nib: copy
+
+# hw/xquartz/bundle/Resources/sv.lproj/InfoPlist.strings = Big-endian UTF-16 Unicode C program text 
+hw/xquartz/bundle/Resources/sv.lproj/InfoPlist.strings: copy
+
+# hw/xquartz/bundle/Resources/sv.lproj/locversion.plist = XML  document text 
+hw/xquartz/bundle/Resources/sv.lproj/locversion.plist: copy
+
+# hw/xquartz/bundle/Resources/sv.lproj/Localizable.strings = Big-endian UTF-16 Unicode C program text, with very long lines 
+hw/xquartz/bundle/Resources/sv.lproj/Localizable.strings: copy
+
+# hw/xquartz/bundle/Resources/da.lproj/main.nib/keyedobjects.nib = Apple binary property list 
+hw/xquartz/bundle/Resources/da.lproj/main.nib/keyedobjects.nib: copy
+
+# hw/xquartz/bundle/Resources/da.lproj/main.nib/designable.nib = XML  document text 
+hw/xquartz/bundle/Resources/da.lproj/main.nib/designable.nib: copy
+
+# hw/xquartz/bundle/Resources/da.lproj/InfoPlist.strings = Big-endian UTF-16 Unicode C program text 
+hw/xquartz/bundle/Resources/da.lproj/InfoPlist.strings: copy
+
+# hw/xquartz/bundle/Resources/da.lproj/locversion.plist = XML  document text 
+hw/xquartz/bundle/Resources/da.lproj/locversion.plist: copy
+
+# hw/xquartz/bundle/Resources/da.lproj/Localizable.strings = Big-endian UTF-16 Unicode C program text, with very long lines 
+hw/xquartz/bundle/Resources/da.lproj/Localizable.strings: copy
+
+# hw/xquartz/bundle/Resources/Spanish.lproj/main.nib/keyedobjects.nib = Apple binary property list 
+hw/xquartz/bundle/Resources/Spanish.lproj/main.nib/keyedobjects.nib: copy
+
+# hw/xquartz/bundle/Resources/Spanish.lproj/main.nib/designable.nib = XML  document text 
+hw/xquartz/bundle/Resources/Spanish.lproj/main.nib/designable.nib: copy
+
+# hw/xquartz/bundle/Resources/Spanish.lproj/InfoPlist.strings = Big-endian UTF-16 Unicode C program text 
+hw/xquartz/bundle/Resources/Spanish.lproj/InfoPlist.strings: copy
+
+# hw/xquartz/bundle/Resources/Spanish.lproj/locversion.plist = XML  document text 
+hw/xquartz/bundle/Resources/Spanish.lproj/locversion.plist: copy
+
+# hw/xquartz/bundle/Resources/Spanish.lproj/Localizable.strings = Big-endian UTF-16 Unicode C program text, with very long lines 
+hw/xquartz/bundle/Resources/Spanish.lproj/Localizable.strings: copy
+
+# hw/xquartz/bundle/Resources/ca.lproj/main.nib/keyedobjects.nib = Apple binary property list 
+hw/xquartz/bundle/Resources/ca.lproj/main.nib/keyedobjects.nib: copy
+
+# hw/xquartz/bundle/Resources/ca.lproj/main.nib/designable.nib = XML  document text 
+hw/xquartz/bundle/Resources/ca.lproj/main.nib/designable.nib: copy
+
+# hw/xquartz/bundle/Resources/ca.lproj/InfoPlist.strings = Big-endian UTF-16 Unicode C program text 
+hw/xquartz/bundle/Resources/ca.lproj/InfoPlist.strings: copy
+
+# hw/xquartz/bundle/Resources/ca.lproj/locversion.plist = XML  document text 
+hw/xquartz/bundle/Resources/ca.lproj/locversion.plist: copy
+
+# hw/xquartz/bundle/Resources/ca.lproj/Localizable.strings = Big-endian UTF-16 Unicode C program text, with very long lines 
+hw/xquartz/bundle/Resources/ca.lproj/Localizable.strings: copy
+
+# hw/xquartz/bundle/Resources/ro.lproj/main.nib/keyedobjects.nib = Apple binary property list 
+hw/xquartz/bundle/Resources/ro.lproj/main.nib/keyedobjects.nib: copy
+
+# hw/xquartz/bundle/Resources/ro.lproj/main.nib/designable.nib = XML  document text 
+hw/xquartz/bundle/Resources/ro.lproj/main.nib/designable.nib: copy
+
+# hw/xquartz/bundle/Resources/ro.lproj/InfoPlist.strings = Big-endian UTF-16 Unicode C program text 
+hw/xquartz/bundle/Resources/ro.lproj/InfoPlist.strings: copy
+
+# hw/xquartz/bundle/Resources/ro.lproj/locversion.plist = XML  document text 
+hw/xquartz/bundle/Resources/ro.lproj/locversion.plist: copy
+
+# hw/xquartz/bundle/Resources/ro.lproj/Localizable.strings = Big-endian UTF-16 Unicode C program text, with very long lines 
+hw/xquartz/bundle/Resources/ro.lproj/Localizable.strings: copy
+
+# hw/xquartz/bundle/Resources/no.lproj/main.nib/keyedobjects.nib = Apple binary property list 
+hw/xquartz/bundle/Resources/no.lproj/main.nib/keyedobjects.nib: copy
+
+# hw/xquartz/bundle/Resources/no.lproj/main.nib/designable.nib = XML  document text 
+hw/xquartz/bundle/Resources/no.lproj/main.nib/designable.nib: copy
+
+# hw/xquartz/bundle/Resources/no.lproj/InfoPlist.strings = Big-endian UTF-16 Unicode C program text 
+hw/xquartz/bundle/Resources/no.lproj/InfoPlist.strings: copy
+
+# hw/xquartz/bundle/Resources/no.lproj/locversion.plist = XML  document text 
+hw/xquartz/bundle/Resources/no.lproj/locversion.plist: copy
+
+# hw/xquartz/bundle/Resources/no.lproj/Localizable.strings = Big-endian UTF-16 Unicode C program text, with very long lines 
+hw/xquartz/bundle/Resources/no.lproj/Localizable.strings: copy
+
+# hw/xquartz/bundle/Resources/X11.icns = data 
+hw/xquartz/bundle/Resources/X11.icns: copy
+
+# hw/xquartz/bundle/Resources/uk.lproj/main.nib/keyedobjects.nib = Apple binary property list 
+hw/xquartz/bundle/Resources/uk.lproj/main.nib/keyedobjects.nib: copy
+
+# hw/xquartz/bundle/Resources/uk.lproj/main.nib/designable.nib = XML  document text 
+hw/xquartz/bundle/Resources/uk.lproj/main.nib/designable.nib: copy
+
+# hw/xquartz/bundle/Resources/uk.lproj/InfoPlist.strings = Big-endian UTF-16 Unicode C program text 
+hw/xquartz/bundle/Resources/uk.lproj/InfoPlist.strings: copy
+
+# hw/xquartz/bundle/Resources/uk.lproj/locversion.plist = XML  document text 
+hw/xquartz/bundle/Resources/uk.lproj/locversion.plist: copy
+
+# hw/xquartz/bundle/Resources/uk.lproj/Localizable.strings = Big-endian UTF-16 Unicode C program text, with very long lines 
+hw/xquartz/bundle/Resources/uk.lproj/Localizable.strings: copy
+
+# hw/xquartz/bundle/Resources/tr.lproj/main.nib/keyedobjects.nib = Apple binary property list 
+hw/xquartz/bundle/Resources/tr.lproj/main.nib/keyedobjects.nib: copy
+
+# hw/xquartz/bundle/Resources/tr.lproj/main.nib/designable.nib = XML  document text 
+hw/xquartz/bundle/Resources/tr.lproj/main.nib/designable.nib: copy
+
+# hw/xquartz/bundle/Resources/tr.lproj/InfoPlist.strings = Big-endian UTF-16 Unicode C program text 
+hw/xquartz/bundle/Resources/tr.lproj/InfoPlist.strings: copy
+
+# hw/xquartz/bundle/Resources/tr.lproj/locversion.plist = XML  document text 
+hw/xquartz/bundle/Resources/tr.lproj/locversion.plist: copy
+
+# hw/xquartz/bundle/Resources/tr.lproj/Localizable.strings = Big-endian UTF-16 Unicode C program text, with very long lines 
+hw/xquartz/bundle/Resources/tr.lproj/Localizable.strings: copy
+
+# hw/xquartz/bundle/Resources/zh_CN.lproj/main.nib/keyedobjects.nib = Apple binary property list 
+hw/xquartz/bundle/Resources/zh_CN.lproj/main.nib/keyedobjects.nib: copy
+
+# hw/xquartz/bundle/Resources/zh_CN.lproj/main.nib/designable.nib = XML  document text 
+hw/xquartz/bundle/Resources/zh_CN.lproj/main.nib/designable.nib: copy
+
+# hw/xquartz/bundle/Resources/zh_CN.lproj/InfoPlist.strings = Big-endian UTF-16 Unicode C program text 
+hw/xquartz/bundle/Resources/zh_CN.lproj/InfoPlist.strings: copy
+
+# hw/xquartz/bundle/Resources/zh_CN.lproj/locversion.plist = XML  document text 
+hw/xquartz/bundle/Resources/zh_CN.lproj/locversion.plist: copy
+
+# hw/xquartz/bundle/Resources/zh_CN.lproj/Localizable.strings = Big-endian UTF-16 Unicode C program text, with very long lines 
+hw/xquartz/bundle/Resources/zh_CN.lproj/Localizable.strings: copy
+
+# hw/xquartz/bundle/Resources/pl.lproj/main.nib/keyedobjects.nib = Apple binary property list 
+hw/xquartz/bundle/Resources/pl.lproj/main.nib/keyedobjects.nib: copy
+
+# hw/xquartz/bundle/Resources/pl.lproj/main.nib/designable.nib = XML  document text 
+hw/xquartz/bundle/Resources/pl.lproj/main.nib/designable.nib: copy
+
+# hw/xquartz/bundle/Resources/pl.lproj/InfoPlist.strings = Big-endian UTF-16 Unicode C program text 
+hw/xquartz/bundle/Resources/pl.lproj/InfoPlist.strings: copy
+
+# hw/xquartz/bundle/Resources/pl.lproj/locversion.plist = XML  document text 
+hw/xquartz/bundle/Resources/pl.lproj/locversion.plist: copy
+
+# hw/xquartz/bundle/Resources/pl.lproj/Localizable.strings = Big-endian UTF-16 Unicode C program text, with very long lines 
+hw/xquartz/bundle/Resources/pl.lproj/Localizable.strings: copy
+
+# hw/xquartz/bundle/Resources/cs.lproj/main.nib/keyedobjects.nib = Apple binary property list 
+hw/xquartz/bundle/Resources/cs.lproj/main.nib/keyedobjects.nib: copy
+
+# hw/xquartz/bundle/Resources/cs.lproj/main.nib/designable.nib = XML  document text 
+hw/xquartz/bundle/Resources/cs.lproj/main.nib/designable.nib: copy
+
+# hw/xquartz/bundle/Resources/cs.lproj/InfoPlist.strings = Big-endian UTF-16 Unicode C program text 
+hw/xquartz/bundle/Resources/cs.lproj/InfoPlist.strings: copy
+
+# hw/xquartz/bundle/Resources/cs.lproj/locversion.plist = XML  document text 
+hw/xquartz/bundle/Resources/cs.lproj/locversion.plist: copy
+
+# hw/xquartz/bundle/Resources/cs.lproj/Localizable.strings = Big-endian UTF-16 Unicode C program text, with very long lines 
+hw/xquartz/bundle/Resources/cs.lproj/Localizable.strings: copy
+
+# hw/xquartz/bundle/Resources/ar.lproj/main.nib/keyedobjects.nib = Apple binary property list 
+hw/xquartz/bundle/Resources/ar.lproj/main.nib/keyedobjects.nib: copy
+
+# hw/xquartz/bundle/Resources/ar.lproj/main.nib/designable.nib = XML  document text 
+hw/xquartz/bundle/Resources/ar.lproj/main.nib/designable.nib: copy
+
+# hw/xquartz/bundle/Resources/ar.lproj/InfoPlist.strings = Big-endian UTF-16 Unicode C program text 
+hw/xquartz/bundle/Resources/ar.lproj/InfoPlist.strings: copy
+
+# hw/xquartz/bundle/Resources/ar.lproj/locversion.plist = XML  document text 
+hw/xquartz/bundle/Resources/ar.lproj/locversion.plist: copy
+
+# hw/xquartz/bundle/Resources/ar.lproj/Localizable.strings = Big-endian UTF-16 Unicode C program text, with very long lines 
+hw/xquartz/bundle/Resources/ar.lproj/Localizable.strings: copy
+
+# hw/xquartz/bundle/Resources/ru.lproj/main.nib/keyedobjects.nib = Apple binary property list 
+hw/xquartz/bundle/Resources/ru.lproj/main.nib/keyedobjects.nib: copy
+
+# hw/xquartz/bundle/Resources/ru.lproj/main.nib/designable.nib = XML  document text 
+hw/xquartz/bundle/Resources/ru.lproj/main.nib/designable.nib: copy
+
+# hw/xquartz/bundle/Resources/ru.lproj/InfoPlist.strings = Big-endian UTF-16 Unicode C program text 
+hw/xquartz/bundle/Resources/ru.lproj/InfoPlist.strings: copy
+
+# hw/xquartz/bundle/Resources/ru.lproj/locversion.plist = XML  document text 
+hw/xquartz/bundle/Resources/ru.lproj/locversion.plist: copy
+
+# hw/xquartz/bundle/Resources/ru.lproj/Localizable.strings = Big-endian UTF-16 Unicode C program text, with very long lines 
+hw/xquartz/bundle/Resources/ru.lproj/Localizable.strings: copy
+
+# hw/xquartz/bundle/Resources/el.lproj/main.nib/keyedobjects.nib = Apple binary property list 
+hw/xquartz/bundle/Resources/el.lproj/main.nib/keyedobjects.nib: copy
+
+# hw/xquartz/bundle/Resources/el.lproj/main.nib/designable.nib = XML  document text 
+hw/xquartz/bundle/Resources/el.lproj/main.nib/designable.nib: copy
+
+# hw/xquartz/bundle/Resources/el.lproj/InfoPlist.strings = Big-endian UTF-16 Unicode C program text 
+hw/xquartz/bundle/Resources/el.lproj/InfoPlist.strings: copy
+
+# hw/xquartz/bundle/Resources/el.lproj/locversion.plist = XML  document text 
+hw/xquartz/bundle/Resources/el.lproj/locversion.plist: copy
+
+# hw/xquartz/bundle/Resources/el.lproj/Localizable.strings = Big-endian UTF-16 Unicode C program text, with very long lines 
+hw/xquartz/bundle/Resources/el.lproj/Localizable.strings: copy
+
+# hw/xquartz/bundle/Resources/Japanese.lproj/main.nib/keyedobjects.nib = Apple binary property list 
+hw/xquartz/bundle/Resources/Japanese.lproj/main.nib/keyedobjects.nib: copy
+
+# hw/xquartz/bundle/Resources/Japanese.lproj/main.nib/designable.nib = XML  document text 
+hw/xquartz/bundle/Resources/Japanese.lproj/main.nib/designable.nib: copy
+
+# hw/xquartz/bundle/Resources/Japanese.lproj/InfoPlist.strings = Big-endian UTF-16 Unicode C program text 
+hw/xquartz/bundle/Resources/Japanese.lproj/InfoPlist.strings: copy
+
+# hw/xquartz/bundle/Resources/Japanese.lproj/locversion.plist = XML  document text 
+hw/xquartz/bundle/Resources/Japanese.lproj/locversion.plist: copy
+
+# hw/xquartz/bundle/Resources/Japanese.lproj/Localizable.strings = Big-endian UTF-16 Unicode C program text, with very long lines 
+hw/xquartz/bundle/Resources/Japanese.lproj/Localizable.strings: copy
+
+# hw/xquartz/bundle/Resources/th.lproj/main.nib/keyedobjects.nib = Apple binary property list 
+hw/xquartz/bundle/Resources/th.lproj/main.nib/keyedobjects.nib: copy
+
+# hw/xquartz/bundle/Resources/th.lproj/main.nib/designable.nib = XML  document text 
+hw/xquartz/bundle/Resources/th.lproj/main.nib/designable.nib: copy
+
+# hw/xquartz/bundle/Resources/th.lproj/InfoPlist.strings = Big-endian UTF-16 Unicode C program text 
+hw/xquartz/bundle/Resources/th.lproj/InfoPlist.strings: copy
+
+# hw/xquartz/bundle/Resources/th.lproj/locversion.plist = XML  document text 
+hw/xquartz/bundle/Resources/th.lproj/locversion.plist: copy
+
+# hw/xquartz/bundle/Resources/th.lproj/Localizable.strings = Big-endian UTF-16 Unicode C program text, with very long lines 
+hw/xquartz/bundle/Resources/th.lproj/Localizable.strings: copy
+
+# hw/xquartz/bundle/Resources/pt_PT.lproj/main.nib/keyedobjects.nib = Apple binary property list 
+hw/xquartz/bundle/Resources/pt_PT.lproj/main.nib/keyedobjects.nib: copy
+
+# hw/xquartz/bundle/Resources/pt_PT.lproj/main.nib/designable.nib = XML  document text 
+hw/xquartz/bundle/Resources/pt_PT.lproj/main.nib/designable.nib: copy
+
+# hw/xquartz/bundle/Resources/pt_PT.lproj/InfoPlist.strings = Big-endian UTF-16 Unicode C program text 
+hw/xquartz/bundle/Resources/pt_PT.lproj/InfoPlist.strings: copy
+
+# hw/xquartz/bundle/Resources/pt_PT.lproj/locversion.plist = XML  document text 
+hw/xquartz/bundle/Resources/pt_PT.lproj/locversion.plist: copy
+
+# hw/xquartz/bundle/Resources/pt_PT.lproj/Localizable.strings = Big-endian UTF-16 Unicode C program text, with very long lines 
+hw/xquartz/bundle/Resources/pt_PT.lproj/Localizable.strings: copy
+
+# hw/xquartz/bundle/Resources/hr.lproj/main.nib/keyedobjects.nib = Apple binary property list 
+hw/xquartz/bundle/Resources/hr.lproj/main.nib/keyedobjects.nib: copy
+
+# hw/xquartz/bundle/Resources/hr.lproj/main.nib/designable.nib = XML  document text 
+hw/xquartz/bundle/Resources/hr.lproj/main.nib/designable.nib: copy
+
+# hw/xquartz/bundle/Resources/hr.lproj/InfoPlist.strings = Big-endian UTF-16 Unicode C program text 
+hw/xquartz/bundle/Resources/hr.lproj/InfoPlist.strings: copy
+
+# hw/xquartz/bundle/Resources/hr.lproj/locversion.plist = XML  document text 
+hw/xquartz/bundle/Resources/hr.lproj/locversion.plist: copy
+
+# hw/xquartz/bundle/Resources/hr.lproj/Localizable.strings = Big-endian UTF-16 Unicode C program text, with very long lines 
+hw/xquartz/bundle/Resources/hr.lproj/Localizable.strings: copy
+
+# hw/xquartz/bundle/Resources/zh_TW.lproj/main.nib/keyedobjects.nib = Apple binary property list 
+hw/xquartz/bundle/Resources/zh_TW.lproj/main.nib/keyedobjects.nib: copy
+
+# hw/xquartz/bundle/Resources/zh_TW.lproj/main.nib/designable.nib = XML  document text 
+hw/xquartz/bundle/Resources/zh_TW.lproj/main.nib/designable.nib: copy
+
+# hw/xquartz/bundle/Resources/zh_TW.lproj/InfoPlist.strings = Big-endian UTF-16 Unicode C program text 
+hw/xquartz/bundle/Resources/zh_TW.lproj/InfoPlist.strings: copy
+
+# hw/xquartz/bundle/Resources/zh_TW.lproj/locversion.plist = XML  document text 
+hw/xquartz/bundle/Resources/zh_TW.lproj/locversion.plist: copy
+
+# hw/xquartz/bundle/Resources/zh_TW.lproj/Localizable.strings = Big-endian UTF-16 Unicode C program text, with very long lines 
+hw/xquartz/bundle/Resources/zh_TW.lproj/Localizable.strings: copy
+
+# hw/xquartz/bundle/Resources/he.lproj/main.nib/keyedobjects.nib = Apple binary property list 
+hw/xquartz/bundle/Resources/he.lproj/main.nib/keyedobjects.nib: copy
+
+# hw/xquartz/bundle/Resources/he.lproj/main.nib/designable.nib = XML  document text 
+hw/xquartz/bundle/Resources/he.lproj/main.nib/designable.nib: copy
+
+# hw/xquartz/bundle/Resources/he.lproj/InfoPlist.strings = Big-endian UTF-16 Unicode C program text 
+hw/xquartz/bundle/Resources/he.lproj/InfoPlist.strings: copy
+
+# hw/xquartz/bundle/Resources/he.lproj/locversion.plist = XML  document text 
+hw/xquartz/bundle/Resources/he.lproj/locversion.plist: copy
+
+# hw/xquartz/bundle/Resources/he.lproj/Localizable.strings = Big-endian UTF-16 Unicode C program text, with very long lines 
+hw/xquartz/bundle/Resources/he.lproj/Localizable.strings: copy
+
+# hw/xquartz/bundle/Resources/English.lproj/main.nib/keyedobjects.nib = Apple binary property list 
+hw/xquartz/bundle/Resources/English.lproj/main.nib/keyedobjects.nib: copy
+
+# hw/xquartz/bundle/Resources/English.lproj/main.nib/designable.nib = XML  document text 
+hw/xquartz/bundle/Resources/English.lproj/main.nib/designable.nib: copy
+
+# hw/xquartz/bundle/Resources/English.lproj/InfoPlist.strings = Big-endian UTF-16 Unicode C program text 
+hw/xquartz/bundle/Resources/English.lproj/InfoPlist.strings: copy
+
+# hw/xquartz/bundle/Resources/English.lproj/locversion.plist = XML  document text 
+hw/xquartz/bundle/Resources/English.lproj/locversion.plist: copy
+
+# hw/xquartz/bundle/Resources/English.lproj/Localizable.strings = Little-endian UTF-16 Unicode C program text, with very long lines 
+hw/xquartz/bundle/Resources/English.lproj/Localizable.strings: copy
+
+# hw/xquartz/bundle/Makefile.am = ASCII text 
+hw/xquartz/bundle/Makefile.am: copy
+
+# hw/xquartz/bundle/Info.plist.cpp = XML  document text 
+hw/xquartz/bundle/Info.plist.cpp: copy
+
+# hw/xquartz/bundle/PkgInfo = ASCII text, with no line terminators 
+hw/xquartz/bundle/PkgInfo: copy
+
+# hw/xquartz/bundle/X11.sh = Bourne-Again shell script text executable 
+hw/xquartz/bundle/X11.sh: copy
+
+# hw/xquartz/bundle/mk_bundke.sh = POSIX shell script text executable 
+hw/xquartz/bundle/mk_bundke.sh: copy
+
+# hw/xquartz/bundle/Xquartz.plist = XML  document text 
+hw/xquartz/bundle/Xquartz.plist: copy
+
+# hw/xquartz/bundle/Makefile.in = ASCII English text 
+hw/xquartz/bundle/Makefile.in: copy
+
+# hw/xquartz/bundle/cpprules.in = ASCII English text 
+hw/xquartz/bundle/cpprules.in: copy
+
+# hw/xquartz/xpr/driWrap.c = ASCII C program text 
+hw/xquartz/xpr/driWrap.c: copy
+
+# hw/xquartz/xpr/appledristr.h = ASCII English text 
+hw/xquartz/xpr/appledristr.h: copy
+
+# hw/xquartz/xpr/x-hash.c = ASCII C program text 
+hw/xquartz/xpr/x-hash.c: copy
+
+# hw/xquartz/xpr/x-hook.h = ASCII C program text 
+hw/xquartz/xpr/x-hook.h: copy
+
+# hw/xquartz/xpr/dri.h = ASCII English text 
+hw/xquartz/xpr/dri.h: copy
+
+# hw/xquartz/xpr/Makefile.am = ASCII text 
+hw/xquartz/xpr/Makefile.am: copy
+
+# hw/xquartz/xpr/xpr.h = ASCII C program text 
+hw/xquartz/xpr/xpr.h: copy
+
+# hw/xquartz/xpr/xprAppleWM.c = ASCII C program text 
+hw/xquartz/xpr/xprAppleWM.c: copy
+
+# hw/xquartz/xpr/xprCursor.c = ASCII English text 
+hw/xquartz/xpr/xprCursor.c: copy
+
+# hw/xquartz/xpr/xprFrame.c = ASCII C program text 
+hw/xquartz/xpr/xprFrame.c: copy
+
+# hw/xquartz/xpr/x-list.h = ASCII C program text 
+hw/xquartz/xpr/x-list.h: copy
+
+# hw/xquartz/xpr/dristruct.h = ASCII English text 
+hw/xquartz/xpr/dristruct.h: copy
+
+# hw/xquartz/xpr/xprScreen.c = ASCII C program text 
+hw/xquartz/xpr/xprScreen.c: copy
+
+# hw/xquartz/xpr/dri.c = ASCII English text 
+hw/xquartz/xpr/dri.c: copy
+
+# hw/xquartz/xpr/xprEvent.h = ASCII C program text 
+hw/xquartz/xpr/xprEvent.h: copy
+
+# hw/xquartz/xpr/x-list.c = ASCII C program text 
+hw/xquartz/xpr/x-list.c: copy
+
+# hw/xquartz/xpr/xprEvent.c = ASCII C program text 
+hw/xquartz/xpr/xprEvent.c: copy
+
+# hw/xquartz/xpr/driWrap.h = ASCII C program text 
+hw/xquartz/xpr/driWrap.h: copy
+
+# hw/xquartz/xpr/appledri.h = ASCII C program text 
+hw/xquartz/xpr/appledri.h: copy
+
+# hw/xquartz/xpr/Makefile.in = ASCII English text 
+hw/xquartz/xpr/Makefile.in: copy
+
+# hw/xquartz/xpr/x-hash.h = ASCII C program text 
+hw/xquartz/xpr/x-hash.h: copy
+
+# hw/xquartz/xpr/appledri.c = ASCII English text 
+hw/xquartz/xpr/appledri.c: copy
+
+# hw/xquartz/xpr/x-hook.c = ASCII C program text 
+hw/xquartz/xpr/x-hook.c: copy
+
+# hw/xquartz/Makefile.am = ASCII text 
+hw/xquartz/Makefile.am: copy
+
+# hw/xquartz/quartz.h = ASCII C program text 
+hw/xquartz/quartz.h: copy
+
+# hw/xquartz/sanitizedCarbon.h = ASCII C program text 
+hw/xquartz/sanitizedCarbon.h: copy
+
+# hw/xquartz/GL/visualConfigs.h = ASCII C program text 
+hw/xquartz/GL/visualConfigs.h: copy
+
+# hw/xquartz/GL/visualConfigs.c = ASCII C program text 
+hw/xquartz/GL/visualConfigs.c: copy
+
+# hw/xquartz/GL/indirect.c = ASCII C program text 
+hw/xquartz/GL/indirect.c: copy
+
+# hw/xquartz/GL/Makefile.am = ASCII text 
+hw/xquartz/GL/Makefile.am: copy
+
+# hw/xquartz/GL/capabilities.h = ASCII C program text 
+hw/xquartz/GL/capabilities.h: copy
+
+# hw/xquartz/GL/capabilities.c = ASCII C program text 
+hw/xquartz/GL/capabilities.c: copy
+
+# hw/xquartz/GL/Makefile.in = ASCII English text 
+hw/xquartz/GL/Makefile.in: copy
+
+# hw/xquartz/quartz.c = ASCII C program text 
+hw/xquartz/quartz.c: copy
+
+# hw/xquartz/pseudoramiX.c = ASCII C program text 
+hw/xquartz/pseudoramiX.c: copy
+
+# hw/xquartz/darwinEvents.h = ASCII C program text 
+hw/xquartz/darwinEvents.h: copy
+
+# hw/xquartz/applewmExt.h = ASCII C program text 
+hw/xquartz/applewmExt.h: copy
+
+# hw/xquartz/X11Application.h = ASCII C program text 
+hw/xquartz/X11Application.h: copy
+
+# hw/xquartz/quartzRandR.c = ASCII C program text 
+hw/xquartz/quartzRandR.c: copy
+
+# hw/xquartz/pseudoramiX.h = ASCII C program text 
+hw/xquartz/pseudoramiX.h: copy
+
+# hw/xquartz/darwin.c = ASCII English text 
+hw/xquartz/darwin.c: copy
+
+# hw/xquartz/keysym2ucs.h = ASCII C program text 
+hw/xquartz/keysym2ucs.h: copy
+
+# hw/xquartz/quartzRandR.h = ASCII C program text 
+hw/xquartz/quartzRandR.h: copy
+
+# hw/xquartz/applewm.c = ASCII C program text 
+hw/xquartz/applewm.c: copy
+
+# hw/xquartz/keysym2ucs.c = ASCII C program text 
+hw/xquartz/keysym2ucs.c: copy
+
+# hw/xquartz/quartzKeyboard.c = ASCII C program text 
+hw/xquartz/quartzKeyboard.c: copy
+
+# hw/xquartz/console_redirect.h = ASCII C program text 
+hw/xquartz/console_redirect.h: copy
+
+# hw/xquartz/darwinEvents.c = ASCII C program text 
+hw/xquartz/darwinEvents.c: copy
+
+# hw/xquartz/quartzStartup.c = ASCII English text 
+hw/xquartz/quartzStartup.c: copy
+
+# hw/xquartz/X11Controller.h = ASCII C program text 
+hw/xquartz/X11Controller.h: copy
+
+# hw/xquartz/X11Controller.m = ASCII C program text 
+hw/xquartz/X11Controller.m: copy
+
+# hw/xquartz/sanitizedCocoa.h = ASCII C program text 
+hw/xquartz/sanitizedCocoa.h: copy
+
+# hw/xquartz/quartzCommon.h = ASCII C program text 
+hw/xquartz/quartzCommon.h: copy
+
+# hw/xquartz/mach-startup/Makefile.am = ASCII English text 
+hw/xquartz/mach-startup/Makefile.am: copy
+
+# hw/xquartz/mach-startup/launchd_fd.c = ASCII C program text 
+hw/xquartz/mach-startup/launchd_fd.c: copy
+
+# hw/xquartz/mach-startup/launchd_fd.h = ASCII C program text 
+hw/xquartz/mach-startup/launchd_fd.h: copy
+
+# hw/xquartz/mach-startup/bundle-main.c = ASCII C program text 
+hw/xquartz/mach-startup/bundle-main.c: copy
+
+# hw/xquartz/mach-startup/mach_startup_types.h = ASCII C program text 
+hw/xquartz/mach-startup/mach_startup_types.h: copy
+
+# hw/xquartz/mach-startup/mach_startup.defs = ASCII C program text 
+hw/xquartz/mach-startup/mach_startup.defs: copy
+
+# hw/xquartz/mach-startup/stub.c = ASCII C program text 
+hw/xquartz/mach-startup/stub.c: copy
+
+# hw/xquartz/mach-startup/Makefile.in = ASCII English text, with very long lines 
+hw/xquartz/mach-startup/Makefile.in: copy
+
+# hw/xquartz/man/Makefile.am = ASCII text 
+hw/xquartz/man/Makefile.am: copy
+
+# hw/xquartz/man/Xquartz.man = troff or preprocessor input text 
+hw/xquartz/man/Xquartz.man: copy
+
+# hw/xquartz/man/Makefile.in = ASCII English text 
+hw/xquartz/man/Makefile.in: copy
+
+# hw/xquartz/quartzKeyboard.h = ASCII C program text 
+hw/xquartz/quartzKeyboard.h: copy
+
+# hw/xquartz/darwin.h = ASCII C program text 
+hw/xquartz/darwin.h: copy
+
+# hw/xquartz/Makefile.in = ASCII English text, with very long lines 
+hw/xquartz/Makefile.in: copy
+
+# hw/xquartz/darwinXinput.c = ASCII C program text 
+hw/xquartz/darwinXinput.c: copy
+
+# hw/xquartz/console_redirect.c = ASCII C program text 
+hw/xquartz/console_redirect.c: copy
+
+# hw/xquartz/pbproxy/trick_autotools.c = ASCII text 
+hw/xquartz/pbproxy/trick_autotools.c: copy
+
+# hw/xquartz/pbproxy/Makefile.am = ASCII text 
+hw/xquartz/pbproxy/Makefile.am: copy
+
+# hw/xquartz/pbproxy/pbproxy.h = ASCII C program text 
+hw/xquartz/pbproxy/pbproxy.h: copy
+
+# hw/xquartz/pbproxy/x-selection.m = ASCII C program text 
+hw/xquartz/pbproxy/x-selection.m: copy
+
+# hw/xquartz/pbproxy/x-input.m = ASCII C program text 
+hw/xquartz/pbproxy/x-input.m: copy
+
+# hw/xquartz/pbproxy/main.m = ASCII C program text 
+hw/xquartz/pbproxy/main.m: copy
+
+# hw/xquartz/pbproxy/app-main.m = ASCII C program text 
+hw/xquartz/pbproxy/app-main.m: copy
+
+# hw/xquartz/pbproxy/x-selection.h = ASCII C program text 
+hw/xquartz/pbproxy/x-selection.h: copy
+
+# hw/xquartz/pbproxy/Makefile.in = ASCII English text 
+hw/xquartz/pbproxy/Makefile.in: copy
+
+# hw/xquartz/quartzCocoa.m = ASCII English text 
+hw/xquartz/quartzCocoa.m: copy
+
+# hw/dmx/doc/DMXSpec.txt = ASCII English text 
+hw/dmx/doc/DMXSpec.txt: copy
+
+# hw/dmx/doc/Makefile.am = ASCII English text 
+hw/dmx/doc/Makefile.am: copy
+
+# hw/dmx/doc/dmx.xml = XML  document text 
+hw/dmx/doc/dmx.xml: copy
+
+# hw/dmx/doc/scaled.xml = XML  document text 
+hw/dmx/doc/scaled.xml: copy
+
+# hw/dmx/doc/DMXSpec-v1.txt = ASCII English text 
+hw/dmx/doc/DMXSpec-v1.txt: copy
+
+# hw/dmx/doc/Makefile.in = ASCII English text 
+hw/dmx/doc/Makefile.in: copy
+
+# hw/dmx/dmxcursor.h = ASCII C program text 
+hw/dmx/dmxcursor.h: copy
+
+# hw/dmx/dmxcmap.h = ASCII C program text 
+hw/dmx/dmxcmap.h: copy
+
+# hw/dmx/dmxstat.h = ASCII C program text 
+hw/dmx/dmxstat.h: copy
+
+# hw/dmx/dmx-config.h = ASCII C program text 
+hw/dmx/dmx-config.h: copy
+
+# hw/dmx/dmxscrinit.c = ASCII C program text 
+hw/dmx/dmxscrinit.c: copy
+
+# hw/dmx/dmxinput.h = ASCII C program text 
+hw/dmx/dmxinput.h: copy
+
+# hw/dmx/Makefile.am = ASCII text 
+hw/dmx/Makefile.am: copy
+
+# hw/dmx/dmxprop.h = ASCII C program text 
+hw/dmx/dmxprop.h: copy
+
+# hw/dmx/dmxcb.c = ASCII C program text 
+hw/dmx/dmxcb.c: copy
+
+# hw/dmx/dmxdpms.c = ASCII C program text 
+hw/dmx/dmxdpms.c: copy
+
+# hw/dmx/dmxwindow.h = ASCII C program text 
+hw/dmx/dmxwindow.h: copy
+
+# hw/dmx/dmx.h = ASCII C program text 
+hw/dmx/dmx.h: copy
+
+# hw/dmx/dmxdpms.h = ASCII C program text 
+hw/dmx/dmxdpms.h: copy
+
+# hw/dmx/dmxclient.h = ASCII C program text 
+hw/dmx/dmxclient.h: copy
+
+# hw/dmx/dmxinit.h = ASCII C program text 
+hw/dmx/dmxinit.h: copy
+
+# hw/dmx/dmxfont.c = ASCII C program text 
+hw/dmx/dmxfont.c: copy
+
+# hw/dmx/dmxinput.c = ASCII C program text 
+hw/dmx/dmxinput.c: copy
+
+# hw/dmx/dmxgc.c = ASCII C program text 
+hw/dmx/dmxgc.c: copy
+
+# hw/dmx/dmxlog.h = ASCII C program text 
+hw/dmx/dmxlog.h: copy
+
+# hw/dmx/dmxcursor.c = ASCII C program text 
+hw/dmx/dmxcursor.c: copy
+
+# hw/dmx/dmxvisual.c = ASCII C program text 
+hw/dmx/dmxvisual.c: copy
+
+# hw/dmx/dmx_glxvisuals.h = ASCII C program text 
+hw/dmx/dmx_glxvisuals.h: copy
+
+# hw/dmx/dmxvisual.h = ASCII C program text 
+hw/dmx/dmxvisual.h: copy
+
+# hw/dmx/dmxpict.h = ASCII C program text 
+hw/dmx/dmxpict.h: copy
+
+# hw/dmx/dmxpixmap.h = ASCII C program text 
+hw/dmx/dmxpixmap.h: copy
+
+# hw/dmx/dmxinit.c = ASCII C program text 
+hw/dmx/dmxinit.c: copy
+
+# hw/dmx/dmx_glxvisuals.c = ASCII C program text 
+hw/dmx/dmx_glxvisuals.c: copy
+
+# hw/dmx/dmxscrinit.h = ASCII C program text 
+hw/dmx/dmxscrinit.h: copy
+
+# hw/dmx/dmxgcops.h = ASCII C program text 
+hw/dmx/dmxgcops.h: copy
+
+# hw/dmx/input/dmxdummy.h = ASCII C program text 
+hw/dmx/input/dmxdummy.h: copy
+
+# hw/dmx/input/dmxmotion.h = ASCII C program text 
+hw/dmx/input/dmxmotion.h: copy
+
+# hw/dmx/input/usb-keyboard.h = ASCII C program text 
+hw/dmx/input/usb-keyboard.h: copy
+
+# hw/dmx/input/Makefile.am = ASCII text 
+hw/dmx/input/Makefile.am: copy
+
+# hw/dmx/input/atKeynames.h = ASCII C program text 
+hw/dmx/input/atKeynames.h: copy
+
+# hw/dmx/input/usb-other.c = ASCII C program text 
+hw/dmx/input/usb-other.c: copy
+
+# hw/dmx/input/dmxinputinit.h = ASCII C program text 
+hw/dmx/input/dmxinputinit.h: copy
+
+# hw/dmx/input/dmxxinput.c = ASCII C program text 
+hw/dmx/input/dmxxinput.c: copy
+
+# hw/dmx/input/lnx-keyboard.h = ASCII C program text 
+hw/dmx/input/lnx-keyboard.h: copy
+
+# hw/dmx/input/dmxarg.h = ASCII C program text 
+hw/dmx/input/dmxarg.h: copy
+
+# hw/dmx/input/dmxdummy.c = ASCII C program text 
+hw/dmx/input/dmxdummy.c: copy
+
+# hw/dmx/input/usb-common.h = ASCII C program text 
+hw/dmx/input/usb-common.h: copy
+
+# hw/dmx/input/dmxcommon.c = ASCII C program text 
+hw/dmx/input/dmxcommon.c: copy
+
+# hw/dmx/input/dmxsigio.c = ASCII C program text 
+hw/dmx/input/dmxsigio.c: copy
+
+# hw/dmx/input/dmxcommon.h = ASCII C program text 
+hw/dmx/input/dmxcommon.h: copy
+
+# hw/dmx/input/dmxdetach.c = ASCII C program text 
+hw/dmx/input/dmxdetach.c: copy
+
+# hw/dmx/input/lnx-ps2.c = ASCII C program text 
+hw/dmx/input/lnx-ps2.c: copy
+
+# hw/dmx/input/dmxarg.c = ASCII C program text 
+hw/dmx/input/dmxarg.c: copy
+
+# hw/dmx/input/dmxconsole.h = ASCII C program text 
+hw/dmx/input/dmxconsole.h: copy
+
+# hw/dmx/input/dmxmotion.c = ASCII C program text 
+hw/dmx/input/dmxmotion.c: copy
+
+# hw/dmx/input/usb-other.h = ASCII C program text 
+hw/dmx/input/usb-other.h: copy
+
+# hw/dmx/input/dmxconsole.c = ASCII C program text 
+hw/dmx/input/dmxconsole.c: copy
+
+# hw/dmx/input/usb-mouse.c = ASCII C program text 
+hw/dmx/input/usb-mouse.c: copy
+
+# hw/dmx/input/usb-common.c = ASCII C program text 
+hw/dmx/input/usb-common.c: copy
+
+# hw/dmx/input/dmxinputinit.c = ASCII C program text 
+hw/dmx/input/dmxinputinit.c: copy
+
+# hw/dmx/input/dmxevents.h = ASCII C program text 
+hw/dmx/input/dmxevents.h: copy
+
+# hw/dmx/input/lnx-keyboard.c = ASCII C program text 
+hw/dmx/input/lnx-keyboard.c: copy
+
+# hw/dmx/input/dmxbackend.h = ASCII C program text 
+hw/dmx/input/dmxbackend.h: copy
+
+# hw/dmx/input/dmxevents.c = ASCII C program text 
+hw/dmx/input/dmxevents.c: copy
+
+# hw/dmx/input/dmxbackend.c = ASCII C program text 
+hw/dmx/input/dmxbackend.c: copy
+
+# hw/dmx/input/lnx-ps2.h = ASCII C program text 
+hw/dmx/input/lnx-ps2.h: copy
+
+# hw/dmx/input/lnx-ms.c = ASCII C program text 
+hw/dmx/input/lnx-ms.c: copy
+
+# hw/dmx/input/usb-private.h = ASCII C program text 
+hw/dmx/input/usb-private.h: copy
+
+# hw/dmx/input/lnx-ms.h = ASCII C program text 
+hw/dmx/input/lnx-ms.h: copy
+
+# hw/dmx/input/ChkNotMaskEv.h = ASCII C program text 
+hw/dmx/input/ChkNotMaskEv.h: copy
+
+# hw/dmx/input/dmxmap.h = ASCII C program text 
+hw/dmx/input/dmxmap.h: copy
+
+# hw/dmx/input/dmxsigio.h = ASCII C program text 
+hw/dmx/input/dmxsigio.h: copy
+
+# hw/dmx/input/dmxmap.c = ASCII C program text 
+hw/dmx/input/dmxmap.c: copy
+
+# hw/dmx/input/Makefile.in = ASCII English text 
+hw/dmx/input/Makefile.in: copy
+
+# hw/dmx/input/ChkNotMaskEv.c = ASCII C program text 
+hw/dmx/input/ChkNotMaskEv.c: copy
+
+# hw/dmx/input/usb-mouse.h = ASCII C program text 
+hw/dmx/input/usb-mouse.h: copy
+
+# hw/dmx/input/usb-keyboard.c = ASCII C program text 
+hw/dmx/input/usb-keyboard.c: copy
+
+# hw/dmx/dmxgcops.c = ASCII C program text 
+hw/dmx/dmxgcops.c: copy
+
+# hw/dmx/dmxlog.c = ASCII C program text 
+hw/dmx/dmxlog.c: copy
+
+# hw/dmx/dmxstat.c = ASCII C program text 
+hw/dmx/dmxstat.c: copy
+
+# hw/dmx/dmxshadow.c = ASCII C program text 
+hw/dmx/dmxshadow.c: copy
+
+# hw/dmx/dmxextension.h = ASCII C program text 
+hw/dmx/dmxextension.h: copy
+
+# hw/dmx/examples/xled.c = ASCII C program text 
+hw/dmx/examples/xled.c: copy
+
+# hw/dmx/examples/evi.c = ASCII C program text 
+hw/dmx/examples/evi.c: copy
+
+# hw/dmx/examples/dmxreconfig.c = ASCII C program text 
+hw/dmx/examples/dmxreconfig.c: copy
+
+# hw/dmx/examples/dmxaddinput.c = ASCII C program text 
+hw/dmx/examples/dmxaddinput.c: copy
+
+# hw/dmx/examples/Makefile.am = ASCII text 
+hw/dmx/examples/Makefile.am: copy
+
+# hw/dmx/examples/dmxwininfo.c = ASCII C program text 
+hw/dmx/examples/dmxwininfo.c: copy
+
+# hw/dmx/examples/xinput.c = ASCII C program text 
+hw/dmx/examples/xinput.c: copy
+
+# hw/dmx/examples/dmxaddscreen.c = ASCII C program text 
+hw/dmx/examples/dmxaddscreen.c: copy
+
+# hw/dmx/examples/dmxinfo.c = ASCII C program text 
+hw/dmx/examples/dmxinfo.c: copy
+
+# hw/dmx/examples/ev.c = ASCII C program text 
+hw/dmx/examples/ev.c: copy
+
+# hw/dmx/examples/res.c = ASCII C program text 
+hw/dmx/examples/res.c: copy
+
+# hw/dmx/examples/dmxrminput.c = ASCII C program text 
+hw/dmx/examples/dmxrminput.c: copy
+
+# hw/dmx/examples/dmxresize.c = ASCII C program text 
+hw/dmx/examples/dmxresize.c: copy
+
+# hw/dmx/examples/xbell.c = ASCII C program text 
+hw/dmx/examples/xbell.c: copy
+
+# hw/dmx/examples/dmxrmscreen.c = ASCII C program text 
+hw/dmx/examples/dmxrmscreen.c: copy
+
+# hw/dmx/examples/xtest.c = ASCII C program text 
+hw/dmx/examples/xtest.c: copy
+
+# hw/dmx/examples/Makefile.in = ASCII English text, with very long lines 
+hw/dmx/examples/Makefile.in: copy
+
+# hw/dmx/config/dmxparse.h = ASCII C program text 
+hw/dmx/config/dmxparse.h: copy
+
+# hw/dmx/config/vdltodmx.c = ASCII C program text 
+hw/dmx/config/vdltodmx.c: copy
+
+# hw/dmx/config/test-k.out = ASCII C++ program text 
+hw/dmx/config/test-k.out: copy
+
+# hw/dmx/config/test-l.in = ASCII C++ program text 
+hw/dmx/config/test-l.in: copy
+
+# hw/dmx/config/dmxcompat.c = ASCII C program text 
+hw/dmx/config/dmxcompat.c: copy
+
+# hw/dmx/config/test-e.out = ASCII text 
+hw/dmx/config/test-e.out: copy
+
+# hw/dmx/config/test-b.out = ASCII text 
+hw/dmx/config/test-b.out: copy
+
+# hw/dmx/config/dmxprint.c = ASCII C program text 
+hw/dmx/config/dmxprint.c: copy
+
+# hw/dmx/config/dmxparse.c = ASCII C program text 
+hw/dmx/config/dmxparse.c: copy
+
+# hw/dmx/config/test-e.in = ASCII text 
+hw/dmx/config/test-e.in: copy
+
+# hw/dmx/config/dmxtodmx.c = ASCII C program text 
+hw/dmx/config/dmxtodmx.c: copy
+
+# hw/dmx/config/test-d.out = ASCII text 
+hw/dmx/config/test-d.out: copy
+
+# hw/dmx/config/Makefile.am = ASCII text 
+hw/dmx/config/Makefile.am: copy
+
+# hw/dmx/config/scanner.c = C program text (from flex) 
+hw/dmx/config/scanner.c: copy
+
+# hw/dmx/config/dmxcompat.h = ASCII C program text 
+hw/dmx/config/dmxcompat.h: copy
+
+# hw/dmx/config/CanvasP.h = ASCII C program text 
+hw/dmx/config/CanvasP.h: copy
+
+# hw/dmx/config/test-c.out = ASCII text 
+hw/dmx/config/test-c.out: copy
+
+# hw/dmx/config/parser.y = ASCII C program text 
+hw/dmx/config/parser.y: copy
+
+# hw/dmx/config/parser.h = ASCII C program text 
+hw/dmx/config/parser.h: copy
+
+# hw/dmx/config/xdmxconfig.c = ASCII C program text 
+hw/dmx/config/xdmxconfig.c: copy
+
+# hw/dmx/config/test-k.in = ASCII C++ program text 
+hw/dmx/config/test-k.in: copy
+
+# hw/dmx/config/dmxprint.h = ASCII C program text 
+hw/dmx/config/dmxprint.h: copy
+
+# hw/dmx/config/test-c.in = ASCII C++ program text 
+hw/dmx/config/test-c.in: copy
+
+# hw/dmx/config/parser.c = ASCII C program text 
+hw/dmx/config/parser.c: copy
+
+# hw/dmx/config/test-b.in = ASCII text 
+hw/dmx/config/test-b.in: copy
+
+# hw/dmx/config/test-h.in = ASCII text 
+hw/dmx/config/test-h.in: copy
+
+# hw/dmx/config/scanner.l = ASCII C program text 
+hw/dmx/config/scanner.l: copy
+
+# hw/dmx/config/test-a.in = ASCII text 
+hw/dmx/config/test-a.in: copy
+
+# hw/dmx/config/test-g.in = ASCII C++ program text 
+hw/dmx/config/test-g.in: copy
+
+# hw/dmx/config/Canvas.h = ASCII C program text 
+hw/dmx/config/Canvas.h: copy
+
+# hw/dmx/config/test-g.out = ASCII C++ program text 
+hw/dmx/config/test-g.out: copy
+
+# hw/dmx/config/test-l.out = ASCII C++ program text 
+hw/dmx/config/test-l.out: copy
+
+# hw/dmx/config/test-h.out = ASCII text 
+hw/dmx/config/test-h.out: copy
+
+# hw/dmx/config/dmxconfig.c = ASCII C program text 
+hw/dmx/config/dmxconfig.c: copy
+
+# hw/dmx/config/TODO = ASCII text 
+hw/dmx/config/TODO: copy
+
+# hw/dmx/config/test-j.in = ASCII C++ program text 
+hw/dmx/config/test-j.in: copy
+
+# hw/dmx/config/test-f.out = data 
+hw/dmx/config/test-f.out: copy
+
+# hw/dmx/config/test-i.out = ASCII C++ program text 
+hw/dmx/config/test-i.out: copy
+
+# hw/dmx/config/test-f.in = ASCII C++ program text 
+hw/dmx/config/test-f.in: copy
+
+# hw/dmx/config/test-d.in = ASCII text 
+hw/dmx/config/test-d.in: copy
+
+# hw/dmx/config/dmxconfig.h = ASCII C program text 
+hw/dmx/config/dmxconfig.h: copy
+
+# hw/dmx/config/test-i.in = ASCII C++ program text 
+hw/dmx/config/test-i.in: copy
+
+# hw/dmx/config/test-a.out = ASCII text 
+hw/dmx/config/test-a.out: copy
+
+# hw/dmx/config/Canvas.c = ASCII C program text 
+hw/dmx/config/Canvas.c: copy
+
+# hw/dmx/config/man/Makefile.am = ASCII text 
+hw/dmx/config/man/Makefile.am: copy
+
+# hw/dmx/config/man/dmxtodmx.man = troff or preprocessor input text 
+hw/dmx/config/man/dmxtodmx.man: copy
+
+# hw/dmx/config/man/vdltodmx.man = troff or preprocessor input text 
+hw/dmx/config/man/vdltodmx.man: copy
+
+# hw/dmx/config/man/xdmxconfig.man = troff or preprocessor input text 
+hw/dmx/config/man/xdmxconfig.man: copy
+
+# hw/dmx/config/man/Makefile.in = ASCII English text 
+hw/dmx/config/man/Makefile.in: copy
+
+# hw/dmx/config/Makefile.in = ASCII English text, with very long lines 
+hw/dmx/config/Makefile.in: copy
+
+# hw/dmx/config/test-j.out = ASCII C++ program text 
+hw/dmx/config/test-j.out: copy
+
+# hw/dmx/doxygen/Makefile.am = ASCII English text 
+hw/dmx/doxygen/Makefile.am: copy
+
+# hw/dmx/doxygen/doxygen.conf.in = ASCII English text, with very long lines 
+hw/dmx/doxygen/doxygen.conf.in: copy
+
+# hw/dmx/doxygen/footer.html = ASCII text 
+hw/dmx/doxygen/footer.html: copy
+
+# hw/dmx/doxygen/Makefile.in = ASCII English text 
+hw/dmx/doxygen/Makefile.in: copy
+
+# hw/dmx/dmxshadow.h = ASCII C program text 
+hw/dmx/dmxshadow.h: copy
+
+# hw/dmx/dmxsync.h = ASCII C program text 
+hw/dmx/dmxsync.h: copy
+
+# hw/dmx/dmxsync.c = ASCII C program text 
+hw/dmx/dmxsync.c: copy
+
+# hw/dmx/dmxcb.h = ASCII C program text 
+hw/dmx/dmxcb.h: copy
+
+# hw/dmx/dmx.c = ASCII C program text 
+hw/dmx/dmx.c: copy
+
+# hw/dmx/dmxpixmap.c = ASCII C program text 
+hw/dmx/dmxpixmap.c: copy
+
+# hw/dmx/dmxpict.c = ASCII C program text 
+hw/dmx/dmxpict.c: copy
+
+# hw/dmx/dmxextension.c = ASCII C program text 
+hw/dmx/dmxextension.c: copy
+
+# hw/dmx/dmxcmap.c = ASCII C program text 
+hw/dmx/dmxcmap.c: copy
+
+# hw/dmx/man/Makefile.am = ASCII text 
+hw/dmx/man/Makefile.am: copy
+
+# hw/dmx/man/Xdmx.man = troff or preprocessor input text 
+hw/dmx/man/Xdmx.man: copy
+
+# hw/dmx/man/Makefile.in = ASCII English text 
+hw/dmx/man/Makefile.in: copy
+
+# hw/dmx/glxProxy/glxsingle.c = ASCII C program text 
+hw/dmx/glxProxy/glxsingle.c: copy
+
+# hw/dmx/glxProxy/glxvisuals.c = ASCII C program text 
+hw/dmx/glxProxy/glxvisuals.c: copy
+
+# hw/dmx/glxProxy/glxvendor.c = ASCII C program text 
+hw/dmx/glxProxy/glxvendor.c: copy
+
+# hw/dmx/glxProxy/glxvisuals.h = ASCII C program text 
+hw/dmx/glxProxy/glxvisuals.h: copy
+
+# hw/dmx/glxProxy/glxswap.h = ASCII C program text 
+hw/dmx/glxProxy/glxswap.h: copy
+
+# hw/dmx/glxProxy/glxscreens.h = ASCII C program text 
+hw/dmx/glxProxy/glxscreens.h: copy
+
+# hw/dmx/glxProxy/glxutil.c = ASCII C program text 
+hw/dmx/glxProxy/glxutil.c: copy
+
+# hw/dmx/glxProxy/Makefile.am = ASCII text 
+hw/dmx/glxProxy/Makefile.am: copy
+
+# hw/dmx/glxProxy/glxsingle.h = ASCII C program text 
+hw/dmx/glxProxy/glxsingle.h: copy
+
+# hw/dmx/glxProxy/glxdrawable.h = ASCII C program text 
+hw/dmx/glxProxy/glxdrawable.h: copy
+
+# hw/dmx/glxProxy/g_disptab.h = ASCII C program text 
+hw/dmx/glxProxy/g_disptab.h: copy
+
+# hw/dmx/glxProxy/glxutil.h = ASCII C program text 
+hw/dmx/glxProxy/glxutil.h: copy
+
+# hw/dmx/glxProxy/compsize.c = ASCII C program text 
+hw/dmx/glxProxy/compsize.c: copy
+
+# hw/dmx/glxProxy/glxscreens.c = ASCII C program text 
+hw/dmx/glxProxy/glxscreens.c: copy
+
+# hw/dmx/glxProxy/glxcmds.h = ASCII C program text 
+hw/dmx/glxProxy/glxcmds.h: copy
+
+# hw/dmx/glxProxy/render2swap.c = ASCII C program text 
+hw/dmx/glxProxy/render2swap.c: copy
+
+# hw/dmx/glxProxy/glxswap.c = ASCII C program text 
+hw/dmx/glxProxy/glxswap.c: copy
+
+# hw/dmx/glxProxy/unpack.h = ASCII C program text 
+hw/dmx/glxProxy/unpack.h: copy
+
+# hw/dmx/glxProxy/compsize.h = ASCII C program text 
+hw/dmx/glxProxy/compsize.h: copy
+
+# hw/dmx/glxProxy/glxext.c = ASCII C program text 
+hw/dmx/glxProxy/glxext.c: copy
+
+# hw/dmx/glxProxy/g_renderswap.c = ASCII C program text 
+hw/dmx/glxProxy/g_renderswap.c: copy
+
+# hw/dmx/glxProxy/glxfbconfig.h = ASCII C program text 
+hw/dmx/glxProxy/glxfbconfig.h: copy
+
+# hw/dmx/glxProxy/glxext.h = ASCII C program text 
+hw/dmx/glxProxy/glxext.h: copy
+
+# hw/dmx/glxProxy/glxcontext.h = ASCII C program text 
+hw/dmx/glxProxy/glxcontext.h: copy
+
+# hw/dmx/glxProxy/global.c = ASCII C program text 
+hw/dmx/glxProxy/global.c: copy
+
+# hw/dmx/glxProxy/glxcmds.c = ASCII C program text 
+hw/dmx/glxProxy/glxcmds.c: copy
+
+# hw/dmx/glxProxy/glxfbconfig.c = ASCII C program text 
+hw/dmx/glxProxy/glxfbconfig.c: copy
+
+# hw/dmx/glxProxy/renderpixswap.c = ASCII C program text 
+hw/dmx/glxProxy/renderpixswap.c: copy
+
+# hw/dmx/glxProxy/glxcmdsswap.c = ASCII C program text 
+hw/dmx/glxProxy/glxcmdsswap.c: copy
+
+# hw/dmx/glxProxy/glxvendor.h = ASCII C program text 
+hw/dmx/glxProxy/glxvendor.h: copy
+
+# hw/dmx/glxProxy/glxserver.h = ASCII C program text 
+hw/dmx/glxProxy/glxserver.h: copy
+
+# hw/dmx/glxProxy/Makefile.in = ASCII English text 
+hw/dmx/glxProxy/Makefile.in: copy
+
+# hw/dmx/glxProxy/g_disptab.c = ASCII C program text 
+hw/dmx/glxProxy/g_disptab.c: copy
+
+# hw/dmx/glxProxy/glxerror.h = ASCII C program text 
+hw/dmx/glxProxy/glxerror.h: copy
+
+# hw/dmx/dmxgc.h = ASCII C program text 
+hw/dmx/dmxgc.h: copy
+
+# hw/dmx/Makefile.in = ASCII English text, with very long lines 
+hw/dmx/Makefile.in: copy
+
+# hw/dmx/dmxfont.h = ASCII C program text 
+hw/dmx/dmxfont.h: copy
+
+# hw/dmx/dmxprop.c = ASCII C program text 
+hw/dmx/dmxprop.c: copy
+
+# hw/dmx/dmxwindow.c = ASCII C program text 
+hw/dmx/dmxwindow.c: copy
+
+# hw/vfb/Makefile.am = ASCII text 
+hw/vfb/Makefile.am: copy
+
+# hw/vfb/InitInput.c = ASCII C program text 
+hw/vfb/InitInput.c: copy
+
+# hw/vfb/InitOutput.c = ASCII C program text 
+hw/vfb/InitOutput.c: copy
+
+# hw/vfb/man/Makefile.am = ASCII text 
+hw/vfb/man/Makefile.am: copy
+
+# hw/vfb/man/Xvfb.man = troff or preprocessor input text 
+hw/vfb/man/Xvfb.man: copy
+
+# hw/vfb/man/Makefile.in = ASCII English text 
+hw/vfb/man/Makefile.in: copy
+
+# hw/vfb/Makefile.in = ASCII English text, with very long lines 
+hw/vfb/Makefile.in: copy
+
+# hw/xfree86/sdksyms.sh = POSIX shell script text executable 
+hw/xfree86/sdksyms.sh: copy
+
+# hw/xfree86/doc/Makefile.am = ASCII text 
+hw/xfree86/doc/Makefile.am: copy
+
+# hw/xfree86/doc/README.DRIcomp = ASCII English text 
+hw/xfree86/doc/README.DRIcomp: copy
+
+# hw/xfree86/doc/ddxDesign.xml = XML  document text 
+hw/xfree86/doc/ddxDesign.xml: copy
+
+# hw/xfree86/doc/exa-driver.txt = ASCII English text 
+hw/xfree86/doc/exa-driver.txt: copy
+
+# hw/xfree86/doc/Registry = ASCII English text 
+hw/xfree86/doc/Registry: copy
+
+# hw/xfree86/doc/Makefile.in = ASCII English text 
+hw/xfree86/doc/Makefile.in: copy
+
+# hw/xfree86/doc/README.modes = ASCII English text 
+hw/xfree86/doc/README.modes: copy
+
+# hw/xfree86/i2c/xf86i2c.c = ASCII C program text 
+hw/xfree86/i2c/xf86i2c.c: copy
+
+# hw/xfree86/i2c/tda9850_module.c = ASCII C program text 
+hw/xfree86/i2c/tda9850_module.c: copy
+
+# hw/xfree86/i2c/tda8425_module.c = ASCII C program text 
+hw/xfree86/i2c/tda8425_module.c: copy
+
+# hw/xfree86/i2c/Makefile.am = ASCII text 
+hw/xfree86/i2c/Makefile.am: copy
+
+# hw/xfree86/i2c/fi1236.c = ASCII C program text 
+hw/xfree86/i2c/fi1236.c: copy
+
+# hw/xfree86/i2c/tda9850.c = ASCII C program text 
+hw/xfree86/i2c/tda9850.c: copy
+
+# hw/xfree86/i2c/msp3430_module.c = ASCII C program text 
+hw/xfree86/i2c/msp3430_module.c: copy
+
+# hw/xfree86/i2c/uda1380.c = ASCII English text 
+hw/xfree86/i2c/uda1380.c: copy
+
+# hw/xfree86/i2c/msp3430.h = ASCII C program text 
+hw/xfree86/i2c/msp3430.h: copy
+
+# hw/xfree86/i2c/msp3430.c = ASCII C program text 
+hw/xfree86/i2c/msp3430.c: copy
+
+# hw/xfree86/i2c/tda9850.h = ASCII C program text 
+hw/xfree86/i2c/tda9850.h: copy
+
+# hw/xfree86/i2c/uda1380.h = ASCII English text 
+hw/xfree86/i2c/uda1380.h: copy
+
+# hw/xfree86/i2c/fi1236.h = ASCII C program text 
+hw/xfree86/i2c/fi1236.h: copy
+
+# hw/xfree86/i2c/tda8425.h = ASCII C program text 
+hw/xfree86/i2c/tda8425.h: copy
+
+# hw/xfree86/i2c/i2c_def.h = ASCII C program text 
+hw/xfree86/i2c/i2c_def.h: copy
+
+# hw/xfree86/i2c/bt829_module.c = ASCII C program text 
+hw/xfree86/i2c/bt829_module.c: copy
+
+# hw/xfree86/i2c/tda9885.h = ASCII C program text 
+hw/xfree86/i2c/tda9885.h: copy
+
+# hw/xfree86/i2c/uda1380_module.c = ASCII C program text 
+hw/xfree86/i2c/uda1380_module.c: copy
+
+# hw/xfree86/i2c/fi1236_module.c = ASCII C program text 
+hw/xfree86/i2c/fi1236_module.c: copy
+
+# hw/xfree86/i2c/xf86i2c.h = ASCII C program text 
+hw/xfree86/i2c/xf86i2c.h: copy
+
+# hw/xfree86/i2c/tda9885.c = ASCII C program text 
+hw/xfree86/i2c/tda9885.c: copy
+
+# hw/xfree86/i2c/bt829.h = ASCII C program text 
+hw/xfree86/i2c/bt829.h: copy
+
+# hw/xfree86/i2c/bt829.c = ASCII C program text 
+hw/xfree86/i2c/bt829.c: copy
+
+# hw/xfree86/i2c/tda9885_module.c = ASCII C program text 
+hw/xfree86/i2c/tda9885_module.c: copy
+
+# hw/xfree86/i2c/tda8425.c = ASCII C program text 
+hw/xfree86/i2c/tda8425.c: copy
+
+# hw/xfree86/i2c/Makefile.in = ASCII English text 
+hw/xfree86/i2c/Makefile.in: copy
+
+# hw/xfree86/utils/gtf/Makefile.am = ASCII English text 
+hw/xfree86/utils/gtf/Makefile.am: copy
+
+# hw/xfree86/utils/gtf/gtf.c = ASCII C program text 
+hw/xfree86/utils/gtf/gtf.c: copy
+
+# hw/xfree86/utils/gtf/Makefile.in = ASCII English text 
+hw/xfree86/utils/gtf/Makefile.in: copy
+
+# hw/xfree86/utils/Makefile.am = ASCII text 
+hw/xfree86/utils/Makefile.am: copy
+
+# hw/xfree86/utils/cvt/Makefile.am = ASCII English text 
+hw/xfree86/utils/cvt/Makefile.am: copy
+
+# hw/xfree86/utils/cvt/cvt.c = ASCII C program text 
+hw/xfree86/utils/cvt/cvt.c: copy
+
+# hw/xfree86/utils/cvt/Makefile.in = ASCII English text, with very long lines 
+hw/xfree86/utils/cvt/Makefile.in: copy
+
+# hw/xfree86/utils/man/Makefile.am = ASCII text 
+hw/xfree86/utils/man/Makefile.am: copy
+
+# hw/xfree86/utils/man/cvt.man = troff or preprocessor input text 
+hw/xfree86/utils/man/cvt.man: copy
+
+# hw/xfree86/utils/man/gtf.man = troff or preprocessor input text 
+hw/xfree86/utils/man/gtf.man: copy
+
+# hw/xfree86/utils/man/Makefile.in = ASCII English text 
+hw/xfree86/utils/man/Makefile.in: copy
+
+# hw/xfree86/utils/Makefile.in = ASCII English text 
+hw/xfree86/utils/Makefile.in: copy
+
+# hw/xfree86/Makefile.am = ASCII text 
+hw/xfree86/Makefile.am: copy
+
+# hw/xfree86/dri2/dri2ext.c = UTF-8 Unicode C program text 
+hw/xfree86/dri2/dri2ext.c: copy
+
+# hw/xfree86/dri2/Makefile.am = ASCII text 
+hw/xfree86/dri2/Makefile.am: copy
+
+# hw/xfree86/dri2/dri2.c = UTF-8 Unicode C program text 
+hw/xfree86/dri2/dri2.c: copy
+
+# hw/xfree86/dri2/dri2.h = UTF-8 Unicode C program text 
+hw/xfree86/dri2/dri2.h: copy
+
+# hw/xfree86/dri2/Makefile.in = ASCII English text 
+hw/xfree86/dri2/Makefile.in: copy
+
+# hw/xfree86/dri2/dri2int.h = UTF-8 Unicode C program text 
+hw/xfree86/dri2/dri2int.h: copy
+
+# hw/xfree86/os-support/bus/bsd_pci.c = UTF-8 Unicode C program text 
+hw/xfree86/os-support/bus/bsd_pci.c: copy
+
+# hw/xfree86/os-support/bus/xf86Pci.h = ASCII C program text 
+hw/xfree86/os-support/bus/xf86Pci.h: copy
+
+# hw/xfree86/os-support/bus/Makefile.am = ASCII text 
+hw/xfree86/os-support/bus/Makefile.am: copy
+
+# hw/xfree86/os-support/bus/Sbus.c = ASCII C program text 
+hw/xfree86/os-support/bus/Sbus.c: copy
+
+# hw/xfree86/os-support/bus/xf86Sbus.h = ASCII C program text 
+hw/xfree86/os-support/bus/xf86Sbus.h: copy
+
+# hw/xfree86/os-support/bus/nobus.c = ASCII text 
+hw/xfree86/os-support/bus/nobus.c: copy
+
+# hw/xfree86/os-support/bus/Pci.c = ASCII C program text 
+hw/xfree86/os-support/bus/Pci.c: copy
+
+# hw/xfree86/os-support/bus/Makefile.in = ASCII English text 
+hw/xfree86/os-support/bus/Makefile.in: copy
+
+# hw/xfree86/os-support/bus/Pci.h = ASCII C program text 
+hw/xfree86/os-support/bus/Pci.h: copy
+
+# hw/xfree86/os-support/Makefile.am = ASCII English text 
+hw/xfree86/os-support/Makefile.am: copy
+
+# hw/xfree86/os-support/xf86OSpriv.h = ASCII C program text 
+hw/xfree86/os-support/xf86OSpriv.h: copy
+
+# hw/xfree86/os-support/xf86_OSlib.h = ASCII C program text 
+hw/xfree86/os-support/xf86_OSlib.h: copy
+
+# hw/xfree86/os-support/shared/agp_noop.c = ASCII C program text 
+hw/xfree86/os-support/shared/agp_noop.c: copy
+
+# hw/xfree86/os-support/shared/bios_mmap.c = ASCII C program text 
+hw/xfree86/os-support/shared/bios_mmap.c: copy
+
+# hw/xfree86/os-support/shared/vidmem.c = ASCII C program text 
+hw/xfree86/os-support/shared/vidmem.c: copy
+
+# hw/xfree86/os-support/shared/xf86Axp.h = ASCII C program text 
+hw/xfree86/os-support/shared/xf86Axp.h: copy
+
+# hw/xfree86/os-support/shared/ioperm_noop.c = ASCII C program text 
+hw/xfree86/os-support/shared/ioperm_noop.c: copy
+
+# hw/xfree86/os-support/shared/pm_noop.c = ASCII C program text 
+hw/xfree86/os-support/shared/pm_noop.c: copy
+
+# hw/xfree86/os-support/shared/VTsw_noop.c = ASCII C program text 
+hw/xfree86/os-support/shared/VTsw_noop.c: copy
+
+# hw/xfree86/os-support/shared/sigio.c = ASCII C program text 
+hw/xfree86/os-support/shared/sigio.c: copy
+
+# hw/xfree86/os-support/shared/sigiostubs.c = ASCII C program text 
+hw/xfree86/os-support/shared/sigiostubs.c: copy
+
+# hw/xfree86/os-support/shared/VTsw_usl.c = ASCII C program text 
+hw/xfree86/os-support/shared/VTsw_usl.c: copy
+
+# hw/xfree86/os-support/shared/kmod_noop.c = ASCII C program text 
+hw/xfree86/os-support/shared/kmod_noop.c: copy
+
+# hw/xfree86/os-support/shared/xf86Axp.c = ASCII C program text 
+hw/xfree86/os-support/shared/xf86Axp.c: copy
+
+# hw/xfree86/os-support/shared/posix_tty.c = ASCII C program text 
+hw/xfree86/os-support/shared/posix_tty.c: copy
+
+# hw/xfree86/os-support/xf86_OSproc.h = ASCII C program text 
+hw/xfree86/os-support/xf86_OSproc.h: copy
+
+# hw/xfree86/os-support/misc/Makefile.am = ASCII text 
+hw/xfree86/os-support/misc/Makefile.am: copy
+
+# hw/xfree86/os-support/misc/SlowBcopy.c = ASCII C program text 
+hw/xfree86/os-support/misc/SlowBcopy.c: copy
+
+# hw/xfree86/os-support/misc/Makefile.in = ASCII English text 
+hw/xfree86/os-support/misc/Makefile.in: copy
+
+# hw/xfree86/os-support/hurd/hurd_bell.c = UTF-8 Unicode C program text 
+hw/xfree86/os-support/hurd/hurd_bell.c: copy
+
+# hw/xfree86/os-support/hurd/hurd_video.c = ASCII C program text 
+hw/xfree86/os-support/hurd/hurd_video.c: copy
+
+# hw/xfree86/os-support/hurd/Makefile.am = ASCII text 
+hw/xfree86/os-support/hurd/Makefile.am: copy
+
+# hw/xfree86/os-support/hurd/hurd_mmap.c = ASCII C program text 
+hw/xfree86/os-support/hurd/hurd_mmap.c: copy
+
+# hw/xfree86/os-support/hurd/hurd_init.c = ASCII C program text 
+hw/xfree86/os-support/hurd/hurd_init.c: copy
+
+# hw/xfree86/os-support/hurd/Makefile.in = ASCII English text, with very long lines 
+hw/xfree86/os-support/hurd/Makefile.in: copy
+
+# hw/xfree86/os-support/solaris/apSolaris.shar = POSIX shell script text executable 
+hw/xfree86/os-support/solaris/apSolaris.shar: copy
+
+# hw/xfree86/os-support/solaris/sun_agp.c = UTF-8 Unicode C program text 
+hw/xfree86/os-support/solaris/sun_agp.c: copy
+
+# hw/xfree86/os-support/solaris/Makefile.am = ASCII text 
+hw/xfree86/os-support/solaris/Makefile.am: copy
+
+# hw/xfree86/os-support/solaris/sun_VTsw.c = ASCII C program text 
+hw/xfree86/os-support/solaris/sun_VTsw.c: copy
+
+# hw/xfree86/os-support/solaris/sun_init.c = ASCII C program text 
+hw/xfree86/os-support/solaris/sun_init.c: copy
+
+# hw/xfree86/os-support/solaris/solaris-sparcv8plus.S = ASCII C program text 
+hw/xfree86/os-support/solaris/solaris-sparcv8plus.S: copy
+
+# hw/xfree86/os-support/solaris/sun_vid.c = ASCII C program text 
+hw/xfree86/os-support/solaris/sun_vid.c: copy
+
+# hw/xfree86/os-support/solaris/sun_inout.s = ASCII English text 
+hw/xfree86/os-support/solaris/sun_inout.s: copy
+
+# hw/xfree86/os-support/solaris/solaris-amd64.S = ASCII English text 
+hw/xfree86/os-support/solaris/solaris-amd64.S: copy
+
+# hw/xfree86/os-support/solaris/solaris-ia32.S = ASCII English text 
+hw/xfree86/os-support/solaris/solaris-ia32.S: copy
+
+# hw/xfree86/os-support/solaris/sun_apm.c = ASCII C program text 
+hw/xfree86/os-support/solaris/sun_apm.c: copy
+
+# hw/xfree86/os-support/solaris/sun_bell.c = ASCII C program text 
+hw/xfree86/os-support/solaris/sun_bell.c: copy
+
+# hw/xfree86/os-support/solaris/Makefile.in = ASCII English text, with very long lines 
+hw/xfree86/os-support/solaris/Makefile.in: copy
+
+# hw/xfree86/os-support/linux/Makefile.am = ASCII text 
+hw/xfree86/os-support/linux/Makefile.am: copy
+
+# hw/xfree86/os-support/linux/lnx_init.c = ASCII C program text 
+hw/xfree86/os-support/linux/lnx_init.c: copy
+
+# hw/xfree86/os-support/linux/lnx_agp.c = UTF-8 Unicode C program text 
+hw/xfree86/os-support/linux/lnx_agp.c: copy
+
+# hw/xfree86/os-support/linux/lnx_acpi.c = ASCII C program text 
+hw/xfree86/os-support/linux/lnx_acpi.c: copy
+
+# hw/xfree86/os-support/linux/lnx_platform.c = ASCII C program text 
+hw/xfree86/os-support/linux/lnx_platform.c: copy
+
+# hw/xfree86/os-support/linux/lnx_bell.c = UTF-8 Unicode C program text 
+hw/xfree86/os-support/linux/lnx_bell.c: copy
+
+# hw/xfree86/os-support/linux/lnx_ev56.c = ASCII C program text 
+hw/xfree86/os-support/linux/lnx_ev56.c: copy
+
+# hw/xfree86/os-support/linux/lnx_axp.c = ASCII C program text 
+hw/xfree86/os-support/linux/lnx_axp.c: copy
+
+# hw/xfree86/os-support/linux/lnx_video.c = ASCII C program text 
+hw/xfree86/os-support/linux/lnx_video.c: copy
+
+# hw/xfree86/os-support/linux/lnx_kmod.c = ASCII C program text 
+hw/xfree86/os-support/linux/lnx_kmod.c: copy
+
+# hw/xfree86/os-support/linux/int10/linux.c = ASCII C program text 
+hw/xfree86/os-support/linux/int10/linux.c: copy
+
+# hw/xfree86/os-support/linux/int10/vm86/linux_vm86.c = ASCII C program text 
+hw/xfree86/os-support/linux/int10/vm86/linux_vm86.c: copy
+
+# hw/xfree86/os-support/linux/lnx_apm.c = ASCII C program text 
+hw/xfree86/os-support/linux/lnx_apm.c: copy
+
+# hw/xfree86/os-support/linux/Makefile.in = ASCII English text, with very long lines 
+hw/xfree86/os-support/linux/Makefile.in: copy
+
+# hw/xfree86/os-support/Makefile.in = ASCII English text 
+hw/xfree86/os-support/Makefile.in: copy
+
+# hw/xfree86/os-support/bsd/bsd_kmod.c = ASCII C program text 
+hw/xfree86/os-support/bsd/bsd_kmod.c: copy
+
+# hw/xfree86/os-support/bsd/bsd_init.c = ASCII C program text 
+hw/xfree86/os-support/bsd/bsd_init.c: copy
+
+# hw/xfree86/os-support/bsd/i386_video.c = ASCII C program text 
+hw/xfree86/os-support/bsd/i386_video.c: copy
+
+# hw/xfree86/os-support/bsd/Makefile.am = ASCII English text 
+hw/xfree86/os-support/bsd/Makefile.am: copy
+
+# hw/xfree86/os-support/bsd/ppc_video.c = ASCII C program text 
+hw/xfree86/os-support/bsd/ppc_video.c: copy
+
+# hw/xfree86/os-support/bsd/bsd_VTsw.c = ASCII C program text 
+hw/xfree86/os-support/bsd/bsd_VTsw.c: copy
+
+# hw/xfree86/os-support/bsd/sparc64_video.c = ASCII C program text 
+hw/xfree86/os-support/bsd/sparc64_video.c: copy
+
+# hw/xfree86/os-support/bsd/bsd_axp.c = ASCII C program text 
+hw/xfree86/os-support/bsd/bsd_axp.c: copy
+
+# hw/xfree86/os-support/bsd/alpha_video.c = ASCII C program text 
+hw/xfree86/os-support/bsd/alpha_video.c: copy
+
+# hw/xfree86/os-support/bsd/bsd_bell.c = ASCII C program text 
+hw/xfree86/os-support/bsd/bsd_bell.c: copy
+
+# hw/xfree86/os-support/bsd/arm_video.c = ASCII C program text 
+hw/xfree86/os-support/bsd/arm_video.c: copy
+
+# hw/xfree86/os-support/bsd/bsd_kqueue_apm.c = ASCII C program text 
+hw/xfree86/os-support/bsd/bsd_kqueue_apm.c: copy
+
+# hw/xfree86/os-support/bsd/bsd_ev56.c = ASCII C program text 
+hw/xfree86/os-support/bsd/bsd_ev56.c: copy
+
+# hw/xfree86/os-support/bsd/bsd_apm.c = ASCII C program text 
+hw/xfree86/os-support/bsd/bsd_apm.c: copy
+
+# hw/xfree86/os-support/bsd/Makefile.in = ASCII English text, with very long lines 
+hw/xfree86/os-support/bsd/Makefile.in: copy
+
+# hw/xfree86/os-support/bsd/memrange.h = ASCII C program text 
+hw/xfree86/os-support/bsd/memrange.h: copy
+
+# hw/xfree86/os-support/int10Defines.h = ASCII C program text 
+hw/xfree86/os-support/int10Defines.h: copy
+
+# hw/xfree86/os-support/stub/stub_video.c = ASCII C program text 
+hw/xfree86/os-support/stub/stub_video.c: copy
+
+# hw/xfree86/os-support/stub/stub_bell.c = ASCII C program text 
+hw/xfree86/os-support/stub/stub_bell.c: copy
+
+# hw/xfree86/os-support/stub/Makefile.am = ASCII text 
+hw/xfree86/os-support/stub/Makefile.am: copy
+
+# hw/xfree86/os-support/stub/stub_init.c = ASCII C program text 
+hw/xfree86/os-support/stub/stub_init.c: copy
+
+# hw/xfree86/os-support/stub/stub_bios.c = ASCII C program text 
+hw/xfree86/os-support/stub/stub_bios.c: copy
+
+# hw/xfree86/os-support/stub/Makefile.in = ASCII English text, with very long lines 
+hw/xfree86/os-support/stub/Makefile.in: copy
+
+# hw/xfree86/common/xf86Option.c = ASCII C program text 
+hw/xfree86/common/xf86Option.c: copy
+
+# hw/xfree86/common/xf86Optionstr.h = UTF-8 Unicode C program text 
+hw/xfree86/common/xf86Optionstr.h: copy
+
+# hw/xfree86/common/xf86fbBus.c = ASCII C program text 
+hw/xfree86/common/xf86fbBus.c: copy
+
+# hw/xfree86/common/xf86Cursor.c = ASCII C program text 
+hw/xfree86/common/xf86Cursor.c: copy
+
+# hw/xfree86/common/xf86PciInfo.h = ASCII C program text 
+hw/xfree86/common/xf86PciInfo.h: copy
+
+# hw/xfree86/common/xf86Xinput.c = ASCII C program text 
+hw/xfree86/common/xf86Xinput.c: copy
+
+# hw/xfree86/common/xf86Events.c = ASCII C program text 
+hw/xfree86/common/xf86Events.c: copy
+
+# hw/xfree86/common/xf86Globals.c = ASCII C program text 
+hw/xfree86/common/xf86Globals.c: copy
+
+# hw/xfree86/common/xf86cmap.c = UTF-8 Unicode C program text 
+hw/xfree86/common/xf86cmap.c: copy
+
+# hw/xfree86/common/xf86Extensions.c = UTF-8 Unicode C program text 
+hw/xfree86/common/xf86Extensions.c: copy
+
+# hw/xfree86/common/xf86Init.c = ASCII C program text 
+hw/xfree86/common/xf86Init.c: copy
+
+# hw/xfree86/common/Makefile.am = ASCII text 
+hw/xfree86/common/Makefile.am: copy
+
+# hw/xfree86/common/xf86Privstr.h = ASCII C program text 
+hw/xfree86/common/xf86Privstr.h: copy
+
+# hw/xfree86/common/xf86Bus.h = ASCII C program text 
+hw/xfree86/common/xf86Bus.h: copy
+
+# hw/xfree86/common/extramodes = ASCII C++ program text 
+hw/xfree86/common/extramodes: copy
+
+# hw/xfree86/common/xf86Config.h = ASCII C program text 
+hw/xfree86/common/xf86Config.h: copy
+
+# hw/xfree86/common/xorgHelper.c = ASCII C program text 
+hw/xfree86/common/xorgHelper.c: copy
+
+# hw/xfree86/common/xf86xvmc.h = ASCII C program text 
+hw/xfree86/common/xf86xvmc.h: copy
+
+# hw/xfree86/common/vesamodes = ASCII C++ program text 
+hw/xfree86/common/vesamodes: copy
+
+# hw/xfree86/common/xf86.h = ASCII C program text 
+hw/xfree86/common/xf86.h: copy
+
+# hw/xfree86/common/xf86xvpriv.h = ASCII C program text 
+hw/xfree86/common/xf86xvpriv.h: copy
+
+# hw/xfree86/common/xf86xv.c = ASCII C program text 
+hw/xfree86/common/xf86xv.c: copy
+
+# hw/xfree86/common/xisb.h = ASCII C program text 
+hw/xfree86/common/xisb.h: copy
+
+# hw/xfree86/common/xf86Configure.c = ASCII C program text 
+hw/xfree86/common/xf86Configure.c: copy
+
+# hw/xfree86/common/xf86PM.c = ASCII C program text 
+hw/xfree86/common/xf86PM.c: copy
+
+# hw/xfree86/common/xf86xvmc.c = ASCII C program text 
+hw/xfree86/common/xf86xvmc.c: copy
+
+# hw/xfree86/common/xf86Helper.c = ASCII C program text 
+hw/xfree86/common/xf86Helper.c: copy
+
+# hw/xfree86/common/xf86AutoConfig.c = ASCII C program text 
+hw/xfree86/common/xf86AutoConfig.c: copy
+
+# hw/xfree86/common/xf86Extensions.h = UTF-8 Unicode C program text 
+hw/xfree86/common/xf86Extensions.h: copy
+
+# hw/xfree86/common/xf86VGAarbiter.c = ASCII C program text 
+hw/xfree86/common/xf86VGAarbiter.c: copy
+
+# hw/xfree86/common/xf86noBus.c = ASCII C program text 
+hw/xfree86/common/xf86noBus.c: copy
+
+# hw/xfree86/common/xf86InPriv.h = ASCII C program text 
+hw/xfree86/common/xf86InPriv.h: copy
+
+# hw/xfree86/common/xf86cmap.h = ASCII C program text 
+hw/xfree86/common/xf86cmap.h: copy
+
+# hw/xfree86/common/xf86RandR.c = UTF-8 Unicode C program text 
+hw/xfree86/common/xf86RandR.c: copy
+
+# hw/xfree86/common/xf86VidMode.c = ASCII C program text 
+hw/xfree86/common/xf86VidMode.c: copy
+
+# hw/xfree86/common/xf86fbman.c = ASCII C program text 
+hw/xfree86/common/xf86fbman.c: copy
+
+# hw/xfree86/common/xf86Config.c = ASCII C program text 
+hw/xfree86/common/xf86Config.c: copy
+
+# hw/xfree86/common/xf86Priv.h = ASCII C program text 
+hw/xfree86/common/xf86Priv.h: copy
+
+# hw/xfree86/common/xf86Module.h = ASCII C program text 
+hw/xfree86/common/xf86Module.h: copy
+
+# hw/xfree86/common/dgaproc.h = ASCII C program text 
+hw/xfree86/common/dgaproc.h: copy
+
+# hw/xfree86/common/xf86VGAarbiterPriv.h = ASCII C program text 
+hw/xfree86/common/xf86VGAarbiterPriv.h: copy
+
+# hw/xfree86/common/fourcc.h = ASCII C program text 
+hw/xfree86/common/fourcc.h: copy
+
+# hw/xfree86/common/xf86vmode.c = ASCII C program text 
+hw/xfree86/common/xf86vmode.c: copy
+
+# hw/xfree86/common/compiler.h = ASCII C program text 
+hw/xfree86/common/compiler.h: copy
+
+# hw/xfree86/common/xf86VGAarbiter.h = ASCII C program text 
+hw/xfree86/common/xf86VGAarbiter.h: copy
+
+# hw/xfree86/common/xf86platformBus.c = UTF-8 Unicode C program text 
+hw/xfree86/common/xf86platformBus.c: copy
+
+# hw/xfree86/common/xf86fbman.h = ASCII C program text 
+hw/xfree86/common/xf86fbman.h: copy
+
+# hw/xfree86/common/xf86platformBus.h = UTF-8 Unicode C program text 
+hw/xfree86/common/xf86platformBus.h: copy
+
+# hw/xfree86/common/xf86Build.h.in = ASCII text 
+hw/xfree86/common/xf86Build.h.in: copy
+
+# hw/xfree86/common/xf86sbusBus.c = ASCII C program text 
+hw/xfree86/common/xf86sbusBus.c: copy
+
+# hw/xfree86/common/xf86DPMS.c = ASCII C program text 
+hw/xfree86/common/xf86DPMS.c: copy
+
+# hw/xfree86/common/xaarop.h = ASCII C program text 
+hw/xfree86/common/xaarop.h: copy
+
+# hw/xfree86/common/xf86Xinput.h = ASCII C program text 
+hw/xfree86/common/xf86Xinput.h: copy
+
+# hw/xfree86/common/xorgVersion.h = ASCII C program text 
+hw/xfree86/common/xorgVersion.h: copy
+
+# hw/xfree86/common/xf86sbusBus.h = ASCII C program text 
+hw/xfree86/common/xf86sbusBus.h: copy
+
+# hw/xfree86/common/xf86str.h = ASCII C program text 
+hw/xfree86/common/xf86str.h: copy
+
+# hw/xfree86/common/vidmodeproc.h = ASCII C program text 
+hw/xfree86/common/vidmodeproc.h: copy
+
+# hw/xfree86/common/modeline2c.awk = awk script text executable 
+hw/xfree86/common/modeline2c.awk: copy
+
+# hw/xfree86/common/xf86DGA.c = ASCII C program text 
+hw/xfree86/common/xf86DGA.c: copy
+
+# hw/xfree86/common/xf86Mode.c = ASCII C program text 
+hw/xfree86/common/xf86Mode.c: copy
+
+# hw/xfree86/common/xisb.c = ASCII C program text 
+hw/xfree86/common/xisb.c: copy
+
+# hw/xfree86/common/xf86Opt.h = ASCII C program text 
+hw/xfree86/common/xf86Opt.h: copy
+
+# hw/xfree86/common/Makefile.in = ASCII English text 
+hw/xfree86/common/Makefile.in: copy
+
+# hw/xfree86/common/xf86pciBus.h = ASCII C program text 
+hw/xfree86/common/xf86pciBus.h: copy
+
+# hw/xfree86/common/xf86xv.h = ASCII C program text 
+hw/xfree86/common/xf86xv.h: copy
+
+# hw/xfree86/common/xf86pciBus.c = ASCII C program text 
+hw/xfree86/common/xf86pciBus.c: copy
+
+# hw/xfree86/common/xf86Bus.c = ASCII C program text 
+hw/xfree86/common/xf86Bus.c: copy
+
+# hw/xfree86/loader/Makefile.am = ASCII text 
+hw/xfree86/loader/Makefile.am: copy
+
+# hw/xfree86/loader/loaderProcs.h = ASCII C program text 
+hw/xfree86/loader/loaderProcs.h: copy
+
+# hw/xfree86/loader/loader.h = ASCII C program text 
+hw/xfree86/loader/loader.h: copy
+
+# hw/xfree86/loader/loadmod.c = ASCII C program text 
+hw/xfree86/loader/loadmod.c: copy
+
+# hw/xfree86/loader/os.c = ASCII C program text 
+hw/xfree86/loader/os.c: copy
+
+# hw/xfree86/loader/loader.c = ASCII C program text 
+hw/xfree86/loader/loader.c: copy
+
+# hw/xfree86/loader/Makefile.in = ASCII English text 
+hw/xfree86/loader/Makefile.in: copy
+
+# hw/xfree86/xorgconf.cpp = ASCII English text 
+hw/xfree86/xorgconf.cpp: copy
+
+# hw/xfree86/parser/xf86tokens.h = ASCII C program text 
+hw/xfree86/parser/xf86tokens.h: copy
+
+# hw/xfree86/parser/write.c = ASCII C program text 
+hw/xfree86/parser/write.c: copy
+
+# hw/xfree86/parser/xf86Optrec.h = ASCII C program text 
+hw/xfree86/parser/xf86Optrec.h: copy
+
+# hw/xfree86/parser/read.c = ASCII C program text 
+hw/xfree86/parser/read.c: copy
+
+# hw/xfree86/parser/Makefile.am = ASCII text 
+hw/xfree86/parser/Makefile.am: copy
+
+# hw/xfree86/parser/Input.c = ASCII C program text 
+hw/xfree86/parser/Input.c: copy
+
+# hw/xfree86/parser/DRI.c = ASCII C program text 
+hw/xfree86/parser/DRI.c: copy
+
+# hw/xfree86/parser/Module.c = ASCII C program text 
+hw/xfree86/parser/Module.c: copy
+
+# hw/xfree86/parser/configProcs.h = ASCII C program text 
+hw/xfree86/parser/configProcs.h: copy
+
+# hw/xfree86/parser/Screen.c = ASCII C program text 
+hw/xfree86/parser/Screen.c: copy
+
+# hw/xfree86/parser/Extensions.c = ASCII C program text 
+hw/xfree86/parser/Extensions.c: copy
+
+# hw/xfree86/parser/Files.c = ASCII C program text 
+hw/xfree86/parser/Files.c: copy
+
+# hw/xfree86/parser/Monitor.c = ASCII C program text 
+hw/xfree86/parser/Monitor.c: copy
+
+# hw/xfree86/parser/Vendor.c = ASCII C program text 
+hw/xfree86/parser/Vendor.c: copy
+
+# hw/xfree86/parser/Configint.h = ASCII C program text 
+hw/xfree86/parser/Configint.h: copy
+
+# hw/xfree86/parser/Layout.c = ASCII C program text 
+hw/xfree86/parser/Layout.c: copy
+
+# hw/xfree86/parser/Video.c = ASCII C program text 
+hw/xfree86/parser/Video.c: copy
+
+# hw/xfree86/parser/Pointer.c = ASCII C program text 
+hw/xfree86/parser/Pointer.c: copy
+
+# hw/xfree86/parser/Flags.c = ASCII C program text 
+hw/xfree86/parser/Flags.c: copy
+
+# hw/xfree86/parser/scan.c = ASCII C program text 
+hw/xfree86/parser/scan.c: copy
+
+# hw/xfree86/parser/Makefile.in = ASCII English text, with very long lines 
+hw/xfree86/parser/Makefile.in: copy
+
+# hw/xfree86/parser/Device.c = ASCII C program text 
+hw/xfree86/parser/Device.c: copy
+
+# hw/xfree86/parser/xf86Parser.h = ASCII C program text 
+hw/xfree86/parser/xf86Parser.h: copy
+
+# hw/xfree86/parser/InputClass.c = ASCII C program text 
+hw/xfree86/parser/InputClass.c: copy
+
+# hw/xfree86/modes/xf86gtf.c = ASCII C program text 
+hw/xfree86/modes/xf86gtf.c: copy
+
+# hw/xfree86/modes/xf86Crtc.h = UTF-8 Unicode C program text 
+hw/xfree86/modes/xf86Crtc.h: copy
+
+# hw/xfree86/modes/xf86Modes.c = ASCII C program text 
+hw/xfree86/modes/xf86Modes.c: copy
+
+# hw/xfree86/modes/xf86Crtc.c = UTF-8 Unicode C program text 
+hw/xfree86/modes/xf86Crtc.c: copy
+
+# hw/xfree86/modes/xf86RandR12.c = UTF-8 Unicode C program text 
+hw/xfree86/modes/xf86RandR12.c: copy
+
+# hw/xfree86/modes/xf86EdidModes.c = ASCII C program text 
+hw/xfree86/modes/xf86EdidModes.c: copy
+
+# hw/xfree86/modes/xf86Rotate.c = UTF-8 Unicode C program text 
+hw/xfree86/modes/xf86Rotate.c: copy
+
+# hw/xfree86/modes/xf86RandR12.h = UTF-8 Unicode C program text 
+hw/xfree86/modes/xf86RandR12.h: copy
+
+# hw/xfree86/modes/Makefile.am = ASCII text 
+hw/xfree86/modes/Makefile.am: copy
+
+# hw/xfree86/modes/xf86Cursors.c = UTF-8 Unicode C program text 
+hw/xfree86/modes/xf86Cursors.c: copy
+
+# hw/xfree86/modes/xf86Rename.h = UTF-8 Unicode C program text 
+hw/xfree86/modes/xf86Rename.h: copy
+
+# hw/xfree86/modes/xf86Modes.h = UTF-8 Unicode C program text 
+hw/xfree86/modes/xf86Modes.h: copy
+
+# hw/xfree86/modes/xf86DisplayIDModes.c = ASCII C program text 
+hw/xfree86/modes/xf86DisplayIDModes.c: copy
+
+# hw/xfree86/modes/Makefile.in = ASCII English text 
+hw/xfree86/modes/Makefile.in: copy
+
+# hw/xfree86/modes/xf86cvt.c = UTF-8 Unicode C program text 
+hw/xfree86/modes/xf86cvt.c: copy
+
+# hw/xfree86/modes/xf86DiDGA.c = UTF-8 Unicode C program text 
+hw/xfree86/modes/xf86DiDGA.c: copy
+
+# hw/xfree86/ddc/xf86DDC.h = ASCII C program text 
+hw/xfree86/ddc/xf86DDC.h: copy
+
+# hw/xfree86/ddc/Makefile.am = ASCII text 
+hw/xfree86/ddc/Makefile.am: copy
+
+# hw/xfree86/ddc/DDC.HOWTO = ASCII English text 
+hw/xfree86/ddc/DDC.HOWTO: copy
+
+# hw/xfree86/ddc/ddc.c = ASCII C program text 
+hw/xfree86/ddc/ddc.c: copy
+
+# hw/xfree86/ddc/print_edid.c = ASCII C program text 
+hw/xfree86/ddc/print_edid.c: copy
+
+# hw/xfree86/ddc/interpret_edid.c = ASCII C program text 
+hw/xfree86/ddc/interpret_edid.c: copy
+
+# hw/xfree86/ddc/ddcProperty.c = ASCII C program text 
+hw/xfree86/ddc/ddcProperty.c: copy
+
+# hw/xfree86/ddc/edid.h = ASCII C program text 
+hw/xfree86/ddc/edid.h: copy
+
+# hw/xfree86/ddc/Makefile.in = ASCII English text 
+hw/xfree86/ddc/Makefile.in: copy
+
+# hw/xfree86/x86emu/Makefile.am = ASCII text 
+hw/xfree86/x86emu/Makefile.am: copy
+
+# hw/xfree86/x86emu/x86emu.h = ASCII English text 
+hw/xfree86/x86emu/x86emu.h: copy
+
+# hw/xfree86/x86emu/decode.c = ASCII English text 
+hw/xfree86/x86emu/decode.c: copy
+
+# hw/xfree86/x86emu/ops2.c = ASCII English text 
+hw/xfree86/x86emu/ops2.c: copy
+
+# hw/xfree86/x86emu/validate.c = ASCII English text 
+hw/xfree86/x86emu/validate.c: copy
+
+# hw/xfree86/x86emu/prim_ops.c = ASCII English text 
+hw/xfree86/x86emu/prim_ops.c: copy
+
+# hw/xfree86/x86emu/debug.c = ASCII English text 
+hw/xfree86/x86emu/debug.c: copy
+
+# hw/xfree86/x86emu/fpu.c = ASCII English text 
+hw/xfree86/x86emu/fpu.c: copy
+
+# hw/xfree86/x86emu/ops.c = ASCII English text 
+hw/xfree86/x86emu/ops.c: copy
+
+# hw/xfree86/x86emu/x86emu/prim_ops.h = ASCII English text 
+hw/xfree86/x86emu/x86emu/prim_ops.h: copy
+
+# hw/xfree86/x86emu/x86emu/prim_asm.h = ASCII English text 
+hw/xfree86/x86emu/x86emu/prim_asm.h: copy
+
+# hw/xfree86/x86emu/x86emu/regs.h = ASCII English text 
+hw/xfree86/x86emu/x86emu/regs.h: copy
+
+# hw/xfree86/x86emu/x86emu/fpu.h = ASCII English text 
+hw/xfree86/x86emu/x86emu/fpu.h: copy
+
+# hw/xfree86/x86emu/x86emu/fpu_regs.h = ASCII English text 
+hw/xfree86/x86emu/x86emu/fpu_regs.h: copy
+
+# hw/xfree86/x86emu/x86emu/debug.h = ASCII English text 
+hw/xfree86/x86emu/x86emu/debug.h: copy
+
+# hw/xfree86/x86emu/x86emu/x86emui.h = ASCII English text 
+hw/xfree86/x86emu/x86emu/x86emui.h: copy
+
+# hw/xfree86/x86emu/x86emu/decode.h = ASCII English text 
+hw/xfree86/x86emu/x86emu/decode.h: copy
+
+# hw/xfree86/x86emu/x86emu/prim_x86_gcc.h = ASCII English text 
+hw/xfree86/x86emu/x86emu/prim_x86_gcc.h: copy
+
+# hw/xfree86/x86emu/x86emu/ops.h = ASCII English text 
+hw/xfree86/x86emu/x86emu/ops.h: copy
+
+# hw/xfree86/x86emu/x86emu/types.h = ASCII English text 
+hw/xfree86/x86emu/x86emu/types.h: copy
+
+# hw/xfree86/x86emu/Makefile.in = ASCII English text 
+hw/xfree86/x86emu/Makefile.in: copy
+
+# hw/xfree86/x86emu/sys.c = ASCII English text 
+hw/xfree86/x86emu/sys.c: copy
+
+# hw/xfree86/exa/Makefile.am = ASCII text 
+hw/xfree86/exa/Makefile.am: copy
+
+# hw/xfree86/exa/man/Makefile.am = ASCII text 
+hw/xfree86/exa/man/Makefile.am: copy
+
+# hw/xfree86/exa/man/exa.man = troff or preprocessor input text 
+hw/xfree86/exa/man/exa.man: copy
+
+# hw/xfree86/exa/man/Makefile.in = ASCII English text 
+hw/xfree86/exa/man/Makefile.in: copy
+
+# hw/xfree86/exa/Makefile.in = ASCII English text 
+hw/xfree86/exa/Makefile.in: copy
+
+# hw/xfree86/exa/examodule.c = UTF-8 Unicode C program text 
+hw/xfree86/exa/examodule.c: copy
+
+# hw/xfree86/dri/xf86dri.c = ASCII English text 
+hw/xfree86/dri/xf86dri.c: copy
+
+# hw/xfree86/dri/dri.h = ASCII English text 
+hw/xfree86/dri/dri.h: copy
+
+# hw/xfree86/dri/Makefile.am = ASCII text 
+hw/xfree86/dri/Makefile.am: copy
+
+# hw/xfree86/dri/sarea.h = ASCII C program text 
+hw/xfree86/dri/sarea.h: copy
+
+# hw/xfree86/dri/dristruct.h = ASCII English text 
+hw/xfree86/dri/dristruct.h: copy
+
+# hw/xfree86/dri/dri.c = ASCII English text 
+hw/xfree86/dri/dri.c: copy
+
+# hw/xfree86/dri/Makefile.in = ASCII English text 
+hw/xfree86/dri/Makefile.in: copy
+
+# hw/xfree86/shadowfb/Makefile.am = ASCII text 
+hw/xfree86/shadowfb/Makefile.am: copy
+
+# hw/xfree86/shadowfb/shadow.c = ASCII C program text 
+hw/xfree86/shadowfb/shadow.c: copy
+
+# hw/xfree86/shadowfb/sfbmodule.c = ASCII C program text 
+hw/xfree86/shadowfb/sfbmodule.c: copy
+
+# hw/xfree86/shadowfb/shadowfb.h = ASCII C program text 
+hw/xfree86/shadowfb/shadowfb.h: copy
+
+# hw/xfree86/shadowfb/Makefile.in = ASCII English text 
+hw/xfree86/shadowfb/Makefile.in: copy
+
+# hw/xfree86/vbe/vbeModes.h = UTF-8 Unicode C program text 
+hw/xfree86/vbe/vbeModes.h: copy
+
+# hw/xfree86/vbe/Makefile.am = ASCII text 
+hw/xfree86/vbe/Makefile.am: copy
+
+# hw/xfree86/vbe/vbeModes.c = UTF-8 Unicode C program text 
+hw/xfree86/vbe/vbeModes.c: copy
+
+# hw/xfree86/vbe/vbe.h = UTF-8 Unicode C program text 
+hw/xfree86/vbe/vbe.h: copy
+
+# hw/xfree86/vbe/vbe_module.c = ASCII C program text 
+hw/xfree86/vbe/vbe_module.c: copy
+
+# hw/xfree86/vbe/vbe.c = UTF-8 Unicode C program text 
+hw/xfree86/vbe/vbe.c: copy
+
+# hw/xfree86/vbe/Makefile.in = ASCII English text 
+hw/xfree86/vbe/Makefile.in: copy
+
+# hw/xfree86/fbdevhw/Makefile.am = ASCII text 
+hw/xfree86/fbdevhw/Makefile.am: copy
+
+# hw/xfree86/fbdevhw/fbdevhw.c = ASCII C program text 
+hw/xfree86/fbdevhw/fbdevhw.c: copy
+
+# hw/xfree86/fbdevhw/fbdevhwstub.c = ASCII C program text 
+hw/xfree86/fbdevhw/fbdevhwstub.c: copy
+
+# hw/xfree86/fbdevhw/README = ASCII English text 
+hw/xfree86/fbdevhw/README: copy
+
+# hw/xfree86/fbdevhw/fbpriv.h = ASCII C program text 
+hw/xfree86/fbdevhw/fbpriv.h: copy
+
+# hw/xfree86/fbdevhw/fbdevhw.h = ASCII C program text 
+hw/xfree86/fbdevhw/fbdevhw.h: copy
+
+# hw/xfree86/fbdevhw/man/Makefile.am = ASCII text 
+hw/xfree86/fbdevhw/man/Makefile.am: copy
+
+# hw/xfree86/fbdevhw/man/fbdevhw.man = troff or preprocessor input text 
+hw/xfree86/fbdevhw/man/fbdevhw.man: copy
+
+# hw/xfree86/fbdevhw/man/Makefile.in = ASCII English text 
+hw/xfree86/fbdevhw/man/Makefile.in: copy
+
+# hw/xfree86/fbdevhw/Makefile.in = ASCII English text 
+hw/xfree86/fbdevhw/Makefile.in: copy
+
+# hw/xfree86/int10/helper_mem.c = ASCII C program text 
+hw/xfree86/int10/helper_mem.c: copy
+
+# hw/xfree86/int10/xf86x86emu.c = ASCII C program text 
+hw/xfree86/int10/xf86x86emu.c: copy
+
+# hw/xfree86/int10/xf86int10.h = ASCII C program text 
+hw/xfree86/int10/xf86int10.h: copy
+
+# hw/xfree86/int10/Makefile.am = ASCII text 
+hw/xfree86/int10/Makefile.am: copy
+
+# hw/xfree86/int10/helper_exec.c = ASCII C program text 
+hw/xfree86/int10/helper_exec.c: copy
+
+# hw/xfree86/int10/xf86int10.c = ASCII C program text 
+hw/xfree86/int10/xf86int10.c: copy
+
+# hw/xfree86/int10/x86emu.c = ASCII C program text 
+hw/xfree86/int10/x86emu.c: copy
+
+# hw/xfree86/int10/INT10.HOWTO = ASCII English text 
+hw/xfree86/int10/INT10.HOWTO: copy
+
+# hw/xfree86/int10/xf86int10module.c = ASCII C program text 
+hw/xfree86/int10/xf86int10module.c: copy
+
+# hw/xfree86/int10/generic.c = ASCII C program text 
+hw/xfree86/int10/generic.c: copy
+
+# hw/xfree86/int10/stub.c = ASCII C program text 
+hw/xfree86/int10/stub.c: copy
+
+# hw/xfree86/int10/xf86x86emu.h = ASCII C program text 
+hw/xfree86/int10/xf86x86emu.h: copy
+
+# hw/xfree86/int10/Makefile.in = ASCII English text, with very long lines 
+hw/xfree86/int10/Makefile.in: copy
+
+# hw/xfree86/ramdac/BT.h = ASCII C program text 
+hw/xfree86/ramdac/BT.h: copy
+
+# hw/xfree86/ramdac/xf86Cursor.c = ASCII C program text 
+hw/xfree86/ramdac/xf86Cursor.c: copy
+
+# hw/xfree86/ramdac/BTPriv.h = ASCII C program text 
+hw/xfree86/ramdac/BTPriv.h: copy
+
+# hw/xfree86/ramdac/xf86HWCurs.c = ASCII C program text 
+hw/xfree86/ramdac/xf86HWCurs.c: copy
+
+# hw/xfree86/ramdac/Makefile.am = ASCII text 
+hw/xfree86/ramdac/Makefile.am: copy
+
+# hw/xfree86/ramdac/TI.h = ASCII C program text 
+hw/xfree86/ramdac/TI.h: copy
+
+# hw/xfree86/ramdac/xf86RamDac.c = ASCII C program text 
+hw/xfree86/ramdac/xf86RamDac.c: copy
+
+# hw/xfree86/ramdac/xf86Cursor.h = ASCII C program text 
+hw/xfree86/ramdac/xf86Cursor.h: copy
+
+# hw/xfree86/ramdac/BT.c = ASCII C program text 
+hw/xfree86/ramdac/BT.c: copy
+
+# hw/xfree86/ramdac/TIPriv.h = ASCII C program text 
+hw/xfree86/ramdac/TIPriv.h: copy
+
+# hw/xfree86/ramdac/xf86CursorPriv.h = ASCII C program text 
+hw/xfree86/ramdac/xf86CursorPriv.h: copy
+
+# hw/xfree86/ramdac/CURSOR.NOTES = ASCII English text 
+hw/xfree86/ramdac/CURSOR.NOTES: copy
+
+# hw/xfree86/ramdac/xf86RamDac.h = ASCII C program text 
+hw/xfree86/ramdac/xf86RamDac.h: copy
+
+# hw/xfree86/ramdac/IBM.h = ASCII C program text 
+hw/xfree86/ramdac/IBM.h: copy
+
+# hw/xfree86/ramdac/TI.c = ASCII C program text 
+hw/xfree86/ramdac/TI.c: copy
+
+# hw/xfree86/ramdac/xf86RamDacPriv.h = ASCII C program text 
+hw/xfree86/ramdac/xf86RamDacPriv.h: copy
+
+# hw/xfree86/ramdac/xf86RamDacCmap.c = ASCII C program text 
+hw/xfree86/ramdac/xf86RamDacCmap.c: copy
+
+# hw/xfree86/ramdac/IBMPriv.h = ASCII C program text 
+hw/xfree86/ramdac/IBMPriv.h: copy
+
+# hw/xfree86/ramdac/Makefile.in = ASCII English text 
+hw/xfree86/ramdac/Makefile.in: copy
+
+# hw/xfree86/ramdac/IBM.c = ASCII C program text 
+hw/xfree86/ramdac/IBM.c: copy
+
+# hw/xfree86/man/Makefile.am = ASCII text 
+hw/xfree86/man/Makefile.am: copy
+
+# hw/xfree86/man/xorg.conf.d.man = troff or preprocessor input text 
+hw/xfree86/man/xorg.conf.d.man: copy
+
+# hw/xfree86/man/xorg.conf.man = troff or preprocessor input text 
+hw/xfree86/man/xorg.conf.man: copy
+
+# hw/xfree86/man/Xorg.man = troff or preprocessor input text 
+hw/xfree86/man/Xorg.man: copy
+
+# hw/xfree86/man/Makefile.in = ASCII English text 
+hw/xfree86/man/Makefile.in: copy
+
+# hw/xfree86/Makefile.in = ASCII English text 
+hw/xfree86/Makefile.in: copy
+
+# hw/xfree86/vgahw/Makefile.am = ASCII text 
+hw/xfree86/vgahw/Makefile.am: copy
+
+# hw/xfree86/vgahw/vgaHW.h = ASCII C program text 
+hw/xfree86/vgahw/vgaHW.h: copy
+
+# hw/xfree86/vgahw/vgaHWmodule.c = ASCII C program text 
+hw/xfree86/vgahw/vgaHWmodule.c: copy
+
+# hw/xfree86/vgahw/vgaCmap.c = ASCII C program text 
+hw/xfree86/vgahw/vgaCmap.c: copy
+
+# hw/xfree86/vgahw/vgaHW.c = ASCII C program text 
+hw/xfree86/vgahw/vgaHW.c: copy
+
+# hw/xfree86/vgahw/Makefile.in = ASCII English text 
+hw/xfree86/vgahw/Makefile.in: copy
+
+# hw/xfree86/dixmods/shmodule.c = UTF-8 Unicode C program text 
+hw/xfree86/dixmods/shmodule.c: copy
+
+# hw/xfree86/dixmods/Makefile.am = ASCII text 
+hw/xfree86/dixmods/Makefile.am: copy
+
+# hw/xfree86/dixmods/fbmodule.c = ASCII C program text 
+hw/xfree86/dixmods/fbmodule.c: copy
+
+# hw/xfree86/dixmods/glxmodule.c = ASCII English text 
+hw/xfree86/dixmods/glxmodule.c: copy
+
+# hw/xfree86/dixmods/xkbVT.c = ASCII English text 
+hw/xfree86/dixmods/xkbVT.c: copy
+
+# hw/xfree86/dixmods/xkbKillSrv.c = ASCII English text 
+hw/xfree86/dixmods/xkbKillSrv.c: copy
+
+# hw/xfree86/dixmods/xkbPrivate.c = ASCII C program text 
+hw/xfree86/dixmods/xkbPrivate.c: copy
+
+# hw/xfree86/dixmods/Makefile.in = ASCII English text, with very long lines 
+hw/xfree86/dixmods/Makefile.in: copy
+
+# hw/xnest/Handlers.c = ASCII C program text 
+hw/xnest/Handlers.c: copy
+
+# hw/xnest/Visual.c = ASCII C program text 
+hw/xnest/Visual.c: copy
+
+# hw/xnest/GC.c = ASCII C program text 
+hw/xnest/GC.c: copy
+
+# hw/xnest/Keyboard.c = ASCII C program text 
+hw/xnest/Keyboard.c: copy
+
+# hw/xnest/Handlers.h = ASCII C program text 
+hw/xnest/Handlers.h: copy
+
+# hw/xnest/Init.c = ASCII C program text 
+hw/xnest/Init.c: copy
+
+# hw/xnest/Makefile.am = ASCII text 
+hw/xnest/Makefile.am: copy
+
+# hw/xnest/Visual.h = ASCII C program text 
+hw/xnest/Visual.h: copy
+
+# hw/xnest/GCOps.h = ASCII C program text 
+hw/xnest/GCOps.h: copy
+
+# hw/xnest/icon = ASCII C program text 
+hw/xnest/icon: copy
+
+# hw/xnest/Window.c = ASCII C program text 
+hw/xnest/Window.c: copy
+
+# hw/xnest/Cursor.c = ASCII C program text 
+hw/xnest/Cursor.c: copy
+
+# hw/xnest/Display.c = ASCII C program text 
+hw/xnest/Display.c: copy
+
+# hw/xnest/Args.h = ASCII C program text 
+hw/xnest/Args.h: copy
+
+# hw/xnest/Events.h = ASCII C program text 
+hw/xnest/Events.h: copy
+
+# hw/xnest/XNCursor.h = ASCII C program text 
+hw/xnest/XNCursor.h: copy
+
+# hw/xnest/Screen.c = ASCII C program text 
+hw/xnest/Screen.c: copy
+
+# hw/xnest/Drawable.h = ASCII C program text 
+hw/xnest/Drawable.h: copy
+
+# hw/xnest/XNPixmap.h = ASCII C program text 
+hw/xnest/XNPixmap.h: copy
+
+# hw/xnest/Init.h = ASCII C program text 
+hw/xnest/Init.h: copy
+
+# hw/xnest/Keyboard.h = ASCII C program text 
+hw/xnest/Keyboard.h: copy
+
+# hw/xnest/Font.c = ASCII C program text 
+hw/xnest/Font.c: copy
+
+# hw/xnest/Color.h = ASCII C program text 
+hw/xnest/Color.h: copy
+
+# hw/xnest/Screen.h = ASCII C program text 
+hw/xnest/Screen.h: copy
+
+# hw/xnest/Xnest.h = ASCII C program text 
+hw/xnest/Xnest.h: copy
+
+# hw/xnest/XNWindow.h = ASCII C program text 
+hw/xnest/XNWindow.h: copy
+
+# hw/xnest/Color.c = ASCII C program text 
+hw/xnest/Color.c: copy
+
+# hw/xnest/XNFont.h = ASCII C program text 
+hw/xnest/XNFont.h: copy
+
+# hw/xnest/Args.c = ASCII C program text 
+hw/xnest/Args.c: copy
+
+# hw/xnest/Pointer.h = ASCII C program text 
+hw/xnest/Pointer.h: copy
+
+# hw/xnest/Events.c = ASCII C program text 
+hw/xnest/Events.c: copy
+
+# hw/xnest/Pointer.c = ASCII C program text 
+hw/xnest/Pointer.c: copy
+
+# hw/xnest/Display.h = ASCII C program text 
+hw/xnest/Display.h: copy
+
+# hw/xnest/GCOps.c = ASCII C program text 
+hw/xnest/GCOps.c: copy
+
+# hw/xnest/screensaver = ASCII C program text 
+hw/xnest/screensaver: copy
+
+# hw/xnest/Pixmap.c = ASCII C program text 
+hw/xnest/Pixmap.c: copy
+
+# hw/xnest/man/Xnest.man = troff or preprocessor input text 
+hw/xnest/man/Xnest.man: copy
+
+# hw/xnest/man/Makefile.am = ASCII text 
+hw/xnest/man/Makefile.am: copy
+
+# hw/xnest/man/Makefile.in = ASCII English text 
+hw/xnest/man/Makefile.in: copy
+
+# hw/xnest/Makefile.in = ASCII English text, with very long lines 
+hw/xnest/Makefile.in: copy
+
+# hw/xnest/XNGC.h = ASCII C program text 
+hw/xnest/XNGC.h: copy
+
+# hw/xnest/xnest-config.h = ASCII C program text 
+hw/xnest/xnest-config.h: copy
+
+# hw/Makefile.in = ASCII English text 
+hw/Makefile.in: copy
+
+# Xext/xvmcext.h = ASCII C program text 
+Xext/xvmcext.h: copy
+
+# Xext/sync.c = ASCII C program text 
+Xext/sync.c: copy
+
+# Xext/geext.h = ASCII C program text 
+Xext/geext.h: copy
+
+# Xext/panoramiXSwap.c = ASCII English text 
+Xext/panoramiXSwap.c: copy
+
+# Xext/panoramiX.h = ASCII English text 
+Xext/panoramiX.h: copy
+
+# Xext/xvdisp.c = ASCII English text 
+Xext/xvdisp.c: copy
+
+# Xext/Makefile.am = ASCII C++ program text 
+Xext/Makefile.am: copy
+
+# Xext/sleepuntil.h = ASCII C program text 
+Xext/sleepuntil.h: copy
+
+# Xext/hashtable.c = ASCII C program text 
+Xext/hashtable.c: copy
+
+# Xext/xcmisc.c = ASCII C program text 
+Xext/xcmisc.c: copy
+
+# Xext/xselinux_hooks.c = ASCII English text 
+Xext/xselinux_hooks.c: copy
+
+# Xext/dpmsstubs.c = ASCII English text 
+Xext/dpmsstubs.c: copy
+
+# Xext/saver.c = ASCII C program text 
+Xext/saver.c: copy
+
+# Xext/dpmsproc.h = ASCII C program text 
+Xext/dpmsproc.h: copy
+
+# Xext/dpms.c = ASCII English text 
+Xext/dpms.c: copy
+
+# Xext/geext.c = ASCII C program text 
+Xext/geext.c: copy
+
+# Xext/sleepuntil.c = ASCII C program text 
+Xext/sleepuntil.c: copy
+
+# Xext/panoramiXh.h = ASCII C program text 
+Xext/panoramiXh.h: copy
+
+# Xext/shmint.h = UTF-8 Unicode C program text 
+Xext/shmint.h: copy
+
+# Xext/xace.c = ASCII English text 
+Xext/xace.c: copy
+
+# Xext/security.c = ASCII C program text 
+Xext/security.c: copy
+
+# Xext/xf86bigfont.c = ASCII C program text 
+Xext/xf86bigfont.c: copy
+
+# Xext/xvdisp.h = ASCII C program text 
+Xext/xvdisp.h: copy
+
+# Xext/bigreq.c = ASCII C program text 
+Xext/bigreq.c: copy
+
+# Xext/syncsrv.h = ASCII C program text 
+Xext/syncsrv.h: copy
+
+# Xext/xselinux_label.c = ASCII English text 
+Xext/xselinux_label.c: copy
+
+# Xext/hashtable.h = ASCII C program text 
+Xext/hashtable.h: copy
+
+# Xext/panoramiXsrv.h = ASCII C program text 
+Xext/panoramiXsrv.h: copy
+
+# Xext/geint.h = ASCII C program text 
+Xext/geint.h: copy
+
+# Xext/xvdix.h = ASCII English text 
+Xext/xvdix.h: copy
+
+# Xext/xselinuxint.h = ASCII English text 
+Xext/xselinuxint.h: copy
+
+# Xext/xvmc.c = ASCII C program text 
+Xext/xvmc.c: copy
+
+# Xext/xselinux.h = ASCII English text 
+Xext/xselinux.h: copy
+
+# Xext/shape.c = ASCII English text 
+Xext/shape.c: copy
+
+# Xext/panoramiX.c = ASCII English text 
+Xext/panoramiX.c: copy
+
+# Xext/securitysrv.h = ASCII C program text 
+Xext/securitysrv.h: copy
+
+# Xext/xace.h = ASCII English text 
+Xext/xace.h: copy
+
+# Xext/xselinux_ext.c = ASCII English text 
+Xext/xselinux_ext.c: copy
+
+# Xext/xres.c = ASCII C program text 
+Xext/xres.c: copy
+
+# Xext/xtest.c = ASCII C program text 
+Xext/xtest.c: copy
+
+# Xext/xvmain.c = ASCII English text 
+Xext/xvmain.c: copy
+
+# Xext/syncsdk.h = UTF-8 Unicode C program text 
+Xext/syncsdk.h: copy
+
+# Xext/xf86bigfontsrv.h = UTF-8 Unicode C program text 
+Xext/xf86bigfontsrv.h: copy
+
+# Xext/xacestr.h = ASCII English text 
+Xext/xacestr.h: copy
+
+# Xext/Makefile.in = ASCII English text 
+Xext/Makefile.in: copy
+
+# Xext/shm.c = ASCII English text 
+Xext/shm.c: copy
+
+# Xext/panoramiXprocs.c = ASCII English text 
+Xext/panoramiXprocs.c: copy
+
+# compile = POSIX shell script text executable 
+compile: copy
+
+# install-sh = POSIX shell script text executable 
+install-sh: copy
+
+# configure.ac = UTF-8 Unicode M4 macro language pre-processor text 
+configure.ac: copy
+
+# xserver.ent.in = exported SGML document text 
+xserver.ent.in: copy
+
+# dbe/midbe.c = ASCII English text 
+dbe/midbe.c: copy
+
+# dbe/Makefile.am = ASCII text 
+dbe/Makefile.am: copy
+
+# dbe/midbe.h = ASCII English text 
+dbe/midbe.h: copy
+
+# dbe/dbestruct.h = ASCII English text 
+dbe/dbestruct.h: copy
+
+# dbe/midbestr.h = ASCII English text 
+dbe/midbestr.h: copy
+
+# dbe/Makefile.in = ASCII English text 
+dbe/Makefile.in: copy
+
+# dbe/dbe.c = ASCII English text 
+dbe/dbe.c: copy
+
+# missing = POSIX shell script text executable 
+missing: copy
+
+# ltmain.sh = ASCII English text 
+ltmain.sh: copy
+
+# config/Makefile.am = ASCII text 
+config/Makefile.am: copy
+
+# config/dbus-core.c = UTF-8 Unicode C program text 
+config/dbus-core.c: copy
+
+# config/fdi2iclass.py = a /usr/bin/python script text executable 
+config/fdi2iclass.py: copy
+
+# config/xorg-server.conf = exported SGML document text 
+config/xorg-server.conf: copy
+
+# config/config.c = UTF-8 Unicode C program text 
+config/config.c: copy
+
+# config/x11-input.fdi = XML  document text 
+config/x11-input.fdi: copy
+
+# config/wscons.c = ASCII C program text 
+config/wscons.c: copy
+
+# config/config-backends.h = UTF-8 Unicode C program text 
+config/config-backends.h: copy
+
+# config/udev.c = UTF-8 Unicode C program text 
+config/udev.c: copy
+
+# config/hal.c = UTF-8 Unicode C program text 
+config/hal.c: copy
+
+# config/10-evdev.conf = ASCII English text 
+config/10-evdev.conf: copy
+
+# config/dbus.c = UTF-8 Unicode C program text 
+config/dbus.c: copy
+
+# config/Makefile.in = ASCII English text 
+config/Makefile.in: copy
+
+# exa/exa_unaccel.c = UTF-8 Unicode C program text 
+exa/exa_unaccel.c: copy
+
+# exa/exa_mixed.c = UTF-8 Unicode C program text 
+exa/exa_mixed.c: copy
+
+# exa/exa_priv.h = ASCII C program text 
+exa/exa_priv.h: copy
+
+# exa/Makefile.am = ASCII English text 
+exa/Makefile.am: copy
+
+# exa/exa_driver.c = UTF-8 Unicode C program text 
+exa/exa_driver.c: copy
+
+# exa/exa_glyphs.c = UTF-8 Unicode C program text 
+exa/exa_glyphs.c: copy
+
+# exa/exa_accel.c = UTF-8 Unicode C program text 
+exa/exa_accel.c: copy
+
+# exa/exa_migration_classic.c = UTF-8 Unicode C program text 
+exa/exa_migration_classic.c: copy
+
+# exa/exa.h = ASCII C program text 
+exa/exa.h: copy
+
+# exa/exa_offscreen.c = UTF-8 Unicode C program text 
+exa/exa_offscreen.c: copy
+
+# exa/exa_classic.c = UTF-8 Unicode C program text 
+exa/exa_classic.c: copy
+
+# exa/Makefile.in = ASCII English text 
+exa/Makefile.in: copy
+
+# exa/exa_migration_mixed.c = UTF-8 Unicode C program text 
+exa/exa_migration_mixed.c: copy
+
+# exa/exa.c = UTF-8 Unicode C program text 
+exa/exa.c: copy
+
+# exa/exa_render.c = UTF-8 Unicode C program text 
+exa/exa_render.c: copy
+
+# configure = POSIX shell script text executable 
+configure: copy
+
+# devbook.am = ASCII English text 
+devbook.am: copy
+
+# COPYING = UTF-8 Unicode English text 
+COPYING: copy
+
+# xorg-server.m4 = ASCII M4 macro language pre-processor text 
+xorg-server.m4: copy
+
+# man/Makefile.am = ASCII English text 
+man/Makefile.am: copy
+
+# man/Xserver.man = troff or preprocessor input text 
+man/Xserver.man: copy
+
+# man/Makefile.in = ASCII English text 
+man/Makefile.in: copy
+
+# composite/compalloc.c = UTF-8 Unicode C program text 
+composite/compalloc.c: copy
+
+# composite/Makefile.am = ASCII text 
+composite/Makefile.am: copy
+
+# composite/compositeext.h = UTF-8 Unicode C program text 
+composite/compositeext.h: copy
+
+# composite/compoverlay.c = UTF-8 Unicode C program text 
+composite/compoverlay.c: copy
+
+# composite/compext.c = UTF-8 Unicode C program text 
+composite/compext.c: copy
+
+# composite/Makefile.in = ASCII English text 
+composite/Makefile.in: copy
+
+# composite/compint.h = UTF-8 Unicode C program text 
+composite/compint.h: copy
+
+# composite/compinit.c = UTF-8 Unicode C program text 
+composite/compinit.c: copy
+
+# composite/compwindow.c = UTF-8 Unicode C program text 
+composite/compwindow.c: copy
+
+# fb/fbblt.c = UTF-8 Unicode C program text 
+fb/fbblt.c: copy
+
+# fb/fbgc.c = UTF-8 Unicode C program text 
+fb/fbgc.c: copy
+
+# fb/fbgetsp.c = UTF-8 Unicode C program text 
+fb/fbgetsp.c: copy
+
+# fb/fbstipple.c = UTF-8 Unicode C program text 
+fb/fbstipple.c: copy
+
+# fb/fbsetsp.c = UTF-8 Unicode C program text 
+fb/fbsetsp.c: copy
+
+# fb/Makefile.am = ASCII text 
+fb/Makefile.am: copy
+
+# fb/fballpriv.c = UTF-8 Unicode C program text 
+fb/fballpriv.c: copy
+
+# fb/fbfill.c = UTF-8 Unicode C program text 
+fb/fbfill.c: copy
+
+# fb/fbbits.c = UTF-8 Unicode C program text 
+fb/fbbits.c: copy
+
+# fb/fbbits.h = UTF-8 Unicode C program text 
+fb/fbbits.h: copy
+
+# fb/fbpict.c = UTF-8 Unicode C program text 
+fb/fbpict.c: copy
+
+# fb/fbpush.c = UTF-8 Unicode C program text 
+fb/fbpush.c: copy
+
+# fb/fbfillrect.c = UTF-8 Unicode C program text 
+fb/fbfillrect.c: copy
+
+# fb/fbglyph.c = UTF-8 Unicode C program text 
+fb/fbglyph.c: copy
+
+# fb/wfbrename.h = ASCII text 
+fb/wfbrename.h: copy
+
+# fb/fbline.c = UTF-8 Unicode C program text 
+fb/fbline.c: copy
+
+# fb/fbseg.c = UTF-8 Unicode C program text 
+fb/fbseg.c: copy
+
+# fb/fboverlay.h = UTF-8 Unicode C program text 
+fb/fboverlay.h: copy
+
+# fb/fb.h = UTF-8 Unicode C program text 
+fb/fb.h: copy
+
+# fb/fbfillsp.c = UTF-8 Unicode C program text 
+fb/fbfillsp.c: copy
+
+# fb/fbimage.c = UTF-8 Unicode C program text 
+fb/fbimage.c: copy
+
+# fb/fbcmap_mi.c = ASCII C program text 
+fb/fbcmap_mi.c: copy
+
+# fb/fbcopy.c = UTF-8 Unicode C program text 
+fb/fbcopy.c: copy
+
+# fb/fbpoint.c = UTF-8 Unicode C program text 
+fb/fbpoint.c: copy
+
+# fb/fbrop.h = UTF-8 Unicode C program text 
+fb/fbrop.h: copy
+
+# fb/fbpixmap.c = UTF-8 Unicode C program text 
+fb/fbpixmap.c: copy
+
+# fb/fbarc.c = UTF-8 Unicode C program text 
+fb/fbarc.c: copy
+
+# fb/fbsolid.c = UTF-8 Unicode C program text 
+fb/fbsolid.c: copy
+
+# fb/fb24_32.c = UTF-8 Unicode C program text 
+fb/fb24_32.c: copy
+
+# fb/fbscreen.c = UTF-8 Unicode C program text 
+fb/fbscreen.c: copy
+
+# fb/fb24_32.h = UTF-8 Unicode C program text 
+fb/fb24_32.h: copy
+
+# fb/fbutil.c = UTF-8 Unicode C program text 
+fb/fbutil.c: copy
+
+# fb/fbwindow.c = UTF-8 Unicode C program text 
+fb/fbwindow.c: copy
+
+# fb/fbbltone.c = UTF-8 Unicode C program text 
+fb/fbbltone.c: copy
+
+# fb/fbtrap.c = UTF-8 Unicode C program text 
+fb/fbtrap.c: copy
+
+# fb/fboverlay.c = UTF-8 Unicode C program text 
+fb/fboverlay.c: copy
+
+# fb/Makefile.in = ASCII English text, with very long lines 
+fb/Makefile.in: copy
+
+# fb/fbpict.h = UTF-8 Unicode C program text 
+fb/fbpict.h: copy
+
+# fb/fbtile.c = UTF-8 Unicode C program text 
+fb/fbtile.c: copy
+
+# config.sub = POSIX shell script text executable 
+config.sub: copy
+
+# xkb/xkbPrKeyEv.c = ASCII English text 
+xkb/xkbPrKeyEv.c: copy
+
+# xkb/XKBAlloc.c = ASCII English text 
+xkb/XKBAlloc.c: copy
+
+# xkb/XKBGAlloc.c = ASCII English text 
+xkb/XKBGAlloc.c: copy
+
+# xkb/xkbgeom.h = ASCII English text 
+xkb/xkbgeom.h: copy
+
+# xkb/xkbActions.c = ASCII English text 
+xkb/xkbActions.c: copy
+
+# xkb/Makefile.am = ASCII text 
+xkb/Makefile.am: copy
+
+# xkb/XKBMAlloc.c = ASCII English text 
+xkb/XKBMAlloc.c: copy
+
+# xkb/xkb.h = ASCII C program text 
+xkb/xkb.h: copy
+
+# xkb/ddxKillSrv.c = ASCII English text 
+xkb/ddxKillSrv.c: copy
+
+# xkb/ddxLoad.c = ASCII English text 
+xkb/ddxLoad.c: copy
+
+# xkb/xkbUtils.c = UTF-8 Unicode English text 
+xkb/xkbUtils.c: copy
+
+# xkb/xkbtext.c = ASCII English text 
+xkb/xkbtext.c: copy
+
+# xkb/xkbDflts.h = ASCII C program text 
+xkb/xkbDflts.h: copy
+
+# xkb/xkb.c = ASCII English text 
+xkb/xkb.c: copy
+
+# xkb/ddxVT.c = ASCII English text 
+xkb/ddxVT.c: copy
+
+# xkb/README.compiled = ASCII English text 
+xkb/README.compiled: copy
+
+# xkb/xkmread.c = ASCII English text 
+xkb/xkmread.c: copy
+
+# xkb/xkbSwap.c = ASCII English text 
+xkb/xkbSwap.c: copy
+
+# xkb/xkbout.c = ASCII English text 
+xkb/xkbout.c: copy
+
+# xkb/xkbInit.c = ASCII English text 
+xkb/xkbInit.c: copy
+
+# xkb/maprules.c = ASCII English text 
+xkb/maprules.c: copy
+
+# xkb/xkbEvents.c = ASCII English text 
+xkb/xkbEvents.c: copy
+
+# xkb/ddxLEDs.c = ASCII English text 
+xkb/ddxLEDs.c: copy
+
+# xkb/ddxPrivate.c = ASCII C program text 
+xkb/ddxPrivate.c: copy
+
+# xkb/ddxCtrls.c = ASCII English text 
+xkb/ddxCtrls.c: copy
+
+# xkb/XKBMisc.c = ASCII English text 
+xkb/XKBMisc.c: copy
+
+# xkb/xkbLEDs.c = ASCII English text 
+xkb/xkbLEDs.c: copy
+
+# xkb/ddxBeep.c = ASCII English text 
+xkb/ddxBeep.c: copy
+
+# xkb/xkbfmisc.c = ASCII English text 
+xkb/xkbfmisc.c: copy
+
+# xkb/ddxList.c = ASCII English text 
+xkb/ddxList.c: copy
+
+# xkb/Makefile.in = ASCII English text 
+xkb/Makefile.in: copy
+
+# xkb/xkbAccessX.c = ASCII English text 
+xkb/xkbAccessX.c: copy
+
+# randr/rrsdispatch.c = UTF-8 Unicode C program text 
+randr/rrsdispatch.c: copy
+
+# randr/Makefile.am = ASCII text 
+randr/Makefile.am: copy
+
+# randr/rrtransform.h = UTF-8 Unicode C program text 
+randr/rrtransform.h: copy
+
+# randr/rrdispatch.c = UTF-8 Unicode C program text 
+randr/rrdispatch.c: copy
+
+# randr/rrinfo.c = UTF-8 Unicode C program text 
+randr/rrinfo.c: copy
+
+# randr/rrmode.c = UTF-8 Unicode C program text 
+randr/rrmode.c: copy
+
+# randr/rrscreen.c = UTF-8 Unicode C program text 
+randr/rrscreen.c: copy
+
+# randr/rrtransform.c = UTF-8 Unicode C program text 
+randr/rrtransform.c: copy
+
+# randr/rroutput.c = UTF-8 Unicode C program text 
+randr/rroutput.c: copy
+
+# randr/rrprovider.c = UTF-8 Unicode C program text 
+randr/rrprovider.c: copy
+
+# randr/rrcrtc.c = UTF-8 Unicode C program text 
+randr/rrcrtc.c: copy
+
+# randr/rrproviderproperty.c = UTF-8 Unicode C program text 
+randr/rrproviderproperty.c: copy
+
+# randr/rrxinerama.c = UTF-8 Unicode C program text 
+randr/rrxinerama.c: copy
+
+# randr/randr.c = UTF-8 Unicode C program text 
+randr/randr.c: copy
+
+# randr/rrpointer.c = UTF-8 Unicode C program text 
+randr/rrpointer.c: copy
+
+# randr/randrstr.h = UTF-8 Unicode C program text 
+randr/randrstr.h: copy
+
+# randr/rrproperty.c = UTF-8 Unicode C program text 
+randr/rrproperty.c: copy
+
+# randr/Makefile.in = ASCII English text 
+randr/Makefile.in: copy
+
+# Makefile.in = ASCII English text 
+Makefile.in: copy
+
+# test/string.c = ASCII C program text 
+test/string.c: copy
+
+# test/xfree86.c = UTF-8 Unicode English text 
+test/xfree86.c: copy
+
+# test/ddxstubs.c = UTF-8 Unicode English text 
+test/ddxstubs.c: copy
+
+# test/Makefile.am = ASCII text 
+test/Makefile.am: copy
+
+# test/signal-logging.c = UTF-8 Unicode English text 
+test/signal-logging.c: copy
+
+# test/xkb.c = UTF-8 Unicode English text 
+test/xkb.c: copy
+
+# test/README = ASCII English text 
+test/README: copy
+
+# test/misc.c = UTF-8 Unicode English text 
+test/misc.c: copy
+
+# test/touch.c = UTF-8 Unicode English text 
+test/touch.c: copy
+
+# test/hashtabletest.c = ASCII C program text 
+test/hashtabletest.c: copy
+
+# test/input.c = UTF-8 Unicode English text 
+test/input.c: copy
+
+# test/fixes.c = UTF-8 Unicode English text 
+test/fixes.c: copy
+
+# test/os.c = UTF-8 Unicode English text 
+test/os.c: copy
+
+# test/xi2/protocol-xigetclientpointer.c = UTF-8 Unicode English text 
+test/xi2/protocol-xigetclientpointer.c: copy
+
+# test/xi2/protocol-common.c = UTF-8 Unicode English text 
+test/xi2/protocol-common.c: copy
+
+# test/xi2/protocol-common.h = UTF-8 Unicode English text 
+test/xi2/protocol-common.h: copy
+
+# test/xi2/Makefile.am = ASCII text 
+test/xi2/Makefile.am: copy
+
+# test/xi2/protocol-eventconvert.c = UTF-8 Unicode English text 
+test/xi2/protocol-eventconvert.c: copy
+
+# test/xi2/protocol-xipassivegrabdevice.c = UTF-8 Unicode English text 
+test/xi2/protocol-xipassivegrabdevice.c: copy
+
+# test/xi2/protocol-xiqueryversion.c = UTF-8 Unicode English text 
+test/xi2/protocol-xiqueryversion.c: copy
+
+# test/xi2/protocol-xisetclientpointer.c = UTF-8 Unicode English text 
+test/xi2/protocol-xisetclientpointer.c: copy
+
+# test/xi2/protocol-xiquerydevice.c = UTF-8 Unicode English text 
+test/xi2/protocol-xiquerydevice.c: copy
+
+# test/xi2/protocol-xigetselectedevents.c = UTF-8 Unicode English text 
+test/xi2/protocol-xigetselectedevents.c: copy
+
+# test/xi2/protocol-xiquerypointer.c = UTF-8 Unicode English text 
+test/xi2/protocol-xiquerypointer.c: copy
+
+# test/xi2/xi2.c = UTF-8 Unicode English text 
+test/xi2/xi2.c: copy
+
+# test/xi2/protocol-xiwarppointer.c = UTF-8 Unicode English text 
+test/xi2/protocol-xiwarppointer.c: copy
+
+# test/xi2/protocol-xiselectevents.c = UTF-8 Unicode English text 
+test/xi2/protocol-xiselectevents.c: copy
+
+# test/xi2/Makefile.in = ASCII English text 
+test/xi2/Makefile.in: copy
+
+# test/xtest.c = UTF-8 Unicode English text 
+test/xtest.c: copy
+
+# test/Makefile.in = ASCII English text, with very long lines 
+test/Makefile.in: copy
+
+# test/list.c = UTF-8 Unicode English text 
+test/list.c: copy
+
+# damageext/Makefile.am = ASCII text 
+damageext/Makefile.am: copy
+
+# damageext/damageext.c = UTF-8 Unicode C program text 
+damageext/damageext.c: copy
+
+# damageext/damageextint.h = UTF-8 Unicode C program text 
+damageext/damageextint.h: copy
+
+# damageext/Makefile.in = ASCII English text 
+damageext/Makefile.in: copy
+
+# manpages.am = ASCII English text 
+manpages.am: copy
+
+# depcomp = POSIX shell script text executable 
+depcomp: copy

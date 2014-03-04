@@ -1,109 +1,160 @@
-# Patchlist created Sat Mar  1 18:30:58 CST 2014
-# xserver.pamd = cannot open `/builddir/build/SOURCES/ORIG' (No such file or directory)
+# Patchlist created Sun Mar  2 23:21:32 CST 2014
+
+# xserver.pamd = ASCII text 
 xserver.pamd: copy
-# 0002-Xext-pass-the-current-screen-to-miProcessDeviceEvent.patch = cannot open `/builddir/build/SOURCES/ORIG' (No such file or directory)
+
+# 0002-Xext-pass-the-current-screen-to-miProcessDeviceEvent.patch = unified diff output text 
 0002-Xext-pass-the-current-screen-to-miProcessDeviceEvent.patch: copy
-# 0001-xf86AddBusDeviceToConfigure-Store-device-in-DevToCon.patch = cannot open `/builddir/build/SOURCES/ORIG' (No such file or directory)
+
+# 0001-xf86AddBusDeviceToConfigure-Store-device-in-DevToCon.patch = unified diff output text 
 0001-xf86AddBusDeviceToConfigure-Store-device-in-DevToCon.patch: copy
-# 0001-fonts-Fix-xinerama-logic-better.patch = cannot open `/builddir/build/SOURCES/ORIG' (No such file or directory)
+
+# 0001-fonts-Fix-xinerama-logic-better.patch = unified diff output text 
 0001-fonts-Fix-xinerama-logic-better.patch: copy
-# gitignore = cannot open `/builddir/build/SOURCES/ORIG' (No such file or directory)
+
+# gitignore = ASCII text 
 gitignore: copy
-# 0014-vbe-Only-interpret-complete-failure-as-DDC-unsupport.patch = cannot open `/builddir/build/SOURCES/ORIG' (No such file or directory)
+
+# 0014-vbe-Only-interpret-complete-failure-as-DDC-unsupport.patch = unified diff output text 
 0014-vbe-Only-interpret-complete-failure-as-DDC-unsupport.patch: copy
-# 0002-kdrive-modify-ephyr-events-to-use-POINTER_DESKTOP-an.patch = cannot open `/builddir/build/SOURCES/ORIG' (No such file or directory)
+
+# 0002-kdrive-modify-ephyr-events-to-use-POINTER_DESKTOP-an.patch = unified diff output text 
 0002-kdrive-modify-ephyr-events-to-use-POINTER_DESKTOP-an.patch: copy
-# 0001-Avoid-use-after-free-in-dix-dixfonts.c-doImageText-C.patch = cannot open `/builddir/build/SOURCES/ORIG' (No such file or directory)
+
+# 0001-Avoid-use-after-free-in-dix-dixfonts.c-doImageText-C.patch = unified diff output text 
 0001-Avoid-use-after-free-in-dix-dixfonts.c-doImageText-C.patch: copy
-# 0001-dix-only-allow-button-and-key-events-to-freeze-a-syn.patch = cannot open `/builddir/build/SOURCES/ORIG' (No such file or directory)
+
+# 0001-dix-only-allow-button-and-key-events-to-freeze-a-syn.patch = unified diff output text 
 0001-dix-only-allow-button-and-key-events-to-freeze-a-syn.patch: copy
-# 0071-dix-pre-scale-x-by-the-screen-device-resolution-rati.patch = cannot open `/builddir/build/SOURCES/ORIG' (No such file or directory)
+
+# 0071-dix-pre-scale-x-by-the-screen-device-resolution-rati.patch = unified diff output text 
 0071-dix-pre-scale-x-by-the-screen-device-resolution-rati.patch: copy
-# 0003-damageext-Xineramify-v4.5.patch = cannot open `/builddir/build/SOURCES/ORIG' (No such file or directory)
+
+# 0003-damageext-Xineramify-v4.5.patch = unified diff output text 
 0003-damageext-Xineramify-v4.5.patch: copy
-# 0015-dri2-bootstrapping-hack.patch = cannot open `/builddir/build/SOURCES/ORIG' (No such file or directory)
+
+# 0015-dri2-bootstrapping-hack.patch = unified diff output text 
 0015-dri2-bootstrapping-hack.patch: copy
-# 0003-Xext-if-a-root-window-is-given-in-XTestFakeInput-mov.patch = cannot open `/builddir/build/SOURCES/ORIG' (No such file or directory)
+
+# 0003-Xext-if-a-root-window-is-given-in-XTestFakeInput-mov.patch = unified diff output text 
 0003-Xext-if-a-root-window-is-given-in-XTestFakeInput-mov.patch: copy
-# 0003-kdrive-fix-cursor-jumps-on-CursorOffScreen-behavior.patch = cannot open `/builddir/build/SOURCES/ORIG' (No such file or directory)
+
+# 0003-kdrive-fix-cursor-jumps-on-CursorOffScreen-behavior.patch = unified diff output text 
 0003-kdrive-fix-cursor-jumps-on-CursorOffScreen-behavior.patch: copy
-# 0001-mieq-Bump-default-queue-size-to-512.patch = cannot open `/builddir/build/SOURCES/ORIG' (No such file or directory)
+
+# 0001-mieq-Bump-default-queue-size-to-512.patch = unified diff output text 
 0001-mieq-Bump-default-queue-size-to-512.patch: copy
-# 0016-build-the-touch-test-only-when-building-Xorg.patch = cannot open `/builddir/build/SOURCES/ORIG' (No such file or directory)
+
+# 0016-build-the-touch-test-only-when-building-Xorg.patch = unified diff output text 
 0016-build-the-touch-test-only-when-building-Xorg.patch: copy
-# 0001-damage-Must-translate-initial-window-damage-by-windo.patch = cannot open `/builddir/build/SOURCES/ORIG' (No such file or directory)
+
+# 0001-damage-Must-translate-initial-window-damage-by-windo.patch = unified diff output text 
 0001-damage-Must-translate-initial-window-damage-by-windo.patch: copy
-# 0001-dix-when-scaling-from-desktop-coord-take-the-total-d.patch = cannot open `/builddir/build/SOURCES/ORIG' (No such file or directory)
+
+# 0001-dix-when-scaling-from-desktop-coord-take-the-total-d.patch = unified diff output text 
 0001-dix-when-scaling-from-desktop-coord-take-the-total-d.patch: copy
-# 0004-RANDR-right-of-placement-by-default.patch = cannot open `/builddir/build/SOURCES/ORIG' (No such file or directory)
+
+# 0004-RANDR-right-of-placement-by-default.patch = unified diff output text 
 0004-RANDR-right-of-placement-by-default.patch: copy
-# xserver-sdk-abi-requires.release = cannot open `/builddir/build/SOURCES/ORIG' (No such file or directory)
+
+# xserver-sdk-abi-requires.release = POSIX shell script text executable 
 xserver-sdk-abi-requires.release: copy
-# 0004-ephyr-Add-notresizeable-option-to-make-windows-non-r.patch = cannot open `/builddir/build/SOURCES/ORIG' (No such file or directory)
+
+# 0004-ephyr-Add-notresizeable-option-to-make-windows-non-r.patch = unified diff output text 
 0004-ephyr-Add-notresizeable-option-to-make-windows-non-r.patch: copy
-# xorg-server-1.13.0.tar.bz2 = cannot open `/builddir/build/SOURCES/ORIG' (No such file or directory)
-xorg-server-1.13.0.tar.bz2: copy
-# 0001-randr-cleanup-provider-properly.patch = cannot open `/builddir/build/SOURCES/ORIG' (No such file or directory)
+
+# 0001-randr-cleanup-provider-properly.patch = unified diff output text 
 0001-randr-cleanup-provider-properly.patch: copy
-# 0001-ephyr-Fix-crash-on-24bpp-host-framebuffer.patch = cannot open `/builddir/build/SOURCES/ORIG' (No such file or directory)
+
+# 0001-ephyr-Fix-crash-on-24bpp-host-framebuffer.patch = unified diff output text 
 0001-ephyr-Fix-crash-on-24bpp-host-framebuffer.patch: copy
-# 0020-dix-fix-crash-on-shutdown-if-a-disabled-device-is-st.patch = cannot open `/builddir/build/SOURCES/ORIG' (No such file or directory)
+
+# 0020-dix-fix-crash-on-shutdown-if-a-disabled-device-is-st.patch = unified diff output text 
 0020-dix-fix-crash-on-shutdown-if-a-disabled-device-is-st.patch: copy
-# 0011-xfree86-Lid-status-hack.patch = cannot open `/builddir/build/SOURCES/ORIG' (No such file or directory)
+
+# 0011-xfree86-Lid-status-hack.patch = unified diff output text 
 0011-xfree86-Lid-status-hack.patch: copy
-# 0001-glx-dri2-initialise-api-to-avoid-indirect-rendering-.patch = cannot open `/builddir/build/SOURCES/ORIG' (No such file or directory)
+
+# 0001-glx-dri2-initialise-api-to-avoid-indirect-rendering-.patch = unified diff output text 
 0001-glx-dri2-initialise-api-to-avoid-indirect-rendering-.patch: copy
-# 0021-xfree86-add-xf86UpdateDesktopDimensions.patch = cannot open `/builddir/build/SOURCES/ORIG' (No such file or directory)
+
+# 0021-xfree86-add-xf86UpdateDesktopDimensions.patch = unified diff output text 
 0021-xfree86-add-xf86UpdateDesktopDimensions.patch: copy
-# xvfb-run.sh = cannot open `/builddir/build/SOURCES/ORIG' (No such file or directory)
+
+# xvfb-run.sh = POSIX shell script text executable 
 xvfb-run.sh: copy
-# 0005-Enable-PAM-support.patch = cannot open `/builddir/build/SOURCES/ORIG' (No such file or directory)
+
+# 0005-Enable-PAM-support.patch = unified diff output text 
 0005-Enable-PAM-support.patch: copy
-# 0001-xf86-fix-flush-input-to-work-with-Linux-evdev-device.patch = cannot open `/builddir/build/SOURCES/ORIG' (No such file or directory)
+
+# 0001-xf86-fix-flush-input-to-work-with-Linux-evdev-device.patch = unified diff output text 
 0001-xf86-fix-flush-input-to-work-with-Linux-evdev-device.patch: copy
-# 0003-ephyr-Ensure-stride-of-private-framebuffer-is-multip.patch = cannot open `/builddir/build/SOURCES/ORIG' (No such file or directory)
+
+# 0003-ephyr-Ensure-stride-of-private-framebuffer-is-multip.patch = unified diff output text 
 0003-ephyr-Ensure-stride-of-private-framebuffer-is-multip.patch: copy
-# 0001-ephyr-Add-resizeable-option.patch = cannot open `/builddir/build/SOURCES/ORIG' (No such file or directory)
+
+# 0001-ephyr-Add-resizeable-option.patch = unified diff output text 
 0001-ephyr-Add-resizeable-option.patch: copy
-# 0009-Re-add-nr-command-line-option-for-gdm-compatibility.patch = cannot open `/builddir/build/SOURCES/ORIG' (No such file or directory)
+
+# 0009-Re-add-nr-command-line-option-for-gdm-compatibility.patch = unified diff output text 
 0009-Re-add-nr-command-line-option-for-gdm-compatibility.patch: copy
-# 0001-dri1-fix-dri1-startup-since-459c6da0f907ba33d733c7e6.patch = cannot open `/builddir/build/SOURCES/ORIG' (No such file or directory)
+
+# 0001-dri1-fix-dri1-startup-since-459c6da0f907ba33d733c7e6.patch = unified diff output text 
 0001-dri1-fix-dri1-startup-since-459c6da0f907ba33d733c7e6.patch: copy
-# 0003-dix-don-t-attempt-to-deliver-an-event-for-a-differen.patch = cannot open `/builddir/build/SOURCES/ORIG' (No such file or directory)
+
+# 0003-dix-don-t-attempt-to-deliver-an-event-for-a-differen.patch = unified diff output text 
 0003-dix-don-t-attempt-to-deliver-an-event-for-a-differen.patch: copy
-# 0017-dix-set-the-device-transformation-matrix.patch = cannot open `/builddir/build/SOURCES/ORIG' (No such file or directory)
+
+# 0017-dix-set-the-device-transformation-matrix.patch = unified diff output text 
 0017-dix-set-the-device-transformation-matrix.patch: copy
-# 0019-dix-fix-crash-on-XI-1.x-grabs-on-disabled-devices.-5.patch = cannot open `/builddir/build/SOURCES/ORIG' (No such file or directory)
+
+# 0019-dix-fix-crash-on-XI-1.x-grabs-on-disabled-devices.-5.patch = unified diff output text 
 0019-dix-fix-crash-on-XI-1.x-grabs-on-disabled-devices.-5.patch: copy
-# 0001-Fix-Xephyr-compilation-when-DEBUG-is-enabled.patch = cannot open `/builddir/build/SOURCES/ORIG' (No such file or directory)
+
+# 0001-Fix-Xephyr-compilation-when-DEBUG-is-enabled.patch = unified diff output text 
 0001-Fix-Xephyr-compilation-when-DEBUG-is-enabled.patch: copy
-# 0022-dix-fix-zaphod-screen-scrossing-54654.patch = cannot open `/builddir/build/SOURCES/ORIG' (No such file or directory)
+
+# 0022-dix-fix-zaphod-screen-scrossing-54654.patch = unified diff output text 
 0022-dix-fix-zaphod-screen-scrossing-54654.patch: copy
-# 0002-dix-Add-PostDispatchCallback.patch = cannot open `/builddir/build/SOURCES/ORIG' (No such file or directory)
+
+# 0002-dix-Add-PostDispatchCallback.patch = unified diff output text 
 0002-dix-Add-PostDispatchCallback.patch: copy
-# 0004-dix-only-deliver-for-the-current-grab-type.patch = cannot open `/builddir/build/SOURCES/ORIG' (No such file or directory)
+
+# 0004-dix-only-deliver-for-the-current-grab-type.patch = unified diff output text 
 0004-dix-only-deliver-for-the-current-grab-type.patch: copy
-# 0001-server-fix-resources-and-compat-output-issues.patch = cannot open `/builddir/build/SOURCES/ORIG' (No such file or directory)
+
+# 0001-server-fix-resources-and-compat-output-issues.patch = unified diff output text 
 0001-server-fix-resources-and-compat-output-issues.patch: copy
-# 0001-vfb-Initialize-the-GLX-extension-again.patch = cannot open `/builddir/build/SOURCES/ORIG' (No such file or directory)
+
+# 0001-vfb-Initialize-the-GLX-extension-again.patch = unified diff output text 
 0001-vfb-Initialize-the-GLX-extension-again.patch: copy
-# 0002-ephyr-hostx_screen_init-Fix-bits_per_pixel-and-bytes.patch = cannot open `/builddir/build/SOURCES/ORIG' (No such file or directory)
+
+# 0002-ephyr-hostx_screen_init-Fix-bits_per_pixel-and-bytes.patch = unified diff output text 
 0002-ephyr-hostx_screen_init-Fix-bits_per_pixel-and-bytes.patch: copy
-# 0006-modes-Combine-xf86DefaultModes-and-DMTModes.patch = cannot open `/builddir/build/SOURCES/ORIG' (No such file or directory)
+
+# 0006-modes-Combine-xf86DefaultModes-and-DMTModes.patch = unified diff output text 
 0006-modes-Combine-xf86DefaultModes-and-DMTModes.patch: copy
-# 0001-link-with-z-now.patch = cannot open `/builddir/build/SOURCES/ORIG' (No such file or directory)
+
+# 0001-link-with-z-now.patch = unified diff output text 
 0001-link-with-z-now.patch: copy
-# 0070-dix-pre-scale-relative-events-from-abs-devices-to-de.patch = cannot open `/builddir/build/SOURCES/ORIG' (No such file or directory)
+
+# 0070-dix-pre-scale-relative-events-from-abs-devices-to-de.patch = unified diff output text 
 0070-dix-pre-scale-relative-events-from-abs-devices-to-de.patch: copy
-# 0002-include-change-grabtypes-to-start-at-1.patch = cannot open `/builddir/build/SOURCES/ORIG' (No such file or directory)
+
+# 0002-include-change-grabtypes-to-start-at-1.patch = unified diff output text 
 0002-include-change-grabtypes-to-start-at-1.patch: copy
-# 0003-Don-t-build-the-ACPI-code.patch = cannot open `/builddir/build/SOURCES/ORIG' (No such file or directory)
+
+# 0003-Don-t-build-the-ACPI-code.patch = unified diff output text 
 0003-Don-t-build-the-ACPI-code.patch: copy
-# xserver-sdk-abi-requires.git = cannot open `/builddir/build/SOURCES/ORIG' (No such file or directory)
+
+# xserver-sdk-abi-requires.git = POSIX shell script text executable 
 xserver-sdk-abi-requires.git: copy
-# 0072-dix-fix-device-scaling-to-use-a-min-max-range.patch = cannot open `/builddir/build/SOURCES/ORIG' (No such file or directory)
+
+# 0072-dix-fix-device-scaling-to-use-a-min-max-range.patch = unified diff output text 
 0072-dix-fix-device-scaling-to-use-a-min-max-range.patch: copy
-# 0073-dix-scale-y-back-instead-of-x-up-when-pre-scaling-co.patch = cannot open `/builddir/build/SOURCES/ORIG' (No such file or directory)
+
+# 0073-dix-scale-y-back-instead-of-x-up-when-pre-scaling-co.patch = unified diff output text 
 0073-dix-scale-y-back-instead-of-x-up-when-pre-scaling-co.patch: copy
-# 0002-Hack-for-proper-MIT-SHM-rejection-for-ssh-forwarded-.patch = cannot open `/builddir/build/SOURCES/ORIG' (No such file or directory)
+
+# 0002-Hack-for-proper-MIT-SHM-rejection-for-ssh-forwarded-.patch = unified diff output text 
 0002-Hack-for-proper-MIT-SHM-rejection-for-ssh-forwarded-.patch: copy

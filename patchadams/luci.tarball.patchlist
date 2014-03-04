@@ -1,0 +1,742 @@
+# Patchlist created Sun Mar  2 23:35:41 CST 2014
+
+# .gitignore = ASCII text 
+.gitignore: copy
+
+# ez_setup.py = Python script text executable 
+ez_setup.py: copy
+
+# luci.spec = lex description text 
+luci.spec: copy
+
+# input_files/sysconfig/sysconfig.in = ASCII English text 
+input_files/sysconfig/sysconfig.in: copy
+
+# input_files/sasl2config/sasl2config.in = ASCII text 
+input_files/sasl2config/sasl2config.in: copy
+
+# input_files/pamconfig/pamconfig.in = ASCII text 
+input_files/pamconfig/pamconfig.in: copy
+
+# input_files/certconfig/certconfig.in = ASCII English text 
+input_files/certconfig/certconfig.in: copy
+
+# input_files/config.tmpl/config.tmpl.in = ASCII English text 
+input_files/config.tmpl/config.tmpl.in: copy
+
+# input_files/config.tmpl/debug_logging.patch = unified diff output text 
+input_files/config.tmpl/debug_logging.patch: copy
+
+# input_files/config.tmpl/debug_app.patch = unified diff output text 
+input_files/config.tmpl/debug_app.patch: copy
+
+# input_files/initscript/initscript.in = Bourne-Again shell script text executable 
+input_files/initscript/initscript.in: copy
+
+# input_files/logrotateconfig/logrotateconfig.in = ASCII text 
+input_files/logrotateconfig/logrotateconfig.in: copy
+
+# README = UTF-8 Unicode English text 
+README: copy
+
+# extensions/sasl2auth.h.in = ASCII C program text 
+extensions/sasl2auth.h.in: copy
+
+# extensions/sasl2auth.c = ASCII C program text 
+extensions/sasl2auth.c: copy
+
+# TODO = ASCII text 
+TODO: copy
+
+# luci-setup.patch = unified diff output text 
+luci-setup.patch: copy
+
+# setup.cfg = ASCII English text 
+setup.cfg: copy
+
+# luci/__init__.py = Python script text executable 
+luci/__init__.py: copy
+
+# luci/websetup.py = Python script text executable 
+luci/websetup.py: copy
+
+# luci/controllers/__init__.py = Python script text executable 
+luci/controllers/__init__.py: copy
+
+# luci/controllers/template.py = Python script text executable 
+luci/controllers/template.py: copy
+
+# luci/controllers/async.py = Python script text executable 
+luci/controllers/async.py: copy
+
+# luci/controllers/error.py = Python script text executable 
+luci/controllers/error.py: copy
+
+# luci/controllers/root.py = Python script text executable 
+luci/controllers/root.py: copy
+
+# luci/controllers/cluster.py = Python script text executable 
+luci/controllers/cluster.py: copy
+
+# luci/lib/ricci_queries.py = Python script text executable 
+luci/lib/ricci_queries.py: copy
+
+# luci/lib/app_globals.py = Python script text executable 
+luci/lib/app_globals.py: copy
+
+# luci/lib/__init__.py = ASCII text 
+luci/lib/__init__.py: copy
+
+# luci/lib/cluster_status.py = Python script text executable 
+luci/lib/cluster_status.py: copy
+
+# luci/lib/cluster_conf_helpers.py = Python script text executable 
+luci/lib/cluster_conf_helpers.py: copy
+
+# luci/lib/plugin_sasl2auth.py = Python script text executable 
+luci/lib/plugin_sasl2auth.py: copy
+
+# luci/lib/luci_tasks.py = ASCII Pascal program text 
+luci/lib/luci_tasks.py: copy
+
+# luci/lib/base.py = Python script text executable 
+luci/lib/base.py: copy
+
+# luci/lib/cluster_permissions.py = Python script text executable 
+luci/lib/cluster_permissions.py: copy
+
+# luci/lib/ClusterConf/Vm.py = Python script text executable 
+luci/lib/ClusterConf/Vm.py: copy
+
+# luci/lib/ClusterConf/Device.py = Python script text executable 
+luci/lib/ClusterConf/Device.py: copy
+
+# luci/lib/ClusterConf/Master.py = Python script text executable 
+luci/lib/ClusterConf/Master.py: copy
+
+# luci/lib/ClusterConf/__init__.py = ASCII text 
+luci/lib/ClusterConf/__init__.py: copy
+
+# luci/lib/ClusterConf/Heuristic.py = Python script text executable 
+luci/lib/ClusterConf/Heuristic.py: copy
+
+# luci/lib/ClusterConf/NFSExport.py = Python script text executable 
+luci/lib/ClusterConf/NFSExport.py: copy
+
+# luci/lib/ClusterConf/ClusterNodes.py = Python script text executable 
+luci/lib/ClusterConf/ClusterNodes.py: copy
+
+# luci/lib/ClusterConf/QuorumD.py = Python script text executable 
+luci/lib/ClusterConf/QuorumD.py: copy
+
+# luci/lib/ClusterConf/FenceDaemon.py = Python script text executable 
+luci/lib/ClusterConf/FenceDaemon.py: copy
+
+# luci/lib/ClusterConf/Apache.py = Python script text executable 
+luci/lib/ClusterConf/Apache.py: copy
+
+# luci/lib/ClusterConf/Altmulticast.py = Python script text executable 
+luci/lib/ClusterConf/Altmulticast.py: copy
+
+# luci/lib/ClusterConf/Events.py = Python script text executable 
+luci/lib/ClusterConf/Events.py: copy
+
+# luci/lib/ClusterConf/Unfence.py = Python script text executable 
+luci/lib/ClusterConf/Unfence.py: copy
+
+# luci/lib/ClusterConf/LoggingDaemon.py = Python script text executable 
+luci/lib/ClusterConf/LoggingDaemon.py: copy
+
+# luci/lib/ClusterConf/OracleListener.py = Python script text executable 
+luci/lib/ClusterConf/OracleListener.py: copy
+
+# luci/lib/ClusterConf/Group.py = Python script text executable 
+luci/lib/ClusterConf/Group.py: copy
+
+# luci/lib/ClusterConf/Rm.py = Python script text executable 
+luci/lib/ClusterConf/Rm.py: copy
+
+# luci/lib/ClusterConf/Samba.py = Python script text executable 
+luci/lib/ClusterConf/Samba.py: copy
+
+# luci/lib/ClusterConf/ClusterNode.py = Python script text executable 
+luci/lib/ClusterConf/ClusterNode.py: copy
+
+# luci/lib/ClusterConf/Event.py = Python script text executable 
+luci/lib/ClusterConf/Event.py: copy
+
+# luci/lib/ClusterConf/LVM.py = Python script text executable 
+luci/lib/ClusterConf/LVM.py: copy
+
+# luci/lib/ClusterConf/RefObject.py = Python script text executable 
+luci/lib/ClusterConf/RefObject.py: copy
+
+# luci/lib/ClusterConf/SAPInstance.py = Python script text executable 
+luci/lib/ClusterConf/SAPInstance.py: copy
+
+# luci/lib/ClusterConf/NFSClient.py = Python script text executable 
+luci/lib/ClusterConf/NFSClient.py: copy
+
+# luci/lib/ClusterConf/FailoverDomains.py = Python script text executable 
+luci/lib/ClusterConf/FailoverDomains.py: copy
+
+# luci/lib/ClusterConf/Method.py = Python script text executable 
+luci/lib/ClusterConf/Method.py: copy
+
+# luci/lib/ClusterConf/Ip.py = Python script text executable 
+luci/lib/ClusterConf/Ip.py: copy
+
+# luci/lib/ClusterConf/MySQL.py = Python script text executable 
+luci/lib/ClusterConf/MySQL.py: copy
+
+# luci/lib/ClusterConf/TagObject.py = Python script text executable 
+luci/lib/ClusterConf/TagObject.py: copy
+
+# luci/lib/ClusterConf/Clusterfs.py = Python script text executable 
+luci/lib/ClusterConf/Clusterfs.py: copy
+
+# luci/lib/ClusterConf/Lockspace.py = Python script text executable 
+luci/lib/ClusterConf/Lockspace.py: copy
+
+# luci/lib/ClusterConf/Interface.py = Python script text executable 
+luci/lib/ClusterConf/Interface.py: copy
+
+# luci/lib/ClusterConf/Service.py = Python script text executable 
+luci/lib/ClusterConf/Service.py: copy
+
+# luci/lib/ClusterConf/Totem.py = Python script text executable 
+luci/lib/ClusterConf/Totem.py: copy
+
+# luci/lib/ClusterConf/DRBD.py = Python script text executable 
+luci/lib/ClusterConf/DRBD.py: copy
+
+# luci/lib/ClusterConf/FenceDeviceAttr.py = ASCII Pascal program text 
+luci/lib/ClusterConf/FenceDeviceAttr.py: copy
+
+# luci/lib/ClusterConf/Script.py = Python script text executable 
+luci/lib/ClusterConf/Script.py: copy
+
+# luci/lib/ClusterConf/Tomcat6.py = Python script text executable 
+luci/lib/ClusterConf/Tomcat6.py: copy
+
+# luci/lib/ClusterConf/FailoverDomainNode.py = Python script text executable 
+luci/lib/ClusterConf/FailoverDomainNode.py: copy
+
+# luci/lib/ClusterConf/Resources.py = Python script text executable 
+luci/lib/ClusterConf/Resources.py: copy
+
+# luci/lib/ClusterConf/Logging.py = Python script text executable 
+luci/lib/ClusterConf/Logging.py: copy
+
+# luci/lib/ClusterConf/Fence.py = Python script text executable 
+luci/lib/ClusterConf/Fence.py: copy
+
+# luci/lib/ClusterConf/OracleDB.py = Python script text executable 
+luci/lib/ClusterConf/OracleDB.py: copy
+
+# luci/lib/ClusterConf/DLM.py = Python script text executable 
+luci/lib/ClusterConf/DLM.py: copy
+
+# luci/lib/ClusterConf/Cluster.py = Python script text executable 
+luci/lib/ClusterConf/Cluster.py: copy
+
+# luci/lib/ClusterConf/FailoverDomain.py = Python script text executable 
+luci/lib/ClusterConf/FailoverDomain.py: copy
+
+# luci/lib/ClusterConf/FenceXVMd.py = Python script text executable 
+luci/lib/ClusterConf/FenceXVMd.py: copy
+
+# luci/lib/ClusterConf/Tomcat5.py = Python script text executable 
+luci/lib/ClusterConf/Tomcat5.py: copy
+
+# luci/lib/ClusterConf/ModelBuilder.py = Python script text executable 
+luci/lib/ClusterConf/ModelBuilder.py: copy
+
+# luci/lib/ClusterConf/Named.py = Python script text executable 
+luci/lib/ClusterConf/Named.py: copy
+
+# luci/lib/ClusterConf/Action.py = Python script text executable 
+luci/lib/ClusterConf/Action.py: copy
+
+# luci/lib/ClusterConf/FenceDevices.py = Python script text executable 
+luci/lib/ClusterConf/FenceDevices.py: copy
+
+# luci/lib/ClusterConf/Altname.py = Python script text executable 
+luci/lib/ClusterConf/Altname.py: copy
+
+# luci/lib/ClusterConf/Fs.py = Python script text executable 
+luci/lib/ClusterConf/Fs.py: copy
+
+# luci/lib/ClusterConf/Smb.py = Python script text executable 
+luci/lib/ClusterConf/Smb.py: copy
+
+# luci/lib/ClusterConf/Multicast.py = Python script text executable 
+luci/lib/ClusterConf/Multicast.py: copy
+
+# luci/lib/ClusterConf/Clvmd.py = Python script text executable 
+luci/lib/ClusterConf/Clvmd.py: copy
+
+# luci/lib/ClusterConf/NFSServer.py = Python script text executable 
+luci/lib/ClusterConf/NFSServer.py: copy
+
+# luci/lib/ClusterConf/OpenLDAP.py = Python script text executable 
+luci/lib/ClusterConf/OpenLDAP.py: copy
+
+# luci/lib/ClusterConf/SAPDatabase.py = Python script text executable 
+luci/lib/ClusterConf/SAPDatabase.py: copy
+
+# luci/lib/ClusterConf/Cman.py = Python script text executable 
+luci/lib/ClusterConf/Cman.py: copy
+
+# luci/lib/ClusterConf/Netfs.py = Python script text executable 
+luci/lib/ClusterConf/Netfs.py: copy
+
+# luci/lib/ClusterConf/FenceDevice.py = Python script text executable 
+luci/lib/ClusterConf/FenceDevice.py: copy
+
+# luci/lib/ClusterConf/BaseResource.py = Python script text executable 
+luci/lib/ClusterConf/BaseResource.py: copy
+
+# luci/lib/ClusterConf/GFSControld.py = Python script text executable 
+luci/lib/ClusterConf/GFSControld.py: copy
+
+# luci/lib/ClusterConf/Postgres8.py = Python script text executable 
+luci/lib/ClusterConf/Postgres8.py: copy
+
+# luci/lib/ClusterConf/OracleInstance.py = Python script text executable 
+luci/lib/ClusterConf/OracleInstance.py: copy
+
+# luci/lib/ClusterConf/SybaseASE.py = Python script text executable 
+luci/lib/ClusterConf/SybaseASE.py: copy
+
+# luci/lib/ricci_defines.py = ASCII Pascal program text 
+luci/lib/ricci_defines.py: copy
+
+# luci/lib/async_helpers.py = Python script text executable 
+luci/lib/async_helpers.py: copy
+
+# luci/lib/strings.py = Python script text executable 
+luci/lib/strings.py: copy
+
+# luci/lib/helpers.py = Python script text executable 
+luci/lib/helpers.py: copy
+
+# luci/lib/ricci_helpers.py = Python script text executable 
+luci/lib/ricci_helpers.py: copy
+
+# luci/lib/db_helpers.py = Python script text executable 
+luci/lib/db_helpers.py: copy
+
+# luci/lib/ricci_communicator.py = Python script text executable 
+luci/lib/ricci_communicator.py: copy
+
+# luci/lib/flash2.py = Python script text executable 
+luci/lib/flash2.py: copy
+
+# luci/templates/header.html = HTML document text 
+luci/templates/header.html: copy
+
+# luci/templates/__init__.py = Python script text executable 
+luci/templates/__init__.py: copy
+
+# luci/templates/about.html = HTML document text 
+luci/templates/about.html: copy
+
+# luci/templates/error.html = HTML document text 
+luci/templates/error.html: copy
+
+# luci/templates/add_node.html = ASCII English text 
+luci/templates/add_node.html: copy
+
+# luci/templates/master.html = HTML document text 
+luci/templates/master.html: copy
+
+# luci/templates/failover.html = HTML document text 
+luci/templates/failover.html: copy
+
+# luci/templates/fence_devices.html = HTML document text 
+luci/templates/fence_devices.html: copy
+
+# luci/templates/service.html = HTML document text 
+luci/templates/service.html: copy
+
+# luci/templates/login.html = HTML document text 
+luci/templates/login.html: copy
+
+# luci/templates/create_cluster.html = ASCII English text 
+luci/templates/create_cluster.html: copy
+
+# luci/templates/fence_instances.html = HTML document text 
+luci/templates/fence_instances.html: copy
+
+# luci/templates/configure.html = HTML document text 
+luci/templates/configure.html: copy
+
+# luci/templates/mainmenu.html = ASCII Java program text 
+luci/templates/mainmenu.html: copy
+
+# luci/templates/cluster_list.html = HTML document text 
+luci/templates/cluster_list.html: copy
+
+# luci/templates/prefs.html = HTML document text 
+luci/templates/prefs.html: copy
+
+# luci/templates/resource.html = HTML document text 
+luci/templates/resource.html: copy
+
+# luci/templates/node.html = HTML document text 
+luci/templates/node.html: copy
+
+# luci/templates/fence.html = HTML document text 
+luci/templates/fence.html: copy
+
+# luci/templates/footer.html = HTML document text 
+luci/templates/footer.html: copy
+
+# luci/templates/submenu.html = HTML document text 
+luci/templates/submenu.html: copy
+
+# luci/templates/homebase.html = HTML document text 
+luci/templates/homebase.html: copy
+
+# luci/templates/add_existing.html = ASCII English text 
+luci/templates/add_existing.html: copy
+
+# luci/templates/resource_list.html = HTML document text 
+luci/templates/resource_list.html: copy
+
+# luci/templates/title.html = HTML document text 
+luci/templates/title.html: copy
+
+# luci/templates/admin.html = HTML document text 
+luci/templates/admin.html: copy
+
+# luci/initwrappers.py = Python script text executable 
+luci/initwrappers.py: copy
+
+# luci/model/__init__.py = Python script text executable 
+luci/model/__init__.py: copy
+
+# luci/model/auth.py = Python script text executable 
+luci/model/auth.py: copy
+
+# luci/model/objects.py = Python script text executable 
+luci/model/objects.py: copy
+
+# luci/tests/__init__.py = Python script text executable 
+luci/tests/__init__.py: copy
+
+# luci/tests/functional/__init__.py = Python script text executable 
+luci/tests/functional/__init__.py: copy
+
+# luci/tests/functional/test_root.py = Python script text executable 
+luci/tests/functional/test_root.py: copy
+
+# luci/tests/functional/test_authentication.py = Python script text executable 
+luci/tests/functional/test_authentication.py: copy
+
+# luci/tests/models/__init__.py = Python script text executable 
+luci/tests/models/__init__.py: copy
+
+# luci/tests/models/test_auth.py = Python script text executable 
+luci/tests/models/test_auth.py: copy
+
+# luci/public/images/exclamation.png = PNG image data, 11 x 11, 8-bit/color RGBA, non-interlaced 
+luci/public/images/exclamation.png: copy
+
+# luci/public/images/stop-blue.png = PNG image data, 19 x 18, 8-bit/color RGBA, non-interlaced 
+luci/public/images/stop-blue.png: copy
+
+# luci/public/images/cluster-problem.png = PNG image data, 14 x 14, 8-bit/color RGBA, non-interlaced 
+luci/public/images/cluster-problem.png: copy
+
+# luci/public/images/fence-blue.png = PNG image data, 19 x 18, 8-bit/color RGBA, non-interlaced 
+luci/public/images/fence-blue.png: copy
+
+# luci/public/images/add-white.png = PNG image data, 15 x 15, 8-bit/color RGBA, non-interlaced 
+luci/public/images/add-white.png: copy
+
+# luci/public/images/create-blue.png = PNG image data, 19 x 18, 8-bit/color RGBA, non-interlaced 
+luci/public/images/create-blue.png: copy
+
+# luci/public/images/join-blue.png = PNG image data, 19 x 18, 8-bit/color RGBA, non-interlaced 
+luci/public/images/join-blue.png: copy
+
+# luci/public/images/content_bg.png = PNG image data, 960 x 10, 8-bit/color RGB, non-interlaced 
+luci/public/images/content_bg.png: copy
+
+# luci/public/images/100wait.gif = GIF image data, version 89a, 100 x 100 
+luci/public/images/100wait.gif: copy
+
+# luci/public/images/breadcrumb_bg.png = PNG image data, 24 x 93, 8-bit/color RGB, non-interlaced 
+luci/public/images/breadcrumb_bg.png: copy
+
+# luci/public/images/logo.png = PNG image data, 250 x 60, 8-bit/color RGBA, non-interlaced 
+luci/public/images/logo.png: copy
+
+# luci/public/images/reboot-grey.png = PNG image data, 16 x 20, 8-bit/color RGBA, non-interlaced 
+luci/public/images/reboot-grey.png: copy
+
+# luci/public/images/create-white.png = PNG image data, 15 x 15, 8-bit/color RGBA, non-interlaced 
+luci/public/images/create-white.png: copy
+
+# luci/public/images/reboot-white.png = PNG image data, 16 x 20, 8-bit/color RGBA, non-interlaced 
+luci/public/images/reboot-white.png: copy
+
+# luci/public/images/info.png = PNG image data, 42 x 42, 8-bit/color RGBA, non-interlaced 
+luci/public/images/info.png: copy
+
+# luci/public/images/delete-blue.png = PNG image data, 19 x 18, 8-bit/color RGBA, non-interlaced 
+luci/public/images/delete-blue.png: copy
+
+# luci/public/images/warning.png = PNG image data, 43 x 43, 8-bit/color RGBA, non-interlaced 
+luci/public/images/warning.png: copy
+
+# luci/public/images/fence-white.png = PNG image data, 19 x 19, 8-bit/color RGBA, non-interlaced 
+luci/public/images/fence-white.png: copy
+
+# luci/public/images/ok.png = PNG image data, 45 x 32, 8-bit/color RGBA, non-interlaced 
+luci/public/images/ok.png: copy
+
+# luci/public/images/reboot-blue.png = PNG image data, 19 x 18, 8-bit/color RGBA, non-interlaced 
+luci/public/images/reboot-blue.png: copy
+
+# luci/public/images/cluster-ok.png = PNG image data, 14 x 14, 8-bit/color RGBA, non-interlaced 
+luci/public/images/cluster-ok.png: copy
+
+# luci/public/images/fence-grey.png = PNG image data, 19 x 19, 8-bit/color RGBA, non-interlaced 
+luci/public/images/fence-grey.png: copy
+
+# luci/public/images/check-11.png = PNG image data, 11 x 11, 8-bit/color RGBA, non-interlaced 
+luci/public/images/check-11.png: copy
+
+# luci/public/images/create-grey.png = PNG image data, 15 x 15, 8-bit/color RGBA, non-interlaced 
+luci/public/images/create-grey.png: copy
+
+# luci/public/images/toolbar_bg.png = PNG image data, 3 x 32, 8-bit/color RGB, non-interlaced 
+luci/public/images/toolbar_bg.png: copy
+
+# luci/public/images/delete-white.png = PNG image data, 15 x 15, 8-bit/color RGBA, non-interlaced 
+luci/public/images/delete-white.png: copy
+
+# luci/public/images/add-blue.png = PNG image data, 19 x 18, 8-bit/color RGBA, non-interlaced 
+luci/public/images/add-blue.png: copy
+
+# luci/public/images/question.png = PNG image data, 11 x 11, 8-bit/color RGBA, non-interlaced 
+luci/public/images/question.png: copy
+
+# luci/public/images/tab_separator.png = PNG image data, 2 x 36, 8-bit/color RGBA, non-interlaced 
+luci/public/images/tab_separator.png: copy
+
+# luci/public/images/error.png = PNG image data, 42 x 42, 8-bit/color RGBA, non-interlaced 
+luci/public/images/error.png: copy
+
+# luci/public/images/breadcrumb_separator_0.png = PNG image data, 24 x 93, 8-bit/color RGB, non-interlaced 
+luci/public/images/breadcrumb_separator_0.png: copy
+
+# luci/public/images/leave-white.png = PNG image data, 30 x 18, 8-bit/color RGBA, non-interlaced 
+luci/public/images/leave-white.png: copy
+
+# luci/public/images/leave-grey.png = PNG image data, 30 x 18, 8-bit/color RGBA, non-interlaced 
+luci/public/images/leave-grey.png: copy
+
+# luci/public/images/tab_bg.png = PNG image data, 6 x 36, 8-bit/color RGB, non-interlaced 
+luci/public/images/tab_bg.png: copy
+
+# luci/public/images/delete-grey.png = PNG image data, 15 x 15, 8-bit/color RGBA, non-interlaced 
+luci/public/images/delete-grey.png: copy
+
+# luci/public/images/page_bg.png = PNG image data, 23 x 601, 8-bit/color RGB, non-interlaced 
+luci/public/images/page_bg.png: copy
+
+# luci/public/images/leave-blue.png = PNG image data, 19 x 18, 8-bit/color RGBA, non-interlaced 
+luci/public/images/leave-blue.png: copy
+
+# luci/public/images/login_bg.png = PNG image data, 302 x 211, 8-bit/color RGBA, non-interlaced 
+luci/public/images/login_bg.png: copy
+
+# luci/public/images/start-blue.png = PNG image data, 19 x 18, 8-bit/color RGBA, non-interlaced 
+luci/public/images/start-blue.png: copy
+
+# luci/public/images/add-grey.png = PNG image data, 15 x 15, 8-bit/color RGBA, non-interlaced 
+luci/public/images/add-grey.png: copy
+
+# luci/public/favicon.ico = GIF image data, version 89a, 16 x 16 
+luci/public/favicon.ico: copy
+
+# luci/public/css/node.css = ASCII C program text 
+luci/public/css/node.css: copy
+
+# luci/public/css/jquery-ui-1.8.11.custom.css = ASCII C program text, with very long lines 
+luci/public/css/jquery-ui-1.8.11.custom.css: copy
+
+# luci/public/css/cluster.css = ASCII C program text 
+luci/public/css/cluster.css: copy
+
+# luci/public/css/images/ui-bg_glass_75_e6e6e6_1x400.png = PNG image data, 1 x 400, 8-bit/color RGBA, non-interlaced 
+luci/public/css/images/ui-bg_glass_75_e6e6e6_1x400.png: copy
+
+# luci/public/css/images/ui-bg_glass_55_fbf9ee_1x400.png = PNG image data, 1 x 400, 8-bit/color RGBA, non-interlaced 
+luci/public/css/images/ui-bg_glass_55_fbf9ee_1x400.png: copy
+
+# luci/public/css/images/ui-icons_cd0a0a_256x240.png = PNG image data, 256 x 240, 8-bit colormap, non-interlaced 
+luci/public/css/images/ui-icons_cd0a0a_256x240.png: copy
+
+# luci/public/css/images/ui-bg_glass_65_ffffff_1x400.png = PNG image data, 1 x 400, 8-bit/color RGBA, non-interlaced 
+luci/public/css/images/ui-bg_glass_65_ffffff_1x400.png: copy
+
+# luci/public/css/images/ui-bg_highlight-soft_75_cccccc_1x100.png = PNG image data, 1 x 100, 8-bit/color RGBA, non-interlaced 
+luci/public/css/images/ui-bg_highlight-soft_75_cccccc_1x100.png: copy
+
+# luci/public/css/images/ui-icons_2e83ff_256x240.png = PNG image data, 256 x 240, 8-bit colormap, non-interlaced 
+luci/public/css/images/ui-icons_2e83ff_256x240.png: copy
+
+# luci/public/css/images/ui-icons_454545_256x240.png = PNG image data, 256 x 240, 8-bit colormap, non-interlaced 
+luci/public/css/images/ui-icons_454545_256x240.png: copy
+
+# luci/public/css/images/ui-bg_flat_0_aaaaaa_40x100.png = PNG image data, 40 x 100, 8-bit/color RGBA, non-interlaced 
+luci/public/css/images/ui-bg_flat_0_aaaaaa_40x100.png: copy
+
+# luci/public/css/images/ui-icons_888888_256x240.png = PNG image data, 256 x 240, 8-bit colormap, non-interlaced 
+luci/public/css/images/ui-icons_888888_256x240.png: copy
+
+# luci/public/css/images/ui-bg_glass_95_fef1ec_1x400.png = PNG image data, 1 x 400, 8-bit/color RGBA, non-interlaced 
+luci/public/css/images/ui-bg_glass_95_fef1ec_1x400.png: copy
+
+# luci/public/css/images/ui-bg_flat_75_ffffff_40x100.png = PNG image data, 40 x 100, 8-bit/color RGBA, non-interlaced 
+luci/public/css/images/ui-bg_flat_75_ffffff_40x100.png: copy
+
+# luci/public/css/images/ui-bg_glass_75_dadada_1x400.png = PNG image data, 1 x 400, 8-bit/color RGBA, non-interlaced 
+luci/public/css/images/ui-bg_glass_75_dadada_1x400.png: copy
+
+# luci/public/css/images/ui-icons_222222_256x240.png = PNG image data, 256 x 240, 8-bit colormap, non-interlaced 
+luci/public/css/images/ui-icons_222222_256x240.png: copy
+
+# luci/public/css/global_res.css = ASCII C program text 
+luci/public/css/global_res.css: copy
+
+# luci/public/css/service.css = ASCII C program text 
+luci/public/css/service.css: copy
+
+# luci/public/css/jquery.jnotify.min.css = ASCII text, with very long lines, with no line terminators 
+luci/public/css/jquery.jnotify.min.css: copy
+
+# luci/public/css/style.css = ASCII C program text 
+luci/public/css/style.css: copy
+
+# luci/public/css/shared.css = ASCII C program text 
+luci/public/css/shared.css: copy
+
+# luci/public/css/jquery.jnotify-alt.css = ASCII C program text, with CRLF line terminators 
+luci/public/css/jquery.jnotify-alt.css: copy
+
+# luci/public/css/create.css = ASCII text 
+luci/public/css/create.css: copy
+
+# luci/public/css/failover.css = ASCII C program text 
+luci/public/css/failover.css: copy
+
+# luci/public/css/fence.css = ASCII C program text 
+luci/public/css/fence.css: copy
+
+# luci/public/js/jquery-ui-1.8.11.custom.min.js = ASCII English text, with very long lines 
+luci/public/js/jquery-ui-1.8.11.custom.min.js: copy
+
+# luci/public/js/jquery.jnotify.min.js = UTF-8 Unicode C program text, with very long lines 
+luci/public/js/jquery.jnotify.min.js: copy
+
+# luci/public/js/service.js = ASCII text, with very long lines 
+luci/public/js/service.js: copy
+
+# luci/public/js/qdisk.js = ASCII text 
+luci/public/js/qdisk.js: copy
+
+# luci/public/js/fence.js = ASCII text 
+luci/public/js/fence.js: copy
+
+# luci/public/js/failover.js = ASCII C program text 
+luci/public/js/failover.js: copy
+
+# luci/public/js/busy.js = ASCII C++ program text 
+luci/public/js/busy.js: copy
+
+# luci/public/js/node.js = ASCII English text 
+luci/public/js/node.js: copy
+
+# luci/public/js/user_prefs.js = ASCII text 
+luci/public/js/user_prefs.js: copy
+
+# luci/public/js/failover_form.js = ASCII text 
+luci/public/js/failover_form.js: copy
+
+# luci/public/js/resource.js = ASCII text 
+luci/public/js/resource.js: copy
+
+# luci/public/js/jquery-1.5.2.min.js = UTF-8 Unicode English text, with very long lines 
+luci/public/js/jquery-1.5.2.min.js: copy
+
+# luci/public/js/jquery.cookie.js = ASCII English text 
+luci/public/js/jquery.cookie.js: copy
+
+# luci/public/js/cluster_list.js = ASCII text 
+luci/public/js/cluster_list.js: copy
+
+# luci/public/js/encoder.js = ASCII C program text, with very long lines, with CRLF line terminators 
+luci/public/js/encoder.js: copy
+
+# luci/public/js/jquery.blockUI.min.js = UTF-8 Unicode (with BOM) English text 
+luci/public/js/jquery.blockUI.min.js: copy
+
+# luci/public/js/shared.js = ASCII C program text 
+luci/public/js/shared.js: copy
+
+# luci/public/js/add_nodes.js = ASCII text 
+luci/public/js/add_nodes.js: copy
+
+# luci/public/js/add_existing.js = ASCII English text 
+luci/public/js/add_existing.js: copy
+
+# luci/public/js/admin.js = ASCII text 
+luci/public/js/admin.js: copy
+
+# luci/public/js/homebase.js = ASCII text 
+luci/public/js/homebase.js: copy
+
+# luci/config/__init__.py = ASCII text 
+luci/config/__init__.py: copy
+
+# luci/config/middleware.py = Python script text executable 
+luci/config/middleware.py: copy
+
+# luci/config/environment.py = Python script text executable 
+luci/config/environment.py: copy
+
+# luci/config/app_cfg.py = Python script text executable 
+luci/config/app_cfg.py: copy
+
+# luci/validation/__init__.py = empty 
+luci/validation/__init__.py: copy
+
+# luci/validation/validate_fence.py = Python script text executable 
+luci/validation/validate_fence.py: copy
+
+# luci/validation/validate_create_cluster_form.py = Python script text executable 
+luci/validation/validate_create_cluster_form.py: copy
+
+# luci/validation/validate_resource.py = Python script text executable 
+luci/validation/validate_resource.py: copy
+
+# luci/validation/validate_cluster_prop.py = Python script text executable 
+luci/validation/validate_cluster_prop.py: copy
+
+# dev.sh = Bourne-Again shell script text executable 
+dev.sh: copy
+
+# COPYING = ASCII English text 
+COPYING: copy
+
+# setup.py = Python script text executable 
+setup.py: copy
+
+# MANIFEST.in = ASCII text 
+MANIFEST.in: copy

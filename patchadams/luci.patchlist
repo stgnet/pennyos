@@ -1,144 +1,211 @@
-# Patchlist created Sat Mar  1 18:38:07 CST 2014
-# bz881796-trailing_commas_that_cause_problems_for_some_old.patch = cannot open `/builddir/build/SOURCES/ORIG' (No such file or directory)
+# Patchlist created Sun Mar  2 23:42:36 CST 2014
+
+# bz881796-trailing_commas_that_cause_problems_for_some_old.patch = unified diff output text 
 bz881796-trailing_commas_that_cause_problems_for_some_old.patch: copy
-# bz877392-fix_value_for_lvm_self_fence.patch = cannot open `/builddir/build/SOURCES/ORIG' (No such file or directory)
+
+# bz877392-fix_value_for_lvm_self_fence.patch = unified diff output text 
 bz877392-fix_value_for_lvm_self_fence.patch: copy
-# bz865533-fix_label_on_fence_hpblade_form.patch = cannot open `/builddir/build/SOURCES/ORIG' (No such file or directory)
+
+# bz865533-fix_label_on_fence_hpblade_form.patch = unified diff output text 
 bz865533-fix_label_on_fence_hpblade_form.patch: copy
-# bz883008-add_support_for_fence_scsi_delay_attribute.patch = cannot open `/builddir/build/SOURCES/ORIG' (No such file or directory)
+
+# bz883008-add_support_for_fence_scsi_delay_attribute.patch = unified diff output text 
 bz883008-add_support_for_fence_scsi_delay_attribute.patch: copy
-# bz886678.patch = cannot open `/builddir/build/SOURCES/ORIG' (No such file or directory)
+
+# bz886678.patch = unified diff output text 
 bz886678.patch: copy
-# bz877098.patch = cannot open `/builddir/build/SOURCES/ORIG' (No such file or directory)
+
+# bz877098.patch = unified diff output text 
 bz877098.patch: copy
-# bz786584-2.patch = cannot open `/builddir/build/SOURCES/ORIG' (No such file or directory)
+
+# bz786584-2.patch = unified diff output text 
 bz786584-2.patch: copy
-# bz886576-remove_useless_remove_this_instance_button.patch = cannot open `/builddir/build/SOURCES/ORIG' (No such file or directory)
+
+# bz886576-remove_useless_remove_this_instance_button.patch = unified diff output text 
 bz886576-remove_useless_remove_this_instance_button.patch: copy
-# bz1001835.patch = cannot open `/builddir/build/SOURCES/ORIG' (No such file or directory)
+
+# bz1001835.patch = unified diff output text 
 bz1001835.patch: copy
-# bz820402.patch = cannot open `/builddir/build/SOURCES/ORIG' (No such file or directory)
+
+# bz820402.patch = unified diff output text 
 bz820402.patch: copy
-# bz878149-fix_uncaught_exception.patch = cannot open `/builddir/build/SOURCES/ORIG' (No such file or directory)
+
+# bz878149-fix_uncaught_exception.patch = unified diff output text 
 bz878149-fix_uncaught_exception.patch: copy
-# bz740835.patch = cannot open `/builddir/build/SOURCES/ORIG' (No such file or directory)
+
+# bz740835.patch = unified diff output text 
 bz740835.patch: copy
-# bz815666-fix_matching_of_unfence_blocks.patch = cannot open `/builddir/build/SOURCES/ORIG' (No such file or directory)
+
+# bz815666-fix_matching_of_unfence_blocks.patch = unified diff output text 
 bz815666-fix_matching_of_unfence_blocks.patch: copy
-# bz807344-3-fix-nonexistent-entities-handling.patch = cannot open `/builddir/build/SOURCES/ORIG' (No such file or directory)
+
+# bz807344-3-fix-nonexistent-entities-handling.patch = unified diff output text 
 bz807344-3-fix-nonexistent-entities-handling.patch: copy
-# bz822502-add_support_for_nfsrestart.patch = cannot open `/builddir/build/SOURCES/ORIG' (No such file or directory)
+
+# bz822502-add_support_for_nfsrestart.patch = unified diff output text 
 bz822502-add_support_for_nfsrestart.patch: copy
-# bz773491-make_pop_up_messages_act_like_static_status.patch = cannot open `/builddir/build/SOURCES/ORIG' (No such file or directory)
+
+# bz773491-make_pop_up_messages_act_like_static_status.patch = unified diff output text 
 bz773491-make_pop_up_messages_act_like_static_status.patch: copy
-# bz878960-don_t_let_anonymous_users_access_the_preferences_page.patch = cannot open `/builddir/build/SOURCES/ORIG' (No such file or directory)
+
+# bz878960-don_t_let_anonymous_users_access_the_preferences_page.patch = unified diff output text 
 bz878960-don_t_let_anonymous_users_access_the_preferences_page.patch: copy
-# bz878149-2-fix_for_tracebacks_when_no_nodes_can_be_contacted.patch = cannot open `/builddir/build/SOURCES/ORIG' (No such file or directory)
+
+# bz878149-2-fix_for_tracebacks_when_no_nodes_can_be_contacted.patch = unified diff output text 
 bz878149-2-fix_for_tracebacks_when_no_nodes_can_be_contacted.patch: copy
-# bz690621-2.patch = cannot open `/builddir/build/SOURCES/ORIG' (No such file or directory)
+
+# bz690621-2.patch = unified diff output text 
 bz690621-2.patch: copy
-# bz690621.patch = cannot open `/builddir/build/SOURCES/ORIG' (No such file or directory)
+
+# bz690621.patch = unified diff output text 
 bz690621.patch: copy
-# bz983693-add_support_for_tns_admin_in_oracle_agents.patch = cannot open `/builddir/build/SOURCES/ORIG' (No such file or directory)
+
+# bz983693-add_support_for_tns_admin_in_oracle_agents.patch = unified diff output text 
 bz983693-add_support_for_tns_admin_in_oracle_agents.patch: copy
-# bz877098-2.patch = cannot open `/builddir/build/SOURCES/ORIG' (No such file or directory)
+
+# bz877098-2.patch = unified diff output text 
 bz877098-2.patch: copy
-# bz786584.patch = cannot open `/builddir/build/SOURCES/ORIG' (No such file or directory)
+
+# bz786584.patch = unified diff output text 
 bz786584.patch: copy
-# bz1001836.patch = cannot open `/builddir/build/SOURCES/ORIG' (No such file or directory)
+
+# bz1001836.patch = unified diff output text 
 bz1001836.patch: copy
-# bz796731.patch = cannot open `/builddir/build/SOURCES/ORIG' (No such file or directory)
+
+# bz796731.patch = unified diff output text 
 bz796731.patch: copy
-# bz826951.patch = cannot open `/builddir/build/SOURCES/ORIG' (No such file or directory)
+
+# bz826951.patch = unified diff output text 
 bz826951.patch: copy
-# luci-centos.patch = cannot open `/builddir/build/SOURCES/ORIG' (No such file or directory)
-#+    elif 'CentOS release 6.' in uname_str:
-#+    elif 'CentOS release 5.' in uname_str:
-#+    elif 'CentOS release 4.' in uname_str:
+
+# luci-centos.patch = unified diff output text 
+# +    elif 'CentOS release 6.' in uname_str:
+# +    elif 'CentOS release 5.' in uname_str:
+# +    elif 'CentOS release 4.' in uname_str:
 luci-centos.patch: patch
-# bz877188-2-fix_handling_of_subtree_options.patch = cannot open `/builddir/build/SOURCES/ORIG' (No such file or directory)
+
+# bz877188-2-fix_handling_of_subtree_options.patch = unified diff output text 
 bz877188-2-fix_handling_of_subtree_options.patch: copy
-# bz800239.patch = cannot open `/builddir/build/SOURCES/ORIG' (No such file or directory)
+
+# bz800239.patch = unified diff output text 
 bz800239.patch: copy
-# bz801491.patch = cannot open `/builddir/build/SOURCES/ORIG' (No such file or directory)
+
+# bz801491.patch = unified diff output text 
 bz801491.patch: copy
-# bz740867-add_support_for_the_ibm_ipdu_fence_device.patch = cannot open `/builddir/build/SOURCES/ORIG' (No such file or directory)
+
+# bz740867-add_support_for_the_ibm_ipdu_fence_device.patch = unified diff output text 
 bz740867-add_support_for_the_ibm_ipdu_fence_device.patch: copy
-# bz807344-2-fixes_for_resource_service_failover_naming.patch = cannot open `/builddir/build/SOURCES/ORIG' (No such file or directory)
+
+# bz807344-2-fixes_for_resource_service_failover_naming.patch = unified diff output text 
 bz807344-2-fixes_for_resource_service_failover_naming.patch: copy
-# bz865300-add_support_for_fence_eaton_snmp.patch = cannot open `/builddir/build/SOURCES/ORIG' (No such file or directory)
+
+# bz865300-add_support_for_fence_eaton_snmp.patch = unified diff output text 
 bz865300-add_support_for_fence_eaton_snmp.patch: copy
-# bz978479-fix-cluster_version-mismatch-upon-adding-2-nodes.patch = cannot open `/builddir/build/SOURCES/ORIG' (No such file or directory)
+
+# bz978479-fix-cluster_version-mismatch-upon-adding-2-nodes.patch = UTF-8 Unicode Pascal program text 
 bz978479-fix-cluster_version-mismatch-upon-adding-2-nodes.patch: copy
-# enforce-valid-code.patch = cannot open `/builddir/build/SOURCES/ORIG' (No such file or directory)
+
+# enforce-valid-code.patch = unified diff output text 
 enforce-valid-code.patch: copy
-# bz758821.patch = cannot open `/builddir/build/SOURCES/ORIG' (No such file or directory)
+
+# bz758821.patch = unified diff output text 
 bz758821.patch: copy
-# bz807344-fix_handling_of_resource_and_services.patch = cannot open `/builddir/build/SOURCES/ORIG' (No such file or directory)
+
+# bz807344-fix_handling_of_resource_and_services.patch = unified diff output text 
 bz807344-fix_handling_of_resource_and_services.patch: copy
-# bz822502-add_missing_js_include.patch = cannot open `/builddir/build/SOURCES/ORIG' (No such file or directory)
+
+# bz822502-add_missing_js_include.patch = unified diff output text 
 bz822502-add_missing_js_include.patch: copy
-# bz773491-make_pop_up_messages_act_like_static_status_messages.patch = cannot open `/builddir/build/SOURCES/ORIG' (No such file or directory)
+
+# bz773491-make_pop_up_messages_act_like_static_status_messages.patch = unified diff output text 
 bz773491-make_pop_up_messages_act_like_static_status_messages.patch: copy
-# bz820402-2.patch = cannot open `/builddir/build/SOURCES/ORIG' (No such file or directory)
+
+# bz820402-2.patch = unified diff output text 
 bz820402-2.patch: copy
-# bz671285.patch = cannot open `/builddir/build/SOURCES/ORIG' (No such file or directory)
+
+# bz671285.patch = unified diff output text 
 bz671285.patch: copy
-# bz815666-fix_unfence_display_on_node_page.patch = cannot open `/builddir/build/SOURCES/ORIG' (No such file or directory)
+
+# bz815666-fix_unfence_display_on_node_page.patch = unified diff output text 
 bz815666-fix_unfence_display_on_node_page.patch: copy
-# bz803398.patch = cannot open `/builddir/build/SOURCES/ORIG' (No such file or directory)
+
+# bz803398.patch = unified diff output text 
 bz803398.patch: copy
-# bz877188-error_out_if_max_restarts_is_set_but_not.patch = cannot open `/builddir/build/SOURCES/ORIG' (No such file or directory)
+
+# bz877188-error_out_if_max_restarts_is_set_but_not.patch = unified diff output text 
 bz877188-error_out_if_max_restarts_is_set_but_not.patch: copy
-# favicon.ico = cannot open `/builddir/build/SOURCES/ORIG' (No such file or directory)
+
+# favicon.ico = MS Windows icon resource - 1 icon 
 favicon.ico: copy
-# bz853151.patch = cannot open `/builddir/build/SOURCES/ORIG' (No such file or directory)
+
+# bz853151.patch = unified diff output text 
 bz853151.patch: copy
-# bz856253-fix_double_click_on_add_existing_dialog.patch = cannot open `/builddir/build/SOURCES/ORIG' (No such file or directory)
+
+# bz856253-fix_double_click_on_add_existing_dialog.patch = unified diff output text 
 bz856253-fix_double_click_on_add_existing_dialog.patch: copy
-# bz1005385-2.patch = cannot open `/builddir/build/SOURCES/ORIG' (No such file or directory)
+
+# bz1005385-2.patch = unified diff output text 
 bz1005385-2.patch: copy
-# bz815666-add_back_missing_unfence_patch.patch = cannot open `/builddir/build/SOURCES/ORIG' (No such file or directory)
+
+# bz815666-add_back_missing_unfence_patch.patch = unified diff output text 
 bz815666-add_back_missing_unfence_patch.patch: copy
-# bz880363-fix_garbled_error_messages.patch = cannot open `/builddir/build/SOURCES/ORIG' (No such file or directory)
+
+# bz880363-fix_garbled_error_messages.patch = unified diff output text 
 bz880363-fix_garbled_error_messages.patch: copy
-# bz882995-update_unfence_when_renaming_fence_devices.patch = cannot open `/builddir/build/SOURCES/ORIG' (No such file or directory)
+
+# bz882995-update_unfence_when_renaming_fence_devices.patch = unified diff output text 
 bz882995-update_unfence_when_renaming_fence_devices.patch: copy
-# bz896244-2-reduce-space-waste-by-loopifying-invariants.patch = cannot open `/builddir/build/SOURCES/ORIG' (No such file or directory)
+
+# bz896244-2-reduce-space-waste-by-loopifying-invariants.patch = unified diff output text 
 bz896244-2-reduce-space-waste-by-loopifying-invariants.patch: copy
-# bz896244-1-default-syslog-facility-is-local4.patch = cannot open `/builddir/build/SOURCES/ORIG' (No such file or directory)
+
+# bz896244-1-default-syslog-facility-is-local4.patch = unified diff output text 
 bz896244-1-default-syslog-facility-is-local4.patch: copy
-# bz917814-ask_for_confirmation_when_removing_a_cluster.patch = cannot open `/builddir/build/SOURCES/ORIG' (No such file or directory)
+
+# bz917814-ask_for_confirmation_when_removing_a_cluster.patch = unified diff output text 
 bz917814-ask_for_confirmation_when_removing_a_cluster.patch: copy
-# bz983693-update_oracle_agent_configuration.patch = cannot open `/builddir/build/SOURCES/ORIG' (No such file or directory)
+
+# bz983693-update_oracle_agent_configuration.patch = unified diff output text 
 bz983693-update_oracle_agent_configuration.patch: copy
-# bz822502-fix_the_interaction_of_the_force_unmount_and.patch = cannot open `/builddir/build/SOURCES/ORIG' (No such file or directory)
+
+# bz822502-fix_the_interaction_of_the_force_unmount_and.patch = unified diff output text 
 bz822502-fix_the_interaction_of_the_force_unmount_and.patch: copy
-# bz809892-add_the_ability_to_remove_users.patch = cannot open `/builddir/build/SOURCES/ORIG' (No such file or directory)
+
+# bz809892-add_the_ability_to_remove_users.patch = unified diff output text 
 bz809892-add_the_ability_to_remove_users.patch: copy
-# bz883008-add_support_for_fence_device_attributes.patch = cannot open `/builddir/build/SOURCES/ORIG' (No such file or directory)
+
+# bz883008-add_support_for_fence_device_attributes.patch = unified diff output text 
 bz883008-add_support_for_fence_device_attributes.patch: copy
-# bz865533-add_support_for_fence_hpblade.patch = cannot open `/builddir/build/SOURCES/ORIG' (No such file or directory)
+
+# bz865533-add_support_for_fence_hpblade.patch = unified diff output text 
 bz865533-add_support_for_fence_hpblade.patch: copy
-# bz881955-audit_of_resource_agent_checkbox_input.patch = cannot open `/builddir/build/SOURCES/ORIG' (No such file or directory)
+
+# bz881955-audit_of_resource_agent_checkbox_input.patch = unified diff output text 
 bz881955-audit_of_resource_agent_checkbox_input.patch: copy
-# bz1005385-1.patch = cannot open `/builddir/build/SOURCES/ORIG' (No such file or directory)
+
+# bz1005385-1.patch = unified diff output text 
 bz1005385-1.patch: copy
-# bz886517-enable_the_ricci_and_modclusterd_services_when_creating_a.patch = cannot open `/builddir/build/SOURCES/ORIG' (No such file or directory)
+
+# bz886517-enable_the_ricci_and_modclusterd_services_when_creating_a.patch = unified diff output text 
 bz886517-enable_the_ricci_and_modclusterd_services_when_creating_a.patch: copy
-# bz749668-2.patch = cannot open `/builddir/build/SOURCES/ORIG' (No such file or directory)
+
+# bz749668-2.patch = unified diff output text 
 bz749668-2.patch: copy
-# luci-0.26.0.tar.bz2 = cannot open `/builddir/build/SOURCES/ORIG' (No such file or directory)
-luci-0.26.0.tar.bz2: copy
-# bz883008-do_not_propagate_unfencing_to_conf.patch = cannot open `/builddir/build/SOURCES/ORIG' (No such file or directory)
+
+# bz883008-do_not_propagate_unfencing_to_conf.patch = unified diff output text 
 bz883008-do_not_propagate_unfencing_to_conf.patch: copy
-# bz772314.patch = cannot open `/builddir/build/SOURCES/ORIG' (No such file or directory)
+
+# bz772314.patch = unified diff output text 
 bz772314.patch: copy
-# bz917747-add_support_for_missing_fence_devices.patch = cannot open `/builddir/build/SOURCES/ORIG' (No such file or directory)
+
+# bz917747-add_support_for_missing_fence_devices.patch = unified diff output text 
 bz917747-add_support_for_missing_fence_devices.patch: copy
-# bz821928-add_support_for_fence_ipmilan_privlvl.patch = cannot open `/builddir/build/SOURCES/ORIG' (No such file or directory)
+
+# bz821928-add_support_for_fence_ipmilan_privlvl.patch = unified diff output text 
 bz821928-add_support_for_fence_ipmilan_privlvl.patch: copy
-# bz860042-allow_global_resources_to_be_referenced_multiple_times.patch = cannot open `/builddir/build/SOURCES/ORIG' (No such file or directory)
+
+# bz860042-allow_global_resources_to_be_referenced_multiple_times.patch = unified diff output text 
 bz860042-allow_global_resources_to_be_referenced_multiple_times.patch: copy
-# bz758821-2.patch = cannot open `/builddir/build/SOURCES/ORIG' (No such file or directory)
+
+# bz758821-2.patch = unified diff output text 
 bz758821-2.patch: copy

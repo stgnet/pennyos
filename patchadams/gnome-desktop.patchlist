@@ -1,27 +1,37 @@
-# Patchlist created Sat Mar  1 18:40:48 CST 2014
-# fix-detect-displays.patch = cannot open `/builddir/build/SOURCES/ORIG' (No such file or directory)
+# Patchlist created Mon Mar  3 22:27:10 CST 2014
+
+# fix-detect-displays.patch = unified diff output text
 fix-detect-displays.patch: copy
-# gnome-desktop-2.28.2.tar.bz2 = cannot open `/builddir/build/SOURCES/ORIG' (No such file or directory)
-gnome-desktop-2.28.2.tar.bz2: copy
-# gnome-desktop-2.29.4-gnomebg-refcounting.patch = cannot open `/builddir/build/SOURCES/ORIG' (No such file or directory)
+
+# gnome-desktop-2.29.4-gnomebg-refcounting.patch = unified diff output text
 gnome-desktop-2.29.4-gnomebg-refcounting.patch: copy
-# concatenate-edid-descriptors.patch = cannot open `/builddir/build/SOURCES/ORIG' (No such file or directory)
+
+# concatenate-edid-descriptors.patch = unified diff output text
 concatenate-edid-descriptors.patch: copy
-# ignore-xrandr-badmatch.patch = cannot open `/builddir/build/SOURCES/ORIG' (No such file or directory)
+
+# ignore-xrandr-badmatch.patch = unified diff output text
 ignore-xrandr-badmatch.patch: copy
-# slideshow.patch = cannot open `/builddir/build/SOURCES/ORIG' (No such file or directory)
+
+# slideshow.patch = unified diff output text
 slideshow.patch: copy
-# width-for-height.patch = cannot open `/builddir/build/SOURCES/ORIG' (No such file or directory)
+
+# width-for-height.patch = unified diff output text
 width-for-height.patch: copy
-# randr-gamma.patch = cannot open `/builddir/build/SOURCES/ORIG' (No such file or directory)
+
+# randr-gamma.patch = unified diff output text
 randr-gamma.patch: copy
-# fix-hotkey.patch = cannot open `/builddir/build/SOURCES/ORIG' (No such file or directory)
+
+# fix-hotkey.patch = unified diff output text
 fix-hotkey.patch: copy
-# gnome-desktop-crash.patch = cannot open `/builddir/build/SOURCES/ORIG' (No such file or directory)
+
+# gnome-desktop-crash.patch = unified diff output text
 gnome-desktop-crash.patch: copy
-# gnome-desktop-translations.patch = cannot open `/builddir/build/SOURCES/ORIG' (No such file or directory)
+
+# gnome-desktop-translations.patch = unified diff output text
 gnome-desktop-translations.patch: copy
-# randr-version.patch = cannot open `/builddir/build/SOURCES/ORIG' (No such file or directory)
+
+# randr-version.patch = unified diff output text
 randr-version.patch: copy
-# per-monitor-background.patch = cannot open `/builddir/build/SOURCES/ORIG' (No such file or directory)
+
+# per-monitor-background.patch = unified diff output text
 per-monitor-background.patch: copy

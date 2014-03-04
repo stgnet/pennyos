@@ -1,43 +1,61 @@
-# Patchlist created Sat Mar  1 18:38:03 CST 2014
-# serial-console-fixes.patch = cannot open `/builddir/build/SOURCES/ORIG' (No such file or directory)
+# Patchlist created Sun Mar  2 23:32:17 CST 2014
+
+# serial-console-fixes.patch = unified diff output text 
 serial-console-fixes.patch: copy
-# fix-assertion-on-shutdown.patch = cannot open `/builddir/build/SOURCES/ORIG' (No such file or directory)
+
+# fix-assertion-on-shutdown.patch = unified diff output text 
 fix-assertion-on-shutdown.patch: copy
-# use-monospace-font.patch = cannot open `/builddir/build/SOURCES/ORIG' (No such file or directory)
+
+# use-monospace-font.patch = unified diff output text 
 use-monospace-font.patch: copy
-# plymouth-0.8.3-i915.patch = cannot open `/builddir/build/SOURCES/ORIG' (No such file or directory)
+
+# plymouth-0.8.3-i915.patch = unified diff output text 
 plymouth-0.8.3-i915.patch: copy
-# plymouth-0.8.3.tar.bz2 = cannot open `/builddir/build/SOURCES/ORIG' (No such file or directory)
-plymouth-0.8.3.tar.bz2: copy
-# fix-stair-stepping.patch = cannot open `/builddir/build/SOURCES/ORIG' (No such file or directory)
+
+# fix-stair-stepping.patch = unified diff output text 
 fix-stair-stepping.patch: copy
-# build-details-in.patch = cannot open `/builddir/build/SOURCES/ORIG' (No such file or directory)
+
+# build-details-in.patch = unified diff output text 
 build-details-in.patch: copy
-# plymouth-update-initrd = cannot open `/builddir/build/SOURCES/ORIG' (No such file or directory)
+
+# plymouth-update-initrd = Bourne-Again shell script text executable 
 plymouth-update-initrd: copy
-# rings.plymouth = cannot open `/builddir/build/SOURCES/ORIG' (No such file or directory)
+
+# rings.plymouth = ASCII text 
 rings.plymouth: copy
-# boot-duration = cannot open `/builddir/build/SOURCES/ORIG' (No such file or directory)
+
+# boot-duration = ASCII text 
 boot-duration: copy
-# lock.png = cannot open `/builddir/build/SOURCES/ORIG' (No such file or directory)
+
+# lock.png = PNG image data, 41 x 44, 8-bit/color RGBA, non-interlaced 
 lock.png: copy
-# return-text.patch = cannot open `/builddir/build/SOURCES/ORIG' (No such file or directory)
+
+# return-text.patch = unified diff output text 
 return-text.patch: copy
-# fix-exit-crash-with-details.patch = cannot open `/builddir/build/SOURCES/ORIG' (No such file or directory)
+
+# fix-exit-crash-with-details.patch = unified diff output text 
 fix-exit-crash-with-details.patch: copy
-# tty-fix.patch = cannot open `/builddir/build/SOURCES/ORIG' (No such file or directory)
+
+# tty-fix.patch = unified diff output text 
 tty-fix.patch: copy
-# add-window-icon.patch = cannot open `/builddir/build/SOURCES/ORIG' (No such file or directory)
+
+# add-window-icon.patch = unified diff output text 
 add-window-icon.patch: copy
-# force-enter-to-output-newline.patch = cannot open `/builddir/build/SOURCES/ORIG' (No such file or directory)
+
+# force-enter-to-output-newline.patch = unified diff output text 
 force-enter-to-output-newline.patch: copy
-# better-tty-fallback.patch = cannot open `/builddir/build/SOURCES/ORIG' (No such file or directory)
+
+# better-tty-fallback.patch = unified diff output text 
 better-tty-fallback.patch: copy
-# handle-cloned-outputs.patch = cannot open `/builddir/build/SOURCES/ORIG' (No such file or directory)
+
+# handle-cloned-outputs.patch = unified diff output text 
 handle-cloned-outputs.patch: copy
-# filter-out-duplicate-consoles.patch = cannot open `/builddir/build/SOURCES/ORIG' (No such file or directory)
+
+# filter-out-duplicate-consoles.patch = unified diff output text 
 filter-out-duplicate-consoles.patch: copy
-# fix-throbber-glitch.patch = cannot open `/builddir/build/SOURCES/ORIG' (No such file or directory)
+
+# fix-throbber-glitch.patch = unified diff output text 
 fix-throbber-glitch.patch: copy
-# fix-watch-keystroke.patch = cannot open `/builddir/build/SOURCES/ORIG' (No such file or directory)
+
+# fix-watch-keystroke.patch = unified diff output text 
 fix-watch-keystroke.patch: copy

@@ -1,318 +1,473 @@
-# Patchlist created Sat Mar  1 18:40:58 CST 2014
-# debuglinks.list = cannot open `/builddir/build/ORIGINAL/redhat-logos-60.0.14/ORIG' (No such file or directory)
+# Patchlist created Mon Mar  3 22:27:23 CST 2014
+
+# debuglinks.list = empty
 debuglinks.list: copy
-# kde-kdm/CentOS6/system_button-li.png = cannot open `/builddir/build/ORIGINAL/redhat-logos-60.0.14/ORIG' (No such file or directory)
+
+# kde-kdm/CentOS6/system_button-li.png = PNG image data, 32 x 32, 8-bit/color RGBA, non-interlaced
 kde-kdm/CentOS6/system_button-li.png: copy
-# kde-kdm/CentOS6/session_button-li.png = cannot open `/builddir/build/ORIGINAL/redhat-logos-60.0.14/ORIG' (No such file or directory)
+
+# kde-kdm/CentOS6/session_button-li.png = PNG image data, 32 x 32, 8-bit/color RGBA, non-interlaced
 kde-kdm/CentOS6/session_button-li.png: copy
-# kde-kdm/CentOS6/screenshot.png = cannot open `/builddir/build/ORIGINAL/redhat-logos-60.0.14/ORIG' (No such file or directory)
-kde-kdm/CentOS6/screenshot.png: copy
-# kde-kdm/CentOS6/session_button.png = cannot open `/builddir/build/ORIGINAL/redhat-logos-60.0.14/ORIG' (No such file or directory)
+
+# kde-kdm/CentOS6/screenshot.png = PNG image data, 800 x 600, 8-bit/color RGB, non-interlaced
+kde-kdm/CentOS6/screenshot.png: convert -size 800x600 -background grey -gravity center label:"Screenshot not available" $FILE
+
+# kde-kdm/CentOS6/session_button.png = PNG image data, 32 x 32, 8-bit/color RGBA, non-interlaced
 kde-kdm/CentOS6/session_button.png: copy
-# kde-kdm/CentOS6/KdmGreeterTheme.desktop = cannot open `/builddir/build/ORIGINAL/redhat-logos-60.0.14/ORIG' (No such file or directory)
-Greeter=centos6.xml
-Name=CentOS 6
-Author=CentOS
-Copyright=(C) 2010 the CentOS Project
-kde-kdm/CentOS6/KdmGreeterTheme.desktop: false
-# kde-kdm/CentOS6/box.png = cannot open `/builddir/build/ORIGINAL/redhat-logos-60.0.14/ORIG' (No such file or directory)
+
+# kde-kdm/CentOS6/KdmGreeterTheme.desktop = ASCII English text
+# Greeter=centos6.xml
+# Name=CentOS 6
+# Author=CentOS
+# Copyright=(C) 2010 the CentOS Project
+kde-kdm/CentOS6/KdmGreeterTheme.desktop: patch
+
+# kde-kdm/CentOS6/box.png = PNG image data, 1 x 180, 8-bit/color RGBA, non-interlaced
 kde-kdm/CentOS6/box.png: copy
-# kde-kdm/CentOS6/system_button.png = cannot open `/builddir/build/ORIGINAL/redhat-logos-60.0.14/ORIG' (No such file or directory)
+
+# kde-kdm/CentOS6/system_button.png = PNG image data, 32 x 32, 8-bit/color RGBA, non-interlaced
 kde-kdm/CentOS6/system_button.png: copy
-# kde-kdm/CentOS6/centos6.xml = cannot open `/builddir/build/ORIGINAL/redhat-logos-60.0.14/ORIG' (No such file or directory)
-CentOS KDM Theme 0.1, Marcus Moeller <mmoeller@fedoraproject.org>
-kde-kdm/CentOS6/centos6.xml: false
-# firstboot/firstboot-left.png = cannot open `/builddir/build/ORIGINAL/redhat-logos-60.0.14/ORIG' (No such file or directory)
-firstboot/firstboot-left.png: copy
-# firstboot/workstation.png = cannot open `/builddir/build/ORIGINAL/redhat-logos-60.0.14/ORIG' (No such file or directory)
-firstboot/workstation.png: copy
-# firstboot/splash-small.png = cannot open `/builddir/build/ORIGINAL/redhat-logos-60.0.14/ORIG' (No such file or directory)
-firstboot/splash-small.png: copy
-# firstboot/firstboot-small.png = cannot open `/builddir/build/ORIGINAL/redhat-logos-60.0.14/ORIG' (No such file or directory)
-firstboot/firstboot-small.png: copy
-# anaconda/syslinux-vesa-splash.jpg = cannot open `/builddir/build/ORIGINAL/redhat-logos-60.0.14/ORIG' (No such file or directory)
-anaconda/syslinux-vesa-splash.jpg: copy
-# anaconda/anaconda_header.png = cannot open `/builddir/build/ORIGINAL/redhat-logos-60.0.14/ORIG' (No such file or directory)
-anaconda/anaconda_header.png: copy
-# anaconda/splashtolss.sh = cannot open `/builddir/build/ORIGINAL/redhat-logos-60.0.14/ORIG' (No such file or directory)
+
+# kde-kdm/CentOS6/centos6.xml = XML  document text
+# CentOS KDM Theme 0.1, Marcus Moeller <mmoeller@fedoraproject.org>
+kde-kdm/CentOS6/centos6.xml: patch
+
+# firstboot/firstboot-left.png = PNG image data, 160 x 600, 8-bit/color RGB, non-interlaced
+firstboot/firstboot-left.png: convert -size 160x600 -background $BACK label:"firstboot" $FILE
+
+# firstboot/workstation.png = PNG image data, 48 x 48, 8-bit/color RGBA, non-interlaced
+firstboot/workstation.png: convert $ORIG -fill $BACK -draw 'rectangle 3,8,44,32' $TEMP && composite -geometry 22x22+12+10 $LOGO $TEMP $FILE
+
+# firstboot/splash-small.png = PNG image data, 320 x 200, 8-bit/color RGB, non-interlaced
+firstboot/splash-small.png: convert -size 160x35 -background none -fill white -font $FONT -gravity center label:"$NAME" name.png && convert -size 320x200 xc:$BACK $TEMP && composite -geometry +15+120 name.png $TEMP $TEMP && composite -geometry 32x32+265+120 $LOGO $TEMP $FILE
+
+# firstboot/firstboot-small.png = PNG image data, 320 x 200, 8-bit/color RGB, non-interlaced
+firstboot/firstboot-small.png: convert -size 160x35 -background none -fill white -font $FONT -gravity center label:"$NAME" name.png && convert -size 320x200 xc:$BACK $TEMP && composite -geometry +15+120 name.png $TEMP $TEMP && composite -geometry 32x32+265+120 $LOGO $TEMP $FILE
+
+# anaconda/syslinux-vesa-splash.jpg = JPEG image data, JFIF standard 1.02
+# this is 640x480
+anaconda/syslinux-vesa-splash.jpg: convert -size 320x70 -background none -fill white -font $FONT -gravity center label:"$NAME" name.png && convert -size 640x480 xc:$BACK $TEMP && composite -geometry +50+350 name.png $TEMP $TEMP && composite -geometry 64x64+520+350 $LOGO $TEMP $FILE
+
+# anaconda/anaconda_header.png = PNG image data, 640 x 23, 8-bit/color RGB, non-interlaced
+anaconda/anaconda_header.png: convert -size 640x23 xc:$BACK $FILE
+
+# anaconda/splashtolss.sh = POSIX shell script text executable
 anaconda/splashtolss.sh: copy
-# anaconda/README = cannot open `/builddir/build/ORIGINAL/redhat-logos-60.0.14/ORIG' (No such file or directory)
+
+# anaconda/README = ASCII English text
 anaconda/README: copy
-# anaconda/progress_first-lowres.png = cannot open `/builddir/build/ORIGINAL/redhat-logos-60.0.14/ORIG' (No such file or directory)
-anaconda/progress_first-lowres.png: copy
-# anaconda/syslinux-splash.png = cannot open `/builddir/build/ORIGINAL/redhat-logos-60.0.14/ORIG' (No such file or directory)
-anaconda/syslinux-splash.png: copy
-# anaconda/progress_first.png = cannot open `/builddir/build/ORIGINAL/redhat-logos-60.0.14/ORIG' (No such file or directory)
-anaconda/progress_first.png: copy
-# anaconda/splash.png = cannot open `/builddir/build/ORIGINAL/redhat-logos-60.0.14/ORIG' (No such file or directory)
-anaconda/splash.png: copy
-# anaconda/Makefile = cannot open `/builddir/build/ORIGINAL/redhat-logos-60.0.14/ORIG' (No such file or directory)
+
+# anaconda/progress_first-lowres.png = PNG image data, 640 x 240, 8-bit colormap, non-interlaced
+anaconda/progress_first-lowres.png: convert -size 160x35 -background none -fill white -font $FONT -gravity center label:"$NAME" name.png && convert -size 640x240 xc:$BACK $TEMP && composite -geometry +50+170 name.png $TEMP $TEMP && composite -geometry 32x32+520+170 $LOGO $TEMP $FILE
+
+# anaconda/syslinux-splash.png = PNG image data, 640 x 300, 8-bit colormap, non-interlaced
+anaconda/syslinux-splash.png: convert -size 160x35 -background none -fill white -font $FONT -gravity center label:"$NAME" name.png && convert -size 640x300 xc:$BACK $TEMP && composite -geometry +50+190 name.png $TEMP $TEMP && composite -geometry 32x32+520+190 $LOGO $TEMP $FILE
+
+# anaconda/progress_first.png = PNG image data, 640 x 240, 8-bit/color RGB, non-interlaced
+anaconda/progress_first.png: convert -size 160x35 -background none -fill white -font $FONT -gravity center label:"$NAME" name.png && convert -size 640x240 xc:$BACK $TEMP && composite -geometry +50+170 name.png $TEMP $TEMP && composite -geometry 32x32+520+170 $LOGO $TEMP $FILE
+
+# anaconda/splash.png = PNG image data, 640 x 240, 8-bit/color RGBA, non-interlaced
+anaconda/splash.png: convert -size 160x35 -background none -fill white -font $FONT -gravity center label:"$NAME" name.png && convert -size 640x240 xc:$BACK $TEMP && composite -geometry +50+170 name.png $TEMP $TEMP && composite -geometry 32x32+520+170 $LOGO $TEMP $FILE
+
+# anaconda/Makefile = ASCII make commands text
 anaconda/Makefile: copy
-# bootloader/splash.xpm.gz = cannot open `/builddir/build/ORIGINAL/redhat-logos-60.0.14/ORIG' (No such file or directory)
-bootloader/splash.xpm.gz: copy
-# backgrounds/centos_1920x1200_logoonly.jpg = cannot open `/builddir/build/ORIGINAL/redhat-logos-60.0.14/ORIG' (No such file or directory)
-backgrounds/centos_1920x1200_logoonly.jpg: copy
-# backgrounds/centos_2048x1536_logoonly.jpg = cannot open `/builddir/build/ORIGINAL/redhat-logos-60.0.14/ORIG' (No such file or directory)
-backgrounds/centos_2048x1536_logoonly.jpg: copy
-# backgrounds/default_1920x1200.png = cannot open `/builddir/build/ORIGINAL/redhat-logos-60.0.14/ORIG' (No such file or directory)
-backgrounds/default_1920x1200.png: copy
-# backgrounds/centos_wallpaper_multicolor_1920x1080.png = cannot open `/builddir/build/ORIGINAL/redhat-logos-60.0.14/ORIG' (No such file or directory)
-backgrounds/centos_wallpaper_multicolor_1920x1080.png: copy
-# backgrounds/desktop-backgrounds-default.xml = cannot open `/builddir/build/ORIGINAL/redhat-logos-60.0.14/ORIG' (No such file or directory)
-        <name>CentOS Default Background</name>
-backgrounds/desktop-backgrounds-default.xml: false
-# backgrounds/default_1920x1440.png = cannot open `/builddir/build/ORIGINAL/redhat-logos-60.0.14/ORIG' (No such file or directory)
-backgrounds/default_1920x1440.png: copy
-# backgrounds/simple_waves.jpg = cannot open `/builddir/build/ORIGINAL/redhat-logos-60.0.14/ORIG' (No such file or directory)
-backgrounds/simple_waves.jpg: copy
-# backgrounds/centos_wallpaper_01_1920x1200.png = cannot open `/builddir/build/ORIGINAL/redhat-logos-60.0.14/ORIG' (No such file or directory)
-backgrounds/centos_wallpaper_01_1920x1200.png: copy
-# backgrounds/default.xml = cannot open `/builddir/build/ORIGINAL/redhat-logos-60.0.14/ORIG' (No such file or directory)
+
+# bootloader/splash.xpm.gz = gzip compressed data, was "splash.xpm", from Unix, last modified: Thu May  6 13:38:24 2010
+bootloader/splash.xpm.gz: convert -size 200x40 -background none -fill white -font $FONT -gravity center label:"$NAME" name.png && convert -size 640x480 xc:$BACK $TEMP && composite -geometry +10+430 name.png $TEMP $TEMP && composite -geometry 40x40+580+430 $LOGO $TEMP $FILE
+
+
+# backgrounds/centos_1920x1200_logoonly.jpg = JPEG image data, JFIF standard 1.01
+backgrounds/centos_1920x1200_logoonly.jpg: X=1920 && Y=1200 && L=`expr $X / 20` && convert -size ${X}x${Y} xc:$BACK $TEMP && composite -geometry ${L}x${L}+`expr $X - $L - 10`+`expr $Y - $L - 10` $LOGO $TEMP $FILE
+
+# backgrounds/centos_2048x1536_logoonly.jpg = JPEG image data, JFIF standard 1.01
+backgrounds/centos_2048x1536_logoonly.jpg: X=2048 && Y=1536 && L=`expr $X / 20` && convert -size ${X}x${Y} xc:$BACK $TEMP && composite -geometry ${L}x${L}+`expr $X - $L - 10`+`expr $Y - $L - 10` $LOGO $TEMP $FILE
+
+# backgrounds/default_1920x1200.png = PNG image data, 1920 x 1200, 8-bit/color RGBA, non-interlaced
+backgrounds/default_1920x1200.png: X=1920 && Y=1200 && L=`expr $X / 20` && convert -size ${X}x${Y} xc:$BACK $TEMP && composite -geometry ${L}x${L}+`expr $X - $L - 10`+`expr $Y - $L - 10` $LOGO $TEMP $FILE
+
+# backgrounds/centos_wallpaper_multicolor_1920x1080.png = PNG image data, 1920 x 1080, 8-bit/color RGBA, non-interlaced
+backgrounds/centos_wallpaper_multicolor_1920x1080.png: X=1920 && Y=1080 && L=`expr $X / 20` && convert -size ${X}x${Y} xc:$BACK $TEMP && composite -geometry ${L}x${L}+`expr $X - $L - 10`+`expr $Y - $L - 10` $LOGO $TEMP $FILE
+
+# backgrounds/desktop-backgrounds-default.xml = XML  document text
+#         <name>CentOS Default Background</name>
+backgrounds/desktop-backgrounds-default.xml: patch
+
+# backgrounds/default_1920x1440.png = PNG image data, 1920 x 1440, 8-bit/color RGBA, non-interlaced
+backgrounds/default_1920x1440.png: X=1920 && Y=1440 && L=`expr $X / 20` && convert -size ${X}x${Y} xc:$BACK $TEMP && composite -geometry ${L}x${L}+`expr $X - $L - 10`+`expr $Y - $L - 10` $LOGO $TEMP $FILE
+
+# backgrounds/simple_waves.jpg = JPEG image data, JFIF standard 1.02
+backgrounds/simple_waves.jpg: X=1920 && Y=1200 && L=`expr $X / 20` && convert -size ${X}x${Y} xc:$BACK $TEMP && composite -geometry ${L}x${L}+`expr $X - $L - 10`+`expr $Y - $L - 10` $LOGO $TEMP $FILE
+
+# backgrounds/centos_wallpaper_01_1920x1200.png = PNG image data, 1920 x 1200, 8-bit/color RGB, non-interlaced
+backgrounds/centos_wallpaper_01_1920x1200.png: X=1920 && Y=1200 && L=`expr $X / 20` && convert -size ${X}x${Y} xc:$BACK $TEMP && composite -geometry ${L}x${L}+`expr $X - $L - 10`+`expr $Y - $L - 10` $LOGO $TEMP $FILE
+
+# backgrounds/default.xml = ASCII HTML document text
 backgrounds/default.xml: copy
-# backgrounds/wallpaper-six-2560x1240.png = cannot open `/builddir/build/ORIGINAL/redhat-logos-60.0.14/ORIG' (No such file or directory)
-backgrounds/wallpaper-six-2560x1240.png: copy
-# backgrounds/wallpaper-six-2048x1536.png = cannot open `/builddir/build/ORIGINAL/redhat-logos-60.0.14/ORIG' (No such file or directory)
-backgrounds/wallpaper-six-2048x1536.png: copy
-# backgrounds/blue_wallpaper_original_1600x1200.png = cannot open `/builddir/build/ORIGINAL/redhat-logos-60.0.14/ORIG' (No such file or directory)
-backgrounds/blue_wallpaper_original_1600x1200.png: copy
-# plymouth/rings/progress-21.png = cannot open `/builddir/build/ORIGINAL/redhat-logos-60.0.14/ORIG' (No such file or directory)
+
+# backgrounds/wallpaper-six-2560x1240.png = PNG image data, 2560 x 1240, 8-bit/color RGBA, non-interlaced
+backgrounds/wallpaper-six-2560x1240.png: X=2560 && Y=1240 && L=`expr $X / 20` && convert -size ${X}x${Y} xc:$BACK $TEMP && composite -geometry ${L}x${L}+`expr $X - $L - 10`+`expr $Y - $L - 10` $LOGO $TEMP $FILE
+
+# backgrounds/wallpaper-six-2048x1536.png = PNG image data, 2048 x 1536, 8-bit/color RGBA, non-interlaced
+backgrounds/wallpaper-six-2048x1536.png: X=2048 && Y=1536 && L=`expr $X / 20` && convert -size ${X}x${Y} xc:$BACK $TEMP && composite -geometry ${L}x${L}+`expr $X - $L - 10`+`expr $Y - $L - 10` $LOGO $TEMP $FILE
+
+# backgrounds/blue_wallpaper_original_1600x1200.png = PNG image data, 1600 x 1200, 8-bit/color RGB, non-interlaced
+backgrounds/blue_wallpaper_original_1600x1200.png: X=1600 && Y=1200 && L=`expr $X / 20` && convert -size ${X}x${Y} xc:$BACK $TEMP && composite -geometry ${L}x${L}+`expr $X - $L - 10`+`expr $Y - $L - 10` $LOGO $TEMP $FILE
+
+# plymouth/rings/progress-21.png = PNG image data, 111 x 110, 8-bit/color RGBA, non-interlaced
 plymouth/rings/progress-21.png: copy
-# plymouth/rings/progress-22.png = cannot open `/builddir/build/ORIGINAL/redhat-logos-60.0.14/ORIG' (No such file or directory)
+
+# plymouth/rings/progress-22.png = PNG image data, 111 x 110, 8-bit/color RGBA, non-interlaced
 plymouth/rings/progress-22.png: copy
-# plymouth/rings/progress-32.png = cannot open `/builddir/build/ORIGINAL/redhat-logos-60.0.14/ORIG' (No such file or directory)
+
+# plymouth/rings/progress-32.png = PNG image data, 111 x 110, 8-bit/color RGBA, non-interlaced
 plymouth/rings/progress-32.png: copy
-# plymouth/rings/throbber-09.png = cannot open `/builddir/build/ORIGINAL/redhat-logos-60.0.14/ORIG' (No such file or directory)
+
+# plymouth/rings/throbber-09.png = PNG image data, 111 x 110, 8-bit/color RGBA, non-interlaced
 plymouth/rings/throbber-09.png: copy
-# plymouth/rings/progress-02.png = cannot open `/builddir/build/ORIGINAL/redhat-logos-60.0.14/ORIG' (No such file or directory)
+
+# plymouth/rings/progress-02.png = PNG image data, 111 x 110, 8-bit/color RGBA, non-interlaced
 plymouth/rings/progress-02.png: copy
-# plymouth/rings/animation-01.png = cannot open `/builddir/build/ORIGINAL/redhat-logos-60.0.14/ORIG' (No such file or directory)
+
+# plymouth/rings/animation-01.png = PNG image data, 111 x 110, 8-bit/color RGBA, non-interlaced
 plymouth/rings/animation-01.png: copy
-# plymouth/rings/throbber-08.png = cannot open `/builddir/build/ORIGINAL/redhat-logos-60.0.14/ORIG' (No such file or directory)
+
+# plymouth/rings/throbber-08.png = PNG image data, 111 x 110, 8-bit/color RGBA, non-interlaced
 plymouth/rings/throbber-08.png: copy
-# plymouth/rings/progress-26.png = cannot open `/builddir/build/ORIGINAL/redhat-logos-60.0.14/ORIG' (No such file or directory)
+
+# plymouth/rings/progress-26.png = PNG image data, 111 x 110, 8-bit/color RGBA, non-interlaced
 plymouth/rings/progress-26.png: copy
-# plymouth/rings/throbber-13.png = cannot open `/builddir/build/ORIGINAL/redhat-logos-60.0.14/ORIG' (No such file or directory)
+
+# plymouth/rings/throbber-13.png = PNG image data, 111 x 110, 8-bit/color RGBA, non-interlaced
 plymouth/rings/throbber-13.png: copy
-# plymouth/rings/progress-07.png = cannot open `/builddir/build/ORIGINAL/redhat-logos-60.0.14/ORIG' (No such file or directory)
+
+# plymouth/rings/progress-07.png = PNG image data, 111 x 110, 8-bit/color RGBA, non-interlaced
 plymouth/rings/progress-07.png: copy
-# plymouth/rings/animation-07.png = cannot open `/builddir/build/ORIGINAL/redhat-logos-60.0.14/ORIG' (No such file or directory)
+
+# plymouth/rings/animation-07.png = PNG image data, 111 x 110, 8-bit/color RGBA, non-interlaced
 plymouth/rings/animation-07.png: copy
-# plymouth/rings/throbber-20.png = cannot open `/builddir/build/ORIGINAL/redhat-logos-60.0.14/ORIG' (No such file or directory)
+
+# plymouth/rings/throbber-20.png = PNG image data, 111 x 110, 8-bit/color RGBA, non-interlaced
 plymouth/rings/throbber-20.png: copy
-# plymouth/rings/throbber-05.png = cannot open `/builddir/build/ORIGINAL/redhat-logos-60.0.14/ORIG' (No such file or directory)
+
+# plymouth/rings/throbber-05.png = PNG image data, 111 x 110, 8-bit/color RGBA, non-interlaced
 plymouth/rings/throbber-05.png: copy
-# plymouth/rings/animation-02.png = cannot open `/builddir/build/ORIGINAL/redhat-logos-60.0.14/ORIG' (No such file or directory)
+
+# plymouth/rings/animation-02.png = PNG image data, 111 x 110, 8-bit/color RGBA, non-interlaced
 plymouth/rings/animation-02.png: copy
-# plymouth/rings/throbber-04.png = cannot open `/builddir/build/ORIGINAL/redhat-logos-60.0.14/ORIG' (No such file or directory)
+
+# plymouth/rings/throbber-04.png = PNG image data, 111 x 110, 8-bit/color RGBA, non-interlaced
 plymouth/rings/throbber-04.png: copy
-# plymouth/rings/progress-03.png = cannot open `/builddir/build/ORIGINAL/redhat-logos-60.0.14/ORIG' (No such file or directory)
+
+# plymouth/rings/progress-03.png = PNG image data, 111 x 110, 8-bit/color RGBA, non-interlaced
 plymouth/rings/progress-03.png: copy
-# plymouth/rings/animation-12.png = cannot open `/builddir/build/ORIGINAL/redhat-logos-60.0.14/ORIG' (No such file or directory)
+
+# plymouth/rings/animation-12.png = PNG image data, 111 x 110, 8-bit/color RGBA, non-interlaced
 plymouth/rings/animation-12.png: copy
-# plymouth/rings/animation-00.png = cannot open `/builddir/build/ORIGINAL/redhat-logos-60.0.14/ORIG' (No such file or directory)
+
+# plymouth/rings/animation-00.png = PNG image data, 111 x 110, 8-bit/color RGBA, non-interlaced
 plymouth/rings/animation-00.png: copy
-# plymouth/rings/progress-15.png = cannot open `/builddir/build/ORIGINAL/redhat-logos-60.0.14/ORIG' (No such file or directory)
+
+# plymouth/rings/progress-15.png = PNG image data, 111 x 110, 8-bit/color RGBA, non-interlaced
 plymouth/rings/progress-15.png: copy
-# plymouth/rings/throbber-12.png = cannot open `/builddir/build/ORIGINAL/redhat-logos-60.0.14/ORIG' (No such file or directory)
+
+# plymouth/rings/throbber-12.png = PNG image data, 111 x 110, 8-bit/color RGBA, non-interlaced
 plymouth/rings/throbber-12.png: copy
-# plymouth/rings/animation-03.png = cannot open `/builddir/build/ORIGINAL/redhat-logos-60.0.14/ORIG' (No such file or directory)
+
+# plymouth/rings/animation-03.png = PNG image data, 111 x 110, 8-bit/color RGBA, non-interlaced
 plymouth/rings/animation-03.png: copy
-# plymouth/rings/throbber-21.png = cannot open `/builddir/build/ORIGINAL/redhat-logos-60.0.14/ORIG' (No such file or directory)
+
+# plymouth/rings/throbber-21.png = PNG image data, 111 x 110, 8-bit/color RGBA, non-interlaced
 plymouth/rings/throbber-21.png: copy
-# plymouth/rings/progress-10.png = cannot open `/builddir/build/ORIGINAL/redhat-logos-60.0.14/ORIG' (No such file or directory)
+
+# plymouth/rings/progress-10.png = PNG image data, 111 x 110, 8-bit/color RGBA, non-interlaced
 plymouth/rings/progress-10.png: copy
-# plymouth/rings/throbber-11.png = cannot open `/builddir/build/ORIGINAL/redhat-logos-60.0.14/ORIG' (No such file or directory)
+
+# plymouth/rings/throbber-11.png = PNG image data, 111 x 110, 8-bit/color RGBA, non-interlaced
 plymouth/rings/throbber-11.png: copy
-# plymouth/rings/throbber-02.png = cannot open `/builddir/build/ORIGINAL/redhat-logos-60.0.14/ORIG' (No such file or directory)
+
+# plymouth/rings/throbber-02.png = PNG image data, 111 x 110, 8-bit/color RGBA, non-interlaced
 plymouth/rings/throbber-02.png: copy
-# plymouth/rings/progress-05.png = cannot open `/builddir/build/ORIGINAL/redhat-logos-60.0.14/ORIG' (No such file or directory)
+
+# plymouth/rings/progress-05.png = PNG image data, 111 x 110, 8-bit/color RGBA, non-interlaced
 plymouth/rings/progress-05.png: copy
-# plymouth/rings/progress-14.png = cannot open `/builddir/build/ORIGINAL/redhat-logos-60.0.14/ORIG' (No such file or directory)
+
+# plymouth/rings/progress-14.png = PNG image data, 111 x 110, 8-bit/color RGBA, non-interlaced
 plymouth/rings/progress-14.png: copy
-# plymouth/rings/throbber-03.png = cannot open `/builddir/build/ORIGINAL/redhat-logos-60.0.14/ORIG' (No such file or directory)
+
+# plymouth/rings/throbber-03.png = PNG image data, 111 x 110, 8-bit/color RGBA, non-interlaced
 plymouth/rings/throbber-03.png: copy
-# plymouth/rings/progress-00.png = cannot open `/builddir/build/ORIGINAL/redhat-logos-60.0.14/ORIG' (No such file or directory)
+
+# plymouth/rings/progress-00.png = PNG image data, 111 x 110, 8-bit/color RGBA, non-interlaced
 plymouth/rings/progress-00.png: copy
-# plymouth/rings/progress-25.png = cannot open `/builddir/build/ORIGINAL/redhat-logos-60.0.14/ORIG' (No such file or directory)
+
+# plymouth/rings/progress-25.png = PNG image data, 111 x 110, 8-bit/color RGBA, non-interlaced
 plymouth/rings/progress-25.png: copy
-# plymouth/rings/throbber-07.png = cannot open `/builddir/build/ORIGINAL/redhat-logos-60.0.14/ORIG' (No such file or directory)
+
+# plymouth/rings/throbber-07.png = PNG image data, 111 x 110, 8-bit/color RGBA, non-interlaced
 plymouth/rings/throbber-07.png: copy
-# plymouth/rings/progress-24.png = cannot open `/builddir/build/ORIGINAL/redhat-logos-60.0.14/ORIG' (No such file or directory)
+
+# plymouth/rings/progress-24.png = PNG image data, 111 x 110, 8-bit/color RGBA, non-interlaced
 plymouth/rings/progress-24.png: copy
-# plymouth/rings/progress-13.png = cannot open `/builddir/build/ORIGINAL/redhat-logos-60.0.14/ORIG' (No such file or directory)
+
+# plymouth/rings/progress-13.png = PNG image data, 111 x 110, 8-bit/color RGBA, non-interlaced
 plymouth/rings/progress-13.png: copy
-# plymouth/rings/progress-09.png = cannot open `/builddir/build/ORIGINAL/redhat-logos-60.0.14/ORIG' (No such file or directory)
+
+# plymouth/rings/progress-09.png = PNG image data, 111 x 110, 8-bit/color RGBA, non-interlaced
 plymouth/rings/progress-09.png: copy
-# plymouth/rings/throbber-19.png = cannot open `/builddir/build/ORIGINAL/redhat-logos-60.0.14/ORIG' (No such file or directory)
+
+# plymouth/rings/throbber-19.png = PNG image data, 111 x 110, 8-bit/color RGBA, non-interlaced
 plymouth/rings/throbber-19.png: copy
-# plymouth/rings/animation-09.png = cannot open `/builddir/build/ORIGINAL/redhat-logos-60.0.14/ORIG' (No such file or directory)
+
+# plymouth/rings/animation-09.png = PNG image data, 111 x 110, 8-bit/color RGBA, non-interlaced
 plymouth/rings/animation-09.png: copy
-# plymouth/rings/progress-08.png = cannot open `/builddir/build/ORIGINAL/redhat-logos-60.0.14/ORIG' (No such file or directory)
+
+# plymouth/rings/progress-08.png = PNG image data, 111 x 110, 8-bit/color RGBA, non-interlaced
 plymouth/rings/progress-08.png: copy
-# plymouth/rings/progress-01.png = cannot open `/builddir/build/ORIGINAL/redhat-logos-60.0.14/ORIG' (No such file or directory)
+
+# plymouth/rings/progress-01.png = PNG image data, 111 x 110, 8-bit/color RGBA, non-interlaced
 plymouth/rings/progress-01.png: copy
-# plymouth/rings/throbber-06.png = cannot open `/builddir/build/ORIGINAL/redhat-logos-60.0.14/ORIG' (No such file or directory)
+
+# plymouth/rings/throbber-06.png = PNG image data, 111 x 110, 8-bit/color RGBA, non-interlaced
 plymouth/rings/throbber-06.png: copy
-# plymouth/rings/throbber-17.png = cannot open `/builddir/build/ORIGINAL/redhat-logos-60.0.14/ORIG' (No such file or directory)
+
+# plymouth/rings/throbber-17.png = PNG image data, 111 x 110, 8-bit/color RGBA, non-interlaced
 plymouth/rings/throbber-17.png: copy
-# plymouth/rings/animation-08.png = cannot open `/builddir/build/ORIGINAL/redhat-logos-60.0.14/ORIG' (No such file or directory)
+
+# plymouth/rings/animation-08.png = PNG image data, 111 x 110, 8-bit/color RGBA, non-interlaced
 plymouth/rings/animation-08.png: copy
-# plymouth/rings/progress-19.png = cannot open `/builddir/build/ORIGINAL/redhat-logos-60.0.14/ORIG' (No such file or directory)
+
+# plymouth/rings/progress-19.png = PNG image data, 111 x 110, 8-bit/color RGBA, non-interlaced
 plymouth/rings/progress-19.png: copy
-# plymouth/rings/throbber-22.png = cannot open `/builddir/build/ORIGINAL/redhat-logos-60.0.14/ORIG' (No such file or directory)
+
+# plymouth/rings/throbber-22.png = PNG image data, 111 x 110, 8-bit/color RGBA, non-interlaced
 plymouth/rings/throbber-22.png: copy
-# plymouth/rings/progress-17.png = cannot open `/builddir/build/ORIGINAL/redhat-logos-60.0.14/ORIG' (No such file or directory)
+
+# plymouth/rings/progress-17.png = PNG image data, 111 x 110, 8-bit/color RGBA, non-interlaced
 plymouth/rings/progress-17.png: copy
-# plymouth/rings/progress-33.png = cannot open `/builddir/build/ORIGINAL/redhat-logos-60.0.14/ORIG' (No such file or directory)
+
+# plymouth/rings/progress-33.png = PNG image data, 111 x 110, 8-bit/color RGBA, non-interlaced
 plymouth/rings/progress-33.png: copy
-# plymouth/rings/progress-35.png = cannot open `/builddir/build/ORIGINAL/redhat-logos-60.0.14/ORIG' (No such file or directory)
+
+# plymouth/rings/progress-35.png = PNG image data, 111 x 110, 8-bit/color RGBA, non-interlaced
 plymouth/rings/progress-35.png: copy
-# plymouth/rings/throbber-18.png = cannot open `/builddir/build/ORIGINAL/redhat-logos-60.0.14/ORIG' (No such file or directory)
+
+# plymouth/rings/throbber-18.png = PNG image data, 111 x 110, 8-bit/color RGBA, non-interlaced
 plymouth/rings/throbber-18.png: copy
-# plymouth/rings/progress-31.png = cannot open `/builddir/build/ORIGINAL/redhat-logos-60.0.14/ORIG' (No such file or directory)
+
+# plymouth/rings/progress-31.png = PNG image data, 111 x 110, 8-bit/color RGBA, non-interlaced
 plymouth/rings/progress-31.png: copy
-# plymouth/rings/throbber-00.png = cannot open `/builddir/build/ORIGINAL/redhat-logos-60.0.14/ORIG' (No such file or directory)
+
+# plymouth/rings/throbber-00.png = PNG image data, 111 x 110, 8-bit/color RGBA, non-interlaced
 plymouth/rings/throbber-00.png: copy
-# plymouth/rings/animation-06.png = cannot open `/builddir/build/ORIGINAL/redhat-logos-60.0.14/ORIG' (No such file or directory)
+
+# plymouth/rings/animation-06.png = PNG image data, 111 x 110, 8-bit/color RGBA, non-interlaced
 plymouth/rings/animation-06.png: copy
-# plymouth/rings/animation-11.png = cannot open `/builddir/build/ORIGINAL/redhat-logos-60.0.14/ORIG' (No such file or directory)
+
+# plymouth/rings/animation-11.png = PNG image data, 111 x 110, 8-bit/color RGBA, non-interlaced
 plymouth/rings/animation-11.png: copy
-# plymouth/rings/animation-13.png = cannot open `/builddir/build/ORIGINAL/redhat-logos-60.0.14/ORIG' (No such file or directory)
+
+# plymouth/rings/animation-13.png = PNG image data, 111 x 110, 8-bit/color RGBA, non-interlaced
 plymouth/rings/animation-13.png: copy
-# plymouth/rings/progress-28.png = cannot open `/builddir/build/ORIGINAL/redhat-logos-60.0.14/ORIG' (No such file or directory)
+
+# plymouth/rings/progress-28.png = PNG image data, 111 x 110, 8-bit/color RGBA, non-interlaced
 plymouth/rings/progress-28.png: copy
-# plymouth/rings/throbber-01.png = cannot open `/builddir/build/ORIGINAL/redhat-logos-60.0.14/ORIG' (No such file or directory)
+
+# plymouth/rings/throbber-01.png = PNG image data, 111 x 110, 8-bit/color RGBA, non-interlaced
 plymouth/rings/throbber-01.png: copy
-# plymouth/rings/throbber-15.png = cannot open `/builddir/build/ORIGINAL/redhat-logos-60.0.14/ORIG' (No such file or directory)
+
+# plymouth/rings/throbber-15.png = PNG image data, 111 x 110, 8-bit/color RGBA, non-interlaced
 plymouth/rings/throbber-15.png: copy
-# plymouth/rings/progress-04.png = cannot open `/builddir/build/ORIGINAL/redhat-logos-60.0.14/ORIG' (No such file or directory)
+
+# plymouth/rings/progress-04.png = PNG image data, 111 x 110, 8-bit/color RGBA, non-interlaced
 plymouth/rings/progress-04.png: copy
-# plymouth/rings/progress-23.png = cannot open `/builddir/build/ORIGINAL/redhat-logos-60.0.14/ORIG' (No such file or directory)
+
+# plymouth/rings/progress-23.png = PNG image data, 111 x 110, 8-bit/color RGBA, non-interlaced
 plymouth/rings/progress-23.png: copy
-# plymouth/rings/progress-11.png = cannot open `/builddir/build/ORIGINAL/redhat-logos-60.0.14/ORIG' (No such file or directory)
+
+# plymouth/rings/progress-11.png = PNG image data, 111 x 110, 8-bit/color RGBA, non-interlaced
 plymouth/rings/progress-11.png: copy
-# plymouth/rings/progress-16.png = cannot open `/builddir/build/ORIGINAL/redhat-logos-60.0.14/ORIG' (No such file or directory)
+
+# plymouth/rings/progress-16.png = PNG image data, 111 x 110, 8-bit/color RGBA, non-interlaced
 plymouth/rings/progress-16.png: copy
-# plymouth/rings/header-image.png = cannot open `/builddir/build/ORIGINAL/redhat-logos-60.0.14/ORIG' (No such file or directory)
-plymouth/rings/header-image.png: copy
-# plymouth/rings/progress-20.png = cannot open `/builddir/build/ORIGINAL/redhat-logos-60.0.14/ORIG' (No such file or directory)
+
+# plymouth/rings/header-image.png = PNG image data, 722 x 129, 8-bit/color RGBA, non-interlaced
+plymouth/rings/header-image.png: convert -size 500x129 -background none -fill white -font $FONT -gravity center label:"$NAME" name.png && convert -size 722x129 xc:none $TEMP && composite -geometry +180+0 name.png $TEMP $TEMP && composite -geometry 120x120+50+5 $LOGO $TEMP $FILE
+
+# plymouth/rings/progress-20.png = PNG image data, 111 x 110, 8-bit/color RGBA, non-interlaced
 plymouth/rings/progress-20.png: copy
-# plymouth/rings/progress-12.png = cannot open `/builddir/build/ORIGINAL/redhat-logos-60.0.14/ORIG' (No such file or directory)
+
+# plymouth/rings/progress-12.png = PNG image data, 111 x 110, 8-bit/color RGBA, non-interlaced
 plymouth/rings/progress-12.png: copy
-# plymouth/rings/progress-29.png = cannot open `/builddir/build/ORIGINAL/redhat-logos-60.0.14/ORIG' (No such file or directory)
+
+# plymouth/rings/progress-29.png = PNG image data, 111 x 110, 8-bit/color RGBA, non-interlaced
 plymouth/rings/progress-29.png: copy
-# plymouth/rings/throbber-14.png = cannot open `/builddir/build/ORIGINAL/redhat-logos-60.0.14/ORIG' (No such file or directory)
+
+# plymouth/rings/throbber-14.png = PNG image data, 111 x 110, 8-bit/color RGBA, non-interlaced
 plymouth/rings/throbber-14.png: copy
-# plymouth/rings/throbber-23.png = cannot open `/builddir/build/ORIGINAL/redhat-logos-60.0.14/ORIG' (No such file or directory)
+
+# plymouth/rings/throbber-23.png = PNG image data, 111 x 110, 8-bit/color RGBA, non-interlaced
 plymouth/rings/throbber-23.png: copy
-# plymouth/rings/progress-18.png = cannot open `/builddir/build/ORIGINAL/redhat-logos-60.0.14/ORIG' (No such file or directory)
+
+# plymouth/rings/progress-18.png = PNG image data, 111 x 110, 8-bit/color RGBA, non-interlaced
 plymouth/rings/progress-18.png: copy
-# plymouth/rings/animation-04.png = cannot open `/builddir/build/ORIGINAL/redhat-logos-60.0.14/ORIG' (No such file or directory)
+
+# plymouth/rings/animation-04.png = PNG image data, 111 x 110, 8-bit/color RGBA, non-interlaced
 plymouth/rings/animation-04.png: copy
-# plymouth/rings/throbber-10.png = cannot open `/builddir/build/ORIGINAL/redhat-logos-60.0.14/ORIG' (No such file or directory)
+
+# plymouth/rings/throbber-10.png = PNG image data, 111 x 110, 8-bit/color RGBA, non-interlaced
 plymouth/rings/throbber-10.png: copy
-# plymouth/rings/animation-10.png = cannot open `/builddir/build/ORIGINAL/redhat-logos-60.0.14/ORIG' (No such file or directory)
+
+# plymouth/rings/animation-10.png = PNG image data, 111 x 110, 8-bit/color RGBA, non-interlaced
 plymouth/rings/animation-10.png: copy
-# plymouth/rings/throbber-16.png = cannot open `/builddir/build/ORIGINAL/redhat-logos-60.0.14/ORIG' (No such file or directory)
+
+# plymouth/rings/throbber-16.png = PNG image data, 111 x 110, 8-bit/color RGBA, non-interlaced
 plymouth/rings/throbber-16.png: copy
-# plymouth/rings/progress-34.png = cannot open `/builddir/build/ORIGINAL/redhat-logos-60.0.14/ORIG' (No such file or directory)
+
+# plymouth/rings/progress-34.png = PNG image data, 111 x 110, 8-bit/color RGBA, non-interlaced
 plymouth/rings/progress-34.png: copy
-# plymouth/rings/progress-06.png = cannot open `/builddir/build/ORIGINAL/redhat-logos-60.0.14/ORIG' (No such file or directory)
+
+# plymouth/rings/progress-06.png = PNG image data, 111 x 110, 8-bit/color RGBA, non-interlaced
 plymouth/rings/progress-06.png: copy
-# plymouth/rings/animation-05.png = cannot open `/builddir/build/ORIGINAL/redhat-logos-60.0.14/ORIG' (No such file or directory)
+
+# plymouth/rings/animation-05.png = PNG image data, 111 x 110, 8-bit/color RGBA, non-interlaced
 plymouth/rings/animation-05.png: copy
-# plymouth/rings/progress-30.png = cannot open `/builddir/build/ORIGINAL/redhat-logos-60.0.14/ORIG' (No such file or directory)
+
+# plymouth/rings/progress-30.png = PNG image data, 111 x 110, 8-bit/color RGBA, non-interlaced
 plymouth/rings/progress-30.png: copy
-# plymouth/rings/progress-27.png = cannot open `/builddir/build/ORIGINAL/redhat-logos-60.0.14/ORIG' (No such file or directory)
+
+# plymouth/rings/progress-27.png = PNG image data, 111 x 110, 8-bit/color RGBA, non-interlaced
 plymouth/rings/progress-27.png: copy
-# debugsources.list = cannot open `/builddir/build/ORIGINAL/redhat-logos-60.0.14/ORIG' (No such file or directory)
+
+# debugsources.list = empty
 debugsources.list: copy
-# pixmaps/system-logo-white.png = cannot open `/builddir/build/ORIGINAL/redhat-logos-60.0.14/ORIG' (No such file or directory)
-pixmaps/system-logo-white.png: copy
-# pixmaps/system-logo.png = cannot open `/builddir/build/ORIGINAL/redhat-logos-60.0.14/ORIG' (No such file or directory)
-pixmaps/system-logo.png: copy
-# pixmaps/poweredby.png = cannot open `/builddir/build/ORIGINAL/redhat-logos-60.0.14/ORIG' (No such file or directory)
-pixmaps/poweredby.png: copy
-# pixmaps/system-logo-small.png = cannot open `/builddir/build/ORIGINAL/redhat-logos-60.0.14/ORIG' (No such file or directory)
-pixmaps/system-logo-small.png: copy
-# pixmaps/system-release-white.png = cannot open `/builddir/build/ORIGINAL/redhat-logos-60.0.14/ORIG' (No such file or directory)
-pixmaps/system-release-white.png: copy
-# icons/hicolor/48x48/apps/system-logo-icon.png = cannot open `/builddir/build/ORIGINAL/redhat-logos-60.0.14/ORIG' (No such file or directory)
-icons/hicolor/48x48/apps/system-logo-icon.png: copy
-# icons/hicolor/36x36/apps/system-logo-icon.png = cannot open `/builddir/build/ORIGINAL/redhat-logos-60.0.14/ORIG' (No such file or directory)
-icons/hicolor/36x36/apps/system-logo-icon.png: copy
-# icons/hicolor/scalable/apps/xfce4_xicon1.svg = cannot open `/builddir/build/ORIGINAL/redhat-logos-60.0.14/ORIG' (No such file or directory)
+
+# pixmaps/system-logo-white.png = PNG image data, 225 x 80, 8-bit/color RGBA, non-interlaced
+pixmaps/system-logo-white.png: X=225 && Y=80 && L=80 && convert -size `expr $X - $L - 12`x${Y} -background none -fill white -font $FONT -gravity center label:"$NAME" name.png && convert -size ${X}x${Y} xc:none $TEMP && composite -geometry +`expr $L + 4`+0 name.png $TEMP $TEMP && composite -geometry ${L}x${L}+4+`expr \( $Y - $L \) / 2`  $LOGO $TEMP $FILE
+
+
+# pixmaps/system-logo.png = PNG image data, 521 x 164, 8-bit/color RGBA, non-interlaced
+pixmaps/system-logo.png: X=521 && Y=164 && L=160 && convert -size `expr $X - $L - 12`x${Y} -background none -fill white -font $FONT -gravity center label:"$NAME" name.png && convert -size ${X}x${Y} xc:none $TEMP && composite -geometry +`expr $L + 4`+0 name.png $TEMP $TEMP && composite -geometry ${L}x${L}+4+`expr \( $Y - $L \) / 2`  $LOGO $TEMP $FILE
+
+
+# pixmaps/poweredby.png = PNG image data, 88 x 31, 8-bit/color RGB, non-interlaced
+pixmaps/poweredby.png: X=88 && Y=31 && L=30 && convert -size `expr $X - $L - 12`x${Y} -background none -fill white -font $FONT -gravity center label:"$NAME" name.png && convert -size ${X}x${Y} xc:none $TEMP && composite -geometry +`expr $L + 4`+0 name.png $TEMP $TEMP && composite -geometry ${L}x${L}+4+`expr \( $Y - $L \) / 2`  $LOGO $TEMP $FILE
+
+# pixmaps/system-logo-small.png = PNG image data, 150 x 47, 8-bit/color RGBA, non-interlaced
+pixmaps/system-logo-small.png: X=150 && Y=47 && L=44 && convert -size `expr $X - $L - 12`x${Y} -background none -fill white -font $FONT -gravity center label:"$NAME" name.png && convert -size ${X}x${Y} xc:none $TEMP && composite -geometry +`expr $L + 4`+0 name.png $TEMP $TEMP && composite -geometry ${L}x${L}+4+`expr \( $Y - $L \) / 2`  $LOGO $TEMP $FILE
+
+# pixmaps/system-release-white.png = PNG image data, 722 x 129, 8-bit/color RGBA, non-interlaced
+pixmaps/system-release-white.png: X=722 && Y=129 && L=120 && convert -size `expr $X - $L - 12`x${Y} -background none -fill white -font $FONT -gravity center label:"$NAME" name.png && convert -size ${X}x${Y} xc:none $TEMP && composite -geometry +`expr $L + 4`+0 name.png $TEMP $TEMP && composite -geometry ${L}x${L}+4+`expr \( $Y - $L \) / 2`  $LOGO $TEMP $FILE
+
+# icons/hicolor/48x48/apps/system-logo-icon.png = PNG image data, 48 x 48, 8-bit/color RGBA, non-interlaced
+icons/hicolor/48x48/apps/system-logo-icon.png: convert -size 48x48 -background none $LOGO $FILE
+
+# icons/hicolor/36x36/apps/system-logo-icon.png = PNG image data, 36 x 36, 8-bit/color RGBA, non-interlaced
+icons/hicolor/36x36/apps/system-logo-icon.png: convert -size 32x32 -background none $LOGO $FILE
+
+# icons/hicolor/scalable/apps/xfce4_xicon1.svg = SVG Scalable Vector Graphics image
 icons/hicolor/scalable/apps/xfce4_xicon1.svg: copy
-# icons/hicolor/96x96/apps/system-logo-icon.png = cannot open `/builddir/build/ORIGINAL/redhat-logos-60.0.14/ORIG' (No such file or directory)
-icons/hicolor/96x96/apps/system-logo-icon.png: copy
-# icons/hicolor/16x16/apps/system-logo-icon.png = cannot open `/builddir/build/ORIGINAL/redhat-logos-60.0.14/ORIG' (No such file or directory)
-icons/hicolor/16x16/apps/system-logo-icon.png: copy
-# icons/hicolor/32x32/apps/system-logo-icon.png = cannot open `/builddir/build/ORIGINAL/redhat-logos-60.0.14/ORIG' (No such file or directory)
-icons/hicolor/32x32/apps/system-logo-icon.png: copy
-# icons/hicolor/24x24/apps/system-logo-icon.png = cannot open `/builddir/build/ORIGINAL/redhat-logos-60.0.14/ORIG' (No such file or directory)
-icons/hicolor/24x24/apps/system-logo-icon.png: copy
-# debugfiles.list = cannot open `/builddir/build/ORIGINAL/redhat-logos-60.0.14/ORIG' (No such file or directory)
+
+# icons/hicolor/96x96/apps/system-logo-icon.png = PNG image data, 96 x 96, 8-bit/color RGBA, interlaced
+icons/hicolor/96x96/apps/system-logo-icon.png: false
+
+# icons/hicolor/16x16/apps/system-logo-icon.png = PNG image data, 16 x 16, 8-bit/color RGBA, interlaced
+icons/hicolor/16x16/apps/system-logo-icon.png: convert -size 16x16 -background none $LOGO $FILE
+
+# icons/hicolor/32x32/apps/system-logo-icon.png = PNG image data, 32 x 32, 8-bit/color RGBA, non-interlaced
+icons/hicolor/32x32/apps/system-logo-icon.png: convert -size 32x32 -background none $LOGO $FILE
+
+# icons/hicolor/24x24/apps/system-logo-icon.png = PNG image data, 24 x 24, 8-bit/color RGBA, interlaced
+icons/hicolor/24x24/apps/system-logo-icon.png: convert -size 24x24 -background none $LOGO $FILE
+
+# debugfiles.list = empty
 debugfiles.list: copy
-# kde-plasma/CentOS6/metadata.desktop = cannot open `/builddir/build/ORIGINAL/redhat-logos-60.0.14/ORIG' (No such file or directory)
-Name=CentOS 6
-X-KDE-PluginInfo-Name=CentOS6
-X-KDE-PluginInfo-Author=CentOS
-kde-plasma/CentOS6/metadata.desktop: false
-# kde-plasma/CentOS6/contents/images/1920x1200.png = cannot open `/builddir/build/ORIGINAL/redhat-logos-60.0.14/ORIG' (No such file or directory)
-kde-plasma/CentOS6/contents/images/1920x1200.png: copy
-# kde-plasma/CentOS6/contents/images/simple_waves.jpg = cannot open `/builddir/build/ORIGINAL/redhat-logos-60.0.14/ORIG' (No such file or directory)
-kde-plasma/CentOS6/contents/images/simple_waves.jpg: copy
-# kde-plasma/CentOS6/contents/images/1920x1440.png = cannot open `/builddir/build/ORIGINAL/redhat-logos-60.0.14/ORIG' (No such file or directory)
-kde-plasma/CentOS6/contents/images/1920x1440.png: copy
-# COPYING = cannot open `/builddir/build/ORIGINAL/redhat-logos-60.0.14/ORIG' (No such file or directory)
-incorporate the CentOS trademark, and CentOS logo (the "Marks"). 
-The CentOS Project grants you the right to use the Package during the
-Package.  The CentOS Project grants to you the right and license to copy
-CentOS.
-DISCLAIMED.  IN NO EVENT SHALL THE CENTOS PROJECT. BE LIABLE FOR ANY
-COPYING: false
-# kde-splash/CentOS6/1920x1200/progressbar1.png = cannot open `/builddir/build/ORIGINAL/redhat-logos-60.0.14/ORIG' (No such file or directory)
+
+# kde-plasma/CentOS6/metadata.desktop = ASCII text
+# Name=CentOS 6
+# X-KDE-PluginInfo-Name=CentOS6
+# X-KDE-PluginInfo-Author=CentOS
+kde-plasma/CentOS6/metadata.desktop: patch
+
+# kde-plasma/CentOS6/contents/images/1920x1200.png = PNG image data, 1920 x 1200, 8-bit/color RGBA, non-interlaced
+kde-plasma/CentOS6/contents/images/1920x1200.png: X=1920 && Y=1200 && L=`expr $X / 20` && convert -size ${X}x${Y} xc:$BACK $TEMP && composite -geometry ${L}x${L}+`expr $X - $L - 10`+`expr $Y - $L - 10` $LOGO $TEMP $FILE
+
+# kde-plasma/CentOS6/contents/images/simple_waves.jpg = JPEG image data, JFIF standard 1.02
+kde-plasma/CentOS6/contents/images/simple_waves.jpg: X=1920 && Y=1200 && L=`expr $X / 20` && convert -size ${X}x${Y} xc:$BACK $TEMP && composite -geometry ${L}x${L}+`expr $X - $L - 10`+`expr $Y - $L - 10` $LOGO $TEMP $FILE
+
+# kde-plasma/CentOS6/contents/images/1920x1440.png = PNG image data, 1920 x 1440, 8-bit/color RGBA, non-interlaced
+kde-plasma/CentOS6/contents/images/1920x1440.png: X=1920 && Y=1440 && L=`expr $X / 20` && convert -size ${X}x${Y} xc:$BACK $TEMP && composite -geometry ${L}x${L}+`expr $X - $L - 10`+`expr $Y - $L - 10` $LOGO $TEMP $FILE
+
+# COPYING = ASCII English text
+# incorporate the CentOS trademark, and CentOS logo (the "Marks"). 
+# The CentOS Project grants you the right to use the Package during the
+# Package.  The CentOS Project grants to you the right and license to copy
+# CentOS.
+# DISCLAIMED.  IN NO EVENT SHALL THE CENTOS PROJECT. BE LIABLE FOR ANY
+COPYING: patch
+
+# kde-splash/CentOS6/1920x1200/progressbar1.png = PNG image data, 35 x 3, 8-bit/color RGBA, non-interlaced
 kde-splash/CentOS6/1920x1200/progressbar1.png: copy
-# kde-splash/CentOS6/1920x1200/progressbar4.png = cannot open `/builddir/build/ORIGINAL/redhat-logos-60.0.14/ORIG' (No such file or directory)
+
+# kde-splash/CentOS6/1920x1200/progressbar4.png = PNG image data, 145 x 3, 8-bit/color RGBA, non-interlaced
 kde-splash/CentOS6/1920x1200/progressbar4.png: copy
-# kde-splash/CentOS6/1920x1200/progressbar3.png = cannot open `/builddir/build/ORIGINAL/redhat-logos-60.0.14/ORIG' (No such file or directory)
+
+# kde-splash/CentOS6/1920x1200/progressbar3.png = PNG image data, 110 x 3, 8-bit/color RGBA, non-interlaced
 kde-splash/CentOS6/1920x1200/progressbar3.png: copy
-# kde-splash/CentOS6/1920x1200/progressbar2.png = cannot open `/builddir/build/ORIGINAL/redhat-logos-60.0.14/ORIG' (No such file or directory)
+
+# kde-splash/CentOS6/1920x1200/progressbar2.png = PNG image data, 75 x 3, 8-bit/color RGBA, non-interlaced
 kde-splash/CentOS6/1920x1200/progressbar2.png: copy
-# kde-splash/CentOS6/1920x1200/progressbar5.png = cannot open `/builddir/build/ORIGINAL/redhat-logos-60.0.14/ORIG' (No such file or directory)
+
+# kde-splash/CentOS6/1920x1200/progressbar5.png = PNG image data, 179 x 3, 8-bit/color RGBA, non-interlaced
 kde-splash/CentOS6/1920x1200/progressbar5.png: copy
-# kde-splash/CentOS6/1920x1200/description.txt = cannot open `/builddir/build/ORIGINAL/redhat-logos-60.0.14/ORIG' (No such file or directory)
+
+# kde-splash/CentOS6/1920x1200/description.txt = ASCII English text
 kde-splash/CentOS6/1920x1200/description.txt: copy
-# kde-splash/CentOS6/Theme.rc = cannot open `/builddir/build/ORIGINAL/redhat-logos-60.0.14/ORIG' (No such file or directory)
-[KSplash Theme: CentOS6]
-Name = CentOS6
-Description = CentOS 6 Theme
-Author = CentOS
-Homepage = http://centos.org
-kde-splash/CentOS6/Theme.rc: false
-# kde-splash/CentOS6/Preview.png = cannot open `/builddir/build/ORIGINAL/redhat-logos-60.0.14/ORIG' (No such file or directory)
-kde-splash/CentOS6/Preview.png: copy
-# gnome-screensaver/lock-dialog-system.glade = cannot open `/builddir/build/ORIGINAL/redhat-logos-60.0.14/ORIG' (No such file or directory)
+
+# kde-splash/CentOS6/Theme.rc = ASCII text
+# [KSplash Theme: CentOS6]
+# Name = CentOS6
+# Description = CentOS 6 Theme
+# Author = CentOS
+# Homepage = http://centos.org
+kde-splash/CentOS6/Theme.rc: patch
+
+# kde-splash/CentOS6/Preview.png = PNG image data, 400 x 235, 8-bit/color RGB, non-interlaced
+kde-splash/CentOS6/Preview.png: convert -size 400x235 -background grey -gravity center label:"Screenshot not available" $FILE
+
+# gnome-screensaver/lock-dialog-system.glade = XML  document text
 gnome-screensaver/lock-dialog-system.glade: copy
-# gnome-screensaver/lock-dialog-system.png = cannot open `/builddir/build/ORIGINAL/redhat-logos-60.0.14/ORIG' (No such file or directory)
-gnome-screensaver/lock-dialog-system.png: copy
-# gnome-screensaver/lock-dialog-system.gtkrc = cannot open `/builddir/build/ORIGINAL/redhat-logos-60.0.14/ORIG' (No such file or directory)
+
+# gnome-screensaver/lock-dialog-system.png = PNG image data, 400 x 314, 8-bit/color RGB, non-interlaced
+gnome-screensaver/lock-dialog-system.png: X=400 && Y=314 && L=`expr $X / 20` && convert -size ${X}x${Y} xc:$BACK $TEMP && composite -geometry ${L}x${L}+`expr $X - $L - 10`+`expr $Y - $L - 10` $LOGO $TEMP $FIL
+
+# gnome-screensaver/lock-dialog-system.gtkrc = ASCII C++ program text
 gnome-screensaver/lock-dialog-system.gtkrc: copy
-# redhat-pixmaps/rpmlogo-64.png = cannot open `/builddir/build/ORIGINAL/redhat-logos-60.0.14/ORIG' (No such file or directory)
-redhat-pixmaps/rpmlogo-64.png: copy
-# redhat-pixmaps/rpmlogo-mini.png = cannot open `/builddir/build/ORIGINAL/redhat-logos-60.0.14/ORIG' (No such file or directory)
-redhat-pixmaps/rpmlogo-mini.png: copy
-# redhat-pixmaps/rpmlogo-200.png = cannot open `/builddir/build/ORIGINAL/redhat-logos-60.0.14/ORIG' (No such file or directory)
-redhat-pixmaps/rpmlogo-200.png: copy
-# redhat-pixmaps/rpmlogo-32.png = cannot open `/builddir/build/ORIGINAL/redhat-logos-60.0.14/ORIG' (No such file or directory)
-redhat-pixmaps/rpmlogo-32.png: copy
-# redhat-pixmaps/shadowman-transparent.png = cannot open `/builddir/build/ORIGINAL/redhat-logos-60.0.14/ORIG' (No such file or directory)
-redhat-pixmaps/shadowman-transparent.png: copy
-# redhat-pixmaps/rhad.png = cannot open `/builddir/build/ORIGINAL/redhat-logos-60.0.14/ORIG' (No such file or directory)
+
+# redhat-pixmaps/rpmlogo-64.png = PNG image data, 64 x 64, 8-bit/color RGBA, non-interlaced
+redhat-pixmaps/rpmlogo-64.png: convert -size 64x64 -background none $LOGO $FILE
+
+# redhat-pixmaps/rpmlogo-mini.png = PNG image data, 24 x 24, 8-bit/color RGBA, non-interlaced
+redhat-pixmaps/rpmlogo-mini.png: convert -size 24x24 -background none $LOGO $FILE
+
+# redhat-pixmaps/rpmlogo-200.png = PNG image data, 200 x 200, 8-bit/color RGBA, non-interlaced
+redhat-pixmaps/rpmlogo-200.png: convert -size 200x200 -background none $LOGO $FILE
+
+# redhat-pixmaps/rpmlogo-32.png = PNG image data, 32 x 32, 8-bit/color RGBA, non-interlaced
+redhat-pixmaps/rpmlogo-32.png: convert -size 32x32 -background none $LOGO $FILE
+
+# redhat-pixmaps/shadowman-transparent.png = PNG image data, 517 x 515, 8-bit/color RGBA, non-interlaced
+redhat-pixmaps/shadowman-transparent.png: convert -size 515x515 -background none $LOGO $FILE
+
+# redhat-pixmaps/rhad.png = PNG image data, 291 x 380, 8-bit/color RGBA, non-interlaced
+# not sure why, but this appears all black?
+# TODO: examine RHEL version of this file
 redhat-pixmaps/rhad.png: copy
-# redhat-pixmaps/rpm.tif = cannot open `/builddir/build/ORIGINAL/redhat-logos-60.0.14/ORIG' (No such file or directory)
-redhat-pixmaps/rpm.tif: copy
-# redhat-pixmaps/rpmlogo-48.png = cannot open `/builddir/build/ORIGINAL/redhat-logos-60.0.14/ORIG' (No such file or directory)
-redhat-pixmaps/rpmlogo-48.png: copy
-# redhat-logos-60.0.14.tar.bz2 = cannot open `/builddir/build/ORIGINAL/redhat-logos-60.0.14/ORIG' (No such file or directory)
-redhat-logos-60.0.14.tar.bz2: copy
+
+# redhat-pixmaps/rpm.tif = TIFF image data, little-endian
+redhat-pixmaps/rpm.tif: convert -size 512x512 -background none $LOGO $FILE
+
+# redhat-pixmaps/rpmlogo-48.png = PNG image data, 48 x 48, 8-bit/color RGBA, non-interlaced
+redhat-pixmaps/rpmlogo-48.png: convert -size 48x48 -background none $LOGO $FILE
+
+# redhat-logos-60.0.14.tar.bz2 = bzip2 compressed data, block size = 900k
+redhat-logos-60.0.14.tar.bz2: # discard

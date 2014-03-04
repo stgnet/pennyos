@@ -1,5 +1,4 @@
-# Patchlist created Sat Mar  1 18:39:19 CST 2014
-# evo-crash.patch = cannot open `/builddir/build/SOURCES/ORIG' (No such file or directory)
+# Patchlist created Mon Mar  3 21:16:39 CST 2014
+
+# evo-crash.patch = unified diff output text 
 evo-crash.patch: copy
-# at-spi-1.28.1.tar.bz2 = cannot open `/builddir/build/SOURCES/ORIG' (No such file or directory)
-at-spi-1.28.1.tar.bz2: copy

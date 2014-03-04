@@ -1,0 +1,1552 @@
+# Patchlist created Mon Mar  3 21:43:05 CST 2014
+
+# configure.in = ASCII M4 macro language pre-processor text
+configure.in: copy
+
+# login-helper/login-helper.h = ASCII C program text
+login-helper/login-helper.h: copy
+
+# login-helper/login-helper.c = ASCII C program text
+login-helper/login-helper.c: copy
+
+# login-helper/Makefile.am = ASCII text
+login-helper/Makefile.am: copy
+
+# login-helper/Makefile.in = ASCII English text
+login-helper/Makefile.in: copy
+
+# at-spi.schemas.in = XML  document text
+at-spi.schemas.in: copy
+
+# pyatspi/__init__.py = Python script text executable
+pyatspi/__init__.py: copy
+
+# pyatspi/Makefile.am = ASCII text
+pyatspi/Makefile.am: copy
+
+# pyatspi/accessible.py = Python script text executable
+pyatspi/accessible.py: copy
+
+# pyatspi/registry.py = Python script text executable
+pyatspi/registry.py: copy
+
+# pyatspi/ChangeLog = ASCII English text
+pyatspi/ChangeLog: copy
+
+# pyatspi/__init__.py.in = Python script text executable
+pyatspi/__init__.py.in: copy
+
+# pyatspi/event.py = Python script text executable
+pyatspi/event.py: copy
+
+# pyatspi/constants.py = Python script text executable
+pyatspi/constants.py: copy
+
+# pyatspi/utils.py = Python script text executable
+pyatspi/utils.py: copy
+
+# pyatspi/Makefile.in = ASCII English text
+pyatspi/Makefile.in: copy
+
+# INSTALL = ASCII English text
+INSTALL: copy
+
+# NEWS = UTF-8 Unicode English text
+NEWS: copy
+
+# aclocal.m4 = ASCII English text, with very long lines
+aclocal.m4: copy
+
+# Makefile.am = ASCII text
+Makefile.am: copy
+
+# config.guess = POSIX shell script text executable
+config.guess: copy
+
+# gtk-doc.make = ASCII C++ program text
+gtk-doc.make: copy
+
+# config.h.in = ASCII C program text
+config.h.in: copy
+
+# libspi-1.0-uninstalled.pc.in = ASCII text
+libspi-1.0-uninstalled.pc.in: copy
+
+# README = ASCII English text
+README: copy
+
+# docs/Makefile.am = ASCII text
+docs/Makefile.am: copy
+
+# docs/Makefile.in = ASCII English text
+docs/Makefile.in: copy
+
+# docs/reference/Makefile.am = ASCII text
+docs/reference/Makefile.am: copy
+
+# docs/reference/idl/html/structAccessibility_1_1KeyDefinition.html = HTML document text
+docs/reference/idl/html/structAccessibility_1_1KeyDefinition.html: copy
+
+# docs/reference/idl/html/interfaceAccessibility_1_1Desktop.html = HTML document text
+docs/reference/idl/html/interfaceAccessibility_1_1Desktop.html: copy
+
+# docs/reference/idl/html/namespaces.html = HTML document text
+docs/reference/idl/html/namespaces.html: copy
+
+# docs/reference/idl/html/Accessibility__Accessible_8idl.html = HTML document text
+docs/reference/idl/html/Accessibility__Accessible_8idl.html: copy
+
+# docs/reference/idl/html/Accessibility__State_8idl_source.html = HTML document text
+docs/reference/idl/html/Accessibility__State_8idl_source.html: copy
+
+# docs/reference/idl/html/interfaceAccessibility_1_1EventListener.png = PNG image data, 166 x 80, 4-bit colormap, non-interlaced
+docs/reference/idl/html/interfaceAccessibility_1_1EventListener.png: copy
+
+# docs/reference/idl/html/exceptionAccessibility_1_1ContentStream_1_1NotSupported.html = HTML document text
+docs/reference/idl/html/exceptionAccessibility_1_1ContentStream_1_1NotSupported.html: copy
+
+# docs/reference/idl/html/interfaceAccessibility_1_1Accessible.html = HTML document text
+docs/reference/idl/html/interfaceAccessibility_1_1Accessible.html: copy
+
+# docs/reference/idl/html/structAccessibility_1_1Command.html = HTML document text
+docs/reference/idl/html/structAccessibility_1_1Command.html: copy
+
+# docs/reference/idl/html/Accessibility__Table_8idl.html = HTML document text
+docs/reference/idl/html/Accessibility__Table_8idl.html: copy
+
+# docs/reference/idl/html/Accessibility__Relation_8idl_source.html = HTML document text
+docs/reference/idl/html/Accessibility__Relation_8idl_source.html: copy
+
+# docs/reference/idl/html/functions_0x70.html = HTML document text
+docs/reference/idl/html/functions_0x70.html: copy
+
+# docs/reference/idl/html/Accessibility__Relation_8idl.html = HTML document text
+docs/reference/idl/html/Accessibility__Relation_8idl.html: copy
+
+# docs/reference/idl/html/functions_0x64.html = HTML document text
+docs/reference/idl/html/functions_0x64.html: copy
+
+# docs/reference/idl/html/interfaceAccessibility_1_1Collection.html = HTML document text
+docs/reference/idl/html/interfaceAccessibility_1_1Collection.html: copy
+
+# docs/reference/idl/html/Accessibility__Action_8idl_source.html = HTML document text
+docs/reference/idl/html/Accessibility__Action_8idl_source.html: copy
+
+# docs/reference/idl/html/dirs.html = HTML document text
+docs/reference/idl/html/dirs.html: copy
+
+# docs/reference/idl/html/interfaceAccessibility_1_1Image.html = HTML document text
+docs/reference/idl/html/interfaceAccessibility_1_1Image.html: copy
+
+# docs/reference/idl/html/interfaceAccessibility_1_1Component.html = HTML document text
+docs/reference/idl/html/interfaceAccessibility_1_1Component.html: copy
+
+# docs/reference/idl/html/functions_0x72.html = HTML document text
+docs/reference/idl/html/functions_0x72.html: copy
+
+# docs/reference/idl/html/exceptionAccessibility_1_1ContentStream_1_1IOError.html = HTML document text
+docs/reference/idl/html/exceptionAccessibility_1_1ContentStream_1_1IOError.html: copy
+
+# docs/reference/idl/html/functions_0x68.html = HTML document text
+docs/reference/idl/html/functions_0x68.html: copy
+
+# docs/reference/idl/html/functions_0x74.html = HTML document text
+docs/reference/idl/html/functions_0x74.html: copy
+
+# docs/reference/idl/html/functions_0x69.html = HTML document text
+docs/reference/idl/html/functions_0x69.html: copy
+
+# docs/reference/idl/html/interfaceAccessibility_1_1StreamableContent.html = HTML document text
+docs/reference/idl/html/interfaceAccessibility_1_1StreamableContent.html: copy
+
+# docs/reference/idl/html/namespacemembers_eval.html = HTML document text
+docs/reference/idl/html/namespacemembers_eval.html: copy
+
+# docs/reference/idl/html/interfaceAccessibility_1_1Document.html = HTML document text
+docs/reference/idl/html/interfaceAccessibility_1_1Document.html: copy
+
+# docs/reference/idl/html/interfaceAccessibility_1_1EditableText.html = HTML document text
+docs/reference/idl/html/interfaceAccessibility_1_1EditableText.html: copy
+
+# docs/reference/idl/html/dir_ee39139619505595933c7dd613b47914.html = HTML document text
+docs/reference/idl/html/dir_ee39139619505595933c7dd613b47914.html: copy
+
+# docs/reference/idl/html/Accessibility__Action_8idl.html = HTML document text
+docs/reference/idl/html/Accessibility__Action_8idl.html: copy
+
+# docs/reference/idl/html/Accessibility__Hyperlink_8idl_source.html = HTML document text
+docs/reference/idl/html/Accessibility__Hyperlink_8idl_source.html: copy
+
+# docs/reference/idl/html/functions_enum.html = HTML document text
+docs/reference/idl/html/functions_enum.html: copy
+
+# docs/reference/idl/html/namespacemembers_enum.html = HTML document text
+docs/reference/idl/html/namespacemembers_enum.html: copy
+
+# docs/reference/idl/html/functions_0x77.html = HTML document text
+docs/reference/idl/html/functions_0x77.html: copy
+
+# docs/reference/idl/html/namespaceAccessibility.html = HTML document text
+docs/reference/idl/html/namespaceAccessibility.html: copy
+
+# docs/reference/idl/html/Accessibility__StreamableContent_8idl_source.html = HTML document text
+docs/reference/idl/html/Accessibility__StreamableContent_8idl_source.html: copy
+
+# docs/reference/idl/html/Accessibility__Value_8idl_source.html = HTML document text
+docs/reference/idl/html/Accessibility__Value_8idl_source.html: copy
+
+# docs/reference/idl/html/interfaceAccessibility_1_1Table.html = HTML document text
+docs/reference/idl/html/interfaceAccessibility_1_1Table.html: copy
+
+# docs/reference/idl/html/functions_0x78.html = HTML document text
+docs/reference/idl/html/functions_0x78.html: copy
+
+# docs/reference/idl/html/classes.html = HTML document text
+docs/reference/idl/html/classes.html: copy
+
+# docs/reference/idl/html/Accessibility__Collection_8idl_source.html = HTML document text
+docs/reference/idl/html/Accessibility__Collection_8idl_source.html: copy
+
+# docs/reference/idl/html/Accessibility__Desktop_8idl.html = HTML document text
+docs/reference/idl/html/Accessibility__Desktop_8idl.html: copy
+
+# docs/reference/idl/html/interfaceAccessibility_1_1Text.png = PNG image data, 157 x 80, 4-bit colormap, non-interlaced
+docs/reference/idl/html/interfaceAccessibility_1_1Text.png: copy
+
+# docs/reference/idl/html/Accessibility__Registry_8idl_source.html = HTML document text
+docs/reference/idl/html/Accessibility__Registry_8idl_source.html: copy
+
+# docs/reference/idl/html/functions_0x6e.html = HTML document text
+docs/reference/idl/html/functions_0x6e.html: copy
+
+# docs/reference/idl/html/namespacemembers_0x64.html = HTML document text
+docs/reference/idl/html/namespacemembers_0x64.html: copy
+
+# docs/reference/idl/html/interfaceAccessibility_1_1Hypertext.html = HTML document text
+docs/reference/idl/html/interfaceAccessibility_1_1Hypertext.html: copy
+
+# docs/reference/idl/html/interfaceAccessibility_1_1DeviceEventController.html = HTML document text
+docs/reference/idl/html/interfaceAccessibility_1_1DeviceEventController.html: copy
+
+# docs/reference/idl/html/namespacemembers_0x73.html = HTML document text
+docs/reference/idl/html/namespacemembers_0x73.html: copy
+
+# docs/reference/idl/html/Accessibility__Application_8idl.html = HTML document text
+docs/reference/idl/html/Accessibility__Application_8idl.html: copy
+
+# docs/reference/idl/html/functions_0x6c.html = HTML document text
+docs/reference/idl/html/functions_0x6c.html: copy
+
+# docs/reference/idl/html/structAccessibility_1_1LoginHelper_1_1WindowInfo.html = HTML document text
+docs/reference/idl/html/structAccessibility_1_1LoginHelper_1_1WindowInfo.html: copy
+
+# docs/reference/idl/html/annotated.html = HTML document text
+docs/reference/idl/html/annotated.html: copy
+
+# docs/reference/idl/html/structAccessibility_1_1DeviceEvent.html = HTML document text
+docs/reference/idl/html/structAccessibility_1_1DeviceEvent.html: copy
+
+# docs/reference/idl/html/doxygen.css = ASCII C program text
+docs/reference/idl/html/doxygen.css: copy
+
+# docs/reference/idl/html/interfaceAccessibility_1_1Application.html = HTML document text
+docs/reference/idl/html/interfaceAccessibility_1_1Application.html: copy
+
+# docs/reference/idl/html/functions_0x6d.html = HTML document text
+docs/reference/idl/html/functions_0x6d.html: copy
+
+# docs/reference/idl/html/namespacemembers_0x74.html = HTML document text
+docs/reference/idl/html/namespacemembers_0x74.html: copy
+
+# docs/reference/idl/html/Accessibility__Component_8idl_source.html = HTML document text
+docs/reference/idl/html/Accessibility__Component_8idl_source.html: copy
+
+# docs/reference/idl/html/Accessibility__Event_8idl.html = HTML document text
+docs/reference/idl/html/Accessibility__Event_8idl.html: copy
+
+# docs/reference/idl/html/namespacemembers_0x65.html = HTML document text
+docs/reference/idl/html/namespacemembers_0x65.html: copy
+
+# docs/reference/idl/html/namespacemembers_0x62.html = HTML document text
+docs/reference/idl/html/namespacemembers_0x62.html: copy
+
+# docs/reference/idl/html/Accessibility__Hypertext_8idl.html = HTML document text
+docs/reference/idl/html/Accessibility__Hypertext_8idl.html: copy
+
+# docs/reference/idl/html/hierarchy.html = HTML document text
+docs/reference/idl/html/hierarchy.html: copy
+
+# docs/reference/idl/html/functions_0x6b.html = HTML document text
+docs/reference/idl/html/functions_0x6b.html: copy
+
+# docs/reference/idl/html/tab_r.gif = GIF image data, version 89a, 400 x 300
+docs/reference/idl/html/tab_r.gif: copy
+
+# docs/reference/idl/html/Accessibility__Selector_8idl_source.html = HTML document text
+docs/reference/idl/html/Accessibility__Selector_8idl_source.html: copy
+
+# docs/reference/idl/html/functions_0x65.html = HTML document text
+docs/reference/idl/html/functions_0x65.html: copy
+
+# docs/reference/idl/html/namespacemembers_0x6c.html = HTML document text
+docs/reference/idl/html/namespacemembers_0x6c.html: copy
+
+# docs/reference/idl/html/Accessibility_8idl_source.html = HTML document text
+docs/reference/idl/html/Accessibility_8idl_source.html: copy
+
+# docs/reference/idl/html/Accessibility__Text_8idl_source.html = HTML document text
+docs/reference/idl/html/Accessibility__Text_8idl_source.html: copy
+
+# docs/reference/idl/html/interfaceAccessibility_1_1Relation.html = HTML document text
+docs/reference/idl/html/interfaceAccessibility_1_1Relation.html: copy
+
+# docs/reference/idl/html/interfaceAccessibility_1_1Application.png = PNG image data, 152 x 80, 4-bit colormap, non-interlaced
+docs/reference/idl/html/interfaceAccessibility_1_1Application.png: copy
+
+# docs/reference/idl/html/namespacemembers.html = HTML document text
+docs/reference/idl/html/namespacemembers.html: copy
+
+# docs/reference/idl/html/interfaceAccessibility_1_1MatchRule.html = HTML document text
+docs/reference/idl/html/interfaceAccessibility_1_1MatchRule.html: copy
+
+# docs/reference/idl/html/Accessibility__Event_8idl_source.html = HTML document text
+docs/reference/idl/html/Accessibility__Event_8idl_source.html: copy
+
+# docs/reference/idl/html/functions_eval.html = HTML document text
+docs/reference/idl/html/functions_eval.html: copy
+
+# docs/reference/idl/html/Accessibility__Hypertext_8idl_source.html = HTML document text
+docs/reference/idl/html/Accessibility__Hypertext_8idl_source.html: copy
+
+# docs/reference/idl/html/namespacemembers_0x6d.html = HTML document text
+docs/reference/idl/html/namespacemembers_0x6d.html: copy
+
+# docs/reference/idl/html/functions.html = HTML document text
+docs/reference/idl/html/functions.html: copy
+
+# docs/reference/idl/html/functions_type.html = HTML document text
+docs/reference/idl/html/functions_type.html: copy
+
+# docs/reference/idl/html/functions_0x73.html = HTML document text
+docs/reference/idl/html/functions_0x73.html: copy
+
+# docs/reference/idl/html/namespacemembers_0x6b.html = HTML document text
+docs/reference/idl/html/namespacemembers_0x6b.html: copy
+
+# docs/reference/idl/html/interfaceAccessibility_1_1CommandListener.html = HTML document text
+docs/reference/idl/html/interfaceAccessibility_1_1CommandListener.html: copy
+
+# docs/reference/idl/html/tab_b.gif = GIF image data, version 89a, 1 x 1
+docs/reference/idl/html/tab_b.gif: copy
+
+# docs/reference/idl/html/Accessibility__Text_8idl.html = HTML document text
+docs/reference/idl/html/Accessibility__Text_8idl.html: copy
+
+# docs/reference/idl/html/functions_func.html = HTML document text
+docs/reference/idl/html/functions_func.html: copy
+
+# docs/reference/idl/html/structAccessibility_1_1Text_1_1Range.html = HTML document text
+docs/reference/idl/html/structAccessibility_1_1Text_1_1Range.html: copy
+
+# docs/reference/idl/html/Accessibility__State_8idl.html = HTML document text
+docs/reference/idl/html/Accessibility__State_8idl.html: copy
+
+# docs/reference/idl/html/namespacemembers_0x72.html = HTML document text
+docs/reference/idl/html/namespacemembers_0x72.html: copy
+
+# docs/reference/idl/html/Accessibility__Document_8idl.html = HTML document text
+docs/reference/idl/html/Accessibility__Document_8idl.html: copy
+
+# docs/reference/idl/html/interfaceAccessibility_1_1Selection.html = HTML document text
+docs/reference/idl/html/interfaceAccessibility_1_1Selection.html: copy
+
+# docs/reference/idl/html/namespacemembers_0x63.html = HTML document text
+docs/reference/idl/html/namespacemembers_0x63.html: copy
+
+# docs/reference/idl/html/interfaceAccessibility_1_1Hyperlink.html = HTML document text
+docs/reference/idl/html/interfaceAccessibility_1_1Hyperlink.html: copy
+
+# docs/reference/idl/html/interfaceAccessibility_1_1Accessible.png = PNG image data, 314 x 80, 4-bit colormap, non-interlaced
+docs/reference/idl/html/interfaceAccessibility_1_1Accessible.png: copy
+
+# docs/reference/idl/html/Accessibility__Document_8idl_source.html = HTML document text
+docs/reference/idl/html/Accessibility__Document_8idl_source.html: copy
+
+# docs/reference/idl/html/interfaceAccessibility_1_1Registry.png = PNG image data, 166 x 80, 4-bit colormap, non-interlaced
+docs/reference/idl/html/interfaceAccessibility_1_1Registry.png: copy
+
+# docs/reference/idl/html/structAccessibility_1_1EventListenerMode.html = HTML document text
+docs/reference/idl/html/structAccessibility_1_1EventListenerMode.html: copy
+
+# docs/reference/idl/html/files.html = HTML document text
+docs/reference/idl/html/files.html: copy
+
+# docs/reference/idl/html/functions_0x79.html = HTML document text
+docs/reference/idl/html/functions_0x79.html: copy
+
+# docs/reference/idl/html/interfaceAccessibility_1_1DeviceEventListener.html = HTML document text
+docs/reference/idl/html/interfaceAccessibility_1_1DeviceEventListener.html: copy
+
+# docs/reference/idl/html/functions_vars.html = HTML document text
+docs/reference/idl/html/functions_vars.html: copy
+
+# docs/reference/idl/html/Accessibility__Value_8idl.html = HTML document text
+docs/reference/idl/html/Accessibility__Value_8idl.html: copy
+
+# docs/reference/idl/html/Accessibility__StreamableContent_8idl.html = HTML document text
+docs/reference/idl/html/Accessibility__StreamableContent_8idl.html: copy
+
+# docs/reference/idl/html/Accessibility__EditableText_8idl.html = HTML document text
+docs/reference/idl/html/Accessibility__EditableText_8idl.html: copy
+
+# docs/reference/idl/html/tab_l.gif = GIF image data, version 89a, 9 x 300
+docs/reference/idl/html/tab_l.gif: copy
+
+# docs/reference/idl/html/Accessibility__LoginHelper_8idl.html = HTML document text
+docs/reference/idl/html/Accessibility__LoginHelper_8idl.html: copy
+
+# docs/reference/idl/html/Accessibility__Table_8idl_source.html = HTML document text
+docs/reference/idl/html/Accessibility__Table_8idl_source.html: copy
+
+# docs/reference/idl/html/Accessibility__Registry_8idl.html = HTML document text
+docs/reference/idl/html/Accessibility__Registry_8idl.html: copy
+
+# docs/reference/idl/html/index.html = HTML document text
+docs/reference/idl/html/index.html: copy
+
+# docs/reference/idl/html/tabs.css = ASCII C program text
+docs/reference/idl/html/tabs.css: copy
+
+# docs/reference/idl/html/Accessibility_8idl.html = HTML document text
+docs/reference/idl/html/Accessibility_8idl.html: copy
+
+# docs/reference/idl/html/structAccessibility_1_1BoundingBox.html = HTML document text
+docs/reference/idl/html/structAccessibility_1_1BoundingBox.html: copy
+
+# docs/reference/idl/html/Accessibility__Selection_8idl_source.html = HTML document text
+docs/reference/idl/html/Accessibility__Selection_8idl_source.html: copy
+
+# docs/reference/idl/html/interfaceAccessibility_1_1LoginHelper.html = HTML document text
+docs/reference/idl/html/interfaceAccessibility_1_1LoginHelper.html: copy
+
+# docs/reference/idl/html/Accessibility__Selection_8idl.html = HTML document text
+docs/reference/idl/html/Accessibility__Selection_8idl.html: copy
+
+# docs/reference/idl/html/functions_0x66.html = HTML document text
+docs/reference/idl/html/functions_0x66.html: copy
+
+# docs/reference/idl/html/Accessibility__Role_8idl.html = HTML document text
+docs/reference/idl/html/Accessibility__Role_8idl.html: copy
+
+# docs/reference/idl/html/functions_0x76.html = HTML document text
+docs/reference/idl/html/functions_0x76.html: copy
+
+# docs/reference/idl/html/Accessibility__Selector_8idl.html = HTML document text
+docs/reference/idl/html/Accessibility__Selector_8idl.html: copy
+
+# docs/reference/idl/html/functions_0x63.html = HTML document text
+docs/reference/idl/html/functions_0x63.html: copy
+
+# docs/reference/idl/html/interfaceAccessibility_1_1Desktop.png = PNG image data, 151 x 80, 4-bit colormap, non-interlaced
+docs/reference/idl/html/interfaceAccessibility_1_1Desktop.png: copy
+
+# docs/reference/idl/html/interfaceAccessibility_1_1Selector.html = HTML document text
+docs/reference/idl/html/interfaceAccessibility_1_1Selector.html: copy
+
+# docs/reference/idl/html/Accessibility__Accessible_8idl_source.html = HTML document text
+docs/reference/idl/html/Accessibility__Accessible_8idl_source.html: copy
+
+# docs/reference/idl/html/Accessibility__Image_8idl.html = HTML document text
+docs/reference/idl/html/Accessibility__Image_8idl.html: copy
+
+# docs/reference/idl/html/structAccessibility_1_1Event.html = HTML document text
+docs/reference/idl/html/structAccessibility_1_1Event.html: copy
+
+# docs/reference/idl/html/interfaceAccessibility_1_1StateSet.html = HTML document text
+docs/reference/idl/html/interfaceAccessibility_1_1StateSet.html: copy
+
+# docs/reference/idl/html/Accessibility__Image_8idl_source.html = HTML document text
+docs/reference/idl/html/Accessibility__Image_8idl_source.html: copy
+
+# docs/reference/idl/html/Accessibility__Collection_8idl.html = HTML document text
+docs/reference/idl/html/Accessibility__Collection_8idl.html: copy
+
+# docs/reference/idl/html/exceptionAccessibility_1_1ContentStream_1_1NoPermission.html = HTML document text
+docs/reference/idl/html/exceptionAccessibility_1_1ContentStream_1_1NoPermission.html: copy
+
+# docs/reference/idl/html/interfaceAccessibility_1_1EditableText.png = PNG image data, 157 x 80, 4-bit colormap, non-interlaced
+docs/reference/idl/html/interfaceAccessibility_1_1EditableText.png: copy
+
+# docs/reference/idl/html/namespacemembers_type.html = HTML document text
+docs/reference/idl/html/namespacemembers_type.html: copy
+
+# docs/reference/idl/html/doxygen.png = PNG image data, 100 x 45, 8-bit colormap, non-interlaced
+docs/reference/idl/html/doxygen.png: copy
+
+# docs/reference/idl/html/functions_0x75.html = HTML document text
+docs/reference/idl/html/functions_0x75.html: copy
+
+# docs/reference/idl/html/interfaceAccessibility_1_1ContentStream.html = HTML document text
+docs/reference/idl/html/interfaceAccessibility_1_1ContentStream.html: copy
+
+# docs/reference/idl/html/Accessibility__Desktop_8idl_source.html = HTML document text
+docs/reference/idl/html/Accessibility__Desktop_8idl_source.html: copy
+
+# docs/reference/idl/html/Accessibility__Hyperlink_8idl.html = HTML document text
+docs/reference/idl/html/Accessibility__Hyperlink_8idl.html: copy
+
+# docs/reference/idl/html/interfaceAccessibility_1_1Text.html = HTML document text
+docs/reference/idl/html/interfaceAccessibility_1_1Text.html: copy
+
+# docs/reference/idl/html/Accessibility__EditableText_8idl_source.html = HTML document text
+docs/reference/idl/html/Accessibility__EditableText_8idl_source.html: copy
+
+# docs/reference/idl/html/Accessibility__LoginHelper_8idl_source.html = HTML document text
+docs/reference/idl/html/Accessibility__LoginHelper_8idl_source.html: copy
+
+# docs/reference/idl/html/Accessibility__Role_8idl_source.html = HTML document text
+docs/reference/idl/html/Accessibility__Role_8idl_source.html: copy
+
+# docs/reference/idl/html/Accessibility__Application_8idl_source.html = HTML document text
+docs/reference/idl/html/Accessibility__Application_8idl_source.html: copy
+
+# docs/reference/idl/html/interfaceAccessibility_1_1Action.html = HTML document text
+docs/reference/idl/html/interfaceAccessibility_1_1Action.html: copy
+
+# docs/reference/idl/html/interfaceAccessibility_1_1EventListener.html = HTML document text
+docs/reference/idl/html/interfaceAccessibility_1_1EventListener.html: copy
+
+# docs/reference/idl/html/interfaceAccessibility_1_1Registry.html = HTML document text
+docs/reference/idl/html/interfaceAccessibility_1_1Registry.html: copy
+
+# docs/reference/idl/html/structAccessibility_1_1EventDetails.html = HTML document text
+docs/reference/idl/html/structAccessibility_1_1EventDetails.html: copy
+
+# docs/reference/idl/html/interfaceAccessibility_1_1Value.html = HTML document text
+docs/reference/idl/html/interfaceAccessibility_1_1Value.html: copy
+
+# docs/reference/idl/html/Accessibility__Component_8idl.html = HTML document text
+docs/reference/idl/html/Accessibility__Component_8idl.html: copy
+
+# docs/reference/idl/html/functions_0x67.html = HTML document text
+docs/reference/idl/html/functions_0x67.html: copy
+
+# docs/reference/idl/Makefile.am = ASCII English text
+docs/reference/idl/Makefile.am: copy
+
+# docs/reference/idl/README = ASCII make commands text
+docs/reference/idl/README: copy
+
+# docs/reference/idl/Makefile.in = ASCII English text
+docs/reference/idl/Makefile.in: copy
+
+# docs/reference/idl/Doxyfile = ASCII English text
+docs/reference/idl/Doxyfile: copy
+
+# docs/reference/cspi/html/home.png = PNG image data, 24 x 24, 8-bit/color RGBA, non-interlaced
+docs/reference/cspi/html/home.png: copy
+
+# docs/reference/cspi/html/index.sgml = ASCII text
+docs/reference/cspi/html/index.sgml: copy
+
+# docs/reference/cspi/html/at-spi-cspi-AccessibleImage-Interface.html = HTML document text
+docs/reference/cspi/html/at-spi-cspi-AccessibleImage-Interface.html: copy
+
+# docs/reference/cspi/html/at-spi-cspi-AccessibleHypertext-Interface.html = HTML document text
+docs/reference/cspi/html/at-spi-cspi-AccessibleHypertext-Interface.html: copy
+
+# docs/reference/cspi/html/right.png = PNG image data, 24 x 24, 8-bit/color RGBA, non-interlaced
+docs/reference/cspi/html/right.png: copy
+
+# docs/reference/cspi/html/at-spi-cspi.devhelp2 = XML  document text
+docs/reference/cspi/html/at-spi-cspi.devhelp2: copy
+
+# docs/reference/cspi/html/spi-application.html = HTML document text
+docs/reference/cspi/html/spi-application.html: copy
+
+# docs/reference/cspi/html/left.png = PNG image data, 24 x 24, 8-bit/color RGBA, non-interlaced
+docs/reference/cspi/html/left.png: copy
+
+# docs/reference/cspi/html/at-spi-cspi-Accessible-Objects.html = HTML document text
+docs/reference/cspi/html/at-spi-cspi-Accessible-Objects.html: copy
+
+# docs/reference/cspi/html/at-spi-cspi-SPI-main-loop-and-initialization.html = HTML document text
+docs/reference/cspi/html/at-spi-cspi-SPI-main-loop-and-initialization.html: copy
+
+# docs/reference/cspi/html/at-spi-cspi-AccessibleHyperlink-Interface.html = HTML document text
+docs/reference/cspi/html/at-spi-cspi-AccessibleHyperlink-Interface.html: copy
+
+# docs/reference/cspi/html/at-spi-cspi-AccessibleStreamableContent-Interface.html = HTML document text
+docs/reference/cspi/html/at-spi-cspi-AccessibleStreamableContent-Interface.html: copy
+
+# docs/reference/cspi/html/spi-main.html = HTML document text
+docs/reference/cspi/html/spi-main.html: copy
+
+# docs/reference/cspi/html/spi-accessible.html = HTML document text
+docs/reference/cspi/html/spi-accessible.html: copy
+
+# docs/reference/cspi/html/at-spi-cspi-AccessibleSelection-Interface.html = HTML document text
+docs/reference/cspi/html/at-spi-cspi-AccessibleSelection-Interface.html: copy
+
+# docs/reference/cspi/html/spi-component.html = HTML document text
+docs/reference/cspi/html/spi-component.html: copy
+
+# docs/reference/cspi/html/at-spi-cspi-AccessibleComponent-Interface.html = HTML document text
+docs/reference/cspi/html/at-spi-cspi-AccessibleComponent-Interface.html: copy
+
+# docs/reference/cspi/html/up.png = PNG image data, 24 x 24, 8-bit/color RGBA, non-interlaced
+docs/reference/cspi/html/up.png: copy
+
+# docs/reference/cspi/html/at-spi-cspi-AccessibleDocument-Interface.html = HTML document text
+docs/reference/cspi/html/at-spi-cspi-AccessibleDocument-Interface.html: copy
+
+# docs/reference/cspi/html/at-spi-cspi-AccessibleText-Interface.html = HTML document text
+docs/reference/cspi/html/at-spi-cspi-AccessibleText-Interface.html: copy
+
+# docs/reference/cspi/html/at-spi-cspi-AccessibleAction-Interface.html = HTML document text
+docs/reference/cspi/html/at-spi-cspi-AccessibleAction-Interface.html: copy
+
+# docs/reference/cspi/html/style.css = ASCII C program text
+docs/reference/cspi/html/style.css: copy
+
+# docs/reference/cspi/html/at-spi-cspi-AccessibleEditableText-Interface.html = HTML document text
+docs/reference/cspi/html/at-spi-cspi-AccessibleEditableText-Interface.html: copy
+
+# docs/reference/cspi/html/at-spi-cspi-State-and-StateSets.html = HTML document text
+docs/reference/cspi/html/at-spi-cspi-State-and-StateSets.html: copy
+
+# docs/reference/cspi/html/ch05.html = HTML document text
+docs/reference/cspi/html/ch05.html: copy
+
+# docs/reference/cspi/html/at-spi-cspi-AccessibleValue-Interface.html = HTML document text
+docs/reference/cspi/html/at-spi-cspi-AccessibleValue-Interface.html: copy
+
+# docs/reference/cspi/html/at-spi-cspi-Event-Listener-Support.html = HTML document text
+docs/reference/cspi/html/at-spi-cspi-Event-Listener-Support.html: copy
+
+# docs/reference/cspi/html/at-spi-cspi-AccessibleTable-Interface.html = HTML document text
+docs/reference/cspi/html/at-spi-cspi-AccessibleTable-Interface.html: copy
+
+# docs/reference/cspi/html/at-spi-cspi-AccessibleApplication-API.html = HTML document text
+docs/reference/cspi/html/at-spi-cspi-AccessibleApplication-API.html: copy
+
+# docs/reference/cspi/html/index.html = HTML document text
+docs/reference/cspi/html/index.html: copy
+
+# docs/reference/cspi/html/at-spi-cspi-AccessibleRelations-and-RelationSets.html = HTML document text
+docs/reference/cspi/html/at-spi-cspi-AccessibleRelations-and-RelationSets.html: copy
+
+# docs/reference/cspi/html/at-spi-cspi-Registry-queries.html = HTML document text
+docs/reference/cspi/html/at-spi-cspi-Registry-queries.html: copy
+
+# docs/reference/cspi/html/at-spi-cspi.devhelp = XML  document text
+docs/reference/cspi/html/at-spi-cspi.devhelp: copy
+
+# docs/reference/cspi/tmpl/spi_selection.sgml = exported SGML document text
+docs/reference/cspi/tmpl/spi_selection.sgml: copy
+
+# docs/reference/cspi/tmpl/spi_application.sgml = exported SGML document text
+docs/reference/cspi/tmpl/spi_application.sgml: copy
+
+# docs/reference/cspi/tmpl/spi_registry.sgml = exported SGML document text
+docs/reference/cspi/tmpl/spi_registry.sgml: copy
+
+# docs/reference/cspi/tmpl/spi_document.sgml = exported SGML document text
+docs/reference/cspi/tmpl/spi_document.sgml: copy
+
+# docs/reference/cspi/tmpl/spi_hyperlink.sgml = exported SGML document text
+docs/reference/cspi/tmpl/spi_hyperlink.sgml: copy
+
+# docs/reference/cspi/tmpl/spi_value.sgml = exported SGML document text
+docs/reference/cspi/tmpl/spi_value.sgml: copy
+
+# docs/reference/cspi/tmpl/spi_event.sgml = exported SGML document text
+docs/reference/cspi/tmpl/spi_event.sgml: copy
+
+# docs/reference/cspi/tmpl/spi_table.sgml = exported SGML document text
+docs/reference/cspi/tmpl/spi_table.sgml: copy
+
+# docs/reference/cspi/tmpl/spi_streamable_content.sgml = exported SGML document text
+docs/reference/cspi/tmpl/spi_streamable_content.sgml: copy
+
+# docs/reference/cspi/tmpl/spi_text.sgml = exported SGML document text
+docs/reference/cspi/tmpl/spi_text.sgml: copy
+
+# docs/reference/cspi/tmpl/spi_hypertext.sgml = exported SGML document text
+docs/reference/cspi/tmpl/spi_hypertext.sgml: copy
+
+# docs/reference/cspi/tmpl/spi_component.sgml = exported SGML document text
+docs/reference/cspi/tmpl/spi_component.sgml: copy
+
+# docs/reference/cspi/tmpl/spi_accessible.sgml = exported SGML document text
+docs/reference/cspi/tmpl/spi_accessible.sgml: copy
+
+# docs/reference/cspi/tmpl/at-spi-cspi-unused.sgml = empty
+docs/reference/cspi/tmpl/at-spi-cspi-unused.sgml: copy
+
+# docs/reference/cspi/tmpl/spi_image.sgml = exported SGML document text
+docs/reference/cspi/tmpl/spi_image.sgml: copy
+
+# docs/reference/cspi/tmpl/spi_editabletext.sgml = exported SGML document text
+docs/reference/cspi/tmpl/spi_editabletext.sgml: copy
+
+# docs/reference/cspi/tmpl/spi_relation.sgml = exported SGML document text
+docs/reference/cspi/tmpl/spi_relation.sgml: copy
+
+# docs/reference/cspi/tmpl/spi_main.sgml = exported SGML document text
+docs/reference/cspi/tmpl/spi_main.sgml: copy
+
+# docs/reference/cspi/tmpl/spi_stateset.sgml = exported SGML document text
+docs/reference/cspi/tmpl/spi_stateset.sgml: copy
+
+# docs/reference/cspi/tmpl/spi_action.sgml = exported SGML document text
+docs/reference/cspi/tmpl/spi_action.sgml: copy
+
+# docs/reference/cspi/Makefile.am = ASCII English text
+docs/reference/cspi/Makefile.am: copy
+
+# docs/reference/cspi/at-spi-cspi-docs.sgml = XML  document text
+docs/reference/cspi/at-spi-cspi-docs.sgml: copy
+
+# docs/reference/cspi/at-spi-cspi-sections.txt = ASCII text
+docs/reference/cspi/at-spi-cspi-sections.txt: copy
+
+# docs/reference/cspi/at-spi-cspi.types = empty
+docs/reference/cspi/at-spi-cspi.types: copy
+
+# docs/reference/cspi/at-spi-cspi-overrides.txt = empty
+docs/reference/cspi/at-spi-cspi-overrides.txt: copy
+
+# docs/reference/cspi/xml/spi_value.xml = ASCII English text, with very long lines
+docs/reference/cspi/xml/spi_value.xml: copy
+
+# docs/reference/cspi/xml/spi_action.xml = ASCII English text, with very long lines
+docs/reference/cspi/xml/spi_action.xml: copy
+
+# docs/reference/cspi/xml/spi_relation.xml = ASCII English text, with very long lines
+docs/reference/cspi/xml/spi_relation.xml: copy
+
+# docs/reference/cspi/xml/spi_editabletext.xml = ASCII English text, with very long lines
+docs/reference/cspi/xml/spi_editabletext.xml: copy
+
+# docs/reference/cspi/xml/spi_component.xml = ASCII English text, with very long lines
+docs/reference/cspi/xml/spi_component.xml: copy
+
+# docs/reference/cspi/xml/spi_application.xml = ASCII English text, with very long lines
+docs/reference/cspi/xml/spi_application.xml: copy
+
+# docs/reference/cspi/xml/spi_selection.xml = ASCII English text, with very long lines
+docs/reference/cspi/xml/spi_selection.xml: copy
+
+# docs/reference/cspi/xml/api-index-full.xml = ASCII text
+docs/reference/cspi/xml/api-index-full.xml: copy
+
+# docs/reference/cspi/xml/spi_event.xml = ASCII C program text, with very long lines
+docs/reference/cspi/xml/spi_event.xml: copy
+
+# docs/reference/cspi/xml/spi_main.xml = ASCII English text, with very long lines
+docs/reference/cspi/xml/spi_main.xml: copy
+
+# docs/reference/cspi/xml/spi_accessible.xml = ASCII C program text, with very long lines
+docs/reference/cspi/xml/spi_accessible.xml: copy
+
+# docs/reference/cspi/xml/api-index-AT-SPI 1.4.xml = ASCII text
+docs/reference/cspi/xml/api-index-AT-SPI 1.4.xml: copy
+
+# docs/reference/cspi/xml/spi_image.xml = ASCII English text, with very long lines
+docs/reference/cspi/xml/spi_image.xml: copy
+
+# docs/reference/cspi/xml/spi_table.xml = ASCII English text, with very long lines
+docs/reference/cspi/xml/spi_table.xml: copy
+
+# docs/reference/cspi/xml/api-index-deprecated.xml = ASCII text
+docs/reference/cspi/xml/api-index-deprecated.xml: copy
+
+# docs/reference/cspi/xml/spi_hyperlink.xml = ASCII English text, with very long lines
+docs/reference/cspi/xml/spi_hyperlink.xml: copy
+
+# docs/reference/cspi/xml/spi_streamable_content.xml = ASCII English text, with very long lines
+docs/reference/cspi/xml/spi_streamable_content.xml: copy
+
+# docs/reference/cspi/xml/spi_stateset.xml = ASCII C program text, with very long lines
+docs/reference/cspi/xml/spi_stateset.xml: copy
+
+# docs/reference/cspi/xml/spi_registry.xml = ASCII English text, with very long lines
+docs/reference/cspi/xml/spi_registry.xml: copy
+
+# docs/reference/cspi/xml/spi_hypertext.xml = ASCII English text, with very long lines
+docs/reference/cspi/xml/spi_hypertext.xml: copy
+
+# docs/reference/cspi/xml/spi_document.xml = ASCII English text, with very long lines
+docs/reference/cspi/xml/spi_document.xml: copy
+
+# docs/reference/cspi/xml/spi_text.xml = ASCII English text, with very long lines
+docs/reference/cspi/xml/spi_text.xml: copy
+
+# docs/reference/cspi/Makefile.in = ASCII English text
+docs/reference/cspi/Makefile.in: copy
+
+# docs/reference/Makefile.in = ASCII English text
+docs/reference/Makefile.in: copy
+
+# ChangeLog = UTF-8 Unicode English text, with LF, NEL line terminators
+ChangeLog: copy
+
+# idl/Accessibility_State.idl = UTF-8 Unicode C program text
+idl/Accessibility_State.idl: copy
+
+# idl/Accessibility_Registry.idl = UTF-8 Unicode C program text
+idl/Accessibility_Registry.idl: copy
+
+# idl/Accessibility_Application.idl = ASCII C program text
+idl/Accessibility_Application.idl: copy
+
+# idl/Accessibility_Desktop.idl = ASCII C program text
+idl/Accessibility_Desktop.idl: copy
+
+# idl/Makefile.am = ASCII text
+idl/Makefile.am: copy
+
+# idl/Accessibility_Component.idl = UTF-8 Unicode C program text
+idl/Accessibility_Component.idl: copy
+
+# idl/Accessibility_Relation.idl = UTF-8 Unicode C program text
+idl/Accessibility_Relation.idl: copy
+
+# idl/Accessibility_Image.idl = ASCII C program text
+idl/Accessibility_Image.idl: copy
+
+# idl/Accessibility_Selector.idl = ASCII C program text
+idl/Accessibility_Selector.idl: copy
+
+# idl/Accessibility_Hyperlink.idl = ASCII C program text
+idl/Accessibility_Hyperlink.idl: copy
+
+# idl/Accessibility_Value.idl = ASCII C program text
+idl/Accessibility_Value.idl: copy
+
+# idl/Accessibility_Collection.idl = ASCII C program text
+idl/Accessibility_Collection.idl: copy
+
+# idl/Accessibility_EditableText.idl = ASCII C program text
+idl/Accessibility_EditableText.idl: copy
+
+# idl/Accessibility_Action.idl = ASCII C program text
+idl/Accessibility_Action.idl: copy
+
+# idl/Accessibility_Document.idl = ASCII C program text
+idl/Accessibility_Document.idl: copy
+
+# idl/Accessibility_Text.idl = UTF-8 Unicode C program text
+idl/Accessibility_Text.idl: copy
+
+# idl/Accessibility_StreamableContent.idl = ASCII C program text
+idl/Accessibility_StreamableContent.idl: copy
+
+# idl/Accessibility_Selection.idl = ASCII C program text
+idl/Accessibility_Selection.idl: copy
+
+# idl/Accessibility_Role.idl = UTF-8 Unicode C program text
+idl/Accessibility_Role.idl: copy
+
+# idl/Accessibility_Hypertext.idl = ASCII C program text
+idl/Accessibility_Hypertext.idl: copy
+
+# idl/Accessibility.idl = LaTeX document text
+idl/Accessibility.idl: copy
+
+# idl/Accessibility_Accessible.idl = ASCII C program text
+idl/Accessibility_Accessible.idl: copy
+
+# idl/Accessibility_LoginHelper.idl = ASCII C program text
+idl/Accessibility_LoginHelper.idl: copy
+
+# idl/Accessibility_Event.idl = UTF-8 Unicode C program text
+idl/Accessibility_Event.idl: copy
+
+# idl/Accessibility_Table.idl = ASCII C program text
+idl/Accessibility_Table.idl: copy
+
+# idl/Makefile.in = ASCII English text
+idl/Makefile.in: copy
+
+# AUTHORS = ASCII English text
+AUTHORS: copy
+
+# TODO = ASCII English text
+TODO: copy
+
+# atk-bridge/Makefile.am = ASCII text
+atk-bridge/Makefile.am: copy
+
+# atk-bridge/bridge.c = ASCII C program text
+atk-bridge/bridge.c: copy
+
+# atk-bridge/Makefile.in = ASCII English text
+atk-bridge/Makefile.in: copy
+
+# install-sh = POSIX shell script text executable
+install-sh: copy
+
+# libspi-1.0.pc.in = ASCII text
+libspi-1.0.pc.in: copy
+
+# cspi-1.0-uninstalled.pc.in = ASCII text
+cspi-1.0-uninstalled.pc.in: copy
+
+# acconfig.h = ASCII text
+acconfig.h: copy
+
+# libloginhelper-1.0.pc.in = ASCII text
+libloginhelper-1.0.pc.in: copy
+
+# po/ps.po = UTF-8 Unicode English text
+po/ps.po: copy
+
+# po/sr@ije.po = UTF-8 Unicode English text
+po/sr@ije.po: copy
+
+# po/uk.po = UTF-8 Unicode English text
+po/uk.po: copy
+
+# po/wa.po = UTF-8 Unicode English text
+po/wa.po: copy
+
+# po/pt.po = UTF-8 Unicode English text
+po/pt.po: copy
+
+# po/te.po = UTF-8 Unicode English text
+po/te.po: copy
+
+# po/lt.po = UTF-8 Unicode PO (gettext message catalogue) text
+po/lt.po: copy
+
+# po/ml.po = UTF-8 Unicode English text
+po/ml.po: copy
+
+# po/da.po = UTF-8 Unicode English text
+po/da.po: copy
+
+# po/nl.po = ASCII English text
+po/nl.po: copy
+
+# po/en_GB.po = ASCII English text
+po/en_GB.po: copy
+
+# po/rw.po = UTF-8 Unicode English text
+po/rw.po: copy
+
+# po/nb.po = UTF-8 Unicode English text
+po/nb.po: copy
+
+# po/ku.po = UTF-8 Unicode English text
+po/ku.po: copy
+
+# po/or.po = UTF-8 Unicode English text
+po/or.po: copy
+
+# po/vi.po = UTF-8 Unicode PO (gettext message catalogue) text
+po/vi.po: copy
+
+# po/mai.po = UTF-8 Unicode English text
+po/mai.po: copy
+
+# po/id.po = ASCII English text
+po/id.po: copy
+
+# po/ug.po = UTF-8 Unicode English text
+po/ug.po: copy
+
+# po/tr.po = UTF-8 Unicode English text
+po/tr.po: copy
+
+# po/he.po = UTF-8 Unicode English text
+po/he.po: copy
+
+# po/mk.po = UTF-8 Unicode English text
+po/mk.po: copy
+
+# po/zh_CN.po = UTF-8 Unicode English text
+po/zh_CN.po: copy
+
+# po/bn.po = UTF-8 Unicode English text
+po/bn.po: copy
+
+# po/cs.po = UTF-8 Unicode English text
+po/cs.po: copy
+
+# po/as.po = UTF-8 Unicode English text
+po/as.po: copy
+
+# po/pa.po = UTF-8 Unicode PO (gettext message catalogue) text
+po/pa.po: copy
+
+# po/be@latin.po = UTF-8 Unicode English text
+po/be@latin.po: copy
+
+# po/ko.po = UTF-8 Unicode English text
+po/ko.po: copy
+
+# po/ja.po = UTF-8 Unicode English text
+po/ja.po: copy
+
+# po/de.po = UTF-8 Unicode English text
+po/de.po: copy
+
+# po/gu.po = UTF-8 Unicode PO (gettext message catalogue) text
+po/gu.po: copy
+
+# po/ChangeLog = UTF-8 Unicode English text
+po/ChangeLog: copy
+
+# po/kn.po = UTF-8 Unicode English text
+po/kn.po: copy
+
+# po/POTFILES.in = ASCII text
+po/POTFILES.in: copy
+
+# po/sr.po = UTF-8 Unicode English text
+po/sr.po: copy
+
+# po/eo.po = ASCII English text
+po/eo.po: copy
+
+# po/be.po = UTF-8 Unicode English text
+po/be.po: copy
+
+# po/eu.po = UTF-8 Unicode English text
+po/eu.po: copy
+
+# po/hi.po = UTF-8 Unicode English text
+po/hi.po: copy
+
+# po/bg.po = UTF-8 Unicode English text
+po/bg.po: copy
+
+# po/mr.po = UTF-8 Unicode English text
+po/mr.po: copy
+
+# po/ta.po = UTF-8 Unicode English text
+po/ta.po: copy
+
+# po/zh_HK.po = UTF-8 Unicode English text
+po/zh_HK.po: copy
+
+# po/ast.po = UTF-8 Unicode English text
+po/ast.po: copy
+
+# po/mn.po = UTF-8 Unicode English text
+po/mn.po: copy
+
+# po/lv.po = UTF-8 Unicode English text
+po/lv.po: copy
+
+# po/ru.po = UTF-8 Unicode English text
+po/ru.po: copy
+
+# po/cy.po = ASCII English text
+po/cy.po: copy
+
+# po/zh_TW.po = UTF-8 Unicode English text
+po/zh_TW.po: copy
+
+# po/fr.po = UTF-8 Unicode English text
+po/fr.po: copy
+
+# po/xh.po = ASCII English text
+po/xh.po: copy
+
+# po/fa.po = UTF-8 Unicode English text
+po/fa.po: copy
+
+# po/en_CA.po = ASCII English text
+po/en_CA.po: copy
+
+# po/ms.po = ASCII PO (gettext message catalogue) text
+po/ms.po: copy
+
+# po/sl.po = UTF-8 Unicode PO (gettext message catalogue) text
+po/sl.po: copy
+
+# po/sq.po = UTF-8 Unicode English text
+po/sq.po: copy
+
+# po/sr@latin.po = UTF-8 Unicode English text
+po/sr@latin.po: copy
+
+# po/crh.po = UTF-8 Unicode English text
+po/crh.po: copy
+
+# po/es.po = UTF-8 Unicode English text
+po/es.po: copy
+
+# po/ar.po = UTF-8 Unicode English text
+po/ar.po: copy
+
+# po/pt_BR.po = UTF-8 Unicode English text
+po/pt_BR.po: copy
+
+# po/fi.po = UTF-8 Unicode English text
+po/fi.po: copy
+
+# po/bs.po = UTF-8 Unicode English text
+po/bs.po: copy
+
+# po/ka.po = UTF-8 Unicode English text
+po/ka.po: copy
+
+# po/ro.po = UTF-8 Unicode English text
+po/ro.po: copy
+
+# po/ang.po = UTF-8 Unicode English text
+po/ang.po: copy
+
+# po/ca.po = UTF-8 Unicode English text
+po/ca.po: copy
+
+# po/hu.po = UTF-8 Unicode English text
+po/hu.po: copy
+
+# po/ca@valencia.po = UTF-8 Unicode English text
+po/ca@valencia.po: copy
+
+# po/pl.po = UTF-8 Unicode PO (gettext message catalogue) text
+po/pl.po: copy
+
+# po/Makefile.in.in = ASCII Pascal program text
+po/Makefile.in.in: copy
+
+# po/gl.po = UTF-8 Unicode English text
+po/gl.po: copy
+
+# po/is.po = UTF-8 Unicode English text
+po/is.po: copy
+
+# po/hr.po = UTF-8 Unicode PO (gettext message catalogue) text
+po/hr.po: copy
+
+# po/it.po = UTF-8 Unicode English text
+po/it.po: copy
+
+# po/ga.po = UTF-8 Unicode English text
+po/ga.po: copy
+
+# po/bn_IN.po = UTF-8 Unicode English text
+po/bn_IN.po: copy
+
+# po/ne.po = UTF-8 Unicode PO (gettext message catalogue) text, with CRLF line terminators
+po/ne.po: copy
+
+# po/th.po = UTF-8 Unicode English text
+po/th.po: copy
+
+# po/oc.po = ASCII English text
+po/oc.po: copy
+
+# po/sv.po = UTF-8 Unicode English text
+po/sv.po: copy
+
+# po/LINGUAS = ASCII text
+po/LINGUAS: copy
+
+# po/dz.po = UTF-8 Unicode English text
+po/dz.po: copy
+
+# po/et.po = UTF-8 Unicode English text
+po/et.po: copy
+
+# po/sk.po = UTF-8 Unicode English text
+po/sk.po: copy
+
+# po/el.po = UTF-8 Unicode English text
+po/el.po: copy
+
+# po/az.po = UTF-8 Unicode English text
+po/az.po: copy
+
+# po/POTFILES.skip = ASCII text
+po/POTFILES.skip: copy
+
+# po/nds.po = UTF-8 Unicode English text
+po/nds.po: copy
+
+# po/nn.po = UTF-8 Unicode English text
+po/nn.po: copy
+
+# mkinstalldirs = POSIX shell script text executable
+mkinstalldirs: copy
+
+# missing = POSIX shell script text executable
+missing: copy
+
+# ltmain.sh = ASCII English text
+ltmain.sh: copy
+
+# cspi/spi_hypertext.c = ASCII C program text
+cspi/spi_hypertext.c: copy
+
+# cspi/spi_registry.c = ASCII C program text
+cspi/spi_registry.c: copy
+
+# cspi/spi.h = ASCII C program text
+cspi/spi.h: copy
+
+# cspi/spi-roletypes.h = ASCII C program text, with very long lines
+cspi/spi-roletypes.h: copy
+
+# cspi/spi_document.c = ASCII C program text
+cspi/spi_document.c: copy
+
+# cspi/Makefile.am = ASCII text
+cspi/Makefile.am: copy
+
+# cspi/spi_hyperlink.c = ASCII C program text
+cspi/spi_hyperlink.c: copy
+
+# cspi/spi_table.c = ASCII C program text
+cspi/spi_table.c: copy
+
+# cspi/spi_component.c = ASCII C program text
+cspi/spi_component.c: copy
+
+# cspi/spi_event.c = ASCII C program text
+cspi/spi_event.c: copy
+
+# cspi/spi_text.c = ASCII C program text
+cspi/spi_text.c: copy
+
+# cspi/spi_streamablecontent.c = ASCII C program text
+cspi/spi_streamablecontent.c: copy
+
+# cspi/spi-statetypes.h = ASCII C program text, with very long lines
+cspi/spi-statetypes.h: copy
+
+# cspi/spi_accessible.c = ASCII C program text, with very long lines
+cspi/spi_accessible.c: copy
+
+# cspi/spi_main.c = ASCII C program text
+cspi/spi_main.c: copy
+
+# cspi/spi-private.h = ASCII C program text
+cspi/spi-private.h: copy
+
+# cspi/spi-impl.h = ASCII C program text
+cspi/spi-impl.h: copy
+
+# cspi/spi_selection.c = ASCII C program text
+cspi/spi_selection.c: copy
+
+# cspi/spi-listener.h = ASCII C program text
+cspi/spi-listener.h: copy
+
+# cspi/bonobo/cspi-bonobo-listener.c = ASCII C program text
+cspi/bonobo/cspi-bonobo-listener.c: copy
+
+# cspi/bonobo/Makefile.am = ASCII text
+cspi/bonobo/Makefile.am: copy
+
+# cspi/bonobo/cspi-bonobo.c = ASCII C program text
+cspi/bonobo/cspi-bonobo.c: copy
+
+# cspi/bonobo/Makefile.in = ASCII English text
+cspi/bonobo/Makefile.in: copy
+
+# cspi/bonobo/cspi-bonobo-listener.h = ASCII C program text
+cspi/bonobo/cspi-bonobo-listener.h: copy
+
+# cspi/spi_matchrule.c = ASCII C program text
+cspi/spi_matchrule.c: copy
+
+# cspi/spi_editabletext.c = ASCII C program text
+cspi/spi_editabletext.c: copy
+
+# cspi/spi_application.c = ASCII C program text
+cspi/spi_application.c: copy
+
+# cspi/spi_collection.c = ASCII C program text
+cspi/spi_collection.c: copy
+
+# cspi/cspi-lowlevel.h = ASCII C program text
+cspi/cspi-lowlevel.h: copy
+
+# cspi/Makefile.in = ASCII English text
+cspi/Makefile.in: copy
+
+# cspi/spi_image.c = ASCII C program text
+cspi/spi_image.c: copy
+
+# cspi/spi_action.c = ASCII C program text
+cspi/spi_action.c: copy
+
+# cspi/spi_value.c = ASCII C program text
+cspi/spi_value.c: copy
+
+# configure = POSIX shell script text executable
+configure: copy
+
+# cspi-1.0.pc.in = ASCII text
+cspi-1.0.pc.in: copy
+
+# py-compile = POSIX shell script text executable
+py-compile: copy
+
+# COPYING = ASCII English text
+COPYING: copy
+
+# libspi/base.h = ASCII C program text
+libspi/base.h: copy
+
+# libspi/hypertext.c = ASCII C program text
+libspi/hypertext.c: copy
+
+# libspi/action.c = ASCII C program text
+libspi/action.c: copy
+
+# libspi/hyperlink.h = ASCII C program text
+libspi/hyperlink.h: copy
+
+# libspi/devicelistener.h = ASCII C program text
+libspi/devicelistener.h: copy
+
+# libspi/selection.h = ASCII C program text
+libspi/selection.h: copy
+
+# libspi/editabletext.c = ASCII C program text
+libspi/editabletext.c: copy
+
+# libspi/Makefile.am = ASCII text
+libspi/Makefile.am: copy
+
+# libspi/keymasks.h = ASCII C program text
+libspi/keymasks.h: copy
+
+# libspi/relation.c = ASCII C program text
+libspi/relation.c: copy
+
+# libspi/devicelistener.c = ASCII C program text
+libspi/devicelistener.c: copy
+
+# libspi/table.c = ASCII C program text
+libspi/table.c: copy
+
+# libspi/accessible.h = ASCII C program text
+libspi/accessible.h: copy
+
+# libspi/remoteobject.h = ASCII C program text
+libspi/remoteobject.h: copy
+
+# libspi/image.h = ASCII C program text
+libspi/image.h: copy
+
+# libspi/eventlistener.h = ASCII C program text
+libspi/eventlistener.h: copy
+
+# libspi/application.h = ASCII C program text
+libspi/application.h: copy
+
+# libspi/stateset.c = ASCII C program text
+libspi/stateset.c: copy
+
+# libspi/matchrule.c = ASCII C program text
+libspi/matchrule.c: copy
+
+# libspi/listener.h = ASCII C program text
+libspi/listener.h: copy
+
+# libspi/table.h = ASCII C program text
+libspi/table.h: copy
+
+# libspi/spi-private.h = ASCII C program text
+libspi/spi-private.h: copy
+
+# libspi/base.c = ASCII C program text
+libspi/base.c: copy
+
+# libspi/image.c = ASCII C program text
+libspi/image.c: copy
+
+# libspi/collection.h = ASCII C program text
+libspi/collection.h: copy
+
+# libspi/text.c = ASCII C program text
+libspi/text.c: copy
+
+# libspi/accessible.c = ASCII C program text
+libspi/accessible.c: copy
+
+# libspi/text.h = ASCII C program text
+libspi/text.h: copy
+
+# libspi/eventlistener.c = ASCII C program text
+libspi/eventlistener.c: copy
+
+# libspi/stateset.h = ASCII C program text
+libspi/stateset.h: copy
+
+# libspi/streamablecontent.c = ASCII C program text
+libspi/streamablecontent.c: copy
+
+# libspi/relation.h = ASCII C program text
+libspi/relation.h: copy
+
+# libspi/component.c = ASCII C program text
+libspi/component.c: copy
+
+# libspi/collection.c = ASCII C program text
+libspi/collection.c: copy
+
+# libspi/hypertext.h = ASCII C program text
+libspi/hypertext.h: copy
+
+# libspi/util.c = ASCII C program text
+libspi/util.c: copy
+
+# libspi/value.c = ASCII C program text
+libspi/value.c: copy
+
+# libspi/document.c = ASCII C program text
+libspi/document.c: copy
+
+# libspi/value.h = ASCII C program text
+libspi/value.h: copy
+
+# libspi/document.h = ASCII C program text
+libspi/document.h: copy
+
+# libspi/remoteobject.c = ASCII C program text
+libspi/remoteobject.c: copy
+
+# libspi/application.c = ASCII C program text
+libspi/application.c: copy
+
+# libspi/selection.c = ASCII C program text
+libspi/selection.c: copy
+
+# libspi/listener.c = ASCII C program text
+libspi/listener.c: copy
+
+# libspi/editabletext.h = ASCII C program text
+libspi/editabletext.h: copy
+
+# libspi/action.h = ASCII C program text
+libspi/action.h: copy
+
+# libspi/component.h = ASCII C program text
+libspi/component.h: copy
+
+# libspi/libspi.h = ASCII C program text
+libspi/libspi.h: copy
+
+# libspi/hyperlink.c = ASCII C program text
+libspi/hyperlink.c: copy
+
+# libspi/matchrule.h = ASCII C program text
+libspi/matchrule.h: copy
+
+# libspi/keystrokelistener.h = ASCII C program text
+libspi/keystrokelistener.h: copy
+
+# libspi/Makefile.in = ASCII English text
+libspi/Makefile.in: copy
+
+# libspi/streamablecontent.h = ASCII C program text
+libspi/streamablecontent.h: copy
+
+# libloginhelper-1.0-uninstalled.pc.in = ASCII text
+libloginhelper-1.0-uninstalled.pc.in: copy
+
+# config.sub = POSIX shell script text executable
+config.sub: copy
+
+# registryd/ucs2keysym.c = UTF-8 Unicode C program text
+registryd/ucs2keysym.c: copy
+
+# registryd/at-spi-registryd.desktop.in.in.in = ASCII text
+registryd/at-spi-registryd.desktop.in.in.in: copy
+
+# registryd/Accessibility_Registry.server.in.in = ASCII text
+registryd/Accessibility_Registry.server.in.in: copy
+
+# registryd/Makefile.am = ASCII text
+registryd/Makefile.am: copy
+
+# registryd/desktop.c = ASCII C program text
+registryd/desktop.c: copy
+
+# registryd/registry.c = ASCII C program text
+registryd/registry.c: copy
+
+# registryd/registry-main.c = ASCII C program text
+registryd/registry-main.c: copy
+
+# registryd/desktop.h = ASCII C program text
+registryd/desktop.h: copy
+
+# registryd/deviceeventcontroller.c = ASCII C program text
+registryd/deviceeventcontroller.c: copy
+
+# registryd/registry.h = ASCII C program text
+registryd/registry.h: copy
+
+# registryd/deviceeventcontroller.h = ASCII C program text
+registryd/deviceeventcontroller.h: copy
+
+# registryd/Makefile.in = ASCII English text
+registryd/Makefile.in: copy
+
+# Makefile.in = ASCII English text
+Makefile.in: copy
+
+# test/login-helper-server-test.c = ASCII C program text
+test/login-helper-server-test.c: copy
+
+# test/keypad-test.c = ASCII C program text
+test/keypad-test.c: copy
+
+# test/keysynth-test.c = ASCII C program text
+test/keysynth-test.c: copy
+
+# test/keysynth-demo.c = ASCII C program text
+test/keysynth-demo.c: copy
+
+# test/test-simple.c = ASCII C program text
+test/test-simple.c: copy
+
+# test/Makefile.am = ASCII text
+test/Makefile.am: copy
+
+# test/event-listener-test.c = ASCII C program text
+test/event-listener-test.c: copy
+
+# test/window-listener-test.c = ASCII C program text
+test/window-listener-test.c: copy
+
+# test/simple-at.c = ASCII C program text
+test/simple-at.c: copy
+
+# test/app.c = ASCII C program text
+test/app.c: copy
+
+# test/screen-review-test.c = ASCII C program text
+test/screen-review-test.c: copy
+
+# test/key-listener-test.c = ASCII C program text
+test/key-listener-test.c: copy
+
+# test/login-helper-client-test.c = ASCII C program text
+test/login-helper-client-test.c: copy
+
+# test/stress-test.c = ASCII C program text
+test/stress-test.c: copy
+
+# test/at.c = ASCII C program text
+test/at.c: copy
+
+# test/Makefile.in = ASCII English text
+test/Makefile.in: copy
+
+# depcomp = POSIX shell script text executable
+depcomp: copy
+
+# MAINTAINERS = ASCII text
+MAINTAINERS: copy

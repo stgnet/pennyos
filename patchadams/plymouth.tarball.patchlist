@@ -1,0 +1,1060 @@
+# Patchlist created Sun Mar  2 23:21:55 CST 2014
+
+# scripts/plymouth-populate-initrd.in = Bourne-Again shell script text executable 
+scripts/plymouth-populate-initrd.in: copy
+
+# scripts/Makefile.am = ASCII text 
+scripts/Makefile.am: copy
+
+# scripts/plymouth-update-initrd = Bourne-Again shell script text executable 
+scripts/plymouth-update-initrd: copy
+
+# scripts/new-object.sh = Bourne-Again shell script text executable 
+scripts/new-object.sh: copy
+
+# scripts/plymouth-generate-initrd.in = Bourne-Again shell script text executable 
+scripts/plymouth-generate-initrd.in: copy
+
+# scripts/default.cfg = ASCII English text 
+scripts/default.cfg: copy
+
+# scripts/Makefile.in = ASCII English text 
+scripts/Makefile.in: copy
+
+# scripts/plymouth-set-default-theme.in = Bourne-Again shell script text executable 
+scripts/plymouth-set-default-theme.in: copy
+
+# INSTALL = ASCII English text, with very long lines 
+INSTALL: copy
+
+# themes/spinfinity/spinfinity.plymouth.in = ASCII English text 
+themes/spinfinity/spinfinity.plymouth.in: copy
+
+# themes/spinfinity/throbber-33.png = PNG image data, 82 x 47, 8-bit/color RGBA, non-interlaced 
+themes/spinfinity/throbber-33.png: copy
+
+# themes/spinfinity/throbber-09.png = PNG image data, 82 x 47, 8-bit/color RGBA, non-interlaced 
+themes/spinfinity/throbber-09.png: copy
+
+# themes/spinfinity/throbber-08.png = PNG image data, 82 x 47, 8-bit/color RGBA, non-interlaced 
+themes/spinfinity/throbber-08.png: copy
+
+# themes/spinfinity/throbber-13.png = PNG image data, 82 x 47, 8-bit/color RGBA, non-interlaced 
+themes/spinfinity/throbber-13.png: copy
+
+# themes/spinfinity/throbber-24.png = PNG image data, 82 x 47, 8-bit/color RGBA, non-interlaced 
+themes/spinfinity/throbber-24.png: copy
+
+# themes/spinfinity/throbber-20.png = PNG image data, 82 x 47, 8-bit/color RGBA, non-interlaced 
+themes/spinfinity/throbber-20.png: copy
+
+# themes/spinfinity/Makefile.am = ASCII text 
+themes/spinfinity/Makefile.am: copy
+
+# themes/spinfinity/throbber-05.png = PNG image data, 82 x 47, 8-bit/color RGBA, non-interlaced 
+themes/spinfinity/throbber-05.png: copy
+
+# themes/spinfinity/throbber-04.png = PNG image data, 82 x 47, 8-bit/color RGBA, non-interlaced 
+themes/spinfinity/throbber-04.png: copy
+
+# themes/spinfinity/throbber-12.png = PNG image data, 82 x 47, 8-bit/color RGBA, non-interlaced 
+themes/spinfinity/throbber-12.png: copy
+
+# themes/spinfinity/throbber-21.png = PNG image data, 82 x 47, 8-bit/color RGBA, non-interlaced 
+themes/spinfinity/throbber-21.png: copy
+
+# themes/spinfinity/throbber-28.png = PNG image data, 82 x 47, 8-bit/color RGBA, non-interlaced 
+themes/spinfinity/throbber-28.png: copy
+
+# themes/spinfinity/throbber-26.png = PNG image data, 82 x 47, 8-bit/color RGBA, non-interlaced 
+themes/spinfinity/throbber-26.png: copy
+
+# themes/spinfinity/throbber-11.png = PNG image data, 82 x 47, 8-bit/color RGBA, non-interlaced 
+themes/spinfinity/throbber-11.png: copy
+
+# themes/spinfinity/throbber-02.png = PNG image data, 82 x 47, 8-bit/color RGBA, non-interlaced 
+themes/spinfinity/throbber-02.png: copy
+
+# themes/spinfinity/entry.png = PNG image data, 200 x 30, 8-bit/color RGBA, non-interlaced 
+themes/spinfinity/entry.png: copy
+
+# themes/spinfinity/throbber-29.png = PNG image data, 82 x 47, 8-bit/color RGBA, non-interlaced 
+themes/spinfinity/throbber-29.png: copy
+
+# themes/spinfinity/throbber-03.png = PNG image data, 82 x 47, 8-bit/color RGBA, non-interlaced 
+themes/spinfinity/throbber-03.png: copy
+
+# themes/spinfinity/throbber-07.png = PNG image data, 82 x 47, 8-bit/color RGBA, non-interlaced 
+themes/spinfinity/throbber-07.png: copy
+
+# themes/spinfinity/throbber-19.png = PNG image data, 82 x 47, 8-bit/color RGBA, non-interlaced 
+themes/spinfinity/throbber-19.png: copy
+
+# themes/spinfinity/lock.png = PNG image data, 41 x 44, 8-bit/color RGBA, non-interlaced 
+themes/spinfinity/lock.png: copy
+
+# themes/spinfinity/throbber-06.png = PNG image data, 82 x 47, 8-bit/color RGBA, non-interlaced 
+themes/spinfinity/throbber-06.png: copy
+
+# themes/spinfinity/throbber-17.png = PNG image data, 82 x 47, 8-bit/color RGBA, non-interlaced 
+themes/spinfinity/throbber-17.png: copy
+
+# themes/spinfinity/throbber-22.png = PNG image data, 82 x 47, 8-bit/color RGBA, non-interlaced 
+themes/spinfinity/throbber-22.png: copy
+
+# themes/spinfinity/throbber-18.png = PNG image data, 82 x 47, 8-bit/color RGBA, non-interlaced 
+themes/spinfinity/throbber-18.png: copy
+
+# themes/spinfinity/throbber-00.png = PNG image data, 82 x 47, 8-bit/color RGBA, non-interlaced 
+themes/spinfinity/throbber-00.png: copy
+
+# themes/spinfinity/throbber-25.png = PNG image data, 82 x 47, 8-bit/color RGBA, non-interlaced 
+themes/spinfinity/throbber-25.png: copy
+
+# themes/spinfinity/throbber-31.png = PNG image data, 82 x 47, 8-bit/color RGBA, non-interlaced 
+themes/spinfinity/throbber-31.png: copy
+
+# themes/spinfinity/throbber-01.png = PNG image data, 82 x 47, 8-bit/color RGBA, non-interlaced 
+themes/spinfinity/throbber-01.png: copy
+
+# themes/spinfinity/throbber-15.png = PNG image data, 82 x 47, 8-bit/color RGBA, non-interlaced 
+themes/spinfinity/throbber-15.png: copy
+
+# themes/spinfinity/throbber-30.png = PNG image data, 82 x 47, 8-bit/color RGBA, non-interlaced 
+themes/spinfinity/throbber-30.png: copy
+
+# themes/spinfinity/throbber-27.png = PNG image data, 82 x 47, 8-bit/color RGBA, non-interlaced 
+themes/spinfinity/throbber-27.png: copy
+
+# themes/spinfinity/box.png = PNG image data, 290 x 78, 8-bit/color RGBA, non-interlaced 
+themes/spinfinity/box.png: copy
+
+# themes/spinfinity/throbber-32.png = PNG image data, 82 x 47, 8-bit/color RGBA, non-interlaced 
+themes/spinfinity/throbber-32.png: copy
+
+# themes/spinfinity/throbber-14.png = PNG image data, 82 x 47, 8-bit/color RGBA, non-interlaced 
+themes/spinfinity/throbber-14.png: copy
+
+# themes/spinfinity/throbber-23.png = PNG image data, 82 x 47, 8-bit/color RGBA, non-interlaced 
+themes/spinfinity/throbber-23.png: copy
+
+# themes/spinfinity/bullet.png = PNG image data, 7 x 7, 8-bit/color RGBA, non-interlaced 
+themes/spinfinity/bullet.png: copy
+
+# themes/spinfinity/throbber-10.png = PNG image data, 82 x 47, 8-bit/color RGBA, non-interlaced 
+themes/spinfinity/throbber-10.png: copy
+
+# themes/spinfinity/Makefile.in = ASCII English text 
+themes/spinfinity/Makefile.in: copy
+
+# themes/spinfinity/throbber-16.png = PNG image data, 82 x 47, 8-bit/color RGBA, non-interlaced 
+themes/spinfinity/throbber-16.png: copy
+
+# themes/Makefile.am = ASCII text 
+themes/Makefile.am: copy
+
+# themes/script/script.script = ASCII text 
+themes/script/script.script: copy
+
+# themes/script/Makefile.am = ASCII text 
+themes/script/Makefile.am: copy
+
+# themes/script/entry.png = PNG image data, 200 x 30, 8-bit/color RGBA, non-interlaced 
+themes/script/entry.png: copy
+
+# themes/script/progress_bar.png = PNG image data, 96 x 12, 8-bit/color RGB, non-interlaced 
+themes/script/progress_bar.png: copy
+
+# themes/script/lock.png = PNG image data, 41 x 44, 8-bit/color RGBA, non-interlaced 
+themes/script/lock.png: copy
+
+# themes/script/box.png = PNG image data, 290 x 78, 8-bit/color RGBA, non-interlaced 
+themes/script/box.png: copy
+
+# themes/script/script.plymouth.in = ASCII text 
+themes/script/script.plymouth.in: copy
+
+# themes/script/bullet.png = PNG image data, 7 x 7, 8-bit/color RGBA, non-interlaced 
+themes/script/bullet.png: copy
+
+# themes/script/Makefile.in = ASCII English text 
+themes/script/Makefile.in: copy
+
+# themes/script/progress_box.png = PNG image data, 100 x 16, 8-bit/color RGB, non-interlaced 
+themes/script/progress_box.png: copy
+
+# themes/fade-in/Makefile.am = ASCII text 
+themes/fade-in/Makefile.am: copy
+
+# themes/fade-in/entry.png = PNG image data, 200 x 30, 8-bit/color RGBA, non-interlaced 
+themes/fade-in/entry.png: copy
+
+# themes/fade-in/fade-in.plymouth.in = ASCII text 
+themes/fade-in/fade-in.plymouth.in: copy
+
+# themes/fade-in/star.png = PNG image data, 24 x 24, 8-bit/color RGBA, non-interlaced 
+themes/fade-in/star.png: copy
+
+# themes/fade-in/lock.png = PNG image data, 170 x 237, 8-bit/color RGBA, non-interlaced 
+themes/fade-in/lock.png: copy
+
+# themes/fade-in/bullet.png = PNG image data, 7 x 7, 8-bit/color RGBA, non-interlaced 
+themes/fade-in/bullet.png: copy
+
+# themes/fade-in/Makefile.in = ASCII English text 
+themes/fade-in/Makefile.in: copy
+
+# themes/solar/Makefile.am = ASCII text 
+themes/solar/Makefile.am: copy
+
+# themes/solar/entry.png = PNG image data, 200 x 30, 8-bit/color RGBA, non-interlaced 
+themes/solar/entry.png: copy
+
+# themes/solar/progress_bar.png = PNG image data, 154 x 7, 8-bit/color RGBA, non-interlaced 
+themes/solar/progress_bar.png: copy
+
+# themes/solar/star.png = PNG image data, 800 x 480, 8-bit/color RGBA, non-interlaced 
+themes/solar/star.png: copy
+
+# themes/solar/lock.png = PNG image data, 41 x 44, 8-bit/color RGBA, non-interlaced 
+themes/solar/lock.png: copy
+
+# themes/solar/box.png = PNG image data, 290 x 78, 8-bit/color RGBA, non-interlaced 
+themes/solar/box.png: copy
+
+# themes/solar/solar.plymouth.in = ASCII text 
+themes/solar/solar.plymouth.in: copy
+
+# themes/solar/bullet.png = PNG image data, 7 x 7, 8-bit/color RGBA, non-interlaced 
+themes/solar/bullet.png: copy
+
+# themes/solar/Makefile.in = ASCII English text 
+themes/solar/Makefile.in: copy
+
+# themes/glow/progress-21.png = PNG image data, 237 x 135, 8-bit/color RGBA, non-interlaced 
+themes/glow/progress-21.png: copy
+
+# themes/glow/progress-22.png = PNG image data, 237 x 135, 8-bit/color RGBA, non-interlaced 
+themes/glow/progress-22.png: copy
+
+# themes/glow/progress-32.png = PNG image data, 237 x 135, 8-bit/color RGBA, non-interlaced 
+themes/glow/progress-32.png: copy
+
+# themes/glow/throbber-09.png = PNG image data, 237 x 135, 8-bit/color RGBA, non-interlaced 
+themes/glow/throbber-09.png: copy
+
+# themes/glow/progress-02.png = PNG image data, 237 x 135, 8-bit/color RGBA, non-interlaced 
+themes/glow/progress-02.png: copy
+
+# themes/glow/throbber-08.png = PNG image data, 237 x 135, 8-bit/color RGBA, non-interlaced 
+themes/glow/throbber-08.png: copy
+
+# themes/glow/progress-26.png = PNG image data, 237 x 135, 8-bit/color RGBA, non-interlaced 
+themes/glow/progress-26.png: copy
+
+# themes/glow/throbber-13.png = PNG image data, 237 x 135, 8-bit/color RGBA, non-interlaced 
+themes/glow/throbber-13.png: copy
+
+# themes/glow/progress-07.png = PNG image data, 237 x 135, 8-bit/color RGBA, non-interlaced 
+themes/glow/progress-07.png: copy
+
+# themes/glow/Makefile.am = ASCII text 
+themes/glow/Makefile.am: copy
+
+# themes/glow/throbber-05.png = PNG image data, 237 x 135, 8-bit/color RGBA, non-interlaced 
+themes/glow/throbber-05.png: copy
+
+# themes/glow/throbber-04.png = PNG image data, 237 x 135, 8-bit/color RGBA, non-interlaced 
+themes/glow/throbber-04.png: copy
+
+# themes/glow/progress-03.png = PNG image data, 237 x 135, 8-bit/color RGBA, non-interlaced 
+themes/glow/progress-03.png: copy
+
+# themes/glow/glow.plymouth.in = ASCII text 
+themes/glow/glow.plymouth.in: copy
+
+# themes/glow/progress-15.png = PNG image data, 237 x 135, 8-bit/color RGBA, non-interlaced 
+themes/glow/progress-15.png: copy
+
+# themes/glow/throbber-12.png = PNG image data, 237 x 135, 8-bit/color RGBA, non-interlaced 
+themes/glow/throbber-12.png: copy
+
+# themes/glow/progress-10.png = PNG image data, 237 x 135, 8-bit/color RGBA, non-interlaced 
+themes/glow/progress-10.png: copy
+
+# themes/glow/throbber-11.png = PNG image data, 237 x 135, 8-bit/color RGBA, non-interlaced 
+themes/glow/throbber-11.png: copy
+
+# themes/glow/throbber-02.png = PNG image data, 237 x 135, 8-bit/color RGBA, non-interlaced 
+themes/glow/throbber-02.png: copy
+
+# themes/glow/progress-05.png = PNG image data, 237 x 135, 8-bit/color RGBA, non-interlaced 
+themes/glow/progress-05.png: copy
+
+# themes/glow/entry.png = PNG image data, 200 x 30, 8-bit/color RGBA, non-interlaced 
+themes/glow/entry.png: copy
+
+# themes/glow/progress-14.png = PNG image data, 237 x 135, 8-bit/color RGBA, non-interlaced 
+themes/glow/progress-14.png: copy
+
+# themes/glow/throbber-03.png = PNG image data, 237 x 135, 8-bit/color RGBA, non-interlaced 
+themes/glow/throbber-03.png: copy
+
+# themes/glow/progress-00.png = PNG image data, 237 x 135, 8-bit/color RGBA, non-interlaced 
+themes/glow/progress-00.png: copy
+
+# themes/glow/progress-25.png = PNG image data, 237 x 135, 8-bit/color RGBA, non-interlaced 
+themes/glow/progress-25.png: copy
+
+# themes/glow/throbber-07.png = PNG image data, 237 x 135, 8-bit/color RGBA, non-interlaced 
+themes/glow/throbber-07.png: copy
+
+# themes/glow/progress-24.png = PNG image data, 237 x 135, 8-bit/color RGBA, non-interlaced 
+themes/glow/progress-24.png: copy
+
+# themes/glow/progress-13.png = PNG image data, 237 x 135, 8-bit/color RGBA, non-interlaced 
+themes/glow/progress-13.png: copy
+
+# themes/glow/progress-09.png = PNG image data, 237 x 135, 8-bit/color RGBA, non-interlaced 
+themes/glow/progress-09.png: copy
+
+# themes/glow/throbber-19.png = PNG image data, 237 x 135, 8-bit/color RGBA, non-interlaced 
+themes/glow/throbber-19.png: copy
+
+# themes/glow/lock.png = PNG image data, 41 x 44, 8-bit/color RGBA, non-interlaced 
+themes/glow/lock.png: copy
+
+# themes/glow/progress-08.png = PNG image data, 237 x 135, 8-bit/color RGBA, non-interlaced 
+themes/glow/progress-08.png: copy
+
+# themes/glow/progress-01.png = PNG image data, 237 x 135, 8-bit/color RGBA, non-interlaced 
+themes/glow/progress-01.png: copy
+
+# themes/glow/throbber-06.png = PNG image data, 237 x 135, 8-bit/color RGBA, non-interlaced 
+themes/glow/throbber-06.png: copy
+
+# themes/glow/throbber-17.png = PNG image data, 237 x 135, 8-bit/color RGBA, non-interlaced 
+themes/glow/throbber-17.png: copy
+
+# themes/glow/progress-19.png = PNG image data, 237 x 135, 8-bit/color RGBA, non-interlaced 
+themes/glow/progress-19.png: copy
+
+# themes/glow/progress-17.png = PNG image data, 237 x 135, 8-bit/color RGBA, non-interlaced 
+themes/glow/progress-17.png: copy
+
+# themes/glow/throbber-18.png = PNG image data, 237 x 135, 8-bit/color RGBA, non-interlaced 
+themes/glow/throbber-18.png: copy
+
+# themes/glow/progress-31.png = PNG image data, 237 x 135, 8-bit/color RGBA, non-interlaced 
+themes/glow/progress-31.png: copy
+
+# themes/glow/throbber-00.png = PNG image data, 237 x 135, 8-bit/color RGBA, non-interlaced 
+themes/glow/throbber-00.png: copy
+
+# themes/glow/progress-28.png = PNG image data, 237 x 135, 8-bit/color RGBA, non-interlaced 
+themes/glow/progress-28.png: copy
+
+# themes/glow/throbber-01.png = PNG image data, 237 x 135, 8-bit/color RGBA, non-interlaced 
+themes/glow/throbber-01.png: copy
+
+# themes/glow/throbber-15.png = PNG image data, 237 x 135, 8-bit/color RGBA, non-interlaced 
+themes/glow/throbber-15.png: copy
+
+# themes/glow/progress-04.png = PNG image data, 237 x 135, 8-bit/color RGBA, non-interlaced 
+themes/glow/progress-04.png: copy
+
+# themes/glow/progress-23.png = PNG image data, 237 x 135, 8-bit/color RGBA, non-interlaced 
+themes/glow/progress-23.png: copy
+
+# themes/glow/progress-11.png = PNG image data, 237 x 135, 8-bit/color RGBA, non-interlaced 
+themes/glow/progress-11.png: copy
+
+# themes/glow/progress-16.png = PNG image data, 237 x 135, 8-bit/color RGBA, non-interlaced 
+themes/glow/progress-16.png: copy
+
+# themes/glow/box.png = PNG image data, 290 x 78, 8-bit/color RGBA, non-interlaced 
+themes/glow/box.png: copy
+
+# themes/glow/progress-20.png = PNG image data, 237 x 135, 8-bit/color RGBA, non-interlaced 
+themes/glow/progress-20.png: copy
+
+# themes/glow/progress-12.png = PNG image data, 237 x 135, 8-bit/color RGBA, non-interlaced 
+themes/glow/progress-12.png: copy
+
+# themes/glow/progress-29.png = PNG image data, 237 x 135, 8-bit/color RGBA, non-interlaced 
+themes/glow/progress-29.png: copy
+
+# themes/glow/throbber-14.png = PNG image data, 237 x 135, 8-bit/color RGBA, non-interlaced 
+themes/glow/throbber-14.png: copy
+
+# themes/glow/progress-18.png = PNG image data, 237 x 135, 8-bit/color RGBA, non-interlaced 
+themes/glow/progress-18.png: copy
+
+# themes/glow/bullet.png = PNG image data, 8 x 8, 8-bit/color RGBA, non-interlaced 
+themes/glow/bullet.png: copy
+
+# themes/glow/throbber-10.png = PNG image data, 237 x 135, 8-bit/color RGBA, non-interlaced 
+themes/glow/throbber-10.png: copy
+
+# themes/glow/Makefile.in = ASCII English text 
+themes/glow/Makefile.in: copy
+
+# themes/glow/throbber-16.png = PNG image data, 237 x 135, 8-bit/color RGBA, non-interlaced 
+themes/glow/throbber-16.png: copy
+
+# themes/glow/progress-06.png = PNG image data, 237 x 135, 8-bit/color RGBA, non-interlaced 
+themes/glow/progress-06.png: copy
+
+# themes/glow/progress-30.png = PNG image data, 237 x 135, 8-bit/color RGBA, non-interlaced 
+themes/glow/progress-30.png: copy
+
+# themes/glow/progress-27.png = PNG image data, 237 x 135, 8-bit/color RGBA, non-interlaced 
+themes/glow/progress-27.png: copy
+
+# themes/details/Makefile.am = ASCII text 
+themes/details/Makefile.am: copy
+
+# themes/details/details.plymouth = ASCII text 
+themes/details/details.plymouth: copy
+
+# themes/details/Makefile.in = ASCII English text 
+themes/details/Makefile.in: copy
+
+# themes/text/Makefile.am = ASCII text 
+themes/text/Makefile.am: copy
+
+# themes/text/text.plymouth = ASCII text 
+themes/text/text.plymouth: copy
+
+# themes/text/Makefile.in = ASCII English text 
+themes/text/Makefile.in: copy
+
+# themes/Makefile.in = ASCII English text 
+themes/Makefile.in: copy
+
+# NEWS = very short file (no magic) 
+NEWS: copy
+
+# aclocal.m4 = Ruby module source text 
+aclocal.m4: copy
+
+# Makefile.am = ASCII text 
+Makefile.am: copy
+
+# config.h.in = ASCII C program text 
+config.h.in: copy
+
+# images/Makefile.am = ASCII text 
+images/Makefile.am: copy
+
+# images/bizcom.png = PNG image data, 203 x 40, 8-bit/color RGBA, non-interlaced 
+images/bizcom.png: copy
+
+# images/Makefile.in = ASCII English text 
+images/Makefile.in: copy
+
+# README = ASCII English text 
+README: copy
+
+# docs/Makefile.am = ASCII text, with no line terminators 
+docs/Makefile.am: copy
+
+# docs/plymouth.8 = troff or preprocessor input text 
+docs/plymouth.8: copy
+
+# docs/Makefile.in = ASCII English text 
+docs/Makefile.in: copy
+
+# ChangeLog = ASCII text 
+ChangeLog: copy
+
+# src/ply-splash-graphics.pc.in = ASCII text 
+src/ply-splash-graphics.pc.in: copy
+
+# src/ply-boot-server.c = ASCII C program text 
+src/ply-boot-server.c: copy
+
+# src/Makefile.am = ASCII text 
+src/Makefile.am: copy
+
+# src/main.c = ASCII C program text 
+src/main.c: copy
+
+# src/libply-splash-core/ply-pixel-buffer.h = ASCII C program text 
+src/libply-splash-core/ply-pixel-buffer.h: copy
+
+# src/libply-splash-core/ply-keyboard.h = ASCII C program text 
+src/libply-splash-core/ply-keyboard.h: copy
+
+# src/libply-splash-core/ply-keyboard.c = ASCII C program text 
+src/libply-splash-core/ply-keyboard.c: copy
+
+# src/libply-splash-core/ply-text-display.c = ASCII C program text 
+src/libply-splash-core/ply-text-display.c: copy
+
+# src/libply-splash-core/Makefile.am = ASCII text 
+src/libply-splash-core/Makefile.am: copy
+
+# src/libply-splash-core/ply-pixel-buffer.c = UTF-8 Unicode C program text 
+src/libply-splash-core/ply-pixel-buffer.c: copy
+
+# src/libply-splash-core/ply-boot-splash-plugin.h = ASCII C program text 
+src/libply-splash-core/ply-boot-splash-plugin.h: copy
+
+# src/libply-splash-core/ply-boot-splash.h = ASCII C program text 
+src/libply-splash-core/ply-boot-splash.h: copy
+
+# src/libply-splash-core/ply-terminal.h = ASCII C program text 
+src/libply-splash-core/ply-terminal.h: copy
+
+# src/libply-splash-core/ply-text-progress-bar.c = ASCII C program text 
+src/libply-splash-core/ply-text-progress-bar.c: copy
+
+# src/libply-splash-core/ply-text-display.h = ASCII C program text 
+src/libply-splash-core/ply-text-display.h: copy
+
+# src/libply-splash-core/ply-renderer.h = ASCII C program text 
+src/libply-splash-core/ply-renderer.h: copy
+
+# src/libply-splash-core/ply-text-progress-bar.h = ASCII C program text 
+src/libply-splash-core/ply-text-progress-bar.h: copy
+
+# src/libply-splash-core/ply-renderer-plugin.h = ASCII C program text 
+src/libply-splash-core/ply-renderer-plugin.h: copy
+
+# src/libply-splash-core/ply-boot-splash.c = ASCII C program text 
+src/libply-splash-core/ply-boot-splash.c: copy
+
+# src/libply-splash-core/ply-terminal.c = ASCII C program text 
+src/libply-splash-core/ply-terminal.c: copy
+
+# src/libply-splash-core/ply-pixel-display.c = ASCII C program text 
+src/libply-splash-core/ply-pixel-display.c: copy
+
+# src/libply-splash-core/Makefile.in = ASCII English text, with very long lines 
+src/libply-splash-core/Makefile.in: copy
+
+# src/libply-splash-core/ply-pixel-display.h = ASCII C program text 
+src/libply-splash-core/ply-pixel-display.h: copy
+
+# src/libply-splash-core/ply-renderer.c = UTF-8 Unicode C program text 
+src/libply-splash-core/ply-renderer.c: copy
+
+# src/plymouthd.conf = ASCII text 
+src/plymouthd.conf: copy
+
+# src/ply-splash-core.pc.in = ASCII text 
+src/ply-splash-core.pc.in: copy
+
+# src/ply-boot-server.h = ASCII C program text 
+src/ply-boot-server.h: copy
+
+# src/client/Makefile.am = ASCII text 
+src/client/Makefile.am: copy
+
+# src/client/tests/Makefile.am = ASCII text 
+src/client/tests/Makefile.am: copy
+
+# src/client/tests/Makefile.in = ASCII English text 
+src/client/tests/Makefile.in: copy
+
+# src/client/ply-boot-client.h = ASCII C program text 
+src/client/ply-boot-client.h: copy
+
+# src/client/ply-boot-client.c = ASCII C program text 
+src/client/ply-boot-client.c: copy
+
+# src/client/plymouth.c = ASCII C program text 
+src/client/plymouth.c: copy
+
+# src/client/ply-boot-client.pc.in = ASCII text 
+src/client/ply-boot-client.pc.in: copy
+
+# src/client/Makefile.in = ASCII English text, with very long lines 
+src/client/Makefile.in: copy
+
+# src/plymouthd.defaults = ASCII text 
+src/plymouthd.defaults: copy
+
+# src/tests/ply-boot-splash-test.am = ASCII text 
+src/tests/ply-boot-splash-test.am: copy
+
+# src/tests/Makefile.am = ASCII text 
+src/tests/Makefile.am: copy
+
+# src/tests/ply-boot-server-test.am = ASCII text 
+src/tests/ply-boot-server-test.am: copy
+
+# src/tests/Makefile.in = ASCII English text, with very long lines 
+src/tests/Makefile.in: copy
+
+# src/libply-splash-graphics/Makefile.am = ASCII text 
+src/libply-splash-graphics/Makefile.am: copy
+
+# src/libply-splash-graphics/ply-throbber.c = ASCII C program text 
+src/libply-splash-graphics/ply-throbber.c: copy
+
+# src/libply-splash-graphics/ply-label.c = ASCII C program text 
+src/libply-splash-graphics/ply-label.c: copy
+
+# src/libply-splash-graphics/ply-progress-animation.h = ASCII C program text 
+src/libply-splash-graphics/ply-progress-animation.h: copy
+
+# src/libply-splash-graphics/ply-animation.h = ASCII C program text 
+src/libply-splash-graphics/ply-animation.h: copy
+
+# src/libply-splash-graphics/ply-throbber.h = ASCII C program text 
+src/libply-splash-graphics/ply-throbber.h: copy
+
+# src/libply-splash-graphics/ply-progress-bar.c = ASCII C program text 
+src/libply-splash-graphics/ply-progress-bar.c: copy
+
+# src/libply-splash-graphics/ply-image.h = ASCII C program text 
+src/libply-splash-graphics/ply-image.h: copy
+
+# src/libply-splash-graphics/ply-image.c = UTF-8 Unicode C program text 
+src/libply-splash-graphics/ply-image.c: copy
+
+# src/libply-splash-graphics/ply-label-plugin.h = ASCII C program text 
+src/libply-splash-graphics/ply-label-plugin.h: copy
+
+# src/libply-splash-graphics/ply-progress-animation.c = ASCII C program text 
+src/libply-splash-graphics/ply-progress-animation.c: copy
+
+# src/libply-splash-graphics/ply-label.h = ASCII C program text 
+src/libply-splash-graphics/ply-label.h: copy
+
+# src/libply-splash-graphics/Makefile.in = ASCII English text, with very long lines 
+src/libply-splash-graphics/Makefile.in: copy
+
+# src/libply-splash-graphics/ply-entry.c = ASCII C program text 
+src/libply-splash-graphics/ply-entry.c: copy
+
+# src/libply-splash-graphics/ply-entry.h = ASCII C program text 
+src/libply-splash-graphics/ply-entry.h: copy
+
+# src/libply-splash-graphics/ply-progress-bar.h = ASCII C program text 
+src/libply-splash-graphics/ply-progress-bar.h: copy
+
+# src/libply-splash-graphics/ply-animation.c = ASCII C program text 
+src/libply-splash-graphics/ply-animation.c: copy
+
+# src/plugins/renderers/Makefile.am = ASCII text 
+src/plugins/renderers/Makefile.am: copy
+
+# src/plugins/renderers/frame-buffer/plugin.c = UTF-8 Unicode C program text 
+src/plugins/renderers/frame-buffer/plugin.c: copy
+
+# src/plugins/renderers/frame-buffer/Makefile.am = ASCII text 
+src/plugins/renderers/frame-buffer/Makefile.am: copy
+
+# src/plugins/renderers/frame-buffer/Makefile.in = ASCII English text, with very long lines 
+src/plugins/renderers/frame-buffer/Makefile.in: copy
+
+# src/plugins/renderers/x11/plugin.c = UTF-8 Unicode C program text 
+src/plugins/renderers/x11/plugin.c: copy
+
+# src/plugins/renderers/x11/Makefile.am = ASCII text 
+src/plugins/renderers/x11/Makefile.am: copy
+
+# src/plugins/renderers/x11/Makefile.in = ASCII English text, with very long lines 
+src/plugins/renderers/x11/Makefile.in: copy
+
+# src/plugins/renderers/drm/plugin.c = UTF-8 Unicode C program text 
+src/plugins/renderers/drm/plugin.c: copy
+
+# src/plugins/renderers/drm/Makefile.am = ASCII text 
+src/plugins/renderers/drm/Makefile.am: copy
+
+# src/plugins/renderers/drm/ply-renderer-driver.h = ASCII C program text 
+src/plugins/renderers/drm/ply-renderer-driver.h: copy
+
+# src/plugins/renderers/drm/ply-renderer-i915-driver.c = ASCII C program text 
+src/plugins/renderers/drm/ply-renderer-i915-driver.c: copy
+
+# src/plugins/renderers/drm/ply-renderer-radeon-driver.c = ASCII C program text 
+src/plugins/renderers/drm/ply-renderer-radeon-driver.c: copy
+
+# src/plugins/renderers/drm/ply-renderer-nouveau-driver.c = ASCII C program text 
+src/plugins/renderers/drm/ply-renderer-nouveau-driver.c: copy
+
+# src/plugins/renderers/drm/ply-renderer-nouveau-driver.h = ASCII C program text 
+src/plugins/renderers/drm/ply-renderer-nouveau-driver.h: copy
+
+# src/plugins/renderers/drm/ply-renderer-radeon-driver.h = ASCII C program text 
+src/plugins/renderers/drm/ply-renderer-radeon-driver.h: copy
+
+# src/plugins/renderers/drm/Makefile.in = ASCII English text, with very long lines 
+src/plugins/renderers/drm/Makefile.in: copy
+
+# src/plugins/renderers/drm/ply-renderer-i915-driver.h = ASCII C program text 
+src/plugins/renderers/drm/ply-renderer-i915-driver.h: copy
+
+# src/plugins/renderers/Makefile.in = ASCII English text 
+src/plugins/renderers/Makefile.in: copy
+
+# src/plugins/Makefile.am = ASCII text 
+src/plugins/Makefile.am: copy
+
+# src/plugins/splash/Makefile.am = ASCII text 
+src/plugins/splash/Makefile.am: copy
+
+# src/plugins/splash/script/script-lib-math.h = ASCII C program text 
+src/plugins/splash/script/script-lib-math.h: copy
+
+# src/plugins/splash/script/script-lib-string.h = ASCII C program text 
+src/plugins/splash/script/script-lib-string.h: copy
+
+# src/plugins/splash/script/plugin.c = ASCII C program text 
+src/plugins/splash/script/plugin.c: copy
+
+# src/plugins/splash/script/script-lib-plymouth.h = ASCII C program text 
+src/plugins/splash/script/script-lib-plymouth.h: copy
+
+# src/plugins/splash/script/script-lib-image.h = ASCII C program text 
+src/plugins/splash/script/script-lib-image.h: copy
+
+# src/plugins/splash/script/script-scan.h = ASCII C program text 
+src/plugins/splash/script/script-scan.h: copy
+
+# src/plugins/splash/script/script-execute.h = ASCII C program text 
+src/plugins/splash/script/script-execute.h: copy
+
+# src/plugins/splash/script/script-lib-math.script = ASCII text 
+src/plugins/splash/script/script-lib-math.script: copy
+
+# src/plugins/splash/script/Makefile.am = ASCII text 
+src/plugins/splash/script/Makefile.am: copy
+
+# src/plugins/splash/script/script-parse.h = ASCII C program text 
+src/plugins/splash/script/script-parse.h: copy
+
+# src/plugins/splash/script/script-lib-image.c = ASCII C program text 
+src/plugins/splash/script/script-lib-image.c: copy
+
+# src/plugins/splash/script/script-lib-sprite.h = ASCII C program text 
+src/plugins/splash/script/script-lib-sprite.h: copy
+
+# src/plugins/splash/script/script-scan.c = ASCII C program text 
+src/plugins/splash/script/script-scan.c: copy
+
+# src/plugins/splash/script/script.c = ASCII C program text 
+src/plugins/splash/script/script.c: copy
+
+# src/plugins/splash/script/script-lib-image.script = ASCII text 
+src/plugins/splash/script/script-lib-image.script: copy
+
+# src/plugins/splash/script/script-debug.c = ASCII C program text 
+src/plugins/splash/script/script-debug.c: copy
+
+# src/plugins/splash/script/script-lib-string.script = ASCII text 
+src/plugins/splash/script/script-lib-string.script: copy
+
+# src/plugins/splash/script/script-object.h = ASCII C program text 
+src/plugins/splash/script/script-object.h: copy
+
+# src/plugins/splash/script/script-lib-plymouth.script = ASCII text 
+src/plugins/splash/script/script-lib-plymouth.script: copy
+
+# src/plugins/splash/script/script.h = ASCII C program text 
+src/plugins/splash/script/script.h: copy
+
+# src/plugins/splash/script/script-lib-math.c = ASCII C program text 
+src/plugins/splash/script/script-lib-math.c: copy
+
+# src/plugins/splash/script/script-lib-plymouth.c = ASCII C program text 
+src/plugins/splash/script/script-lib-plymouth.c: copy
+
+# src/plugins/splash/script/script-lib-sprite.c = ASCII C program text 
+src/plugins/splash/script/script-lib-sprite.c: copy
+
+# src/plugins/splash/script/script-debug.h = ASCII C program text 
+src/plugins/splash/script/script-debug.h: copy
+
+# src/plugins/splash/script/plugin.h = ASCII C program text 
+src/plugins/splash/script/plugin.h: copy
+
+# src/plugins/splash/script/script-object.c = ASCII C program text 
+src/plugins/splash/script/script-object.c: copy
+
+# src/plugins/splash/script/script-execute.c = ASCII C program text 
+src/plugins/splash/script/script-execute.c: copy
+
+# src/plugins/splash/script/script-lib-string.c = ASCII C program text 
+src/plugins/splash/script/script-lib-string.c: copy
+
+# src/plugins/splash/script/Makefile.in = ASCII English text, with very long lines 
+src/plugins/splash/script/Makefile.in: copy
+
+# src/plugins/splash/script/script-parse.c = ASCII C program text 
+src/plugins/splash/script/script-parse.c: copy
+
+# src/plugins/splash/script/script-lib-sprite.script = ASCII text 
+src/plugins/splash/script/script-lib-sprite.script: copy
+
+# src/plugins/splash/throbgress/plugin.c = ASCII C program text 
+src/plugins/splash/throbgress/plugin.c: copy
+
+# src/plugins/splash/throbgress/Makefile.am = ASCII text 
+src/plugins/splash/throbgress/Makefile.am: copy
+
+# src/plugins/splash/throbgress/Makefile.in = ASCII English text, with very long lines 
+src/plugins/splash/throbgress/Makefile.in: copy
+
+# src/plugins/splash/fade-throbber/plugin.c = ASCII C program text 
+src/plugins/splash/fade-throbber/plugin.c: copy
+
+# src/plugins/splash/fade-throbber/Makefile.am = ASCII text 
+src/plugins/splash/fade-throbber/Makefile.am: copy
+
+# src/plugins/splash/fade-throbber/Makefile.in = ASCII English text, with very long lines 
+src/plugins/splash/fade-throbber/Makefile.in: copy
+
+# src/plugins/splash/space-flares/plugin.c = ASCII C program text 
+src/plugins/splash/space-flares/plugin.c: copy
+
+# src/plugins/splash/space-flares/Makefile.am = ASCII text 
+src/plugins/splash/space-flares/Makefile.am: copy
+
+# src/plugins/splash/space-flares/Makefile.in = ASCII English text, with very long lines 
+src/plugins/splash/space-flares/Makefile.in: copy
+
+# src/plugins/splash/details/plugin.c = ASCII C program text 
+src/plugins/splash/details/plugin.c: copy
+
+# src/plugins/splash/details/Makefile.am = ASCII text 
+src/plugins/splash/details/Makefile.am: copy
+
+# src/plugins/splash/details/Makefile.in = ASCII English text, with very long lines 
+src/plugins/splash/details/Makefile.in: copy
+
+# src/plugins/splash/text/plugin.c = ASCII C program text 
+src/plugins/splash/text/plugin.c: copy
+
+# src/plugins/splash/text/Makefile.am = ASCII text 
+src/plugins/splash/text/Makefile.am: copy
+
+# src/plugins/splash/text/Makefile.in = ASCII English text, with very long lines 
+src/plugins/splash/text/Makefile.in: copy
+
+# src/plugins/splash/Makefile.in = ASCII English text 
+src/plugins/splash/Makefile.in: copy
+
+# src/plugins/splash/two-step/plugin.c = ASCII C program text 
+src/plugins/splash/two-step/plugin.c: copy
+
+# src/plugins/splash/two-step/Makefile.am = ASCII text 
+src/plugins/splash/two-step/Makefile.am: copy
+
+# src/plugins/splash/two-step/Makefile.in = ASCII English text, with very long lines 
+src/plugins/splash/two-step/Makefile.in: copy
+
+# src/plugins/controls/Makefile.am = ASCII text 
+src/plugins/controls/Makefile.am: copy
+
+# src/plugins/controls/label/plugin.c = ASCII C program text 
+src/plugins/controls/label/plugin.c: copy
+
+# src/plugins/controls/label/Makefile.am = ASCII text 
+src/plugins/controls/label/Makefile.am: copy
+
+# src/plugins/controls/label/Makefile.in = ASCII English text, with very long lines 
+src/plugins/controls/label/Makefile.in: copy
+
+# src/plugins/controls/Makefile.in = ASCII English text 
+src/plugins/controls/Makefile.in: copy
+
+# src/plugins/Makefile.in = ASCII English text 
+src/plugins/Makefile.in: copy
+
+# src/libply/ply-utils.h = ASCII C program text 
+src/libply/ply-utils.h: copy
+
+# src/libply/ply-command-parser.c = ASCII C program text 
+src/libply/ply-command-parser.c: copy
+
+# src/libply/ply-key-file.c = ASCII C program text 
+src/libply/ply-key-file.c: copy
+
+# src/libply/ply-progress.h = ASCII C program text 
+src/libply/ply-progress.h: copy
+
+# src/libply/Makefile.am = ASCII text 
+src/libply/Makefile.am: copy
+
+# src/libply/ply-list.h = ASCII C program text 
+src/libply/ply-list.h: copy
+
+# src/libply/ply-buffer.h = ASCII C program text 
+src/libply/ply-buffer.h: copy
+
+# src/libply/ply-hashtable.h = ASCII C program text 
+src/libply/ply-hashtable.h: copy
+
+# src/libply/ply-rectangle.c = ASCII C program text 
+src/libply/ply-rectangle.c: copy
+
+# src/libply/ply-rectangle.h = ASCII C program text 
+src/libply/ply-rectangle.h: copy
+
+# src/libply/ply-region.h = ASCII C program text 
+src/libply/ply-region.h: copy
+
+# src/libply/ply-region.c = ASCII C program text 
+src/libply/ply-region.c: copy
+
+# src/libply/ply-event-loop.c = ASCII C program text 
+src/libply/ply-event-loop.c: copy
+
+# src/libply/ply-trigger.c = ASCII C program text 
+src/libply/ply-trigger.c: copy
+
+# src/libply/ply-logger.c = ASCII C program text 
+src/libply/ply-logger.c: copy
+
+# src/libply/ply-terminal-session.h = ASCII C program text 
+src/libply/ply-terminal-session.h: copy
+
+# src/libply/ply-bitarray.h = ASCII C program text 
+src/libply/ply-bitarray.h: copy
+
+# src/libply/ply-event-loop.h = ASCII C program text 
+src/libply/ply-event-loop.h: copy
+
+# src/libply/ply-array.h = ASCII C program text 
+src/libply/ply-array.h: copy
+
+# src/libply/ply-utils.c = ASCII C program text 
+src/libply/ply-utils.c: copy
+
+# src/libply/ply-list.c = ASCII C program text 
+src/libply/ply-list.c: copy
+
+# src/libply/tests/ply-logger-test.am = ASCII text 
+src/libply/tests/ply-logger-test.am: copy
+
+# src/libply/tests/ply-array-test.am = ASCII text 
+src/libply/tests/ply-array-test.am: copy
+
+# src/libply/tests/Makefile.am = ASCII text 
+src/libply/tests/Makefile.am: copy
+
+# src/libply/tests/ply-progress-test.am = ASCII text 
+src/libply/tests/ply-progress-test.am: copy
+
+# src/libply/tests/ply-command-parser-test.am = ASCII text 
+src/libply/tests/ply-command-parser-test.am: copy
+
+# src/libply/tests/ply-list-test.am = ASCII text 
+src/libply/tests/ply-list-test.am: copy
+
+# src/libply/tests/ply-event-loop-test.am = ASCII text 
+src/libply/tests/ply-event-loop-test.am: copy
+
+# src/libply/tests/ply-region.am = ASCII text 
+src/libply/tests/ply-region.am: copy
+
+# src/libply/tests/ply-terminal-session-test.am = ASCII text 
+src/libply/tests/ply-terminal-session-test.am: copy
+
+# src/libply/tests/ply-bitarray-test.am = ASCII text 
+src/libply/tests/ply-bitarray-test.am: copy
+
+# src/libply/tests/ply-hashtable-test.am = ASCII text 
+src/libply/tests/ply-hashtable-test.am: copy
+
+# src/libply/tests/Makefile.in = ASCII English text, with very long lines 
+src/libply/tests/Makefile.in: copy
+
+# src/libply/ply-array.c = ASCII C program text 
+src/libply/ply-array.c: copy
+
+# src/libply/ply-hashtable.c = ASCII C program text 
+src/libply/ply-hashtable.c: copy
+
+# src/libply/ply-progress.c = ASCII C program text 
+src/libply/ply-progress.c: copy
+
+# src/libply/ply-trigger.h = ASCII C program text 
+src/libply/ply-trigger.h: copy
+
+# src/libply/ply-buffer.c = ASCII C program text 
+src/libply/ply-buffer.c: copy
+
+# src/libply/ply-logger.h = ASCII C program text 
+src/libply/ply-logger.h: copy
+
+# src/libply/Makefile.in = ASCII English text, with very long lines 
+src/libply/Makefile.in: copy
+
+# src/libply/ply-terminal-session.c = ASCII C program text 
+src/libply/ply-terminal-session.c: copy
+
+# src/libply/ply-command-parser.h = ASCII C program text 
+src/libply/ply-command-parser.h: copy
+
+# src/libply/ply-key-file.h = ASCII C program text 
+src/libply/ply-key-file.h: copy
+
+# src/libply/ply-bitarray.c = ASCII C program text 
+src/libply/ply-bitarray.c: copy
+
+# src/Makefile.in = ASCII English text, with very long lines 
+src/Makefile.in: copy
+
+# src/ply-boot-protocol.h = ASCII C program text 
+src/ply-boot-protocol.h: copy
+
+# src/viewer/plymouth-log-viewer.c = ASCII C program text 
+src/viewer/plymouth-log-viewer.c: copy
+
+# src/viewer/Makefile.am = ASCII text 
+src/viewer/Makefile.am: copy
+
+# src/viewer/plymouth-log-viewer.desktop = ASCII text 
+src/viewer/plymouth-log-viewer.desktop: copy
+
+# src/viewer/Makefile.in = ASCII English text, with very long lines 
+src/viewer/Makefile.in: copy
+
+# AUTHORS = UTF-8 Unicode text 
+AUTHORS: copy
+
+# TODO = ASCII English text 
+TODO: copy
+
+# configure.ac = ASCII English text 
+configure.ac: copy
+
+# build-tools/config.guess = POSIX shell script text executable 
+build-tools/config.guess: copy
+
+# build-tools/compile = POSIX shell script text executable 
+build-tools/compile: copy
+
+# build-tools/install-sh = POSIX shell script text executable 
+build-tools/install-sh: copy
+
+# build-tools/missing = POSIX shell script text executable 
+build-tools/missing: copy
+
+# build-tools/ltmain.sh = ASCII English text 
+build-tools/ltmain.sh: copy
+
+# build-tools/config.sub = POSIX shell script text executable 
+build-tools/config.sub: copy
+
+# build-tools/depcomp = POSIX shell script text executable 
+build-tools/depcomp: copy
+
+# configure = POSIX shell script text executable 
+configure: copy
+
+# acinclude.m4 = ASCII M4 macro language pre-processor text 
+acinclude.m4: copy
+
+# COPYING = ASCII English text 
+COPYING: copy
+
+# Makefile.in = ASCII English text 
+Makefile.in: copy

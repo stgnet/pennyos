@@ -1,0 +1,766 @@
+# Patchlist created Mon Mar  3 22:05:30 CST 2014
+
+# doc/report-cli.txt = ASCII Pascal program text
+doc/report-cli.txt: copy
+
+# doc/reporter-kerneloops.txt = ASCII English text
+doc/reporter-kerneloops.txt: copy
+
+# doc/Makefile.am = ASCII text
+doc/Makefile.am: copy
+
+# doc/reporter-upload.txt = ASCII English text
+doc/reporter-upload.txt: copy
+
+# doc/report.txt = ASCII text
+doc/report.txt: copy
+
+# doc/reporter-mailx.txt = ASCII English text
+doc/reporter-mailx.txt: copy
+
+# doc/reporter-bugzilla.txt = ASCII English text
+doc/reporter-bugzilla.txt: copy
+
+# doc/abrt-bodhi.txt = ASCII English text
+doc/abrt-bodhi.txt: copy
+
+# doc/report_event.conf.txt = ASCII English text
+doc/report_event.conf.txt: copy
+
+# doc/reporter-print.txt = ASCII English text
+doc/reporter-print.txt: copy
+
+# doc/Makefile.in = ASCII English text
+doc/Makefile.in: copy
+
+# doc/reporter-rhtsupport.txt = ASCII English text
+doc/reporter-rhtsupport.txt: copy
+
+# INSTALL = ASCII text
+INSTALL: copy
+
+# aclocal.m4 = UTF-8 Unicode English text
+aclocal.m4: copy
+
+# Makefile.am = ASCII text
+Makefile.am: copy
+
+# config.guess = POSIX shell script text executable
+config.guess: copy
+
+# m4/lib-link.m4 = ASCII M4 macro language pre-processor text
+m4/lib-link.m4: copy
+
+# m4/lib-ld.m4 = ASCII M4 macro language pre-processor text
+m4/lib-ld.m4: copy
+
+# m4/intlmacosx.m4 = ASCII M4 macro language pre-processor text
+m4/intlmacosx.m4: copy
+
+# m4/po.m4 = ASCII M4 macro language pre-processor text, with very long lines
+m4/po.m4: copy
+
+# m4/nls.m4 = ASCII M4 macro language pre-processor text
+m4/nls.m4: copy
+
+# m4/progtest.m4 = ASCII M4 macro language pre-processor text
+m4/progtest.m4: copy
+
+# m4/libtool.m4 = Ruby module source text
+m4/libtool.m4: copy
+
+# m4/ltoptions.m4 = ASCII English text
+m4/ltoptions.m4: copy
+
+# m4/iconv.m4 = ASCII M4 macro language pre-processor text
+m4/iconv.m4: copy
+
+# m4/intltool.m4 = ASCII English text
+m4/intltool.m4: copy
+
+# m4/gettext.m4 = ASCII M4 macro language pre-processor text
+m4/gettext.m4: copy
+
+# m4/ltsugar.m4 = ASCII English text
+m4/ltsugar.m4: copy
+
+# m4/lt~obsolete.m4 = ASCII English text
+m4/lt~obsolete.m4: copy
+
+# m4/ltversion.m4 = ASCII English text
+m4/ltversion.m4: copy
+
+# m4/lib-prefix.m4 = ASCII M4 macro language pre-processor text
+m4/lib-prefix.m4: copy
+
+# config.h.in = ASCII C program text
+config.h.in: copy
+
+# README = ASCII text, with no line terminators
+README: copy
+
+# src/include/event_config.h = ASCII C program text
+src/include/event_config.h: copy
+
+# src/include/Makefile.am = ASCII text
+src/include/Makefile.am: copy
+
+# src/include/internal_abrt_dbus.h = ASCII C program text
+src/include/internal_abrt_dbus.h: copy
+
+# src/include/problem_data.h = ASCII C program text
+src/include/problem_data.h: copy
+
+# src/include/run_event.h = ASCII C program text
+src/include/run_event.h: copy
+
+# src/include/dump_dir.h = ASCII C program text
+src/include/dump_dir.h: copy
+
+# src/include/report.h = ASCII C program text
+src/include/report.h: copy
+
+# src/include/client.h = ASCII C program text
+src/include/client.h: copy
+
+# src/include/internal_libreport.h = ASCII C program text
+src/include/internal_libreport.h: copy
+
+# src/include/Makefile.in = ASCII English text
+src/include/Makefile.in: copy
+
+# src/Makefile.am = ASCII text
+src/Makefile.am: copy
+
+# src/gtk-helpers/libreport-gtk.pc.in = ASCII text
+src/gtk-helpers/libreport-gtk.pc.in: copy
+
+# src/gtk-helpers/Makefile.am = ASCII English text
+src/gtk-helpers/Makefile.am: copy
+
+# src/gtk-helpers/abrt-keyring.c = ASCII C program text
+src/gtk-helpers/abrt-keyring.c: copy
+
+# src/gtk-helpers/hyperlinks.c = ASCII C program text
+src/gtk-helpers/hyperlinks.c: copy
+
+# src/gtk-helpers/internal_libreport_gtk.h = ASCII C program text
+src/gtk-helpers/internal_libreport_gtk.h: copy
+
+# src/gtk-helpers/event_config_dialog.c = ASCII C program text
+src/gtk-helpers/event_config_dialog.c: copy
+
+# src/gtk-helpers/autowrapped_label.c = ASCII C program text
+src/gtk-helpers/autowrapped_label.c: copy
+
+# src/gtk-helpers/Makefile.in = ASCII English text, with very long lines
+src/gtk-helpers/Makefile.in: copy
+
+# src/lib/abrt_dbus.c = ASCII C program text
+src/lib/abrt_dbus.c: copy
+
+# src/lib/abrt_types.c = ASCII C program text
+src/lib/abrt_types.c: copy
+
+# src/lib/abrt_sock.c = ASCII C program text
+src/lib/abrt_sock.c: copy
+
+# src/lib/glib_support.c = ASCII C program text
+src/lib/glib_support.c: copy
+
+# src/lib/report.c = ASCII C program text
+src/lib/report.c: copy
+
+# src/lib/read_write.c = ASCII C program text
+src/lib/read_write.c: copy
+
+# src/lib/Makefile.am = ASCII English text
+src/lib/Makefile.am: copy
+
+# src/lib/copy_file_recursive.c = ASCII C program text
+src/lib/copy_file_recursive.c: copy
+
+# src/lib/make_dir_recursive.c = ASCII C program text
+src/lib/make_dir_recursive.c: copy
+
+# src/lib/skip_whitespace.c = ASCII C program text
+src/lib/skip_whitespace.c: copy
+
+# src/lib/iso_date_string.c = ASCII C program text
+src/lib/iso_date_string.c: copy
+
+# src/lib/encbase64.c = ASCII C program text
+src/lib/encbase64.c: copy
+
+# src/lib/hash_sha1.c = ASCII C program text
+src/lib/hash_sha1.c: copy
+
+# src/lib/parse_options.c = ASCII C program text
+src/lib/parse_options.c: copy
+
+# src/lib/concat_path_file.c = ASCII C program text
+src/lib/concat_path_file.c: copy
+
+# src/lib/create_dump_dir.c = ASCII C program text
+src/lib/create_dump_dir.c: copy
+
+# src/lib/append_to_malloced_string.c = ASCII C program text
+src/lib/append_to_malloced_string.c: copy
+
+# src/lib/report_event.conf = ASCII English text
+src/lib/report_event.conf: copy
+
+# src/lib/is_in_comma_separated_list.c = ASCII C program text
+src/lib/is_in_comma_separated_list.c: copy
+
+# src/lib/event_config.c = ASCII C program text
+src/lib/event_config.c: copy
+
+# src/lib/get_cmdline.c = ASCII C program text
+src/lib/get_cmdline.c: copy
+
+# src/lib/user_settings.c = ASCII C program text
+src/lib/user_settings.c: copy
+
+# src/lib/problem_data.c = ASCII C program text
+src/lib/problem_data.c: copy
+
+# src/lib/abrt_xmlrpc.h = ASCII C program text
+src/lib/abrt_xmlrpc.h: copy
+
+# src/lib/abrt_curl.h = ASCII C program text
+src/lib/abrt_curl.h: copy
+
+# src/lib/binhex.c = ASCII C program text
+src/lib/binhex.c: copy
+
+# src/lib/dirsize.c = ASCII C program text
+src/lib/dirsize.c: copy
+
+# src/lib/make_descr.c = ASCII C program text
+src/lib/make_descr.c: copy
+
+# src/lib/abrt_curl.c = ASCII C program text
+src/lib/abrt_curl.c: copy
+
+# src/lib/overlapping_strcpy.c = ASCII C program text
+src/lib/overlapping_strcpy.c: copy
+
+# src/lib/dump_dir.c = ASCII C program text
+src/lib/dump_dir.c: copy
+
+# src/lib/stdio_helpers.c = ASCII C program text
+src/lib/stdio_helpers.c: copy
+
+# src/lib/client.c = ASCII C program text
+src/lib/client.c: copy
+
+# src/lib/load_plugin_settings.c = ASCII C program text
+src/lib/load_plugin_settings.c: copy
+
+# src/lib/abrt_xmlrpc.c = ASCII C program text
+src/lib/abrt_xmlrpc.c: copy
+
+# src/lib/parse_release.c = ASCII C program text
+src/lib/parse_release.c: copy
+
+# src/lib/xatonum.c = ASCII C program text
+src/lib/xatonum.c: copy
+
+# src/lib/utf8.c = ASCII C program text
+src/lib/utf8.c: copy
+
+# src/lib/run_event.c = ASCII C program text
+src/lib/run_event.c: copy
+
+# src/lib/xfuncs.c = ASCII C program text
+src/lib/xfuncs.c: copy
+
+# src/lib/spawn.c = ASCII C program text
+src/lib/spawn.c: copy
+
+# src/lib/strbuf.c = ASCII C program text
+src/lib/strbuf.c: copy
+
+# src/lib/Makefile.in = ASCII English text, with very long lines
+src/lib/Makefile.in: copy
+
+# src/lib/proxies.h = ASCII C program text
+src/lib/proxies.h: copy
+
+# src/lib/logging.c = ASCII C program text
+src/lib/logging.c: copy
+
+# src/lib/proxies.c = ASCII C program text
+src/lib/proxies.c: copy
+
+# src/lib/copyfd.c = ASCII C program text
+src/lib/copyfd.c: copy
+
+# src/lib/event_xml_parser.c = ASCII C program text
+src/lib/event_xml_parser.c: copy
+
+# src/lib/is_in_string_list.c = ASCII C program text
+src/lib/is_in_string_list.c: copy
+
+# src/lib/steal_directory.c = ASCII C program text
+src/lib/steal_directory.c: copy
+
+# src/gui-wizard-gtk/wizard_glade.c = UTF-8 Unicode HTML document text, with very long lines
+src/gui-wizard-gtk/wizard_glade.c: copy
+
+# src/gui-wizard-gtk/Makefile.am = ASCII English text
+src/gui-wizard-gtk/Makefile.am: copy
+
+# src/gui-wizard-gtk/main.c = ASCII C program text
+src/gui-wizard-gtk/main.c: copy
+
+# src/gui-wizard-gtk/wizard.h = ASCII C program text
+src/gui-wizard-gtk/wizard.h: copy
+
+# src/gui-wizard-gtk/wizard.glade = XML  document text
+src/gui-wizard-gtk/wizard.glade: copy
+
+# src/gui-wizard-gtk/wizard.c = UTF-8 Unicode C program text
+src/gui-wizard-gtk/wizard.c: copy
+
+# src/gui-wizard-gtk/forbidden_words.conf = ASCII text
+src/gui-wizard-gtk/forbidden_words.conf: copy
+
+# src/gui-wizard-gtk/Makefile.in = ASCII English text, with very long lines
+src/gui-wizard-gtk/Makefile.in: copy
+
+# src/cli/Makefile.am = ASCII text
+src/cli/Makefile.am: copy
+
+# src/cli/cli-report.h = ASCII C program text
+src/cli/cli-report.h: copy
+
+# src/cli/run-command.c = ASCII C program text
+src/cli/run-command.c: copy
+
+# src/cli/cli.c = ASCII C program text
+src/cli/cli.c: copy
+
+# src/cli/run-command.h = ASCII C program text
+src/cli/run-command.h: copy
+
+# src/cli/Makefile.in = ASCII English text, with very long lines
+src/cli/Makefile.in: copy
+
+# src/cli/cli-report.c = ASCII C program text
+src/cli/cli-report.c: copy
+
+# src/report-newt/Makefile.am = ASCII text
+src/report-newt/Makefile.am: copy
+
+# src/report-newt/report-newt.c = ASCII C program text
+src/report-newt/report-newt.c: copy
+
+# src/report-newt/Makefile.in = ASCII English text, with very long lines
+src/report-newt/Makefile.in: copy
+
+# src/plugins/report_Bugzilla.conf = ASCII text
+src/plugins/report_Bugzilla.conf: copy
+
+# src/plugins/bugzilla_event.conf = ASCII text
+src/plugins/bugzilla_event.conf: copy
+
+# src/plugins/abrt-bodhi.c = ASCII C program text
+src/plugins/abrt-bodhi.c: copy
+
+# src/plugins/reporter-kerneloops.c = ASCII C program text
+src/plugins/reporter-kerneloops.c: copy
+
+# src/plugins/report.c = ASCII C program text
+src/plugins/report.c: copy
+
+# src/plugins/report_Uploader.xml = XML  document text
+src/plugins/report_Uploader.xml: copy
+
+# src/plugins/Makefile.am = ASCII text
+src/plugins/Makefile.am: copy
+
+# src/plugins/report_Uploader.xml.in = XML  document text
+src/plugins/report_Uploader.xml.in: copy
+
+# src/plugins/report_Mailx.xml = XML  document text
+src/plugins/report_Mailx.xml: copy
+
+# src/plugins/reporter-rhtsupport-parse.c = ASCII C program text
+src/plugins/reporter-rhtsupport-parse.c: copy
+
+# src/plugins/report_RHTSupport.xml = XML  document text
+src/plugins/report_RHTSupport.xml: copy
+
+# src/plugins/uploader_event.conf = ASCII text
+src/plugins/uploader_event.conf: copy
+
+# src/plugins/reporter-rhtsupport.c = ASCII C program text
+src/plugins/reporter-rhtsupport.c: copy
+
+# src/plugins/reporter-print.c = ASCII C program text
+src/plugins/reporter-print.c: copy
+
+# src/plugins/mailx.conf = ASCII text
+src/plugins/mailx.conf: copy
+
+# src/plugins/reporter-mailx.c = ASCII C program text
+src/plugins/reporter-mailx.c: copy
+
+# src/plugins/report_Bugzilla.xml.in = XML  document text
+src/plugins/report_Bugzilla.xml.in: copy
+
+# src/plugins/report_Logger.conf = ASCII text
+src/plugins/report_Logger.conf: copy
+
+# src/plugins/mailx_event.conf = ASCII text
+src/plugins/mailx_event.conf: copy
+
+# src/plugins/report_Logger.xml = XML  document text
+src/plugins/report_Logger.xml: copy
+
+# src/plugins/print_event.conf = ASCII text
+src/plugins/print_event.conf: copy
+
+# src/plugins/rhbz.h = ASCII C program text
+src/plugins/rhbz.h: copy
+
+# src/plugins/rhbz.c = ASCII C program text
+src/plugins/rhbz.c: copy
+
+# src/plugins/report_Kerneloops.xml = XML  document text
+src/plugins/report_Kerneloops.xml: copy
+
+# src/plugins/reporter-upload.c = ASCII C program text
+src/plugins/reporter-upload.c: copy
+
+# src/plugins/rhtsupport_event.conf = ASCII text
+src/plugins/rhtsupport_event.conf: copy
+
+# src/plugins/report_Mailx.xml.in = XML  document text
+src/plugins/report_Mailx.xml.in: copy
+
+# src/plugins/report_RHTSupport.xml.in = XML  document text
+src/plugins/report_RHTSupport.xml.in: copy
+
+# src/plugins/report_Bugzilla.xml = XML  document text
+src/plugins/report_Bugzilla.xml: copy
+
+# src/plugins/abrt_rh_support.c = ASCII C program text
+src/plugins/abrt_rh_support.c: copy
+
+# src/plugins/reporter-rhtsupport.h = ASCII C program text
+src/plugins/reporter-rhtsupport.h: copy
+
+# src/plugins/rhtsupport.conf = ASCII text
+src/plugins/rhtsupport.conf: copy
+
+# src/plugins/report_Logger.xml.in = XML  document text
+src/plugins/report_Logger.xml.in: copy
+
+# src/plugins/Makefile.in = ASCII English text, with very long lines
+src/plugins/Makefile.in: copy
+
+# src/plugins/bugzilla.conf = ASCII text
+src/plugins/bugzilla.conf: copy
+
+# src/plugins/abrt_rh_support.h = ASCII C program text
+src/plugins/abrt_rh_support.h: copy
+
+# src/plugins/reporter-bugzilla.c = ASCII C program text
+src/plugins/reporter-bugzilla.c: copy
+
+# src/plugins/report_Kerneloops.xml.in = XML  document text
+src/plugins/report_Kerneloops.xml.in: copy
+
+# src/client-python/__init__.py = Python script text executable
+src/client-python/__init__.py: copy
+
+# src/client-python/Makefile.am = ASCII text
+src/client-python/Makefile.am: copy
+
+# src/client-python/clientmodule.c = ASCII C program text
+src/client-python/clientmodule.c: copy
+
+# src/client-python/common.h = ASCII C program text
+src/client-python/common.h: copy
+
+# src/client-python/client.c = ASCII C program text
+src/client-python/client.c: copy
+
+# src/client-python/debuginfo.py = Python script text executable
+src/client-python/debuginfo.py: copy
+
+# src/client-python/Makefile.in = ASCII English text, with very long lines
+src/client-python/Makefile.in: copy
+
+# src/report-python/__init__.py = Python script text executable
+src/report-python/__init__.py: copy
+
+# src/report-python/report.c = ASCII C program text
+src/report-python/report.c: copy
+
+# src/report-python/Makefile.am = ASCII text
+src/report-python/Makefile.am: copy
+
+# src/report-python/README = ASCII English text
+src/report-python/README: copy
+
+# src/report-python/io/__init__.py = ASCII Pascal program text
+src/report-python/io/__init__.py: copy
+
+# src/report-python/io/GTKIO.py = Python script text executable
+src/report-python/io/GTKIO.py: copy
+
+# src/report-python/io/NewtIO.py = Python script text executable
+src/report-python/io/NewtIO.py: copy
+
+# src/report-python/io/TextIO.py = ASCII Pascal program text
+src/report-python/io/TextIO.py: copy
+
+# src/report-python/problem_data.c = ASCII C program text
+src/report-python/problem_data.c: copy
+
+# src/report-python/dump_dir.c = ASCII C program text
+src/report-python/dump_dir.c: copy
+
+# src/report-python/common.h = ASCII C program text
+src/report-python/common.h: copy
+
+# src/report-python/reportmodule.c = ASCII C program text
+src/report-python/reportmodule.c: copy
+
+# src/report-python/accountmanager.py = ASCII Pascal program text
+src/report-python/accountmanager.py: copy
+
+# src/report-python/run_event.c = ASCII C program text
+src/report-python/run_event.c: copy
+
+# src/report-python/Makefile.in = ASCII English text, with very long lines
+src/report-python/Makefile.in: copy
+
+# src/Makefile.in = ASCII English text
+src/Makefile.in: copy
+
+# libreport-version = ASCII text, with no line terminators
+libreport-version: copy
+
+# ABOUT-NLS = ASCII English text
+ABOUT-NLS: copy
+
+# install-sh = POSIX shell script text executable
+install-sh: copy
+
+# configure.ac = ASCII M4 macro language pre-processor text
+configure.ac: copy
+
+# config.rpath = POSIX shell script text executable
+config.rpath: copy
+
+# asciidoc.conf = ASCII text
+asciidoc.conf: copy
+
+# po/uk.po = UTF-8 Unicode English text, with very long lines
+po/uk.po: copy
+
+# po/pt.po = UTF-8 Unicode English text
+po/pt.po: copy
+
+# po/te.po = UTF-8 Unicode English text
+po/te.po: copy
+
+# po/ml.po = UTF-8 Unicode English text
+po/ml.po: copy
+
+# po/da.po = UTF-8 Unicode English text
+po/da.po: copy
+
+# po/nl.po = UTF-8 Unicode English text, with very long lines
+po/nl.po: copy
+
+# po/en_GB.po = UTF-8 Unicode English text
+po/en_GB.po: copy
+
+# po/nb.po = UTF-8 Unicode English text
+po/nb.po: copy
+
+# po/or.po = UTF-8 Unicode English text
+po/or.po: copy
+
+# po/id.po = UTF-8 Unicode English text
+po/id.po: copy
+
+# po/tr.po = UTF-8 Unicode English text
+po/tr.po: copy
+
+# po/he.po = UTF-8 Unicode English text
+po/he.po: copy
+
+# po/zh_CN.po = data
+po/zh_CN.po: copy
+
+# po/cs.po = UTF-8 Unicode English text
+po/cs.po: copy
+
+# po/as.po = UTF-8 Unicode English text
+po/as.po: copy
+
+# po/pa.po = UTF-8 Unicode English text
+po/pa.po: copy
+
+# po/ko.po = UTF-8 Unicode English text
+po/ko.po: copy
+
+# po/ja.po = UTF-8 Unicode English text
+po/ja.po: copy
+
+# po/de.po = UTF-8 Unicode English text, with very long lines
+po/de.po: copy
+
+# po/gu.po = UTF-8 Unicode English text
+po/gu.po: copy
+
+# po/ChangeLog = empty
+po/ChangeLog: copy
+
+# po/kn.po = UTF-8 Unicode English text
+po/kn.po: copy
+
+# po/POTFILES.in = ASCII text
+po/POTFILES.in: copy
+
+# po/sr.po = UTF-8 Unicode English text
+po/sr.po: copy
+
+# po/hi.po = UTF-8 Unicode English text
+po/hi.po: copy
+
+# po/bg.po = UTF-8 Unicode English text
+po/bg.po: copy
+
+# po/mr.po = UTF-8 Unicode English text
+po/mr.po: copy
+
+# po/ta.po = UTF-8 Unicode English text
+po/ta.po: copy
+
+# po/ru.po = UTF-8 Unicode English text
+po/ru.po: copy
+
+# po/zh_TW.po = UTF-8 Unicode English text
+po/zh_TW.po: copy
+
+# po/fr.po = UTF-8 Unicode English text
+po/fr.po: copy
+
+# po/fa.po = UTF-8 Unicode English text
+po/fa.po: copy
+
+# po/sr@latin.po = UTF-8 Unicode English text
+po/sr@latin.po: copy
+
+# po/es.po = UTF-8 Unicode English text, with very long lines
+po/es.po: copy
+
+# po/ar.po = UTF-8 Unicode English text
+po/ar.po: copy
+
+# po/pt_BR.po = UTF-8 Unicode English text
+po/pt_BR.po: copy
+
+# po/fi.po = UTF-8 Unicode English text
+po/fi.po: copy
+
+# po/bs.po = UTF-8 Unicode English text
+po/bs.po: copy
+
+# po/ca.po = UTF-8 Unicode English text
+po/ca.po: copy
+
+# po/hu.po = UTF-8 Unicode English text, with very long lines
+po/hu.po: copy
+
+# po/pl.po = UTF-8 Unicode English text
+po/pl.po: copy
+
+# po/Makefile.in.in = ASCII Pascal program text
+po/Makefile.in.in: copy
+
+# po/it.po = UTF-8 Unicode English text
+po/it.po: copy
+
+# po/bn_IN.po = UTF-8 Unicode English text
+po/bn_IN.po: copy
+
+# po/sv.po = UTF-8 Unicode English text
+po/sv.po: copy
+
+# po/LINGUAS = ASCII text
+po/LINGUAS: copy
+
+# po/sk.po = UTF-8 Unicode English text
+po/sk.po: copy
+
+# po/el.po = UTF-8 Unicode English text
+po/el.po: copy
+
+# po/POTFILES.skip = ASCII text
+po/POTFILES.skip: copy
+
+# po/nds.po = UTF-8 Unicode English text
+po/nds.po: copy
+
+# missing = POSIX shell script text executable
+missing: copy
+
+# ltmain.sh = ASCII English text
+ltmain.sh: copy
+
+# tests/Makefile.am = ASCII English text
+tests/Makefile.am: copy
+
+# tests/osrelease.at = ASCII C program text
+tests/osrelease.at: copy
+
+# tests/testsuite.at = ASCII text
+tests/testsuite.at: copy
+
+# tests/atlocal.in = ASCII text
+tests/atlocal.in: copy
+
+# tests/taghyperlinks.at = ASCII C program text
+tests/taghyperlinks.at: copy
+
+# tests/strbuf.at = ASCII C program text
+tests/strbuf.at: copy
+
+# tests/local.at = ASCII English text
+tests/local.at: copy
+
+# tests/Makefile.in = ASCII English text
+tests/Makefile.in: copy
+
+# tests/package.m4 = ASCII English text
+tests/package.m4: copy
+
+# configure = POSIX shell script text executable
+configure: copy
+
+# py-compile = POSIX shell script text executable
+py-compile: copy
+
+# COPYING = ASCII English text
+COPYING: copy
+
+# config.sub = POSIX shell script text executable
+config.sub: copy
+
+# libreport.pc.in = ASCII text
+libreport.pc.in: copy
+
+# Makefile.in = ASCII English text
+Makefile.in: copy
+
+# depcomp = POSIX shell script text executable
+depcomp: copy

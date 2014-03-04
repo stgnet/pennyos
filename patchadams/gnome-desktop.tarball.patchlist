@@ -1,0 +1,1281 @@
+# Patchlist created Mon Mar  3 22:06:01 CST 2014
+
+# configure.in = ASCII M4 macro language pre-processor text
+configure.in: copy
+
+# gnome-about/gnome-about.in = Python script text executable
+gnome-about/gnome-about.in: copy
+
+# gnome-about/gnome-about.desktop.in.in = ASCII text
+gnome-about/gnome-about.desktop.in.in: copy
+
+# gnome-about/Makefile.am = ASCII text
+gnome-about/Makefile.am: copy
+
+# gnome-about/foundation-members.list = UTF-8 Unicode text
+gnome-about/foundation-members.list: copy
+
+# gnome-about/gnome-64.png = PNG image data, 64 x 64, 8-bit/color RGBA, non-interlaced
+gnome-about/gnome-64.png: copy
+
+# gnome-about/headers/header-bg-clouds02.png = PNG image data, 2000 x 48, 8-bit colormap, non-interlaced
+gnome-about/headers/header-bg-clouds02.png: copy
+
+# gnome-about/headers/header-bg-sunset01.png = PNG image data, 2000 x 48, 8-bit colormap, non-interlaced
+gnome-about/headers/header-bg-sunset01.png: copy
+
+# gnome-about/headers/header-bg-mountains01.png = PNG image data, 2000 x 48, 8-bit colormap, non-interlaced
+gnome-about/headers/header-bg-mountains01.png: copy
+
+# gnome-about/headers/header-bg-landscape01.png = PNG image data, 2000 x 48, 8-bit colormap, non-interlaced
+gnome-about/headers/header-bg-landscape01.png: copy
+
+# gnome-about/headers/Makefile.am = ASCII text
+gnome-about/headers/Makefile.am: copy
+
+# gnome-about/headers/header-bg-city01.png = PNG image data, 2000 x 48, 8-bit colormap, non-interlaced
+gnome-about/headers/header-bg-city01.png: copy
+
+# gnome-about/headers/header-bg-clouds01.png = PNG image data, 2000 x 48, 8-bit colormap, non-interlaced
+gnome-about/headers/header-bg-clouds01.png: copy
+
+# gnome-about/headers/header-bg-ancient01a.png = PNG image data, 2000 x 48, 8-bit colormap, non-interlaced
+gnome-about/headers/header-bg-ancient01a.png: copy
+
+# gnome-about/headers/header-bg-hills01.png = PNG image data, 2000 x 48, 8-bit colormap, non-interlaced
+gnome-about/headers/header-bg-hills01.png: copy
+
+# gnome-about/headers/Makefile.in = ASCII English text
+gnome-about/headers/Makefile.in: copy
+
+# gnome-about/headers/header-bg-snow01.png = PNG image data, 2000 x 48, 8-bit colormap, non-interlaced
+gnome-about/headers/header-bg-snow01.png: copy
+
+# gnome-about/contributors.list = UTF-8 Unicode English text
+gnome-about/contributors.list: copy
+
+# gnome-about/Makefile.in = ASCII English text
+gnome-about/Makefile.in: copy
+
+# NEWS = UTF-8 Unicode English text
+NEWS: copy
+
+# aclocal.m4 = UTF-8 Unicode English text
+aclocal.m4: copy
+
+# Makefile.am = ASCII text
+Makefile.am: copy
+
+# config.guess = POSIX shell script text executable
+config.guess: copy
+
+# gtk-doc.make = ASCII C++ program text
+gtk-doc.make: copy
+
+# COPYING.LIB = ASCII English text
+COPYING.LIB: copy
+
+# gnome-version.xml.in.in = XML  document text
+gnome-version.xml.in.in: copy
+
+# m4/libtool.m4 = Ruby module source text
+m4/libtool.m4: copy
+
+# m4/ltoptions.m4 = ASCII English text
+m4/ltoptions.m4: copy
+
+# m4/gtk-doc.m4 = ASCII M4 macro language pre-processor text
+m4/gtk-doc.m4: copy
+
+# m4/gnome-doc-utils.m4 = ASCII M4 macro language pre-processor text
+m4/gnome-doc-utils.m4: copy
+
+# m4/intltool.m4 = ASCII English text
+m4/intltool.m4: copy
+
+# m4/ltsugar.m4 = ASCII English text
+m4/ltsugar.m4: copy
+
+# m4/lt~obsolete.m4 = ASCII English text
+m4/lt~obsolete.m4: copy
+
+# m4/ltversion.m4 = ASCII English text
+m4/ltversion.m4: copy
+
+# COPYING-DOCS = ASCII English text
+COPYING-DOCS: copy
+
+# config.h.in = ASCII C program text
+config.h.in: copy
+
+# README = ASCII English text
+README: copy
+
+# docs/Makefile.am = ASCII text
+docs/Makefile.am: copy
+
+# docs/Makefile.in = ASCII English text
+docs/Makefile.in: copy
+
+# docs/reference/Makefile.am = ASCII text
+docs/reference/Makefile.am: copy
+
+# docs/reference/gnome-desktop/html/home.png = PNG image data, 24 x 24, 8-bit/color RGBA, non-interlaced
+docs/reference/gnome-desktop/html/home.png: copy
+
+# docs/reference/gnome-desktop/html/index.sgml = ASCII text
+docs/reference/gnome-desktop/html/index.sgml: copy
+
+# docs/reference/gnome-desktop/html/background.html = HTML document text
+docs/reference/gnome-desktop/html/background.html: copy
+
+# docs/reference/gnome-desktop/html/right.png = PNG image data, 24 x 24, 8-bit/color RGBA, non-interlaced
+docs/reference/gnome-desktop/html/right.png: copy
+
+# docs/reference/gnome-desktop/html/thumbnail.html = HTML document text
+docs/reference/gnome-desktop/html/thumbnail.html: copy
+
+# docs/reference/gnome-desktop/html/left.png = PNG image data, 24 x 24, 8-bit/color RGBA, non-interlaced
+docs/reference/gnome-desktop/html/left.png: copy
+
+# docs/reference/gnome-desktop/html/GnomeDesktopThumbnailFactory.html = HTML document text
+docs/reference/gnome-desktop/html/GnomeDesktopThumbnailFactory.html: copy
+
+# docs/reference/gnome-desktop/html/gnome-desktop.devhelp2 = XML  document text
+docs/reference/gnome-desktop/html/gnome-desktop.devhelp2: copy
+
+# docs/reference/gnome-desktop/html/gnome-desktop-GnomeDesktopItem.html = HTML document text
+docs/reference/gnome-desktop/html/gnome-desktop-GnomeDesktopItem.html: copy
+
+# docs/reference/gnome-desktop/html/gnome-desktop-Miscellaneous-Functions.html = HTML document text
+docs/reference/gnome-desktop/html/gnome-desktop-Miscellaneous-Functions.html: copy
+
+# docs/reference/gnome-desktop/html/gnome-desktop-gnome-rr-output.html = HTML document text
+docs/reference/gnome-desktop/html/gnome-desktop-gnome-rr-output.html: copy
+
+# docs/reference/gnome-desktop/html/up.png = PNG image data, 24 x 24, 8-bit/color RGBA, non-interlaced
+docs/reference/gnome-desktop/html/up.png: copy
+
+# docs/reference/gnome-desktop/html/GnomeRRLabeler.html = HTML document text
+docs/reference/gnome-desktop/html/GnomeRRLabeler.html: copy
+
+# docs/reference/gnome-desktop/html/GnomeBG.html = HTML document text
+docs/reference/gnome-desktop/html/GnomeBG.html: copy
+
+# docs/reference/gnome-desktop/html/gnome-desktop-gnome-rr-screen.html = HTML document text
+docs/reference/gnome-desktop/html/gnome-desktop-gnome-rr-screen.html: copy
+
+# docs/reference/gnome-desktop/html/libgnome.html = HTML document text
+docs/reference/gnome-desktop/html/libgnome.html: copy
+
+# docs/reference/gnome-desktop/html/style.css = ASCII C program text
+docs/reference/gnome-desktop/html/style.css: copy
+
+# docs/reference/gnome-desktop/html/gnome-desktop.devhelp = XML  document text
+docs/reference/gnome-desktop/html/gnome-desktop.devhelp: copy
+
+# docs/reference/gnome-desktop/html/gnome-desktop-gnome-rr-crtc.html = HTML document text
+docs/reference/gnome-desktop/html/gnome-desktop-gnome-rr-crtc.html: copy
+
+# docs/reference/gnome-desktop/html/randr.html = HTML document text
+docs/reference/gnome-desktop/html/randr.html: copy
+
+# docs/reference/gnome-desktop/html/gnome-desktop-gnome-rr-mode.html = HTML document text
+docs/reference/gnome-desktop/html/gnome-desktop-gnome-rr-mode.html: copy
+
+# docs/reference/gnome-desktop/html/index.html = HTML document text
+docs/reference/gnome-desktop/html/index.html: copy
+
+# docs/reference/gnome-desktop/html/intro.html = HTML document text
+docs/reference/gnome-desktop/html/intro.html: copy
+
+# docs/reference/gnome-desktop/html/gnome-desktop-Miscellaneous-Thumbnail-Functions.html = HTML document text
+docs/reference/gnome-desktop/html/gnome-desktop-Miscellaneous-Thumbnail-Functions.html: copy
+
+# docs/reference/gnome-desktop/html/gnome-desktop-gnome-rr-config.html = HTML document text
+docs/reference/gnome-desktop/html/gnome-desktop-gnome-rr-config.html: copy
+
+# docs/reference/gnome-desktop/tmpl/gnome-rr-crtc.sgml = exported SGML document text
+docs/reference/gnome-desktop/tmpl/gnome-rr-crtc.sgml: copy
+
+# docs/reference/gnome-desktop/tmpl/gnome-rr-mode.sgml = exported SGML document text
+docs/reference/gnome-desktop/tmpl/gnome-rr-mode.sgml: copy
+
+# docs/reference/gnome-desktop/tmpl/gnome-rr-config.sgml = exported SGML document text
+docs/reference/gnome-desktop/tmpl/gnome-rr-config.sgml: copy
+
+# docs/reference/gnome-desktop/tmpl/gnome-desktop-item.sgml = exported SGML document text
+docs/reference/gnome-desktop/tmpl/gnome-desktop-item.sgml: copy
+
+# docs/reference/gnome-desktop/tmpl/gnome-desktop-unused.sgml = empty
+docs/reference/gnome-desktop/tmpl/gnome-desktop-unused.sgml: copy
+
+# docs/reference/gnome-desktop/tmpl/gnome-bg.sgml = exported SGML document text
+docs/reference/gnome-desktop/tmpl/gnome-bg.sgml: copy
+
+# docs/reference/gnome-desktop/tmpl/gnome-rr-labeler.sgml = exported SGML document text
+docs/reference/gnome-desktop/tmpl/gnome-rr-labeler.sgml: copy
+
+# docs/reference/gnome-desktop/tmpl/gnome-rr-output.sgml = exported SGML document text
+docs/reference/gnome-desktop/tmpl/gnome-rr-output.sgml: copy
+
+# docs/reference/gnome-desktop/tmpl/gnome-rr-screen.sgml = exported SGML document text
+docs/reference/gnome-desktop/tmpl/gnome-rr-screen.sgml: copy
+
+# docs/reference/gnome-desktop/tmpl/gnome-desktop-utils.sgml = exported SGML document text
+docs/reference/gnome-desktop/tmpl/gnome-desktop-utils.sgml: copy
+
+# docs/reference/gnome-desktop/tmpl/gnome-desktop-thumbnail.sgml = exported SGML document text
+docs/reference/gnome-desktop/tmpl/gnome-desktop-thumbnail.sgml: copy
+
+# docs/reference/gnome-desktop/tmpl/gnome-desktop-thumbnail-factory.sgml = exported SGML document text
+docs/reference/gnome-desktop/tmpl/gnome-desktop-thumbnail-factory.sgml: copy
+
+# docs/reference/gnome-desktop/Makefile.am = ASCII English text
+docs/reference/gnome-desktop/Makefile.am: copy
+
+# docs/reference/gnome-desktop/gnome-desktop-overrides.txt = empty
+docs/reference/gnome-desktop/gnome-desktop-overrides.txt: copy
+
+# docs/reference/gnome-desktop/gnome-desktop.types = ASCII C program text
+docs/reference/gnome-desktop/gnome-desktop.types: copy
+
+# docs/reference/gnome-desktop/gnome-desktop-docs.sgml = XML  document text
+docs/reference/gnome-desktop/gnome-desktop-docs.sgml: copy
+
+# docs/reference/gnome-desktop/gnome-desktop-sections.txt = ASCII text
+docs/reference/gnome-desktop/gnome-desktop-sections.txt: copy
+
+# docs/reference/gnome-desktop/Makefile.in = ASCII English text
+docs/reference/gnome-desktop/Makefile.in: copy
+
+# docs/reference/Makefile.in = ASCII English text
+docs/reference/Makefile.in: copy
+
+# ChangeLog = UTF-8 Unicode English text
+ChangeLog: copy
+
+# AUTHORS = ASCII text
+AUTHORS: copy
+
+# pixmaps/gnome-color-browser.png = PNG image data, 48 x 48, 8-bit/color RGBA, non-interlaced
+pixmaps/gnome-color-browser.png: copy
+
+# pixmaps/gnome-suse.png = PNG image data, 48 x 48, 8-bit/color RGBA, non-interlaced
+pixmaps/gnome-suse.png: copy
+
+# pixmaps/gnome-gimp.png = PNG image data, 48 x 48, 8-bit/color RGBA, non-interlaced
+pixmaps/gnome-gimp.png: copy
+
+# pixmaps/gnome-gmenu.png = PNG image data, 48 x 48, 8-bit/color RGBA, non-interlaced
+pixmaps/gnome-gmenu.png: copy
+
+# pixmaps/gnome-term-tiger.png = PNG image data, 48 x 48, 8-bit/color RGBA, non-interlaced
+pixmaps/gnome-term-tiger.png: copy
+
+# pixmaps/gnome-log.png = PNG image data, 48 x 48, 8-bit/color RGBA, non-interlaced
+pixmaps/gnome-log.png: copy
+
+# pixmaps/gnome-term-night.png = PNG image data, 48 x 48, 8-bit/color RGBA, non-interlaced
+pixmaps/gnome-term-night.png: copy
+
+# pixmaps/gnome-qeye.png = PNG image data, 48 x 48, 8-bit/color RGBA, non-interlaced
+pixmaps/gnome-qeye.png: copy
+
+# pixmaps/gnome-gnomoku.png = PNG image data, 48 x 48, 8-bit/color RGBA, non-interlaced
+pixmaps/gnome-gnomoku.png: copy
+
+# pixmaps/gnome-news.png = PNG image data, 48 x 48, 8-bit/color RGBA, non-interlaced
+pixmaps/gnome-news.png: copy
+
+# pixmaps/gnome-ccscreensaver.png = PNG image data, 48 x 48, 8-bit/color RGBA, non-interlaced
+pixmaps/gnome-ccscreensaver.png: copy
+
+# pixmaps/gnome-gemvt.png = PNG image data, 48 x 48, 8-bit/color RGBA, non-interlaced
+pixmaps/gnome-gemvt.png: copy
+
+# pixmaps/gnome-talk.png = PNG image data, 48 x 48, 8-bit/color RGBA, non-interlaced
+pixmaps/gnome-talk.png: copy
+
+# pixmaps/Makefile.am = ASCII text
+pixmaps/Makefile.am: copy
+
+# pixmaps/gnome-emacs.png = PNG image data, 48 x 46, 8-bit/color RGBA, non-interlaced
+pixmaps/gnome-emacs.png: copy
+
+# pixmaps/gnome-eterm.png = PNG image data, 48 x 48, 8-bit/color RGBA, non-interlaced
+pixmaps/gnome-eterm.png: copy
+
+# pixmaps/gnome-ccwindowmanager.png = PNG image data, 48 x 48, 8-bit/color RGBA, non-interlaced
+pixmaps/gnome-ccwindowmanager.png: copy
+
+# pixmaps/gnome-home.png = PNG image data, 48 x 48, 8-bit/color RGBA, non-interlaced
+pixmaps/gnome-home.png: copy
+
+# pixmaps/gnome-mnemonic.png = PNG image data, 48 x 48, 8-bit/color RGBA, non-interlaced
+pixmaps/gnome-mnemonic.png: copy
+
+# pixmaps/gnome-mouse.png = PNG image data, 48 x 48, 8-bit/color RGBA, non-interlaced
+pixmaps/gnome-mouse.png: copy
+
+# pixmaps/gnome-logo-large.png = PNG image data, 198 x 225, 8-bit colormap, non-interlaced
+pixmaps/gnome-logo-large.png: copy
+
+# pixmaps/gtkvim.png = PNG image data, 48 x 48, 8-bit/color RGBA, non-interlaced
+pixmaps/gtkvim.png: copy
+
+# pixmaps/gnome-aorta.png = PNG image data, 48 x 48, 8-bit/color RGBA, non-interlaced
+pixmaps/gnome-aorta.png: copy
+
+# pixmaps/monitor.png = PNG image data, 200 x 160, 16-bit/color RGB, non-interlaced
+pixmaps/monitor.png: copy
+
+# pixmaps/gnome-touristinfo.png = PNG image data, 49 x 51, 8-bit/color RGBA, non-interlaced
+pixmaps/gnome-touristinfo.png: copy
+
+# pixmaps/gnome-ccdesktop.png = PNG image data, 48 x 48, 8-bit/color RGBA, non-interlaced
+pixmaps/gnome-ccdesktop.png: copy
+
+# pixmaps/gnome-term.png = PNG image data, 48 x 48, 8-bit/color RGBA, non-interlaced
+pixmaps/gnome-term.png: copy
+
+# pixmaps/gnome-note.png = PNG image data, 48 x 48, 8-bit/color RGBA, non-interlaced
+pixmaps/gnome-note.png: copy
+
+# pixmaps/gnome-tigert.png = PNG image data, 48 x 48, 8-bit/color RGBA, non-interlaced
+pixmaps/gnome-tigert.png: copy
+
+# pixmaps/gnome-month.png = PNG image data, 24 x 24, 8-bit/color RGBA, non-interlaced
+pixmaps/gnome-month.png: copy
+
+# pixmaps/gnome-ccbackground.png = PNG image data, 48 x 48, 8-bit/color RGBA, non-interlaced
+pixmaps/gnome-ccbackground.png: copy
+
+# pixmaps/gnome-logo-icon-transparent.png = PNG image data, 48 x 48, 8-bit/color RGBA, non-interlaced
+pixmaps/gnome-logo-icon-transparent.png: copy
+
+# pixmaps/gnome-diskfree.png = PNG image data, 48 x 48, 8-bit/color RGBA, non-interlaced
+pixmaps/gnome-diskfree.png: copy
+
+# pixmaps/gnome-gmush.png = PNG image data, 48 x 48, 8-bit/color RGBA, non-interlaced
+pixmaps/gnome-gmush.png: copy
+
+# pixmaps/gnome-calendar.png = PNG image data, 48 x 48, 8-bit/color RGBA, non-interlaced
+pixmaps/gnome-calendar.png: copy
+
+# pixmaps/gnome-irc.png = PNG image data, 48 x 48, 8-bit/color RGBA, non-interlaced
+pixmaps/gnome-irc.png: copy
+
+# pixmaps/gnome-image-gif.png = PNG image data, 48 x 48, 8-bit/color RGBA, non-interlaced
+pixmaps/gnome-image-gif.png: copy
+
+# pixmaps/gnome-week.png = PNG image data, 24 x 24, 8-bit/color RGBA, non-interlaced
+pixmaps/gnome-week.png: copy
+
+# pixmaps/apple-green.png = PNG image data, 48 x 48, 8-bit/color RGBA, non-interlaced
+pixmaps/apple-green.png: copy
+
+# pixmaps/gnome-applets.png = PNG image data, 48 x 48, 8-bit/color RGBA, non-interlaced
+pixmaps/gnome-applets.png: copy
+
+# pixmaps/gnome-ccmime.png = PNG image data, 48 x 48, 8-bit/color RGBA, non-interlaced
+pixmaps/gnome-ccmime.png: copy
+
+# pixmaps/gnome-html.png = PNG image data, 48 x 48, 8-bit/color RGBA, non-interlaced
+pixmaps/gnome-html.png: copy
+
+# pixmaps/gnome-color-xterm.png = PNG image data, 48 x 48, 8-bit/color RGBA, non-interlaced
+pixmaps/gnome-color-xterm.png: copy
+
+# pixmaps/gnome-day.png = PNG image data, 24 x 24, 8-bit/color RGBA, non-interlaced
+pixmaps/gnome-day.png: copy
+
+# pixmaps/gnome-set-time.png = PNG image data, 48 x 48, 8-bit/color RGBA, non-interlaced
+pixmaps/gnome-set-time.png: copy
+
+# pixmaps/kterm.xpm = X pixmap image text
+pixmaps/kterm.xpm: copy
+
+# pixmaps/gnome-calc3.png = PNG image data, 48 x 48, 8-bit/color RGBA, non-interlaced
+pixmaps/gnome-calc3.png: copy
+
+# pixmaps/gnome-ccperiph.png = PNG image data, 48 x 48, 8-bit/color RGBA, non-interlaced
+pixmaps/gnome-ccperiph.png: copy
+
+# pixmaps/gnome-ccdialog.png = PNG image data, 48 x 48, 8-bit/color RGBA, non-interlaced
+pixmaps/gnome-ccdialog.png: copy
+
+# pixmaps/gnome-computer.png = PNG image data, 48 x 48, 8-bit/color RGBA, non-interlaced
+pixmaps/gnome-computer.png: copy
+
+# pixmaps/gnome-term-linux2.png = PNG image data, 48 x 48, 8-bit/color RGBA, non-interlaced
+pixmaps/gnome-term-linux2.png: copy
+
+# pixmaps/gnome-squeak.png = PNG image data, 48 x 48, 8-bit/color RGBA, non-interlaced
+pixmaps/gnome-squeak.png: copy
+
+# pixmaps/gnome-file-c.png = PNG image data, 48 x 48, 8-bit/color RGBA, non-interlaced
+pixmaps/gnome-file-c.png: copy
+
+# pixmaps/gnome-file-h.png = PNG image data, 48 x 48, 8-bit/color RGBA, non-interlaced
+pixmaps/gnome-file-h.png: copy
+
+# pixmaps/gnome-xterm.png = PNG image data, 48 x 48, 8-bit/color RGBA, non-interlaced
+pixmaps/gnome-xterm.png: copy
+
+# pixmaps/gnome-logo-icon.png = PNG image data, 48 x 48, 8-bit/color RGB, non-interlaced
+pixmaps/gnome-logo-icon.png: copy
+
+# pixmaps/gnome-user-interface.png = PNG image data, 48 x 48, 8-bit/color RGBA, non-interlaced
+pixmaps/gnome-user-interface.png: copy
+
+# pixmaps/gnome-windows.png = PNG image data, 48 x 48, 8-bit/color RGBA, non-interlaced
+pixmaps/gnome-windows.png: copy
+
+# pixmaps/gnome-term-linux.png = PNG image data, 48 x 48, 8-bit/color RGBA, non-interlaced
+pixmaps/gnome-term-linux.png: copy
+
+# pixmaps/gnome-mdi.png = PNG image data, 48 x 48, 8-bit/color RGBA, non-interlaced
+pixmaps/gnome-mdi.png: copy
+
+# pixmaps/gnome-background.png = PNG image data, 48 x 48, 8-bit/color RGBA, non-interlaced
+pixmaps/gnome-background.png: copy
+
+# pixmaps/gnome-cromagnon.png = PNG image data, 48 x 48, 8-bit/color RGBA, non-interlaced
+pixmaps/gnome-cromagnon.png: copy
+
+# pixmaps/gnome-calc2.png = PNG image data, 47 x 48, 8-bit/color RGBA, non-interlaced
+pixmaps/gnome-calc2.png: copy
+
+# pixmaps/vnterm.xpm = X pixmap image text
+pixmaps/vnterm.xpm: copy
+
+# pixmaps/gnome-laptop.png = PNG image data, 48 x 48, 8-bit/color RGBA, non-interlaced
+pixmaps/gnome-laptop.png: copy
+
+# pixmaps/gnome-word.png = PNG image data, 48 x 48, 8-bit/color RGBA, non-interlaced
+pixmaps/gnome-word.png: copy
+
+# pixmaps/Makefile.in = ASCII English text
+pixmaps/Makefile.in: copy
+
+# pixmaps/gnome-image-jpeg.png = PNG image data, 48 x 48, 8-bit/color RGBA, non-interlaced
+pixmaps/gnome-image-jpeg.png: copy
+
+# pixmaps/gnome-debian.png = PNG image data, 48 x 48, 8-bit/color RGBA, non-interlaced
+pixmaps/gnome-debian.png: copy
+
+# pixmaps/gnome-background-pattern.png = PNG image data, 1 x 6, 8-bit/color RGBA, non-interlaced
+pixmaps/gnome-background-pattern.png: copy
+
+# pixmaps/apple-red.png = PNG image data, 48 x 48, 8-bit/color RGBA, non-interlaced
+pixmaps/apple-red.png: copy
+
+# pixmaps/gnome-folder.png = PNG image data, 48 x 48, 8-bit/color RGBA, non-interlaced
+pixmaps/gnome-folder.png: copy
+
+# pixmaps/gnome-background-image.png = PNG image data, 143 x 170, 8-bit/color RGBA, non-interlaced
+pixmaps/gnome-background-image.png: copy
+
+# pixmaps/gnome-spider.png = PNG image data, 48 x 48, 8-bit/color RGBA, non-interlaced
+pixmaps/gnome-spider.png: copy
+
+# install-sh = POSIX shell script text executable
+install-sh: copy
+
+# ChangeLog.pre-git = UTF-8 Unicode English text
+ChangeLog.pre-git: copy
+
+# po/ps.po = UTF-8 Unicode English text
+po/ps.po: copy
+
+# po/uk.po = UTF-8 Unicode PO (gettext message catalogue) text
+po/uk.po: copy
+
+# po/wa.po = UTF-8 Unicode English text
+po/wa.po: copy
+
+# po/ig.po = UTF-8 Unicode PO (gettext message catalogue) text
+po/ig.po: copy
+
+# po/pt.po = UTF-8 Unicode English text
+po/pt.po: copy
+
+# po/te.po = UTF-8 Unicode English text
+po/te.po: copy
+
+# po/ky.po = UTF-8 Unicode English text
+po/ky.po: copy
+
+# po/lt.po = UTF-8 Unicode PO (gettext message catalogue) text
+po/lt.po: copy
+
+# po/ml.po = UTF-8 Unicode English text
+po/ml.po: copy
+
+# po/da.po = UTF-8 Unicode English text
+po/da.po: copy
+
+# po/nl.po = UTF-8 Unicode English text
+po/nl.po: copy
+
+# po/en_GB.po = ASCII PO (gettext message catalogue) text
+po/en_GB.po: copy
+
+# po/rw.po = UTF-8 Unicode English text
+po/rw.po: copy
+
+# po/nb.po = UTF-8 Unicode PO (gettext message catalogue) text
+po/nb.po: copy
+
+# po/ku.po = UTF-8 Unicode English text
+po/ku.po: copy
+
+# po/or.po = UTF-8 Unicode English text
+po/or.po: copy
+
+# po/vi.po = UTF-8 Unicode English text
+po/vi.po: copy
+
+# po/mai.po = UTF-8 Unicode English text
+po/mai.po: copy
+
+# po/id.po = ASCII English text
+po/id.po: copy
+
+# po/ug.po = UTF-8 Unicode English text, with CRLF line terminators
+po/ug.po: copy
+
+# po/tr.po = UTF-8 Unicode PO (gettext message catalogue) text
+po/tr.po: copy
+
+# po/he.po = UTF-8 Unicode English text
+po/he.po: copy
+
+# po/mi.po = UTF-8 Unicode English text
+po/mi.po: copy
+
+# po/mk.po = UTF-8 Unicode PO (gettext message catalogue) text
+po/mk.po: copy
+
+# po/zh_CN.po = UTF-8 Unicode English text
+po/zh_CN.po: copy
+
+# po/bn.po = UTF-8 Unicode English text
+po/bn.po: copy
+
+# po/cs.po = UTF-8 Unicode English text
+po/cs.po: copy
+
+# po/as.po = UTF-8 Unicode English text
+po/as.po: copy
+
+# po/pa.po = UTF-8 Unicode PO (gettext message catalogue) text
+po/pa.po: copy
+
+# po/be@latin.po = UTF-8 Unicode PO (gettext message catalogue) text
+po/be@latin.po: copy
+
+# po/ko.po = UTF-8 Unicode English text
+po/ko.po: copy
+
+# po/yo.po = UTF-8 Unicode PO (gettext message catalogue) text
+po/yo.po: copy
+
+# po/ja.po = UTF-8 Unicode PO (gettext message catalogue) text
+po/ja.po: copy
+
+# po/de.po = UTF-8 Unicode PO (gettext message catalogue) text
+po/de.po: copy
+
+# po/gu.po = UTF-8 Unicode PO (gettext message catalogue) text
+po/gu.po: copy
+
+# po/nso.po = UTF-8 Unicode English text
+po/nso.po: copy
+
+# po/en@shaw.po = UTF-8 Unicode PO (gettext message catalogue) text
+po/en@shaw.po: copy
+
+# po/kn.po = UTF-8 Unicode English text
+po/kn.po: copy
+
+# po/POTFILES.in = ASCII English text
+po/POTFILES.in: copy
+
+# po/sr.po = UTF-8 Unicode English text
+po/sr.po: copy
+
+# po/eo.po = UTF-8 Unicode PO (gettext message catalogue) text
+po/eo.po: copy
+
+# po/be.po = UTF-8 Unicode PO (gettext message catalogue) text
+po/be.po: copy
+
+# po/af.po = UTF-8 Unicode English text
+po/af.po: copy
+
+# po/eu.po = UTF-8 Unicode PO (gettext message catalogue) text
+po/eu.po: copy
+
+# po/hi.po = UTF-8 Unicode English text
+po/hi.po: copy
+
+# po/fur.po = UTF-8 Unicode PO (gettext message catalogue) text
+po/fur.po: copy
+
+# po/kk.po = UTF-8 Unicode PO (gettext message catalogue) text
+po/kk.po: copy
+
+# po/bg.po = UTF-8 Unicode PO (gettext message catalogue) text
+po/bg.po: copy
+
+# po/mr.po = UTF-8 Unicode PO (gettext message catalogue) text
+po/mr.po: copy
+
+# po/ta.po = UTF-8 Unicode PO (gettext message catalogue) text
+po/ta.po: copy
+
+# po/zh_HK.po = UTF-8 Unicode PO (gettext message catalogue) text
+po/zh_HK.po: copy
+
+# po/ast.po = UTF-8 Unicode English text
+po/ast.po: copy
+
+# po/zu.po = ASCII English text
+po/zu.po: copy
+
+# po/mn.po = UTF-8 Unicode English text
+po/mn.po: copy
+
+# po/lv.po = UTF-8 Unicode PO (gettext message catalogue) text
+po/lv.po: copy
+
+# po/ru.po = UTF-8 Unicode PO (gettext message catalogue) text
+po/ru.po: copy
+
+# po/cy.po = UTF-8 Unicode PO (gettext message catalogue) text
+po/cy.po: copy
+
+# po/zh_TW.po = UTF-8 Unicode PO (gettext message catalogue) text
+po/zh_TW.po: copy
+
+# po/fr.po = UTF-8 Unicode English text
+po/fr.po: copy
+
+# po/xh.po = ASCII English text
+po/xh.po: copy
+
+# po/fa.po = UTF-8 Unicode PO (gettext message catalogue) text
+po/fa.po: copy
+
+# po/tk.po = UTF-8 Unicode English text
+po/tk.po: copy
+
+# po/en_CA.po = ASCII English text
+po/en_CA.po: copy
+
+# po/ms.po = ASCII PO (gettext message catalogue) text
+po/ms.po: copy
+
+# po/sl.po = UTF-8 Unicode English text
+po/sl.po: copy
+
+# po/sq.po = UTF-8 Unicode English text
+po/sq.po: copy
+
+# po/uz@cyrillic.po = UTF-8 Unicode English text
+po/uz@cyrillic.po: copy
+
+# po/sr@latin.po = UTF-8 Unicode English text
+po/sr@latin.po: copy
+
+# po/crh.po = UTF-8 Unicode English text
+po/crh.po: copy
+
+# po/li.po = UTF-8 Unicode PO (gettext message catalogue) text
+po/li.po: copy
+
+# po/es.po = UTF-8 Unicode PO (gettext message catalogue) text
+po/es.po: copy
+
+# po/ur.po = UTF-8 Unicode PO (gettext message catalogue) text
+po/ur.po: copy
+
+# po/ar.po = UTF-8 Unicode English text
+po/ar.po: copy
+
+# po/pt_BR.po = UTF-8 Unicode English text
+po/pt_BR.po: copy
+
+# po/fi.po = UTF-8 Unicode PO (gettext message catalogue) text
+po/fi.po: copy
+
+# po/bs.po = UTF-8 Unicode English text
+po/bs.po: copy
+
+# po/ka.po = UTF-8 Unicode English text
+po/ka.po: copy
+
+# po/ro.po = UTF-8 Unicode PO (gettext message catalogue) text
+po/ro.po: copy
+
+# po/hy.po = UTF-8 Unicode English text
+po/hy.po: copy
+
+# po/ca.po = UTF-8 Unicode PO (gettext message catalogue) text
+po/ca.po: copy
+
+# po/hu.po = UTF-8 Unicode English text
+po/hu.po: copy
+
+# po/ca@valencia.po = UTF-8 Unicode PO (gettext message catalogue) text
+po/ca@valencia.po: copy
+
+# po/pl.po = UTF-8 Unicode PO (gettext message catalogue) text
+po/pl.po: copy
+
+# po/am.po = UTF-8 Unicode English text
+po/am.po: copy
+
+# po/Makefile.in.in = ASCII Pascal program text
+po/Makefile.in.in: copy
+
+# po/gl.po = UTF-8 Unicode PO (gettext message catalogue) text
+# "Centos de persoas levan contribuído con código ao Gnome desde que se iniciou "
+po/gl.po: patch
+
+# po/mg.po = ASCII English text
+po/mg.po: copy
+
+# po/is.po = UTF-8 Unicode English text
+po/is.po: copy
+
+# po/hr.po = UTF-8 Unicode PO (gettext message catalogue) text
+po/hr.po: copy
+
+# po/it.po = UTF-8 Unicode English text
+po/it.po: copy
+
+# po/ga.po = UTF-8 Unicode English text
+po/ga.po: copy
+
+# po/bn_IN.po = UTF-8 Unicode English text
+po/bn_IN.po: copy
+
+# po/ne.po = UTF-8 Unicode English text
+po/ne.po: copy
+
+# po/th.po = UTF-8 Unicode English text
+po/th.po: copy
+
+# po/oc.po = UTF-8 Unicode English text
+po/oc.po: copy
+
+# po/br.po = UTF-8 Unicode English text
+po/br.po: copy
+
+# po/sv.po = UTF-8 Unicode PO (gettext message catalogue) text
+po/sv.po: copy
+
+# po/LINGUAS = ASCII text
+po/LINGUAS: copy
+
+# po/dz.po = UTF-8 Unicode PO (gettext message catalogue) text
+po/dz.po: copy
+
+# po/et.po = UTF-8 Unicode English text
+po/et.po: copy
+
+# po/sk.po = UTF-8 Unicode PO (gettext message catalogue) text
+po/sk.po: copy
+
+# po/el.po = UTF-8 Unicode English text
+po/el.po: copy
+
+# po/si.po = UTF-8 Unicode English text
+po/si.po: copy
+
+# po/az.po = UTF-8 Unicode PO (gettext message catalogue) text
+po/az.po: copy
+
+# po/POTFILES.skip = ASCII text
+po/POTFILES.skip: copy
+
+# po/yi.po = UTF-8 Unicode PO (gettext message catalogue) text
+po/yi.po: copy
+
+# po/uz.po = UTF-8 Unicode English text
+po/uz.po: copy
+
+# po/lo.po = UTF-8 Unicode English text
+po/lo.po: copy
+
+# po/nds.po = UTF-8 Unicode English text
+po/nds.po: copy
+
+# po/nn.po = UTF-8 Unicode PO (gettext message catalogue) text
+po/nn.po: copy
+
+# mkinstalldirs = POSIX shell script text executable
+mkinstalldirs: copy
+
+# missing = POSIX shell script text executable
+missing: copy
+
+# ltmain.sh = ASCII English text
+ltmain.sh: copy
+
+# configure = POSIX shell script text executable
+configure: copy
+
+# desktop-docs/Makefile.am = ASCII text
+desktop-docs/Makefile.am: copy
+
+# desktop-docs/lgpl/lgpl.omf.in = XML  document text
+desktop-docs/lgpl/lgpl.omf.in: copy
+
+# desktop-docs/lgpl/uk/uk.po = UTF-8 Unicode PO (gettext message catalogue) text
+desktop-docs/lgpl/uk/uk.po: copy
+
+# desktop-docs/lgpl/uk/lgpl.xml = XML  document text
+desktop-docs/lgpl/uk/lgpl.xml: copy
+
+# desktop-docs/lgpl/es/lgpl.xml = XML  document text
+desktop-docs/lgpl/es/lgpl.xml: copy
+
+# desktop-docs/lgpl/es/es.po = UTF-8 Unicode PO (gettext message catalogue) text
+desktop-docs/lgpl/es/es.po: copy
+
+# desktop-docs/lgpl/Makefile.am = ASCII text
+desktop-docs/lgpl/Makefile.am: copy
+
+# desktop-docs/lgpl/oc/lgpl.xml = XML  document text
+desktop-docs/lgpl/oc/lgpl.xml: copy
+
+# desktop-docs/lgpl/oc/oc.po = ASCII English text
+desktop-docs/lgpl/oc/oc.po: copy
+
+# desktop-docs/lgpl/zh_CN/zh_CN.po = UTF-8 Unicode PO (gettext message catalogue) text, with very long lines
+desktop-docs/lgpl/zh_CN/zh_CN.po: copy
+
+# desktop-docs/lgpl/zh_CN/lgpl.xml = XML  document text
+desktop-docs/lgpl/zh_CN/lgpl.xml: copy
+
+# desktop-docs/lgpl/eu/eu.po = UTF-8 Unicode PO (gettext message catalogue) text, with very long lines
+desktop-docs/lgpl/eu/eu.po: copy
+
+# desktop-docs/lgpl/eu/lgpl.xml = XML  document text
+desktop-docs/lgpl/eu/lgpl.xml: copy
+
+# desktop-docs/lgpl/el/lgpl.xml = XML  document text
+desktop-docs/lgpl/el/lgpl.xml: copy
+
+# desktop-docs/lgpl/el/el.po = UTF-8 Unicode PO (gettext message catalogue) text, with very long lines
+desktop-docs/lgpl/el/el.po: copy
+
+# desktop-docs/lgpl/sv/lgpl.xml = XML  document text
+desktop-docs/lgpl/sv/lgpl.xml: copy
+
+# desktop-docs/lgpl/sv/sv.po = UTF-8 Unicode PO (gettext message catalogue) text, with very long lines
+desktop-docs/lgpl/sv/sv.po: copy
+
+# desktop-docs/lgpl/de/de.po = UTF-8 Unicode English text, with very long lines
+desktop-docs/lgpl/de/de.po: copy
+
+# desktop-docs/lgpl/de/lgpl.xml = XML  document text
+desktop-docs/lgpl/de/lgpl.xml: copy
+
+# desktop-docs/lgpl/ar/lgpl.xml = XML  document text
+desktop-docs/lgpl/ar/lgpl.xml: copy
+
+# desktop-docs/lgpl/ar/ar.po = UTF-8 Unicode PO (gettext message catalogue) text, with very long lines
+desktop-docs/lgpl/ar/ar.po: copy
+
+# desktop-docs/lgpl/pa/pa.po = UTF-8 Unicode PO (gettext message catalogue) text, with very long lines
+desktop-docs/lgpl/pa/pa.po: copy
+
+# desktop-docs/lgpl/pa/lgpl.xml = XML  document text
+desktop-docs/lgpl/pa/lgpl.xml: copy
+
+# desktop-docs/lgpl/hu/lgpl.xml = XML  document text
+desktop-docs/lgpl/hu/lgpl.xml: copy
+
+# desktop-docs/lgpl/hu/hu.po = UTF-8 Unicode PO (gettext message catalogue) text, with very long lines
+desktop-docs/lgpl/hu/hu.po: copy
+
+# desktop-docs/lgpl/C/lgpl.xml = XML  document text
+desktop-docs/lgpl/C/lgpl.xml: copy
+
+# desktop-docs/lgpl/fr/lgpl.xml = XML  document text
+desktop-docs/lgpl/fr/lgpl.xml: copy
+
+# desktop-docs/lgpl/fr/fr.po = UTF-8 Unicode English text
+desktop-docs/lgpl/fr/fr.po: copy
+
+# desktop-docs/lgpl/ko/ko.po = UTF-8 Unicode PO (gettext message catalogue) text, with very long lines
+desktop-docs/lgpl/ko/ko.po: copy
+
+# desktop-docs/lgpl/ko/lgpl.xml = XML  document text
+desktop-docs/lgpl/ko/lgpl.xml: copy
+
+# desktop-docs/lgpl/fi/lgpl.xml = XML  document text
+desktop-docs/lgpl/fi/lgpl.xml: copy
+
+# desktop-docs/lgpl/fi/fi.po = UTF-8 Unicode PO (gettext message catalogue) text
+desktop-docs/lgpl/fi/fi.po: copy
+
+# desktop-docs/lgpl/Makefile.in = ASCII English text
+desktop-docs/lgpl/Makefile.in: copy
+
+# desktop-docs/lgpl/vi/vi.po = UTF-8 Unicode PO (gettext message catalogue) text, with very long lines
+desktop-docs/lgpl/vi/vi.po: copy
+
+# desktop-docs/lgpl/vi/lgpl.xml = XML  document text
+desktop-docs/lgpl/vi/lgpl.xml: copy
+
+# desktop-docs/fdl/uk/uk.po = UTF-8 Unicode PO (gettext message catalogue) text
+desktop-docs/fdl/uk/uk.po: copy
+
+# desktop-docs/fdl/uk/fdl.xml = XML  document text
+desktop-docs/fdl/uk/fdl.xml: copy
+
+# desktop-docs/fdl/pl/fdl.xml = XML  document text
+desktop-docs/fdl/pl/fdl.xml: copy
+
+# desktop-docs/fdl/pl/pl.po = UTF-8 Unicode PO (gettext message catalogue) text, with very long lines
+desktop-docs/fdl/pl/pl.po: copy
+
+# desktop-docs/fdl/es/fdl.xml = XML  document text
+desktop-docs/fdl/es/fdl.xml: copy
+
+# desktop-docs/fdl/es/es.po = UTF-8 Unicode PO (gettext message catalogue) text
+desktop-docs/fdl/es/es.po: copy
+
+# desktop-docs/fdl/Makefile.am = ASCII text
+desktop-docs/fdl/Makefile.am: copy
+
+# desktop-docs/fdl/oc/fdl.xml = XML  document text
+desktop-docs/fdl/oc/fdl.xml: copy
+
+# desktop-docs/fdl/oc/oc.po = UTF-8 Unicode English text
+desktop-docs/fdl/oc/oc.po: copy
+
+# desktop-docs/fdl/eu/eu.po = UTF-8 Unicode PO (gettext message catalogue) text, with very long lines
+desktop-docs/fdl/eu/eu.po: copy
+
+# desktop-docs/fdl/eu/fdl.xml = XML  document text
+desktop-docs/fdl/eu/fdl.xml: copy
+
+# desktop-docs/fdl/el/fdl.xml = XML  document text
+desktop-docs/fdl/el/fdl.xml: copy
+
+# desktop-docs/fdl/el/el.po = UTF-8 Unicode PO (gettext message catalogue) text
+desktop-docs/fdl/el/el.po: copy
+
+# desktop-docs/fdl/sv/fdl.xml = XML  document text
+desktop-docs/fdl/sv/fdl.xml: copy
+
+# desktop-docs/fdl/sv/sv.po = UTF-8 Unicode PO (gettext message catalogue) text, with very long lines
+desktop-docs/fdl/sv/sv.po: copy
+
+# desktop-docs/fdl/de/de.po = UTF-8 Unicode English text
+desktop-docs/fdl/de/de.po: copy
+
+# desktop-docs/fdl/de/fdl.xml = XML  document text
+desktop-docs/fdl/de/fdl.xml: copy
+
+# desktop-docs/fdl/ar/fdl.xml = XML  document text
+desktop-docs/fdl/ar/fdl.xml: copy
+
+# desktop-docs/fdl/ar/ar.po = UTF-8 Unicode PO (gettext message catalogue) text, with very long lines
+desktop-docs/fdl/ar/ar.po: copy
+
+# desktop-docs/fdl/hu/fdl.xml = XML  document text
+desktop-docs/fdl/hu/fdl.xml: copy
+
+# desktop-docs/fdl/hu/hu.po = UTF-8 Unicode PO (gettext message catalogue) text, with very long lines
+desktop-docs/fdl/hu/hu.po: copy
+
+# desktop-docs/fdl/C/fdl.xml = XML  document text
+desktop-docs/fdl/C/fdl.xml: copy
+
+# desktop-docs/fdl/ca/fdl.xml = XML  document text
+desktop-docs/fdl/ca/fdl.xml: copy
+
+# desktop-docs/fdl/ca/ca.po = UTF-8 Unicode PO (gettext message catalogue) text
+desktop-docs/fdl/ca/ca.po: copy
+
+# desktop-docs/fdl/fr/fdl.xml = XML  document text
+desktop-docs/fdl/fr/fdl.xml: copy
+
+# desktop-docs/fdl/fr/fr.po = UTF-8 Unicode English text
+desktop-docs/fdl/fr/fr.po: copy
+
+# desktop-docs/fdl/ko/ko.po = UTF-8 Unicode PO (gettext message catalogue) text
+desktop-docs/fdl/ko/ko.po: copy
+
+# desktop-docs/fdl/ko/fdl.xml = XML  document text
+desktop-docs/fdl/ko/fdl.xml: copy
+
+# desktop-docs/fdl/fdl.omf.in = XML  document text
+desktop-docs/fdl/fdl.omf.in: copy
+
+# desktop-docs/fdl/Makefile.in = ASCII English text
+desktop-docs/fdl/Makefile.in: copy
+
+# desktop-docs/fdl/vi/vi.po = UTF-8 Unicode PO (gettext message catalogue) text, with very long lines
+desktop-docs/fdl/vi/vi.po: copy
+
+# desktop-docs/fdl/vi/fdl.xml = XML  document text
+desktop-docs/fdl/vi/fdl.xml: copy
+
+# desktop-docs/gpl/uk/gpl.xml = XML  document text
+desktop-docs/gpl/uk/gpl.xml: copy
+
+# desktop-docs/gpl/uk/uk.po = UTF-8 Unicode PO (gettext message catalogue) text
+desktop-docs/gpl/uk/uk.po: copy
+
+# desktop-docs/gpl/es/gpl.xml = XML  document text
+desktop-docs/gpl/es/gpl.xml: copy
+
+# desktop-docs/gpl/es/es.po = UTF-8 Unicode PO (gettext message catalogue) text
+desktop-docs/gpl/es/es.po: copy
+
+# desktop-docs/gpl/Makefile.am = ASCII text
+desktop-docs/gpl/Makefile.am: copy
+
+# desktop-docs/gpl/oc/gpl.xml = XML  document text
+desktop-docs/gpl/oc/gpl.xml: copy
+
+# desktop-docs/gpl/oc/oc.po = ASCII English text
+desktop-docs/gpl/oc/oc.po: copy
+
+# desktop-docs/gpl/zh_CN/gpl.xml = XML  document text
+desktop-docs/gpl/zh_CN/gpl.xml: copy
+
+# desktop-docs/gpl/zh_CN/zh_CN.po = UTF-8 Unicode English text
+desktop-docs/gpl/zh_CN/zh_CN.po: copy
+
+# desktop-docs/gpl/eu/gpl.xml = XML  document text
+desktop-docs/gpl/eu/gpl.xml: copy
+
+# desktop-docs/gpl/eu/eu.po = UTF-8 Unicode PO (gettext message catalogue) text, with very long lines
+desktop-docs/gpl/eu/eu.po: copy
+
+# desktop-docs/gpl/el/gpl.xml = XML  document text
+desktop-docs/gpl/el/gpl.xml: copy
+
+# desktop-docs/gpl/el/el.po = UTF-8 Unicode PO (gettext message catalogue) text, with very long lines
+desktop-docs/gpl/el/el.po: copy
+
+# desktop-docs/gpl/sv/gpl.xml = XML  document text
+desktop-docs/gpl/sv/gpl.xml: copy
+
+# desktop-docs/gpl/sv/sv.po = UTF-8 Unicode PO (gettext message catalogue) text, with very long lines
+desktop-docs/gpl/sv/sv.po: copy
+
+# desktop-docs/gpl/de/gpl.xml = XML  document text
+desktop-docs/gpl/de/gpl.xml: copy
+
+# desktop-docs/gpl/de/de.po = UTF-8 Unicode English text, with very long lines
+desktop-docs/gpl/de/de.po: copy
+
+# desktop-docs/gpl/ar/gpl.xml = XML  document text
+desktop-docs/gpl/ar/gpl.xml: copy
+
+# desktop-docs/gpl/ar/ar.po = UTF-8 Unicode PO (gettext message catalogue) text, with very long lines
+desktop-docs/gpl/ar/ar.po: copy
+
+# desktop-docs/gpl/gpl.omf.in = XML  document text
+desktop-docs/gpl/gpl.omf.in: copy
+
+# desktop-docs/gpl/pa/gpl.xml = XML  document text
+desktop-docs/gpl/pa/gpl.xml: copy
+
+# desktop-docs/gpl/pa/pa.po = UTF-8 Unicode PO (gettext message catalogue) text, with very long lines
+desktop-docs/gpl/pa/pa.po: copy
+
+# desktop-docs/gpl/hu/gpl.xml = XML  document text
+desktop-docs/gpl/hu/gpl.xml: copy
+
+# desktop-docs/gpl/hu/hu.po = UTF-8 Unicode PO (gettext message catalogue) text, with very long lines
+desktop-docs/gpl/hu/hu.po: copy
+
+# desktop-docs/gpl/C/gpl.xml = XML  document text
+desktop-docs/gpl/C/gpl.xml: copy
+
+# desktop-docs/gpl/ca/gpl.xml = XML  document text
+desktop-docs/gpl/ca/gpl.xml: copy
+
+# desktop-docs/gpl/ca/ca.po = UTF-8 Unicode PO (gettext message catalogue) text
+desktop-docs/gpl/ca/ca.po: copy
+
+# desktop-docs/gpl/fr/gpl.xml = XML  document text
+desktop-docs/gpl/fr/gpl.xml: copy
+
+# desktop-docs/gpl/fr/fr.po = UTF-8 Unicode English text
+desktop-docs/gpl/fr/fr.po: copy
+
+# desktop-docs/gpl/cs/gpl.xml = XML  document text
+desktop-docs/gpl/cs/gpl.xml: copy
+
+# desktop-docs/gpl/cs/cs.po = UTF-8 Unicode English text, with very long lines
+desktop-docs/gpl/cs/cs.po: copy
+
+# desktop-docs/gpl/ko/gpl.xml = XML  document text
+desktop-docs/gpl/ko/gpl.xml: copy
+
+# desktop-docs/gpl/ko/ko.po = UTF-8 Unicode PO (gettext message catalogue) text
+desktop-docs/gpl/ko/ko.po: copy
+
+# desktop-docs/gpl/fi/gpl.xml = XML  document text
+desktop-docs/gpl/fi/gpl.xml: copy
+
+# desktop-docs/gpl/fi/fi.po = UTF-8 Unicode PO (gettext message catalogue) text
+desktop-docs/gpl/fi/fi.po: copy
+
+# desktop-docs/gpl/Makefile.in = ASCII English text
+desktop-docs/gpl/Makefile.in: copy
+
+# desktop-docs/gpl/vi/gpl.xml = XML  document text
+desktop-docs/gpl/vi/gpl.xml: copy
+
+# desktop-docs/gpl/vi/vi.po = UTF-8 Unicode PO (gettext message catalogue) text
+desktop-docs/gpl/vi/vi.po: copy
+
+# desktop-docs/Makefile.in = ASCII English text
+desktop-docs/Makefile.in: copy
+
+# libgnome-desktop/edid-parse.c = ASCII C program text
+libgnome-desktop/edid-parse.c: copy
+
+# libgnome-desktop/private.h = ASCII C program text
+libgnome-desktop/private.h: copy
+
+# libgnome-desktop/libgnome/Makefile.am = ASCII text
+libgnome-desktop/libgnome/Makefile.am: copy
+
+# libgnome-desktop/libgnome/gnome-desktop-utils.h = ASCII C program text
+libgnome-desktop/libgnome/gnome-desktop-utils.h: copy
+
+# libgnome-desktop/libgnome/Makefile.in = ASCII English text
+libgnome-desktop/libgnome/Makefile.in: copy
+
+# libgnome-desktop/libgnome/gnome-desktop-item.h = ASCII C program text
+libgnome-desktop/libgnome/gnome-desktop-item.h: copy
+
+# libgnome-desktop/gnome-bg.c = ASCII C program text
+libgnome-desktop/gnome-bg.c: copy
+
+# libgnome-desktop/Makefile.am = ASCII text
+libgnome-desktop/Makefile.am: copy
+
+# libgnome-desktop/gnome-desktop-thumbnail.c = ASCII C program text
+libgnome-desktop/gnome-desktop-thumbnail.c: copy
+
+# libgnome-desktop/gnome-bg-crossfade.c = ASCII C program text
+libgnome-desktop/gnome-bg-crossfade.c: copy
+
+# libgnome-desktop/gnome-desktop-2.0.pc.in = ASCII text
+libgnome-desktop/gnome-desktop-2.0.pc.in: copy
+
+# libgnome-desktop/gnome-rr-private.h = ASCII C program text
+libgnome-desktop/gnome-rr-private.h: copy
+
+# libgnome-desktop/gnome-thumbnail-pixbuf-utils.c = ASCII C program text
+libgnome-desktop/gnome-thumbnail-pixbuf-utils.c: copy
+
+# libgnome-desktop/gnome-rr-config.c = ASCII C program text
+libgnome-desktop/gnome-rr-config.c: copy
+
+# libgnome-desktop/gnome-rr-labeler.c = ASCII C program text
+libgnome-desktop/gnome-rr-labeler.c: copy
+
+# libgnome-desktop/gnome-desktop-utils.c = ASCII C program text
+libgnome-desktop/gnome-desktop-utils.c: copy
+
+# libgnome-desktop/pnp.ids = UTF-8 Unicode English text
+libgnome-desktop/pnp.ids: copy
+
+# libgnome-desktop/gnome-desktop-2.0-uninstalled.pc.in = ASCII text
+libgnome-desktop/gnome-desktop-2.0-uninstalled.pc.in: copy
+
+# libgnome-desktop/display-name.c = ASCII C program text
+libgnome-desktop/display-name.c: copy
+
+# libgnome-desktop/libgnomeui/gnome-desktop-thumbnail.h = ASCII C program text
+libgnome-desktop/libgnomeui/gnome-desktop-thumbnail.h: copy
+
+# libgnome-desktop/libgnomeui/Makefile.am = ASCII text
+libgnome-desktop/libgnomeui/Makefile.am: copy
+
+# libgnome-desktop/libgnomeui/gnome-rr.h = ASCII C program text
+libgnome-desktop/libgnomeui/gnome-rr.h: copy
+
+# libgnome-desktop/libgnomeui/gnome-bg.h = ASCII C program text
+libgnome-desktop/libgnomeui/gnome-bg.h: copy
+
+# libgnome-desktop/libgnomeui/gnome-rr-config.h = ASCII C program text
+libgnome-desktop/libgnomeui/gnome-rr-config.h: copy
+
+# libgnome-desktop/libgnomeui/gnome-rr-labeler.h = ASCII C program text
+libgnome-desktop/libgnomeui/gnome-rr-labeler.h: copy
+
+# libgnome-desktop/libgnomeui/gnome-bg-crossfade.h = ASCII C program text
+libgnome-desktop/libgnomeui/gnome-bg-crossfade.h: copy
+
+# libgnome-desktop/libgnomeui/Makefile.in = ASCII English text
+libgnome-desktop/libgnomeui/Makefile.in: copy
+
+# libgnome-desktop/gnome-rr.c = ASCII C program text
+libgnome-desktop/gnome-rr.c: copy
+
+# libgnome-desktop/test-ditem.c = ASCII C program text
+libgnome-desktop/test-ditem.c: copy
+
+# libgnome-desktop/edid.h = ASCII C program text
+libgnome-desktop/edid.h: copy
+
+# libgnome-desktop/Makefile.in = ASCII English text
+libgnome-desktop/Makefile.in: copy
+
+# libgnome-desktop/gnome-desktop-item.c = ASCII C program text
+libgnome-desktop/gnome-desktop-item.c: copy
+
+# acinclude.m4 = ASCII M4 macro language pre-processor text
+acinclude.m4: copy
+
+# COPYING = ASCII English text
+COPYING: copy
+
+# gnome-doc-utils.make = ASCII Pascal program text
+gnome-doc-utils.make: copy
+
+# HACKING = ASCII English text
+HACKING: copy
+
+# man/Makefile.am = ASCII text
+man/Makefile.am: copy
+
+# man/gnome-about.1 = troff or preprocessor input text
+man/gnome-about.1: copy
+
+# man/Makefile.in = ASCII English text
+man/Makefile.in: copy
+
+# config.sub = POSIX shell script text executable
+config.sub: copy
+
+# Makefile.in = ASCII English text
+Makefile.in: copy
+
+# gnome-version.xml = XML  document text
+#     <p xml:lang="gl">Centos de persoas levan contribuído con código ao Gnome desde que se iniciou en 1997; moitos máis contribuíron doutras maneiras importantes, que inclúen traducións, documentación e a comprobación de calidade.</p>
+gnome-version.xml: patch
+
+# depcomp = POSIX shell script text executable
+depcomp: copy
+
+# MAINTAINERS = ASCII English text
+MAINTAINERS: copy
