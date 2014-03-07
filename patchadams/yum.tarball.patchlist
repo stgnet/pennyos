@@ -1,0 +1,394 @@
+# Patchlist created Tue Mar  4 21:47:10 CST 2014
+
+# yum/logginglevels.py = a /usr/bin/python -tt script text executable
+yum/logginglevels.py: copy
+
+# yum/__init__.py = a /usr/bin/python -tt script text executable
+yum/__init__.py: copy
+
+# yum/plugins.py = a /usr/bin/python -tt script text executable
+yum/plugins.py: copy
+
+# yum/packages.py = a /usr/bin/python -tt script text executable
+yum/packages.py: copy
+
+# yum/pkgtag_db.py = a /usr/bin/python -tt script text executable
+yum/pkgtag_db.py: copy
+
+# yum/sqlitesack.py = a /usr/bin/python -tt script text executable
+yum/sqlitesack.py: copy
+
+# yum/metalink.py = a /usr/bin/python -t script text executable
+yum/metalink.py: copy
+
+# yum/callbacks.py = a /usr/bin/python -tt script text executable
+yum/callbacks.py: copy
+
+# yum/transactioninfo.py = a /usr/bin/python -tt script text executable
+yum/transactioninfo.py: copy
+
+# yum/parser.py = a /usr/bin/python -tt script text executable
+yum/parser.py: copy
+
+# yum/rpmtrans.py = a /usr/bin/python -t script text executable
+yum/rpmtrans.py: copy
+
+# yum/repoMDObject.py = a /usr/bin/python -tt script text executable
+yum/repoMDObject.py: copy
+
+# yum/yumRepo.py = a /usr/bin/python -tt script text executable
+yum/yumRepo.py: copy
+
+# yum/history.py = a /usr/bin/python -t script text executable
+yum/history.py: copy
+
+# yum/depsolve.py = a /usr/bin/python -t script text executable
+yum/depsolve.py: copy
+
+# yum/config.py = a /usr/bin/python -t script text executable
+yum/config.py: copy
+
+# yum/comps.py = a /usr/bin/python -tt script text executable
+yum/comps.py: copy
+
+# yum/constants.py = a /usr/bin/python -tt script text executable
+yum/constants.py: copy
+
+# yum/Errors.py = a /usr/bin/python -tt script text executable
+yum/Errors.py: copy
+
+# yum/failover.py = a /usr/bin/python script text executable
+yum/failover.py: copy
+
+# yum/packageSack.py = a /usr/bin/python -tt script text executable
+yum/packageSack.py: copy
+
+# yum/Makefile = ASCII make commands text
+yum/Makefile: copy
+
+# yum/pgpmsg.py = a /usr/bin/python -tt script text executable
+yum/pgpmsg.py: copy
+
+# yum/sqlutils.py = a /usr/bin/python -tt script text executable
+yum/sqlutils.py: copy
+
+# yum/rpmsack.py = a /usr/bin/python -tt script text executable
+yum/rpmsack.py: copy
+
+# yum/mdparser.py = a /usr/bin/python -tt script text executable
+yum/mdparser.py: copy
+
+# yum/update_md.py = a /usr/bin/python -t script text executable
+yum/update_md.py: copy
+
+# yum/misc.py = a /usr/bin/python -tt script text executable
+yum/misc.py: copy
+
+# yum/repos.py = a /usr/bin/python -tt script text executable
+yum/repos.py: copy
+
+# yum/i18n.py = a /usr/bin/python -tt script text executable
+yum/i18n.py: copy
+
+# .gitignore = ASCII text
+.gitignore: copy
+
+# etc/yum-cron = Bourne-Again shell script text executable
+etc/yum-cron: copy
+
+# etc/yum.conf = ASCII text
+etc/yum.conf: copy
+
+# etc/yum-updatesd-dbus.conf = exported SGML document text
+etc/yum-updatesd-dbus.conf: copy
+
+# etc/yum-weekly.yum = ASCII text
+etc/yum-weekly.yum: copy
+
+# etc/version-groups.conf = ASCII English text
+etc/version-groups.conf: copy
+
+# etc/0yum.cron = Bourne-Again shell script text executable
+etc/0yum.cron: copy
+
+# etc/yum-cron.sysconf = ASCII English text
+etc/yum-cron.sysconf: copy
+
+# etc/yum-updatesd.init = Bourne-Again shell script text executable
+etc/yum-updatesd.init: copy
+
+# etc/yum.pam = ASCII text
+etc/yum.pam: copy
+
+# etc/yum.console = ASCII text
+etc/yum.console: copy
+
+# etc/yum-daily.yum = ASCII text
+etc/yum-daily.yum: copy
+
+# etc/Makefile = ASCII make commands text
+etc/Makefile: copy
+
+# etc/yum-updatesd.conf = ASCII text
+etc/yum-updatesd.conf: copy
+
+# etc/yum.bash = ASCII text
+etc/yum.bash: copy
+
+# etc/yum.logrotate = ASCII text
+etc/yum.logrotate: copy
+
+# rpmUtils/__init__.py = a /usr/bin/python -tt script text executable
+rpmUtils/__init__.py: copy
+
+# rpmUtils/miscutils.py = a /usr/bin/python -tt script text executable
+rpmUtils/miscutils.py: copy
+
+# rpmUtils/updates.py = a /usr/bin/python -tt script text executable
+rpmUtils/updates.py: copy
+
+# rpmUtils/tests/updates-test.py = ASCII Java program text
+rpmUtils/tests/updates-test.py: copy
+
+# rpmUtils/Makefile = ASCII make commands text
+rpmUtils/Makefile: copy
+
+# rpmUtils/oldUtils.py = a /usr/bin/python -tt script text executable
+rpmUtils/oldUtils.py: copy
+
+# rpmUtils/transaction.py = a /usr/bin/python script text executable
+rpmUtils/transaction.py: copy
+
+# rpmUtils/arch.py = a /usr/bin/python script text executable
+rpmUtils/arch.py: copy
+
+# INSTALL = ASCII English text
+INSTALL: copy
+
+# FAQ = Python script text executable
+# Alternatively if you are using Redhat 5.4/Centos 5.4 or another OS
+# rom Fedora or CentOS.  Or, you can download the srpm and do a
+FAQ: copy
+
+# README = ASCII Pascal program text
+README: copy
+
+# PLUGINS = Python script text executable
+PLUGINS: copy
+
+# docs/.gitignore = ASCII text
+docs/.gitignore: copy
+
+# docs/repomd.dtd = exported SGML document text
+docs/repomd.dtd: copy
+
+# docs/comps.rng = XML  document text
+docs/comps.rng: copy
+
+# docs/yum.8 = troff or preprocessor input text
+docs/yum.8: copy
+
+# docs/yum-updatesd.8 = troff or preprocessor input text
+docs/yum-updatesd.8: copy
+
+# docs/yum-updatesd.conf.5 = troff or preprocessor input text
+docs/yum-updatesd.conf.5: copy
+
+# docs/Makefile = ASCII make commands text
+docs/Makefile: copy
+
+# docs/yum.conf.5 = troff or preprocessor input text
+docs/yum.conf.5: copy
+
+# docs/yum-shell.8 = troff or preprocessor input text
+docs/yum-shell.8: copy
+
+# ChangeLog = UTF-8 Unicode English text
+# 	many folks used (centos and rhel5 in particular)      sslcacert =
+ChangeLog: copy
+
+# callback.py = a /usr/bin/python -t script text executable
+callback.py: copy
+
+# yumcommands.py = a /usr/bin/python -t script text executable
+yumcommands.py: copy
+
+# shell.py = a /usr/bin/python -tt script text executable
+shell.py: copy
+
+# yum.spec = ASCII English text
+yum.spec: copy
+
+# AUTHORS = ASCII text
+AUTHORS: copy
+
+# cli.py = a /usr/bin/python -t script text executable
+cli.py: copy
+
+# TODO = ASCII text
+TODO: copy
+
+# output.py = a /usr/bin/python -t script text executable
+output.py: copy
+
+# yummain.py = a /usr/bin/python -t script text executable
+yummain.py: copy
+
+# yum-updatesd.py = a /usr/bin/python -tt script text executable
+yum-updatesd.py: copy
+
+# po/.gitignore = ASCII text
+po/.gitignore: copy
+
+# po/uk.po = UTF-8 Unicode English text
+po/uk.po: copy
+
+# po/pt.po = UTF-8 Unicode PO (gettext message catalogue) text
+po/pt.po: copy
+
+# po/pygettext.py = a /usr/bin/python script text executable
+po/pygettext.py: copy
+
+# po/da.po = UTF-8 Unicode English text
+po/da.po: copy
+
+# po/en_GB.po = ASCII English text
+po/en_GB.po: copy
+
+# po/nb.po = UTF-8 Unicode English text
+po/nb.po: copy
+
+# po/zh_CN.po = UTF-8 Unicode English text
+po/zh_CN.po: copy
+
+# po/cs.po = UTF-8 Unicode English text
+po/cs.po: copy
+
+# po/pa.po = UTF-8 Unicode English text
+po/pa.po: copy
+
+# po/ja.po = UTF-8 Unicode English text
+po/ja.po: copy
+
+# po/de.po = UTF-8 Unicode English text
+po/de.po: copy
+
+# po/Makevars = ASCII text
+po/Makevars: copy
+
+# po/POTFILES.in = ASCII text
+po/POTFILES.in: copy
+
+# po/sr.po = UTF-8 Unicode English text
+po/sr.po: copy
+
+# po/ru.po = UTF-8 Unicode English text
+po/ru.po: copy
+
+# po/fr.po = UTF-8 Unicode English text
+po/fr.po: copy
+
+# po/ms.po = ASCII PO (gettext message catalogue) text
+po/ms.po: copy
+
+# po/sr@latin.po = UTF-8 Unicode English text
+po/sr@latin.po: copy
+
+# po/es.po = UTF-8 Unicode English text
+po/es.po: copy
+
+# po/pt_BR.po = UTF-8 Unicode English text
+po/pt_BR.po: copy
+
+# po/fi.po = UTF-8 Unicode English text
+po/fi.po: copy
+
+# po/Makefile = ASCII make commands text
+po/Makefile: copy
+
+# po/ca.po = UTF-8 Unicode English text
+po/ca.po: copy
+
+# po/pl.po = UTF-8 Unicode PO (gettext message catalogue) text
+po/pl.po: copy
+
+# po/it.po = UTF-8 Unicode English text
+po/it.po: copy
+
+# po/sv.po = UTF-8 Unicode English text
+po/sv.po: copy
+
+# po/POTFILES.skip = ASCII text
+po/POTFILES.skip: copy
+
+# po/yum.pot = ASCII English text
+po/yum.pot: copy
+
+# Makefile = ASCII make commands text
+Makefile: copy
+
+# utils.py = a /usr/bin/python -t script text executable
+utils.py: copy
+
+# COPYING = ASCII English text
+COPYING: copy
+
+# bin/yum.py = a /usr/bin/python script text executable
+bin/yum.py: copy
+
+# bin/yum-updatesd.py = a /usr/bin/python script text executable
+bin/yum-updatesd.py: copy
+
+# test/merge-history-transactions-tests.py = Python script text executable
+test/merge-history-transactions-tests.py: copy
+
+# test/yum-release-i18n-test.sh = Bourne-Again shell script text executable
+test/yum-release-i18n-test.sh: copy
+
+# test/simpleobsoletestests.py = Python script text executable
+test/simpleobsoletestests.py: copy
+
+# test/depsolvetests.py = Python script text executable
+test/depsolvetests.py: copy
+
+# test/testbase.py = Python script text executable
+test/testbase.py: copy
+
+# test/rpmdb-cache.py = a /usr/bin/python -tt script text executable
+test/rpmdb-cache.py: copy
+
+# test/check-po-yes-no.py = a /usr/bin/python -tt script text executable
+test/check-po-yes-no.py: copy
+
+# test/settestpath.py = ASCII Java program text
+test/settestpath.py: copy
+
+# test/misc-tests.py = Python script text executable
+test/misc-tests.py: copy
+
+# test/simpleremovetests.py = Python script text executable
+test/simpleremovetests.py: copy
+
+# test/skipbroken-tests.py = Python script text executable
+test/skipbroken-tests.py: copy
+
+# test/packagetests.py = Python script text executable
+test/packagetests.py: copy
+
+# test/transactiontests.py = Python script text executable
+test/transactiontests.py: copy
+
+# test/simpleupdatetests.py = Python script text executable
+test/simpleupdatetests.py: copy
+
+# test/operationstests.py = Python script text executable
+test/operationstests.py: copy
+
+# test/yum-release-test.sh = Bourne-Again shell script text executable
+test/yum-release-test.sh: copy
+
+# test/yum-pylintrc = ASCII English text
+test/yum-pylintrc: copy
+
+# test/yum-leak-test.py = a /usr/bin/python -tt script text executable
+test/yum-leak-test.py: copy

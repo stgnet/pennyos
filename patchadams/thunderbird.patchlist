@@ -1,0 +1,62 @@
+# Patchlist created Wed Mar  5 02:43:12 CST 2014
+
+# thunderbird-8.0-enable-addons.patch = unified diff output text
+thunderbird-8.0-enable-addons.patch: copy
+
+# thunderbird.sh.in = POSIX shell script text executable
+thunderbird.sh.in: copy
+
+# xulrunner-nasm-webm.patch = unified diff output text
+xulrunner-nasm-webm.patch: copy
+
+# mozilla-abort.patch = unified diff output text
+mozilla-abort.patch: copy
+
+# find-external-requires = POSIX shell script text executable
+find-external-requires: copy
+
+# thunderbird-open-browser.sh = Bourne-Again shell script text executable
+thunderbird-open-browser.sh: copy
+
+# mozilla-build.patch = unified diff output text
+mozilla-build.patch: copy
+
+# camelia.patch = unified diff output text
+camelia.patch: copy
+
+# mozilla-694594-gcc-4.4.patch = unified diff output text
+mozilla-694594-gcc-4.4.patch: copy
+
+# xulrunner-secarch.patch = unified diff output text
+xulrunner-secarch.patch: copy
+
+# thunderbird.desktop = ASCII text
+thunderbird.desktop: copy
+
+# thunderbird-centos-default-prefs.js = ASCII text
+# pref("general.useragent.vendor", "CentOS");
+thunderbird-centos-default-prefs.js: patch
+
+# xulrunner-gc-sections-ppc.patch = unified diff output text
+xulrunner-gc-sections-ppc.patch: copy
+
+# thunderbird-mozconfig-branded = ASCII text
+thunderbird-mozconfig-branded: copy
+
+# xulrunner-pagesize-ia64.patch = unified diff output text
+xulrunner-pagesize-ia64.patch: copy
+
+# thunderbird-mozconfig = ASCII text
+thunderbird-mozconfig: copy
+
+# thunderbird-install-dir.patch = unified diff output text
+thunderbird-install-dir.patch: copy
+
+# mozilla-gtk-close.patch = unified diff output text
+mozilla-gtk-close.patch: copy
+
+# mozilla-821502.patch = unified diff output text
+mozilla-821502.patch: copy
+
+# xulrunner-2.0-chromium-types.patch = unified diff output text
+xulrunner-2.0-chromium-types.patch: copy

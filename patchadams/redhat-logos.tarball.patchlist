@@ -73,7 +73,7 @@ anaconda/splash.png: convert -size 160x35 -background none -fill white -font $FO
 anaconda/Makefile: copy
 
 # bootloader/splash.xpm.gz = gzip compressed data, was "splash.xpm", from Unix, last modified: Thu May  6 13:38:24 2010
-bootloader/splash.xpm.gz: convert -size 200x40 -background none -fill white -font $FONT -gravity center label:"$NAME" name.png && convert -size 640x480 xc:$BACK $TEMP && composite -geometry +10+430 name.png $TEMP $TEMP && composite -geometry 40x40+580+430 $LOGO $TEMP $FILE
+bootloader/splash.xpm.gz: TEMP=temp.png && convert -size 200x40 -background none -fill white -font $FONT -gravity center label:"$NAME" name.png && convert -size 640x480 xc:$BACK $TEMP && composite -geometry +10+430 name.png $TEMP $TEMP && composite -geometry 40x40+580+430 $LOGO $TEMP $FILE
 
 
 # backgrounds/centos_1920x1200_logoonly.jpg = JPEG image data, JFIF standard 1.01
@@ -365,10 +365,10 @@ icons/hicolor/48x48/apps/system-logo-icon.png: convert -size 48x48 -background n
 icons/hicolor/36x36/apps/system-logo-icon.png: convert -size 32x32 -background none $LOGO $FILE
 
 # icons/hicolor/scalable/apps/xfce4_xicon1.svg = SVG Scalable Vector Graphics image
-icons/hicolor/scalable/apps/xfce4_xicon1.svg: copy
+icons/hicolor/scalable/apps/xfce4_xicon1.svg: cp US_Penny_front_T.svg $FILE
 
 # icons/hicolor/96x96/apps/system-logo-icon.png = PNG image data, 96 x 96, 8-bit/color RGBA, interlaced
-icons/hicolor/96x96/apps/system-logo-icon.png: false
+icons/hicolor/96x96/apps/system-logo-icon.png: convert -size 96x96 -background none $LOGO $FILE
 
 # icons/hicolor/16x16/apps/system-logo-icon.png = PNG image data, 16 x 16, 8-bit/color RGBA, interlaced
 icons/hicolor/16x16/apps/system-logo-icon.png: convert -size 16x16 -background none $LOGO $FILE
@@ -438,7 +438,7 @@ kde-splash/CentOS6/Preview.png: convert -size 400x235 -background grey -gravity 
 gnome-screensaver/lock-dialog-system.glade: copy
 
 # gnome-screensaver/lock-dialog-system.png = PNG image data, 400 x 314, 8-bit/color RGB, non-interlaced
-gnome-screensaver/lock-dialog-system.png: X=400 && Y=314 && L=`expr $X / 20` && convert -size ${X}x${Y} xc:$BACK $TEMP && composite -geometry ${L}x${L}+`expr $X - $L - 10`+`expr $Y - $L - 10` $LOGO $TEMP $FIL
+gnome-screensaver/lock-dialog-system.png: X=400 && Y=314 && L=`expr $X / 20` && convert -size ${X}x${Y} xc:$BACK $TEMP && composite -geometry ${L}x${L}+`expr $X - $L - 10`+`expr $Y - $L - 10` $LOGO $TEMP $FILE
 
 # gnome-screensaver/lock-dialog-system.gtkrc = ASCII C++ program text
 gnome-screensaver/lock-dialog-system.gtkrc: copy
@@ -470,4 +470,5 @@ redhat-pixmaps/rpm.tif: convert -size 512x512 -background none $LOGO $FILE
 redhat-pixmaps/rpmlogo-48.png: convert -size 48x48 -background none $LOGO $FILE
 
 # redhat-logos-60.0.14.tar.bz2 = bzip2 compressed data, block size = 900k
-redhat-logos-60.0.14.tar.bz2: # discard
+redhat-logos-60.0.14.tar.bz2: copy
+

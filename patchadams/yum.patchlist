@@ -1,0 +1,219 @@
+# Patchlist created Tue Mar  4 21:57:34 CST 2014
+
+# BZ-735234-rpmdb-warn-checks.patch = unified diff output text
+BZ-735234-rpmdb-warn-checks.patch: copy
+
+# BZ-802462-no-error-history-list-no-history.patch = unified diff output text
+BZ-802462-no-error-history-list-no-history.patch: copy
+
+# BZ-872518-setup-base-cachedir-better.patch = unified diff output text
+BZ-872518-setup-base-cachedir-better.patch: copy
+
+# BZ-815568-updateinfo-cache-fix.patch = unified diff output text
+BZ-815568-updateinfo-cache-fix.patch: copy
+
+# BZ-606644-only-some-gpg-keys.patch = unified diff output text
+BZ-606644-only-some-gpg-keys.patch: copy
+
+# no-more-exactarchlist.patch = unified diff output text
+no-more-exactarchlist.patch: copy
+
+# BZ-727574-pulp-repostorage-fix.patch = unified diff output text
+BZ-727574-pulp-repostorage-fix.patch: copy
+
+# BZ-528738-bugtracker.patch = unified diff output text
+BZ-528738-bugtracker.patch: copy
+
+# BZ-678043-rhnplugin-prereposetup.patch = unified diff output text
+BZ-678043-rhnplugin-prereposetup.patch: copy
+
+# BZ-809392-yum-history-checksum.patch = unified diff output text
+BZ-809392-yum-history-checksum.patch: copy
+
+# yum-updatesd.conf.centos = ASCII text
+yum-updatesd.conf.centos: copy
+
+# BZ-716235-createrepo-update.patch = unified diff output text
+BZ-716235-createrepo-update.patch: copy
+
+# BZ-692866-first-pass-option-parsing.patch = unified diff output text
+BZ-692866-first-pass-option-parsing.patch: copy
+
+# BZ-696720-reinstall-bad-drop-cache-rpmdbv.patch = unified diff output text
+BZ-696720-reinstall-bad-drop-cache-rpmdbv.patch: copy
+
+# BZ-677410-Download-sig-check-holds-the-rpmdb-ts-lock.patch = unified diff output text
+BZ-677410-Download-sig-check-holds-the-rpmdb-ts-lock.patch: copy
+
+# yum-cron.8 = troff or preprocessor input text
+yum-cron.8: copy
+
+# BZ-727553-rebase-skip-broken.patch = unified diff output text
+BZ-727553-rebase-skip-broken.patch: copy
+
+# yum-HEAD.patch = unified diff output text
+yum-HEAD.patch: copy
+
+# BZ-834159-Fix-printing-the-obsoleters-message.patch = unified diff output text
+BZ-834159-Fix-printing-the-obsoleters-message.patch: copy
+
+# BZ-742363-reset-nice.patch = unified diff output text
+BZ-742363-reset-nice.patch: copy
+
+# BZ-770117-quote-proxy-username-and-password.patch = unified diff output text
+BZ-770117-quote-proxy-username-and-password.patch: copy
+
+# BZ-737173-merge-updateinfo.patch = unified diff output text
+BZ-737173-merge-updateinfo.patch: copy
+
+# installonlyn-enable.patch = unified diff output text
+installonlyn-enable.patch: copy
+
+# BZ-684859-plugins-can-set-exit-code.patch = unified diff output text
+BZ-684859-plugins-can-set-exit-code.patch: copy
+
+# BZ-809117-yum-man-pages-typo-fixes.patch = unified diff output text
+BZ-809117-yum-man-pages-typo-fixes.patch: copy
+
+# BZ-662243-history-store-and-display-repo-information.patch = unified diff output text
+BZ-662243-history-store-and-display-repo-information.patch: copy
+
+# BZ-709311-retrieve-gpg-syntax-bug.patch = unified diff output text
+BZ-709311-retrieve-gpg-syntax-bug.patch: copy
+
+# BZ-885159-move-basename-checking-for-nss-snafu.patch = unified diff output text
+BZ-885159-move-basename-checking-for-nss-snafu.patch: copy
+
+# BZ-674756-new-obs-code-localpkgs.patch = unified diff output text
+BZ-674756-new-obs-code-localpkgs.patch: copy
+
+# BZ-695427-basename-cert-warn-check.patch = unified diff output text
+BZ-695427-basename-cert-warn-check.patch: copy
+
+# BZ-697885-no-baseurl-in-repolist-for-mirrors.patch = unified diff output text
+BZ-697885-no-baseurl-in-repolist-for-mirrors.patch: copy
+
+# BZ-878335-speedup-createrepo-to_xml.patch = unified diff output text
+BZ-878335-speedup-createrepo-to_xml.patch: copy
+
+# yum-manpage-files.patch = unified diff output text
+yum-manpage-files.patch: copy
+
+# yum-3.2.27-i18n-off.patch = unified diff output text
+yum-3.2.27-i18n-off.patch: copy
+
+# BZ-858844-ui_nevra_dict-too-many-args-for-format-string.patch = unified diff output text
+BZ-858844-ui_nevra_dict-too-many-args-for-format-string.patch: copy
+
+# BZ-887935-update-date.patch = unified diff output text
+BZ-887935-update-date.patch: copy
+
+# BZ-694401-no-bug-report-warning.patch = unified diff output text
+BZ-694401-no-bug-report-warning.patch: copy
+
+# BZ-819522-reinstall-args-bad.patch = unified diff output text
+BZ-819522-reinstall-args-bad.patch: copy
+
+# BZ-733391-do-not-cache-updateinfo-for-too-long.patch = unified diff output text
+BZ-733391-do-not-cache-updateinfo-for-too-long.patch: copy
+
+# BZ-748054-new-installonly-provides.patch = unified diff output text
+BZ-748054-new-installonly-provides.patch: copy
+
+# BZ-727586-stale-metadata-cache.patch = unified diff output text
+BZ-727586-stale-metadata-cache.patch: copy
+
+# BZ-817491-yum-provides-empty-str.patch = unified diff output text
+BZ-817491-yum-provides-empty-str.patch: copy
+
+# BZ-802462-history-stats-traceback-empty-file.patch = unified diff output text
+BZ-802462-history-stats-traceback-empty-file.patch: copy
+
+# BZ-804120-update-notice-iteration.patch = unified diff output text
+BZ-804120-update-notice-iteration.patch: copy
+
+# BZ-735333-clean-command.patch = unified diff output text
+BZ-735333-clean-command.patch: copy
+
+# BZ-728526-upgrade-to.patch = unified diff output text
+BZ-728526-upgrade-to.patch: copy
+
+# BZ-707358-installroot-config-opt-warn.patch = unified diff output text
+BZ-707358-installroot-config-opt-warn.patch: copy
+
+# yum-ppc64-preferred.patch = unified diff output text
+yum-ppc64-preferred.patch: copy
+
+# BZ-704600-hack-rpm-python-big-size-problems.patch = unified diff output text
+BZ-704600-hack-rpm-python-big-size-problems.patch: copy
+
+# BZ-663378-ignore-broken-updateinfo.patch = unified diff output text
+BZ-663378-ignore-broken-updateinfo.patch: copy
+
+# BZ-634595-catch-rpmdb-changes-on-warn-checks.patch = unified diff output text
+BZ-634595-catch-rpmdb-changes-on-warn-checks.patch: copy
+
+# BZ-880968-verify-options-before-diiung.patch = unified diff output text
+BZ-880968-verify-options-before-diiung.patch: copy
+
+# BZ-809373-ignore-time-skew.patch = unified diff output text
+BZ-809373-ignore-time-skew.patch: copy
+
+# BZ-661962-pre-scripts-errors.patch = unified diff output text
+BZ-661962-pre-scripts-errors.patch: copy
+
+# BZ-612409-32bit-2GB-files-checksum.patch = unified diff output text
+BZ-612409-32bit-2GB-files-checksum.patch: copy
+
+# BZ-628151-remove-kernel-modules-from-installonly.patch = unified diff output text
+BZ-628151-remove-kernel-modules-from-installonly.patch: copy
+
+# BZ-798215-exception2msg.patch = unified diff output text
+BZ-798215-exception2msg.patch: copy
+
+# BZ-700035-rhnplugin-uncached-repos.patch = unified diff output text
+BZ-700035-rhnplugin-uncached-repos.patch: copy
+
+# BZ-683946-localupdate-no-install-multilib-same-version.patch = unified diff output text
+BZ-683946-localupdate-no-install-multilib-same-version.patch: copy
+
+# BZ-737826-verifytransaction-progress.patch = unified diff output text
+BZ-737826-verifytransaction-progress.patch: copy
+
+# BZ-728253-q-hist-info-load-ts-compat.patch = unified diff output text
+BZ-728253-q-hist-info-load-ts-compat.patch: copy
+
+# yum-multilib-policy-best.patch = unified diff output text
+yum-multilib-policy-best.patch: copy
+
+# yum-mirror-priority.patch = unified diff output text
+yum-mirror-priority.patch: copy
+
+# BZ-868840-circ-obs-regression.patch = unified diff output text
+BZ-868840-circ-obs-regression.patch: copy
+
+# BZ-690904-cert-access-check.patch = unified diff output text
+BZ-690904-cert-access-check.patch: copy
+
+# BZ-694401-no-bug-report-warning-on-depsolve-check-errors.patch = unified diff output text
+BZ-694401-no-bug-report-warning-on-depsolve-check-errors.patch: copy
+
+# yum.conf.centos = ASCII English text
+# bugtracker_url=http://bugs.centos.org/set_project.php?project_id=16&ref=http://bugs.centos.org/bug_report_page.php?category=yum
+# distroverpkg=centos-release
+yum.conf.centos: patch
+
+# BZ-769864-makecache-fix.patch = unified diff output text
+BZ-769864-makecache-fix.patch: copy
+
+# BZ-711358-getcwd-check.patch = unified diff output text
+BZ-711358-getcwd-check.patch: copy
+
+# BZ-820674-confused-with-N-restored-kernels.patch = unified diff output text
+BZ-820674-confused-with-N-restored-kernels.patch: copy
+
+# geode-arch.patch = unified diff output text
+geode-arch.patch: copy
+
+# BZ-840543-multilib-upgrade-failure-message.patch = unified diff output text
+BZ-840543-multilib-upgrade-failure-message.patch: copy

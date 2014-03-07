@@ -4,6 +4,14 @@
 # GPLv2
 set -ex
 
+die()
+{
+	echo $*
+	exit 1
+}
+
+which convert >/dev/null || die "Error: must install ImageMagick"
+
 get_build_dir()
 {
 	[ ! -f ~/.rpmmacros ] && echo "ERROR: no ~/.rpmmacros file?" && exit 1
@@ -93,9 +101,14 @@ apply_patchlist()
 		UE_FILE="$FILE"
 		ORIG="${ORIG// /\\ }"
 		FILE="${FILE// /\\ }"
+		ORIG="${ORIG//(/\\(}"
+		FILE="${FILE//(/\\(}"
+		ORIG="${ORIG//)/\\)}"
+		FILE="${FILE//)/\\)}"
 
 		# sanity check
-		[ ! -f "$UE_ORIG" ] && echo "ERROR: $UE_ORIG not found" && exit 1
+		#[ ! -f "$UE_ORIG" ] && echo "ERROR: Source file $UE_ORIG not found" && exit 1
+		[ ! -f "$UE_ORIG" ] && echo "WARNING: Source file $UE_ORIG not found" && continue
 
 		# insure the full directory tree is created
 		mkdir -p "${FILE%/*}" #`dirname $FILE`
@@ -179,6 +192,27 @@ process_upstream_srpm()
 {
 	SRPM_PATH="$1"
 
+	REPO=${SRPM_PATH%/*}
+	REPO=${REPO##*/}
+
+	DEST_DIR="PennyOS/$REPO"
+	mkdir -p $DEST_DIR
+
+	# try to guess at correct dest src.rpm file
+	DEST_FILE=${SRPM_PATH##*/}
+	DEST_FILE=${DEST_FILE%.src.rpm}
+	DEST_FILE=${DEST_FILE%.centos}
+	DEST_FILE=${DEST_FILE%.el6}
+
+	DEST_FILE="$DEST_FILE.centos.src.rpm"
+
+	if [ -f "$DEST_DIR/$DEST_FILE" ]
+	then
+		echo "SKIPPING $DEST_FILE as it already exists"
+		sleep 3
+		continue
+	fi
+
 	get_build_dir
 	[ -z "$BUILD_DIR" ] && echo "ERROR: no BUILD_DIR?" && exit 1
 
@@ -215,38 +249,48 @@ process_upstream_srpm()
 		#fi
 
 		TARBALLS=(`echo $BUILD_DIR/SOURCES/*.tar.*`)
-		[ ${#TARBALLS[@]} -gt 1 ] && echo "ERROR: Found multiple tarball candidates: $TARBALLS" && exit 1
+		TBCOUNT=0
 
-		[ ! -f $TARBALLS ] && TARBALLS=""
-		TARBALL="${TARBALLS##*/}"
+		for TARBALL_FILE in ${TARBALLS[@]}
+		do
+			TBCOUNT=`expr $TBCOUNT + 1`
+			SUFFIX="tarball"
+			[ $TBCOUNT -gt 1 ] && SUFFIX="tarball$TBCOUNT"
 
-		# prepare target directory
-		rm -rf $BUILD_DIR/PATCHED
-		mkdir -p $BUILD_DIR/PATCHED
+			[ ! -f $TARBALL_FILE ] && TARBALLS=""
+			TARBALL="${TARBALL_FILE##*/}"
 
-		if [ ! -z "$TARBALL" ]
-		then
+			# prepare target directory
+			rm -rf $BUILD_DIR/PATCHED
+			mkdir -p $BUILD_DIR/PATCHED
+
 			TARDIS="${TARBALL%.tar.*}"
-			echo "Patching tarball $TARDIS"
+			PATCHLIST="$PKG_NAME.$SUFFIX.patchlist"
+			echo "Patching tarball $TARDIS with $PATCHLIST"
 
 			rm -rf $BUILD_DIR/ORIGINAL
 			mkdir -p $BUILD_DIR/ORIGINAL
 			tar xf $BUILD_DIR/SOURCES/$TARBALL --directory=$BUILD_DIR/ORIGINAL 
 
-			[ ! -d $BUILD_DIR/ORIGINAL/$TARDIS ] && echo "ERROR: tarball directory $TARDIS not found after tarball extraction" && exit 1
+			if [ ! -d $BUILD_DIR/ORIGINAL/$TARDIS ]
+			then
+				# tar directory may be different than tarball name
+				TARDIR=(`echo $BUILD_DIR/ORIGINAL/*`)
+				[ ${#TARDIR[@]} -ne 1 ] && echo "ERROR: tarball extraction did not result in expected single directory" && ls $BUILD_DIR/ORIGINAL && exit 1
+				TARDIS="${TARDIR##*/}"
+			fi
+
+			[ ! -d $BUILD_DIR/ORIGINAL/$TARDIS ] && echo "ERROR: tarball directory $TARDIS not found after tarball extraction" && ls $BUILD_DIR/ORIGINAL && exit 1
 
 			rm -rf $BUILD_DIR/NEWBALL
 			mkdir -p $BUILD_DIR/NEWBALL/$TARDIS
-
-			apply_patchlist $PKG_NAME.tarball.patchlist $BUILD_DIR/ORIGINAL/$TARDIS $BUILD_DIR/NEWBALL/$TARDIS
+			apply_patchlist $PATCHLIST  $BUILD_DIR/ORIGINAL/$TARDIS $BUILD_DIR/NEWBALL/$TARDIS
 
 			tar cf $BUILD_DIR/PATCHED/$TARBALL --directory=$BUILD_DIR/NEWBALL $TARDIS
 			rm -rf $BUILD_DIR/NEWBALL
 			# also, remove the original tarball so it's not in patchlist
 			rm -rf $BUILD_DIR/SOURCES/$TARBALL
-		else
-			echo "### $TARBALL is not a tarball"
-		fi
+		done
 
 		apply_patchlist $PKG_NAME.patchlist $BUILD_DIR/SOURCES $BUILD_DIR/PATCHED
 
@@ -264,7 +308,7 @@ process_upstream_srpm()
 
 		[ -z "$NEW_SRCRPM" ] && echo "ERROR: no src rpm found" && exit 1
 
-		mv $NEW_SRCRPM .
+		mv $NEW_SRCRPM $DEST_DIR
 		# now push it up to mirror and trigger rebuild
 
 		rm -rf $BUILD_DIR/*/*
@@ -280,4 +324,4 @@ process_upstream()
 }
 
 process_upstream
-#process_upstream_srpm Upstream/os/at-spi-1.28.1-2.el6.centos.src.rpm
+#process_upstream_srpm Upstream/os/thunderbird-17.0.10-1.el6.centos.src.rpm
