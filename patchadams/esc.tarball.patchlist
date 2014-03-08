@@ -1,0 +1,649 @@
+# Patchlist created Fri Mar  7 09:53:41 CST 2014
+
+# coreconf/headers.mk = ASCII English text
+coreconf/headers.mk: copy
+
+# coreconf/makefile.win = ASCII English text
+coreconf/makefile.win: copy
+
+# coreconf/Linux2.1.mk = ASCII English text
+coreconf/Linux2.1.mk: copy
+
+# coreconf/Linux2.5.mk = ASCII English text
+coreconf/Linux2.5.mk: copy
+
+# coreconf/config.mk = ASCII English text
+coreconf/config.mk: copy
+
+# coreconf/release.pl = a /usr/local/bin/perl script text executable
+coreconf/release.pl: copy
+
+# coreconf/Linux2.2.mk = ASCII English text
+coreconf/Linux2.2.mk: copy
+
+# coreconf/WINNT5.1.mk = ASCII English text
+coreconf/WINNT5.1.mk: copy
+
+# coreconf/jdk.mk = ASCII English text
+coreconf/jdk.mk: copy
+
+# coreconf/arch.mk = ASCII English text
+coreconf/arch.mk: copy
+
+# coreconf/import.pl = a /usr/local/bin/perl script text executable
+coreconf/import.pl: copy
+
+# coreconf/location.mk = ASCII English text
+coreconf/location.mk: copy
+
+# coreconf/ruleset.mk = ASCII English text
+coreconf/ruleset.mk: copy
+
+# coreconf/LinuxELF2.0.mk = ASCII English text
+coreconf/LinuxELF2.0.mk: copy
+
+# coreconf/UNIX.mk = ASCII English text
+coreconf/UNIX.mk: copy
+
+# coreconf/cpdist.pl = a /usr/local/bin/perl script text executable
+coreconf/cpdist.pl: copy
+
+# coreconf/suffix.mk = ASCII English text
+coreconf/suffix.mk: copy
+
+# coreconf/coreconf.pl = ASCII English text
+coreconf/coreconf.pl: copy
+
+# coreconf/rules.mk = ASCII English text
+coreconf/rules.mk: copy
+
+# coreconf/WINNT5.0.mk = ASCII English text
+coreconf/WINNT5.0.mk: copy
+
+# coreconf/Darwin.mk = ASCII English text
+coreconf/Darwin.mk: copy
+
+# coreconf/tree.mk = ASCII English text
+coreconf/tree.mk: copy
+
+# coreconf/nsinstall/sunos4.h = ASCII English text
+coreconf/nsinstall/sunos4.h: copy
+
+# coreconf/nsinstall/nfspwd = script text executable for perl
+coreconf/nsinstall/nfspwd: copy
+
+# coreconf/nsinstall/pathsub.h = ASCII English text
+coreconf/nsinstall/pathsub.h: copy
+
+# coreconf/nsinstall/nfspwd.pl = script text executable for perl
+coreconf/nsinstall/nfspwd.pl: copy
+
+# coreconf/nsinstall/nsinstall.c = ASCII English text
+coreconf/nsinstall/nsinstall.c: copy
+
+# coreconf/nsinstall/Makefile = ASCII English text
+coreconf/nsinstall/Makefile: copy
+
+# coreconf/nsinstall/pathsub.c = ASCII English text
+coreconf/nsinstall/pathsub.c: copy
+
+# coreconf/Linux2.6.mk = ASCII English text
+coreconf/Linux2.6.mk: copy
+
+# coreconf/Linux2.4.mk = ASCII English text
+coreconf/Linux2.4.mk: copy
+
+# coreconf/prefix.mk = ASCII English text
+coreconf/prefix.mk: copy
+
+# coreconf/source.mk = ASCII English text
+coreconf/source.mk: copy
+
+# coreconf/Makefile = ASCII English text
+coreconf/Makefile: copy
+
+# coreconf/jniregen.pl = a /usr/local/bin/perl script text executable
+coreconf/jniregen.pl: copy
+
+# coreconf/version.mk = ASCII English text
+coreconf/version.mk: copy
+
+# coreconf/module.mk = ASCII English text
+coreconf/module.mk: copy
+
+# coreconf/command.mk = ASCII English text
+coreconf/command.mk: copy
+
+# coreconf/outofdate.pl = a /usr/local/bin/perl script text executable
+coreconf/outofdate.pl: copy
+
+# coreconf/WINNT4.0.mk = ASCII English text
+coreconf/WINNT4.0.mk: copy
+
+# coreconf/Linux.mk = ASCII English text
+coreconf/Linux.mk: copy
+
+# coreconf/WIN32.mk = ASCII English text
+coreconf/WIN32.mk: copy
+
+# coreconf/LinuxELF1.2.mk = ASCII English text
+coreconf/LinuxELF1.2.mk: copy
+
+# coreconf/version.pl = a /usr/sbin/perl script text executable
+coreconf/version.pl: copy
+
+# mac/misc/libtool.usb.patch = diff output text
+mac/misc/libtool.usb.patch: copy
+
+# mac/misc/Makefile-OSX.egate.patch = unified diff output text
+mac/misc/Makefile-OSX.egate.patch: copy
+
+# mac/misc/libtool.coolkey.patch = unified diff output text
+mac/misc/libtool.coolkey.patch: copy
+
+# mac/mac-build.sh = Bourne-Again shell script text executable
+mac/mac-build.sh: copy
+
+# mac/coolkey_package_data/Info.plist = XML  document text
+mac/coolkey_package_data/Info.plist: copy
+
+# mac/coolkey_package_data/es-client.icns = data
+mac/coolkey_package_data/es-client.icns: copy
+
+# mac/coolkey_package_data/Resources/postflight = Bourne-Again shell script text executable
+mac/coolkey_package_data/Resources/postflight: copy
+
+# mac/coolkey_package_data/Resources/background.gif = GIF image data, version 89a, 620 x 506
+mac/coolkey_package_data/Resources/background.gif: copy
+
+# mac/coolkey_package_data/Resources/License.txt = ASCII Pascal program text
+mac/coolkey_package_data/Resources/License.txt: copy
+
+# mac/coolkey_package_data/pk11install.command = ASCII English text
+mac/coolkey_package_data/pk11install.command: copy
+
+# mac/coolkey_package_data/Description.plist = XML  document text
+mac/coolkey_package_data/Description.plist: copy
+
+# LICENSE = ASCII Pascal program text
+LICENSE: copy
+
+# src/app/xul/esc/defaults/preferences/esc-prefs.js = ASCII English text
+src/app/xul/esc/defaults/preferences/esc-prefs.js: copy
+
+# src/app/xul/esc/components/escCLH.js = ASCII C program text
+src/app/xul/esc/components/escCLH.js: copy
+
+# src/app/xul/esc/chrome/locale/en-US/esc.properties = ASCII English text
+src/app/xul/esc/chrome/locale/en-US/esc.properties: copy
+
+# src/app/xul/esc/chrome/locale/en-US/esc.dtd = exported SGML document text
+src/app/xul/esc/chrome/locale/en-US/esc.dtd: copy
+
+# src/app/xul/esc/chrome/content/esc/5-good.png = PNG image data, 89 x 12, 8-bit/color RGBA, non-interlaced
+src/app/xul/esc/chrome/content/esc/5-good.png: copy
+
+# src/app/xul/esc/chrome/content/esc/MineOverlay.xul = XML  document text
+src/app/xul/esc/chrome/content/esc/MineOverlay.xul: copy
+
+# src/app/xul/esc/chrome/content/esc/esc-client-24.png = PNG image data, 26 x 23, 8-bit/color RGBA, non-interlaced
+src/app/xul/esc/chrome/content/esc/esc-client-24.png: copy
+
+# src/app/xul/esc/chrome/content/esc/certManager.xul = XML  document text
+src/app/xul/esc/chrome/content/esc/certManager.xul: copy
+
+# src/app/xul/esc/chrome/content/esc/settings.xul = XML  document text
+src/app/xul/esc/chrome/content/esc/settings.xul: copy
+
+# src/app/xul/esc/chrome/content/esc/advancedinfo.xul = XML  document text
+src/app/xul/esc/chrome/content/esc/advancedinfo.xul: copy
+
+# src/app/xul/esc/chrome/content/esc/enroll.png = PNG image data, 44 x 38, 8-bit/color RGBA, non-interlaced
+src/app/xul/esc/chrome/content/esc/enroll.png: copy
+
+# src/app/xul/esc/chrome/content/esc/1-none.png = PNG image data, 89 x 12, 8-bit/color RGBA, non-interlaced
+src/app/xul/esc/chrome/content/esc/1-none.png: copy
+
+# src/app/xul/esc/chrome/content/esc/escCertManager.js = ASCII English text
+src/app/xul/esc/chrome/content/esc/escCertManager.js: copy
+
+# src/app/xul/esc/chrome/content/esc/2-vweak.png = PNG image data, 89 x 12, 8-bit/color RGBA, non-interlaced
+src/app/xul/esc/chrome/content/esc/2-vweak.png: copy
+
+# src/app/xul/esc/chrome/content/esc/esc.xul = XML  document text
+src/app/xul/esc/chrome/content/esc/esc.xul: copy
+
+# src/app/xul/esc/chrome/content/esc/progress.7.gif = GIF image data, version 89a, 122 x 21
+src/app/xul/esc/chrome/content/esc/progress.7.gif: copy
+
+# src/app/xul/esc/chrome/content/esc/enrolled-keyx2.png = PNG image data, 72 x 83, 8-bit/color RGBA, non-interlaced
+src/app/xul/esc/chrome/content/esc/enrolled-keyx2.png: copy
+
+# src/app/xul/esc/chrome/content/esc/password.js = ASCII English text
+src/app/xul/esc/chrome/content/esc/password.js: copy
+
+# src/app/xul/esc/chrome/content/esc/password.xul = XML  document text
+src/app/xul/esc/chrome/content/esc/password.xul: copy
+
+# src/app/xul/esc/chrome/content/esc/formatcard.png = PNG image data, 33 x 38, 8-bit/color RGBA, non-interlaced
+src/app/xul/esc/chrome/content/esc/formatcard.png: copy
+
+# src/app/xul/esc/chrome/content/esc/TRAY.js = ASCII English text
+src/app/xul/esc/chrome/content/esc/TRAY.js: copy
+
+# src/app/xul/esc/chrome/content/esc/ESC.js = ASCII English text
+src/app/xul/esc/chrome/content/esc/ESC.js: copy
+
+# src/app/xul/esc/chrome/content/esc/contents.rdf = XML  document text
+src/app/xul/esc/chrome/content/esc/contents.rdf: copy
+
+# src/app/xul/esc/chrome/content/esc/logo.gif = PNG image data, 59 x 55, 8-bit/color RGBA, non-interlaced
+src/app/xul/esc/chrome/content/esc/logo.gif: copy
+
+# src/app/xul/esc/chrome/content/esc/initializecard.png = PNG image data, 38 x 38, 8-bit/color RGBA, non-interlaced
+src/app/xul/esc/chrome/content/esc/initializecard.png: copy
+
+# src/app/xul/esc/chrome/content/esc/GenericAuth.js = ASCII English text
+src/app/xul/esc/chrome/content/esc/GenericAuth.js: copy
+
+# src/app/xul/esc/chrome/content/esc/blank-card.png = PNG image data, 33 x 38, 8-bit/color RGBA, non-interlaced
+src/app/xul/esc/chrome/content/esc/blank-card.png: copy
+
+# src/app/xul/esc/chrome/content/esc/security.xul = XML  document text
+src/app/xul/esc/chrome/content/esc/security.xul: copy
+
+# src/app/xul/esc/chrome/content/esc/GenericAuth.xul = XML  document text
+src/app/xul/esc/chrome/content/esc/GenericAuth.xul: copy
+
+# src/app/xul/esc/chrome/content/esc/bg.jpg = JPEG image data, JFIF standard 1.02
+src/app/xul/esc/chrome/content/esc/bg.jpg: copy
+
+# src/app/xul/esc/chrome/content/esc/throbber-anim5.gif = GIF image data, version 89a, 23 x 22
+src/app/xul/esc/chrome/content/esc/throbber-anim5.gif: copy
+
+# src/app/xul/esc/chrome/content/esc/CertInfo.js = ASCII English text
+src/app/xul/esc/chrome/content/esc/CertInfo.js: copy
+
+# src/app/xul/esc/chrome/content/esc/enrollx2.png = PNG image data, 72 x 62, 8-bit/color RGBA, non-interlaced
+src/app/xul/esc/chrome/content/esc/enrollx2.png: copy
+
+# src/app/xul/esc/chrome/content/esc/6-strong.png = PNG image data, 89 x 12, 8-bit/color RGBA, non-interlaced
+src/app/xul/esc/chrome/content/esc/6-strong.png: copy
+
+# src/app/xul/esc/chrome/content/esc/4-fair.png = PNG image data, 89 x 12, 8-bit/color RGBA, non-interlaced
+src/app/xul/esc/chrome/content/esc/4-fair.png: copy
+
+# src/app/xul/esc/chrome/content/esc/esc.png = PNG image data, 61 x 54, 8-bit/color RGBA, non-interlaced
+src/app/xul/esc/chrome/content/esc/esc.png: copy
+
+# src/app/xul/esc/chrome/content/esc/formatcardx2.png = PNG image data, 72 x 83, 8-bit/color RGBA, non-interlaced
+src/app/xul/esc/chrome/content/esc/formatcardx2.png: copy
+
+# src/app/xul/esc/chrome/content/esc/enrolled-key.png = PNG image data, 33 x 38, 8-bit/color RGBA, non-interlaced
+src/app/xul/esc/chrome/content/esc/enrolled-key.png: copy
+
+# src/app/xul/esc/chrome/content/esc/hiddenWindow.xul = XML  document text
+src/app/xul/esc/chrome/content/esc/hiddenWindow.xul: copy
+
+# src/app/xul/esc/chrome/content/esc/initializecardx2.png = PNG image data, 72 x 72, 8-bit/color RGBA, non-interlaced
+src/app/xul/esc/chrome/content/esc/initializecardx2.png: copy
+
+# src/app/xul/esc/chrome/content/esc/blank-cardx2.png = PNG image data, 72 x 83, 8-bit/color RGBA, non-interlaced
+src/app/xul/esc/chrome/content/esc/blank-cardx2.png: copy
+
+# src/app/xul/esc/chrome/content/esc/esc.css = ASCII English text
+src/app/xul/esc/chrome/content/esc/esc.css: copy
+
+# src/app/xul/esc/chrome/content/esc/3-weak.png = PNG image data, 89 x 12, 8-bit/color RGBA, non-interlaced
+src/app/xul/esc/chrome/content/esc/3-weak.png: copy
+
+# src/app/xul/esc/chrome/content/esc/AdvancedInfo.js = ASCII English text
+src/app/xul/esc/chrome/content/esc/AdvancedInfo.js: copy
+
+# src/app/xul/esc/chrome/content/esc/config.xul = XML  document text
+src/app/xul/esc/chrome/content/esc/config.xul: copy
+
+# src/app/xul/esc/chrome/icons/default/esc-window.xpm = X pixmap image text
+src/app/xul/esc/chrome/icons/default/esc-window.xpm: copy
+
+# src/app/xul/esc/chrome/icons/default/esc-window.ico = MS Windows icon resource - 9 icons, 16x16, 256-colors
+src/app/xul/esc/chrome/icons/default/esc-window.ico: copy
+
+# src/app/xul/esc/chrome/icons/default/settings-window.ico = MS Windows icon resource - 9 icons, 16x16, 256-colors
+src/app/xul/esc/chrome/icons/default/settings-window.ico: copy
+
+# src/app/xul/esc/chrome/chrome.manifest = ASCII English text
+src/app/xul/esc/chrome/chrome.manifest: copy
+
+# src/app/xul/esc/application.ini = ASCII English text
+src/app/xul/esc/application.ini: copy
+
+# src/app/xpcom/CoolKeyCSP.h = ASCII English text
+src/app/xpcom/CoolKeyCSP.h: copy
+
+# src/app/xpcom/tray/rhTray.cpp = ASCII English text
+src/app/xpcom/tray/rhTray.cpp: copy
+
+# src/app/xpcom/tray/cool.ico = MS Windows icon resource - 2 icons, 32x32, 16-colors
+src/app/xpcom/tray/cool.ico: copy
+
+# src/app/xpcom/tray/rhTray.h = ASCII English text
+src/app/xpcom/tray/rhTray.h: copy
+
+# src/app/xpcom/tray/rhITrayWindNotify.idl = ASCII C program text
+src/app/xpcom/tray/rhITrayWindNotify.idl: copy
+
+# src/app/xpcom/tray/icon.png = PNG image data, 26 x 23, 8-bit/color RGBA, non-interlaced
+src/app/xpcom/tray/icon.png: copy
+
+# src/app/xpcom/tray/Makefile.sdk = ASCII English text, with CRLF line terminators
+src/app/xpcom/tray/Makefile.sdk: copy
+
+# src/app/xpcom/tray/esc.ico = MS Windows icon resource - 9 icons, 16x16, 256-colors
+src/app/xpcom/tray/esc.ico: copy
+
+# src/app/xpcom/tray/resource.h = ASCII English text, with CRLF line terminators
+src/app/xpcom/tray/resource.h: copy
+
+# src/app/xpcom/tray/rhITray.idl = ASCII C program text
+src/app/xpcom/tray/rhITray.idl: copy
+
+# src/app/xpcom/tray/esc.bmp = PC bitmap, Windows 3.x format, 59 x 55 x 24
+src/app/xpcom/tray/esc.bmp: copy
+
+# src/app/xpcom/tray/Makefile = script text executable for gmake
+src/app/xpcom/tray/Makefile: copy
+
+# src/app/xpcom/tray/cool.rc = ASCII English text, with CRLF line terminators
+src/app/xpcom/tray/cool.rc: copy
+
+# src/app/xpcom/tray/rhMacTray.cpp = ASCII English text
+src/app/xpcom/tray/rhMacTray.cpp: copy
+
+# src/app/xpcom/tray/Makefile.moz = ASCII English text
+src/app/xpcom/tray/Makefile.moz: copy
+
+# src/app/xpcom/tray/rhLinuxTray.cpp = ASCII English text
+src/app/xpcom/tray/rhLinuxTray.cpp: copy
+
+# src/app/xpcom/tray/Makefile.in = script text executable for gmake
+src/app/xpcom/tray/Makefile.in: copy
+
+# src/app/xpcom/tray/CoolKeyLogo.gif = PNG image data, 26 x 25, 8-bit/color RGBA, non-interlaced
+src/app/xpcom/tray/CoolKeyLogo.gif: copy
+
+# src/app/xpcom/rhICoolKey.idl = ASCII English text
+src/app/xpcom/rhICoolKey.idl: copy
+
+# src/app/xpcom/CoolKeyCSP.cpp = ASCII English text
+src/app/xpcom/CoolKeyCSP.cpp: copy
+
+# src/app/xpcom/Makefile.sdk = ASCII English text, with CRLF line terminators
+src/app/xpcom/Makefile.sdk: copy
+
+# src/app/xpcom/rhCoolKey.h = ASCII English text
+src/app/xpcom/rhCoolKey.h: copy
+
+# src/app/xpcom/openkey.h = ASCII English text
+src/app/xpcom/openkey.h: copy
+
+# src/app/xpcom/rhIKeyNotify.idl = ASCII English text
+src/app/xpcom/rhIKeyNotify.idl: copy
+
+# src/app/xpcom/Makefile = script text executable for gmake
+src/app/xpcom/Makefile: copy
+
+# src/app/xpcom/Makefile.moz = ASCII English text
+src/app/xpcom/Makefile.moz: copy
+
+# src/app/xpcom/rhCoolKey.cpp = ASCII English text
+src/app/xpcom/rhCoolKey.cpp: copy
+
+# src/app/eginstall/eginstall.c = ASCII C program text
+src/app/eginstall/eginstall.c: copy
+
+# src/app/eginstall/instlib.h = ASCII C program text
+src/app/eginstall/instlib.h: copy
+
+# src/app/eginstall/Makefile = script text executable for gmake
+src/app/eginstall/Makefile: copy
+
+# src/app/eginstall/instlib.c = ASCII C program text
+src/app/eginstall/instlib.c: copy
+
+# src/app/daemon/escd.h = ASCII English text
+src/app/daemon/escd.h: copy
+
+# src/app/daemon/Makefile = script text executable for gmake
+src/app/daemon/Makefile: copy
+
+# src/app/daemon/escd.cpp = ASCII English text
+src/app/daemon/escd.cpp: copy
+
+# src/app/daemon/manifest.mn = ASCII English text
+src/app/daemon/manifest.mn: copy
+
+# src/lib/coolkey/SAOL_OIDS.h = ASCII English text
+src/lib/coolkey/SAOL_OIDS.h: copy
+
+# src/lib/coolkey/config.mk = ASCII English text
+src/lib/coolkey/config.mk: copy
+
+# src/lib/coolkey/CoolKey_Message.h = ASCII English text
+src/lib/coolkey/CoolKey_Message.h: copy
+
+# src/lib/coolkey/SmartCardMonitoringThread.h = ASCII English text
+src/lib/coolkey/SmartCardMonitoringThread.h: copy
+
+# src/lib/coolkey/NSSManager.cpp = ASCII English text
+src/lib/coolkey/NSSManager.cpp: copy
+
+# src/lib/coolkey/CoolKeyHandler.cpp = ASCII English text, with very long lines
+src/lib/coolkey/CoolKeyHandler.cpp: copy
+
+# src/lib/coolkey/CoolKeyPref.cpp = ASCII English text
+src/lib/coolkey/CoolKeyPref.cpp: copy
+
+# src/lib/coolkey/ckymanager.def = ASCII English text
+src/lib/coolkey/ckymanager.def: copy
+
+# src/lib/coolkey/CoolKeyHandler.h = ASCII English text
+src/lib/coolkey/CoolKeyHandler.h: copy
+
+# src/lib/coolkey/common.mk = script text executable for gmake
+src/lib/coolkey/common.mk: copy
+
+# src/lib/coolkey/CoolKey_Message.cpp = ASCII English text, with CRLF line terminators
+src/lib/coolkey/CoolKey_Message.cpp: copy
+
+# src/lib/coolkey/CoolKey.h = ASCII English text
+src/lib/coolkey/CoolKey.h: copy
+
+# src/lib/coolkey/CoolKeyID.h = ASCII English text
+src/lib/coolkey/CoolKeyID.h: copy
+
+# src/lib/coolkey/SmartCardMonitoringThread.cpp = ASCII English text
+src/lib/coolkey/SmartCardMonitoringThread.cpp: copy
+
+# src/lib/coolkey/SlotUtils.cpp = ASCII English text
+src/lib/coolkey/SlotUtils.cpp: copy
+
+# src/lib/coolkey/CoolKey.cpp = ASCII English text
+src/lib/coolkey/CoolKey.cpp: copy
+
+# src/lib/coolkey/Makefile = script text executable for gmake
+src/lib/coolkey/Makefile: copy
+
+# src/lib/coolkey/Mac-universal.mk = script text executable for gmake
+src/lib/coolkey/Mac-universal.mk: copy
+
+# src/lib/coolkey/NSSManager.h = ASCII English text
+src/lib/coolkey/NSSManager.h: copy
+
+# src/lib/coolkey/manifest.mn = ASCII English text
+src/lib/coolkey/manifest.mn: copy
+
+# src/lib/coolkey/CoolKeyPref.h = ASCII English text
+src/lib/coolkey/CoolKeyPref.h: copy
+
+# src/lib/coolkey/SlotUtils.h = ASCII English text
+src/lib/coolkey/SlotUtils.h: copy
+
+# src/lib/notifytray/notify.def = ASCII text
+src/lib/notifytray/notify.def: copy
+
+# src/lib/notifytray/config.mk = ASCII English text
+src/lib/notifytray/config.mk: copy
+
+# src/lib/notifytray/notifyareaicon.h = ASCII English text
+src/lib/notifytray/notifyareaicon.h: copy
+
+# src/lib/notifytray/notifytray.h = ASCII English text
+src/lib/notifytray/notifytray.h: copy
+
+# src/lib/notifytray/Makefile = script text executable for gmake
+src/lib/notifytray/Makefile: copy
+
+# src/lib/notifytray/notifyareaicon.c = ASCII English text
+src/lib/notifytray/notifyareaicon.c: copy
+
+# src/lib/notifytray/manifest.mn = ASCII English text
+src/lib/notifytray/manifest.mn: copy
+
+# src/lib/notifytray/notifytray.c = ASCII English text
+src/lib/notifytray/notifytray.c: copy
+
+# src/lib/NssHttpClient/NssHttpClient.cpp = ASCII English text
+src/lib/NssHttpClient/NssHttpClient.cpp: copy
+
+# src/lib/NssHttpClient/config.mk = ASCII English text
+src/lib/NssHttpClient/config.mk: copy
+
+# src/lib/NssHttpClient/http.cpp = ASCII C program text
+src/lib/NssHttpClient/http.cpp: copy
+
+# src/lib/NssHttpClient/request.h = ASCII English text, with CRLF line terminators
+src/lib/NssHttpClient/request.h: copy
+
+# src/lib/NssHttpClient/Cache.h = ASCII C program text
+src/lib/NssHttpClient/Cache.h: copy
+
+# src/lib/NssHttpClient/Util.cpp = ASCII English text
+src/lib/NssHttpClient/Util.cpp: copy
+
+# src/lib/NssHttpClient/NssHttpClient.h = ASCII English text
+src/lib/NssHttpClient/NssHttpClient.h: copy
+
+# src/lib/NssHttpClient/httpClientNss.cpp = ASCII English text
+src/lib/NssHttpClient/httpClientNss.cpp: copy
+
+# src/lib/NssHttpClient/Cache.cpp = ASCII C program text
+src/lib/NssHttpClient/Cache.cpp: copy
+
+# src/lib/NssHttpClient/HttpClientNss.h = ASCII English text
+src/lib/NssHttpClient/HttpClientNss.h: copy
+
+# src/lib/NssHttpClient/PSCommonLib.h = ASCII C program text
+src/lib/NssHttpClient/PSCommonLib.h: copy
+
+# src/lib/NssHttpClient/response.cpp = ASCII C program text
+src/lib/NssHttpClient/response.cpp: copy
+
+# src/lib/NssHttpClient/Defines.h = ASCII C program text
+src/lib/NssHttpClient/Defines.h: copy
+
+# src/lib/NssHttpClient/httpchunked.def = ASCII English text
+src/lib/NssHttpClient/httpchunked.def: copy
+
+# src/lib/NssHttpClient/Util.h = ASCII English text
+src/lib/NssHttpClient/Util.h: copy
+
+# src/lib/NssHttpClient/NssHttpClient.sln = ASCII text
+src/lib/NssHttpClient/NssHttpClient.sln: copy
+
+# src/lib/NssHttpClient/NssHttpClient.vcproj = XML  document text
+src/lib/NssHttpClient/NssHttpClient.vcproj: copy
+
+# src/lib/NssHttpClient/engine.cpp = ASCII C program text
+src/lib/NssHttpClient/engine.cpp: copy
+
+# src/lib/NssHttpClient/stdafx.h = ASCII English text
+src/lib/NssHttpClient/stdafx.h: copy
+
+# src/lib/NssHttpClient/Makefile = script text executable for gmake
+src/lib/NssHttpClient/Makefile: copy
+
+# src/lib/NssHttpClient/engine.h = ASCII C program text
+src/lib/NssHttpClient/engine.h: copy
+
+# src/lib/NssHttpClient/Iterator.h = ASCII C program text
+src/lib/NssHttpClient/Iterator.h: copy
+
+# src/lib/NssHttpClient/manifest.mn = ASCII English text
+src/lib/NssHttpClient/manifest.mn: copy
+
+# src/lib/NssHttpClient/http.h = ASCII C program text
+src/lib/NssHttpClient/http.h: copy
+
+# src/lib/NssHttpClient/request.cpp = ASCII C program text
+src/lib/NssHttpClient/request.cpp: copy
+
+# src/lib/NssHttpClient/stdafx.cpp = ASCII English text
+src/lib/NssHttpClient/stdafx.cpp: copy
+
+# src/lib/NssHttpClient/response.h = ASCII C program text
+src/lib/NssHttpClient/response.h: copy
+
+# src/lib/NssHttpClient/nscperror.cpp = ASCII English text
+src/lib/NssHttpClient/nscperror.cpp: copy
+
+# src/Makefile = script text executable for gmake
+src/Makefile: copy
+
+# src/manifest.mn = ASCII English text
+src/manifest.mn: copy
+
+# src/xulrunner/Makefile = script text executable for gmake
+src/xulrunner/Makefile: copy
+
+# rpm/esc = POSIX shell script text executable
+rpm/esc: copy
+
+# rpm/esc.desktop = ASCII text
+rpm/esc.desktop: copy
+
+# rpm/esc.spec = ASCII English text
+rpm/esc.spec: copy
+
+# rpm/build.sh = Bourne-Again shell script text executable
+rpm/build.sh: copy
+
+# intl/en-US/esc.dtd.pot = ASCII PO (gettext message catalogue) text, with very long lines
+intl/en-US/esc.dtd.pot: copy
+
+# intl/en-US/esc.properties.pot = ASCII English text
+intl/en-US/esc.properties.pot: copy
+
+# win32/esc-image-large.bmp = PC bitmap, Windows 3.x format, 169 x 314 x 4
+win32/esc-image-large.bmp: copy
+
+# win32/esc-license.txt = ASCII Pascal program text
+win32/esc-license.txt: copy
+
+# win32/build.sh = Bourne-Again shell script text executable
+win32/build.sh: copy
+
+# win32/setup.iss = ASCII English text, with CRLF line terminators
+win32/setup.iss: copy
+
+# win32/info-after.txt = ASCII English text
+win32/info-after.txt: copy
+
+# win32/info-before.txt = ASCII Pascal program text
+win32/info-before.txt: copy
+
+# Makefile = ASCII English text
+Makefile: copy
+
+# manifest.mn = ASCII English text
+manifest.mn: copy

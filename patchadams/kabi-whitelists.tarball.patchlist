@@ -1,0 +1,64 @@
+# Patchlist created Fri Mar  7 21:41:47 CST 2014
+
+# kabi-rhel60/kabi_whitelist_ppc64 = ASCII text
+kabi-rhel60/kabi_whitelist_ppc64: copy
+
+# kabi-rhel60/kabi_whitelist_x86_64 = ASCII text
+kabi-rhel60/kabi_whitelist_x86_64: copy
+
+# kabi-rhel60/kabi_whitelist_i686 = ASCII text
+kabi-rhel60/kabi_whitelist_i686: copy
+
+# kabi-rhel60/kabi_whitelist_s390x = ASCII text
+kabi-rhel60/kabi_whitelist_s390x: copy
+
+# kabi-rhel64/kabi_whitelist_ppc64 = ASCII text
+kabi-rhel64/kabi_whitelist_ppc64: copy
+
+# kabi-rhel64/kabi_whitelist_x86_64 = ASCII text
+kabi-rhel64/kabi_whitelist_x86_64: copy
+
+# kabi-rhel64/kabi_whitelist_i686 = ASCII text
+kabi-rhel64/kabi_whitelist_i686: copy
+
+# kabi-rhel64/kabi_whitelist_s390x = ASCII text
+kabi-rhel64/kabi_whitelist_s390x: copy
+
+# kabi-rhel62/kabi_whitelist_ppc64 = ASCII text
+kabi-rhel62/kabi_whitelist_ppc64: copy
+
+# kabi-rhel62/kabi_whitelist_x86_64 = ASCII text
+kabi-rhel62/kabi_whitelist_x86_64: copy
+
+# kabi-rhel62/kabi_whitelist_i686 = ASCII text
+kabi-rhel62/kabi_whitelist_i686: copy
+
+# kabi-rhel62/kabi_whitelist_s390x = ASCII text
+kabi-rhel62/kabi_whitelist_s390x: copy
+
+# kabi-rhel63/kabi_whitelist_ppc64 = ASCII text
+kabi-rhel63/kabi_whitelist_ppc64: copy
+
+# kabi-rhel63/kabi_whitelist_x86_64 = ASCII text
+kabi-rhel63/kabi_whitelist_x86_64: copy
+
+# kabi-rhel63/kabi_whitelist_i686 = ASCII text
+kabi-rhel63/kabi_whitelist_i686: copy
+
+# kabi-rhel63/kabi_whitelist_s390x = ASCII text
+kabi-rhel63/kabi_whitelist_s390x: copy
+
+# kabi-rhel61/kabi_whitelist_ppc64 = ASCII text
+kabi-rhel61/kabi_whitelist_ppc64: copy
+
+# kabi-rhel61/kabi_whitelist_x86_64 = ASCII text
+kabi-rhel61/kabi_whitelist_x86_64: copy
+
+# kabi-rhel61/kabi_whitelist_i686 = ASCII text
+kabi-rhel61/kabi_whitelist_i686: copy
+
+# kabi-rhel61/kabi_whitelist_s390x = ASCII text
+kabi-rhel61/kabi_whitelist_s390x: copy
+
+# kabi-rhel61/README.txt = ASCII English text
+kabi-rhel61/README.txt: copy

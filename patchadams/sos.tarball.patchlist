@@ -1,0 +1,598 @@
+# Patchlist created Fri Mar  7 21:41:54 CST 2014
+
+# doc/make.bat = DOS batch file text
+doc/make.bat: copy
+
+# doc/Makefile = ASCII English text
+doc/Makefile: copy
+
+# doc/conf.py = ASCII English text
+doc/conf.py: copy
+
+# doc/index.rst = ASCII English text
+doc/index.rst: copy
+
+# pylintrc = ASCII English text
+pylintrc: copy
+
+# sos/__init__.py = ASCII Pascal program text
+sos/__init__.py: copy
+
+# sos/sosreport.py = a python script text executable
+sos/sosreport.py: copy
+
+# sos/Makefile = ASCII make commands text
+sos/Makefile: copy
+
+# sos/plugins/logrotate.py = Python script text executable
+sos/plugins/logrotate.py: copy
+
+# sos/plugins/bootloader.py = Python script text executable
+sos/plugins/bootloader.py: copy
+
+# sos/plugins/rhn.py = Python script text executable
+sos/plugins/rhn.py: copy
+
+# sos/plugins/__init__.py = empty
+sos/plugins/__init__.py: copy
+
+# sos/plugins/libraries.py = Python script text executable
+sos/plugins/libraries.py: copy
+
+# sos/plugins/veritas.py = Python script text executable
+sos/plugins/veritas.py: copy
+
+# sos/plugins/openssl.py = Python script text executable
+sos/plugins/openssl.py: copy
+
+# sos/plugins/ipa.py = Python script text executable
+sos/plugins/ipa.py: copy
+
+# sos/plugins/auditd.py = Python script text executable
+sos/plugins/auditd.py: copy
+
+# sos/plugins/amd.py = Python script text executable
+sos/plugins/amd.py: copy
+
+# sos/plugins/acpid.py = Python script text executable
+sos/plugins/acpid.py: copy
+
+# sos/plugins/anaconda.py = Python script text executable
+sos/plugins/anaconda.py: copy
+
+# sos/plugins/kernel.py = Python script text executable
+sos/plugins/kernel.py: copy
+
+# sos/plugins/ssh.py = Python script text executable
+sos/plugins/ssh.py: copy
+
+# sos/plugins/ppp.py = Python script text executable
+sos/plugins/ppp.py: copy
+
+# sos/plugins/tomcat.py = Python script text executable
+sos/plugins/tomcat.py: copy
+
+# sos/plugins/netdump.py = Python script text executable
+sos/plugins/netdump.py: copy
+
+# sos/plugins/libvirt.py = Python script text executable
+sos/plugins/libvirt.py: copy
+
+# sos/plugins/filesys.py = Python script text executable
+sos/plugins/filesys.py: copy
+
+# sos/plugins/pxe.py = Python script text executable
+sos/plugins/pxe.py: copy
+
+# sos/plugins/hardware.py = Python script text executable
+sos/plugins/hardware.py: copy
+
+# sos/plugins/tftpserver.py = Python script text executable
+sos/plugins/tftpserver.py: copy
+
+# sos/plugins/quagga.py = Python script text executable
+sos/plugins/quagga.py: copy
+
+# sos/plugins/mysql.py = Python script text executable
+sos/plugins/mysql.py: copy
+
+# sos/plugins/corosync.py = Python script text executable
+sos/plugins/corosync.py: copy
+
+# sos/plugins/apache.py = Python script text executable
+sos/plugins/apache.py: copy
+
+# sos/plugins/snmp.py = Python script text executable
+sos/plugins/snmp.py: copy
+
+# sos/plugins/rpm.py = Python script text executable
+sos/plugins/rpm.py: copy
+
+# sos/plugins/kdump.py = Python script text executable
+sos/plugins/kdump.py: copy
+
+# sos/plugins/printing.py = Python script text executable
+sos/plugins/printing.py: copy
+
+# sos/plugins/emc.py = Python script text executable
+sos/plugins/emc.py: copy
+
+# sos/plugins/hts.py = Python script text executable
+sos/plugins/hts.py: copy
+
+# sos/plugins/x11.py = Python script text executable
+sos/plugins/x11.py: copy
+
+# sos/plugins/cs.py = Python script text executable
+sos/plugins/cs.py: copy
+
+# sos/plugins/yum.py = Python script text executable
+sos/plugins/yum.py: copy
+
+# sos/plugins/mrgmessg.py = Python script text executable
+sos/plugins/mrgmessg.py: copy
+
+# sos/plugins/psacct.py = Python script text executable
+sos/plugins/psacct.py: copy
+
+# sos/plugins/memory.py = Python script text executable
+sos/plugins/memory.py: copy
+
+# sos/plugins/lsbrelease.py = Python script text executable
+sos/plugins/lsbrelease.py: copy
+
+# sos/plugins/systemtap.py = Python script text executable
+sos/plugins/systemtap.py: copy
+
+# sos/plugins/postfix.py = Python script text executable
+sos/plugins/postfix.py: copy
+
+# sos/plugins/named.py = Python script text executable
+sos/plugins/named.py: copy
+
+# sos/plugins/squid.py = Python script text executable
+sos/plugins/squid.py: copy
+
+# sos/plugins/oddjob.py = Python script text executable
+sos/plugins/oddjob.py: copy
+
+# sos/plugins/ntp.py = Python script text executable
+sos/plugins/ntp.py: copy
+
+# sos/plugins/s390.py = Python script text executable
+sos/plugins/s390.py: copy
+
+# sos/plugins/ldap.py = Python script text executable
+sos/plugins/ldap.py: copy
+
+# sos/plugins/crontab.py = Python script text executable
+sos/plugins/crontab.py: copy
+
+# sos/plugins/dovecot.py = Python script text executable
+sos/plugins/dovecot.py: copy
+
+# sos/plugins/iscsi.py = Python script text executable
+sos/plugins/iscsi.py: copy
+
+# sos/plugins/xinetd.py = Python script text executable
+sos/plugins/xinetd.py: copy
+
+# sos/plugins/sanitize.py = Python script text executable
+sos/plugins/sanitize.py: copy
+
+# sos/plugins/soundcard.py = Python script text executable
+sos/plugins/soundcard.py: copy
+
+# sos/plugins/Makefile = ASCII make commands text
+sos/plugins/Makefile: copy
+
+# sos/plugins/sar.py = Python script text executable
+sos/plugins/sar.py: copy
+
+# sos/plugins/system.py = Python script text executable
+sos/plugins/system.py: copy
+
+# sos/plugins/openswan.py = Python script text executable
+sos/plugins/openswan.py: copy
+
+# sos/plugins/nscd.py = Python script text executable
+sos/plugins/nscd.py: copy
+
+# sos/plugins/devicemapper.py = Python script text executable
+sos/plugins/devicemapper.py: copy
+
+# sos/plugins/autofs.py = Python script text executable
+sos/plugins/autofs.py: copy
+
+# sos/plugins/general.py = Python script text executable
+sos/plugins/general.py: copy
+
+# sos/plugins/sendmail.py = Python script text executable
+sos/plugins/sendmail.py: copy
+
+# sos/plugins/ipsec.py = Python script text executable
+sos/plugins/ipsec.py: copy
+
+# sos/plugins/networking.py = Python script text executable
+sos/plugins/networking.py: copy
+
+# sos/plugins/nfsserver.py = Python script text executable
+sos/plugins/nfsserver.py: copy
+
+# sos/plugins/dhcp.py = Python script text executable
+sos/plugins/dhcp.py: copy
+
+# sos/plugins/process.py = Python script text executable
+sos/plugins/process.py: copy
+
+# sos/plugins/ds.py = Python script text executable
+sos/plugins/ds.py: copy
+
+# sos/plugins/initrd.py = Python script text executable
+sos/plugins/initrd.py: copy
+
+# sos/plugins/selinux.py = Python script text executable
+sos/plugins/selinux.py: copy
+
+# sos/plugins/radius.py = Python script text executable
+sos/plugins/radius.py: copy
+
+# sos/plugins/ftp.py = Python script text executable
+sos/plugins/ftp.py: copy
+
+# sos/plugins/samba.py = Python script text executable
+sos/plugins/samba.py: copy
+
+# sos/plugins/gdm.py = Python script text executable
+sos/plugins/gdm.py: copy
+
+# sos/plugins/mrggrid.py = Python script text executable
+sos/plugins/mrggrid.py: copy
+
+# sos/plugins/cobbler.py = Python script text executable
+sos/plugins/cobbler.py: copy
+
+# sos/plugins/cluster.py = Python script text executable
+sos/plugins/cluster.py: copy
+
+# sos/plugins/startup.py = Python script text executable
+sos/plugins/startup.py: copy
+
+# sos/plugins/pam.py = Python script text executable
+sos/plugins/pam.py: copy
+
+# sos/plugins/qpidd.py = Python script text executable
+sos/plugins/qpidd.py: copy
+
+# sos/plugins/udev.py = Python script text executable
+sos/plugins/udev.py: copy
+
+# sos/plugins/smartcard.py = Python script text executable
+sos/plugins/smartcard.py: copy
+
+# sos/plugins/vmware.py = Python script text executable
+sos/plugins/vmware.py: copy
+
+# sos/plugins/xen.py = Python script text executable
+sos/plugins/xen.py: copy
+
+# sos/plugins/i18n.py = Python script text executable
+sos/plugins/i18n.py: copy
+
+# sos/plugins/kvm.py = Python script text executable
+sos/plugins/kvm.py: copy
+
+# sos/helpers.py = Python script text executable
+sos/helpers.py: copy
+
+# sos/policyredhat.py = Python script text executable
+sos/policyredhat.py: copy
+
+# sos/plugintools.py = Python script text executable
+sos/plugintools.py: copy
+
+# LICENSE = ASCII English text
+LICENSE: copy
+
+# testsuite/site.exp = ASCII text
+testsuite/site.exp: copy
+
+# testsuite/sos.test/plugin_install.exp = ASCII text
+testsuite/sos.test/plugin_install.exp: copy
+
+# testsuite/sos.test/batchmode.exp = ASCII text
+testsuite/sos.test/batchmode.exp: copy
+
+# testsuite/config/unix.exp = empty
+testsuite/config/unix.exp: copy
+
+# testsuite/Makefile = ASCII make commands text
+testsuite/Makefile: copy
+
+# README = ASCII English text
+README: copy
+
+# gpgkeys/gpg.template = ASCII text
+gpgkeys/gpg.template: copy
+
+# gpgkeys/rhsupport.pub = GPG key public ring
+gpgkeys/rhsupport.pub: copy
+
+# ChangeLog = ASCII English text, with very long lines
+ChangeLog: copy
+
+# sosreport = a /usr/bin/python script text executable
+sosreport: copy
+
+# sos.spec = lex description text
+sos.spec: copy
+
+# TODO = ASCII English text
+TODO: copy
+
+# example_plugins/example.py = Python script text executable
+example_plugins/example.py: copy
+
+# example_plugins/runcommand.py = Python script text executable
+example_plugins/runcommand.py: copy
+
+# example_plugins/release.py = Python script text executable
+example_plugins/release.py: copy
+
+# example_plugins/fsusage.py = a /usr/bin/env python script text executable
+example_plugins/fsusage.py: copy
+
+# po/uk.po = UTF-8 Unicode English text
+po/uk.po: copy
+
+# po/pt.po = UTF-8 Unicode PO (gettext message catalogue) text
+po/pt.po: copy
+
+# po/te.po = UTF-8 Unicode PO (gettext message catalogue) text
+po/te.po: copy
+
+# po/en.po = ASCII PO (gettext message catalogue) text
+po/en.po: copy
+
+# po/lt.po = ASCII PO (gettext message catalogue) text
+po/lt.po: copy
+
+# po/ml.po = UTF-8 Unicode PO (gettext message catalogue) text
+po/ml.po: copy
+
+# po/da.po = UTF-8 Unicode PO (gettext message catalogue) text
+po/da.po: copy
+
+# po/nl.po = UTF-8 Unicode PO (gettext message catalogue) text
+po/nl.po: copy
+
+# po/en_GB.po = ASCII PO (gettext message catalogue) text
+po/en_GB.po: copy
+
+# po/nb.po = ASCII PO (gettext message catalogue) text
+po/nb.po: copy
+
+# po/ku.po = ASCII PO (gettext message catalogue) text
+po/ku.po: copy
+
+# po/or.po = UTF-8 Unicode PO (gettext message catalogue) text
+po/or.po: copy
+
+# po/vi.po = ASCII PO (gettext message catalogue) text
+po/vi.po: copy
+
+# po/id.po = ASCII PO (gettext message catalogue) text
+po/id.po: copy
+
+# po/tr.po = ASCII PO (gettext message catalogue) text
+po/tr.po: copy
+
+# po/he.po = ASCII PO (gettext message catalogue) text
+po/he.po: copy
+
+# po/mk.po = ASCII PO (gettext message catalogue) text
+po/mk.po: copy
+
+# po/zh_CN.po = UTF-8 Unicode PO (gettext message catalogue) text
+po/zh_CN.po: copy
+
+# po/bn.po = ASCII PO (gettext message catalogue) text
+po/bn.po: copy
+
+# po/cs.po = UTF-8 Unicode PO (gettext message catalogue) text
+po/cs.po: copy
+
+# po/as.po = UTF-8 Unicode PO (gettext message catalogue) text
+po/as.po: copy
+
+# po/pa.po = UTF-8 Unicode PO (gettext message catalogue) text
+po/pa.po: copy
+
+# po/eu_ES.po = ASCII PO (gettext message catalogue) text
+po/eu_ES.po: copy
+
+# po/ko.po = UTF-8 Unicode PO (gettext message catalogue) text
+po/ko.po: copy
+
+# po/ilo.po = ASCII PO (gettext message catalogue) text
+po/ilo.po: copy
+
+# po/ja.po = UTF-8 Unicode PO (gettext message catalogue) text
+po/ja.po: copy
+
+# po/de.po = UTF-8 Unicode English text
+po/de.po: copy
+
+# po/gu.po = UTF-8 Unicode PO (gettext message catalogue) text
+po/gu.po: copy
+
+# po/nso.po = ASCII PO (gettext message catalogue) text
+po/nso.po: copy
+
+# po/kn.po = UTF-8 Unicode PO (gettext message catalogue) text
+po/kn.po: copy
+
+# po/de_CH.po = UTF-8 Unicode English text
+po/de_CH.po: copy
+
+# po/sr.po = UTF-8 Unicode English text
+po/sr.po: copy
+
+# po/be.po = ASCII PO (gettext message catalogue) text
+po/be.po: copy
+
+# po/af.po = ASCII PO (gettext message catalogue) text
+po/af.po: copy
+
+# po/hi.po = UTF-8 Unicode PO (gettext message catalogue) text
+po/hi.po: copy
+
+# po/my.po = ASCII PO (gettext message catalogue) text
+po/my.po: copy
+
+# po/bg.po = ASCII PO (gettext message catalogue) text
+po/bg.po: copy
+
+# po/mr.po = UTF-8 Unicode PO (gettext message catalogue) text
+po/mr.po: copy
+
+# po/ta.po = UTF-8 Unicode PO (gettext message catalogue) text
+po/ta.po: copy
+
+# po/ast.po = UTF-8 Unicode PO (gettext message catalogue) text
+po/ast.po: copy
+
+# po/zu.po = ASCII PO (gettext message catalogue) text
+po/zu.po: copy
+
+# po/lv.po = ASCII PO (gettext message catalogue) text
+po/lv.po: copy
+
+# po/ru.po = UTF-8 Unicode PO (gettext message catalogue) text
+po/ru.po: copy
+
+# po/cy.po = ASCII PO (gettext message catalogue) text
+po/cy.po: copy
+
+# po/zh_TW.po = UTF-8 Unicode PO (gettext message catalogue) text
+po/zh_TW.po: copy
+
+# po/fr.po = UTF-8 Unicode PO (gettext message catalogue) text
+po/fr.po: copy
+
+# po/fa.po = ASCII PO (gettext message catalogue) text
+po/fa.po: copy
+
+# po/ms.po = ASCII PO (gettext message catalogue) text
+po/ms.po: copy
+
+# po/sl.po = ASCII PO (gettext message catalogue) text
+po/sl.po: copy
+
+# po/sq.po = ASCII PO (gettext message catalogue) text
+po/sq.po: copy
+
+# po/sr@latin.po = UTF-8 Unicode English text
+po/sr@latin.po: copy
+
+# po/es.po = UTF-8 Unicode English text
+po/es.po: copy
+
+# po/ur.po = ASCII PO (gettext message catalogue) text
+po/ur.po: copy
+
+# po/ar.po = UTF-8 Unicode PO (gettext message catalogue) text
+po/ar.po: copy
+
+# po/pt_BR.po = UTF-8 Unicode PO (gettext message catalogue) text
+po/pt_BR.po: copy
+
+# po/fi.po = UTF-8 Unicode PO (gettext message catalogue) text
+po/fi.po: copy
+
+# po/Makefile = ASCII text
+po/Makefile: copy
+
+# po/bs.po = UTF-8 Unicode PO (gettext message catalogue) text
+po/bs.po: copy
+
+# po/ka.po = ASCII PO (gettext message catalogue) text
+po/ka.po: copy
+
+# po/ro.po = ASCII PO (gettext message catalogue) text
+po/ro.po: copy
+
+# po/sos.pot = ASCII English text
+po/sos.pot: copy
+
+# po/hy.po = ASCII PO (gettext message catalogue) text
+po/hy.po: copy
+
+# po/ca.po = UTF-8 Unicode English text
+po/ca.po: copy
+
+# po/hu.po = UTF-8 Unicode PO (gettext message catalogue) text
+po/hu.po: copy
+
+# po/pl.po = UTF-8 Unicode PO (gettext message catalogue) text
+po/pl.po: copy
+
+# po/am.po = ASCII PO (gettext message catalogue) text
+po/am.po: copy
+
+# po/gl.po = ASCII PO (gettext message catalogue) text
+po/gl.po: copy
+
+# po/is.po = ASCII PO (gettext message catalogue) text
+po/is.po: copy
+
+# po/hr.po = ASCII PO (gettext message catalogue) text
+po/hr.po: copy
+
+# po/it.po = UTF-8 Unicode PO (gettext message catalogue) text
+po/it.po: copy
+
+# po/bn_IN.po = UTF-8 Unicode PO (gettext message catalogue) text
+po/bn_IN.po: copy
+
+# po/th.po = UTF-8 Unicode PO (gettext message catalogue) text
+po/th.po: copy
+
+# po/sv.po = UTF-8 Unicode English text
+po/sv.po: copy
+
+# po/et.po = ASCII PO (gettext message catalogue) text
+po/et.po: copy
+
+# po/sk.po = UTF-8 Unicode PO (gettext message catalogue) text
+po/sk.po: copy
+
+# po/el.po = UTF-8 Unicode PO (gettext message catalogue) text
+po/el.po: copy
+
+# po/si.po = UTF-8 Unicode PO (gettext message catalogue) text
+po/si.po: copy
+
+# po/lo.po = ASCII PO (gettext message catalogue) text
+po/lo.po: copy
+
+# po/nn.po = ASCII PO (gettext message catalogue) text
+po/nn.po: copy
+
+# Makefile = ASCII text
+Makefile: copy
+
+# tools/profiler/report = a /usr/bin/python script text executable
+tools/profiler/report: copy
+
+# tools/sos-open = a /usr/bin/python script text executable
+tools/sos-open: copy
+
+# man/en/sos.conf.5 = troff or preprocessor input text
+man/en/sos.conf.5: copy
+
+# man/en/sosreport.1 = troff or preprocessor input text
+man/en/sosreport.1: copy
+
+# sos.conf = ASCII text
+sos.conf: copy

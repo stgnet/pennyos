@@ -1,0 +1,413 @@
+# Patchlist created Fri Mar  7 21:15:52 CST 2014
+
+# 0022-analyze-vmcore-added-d-option-to-specify-problem_dir.patch = unified diff output text
+0022-analyze-vmcore-added-d-option-to-specify-problem_dir.patch: copy
+
+# 0101-remove-report-problem-with-ABRT-button.patch = unified diff output text
+0101-remove-report-problem-with-ABRT-button.patch: copy
+
+# 0179-abrt-python-add-missing-file.patch = unified diff output text
+0179-abrt-python-add-missing-file.patch: copy
+
+# 0030-koops-unit-test-bundle-test-koops-into-tarball.patch = unified diff output text
+0030-koops-unit-test-bundle-test-koops-into-tarball.patch: copy
+
+# 0116-updated-translation-rhbz-864023.patch = unified diff output text
+0116-updated-translation-rhbz-864023.patch: copy
+
+# 0153-implemented-status-command-to-abrt-cli-rhbz-961231.patch = unified diff output text
+0153-implemented-status-command-to-abrt-cli-rhbz-961231.patch: copy
+
+# 0192-fix-problem-occurrence-counter-updating-algorithm.patch = unified diff output text
+0192-fix-problem-occurrence-counter-updating-algorithm.patch: copy
+
+# 0173-abrt-python-minor-test-updates.patch = unified diff output text
+0173-abrt-python-minor-test-updates.patch: copy
+
+# 0025-koops-unit-test-test-refactorization.patch = unified diff output text
+0025-koops-unit-test-test-refactorization.patch: copy
+
+# 0100-updated-translations.patch = unified diff output text
+0100-updated-translations.patch: copy
+
+# 0171-abrt-python-add-new-problem-notification-support.patch = unified diff output text
+0171-abrt-python-add-new-problem-notification-support.patch: copy
+
+# 0137-abrtd-Remove-Corrupted-or-bad-directory-words-from-t.patch = unified diff output text
+0137-abrtd-Remove-Corrupted-or-bad-directory-words-from-t.patch: copy
+
+# 0191-abrt-python-fix-DEFAULT_DUMP_LOCATION.patch = unified diff output text
+0191-abrt-python-fix-DEFAULT_DUMP_LOCATION.patch: copy
+
+# 0127-abrtd-allow-parallel-runs-of-post-create-events.patch = unified diff output text
+0127-abrtd-allow-parallel-runs-of-post-create-events.patch: copy
+
+# 0164-abrt-python-add-python-nose-to-buildrequires.patch = unified diff output text
+0164-abrt-python-add-python-nose-to-buildrequires.patch: copy
+
+# 0180-abrt-python-import-dbus-lazily.patch = unified diff output text
+0180-abrt-python-import-dbus-lazily.patch: copy
+
+# 0112-hopefully-fixed-ugly-applet-icon-rhbz-797078.patch = unified diff output text
+0112-hopefully-fixed-ugly-applet-icon-rhbz-797078.patch: copy
+
+# 0194-console-notification-shouldn-t-ask-confirmation-clos.patch = unified diff output text
+0194-console-notification-shouldn-t-ask-confirmation-clos.patch: copy
+
+# 0081-trac-527-add-check-for-locale.h-in-order-to-define-H.patch = unified diff output text
+0081-trac-527-add-check-for-locale.h-in-order-to-define-H.patch: copy
+
+# 0074-a-a-analyze-core-check-the-len-if-the-line-array-bef.patch = unified diff output text
+0074-a-a-analyze-core-check-the-len-if-the-line-array-bef.patch: copy
+
+# 0080-applet-reverse-list-to-not-be-surprise-during-debugg.patch = unified diff output text
+0080-applet-reverse-list-to-not-be-surprise-during-debugg.patch: copy
+
+# 0187-abrt-python-check-if-gid-equals-current-users-gid.patch = unified diff output text
+0187-abrt-python-check-if-gid-equals-current-users-gid.patch: copy
+
+# 0120-abrt-action-analyze-oops-fail-if-we-end-up-hashing-e.patch = unified diff output text
+0120-abrt-action-analyze-oops-fail-if-we-end-up-hashing-e.patch: copy
+
+# 0070-oops-don-t-create-oops-dir-in-reverse-rhbz-814594.patch = unified diff output text
+0070-oops-don-t-create-oops-dir-in-reverse-rhbz-814594.patch: copy
+
+# 0161-abrt-python-add-python-problem-tests-to-POTFILES.ski.patch = unified diff output text
+0161-abrt-python-add-python-problem-tests-to-POTFILES.ski.patch: copy
+
+# 0073-Save-cgroup-information-for-crashing-process.patch = unified diff output text
+0073-Save-cgroup-information-for-crashing-process.patch: copy
+
+# 0079-pyhook-add-timetout-to-sockets-rhbz-808562-rhbz-8373.patch = unified diff output text
+0079-pyhook-add-timetout-to-sockets-rhbz-808562-rhbz-8373.patch: copy
+
+# 0154-added-a-console-notification-script-to-profile.d-rhb.patch = unified diff output text
+0154-added-a-console-notification-script-to-profile.d-rhb.patch: copy
+
+# 0062-Don-t-download-debuginfo-for-pkgs-without-build-ids.patch = unified diff output text
+0062-Don-t-download-debuginfo-for-pkgs-without-build-ids.patch: copy
+
+# 0201-updated-translation-rhbz-993564.patch = unified diff output text
+0201-updated-translation-rhbz-993564.patch: copy
+
+# 0182-abrt-python-pep8-cleanup.patch = unified diff output text
+0182-abrt-python-pep8-cleanup.patch: copy
+
+# 0181-abrt-python-fix-makefiles.patch = unified diff output text
+0181-abrt-python-fix-makefiles.patch: copy
+
+# 0123-fixed-the-relro-flags-rhbz-812284.patch = unified diff output text
+0123-fixed-the-relro-flags-rhbz-812284.patch: copy
+
+# 0172-abrt-python-add-missing-watch-examples.patch = unified diff output text
+0172-abrt-python-add-missing-watch-examples.patch: copy
+
+# 0091-blacklist-more-usual-suspects-which-are-usually-not-.patch = unified diff output text
+0091-blacklist-more-usual-suspects-which-are-usually-not-.patch: copy
+
+# 0026-minor-fixes-to-a-a-a-vmcore.patch = unified diff output text
+0026-minor-fixes-to-a-a-a-vmcore.patch: copy
+
+# 0188-abrt-python-fix-dbus-compatibility-on-RHEL6.patch = unified diff output text
+0188-abrt-python-fix-dbus-compatibility-on-RHEL6.patch: copy
+
+# 0119-rhbz-852760-fix-loop-condition-in-generation-of-oops.patch = unified diff output text
+0119-rhbz-852760-fix-loop-condition-in-generation-of-oops.patch: copy
+
+# 0027-vmcore-fixed-exception-in-error-path.patch = unified diff output text
+0027-vmcore-fixed-exception-in-error-path.patch: copy
+
+# 0184-abrt-python-fix-deprecation-warnings.patch = unified diff output text
+0184-abrt-python-fix-deprecation-warnings.patch: copy
+
+# 0170-abrt-python-add-debugging-message-for-dbus-calls.patch = unified diff output text
+0170-abrt-python-add-debugging-message-for-dbus-calls.patch: copy
+
+# 0197-abrt-python-open-dirs-read-only-if-possible.patch = unified diff output text
+0197-abrt-python-open-dirs-read-only-if-possible.patch: copy
+
+# 0121-Teach-kernel-oops-hash-to-ignore-IRQ-EOI-prefixes.-C.patch = unified diff output text
+0121-Teach-kernel-oops-hash-to-ignore-IRQ-EOI-prefixes.-C.patch: copy
+
+# 0183-abrt-python-fix-bug-in-problem.get.patch = unified diff output text
+0183-abrt-python-fix-bug-in-problem.get.patch: copy
+
+# 0175-abrt-python-use-var-tmp-abrt-by-default.patch = unified diff output text
+0175-abrt-python-use-var-tmp-abrt-by-default.patch: copy
+
+# 0090-rhbz-839285-do-not-delete-an-uploaded-archive-by-def.patch = unified diff output text
+0090-rhbz-839285-do-not-delete-an-uploaded-archive-by-def.patch: copy
+
+# 0029-koops-unit-test-rhbz-789526-write-unit-test-for-impr.patch = unified diff output text
+0029-koops-unit-test-rhbz-789526-write-unit-test-for-impr.patch: copy
+
+# abrt-oops.init = Bourne-Again shell script text executable
+abrt-oops.init: copy
+
+# abrt.init = Bourne-Again shell script text executable
+abrt.init: copy
+
+# 0144-added-options-to-disable-bugzilla-and-bodhi-related-.patch = unified diff output text
+0144-added-options-to-disable-bugzilla-and-bodhi-related-.patch: copy
+
+# 0169-abrt-python-DeleteProblem-takes-list-of-problems.patch = unified diff output text
+0169-abrt-python-DeleteProblem-takes-list-of-problems.patch: copy
+
+# 0092-disable-core-backtrace.patch = unified diff output text
+0092-disable-core-backtrace.patch: copy
+
+# 0059-Fix-uploaded-crash-directory-being-marked-as-duplica.patch = unified diff output text
+0059-Fix-uploaded-crash-directory-being-marked-as-duplica.patch: copy
+
+# 0006-use-the-suided-helper-for-installing-vmcore-debuginf.patch = unified diff output text
+0006-use-the-suided-helper-for-installing-vmcore-debuginf.patch: copy
+
+# 0189-abrt-python-don-t-build-man-page-for-python-api.patch = unified diff output text
+0189-abrt-python-don-t-build-man-page-for-python-api.patch: copy
+
+# 0158-abrt-python-fix-each-test-to-run-standalone.patch = unified diff output text
+0158-abrt-python-fix-each-test-to-run-standalone.patch: copy
+
+# 0174-abrt-python-skip-non-accessible-directories.patch = unified diff output text
+0174-abrt-python-skip-non-accessible-directories.patch: copy
+
+# 0064-enable-dedup-client.patch = unified diff output text
+0064-enable-dedup-client.patch: copy
+
+# 0178-abrt-python-add-DEFAULT_DUMP_LOCATION-to-config.patch = unified diff output text
+0178-abrt-python-add-DEFAULT_DUMP_LOCATION-to-config.patch: copy
+
+# 0058-handle-event-fix-blaming-dump-dir-its-self-as-duplic.patch = unified diff output text
+0058-handle-event-fix-blaming-dump-dir-its-self-as-duplic.patch: copy
+
+# 0109-applet-fix-a-SEGV-caused-by-notify_init-not-being-ca.patch = unified diff output text
+0109-applet-fix-a-SEGV-caused-by-notify_init-not-being-ca.patch: copy
+
+# 0145-disable-again-bugzilla-and-bodhi-related-to-rhbz-828.patch = unified diff output text
+0145-disable-again-bugzilla-and-bodhi-related-to-rhbz-828.patch: copy
+
+# 0011-man-page-for-a-a-generate-core-backtrace.patch = unified diff output text
+0011-man-page-for-a-a-generate-core-backtrace.patch: copy
+
+# abrt-1.1.16-centos_keys.patch = unified diff output text
+# +/etc/pki/rpm-gpg/RPM-GPG-KEY-CentOS-6
+# +/etc/pki/rpm-gpg/RPM-GPG-KEY-CentOS-Debug-6
+# +/etc/pki/rpm-gpg/RPM-GPG-KEY-CentOS-Security-6
+# +/etc/pki/rpm-gpg/RPM-GPG-KEY-CentOS-Testing-6
+abrt-1.1.16-centos_keys.patch: patch
+
+# 0185-abrt-python-pass-DD_OPEN_READONLY-only-if-available.patch = unified diff output text
+0185-abrt-python-pass-DD_OPEN_READONLY-only-if-available.patch: copy
+
+# 0165-abrt-python-fix-tests-not-cleaning-after-themselves.patch = unified diff output text
+0165-abrt-python-fix-tests-not-cleaning-after-themselves.patch: copy
+
+# 0114-added-relro-and-fpie-flags-for-a-a-install-debuginfo.patch = unified diff output text
+0114-added-relro-and-fpie-flags-for-a-a-install-debuginfo.patch: copy
+
+# 0113-don-t-print-error-msg-if-dbus-send-is-missing-rhbz-8.patch = unified diff output text
+0113-don-t-print-error-msg-if-dbus-send-is-missing-rhbz-8.patch: copy
+
+# 0150-build-abrtd-and-setuided-executables-with-full-relro.patch = unified diff output text
+0150-build-abrtd-and-setuided-executables-with-full-relro.patch: copy
+
+# 0135-abrt-harvest-vmcore-don-t-copy-dir-from-var-crash-if.patch = unified diff output text
+0135-abrt-harvest-vmcore-don-t-copy-dir-from-var-crash-if.patch: copy
+
+# 0140-abrt-gui-fix-broken-help-URL.-Closes-rhbz-903195.patch = unified diff output text
+0140-abrt-gui-fix-broken-help-URL.-Closes-rhbz-903195.patch: copy
+
+# 0126-abrt-server-do-not-save-the-repeating-crash-in-the-s.patch = unified diff output text
+0126-abrt-server-do-not-save-the-repeating-crash-in-the-s.patch: copy
+
+# 0139-abrtd-prohibit-DumpLocation-WatchCrashdumpArchiveDir.patch = unified diff output text
+0139-abrtd-prohibit-DumpLocation-WatchCrashdumpArchiveDir.patch: copy
+
+# 0122-fixed-the-make-check-related-to-rhbz-864023.patch = unified diff output text
+0122-fixed-the-make-check-related-to-rhbz-864023.patch: copy
+
+# 0117-abrtd-set-inotify-fd-to-non-blocking-mode-ignore-0-s.patch = unified diff output text
+0117-abrtd-set-inotify-fd-to-non-blocking-mode-ignore-0-s.patch: copy
+
+# 0033-koops-unit-test-add-jiffies-test-file.patch = unified diff output text
+0033-koops-unit-test-add-jiffies-test-file.patch: copy
+
+# 0057-updated-po-files.patch = unified diff output text
+0057-updated-po-files.patch: copy
+
+# 0132-abrtd-disable-glib-s-buffering-on-inotify-reads.-Clo.patch = unified diff output text
+0132-abrtd-disable-glib-s-buffering-on-inotify-reads.-Clo.patch: copy
+
+# 0130-abrtd-do-not-run-post-create-event-concurrently.patch = unified diff output text
+0130-abrtd-do-not-run-post-create-event-concurrently.patch: copy
+
+# 0202-updated-translation-rhbz-993564.patch = unified diff output text
+0202-updated-translation-rhbz-993564.patch: copy
+
+# 0102-remove-retrace-client.patch = unified diff output text
+0102-remove-retrace-client.patch: copy
+
+# 0193-use-last_occurrence-with-since.patch = unified diff output text
+0193-use-last_occurrence-with-since.patch: copy
+
+# 0141-analyze-ccpp-don-t-suid-to-abrt-when-run-as-root-rel.patch = unified diff output text
+0141-analyze-ccpp-don-t-suid-to-abrt-when-run-as-root-rel.patch: copy
+
+# 0186-abrt-python-fix-tests-compatibility-with-python-2.6.patch = unified diff output text
+0186-abrt-python-fix-tests-compatibility-with-python-2.6.patch: copy
+
+# 0128-abrtd-preparatory-patch.-Only-moves-blocks-of-code-a.patch = unified diff output text
+0128-abrtd-preparatory-patch.-Only-moves-blocks-of-code-a.patch: copy
+
+# 0094-Make-ccpp_event.conf-comments-more-readable.-No-actu.patch = unified diff output text
+0094-Make-ccpp_event.conf-comments-more-readable.-No-actu.patch: copy
+
+# 0143-added-option-to-bypass-di-install-closes-618.patch = unified diff output text
+0143-added-option-to-bypass-di-install-closes-618.patch: copy
+
+# 0099-use-rhel6-deployment-url-in-help.patch = unified diff output text
+0099-use-rhel6-deployment-url-in-help.patch: copy
+
+# 0131-multilib-fixes.patch = unified diff output text
+0131-multilib-fixes.patch: copy
+
+# 0110-abrt-install-ccpp-hook-fix-the-check-for-e-presense..patch = unified diff output text
+0110-abrt-install-ccpp-hook-fix-the-check-for-e-presense..patch: copy
+
+# 0157-abrt-python-initial.patch = unified diff output text
+0157-abrt-python-initial.patch: copy
+
+# 0082-abrt-hook-ccpp-save-chrooted-etc-system-release-too-.patch = unified diff output text
+0082-abrt-hook-ccpp-save-chrooted-etc-system-release-too-.patch: copy
+
+# 0077-trac-523-use-a-vmcore-from-the-current-directory-onl.patch = unified diff output text
+0077-trac-523-use-a-vmcore-from-the-current-directory-onl.patch: copy
+
+# 0133-move-abrt.pth-to-arch-specific-location-rhbz-912672.patch = unified diff output text
+0133-move-abrt.pth-to-arch-specific-location-rhbz-912672.patch: copy
+
+# 0168-abrt-python-add-support-for-dump-dir-access.patch = unified diff output text
+0168-abrt-python-add-support-for-dump-dir-access.patch: copy
+
+# 0203-abrt-dump-oops-add-Machine-Check-Exception-to-the-li.patch = unified diff output text
+0203-abrt-dump-oops-add-Machine-Check-Exception-to-the-li.patch: copy
+
+# 0093-disable-debuginfo-install.patch = unified diff output text
+0093-disable-debuginfo-install.patch: copy
+
+# 0031-koops-unit-test-test-for-stripping-jiffies-from-kern.patch = unified diff output text
+0031-koops-unit-test-test-for-stripping-jiffies-from-kern.patch: copy
+
+# 0198-abrt-dump-oops-limit-amount-of-created-dirs-add-cool.patch = unified diff output text
+0198-abrt-dump-oops-limit-amount-of-created-dirs-add-cool.patch: copy
+
+# 0060-abrtd-fix-indetations.patch = unified diff output text
+0060-abrtd-fix-indetations.patch: copy
+
+# 0118-abrtd-don-t-mark-problems-having-count-1-as-duplicat.patch = unified diff output text
+0118-abrtd-don-t-mark-problems-having-count-1-as-duplicat.patch: copy
+
+# 0166-abrt-python-add-test-executable.patch = unified diff output text
+0166-abrt-python-add-test-executable.patch: copy
+
+# 0159-abrt-python-rename-to-abrt-python.patch = unified diff output text
+0159-abrt-python-rename-to-abrt-python.patch: copy
+
+# 0176-abrt-python-use-filesystem-proxy-as-a-fallback.patch = unified diff output text
+0176-abrt-python-use-filesystem-proxy-as-a-fallback.patch: copy
+
+# 0061-a-dump-oops-add-spaces-for-multiline-static-string-c.patch = unified diff output text
+0061-a-dump-oops-add-spaces-for-multiline-static-string-c.patch: copy
+
+# 0125-abrt-action-install-debuginfo-to-abrt-cache-clear-en.patch = unified diff output text
+0125-abrt-action-install-debuginfo-to-abrt-cache-clear-en.patch: copy
+
+# 0111-minor-fix-to-pkg-config-file.patch = unified diff output text
+0111-minor-fix-to-pkg-config-file.patch: copy
+
+# 0177-abrt-python-fix-list_all-to-return-meaningful-result.patch = unified diff output text
+0177-abrt-python-fix-list_all-to-return-meaningful-result.patch: copy
+
+# 0024-doc-fixed-a-a-a-vmcore-man-pages.patch = unified diff output text
+0024-doc-fixed-a-a-a-vmcore-man-pages.patch: copy
+
+# 0068-fixed-typo-in-previous-commit.patch = unified diff output text
+0068-fixed-typo-in-previous-commit.patch: copy
+
+# 0089-For-RHEL-commenting-out-all-reporter-events-for-all-.patch = unified diff output text
+0089-For-RHEL-commenting-out-all-reporter-events-for-all-.patch: copy
+
+# 0023-added-man-page-for-a-a-analyze-vmcore.patch = unified diff output text
+0023-added-man-page-for-a-a-analyze-vmcore.patch: copy
+
+# 0097-enable-sos-report-auto-collecting.patch = unified diff output text
+0097-enable-sos-report-auto-collecting.patch: copy
+
+# 0095-automatically-send-email-when-a-new-crash-is-detecte.patch = unified diff output text
+0095-automatically-send-email-when-a-new-crash-is-detecte.patch: copy
+
+# 0067-mark-some-strings-in-the-event-xml-as-translatable-r.patch = unified diff output text
+0067-mark-some-strings-in-the-event-xml-as-translatable-r.patch: copy
+
+# 0167-abrt-python-force-string-for-dbus-set-item.patch = unified diff output text
+0167-abrt-python-force-string-for-dbus-set-item.patch: copy
+
+# 0107-abrt-harvest-vmcore-add-CopyVMcore-config-option-to-.patch = unified diff output text
+0107-abrt-harvest-vmcore-add-CopyVMcore-config-option-to-.patch: copy
+
+# 0012-analyze-oops-fix-double-free.patch = unified diff output text
+0012-analyze-oops-fix-double-free.patch: copy
+
+# abrt1_to_abrt2 = a /usr/bin/python script text executable
+abrt1_to_abrt2: copy
+
+# 0152-created-problem_api-part-of-rhbz-961231.patch = unified diff output text
+0152-created-problem_api-part-of-rhbz-961231.patch: copy
+
+# 0162-abrt-python-cover-python-problem-by-autotools.patch = unified diff output text
+0162-abrt-python-cover-python-problem-by-autotools.patch: copy
+
+# 0104-remove-smolt.patch = unified diff output text
+0104-remove-smolt.patch: copy
+
+# 0001-correct-check-for-enabled-abrtd-service.patch = unified diff output text
+0001-correct-check-for-enabled-abrtd-service.patch: copy
+
+# 0124-libabrt-link-with-libreport-rhbz-892658.patch = unified diff output text
+0124-libabrt-link-with-libreport-rhbz-892658.patch: copy
+
+# 0071-abrt-dump-oops-fix-SEGV-off-by-one-access-to-list-rh.patch = unified diff output text
+0071-abrt-dump-oops-fix-SEGV-off-by-one-access-to-list-rh.patch: copy
+
+# 0005-dump-oops-fix-removing-jiffies-time-stamp.patch = unified diff output text
+0005-dump-oops-fix-removing-jiffies-time-stamp.patch: copy
+
+# 0190-abrt-python-whole-python-API-path-in-POTFILES.skip.patch = unified diff output text
+0190-abrt-python-whole-python-API-path-in-POTFILES.skip.patch: copy
+
+# 0156-abrtd-update-last-occurrence-dump-dir-file.patch = unified diff output text
+0156-abrtd-update-last-occurrence-dump-dir-file.patch: copy
+
+# 0087-Make-abrt-ccpp-status-tell-user-whether-hook-is-curr.patch = unified diff output text
+0087-Make-abrt-ccpp-status-tell-user-whether-hook-is-curr.patch: copy
+
+# abrt-ccpp.init = Bourne-Again shell script text executable
+abrt-ccpp.init: copy
+
+# 0009-Spelling-fixes-in-doc.patch = unified diff output text
+0009-Spelling-fixes-in-doc.patch: copy
+
+# 0129-abrtd-fix-a-problem-when-we-eat-post-create-exit-cod.patch = unified diff output text
+0129-abrtd-fix-a-problem-when-we-eat-post-create-exit-cod.patch: copy
+
+# 0075-abrt-action-install-debuginfo-fix-a-problem-with-cle.patch = unified diff output text
+0075-abrt-action-install-debuginfo-fix-a-problem-with-cle.patch: copy
+
+# 0078-minor-fix-to-install-ccpp-man-page.patch = unified diff output text
+0078-minor-fix-to-install-ccpp-man-page.patch: copy
+
+# 0136-Improve-log-messages-in-cccpp-hook-and-save-package-.patch = unified diff output text
+0136-Improve-log-messages-in-cccpp-hook-and-save-package-.patch: copy
+
+# 0063-koops-unit-test-add-test-for-short-oops.patch = unified diff output text
+0063-koops-unit-test-add-test-for-short-oops.patch: copy

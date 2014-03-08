@@ -1,0 +1,562 @@
+# Patchlist created Fri Mar  7 21:25:09 CST 2014
+
+# system-config-date.console.in = ASCII text
+system-config-date.console.in: copy
+
+# .gitignore = ASCII text
+.gitignore: copy
+
+# console_rules.mk = ASCII text
+console_rules.mk: copy
+
+# git_rules.mk = ASCII text
+git_rules.mk: copy
+
+# scm_rules.mk = ASCII English text
+scm_rules.mk: copy
+
+# upload_rules.mk = ASCII text
+upload_rules.mk: copy
+
+# src/setup.py.in = a /usr/bin/python script text executable
+src/setup.py.in: copy
+
+# src/date_gui.py = Python script text executable
+src/date_gui.py: copy
+
+# src/ntp.conf.template.in = ASCII English text
+src/ntp.conf.template.in: copy
+
+# src/timezone_map_gui.py = Python script text executable
+src/timezone_map_gui.py: copy
+
+# src/system-config-date.glade = XML  document text
+src/system-config-date.glade: copy
+
+# src/scdMainWindow.py = Python script text executable
+src/scdMainWindow.py: copy
+
+# src/timezone_gui.py = Python script text executable
+src/timezone_gui.py: copy
+
+# src/ntpservers = ASCII English text
+src/ntpservers: copy
+
+# src/scdate/__init__.py = empty
+src/scdate/__init__.py: copy
+
+# src/scdate/core/__init__.py = empty
+src/scdate/core/__init__.py: copy
+
+# src/scdate/core/timezoneBackend.py = Python script text executable
+src/scdate/core/timezoneBackend.py: copy
+
+# src/scdate/core/zonetab.py = Python script text executable
+src/scdate/core/zonetab.py: copy
+
+# src/scdate/core/dateBackend.py = Python script text executable
+src/scdate/core/dateBackend.py: copy
+
+# src/scdate/core/util.py = Python script text executable
+src/scdate/core/util.py: copy
+
+# src/system-config-date.py = a /usr/bin/python script text executable
+src/system-config-date.py: copy
+
+# src/system-config-date.gladep = XML  document text
+src/system-config-date.gladep: copy
+
+# AUTHORS = ASCII English text
+AUTHORS: copy
+
+# pixmaps/icons/48x48/apps/system-config-date.png = PNG image data, 48 x 48, 8-bit/color RGBA, non-interlaced
+pixmaps/icons/48x48/apps/system-config-date.png: copy
+
+# pixmaps/icons/scalable/apps/system-config-date.svg = SVG Scalable Vector Graphics image
+pixmaps/icons/scalable/apps/system-config-date.svg: copy
+
+# pixmaps/icons/16x16/apps/system-config-date.png = PNG image data, 16 x 16, 8-bit/color RGBA, non-interlaced
+pixmaps/icons/16x16/apps/system-config-date.png: copy
+
+# pixmaps/icons/22x22/apps/system-config-date.png = PNG image data, 22 x 22, 8-bit/color RGBA, non-interlaced
+pixmaps/icons/22x22/apps/system-config-date.png: copy
+
+# pixmaps/icons/32x32/apps/system-config-date.png = PNG image data, 32 x 32, 8-bit/color RGBA, non-interlaced
+pixmaps/icons/32x32/apps/system-config-date.png: copy
+
+# pixmaps/icons/24x24/apps/system-config-date.png = PNG image data, 24 x 24, 8-bit/color RGBA, non-interlaced
+pixmaps/icons/24x24/apps/system-config-date.png: copy
+
+# pixmaps/icons/256x256/apps/system-config-date.png = PNG image data, 256 x 256, 8-bit/color RGBA, non-interlaced
+pixmaps/icons/256x256/apps/system-config-date.png: copy
+
+# pixmaps/map1440.png = PNG image data, 1440 x 720, 8-bit colormap, non-interlaced
+pixmaps/map1440.png: copy
+
+# system-config-date = POSIX shell script text executable
+system-config-date: copy
+
+# py_rules.mk = ASCII text
+py_rules.mk: copy
+
+# po/uk.po = UTF-8 Unicode English text
+po/uk.po: copy
+
+# po/pt.po = UTF-8 Unicode PO (gettext message catalogue) text, with very long lines
+po/pt.po: copy
+
+# po/te.po = UTF-8 Unicode English text
+po/te.po: copy
+
+# po/lt.po = UTF-8 Unicode English text
+po/lt.po: copy
+
+# po/ml.po = UTF-8 Unicode English text
+po/ml.po: copy
+
+# po/da.po = UTF-8 Unicode PO (gettext message catalogue) text
+po/da.po: copy
+
+# po/nl.po = UTF-8 Unicode PO (gettext message catalogue) text
+po/nl.po: copy
+
+# po/en_GB.po = ASCII English text
+po/en_GB.po: copy
+
+# po/nb.po = UTF-8 Unicode PO (gettext message catalogue) text
+po/nb.po: copy
+
+# po/ku.po = ASCII English text
+po/ku.po: copy
+
+# po/or.po = UTF-8 Unicode English text
+po/or.po: copy
+
+# po/vi.po = UTF-8 Unicode PO (gettext message catalogue) text
+po/vi.po: copy
+
+# po/mai.po = UTF-8 Unicode English text
+po/mai.po: copy
+
+# po/id.po = ASCII PO (gettext message catalogue) text
+po/id.po: copy
+
+# po/tr.po = UTF-8 Unicode PO (gettext message catalogue) text
+po/tr.po: copy
+
+# po/he.po = UTF-8 Unicode English text
+po/he.po: copy
+
+# po/mk.po = UTF-8 Unicode English text
+po/mk.po: copy
+
+# po/zh_CN.po = UTF-8 Unicode PO (gettext message catalogue) text
+po/zh_CN.po: copy
+
+# po/bn.po = UTF-8 Unicode English text
+po/bn.po: copy
+
+# po/cs.po = UTF-8 Unicode PO (gettext message catalogue) text
+po/cs.po: copy
+
+# po/as.po = UTF-8 Unicode English text
+po/as.po: copy
+
+# po/pa.po = UTF-8 Unicode English text
+po/pa.po: copy
+
+# po/ko.po = UTF-8 Unicode PO (gettext message catalogue) text
+po/ko.po: copy
+
+# po/ja.po = UTF-8 Unicode PO (gettext message catalogue) text
+po/ja.po: copy
+
+# po/de.po = UTF-8 Unicode English text
+po/de.po: copy
+
+# po/gu.po = UTF-8 Unicode English text
+po/gu.po: copy
+
+# po/kn.po = UTF-8 Unicode English text
+po/kn.po: copy
+
+# po/sr.po = UTF-8 Unicode English text
+po/sr.po: copy
+
+# po/be.po = UTF-8 Unicode English text
+po/be.po: copy
+
+# po/hi.po = UTF-8 Unicode PO (gettext message catalogue) text
+po/hi.po: copy
+
+# po/my.po = ASCII English text
+po/my.po: copy
+
+# po/bg.po = UTF-8 Unicode PO (gettext message catalogue) text
+po/bg.po: copy
+
+# po/mr.po = UTF-8 Unicode English text
+po/mr.po: copy
+
+# po/ta.po = UTF-8 Unicode English text
+po/ta.po: copy
+
+# po/ast.po = UTF-8 Unicode PO (gettext message catalogue) text
+po/ast.po: copy
+
+# po/system-config-date.pot = ASCII English text
+po/system-config-date.pot: copy
+
+# po/lv.po = UTF-8 Unicode English text
+po/lv.po: copy
+
+# po/ru.po = UTF-8 Unicode PO (gettext message catalogue) text
+po/ru.po: copy
+
+# po/cy.po = UTF-8 Unicode PO (gettext message catalogue) text
+po/cy.po: copy
+
+# po/zh_TW.po = UTF-8 Unicode PO (gettext message catalogue) text
+po/zh_TW.po: copy
+
+# po/fr.po = UTF-8 Unicode PO (gettext message catalogue) text
+po/fr.po: copy
+
+# po/fa.po = UTF-8 Unicode English text
+po/fa.po: copy
+
+# po/ms.po = ASCII PO (gettext message catalogue) text
+po/ms.po: copy
+
+# po/sl.po = UTF-8 Unicode PO (gettext message catalogue) text
+po/sl.po: copy
+
+# po/sq.po = ASCII English text
+po/sq.po: copy
+
+# po/sr@latin.po = UTF-8 Unicode English text
+po/sr@latin.po: copy
+
+# po/es.po = UTF-8 Unicode English text
+po/es.po: copy
+
+# po/ur.po = UTF-8 Unicode English text
+po/ur.po: copy
+
+# po/ar.po = UTF-8 Unicode English text
+po/ar.po: copy
+
+# po/pt_BR.po = UTF-8 Unicode PO (gettext message catalogue) text
+po/pt_BR.po: copy
+
+# po/fi.po = UTF-8 Unicode English text
+po/fi.po: copy
+
+# po/Makefile = ASCII English text
+po/Makefile: copy
+
+# po/bs.po = UTF-8 Unicode PO (gettext message catalogue) text
+po/bs.po: copy
+
+# po/ka.po = UTF-8 Unicode English text
+po/ka.po: copy
+
+# po/ro.po = UTF-8 Unicode English text
+po/ro.po: copy
+
+# po/hy.po = ASCII English text
+po/hy.po: copy
+
+# po/ca.po = UTF-8 Unicode English text
+po/ca.po: copy
+
+# po/hu.po = UTF-8 Unicode English text
+po/hu.po: copy
+
+# po/pl.po = UTF-8 Unicode PO (gettext message catalogue) text
+po/pl.po: copy
+
+# po/gl.po = UTF-8 Unicode PO (gettext message catalogue) text
+po/gl.po: copy
+
+# po/is.po = UTF-8 Unicode PO (gettext message catalogue) text
+po/is.po: copy
+
+# po/hr.po = UTF-8 Unicode PO (gettext message catalogue) text
+po/hr.po: copy
+
+# po/it.po = UTF-8 Unicode PO (gettext message catalogue) text
+po/it.po: copy
+
+# po/bn_IN.po = UTF-8 Unicode English text
+po/bn_IN.po: copy
+
+# po/th.po = UTF-8 Unicode PO (gettext message catalogue) text
+po/th.po: copy
+
+# po/sv.po = UTF-8 Unicode PO (gettext message catalogue) text
+po/sv.po: copy
+
+# po/timezones/uk.po = UTF-8 Unicode English text
+po/timezones/uk.po: copy
+
+# po/timezones/timezones.pot = ASCII English text
+po/timezones/timezones.pot: copy
+
+# po/timezones/pt.po = UTF-8 Unicode PO (gettext message catalogue) text
+po/timezones/pt.po: copy
+
+# po/timezones/te.po = UTF-8 Unicode PO (gettext message catalogue) text
+po/timezones/te.po: copy
+
+# po/timezones/lt.po = UTF-8 Unicode English text
+po/timezones/lt.po: copy
+
+# po/timezones/ml.po = UTF-8 Unicode PO (gettext message catalogue) text
+po/timezones/ml.po: copy
+
+# po/timezones/da.po = UTF-8 Unicode PO (gettext message catalogue) text
+po/timezones/da.po: copy
+
+# po/timezones/nl.po = UTF-8 Unicode English text
+po/timezones/nl.po: copy
+
+# po/timezones/en_GB.po = ASCII English text
+po/timezones/en_GB.po: copy
+
+# po/timezones/nb.po = UTF-8 Unicode PO (gettext message catalogue) text
+po/timezones/nb.po: copy
+
+# po/timezones/ku.po = ASCII English text
+po/timezones/ku.po: copy
+
+# po/timezones/or.po = UTF-8 Unicode English text
+po/timezones/or.po: copy
+
+# po/timezones/vi.po = UTF-8 Unicode English text
+po/timezones/vi.po: copy
+
+# po/timezones/mai.po = UTF-8 Unicode English text
+po/timezones/mai.po: copy
+
+# po/timezones/id.po = ASCII PO (gettext message catalogue) text
+po/timezones/id.po: copy
+
+# po/timezones/tr.po = UTF-8 Unicode PO (gettext message catalogue) text
+po/timezones/tr.po: copy
+
+# po/timezones/he.po = UTF-8 Unicode English text
+po/timezones/he.po: copy
+
+# po/timezones/mk.po = UTF-8 Unicode English text
+po/timezones/mk.po: copy
+
+# po/timezones/zh_CN.po = UTF-8 Unicode PO (gettext message catalogue) text
+po/timezones/zh_CN.po: copy
+
+# po/timezones/bn.po = UTF-8 Unicode English text
+po/timezones/bn.po: copy
+
+# po/timezones/cs.po = UTF-8 Unicode PO (gettext message catalogue) text
+po/timezones/cs.po: copy
+
+# po/timezones/as.po = UTF-8 Unicode English text
+po/timezones/as.po: copy
+
+# po/timezones/pa.po = UTF-8 Unicode English text
+po/timezones/pa.po: copy
+
+# po/timezones/ko.po = UTF-8 Unicode PO (gettext message catalogue) text
+po/timezones/ko.po: copy
+
+# po/timezones/ilo.po = ASCII PO (gettext message catalogue) text
+po/timezones/ilo.po: copy
+
+# po/timezones/ja.po = UTF-8 Unicode PO (gettext message catalogue) text
+po/timezones/ja.po: copy
+
+# po/timezones/de.po = UTF-8 Unicode English text
+po/timezones/de.po: copy
+
+# po/timezones/gu.po = UTF-8 Unicode English text
+po/timezones/gu.po: copy
+
+# po/timezones/kn.po = UTF-8 Unicode English text
+po/timezones/kn.po: copy
+
+# po/timezones/sr.po = UTF-8 Unicode English text
+po/timezones/sr.po: copy
+
+# po/timezones/hi.po = UTF-8 Unicode English text
+po/timezones/hi.po: copy
+
+# po/timezones/bg.po = UTF-8 Unicode English text
+po/timezones/bg.po: copy
+
+# po/timezones/mr.po = UTF-8 Unicode English text
+po/timezones/mr.po: copy
+
+# po/timezones/ta.po = UTF-8 Unicode English text
+po/timezones/ta.po: copy
+
+# po/timezones/ast.po = UTF-8 Unicode PO (gettext message catalogue) text
+po/timezones/ast.po: copy
+
+# po/timezones/lv.po = UTF-8 Unicode PO (gettext message catalogue) text
+po/timezones/lv.po: copy
+
+# po/timezones/ru.po = UTF-8 Unicode PO (gettext message catalogue) text
+po/timezones/ru.po: copy
+
+# po/timezones/cy.po = UTF-8 Unicode English text
+po/timezones/cy.po: copy
+
+# po/timezones/zh_TW.po = UTF-8 Unicode PO (gettext message catalogue) text
+po/timezones/zh_TW.po: copy
+
+# po/timezones/fr.po = UTF-8 Unicode PO (gettext message catalogue) text
+po/timezones/fr.po: copy
+
+# po/timezones/fa.po = UTF-8 Unicode English text
+po/timezones/fa.po: copy
+
+# po/timezones/ms.po = ASCII PO (gettext message catalogue) text
+po/timezones/ms.po: copy
+
+# po/timezones/sl.po = UTF-8 Unicode PO (gettext message catalogue) text
+po/timezones/sl.po: copy
+
+# po/timezones/sq.po = UTF-8 Unicode English text
+po/timezones/sq.po: copy
+
+# po/timezones/sr@latin.po = UTF-8 Unicode English text
+po/timezones/sr@latin.po: copy
+
+# po/timezones/es.po = UTF-8 Unicode PO (gettext message catalogue) text
+po/timezones/es.po: copy
+
+# po/timezones/ur.po = ASCII English text
+po/timezones/ur.po: copy
+
+# po/timezones/ar.po = UTF-8 Unicode English text
+po/timezones/ar.po: copy
+
+# po/timezones/pt_BR.po = UTF-8 Unicode English text
+po/timezones/pt_BR.po: copy
+
+# po/timezones/fi.po = UTF-8 Unicode English text
+po/timezones/fi.po: copy
+
+# po/timezones/Makefile = ASCII make commands text
+po/timezones/Makefile: copy
+
+# po/timezones/bs.po = UTF-8 Unicode PO (gettext message catalogue) text
+po/timezones/bs.po: copy
+
+# po/timezones/ka.po = UTF-8 Unicode English text
+po/timezones/ka.po: copy
+
+# po/timezones/timezones.h = ASCII C program text
+po/timezones/timezones.h: copy
+
+# po/timezones/ro.po = UTF-8 Unicode PO (gettext message catalogue) text
+po/timezones/ro.po: copy
+
+# po/timezones/ca.po = UTF-8 Unicode English text
+po/timezones/ca.po: copy
+
+# po/timezones/hu.po = UTF-8 Unicode PO (gettext message catalogue) text
+po/timezones/hu.po: copy
+
+# po/timezones/pl.po = UTF-8 Unicode PO (gettext message catalogue) text
+po/timezones/pl.po: copy
+
+# po/timezones/am.po = UTF-8 Unicode English text
+po/timezones/am.po: copy
+
+# po/timezones/gl.po = UTF-8 Unicode PO (gettext message catalogue) text
+po/timezones/gl.po: copy
+
+# po/timezones/is.po = UTF-8 Unicode PO (gettext message catalogue) text
+po/timezones/is.po: copy
+
+# po/timezones/hr.po = UTF-8 Unicode PO (gettext message catalogue) text
+po/timezones/hr.po: copy
+
+# po/timezones/it.po = UTF-8 Unicode PO (gettext message catalogue) text
+po/timezones/it.po: copy
+
+# po/timezones/bn_IN.po = UTF-8 Unicode English text
+po/timezones/bn_IN.po: copy
+
+# po/timezones/sv.po = UTF-8 Unicode PO (gettext message catalogue) text
+po/timezones/sv.po: copy
+
+# po/timezones/et.po = UTF-8 Unicode English text
+po/timezones/et.po: copy
+
+# po/timezones/sk.po = UTF-8 Unicode PO (gettext message catalogue) text
+po/timezones/sk.po: copy
+
+# po/timezones/el.po = UTF-8 Unicode English text
+po/timezones/el.po: copy
+
+# po/timezones/si.po = UTF-8 Unicode English text
+po/timezones/si.po: copy
+
+# po/timezones/no.po = UTF-8 Unicode PO (gettext message catalogue) text
+po/timezones/no.po: copy
+
+# po/timezones/lo.po = ASCII English text
+po/timezones/lo.po: copy
+
+# po/timezones/nn.po = ASCII English text
+po/timezones/nn.po: copy
+
+# po/et.po = UTF-8 Unicode English text
+po/et.po: copy
+
+# po/sk.po = UTF-8 Unicode English text
+po/sk.po: copy
+
+# po/el.po = UTF-8 Unicode PO (gettext message catalogue) text
+po/el.po: copy
+
+# po/si.po = UTF-8 Unicode English text
+po/si.po: copy
+
+# po/lo.po = ASCII English text
+po/lo.po: copy
+
+# po/nn.po = UTF-8 Unicode PO (gettext message catalogue) text
+po/nn.po: copy
+
+# Makefile = ASCII make commands text
+Makefile: copy
+
+# COPYING = ASCII English text
+COPYING: copy
+
+# system-config-date.pam = ASCII text
+system-config-date.pam: copy
+
+# man/en/system-config-date.8 = troff or preprocessor input text
+man/en/system-config-date.8: copy
+
+# man/fr/system-config-date.8 = troff or preprocessor input text
+man/fr/system-config-date.8: copy
+
+# man/Makefile = ASCII make commands text
+man/Makefile: copy
+
+# man/ja/system-config-date.8 = troff or preprocessor input text
+man/ja/system-config-date.8: copy
+
+# system-config-date.spec = lex description text
+system-config-date.spec: copy
+
+# system-config-date.desktop.in = ASCII text
+system-config-date.desktop.in: copy
+
+# rpmspec_rules.mk = ASCII text
+rpmspec_rules.mk: copy

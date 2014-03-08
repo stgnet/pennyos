@@ -1,0 +1,10 @@
+# Patchlist created Fri Mar  7 20:22:17 CST 2014
+
+# centos-initscripts.patch = unified diff output text
+# +elif [[ "$system_release" =~ "CentOS" ]]; then
+# + echo -en "CentOS"
+# + PRODUCT=$(sed "s/CentOS \(.*\) \?release.*/\1/" /etc/system-release)
+centos-initscripts.patch: patch
+
+# 0001-remove-duplicit-then.patch = unified diff output text
+0001-remove-duplicit-then.patch: copy

@@ -1,0 +1,19 @@
+# Patchlist created Sat Mar  8 17:17:01 CST 2014
+
+# LICENSE.ldap = ASCII English text
+LICENSE.ldap: copy
+
+# dhcpd-conf-to-ldap = a /usr/bin/perl -w script text executable
+dhcpd-conf-to-ldap: copy
+
+# dhcp.schema = ASCII English text, with very long lines
+dhcp.schema: copy
+
+# README.ldap = ASCII English text
+README.ldap: copy
+
+# dhcp-4.1.1-ldap.patch = unified diff output text
+dhcp-4.1.1-ldap.patch: copy
+
+# draft-ietf-dhc-ldap-schema-01.txt = ASCII English text
+draft-ietf-dhc-ldap-schema-01.txt: copy

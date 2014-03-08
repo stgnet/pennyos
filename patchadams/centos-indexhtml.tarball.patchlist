@@ -1,0 +1,31 @@
+# Patchlist created Fri Mar  7 20:22:53 CST 2014
+
+# img/html-background.png = PNG image data, 225 x 225, 8-bit/color RGBA, non-interlaced
+img/html-background.png: convert -size 225x225 xc:grey95 $FILE
+
+# img/centos-logo.png = PNG image data, 100 x 32, 8-bit/color RGBA, non-interlaced
+img/centos-logo.png: ./logo_name $FILE 100 32
+
+# img/header-background.png = PNG image data, 280 x 185, 8-bit/color RGBA, non-interlaced
+img/header-background.png: ./nice_background $FILE 280 185
+
+# index.html = HTML document text
+#   <title>Welcome to CentOS</title>
+#         <li> <a href="http://www.centos.org/">Home</a> </li>
+#         <li> <a href="http://wiki.centos.org/">Wiki</a> </li>
+#         <li> <a href="http://www.centos.org/modules/tinycontent/index.php?id=16">Mailing Lists</a></li>
+#         <li> <a href="http://www.centos.org/modules/tinycontent/index.php?id=13">Mirror List</a></li>
+#         <li> <a href="http://www.centos.org/modules/tinycontent/index.php?id=8">IRC</a></li>
+#         <li> <a href="http://www.centos.org/modules/newbb/">Forums</a></li>
+#         <li> <a href="http://bugs.centos.org/">Bugs</a> </li>
+#         <li class="last"> <a href="http://wiki.centos.org/Donate">Donate</a></li>
+# 		<a href="http://www.centos.org/"><img src="img/centos-logo.png" border="0"></a>
+# 	<h1>Welcome to CentOS</h1>
+# 	<p><a href="http://www.centos.org/">CentOS</a> is an Enterprise-class Linux Distribution derived from sources freely provided
+# to the public by a prominent North American Enterprise Linux vendor.  CentOS conforms fully with the upstream vendors
+# redistribution policy and aims to be 100% binary compatible. (CentOS mainly changes packages to remove upstream vendor
+# 	<p>CentOS is developed by a small but growing team of core
+# 	<p>CentOS has numerous advantages including: an active and growing user community, quickly rebuilt, tested, and QA'ed errata packages, an extensive <a href="http://wiki.centos.org/Mirrors">mirror network</a>, developers who are contactable and responsive reliable Enterprise Linux class distribution, multiple free support avenues including a <a href="http://wiki.centos.org/">wiki</a>, <a
+# href="http://www.centos.org/modules/tinycontent/index.php?id=8">IRC Chat</a>, <a href="http://wiki.centos.org/GettingHelp/ListInfo">Email Lists</a>, <a href="http://www.centos.org/modules/newbb/">Forums</a>, and a dynamic <a
+# href="http://wiki.centos.org/FAQ/">FAQ</a>.</p>
+index.html: patch

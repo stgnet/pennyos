@@ -1,0 +1,8 @@
+# Patchlist created Fri Mar  7 21:26:46 CST 2014
+
+# default-bookmarks.html = exported SGML document text
+#         <DT><A HREF="http://www.centos.org/" ADD_DATE="1168027962" LAST_VISIT="1168027985" LAST_MODIFIED="1168027978" LAST_CHARSET="ISO-8859-1" ID="rdf:#$n5d1O2">Centos</A>
+#         <DT><A HREF="http://wiki.centos.org/" ADD_DATE="1168028118" LAST_VISIT="1168028130" LAST_MODIFIED="1168028125" LAST_CHARSET="ISO-8859-1" ID="rdf:#$o5d1O2">Wiki</A>
+#         <DT><A HREF="http://www.centos.org/docs/6/" ADD_DATE="1168028118" LAST_VISIT="1168028130" LAST_MODIFIED="1168028125" LAST_CHARSET="ISO-8859-1" ID="rdf:#$q5d1O2">Documentation</A>
+#         <DT><A HREF="http://www.centos.org/modules/newbb/" ADD_DATE="1168028067" LAST_MODIFIED="1168028076" ID="rdf:#$p5d1O2">Forums</A>
+default-bookmarks.html: patch

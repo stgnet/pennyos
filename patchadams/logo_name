@@ -1,0 +1,34 @@
+#!/bin/bash
+# logo_name FILENAME X Y
+# construct image file with specified dimensions
+# square logo image on left, rest for project name
+# image is transparent, text is white
+set -ex
+
+. ./project-settings
+
+TEMP=tempimage.png
+ 
+X="$2"
+Y="$3"
+
+[ -z "$X" -o -z "$Y" ] && echo "ERROR: Invalid size" && exit 1
+
+# logo x/y is height of image
+L="$Y"
+# but not more than 1/5 width of image
+W=`expr $X / 5`
+[ $L -gt $W ] && L="$W"
+
+# construct the transparent name
+convert -size `expr $X - $L - 12`x${Y} -background none -fill white -font $FONT -gravity center label:"$NAME" tempname.png
+
+# construct the base image
+convert -size ${X}x${Y} xc:none $TEMP
+
+# put the name in offset to the right
+composite -geometry +`expr $L + 4`+0 tempname.png $TEMP $TEMP
+
+# put the logo in on the left
+composite -geometry ${L}x${L}+4+`expr \( $Y - $L \) / 2`  $LOGO $TEMP $1
+

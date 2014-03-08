@@ -1,0 +1,1999 @@
+# Patchlist created Sat Mar  8 16:49:45 CST 2014
+
+# compssort.py = Python script text executable
+compssort.py: copy
+
+# errors.py = Python script text executable
+errors.py: copy
+
+# sitecustomize.py = ASCII English text
+sitecustomize.py: copy
+
+# bootloader.py = Python script text executable
+bootloader.py: copy
+
+# network.py = Python script text executable
+network.py: copy
+
+# gptsync/Makefile.am = ASCII Pascal program text
+gptsync/Makefile.am: copy
+
+# gptsync/showpart.c = ASCII C program text
+gptsync/showpart.c: copy
+
+# gptsync/os_unix.c = ASCII C program text
+gptsync/os_unix.c: copy
+
+# gptsync/README = ASCII English text
+gptsync/README: copy
+
+# gptsync/lib.c = ASCII C program text
+gptsync/lib.c: copy
+
+# gptsync/gptsync.c = ASCII C program text
+gptsync/gptsync.c: copy
+
+# gptsync/gptsync.h = ASCII C program text
+gptsync/gptsync.h: copy
+
+# gptsync/Makefile.in = ASCII English text, with very long lines
+gptsync/Makefile.in: copy
+
+# gptsync/syslinux_mbr.h = ASCII C program text
+gptsync/syslinux_mbr.h: copy
+
+# scripts/mk-images.alpha = ASCII Pascal program text
+scripts/mk-images.alpha: copy
+
+# scripts/makestamp.py = a /usr/bin/python script text executable
+scripts/makestamp.py: copy
+
+# scripts/mk-images.ia64 = ASCII Pascal program text
+scripts/mk-images.ia64: copy
+
+# scripts/mk-images.ppc = ASCII Pascal program text
+scripts/mk-images.ppc: copy
+
+# scripts/Makefile.am = ASCII Pascal program text
+scripts/Makefile.am: copy
+
+# scripts/mk-images.efi = ASCII Pascal program text
+scripts/mk-images.efi: copy
+
+# scripts/mk-images = Bourne-Again shell script text executable
+scripts/mk-images: copy
+
+# scripts/mk-images.s390 = ASCII Pascal program text
+scripts/mk-images.s390: copy
+
+# scripts/getkeymaps = POSIX shell script text executable
+scripts/getkeymaps: copy
+
+# scripts/mk-images.x86 = ASCII Pascal program text
+scripts/mk-images.x86: copy
+
+# scripts/buildinstall = Bourne-Again shell script text executable
+scripts/buildinstall: copy
+
+# scripts/buildinstall.functions = Bourne-Again shell script text executable
+scripts/buildinstall.functions: copy
+
+# scripts/upd-bootimage = Bourne-Again shell script text executable
+scripts/upd-bootimage: copy
+
+# scripts/scrubtree = Bourne-Again shell script text executable
+scripts/scrubtree: copy
+
+# scripts/makeupdates = a /usr/bin/python script text executable
+scripts/makeupdates: copy
+
+# scripts/pyrc.py = Python script text executable
+scripts/pyrc.py: copy
+
+# scripts/upd-instroot = Bourne-Again shell script text executable
+scripts/upd-instroot: copy
+
+# scripts/upd-initrd = POSIX shell script text executable
+scripts/upd-initrd: copy
+
+# scripts/getlangnames.py = Python script text executable
+scripts/getlangnames.py: copy
+
+# scripts/upd-kernel = POSIX shell script text executable
+scripts/upd-kernel: copy
+
+# scripts/mk-images.sparc = ASCII Pascal program text
+scripts/mk-images.sparc: copy
+
+# scripts/upd-updates = Bourne-Again shell script text executable
+scripts/upd-updates: copy
+
+# scripts/Makefile.in = ASCII English text
+scripts/Makefile.in: copy
+
+# scripts/maketreeinfo.py = a /usr/bin/python script text executable
+scripts/maketreeinfo.py: copy
+
+# packages.py = Python script text executable
+packages.py: copy
+
+# language.py = Python script text executable
+language.py: copy
+
+# lang-table = UTF-8 Unicode text
+lang-table: copy
+
+# pychecker-false-positives = ASCII text
+pychecker-false-positives: copy
+
+# iw/examine_gui.py = Python script text executable
+iw/examine_gui.py: copy
+
+# iw/progress_gui.py = Python script text executable
+iw/progress_gui.py: copy
+
+# iw/welcome_gui.py = Python script text executable
+iw/welcome_gui.py: copy
+
+# iw/checklist.py = Python script text executable
+iw/checklist.py: copy
+
+# iw/DeviceSelector.py = Python script text executable
+iw/DeviceSelector.py: copy
+
+# iw/Makefile.am = ASCII Pascal program text
+iw/Makefile.am: copy
+
+# iw/filter_gui.py = Python script text executable
+iw/filter_gui.py: copy
+
+# iw/language_gui.py = Python script text executable
+iw/language_gui.py: copy
+
+# iw/cleardisks_gui.py = Python script text executable
+iw/cleardisks_gui.py: copy
+
+# iw/zipl_gui.py = Python script text executable
+iw/zipl_gui.py: copy
+
+# iw/pixmapRadioButtonGroup_gui.py = Python script text executable
+iw/pixmapRadioButtonGroup_gui.py: copy
+
+# iw/partition_gui.py = Python script text executable
+iw/partition_gui.py: copy
+
+# iw/upgrade_bootloader_gui.py = Python script text executable
+iw/upgrade_bootloader_gui.py: copy
+
+# iw/network_gui.py = Python script text executable
+iw/network_gui.py: copy
+
+# iw/GroupSelector.py = Python script text executable
+iw/GroupSelector.py: copy
+
+# iw/raid_dialog_gui.py = Python script text executable
+iw/raid_dialog_gui.py: copy
+
+# iw/upgrade_migratefs_gui.py = Python script text executable
+iw/upgrade_migratefs_gui.py: copy
+
+# iw/blpasswidget.py = Python script text executable
+iw/blpasswidget.py: copy
+
+# iw/timezone_gui.py = Python script text executable
+iw/timezone_gui.py: copy
+
+# iw/iw_gui.py = Python script text executable
+iw/iw_gui.py: copy
+
+# iw/advanced_storage.py = Python script text executable
+iw/advanced_storage.py: copy
+
+# iw/package_gui.py = Python script text executable
+iw/package_gui.py: copy
+
+# iw/account_gui.py = Python script text executable
+iw/account_gui.py: copy
+
+# iw/partition_ui_helpers_gui.py = Python script text executable
+iw/partition_ui_helpers_gui.py: copy
+
+# iw/kbd_gui.py = Python script text executable
+iw/kbd_gui.py: copy
+
+# iw/partition_dialog_gui.py = Python script text executable
+iw/partition_dialog_gui.py: copy
+
+# iw/autopart_type.py = Python script text executable
+iw/autopart_type.py: copy
+
+# iw/lvm_dialog_gui.py = Python script text executable
+iw/lvm_dialog_gui.py: copy
+
+# iw/task_gui.py = Python script text executable
+iw/task_gui.py: copy
+
+# iw/datacombo.py = Python script text executable
+iw/datacombo.py: copy
+
+# iw/osbootwidget.py = Python script text executable
+iw/osbootwidget.py: copy
+
+# iw/Makefile.in = ASCII English text
+iw/Makefile.in: copy
+
+# iw/bootloader_main_gui.py = Python script text executable
+iw/bootloader_main_gui.py: copy
+
+# iw/congrats_gui.py = Python script text executable
+iw/congrats_gui.py: copy
+
+# iw/upgrade_swap_gui.py = Python script text executable
+iw/upgrade_swap_gui.py: copy
+
+# iw/filter_type.py = Python script text executable
+iw/filter_type.py: copy
+
+# installclass.py = Python script text executable
+installclass.py: copy
+
+# aclocal.m4 = UTF-8 Unicode English text
+aclocal.m4: copy
+
+# utils/Makefile.am = ASCII Pascal program text
+utils/Makefile.am: copy
+
+# utils/snarffont.c = ASCII C program text
+utils/snarffont.c: copy
+
+# utils/modlist.c = ASCII C program text
+utils/modlist.c: copy
+
+# utils/trimpciids = a /usr/bin/python script text executable
+utils/trimpciids: copy
+
+# utils/filtermoddeps = Bourne-Again shell script text executable
+utils/filtermoddeps: copy
+
+# utils/genmodinfo = a /usr/bin/python script text executable
+utils/genmodinfo: copy
+
+# utils/mapshdr.c = ASCII C program text
+utils/mapshdr.c: copy
+
+# utils/addrsize.c = ASCII C program text
+utils/addrsize.c: copy
+
+# utils/mk-s390-cdboot.c = ASCII C program text
+utils/mk-s390-cdboot.c: copy
+
+# utils/Makefile.in = ASCII English text, with very long lines
+utils/Makefile.in: copy
+
+# utils/readmap.c = ASCII C program text
+utils/readmap.c: copy
+
+# booty/__init__.py = Python script text executable
+booty/__init__.py: copy
+
+# booty/Makefile.am = ASCII Pascal program text
+booty/Makefile.am: copy
+
+# booty/lilo.py = a /usr/bin/python script text executable
+booty/lilo.py: copy
+
+# booty/alpha.py = Python script text executable
+booty/alpha.py: copy
+
+# booty/checkbootloader.py = a /usr/bin/python script text executable
+booty/checkbootloader.py: copy
+
+# booty/x86.py = Python script text executable
+booty/x86.py: copy
+
+# booty/sparc.py = Python script text executable
+booty/sparc.py: copy
+
+# booty/ia64.py = Python script text executable
+booty/ia64.py: copy
+
+# booty/s390.py = Python script text executable
+booty/s390.py: copy
+
+# booty/bootloaderInfo.py = Python script text executable
+booty/bootloaderInfo.py: copy
+
+# booty/ppc.py = Python script text executable
+booty/ppc.py: copy
+
+# booty/util.py = Python script text executable
+booty/util.py: copy
+
+# booty/Makefile.in = ASCII English text
+booty/Makefile.in: copy
+
+# Makefile.am = ASCII Pascal program text
+Makefile.am: copy
+
+# 70-anaconda.rules = ASCII English text, with very long lines
+70-anaconda.rules: copy
+
+# config.guess = POSIX shell script text executable
+config.guess: copy
+
+# exception.py = Python script text executable
+exception.py: copy
+
+# anaconda.spec = ASCII English text
+anaconda.spec: copy
+
+# m4/lib-link.m4 = ASCII M4 macro language pre-processor text
+m4/lib-link.m4: copy
+
+# m4/lib-ld.m4 = ASCII M4 macro language pre-processor text
+m4/lib-ld.m4: copy
+
+# m4/po.m4 = ASCII M4 macro language pre-processor text, with very long lines
+m4/po.m4: copy
+
+# m4/nls.m4 = ASCII M4 macro language pre-processor text
+m4/nls.m4: copy
+
+# m4/progtest.m4 = ASCII M4 macro language pre-processor text
+m4/progtest.m4: copy
+
+# m4/libtool.m4 = Ruby module source text
+m4/libtool.m4: copy
+
+# m4/ltoptions.m4 = ASCII English text
+m4/ltoptions.m4: copy
+
+# m4/iconv.m4 = ASCII M4 macro language pre-processor text
+m4/iconv.m4: copy
+
+# m4/gettext.m4 = ASCII M4 macro language pre-processor text
+m4/gettext.m4: copy
+
+# m4/ltsugar.m4 = ASCII English text
+m4/ltsugar.m4: copy
+
+# m4/lt~obsolete.m4 = ASCII English text
+m4/lt~obsolete.m4: copy
+
+# m4/ltversion.m4 = ASCII English text
+m4/ltversion.m4: copy
+
+# m4/lib-prefix.m4 = ASCII M4 macro language pre-processor text
+m4/lib-prefix.m4: copy
+
+# m4/python.m4 = Python script text executable
+m4/python.m4: copy
+
+# run_test.py = a /usr/bin/python script text executable
+run_test.py: copy
+
+# config.h.in = ASCII C program text
+config.h.in: copy
+
+# textw/upgrade_text.py = Python script text executable
+textw/upgrade_text.py: copy
+
+# textw/userauth_text.py = Python script text executable
+textw/userauth_text.py: copy
+
+# textw/complete_text.py = Python script text executable
+textw/complete_text.py: copy
+
+# textw/keyboard_text.py = Python script text executable
+textw/keyboard_text.py: copy
+
+# textw/upgrade_bootloader_text.py = Python script text executable
+textw/upgrade_bootloader_text.py: copy
+
+# textw/Makefile.am = ASCII Pascal program text
+textw/Makefile.am: copy
+
+# textw/constants_text.py = Python script text executable
+textw/constants_text.py: copy
+
+# textw/netconfig_text.py = Python script text executable
+textw/netconfig_text.py: copy
+
+# textw/progress_text.py = Python script text executable
+textw/progress_text.py: copy
+
+# textw/task_text.py = Python script text executable
+textw/task_text.py: copy
+
+# textw/zipl_text.py = Python script text executable
+textw/zipl_text.py: copy
+
+# textw/statusline_text.py = Python script text executable
+textw/statusline_text.py: copy
+
+# textw/network_text.py = Python script text executable
+textw/network_text.py: copy
+
+# textw/welcome_text.py = Python script text executable
+textw/welcome_text.py: copy
+
+# textw/language_text.py = Python script text executable
+textw/language_text.py: copy
+
+# textw/add_drive_text.py = Python script text executable
+textw/add_drive_text.py: copy
+
+# textw/partition_text.py = Python script text executable
+textw/partition_text.py: copy
+
+# textw/timezone_text.py = Python script text executable
+textw/timezone_text.py: copy
+
+# textw/Makefile.in = ASCII English text
+textw/Makefile.in: copy
+
+# fonts/screenfont-i386.gz = gzip compressed data, was "screenfont-i386", from Unix, last modified: Fri Dec 13 08:51:44 2002, max compression
+fonts/screenfont-i386.gz: copy
+
+# fonts/Makefile.am = ASCII Pascal program text
+fonts/Makefile.am: copy
+
+# fonts/updfonts = POSIX shell script text executable
+fonts/updfonts: copy
+
+# fonts/screenfont-x86_64.gz = gzip compressed data, was "screenfont-x86_64", from Unix, last modified: Thu Jan 30 15:53:11 2003, max compression
+fonts/screenfont-x86_64.gz: copy
+
+# fonts/screenfont-alpha.gz = gzip compressed data, was "screenfont-alpha", from Unix, last modified: Mon Dec 30 23:22:10 2002, max compression
+fonts/screenfont-alpha.gz: copy
+
+# fonts/screenfont-sparc.gz = gzip compressed data, was "screenfont-sparc", from Unix, last modified: Mon May 10 18:51:27 2004, max compression
+fonts/screenfont-sparc.gz: copy
+
+# fonts/screenfont-ppc.gz = gzip compressed data, was "screenfont-ppc", from Unix, last modified: Mon Dec 30 23:17:34 2002, max compression
+fonts/screenfont-ppc.gz: copy
+
+# fonts/screenfont-ia64.gz = gzip compressed data, was "screenfont-ia64", from Unix, last modified: Mon Dec 30 23:23:34 2002, max compression
+fonts/screenfont-ia64.gz: copy
+
+# fonts/Makefile.in = ASCII English text
+fonts/Makefile.in: copy
+
+# livecd.py = Python script text executable
+livecd.py: copy
+
+# baseudev.py = Python script text executable
+baseudev.py: copy
+
+# dispatch.py = Python script text executable
+dispatch.py: copy
+
+# ui/create-storage.glade = XML  document text
+ui/create-storage.glade: copy
+
+# ui/zfcp-config.glade = XML  document text
+ui/zfcp-config.glade: copy
+
+# ui/detailed-dialog.glade = XML  document text
+ui/detailed-dialog.glade: copy
+
+# ui/Makefile.am = ASCII Pascal program text
+ui/Makefile.am: copy
+
+# ui/filter.glade = XML  document text
+ui/filter.glade: copy
+
+# ui/reinitialize-dialog.glade = XML  document text
+ui/reinitialize-dialog.glade: copy
+
+# ui/iscsi-dialogs.glade = XML  document text
+ui/iscsi-dialogs.glade: copy
+
+# ui/fcoe-config.glade = XML  document text
+ui/fcoe-config.glade: copy
+
+# ui/blwhere.glade = XML  document text
+ui/blwhere.glade: copy
+
+# ui/tasksel.glade = XML  document text
+ui/tasksel.glade: copy
+
+# ui/device-options.glade = XML  document text
+ui/device-options.glade: copy
+
+# ui/GroupSelector.glade = XML  document text
+ui/GroupSelector.glade: copy
+
+# ui/lukspassphrase.glade = XML  document text
+ui/lukspassphrase.glade: copy
+
+# ui/anaconda.glade = XML  document text
+ui/anaconda.glade: copy
+
+# ui/cleardisks.glade = XML  document text
+ui/cleardisks.glade: copy
+
+# ui/account.glade = XML  document text
+ui/account.glade: copy
+
+# ui/autopart.glade = XML  document text
+ui/autopart.glade: copy
+
+# ui/adddrive.glade = XML  document text
+ui/adddrive.glade: copy
+
+# ui/Makefile.in = ASCII English text
+ui/Makefile.in: copy
+
+# ui/network.glade = XML  document text
+ui/network.glade: copy
+
+# ui/addrepo.glade = XML  document text
+ui/addrepo.glade: copy
+
+# platform.py = Python script text executable
+platform.py: copy
+
+# backend.py = Python script text executable
+backend.py: copy
+
+# gui.py = Python script text executable
+gui.py: copy
+
+# anaconda = a /usr/bin/python script text executable
+anaconda: copy
+
+# flags.py = Python script text executable
+flags.py: copy
+
+# loader/moduleinfo.c = ASCII C program text
+loader/moduleinfo.c: copy
+
+# loader/ibft.h = ASCII C program text
+loader/ibft.h: copy
+
+# loader/driverdisk.c = ASCII C program text
+loader/driverdisk.c: copy
+
+# loader/lang.h = ASCII C program text
+loader/lang.h: copy
+
+# loader/shutdown.c = ASCII C program text
+loader/shutdown.c: copy
+
+# loader/method.c = ASCII C program text
+loader/method.c: copy
+
+# loader/linuxrc.s390 = Bourne-Again shell script text executable
+loader/linuxrc.s390: copy
+
+# loader/modules.h = ASCII C program text
+loader/modules.h: copy
+
+# loader/keymaps-i386 = gzip compressed data, from Unix, last modified: Fri Oct 31 15:51:37 2008, max compression
+loader/keymaps-i386: copy
+
+# loader/unicode-linedraw-chars.txt = UTF-8 Unicode text
+loader/unicode-linedraw-chars.txt: copy
+
+# loader/mkctype.c = ASCII C program text
+loader/mkctype.c: copy
+
+# loader/telnet.c = ASCII C program text
+loader/telnet.c: copy
+
+# loader/Makefile.am = ASCII Pascal program text
+loader/Makefile.am: copy
+
+# loader/selinux.h = ASCII C program text
+loader/selinux.h: copy
+
+# loader/log.h = ASCII C program text
+loader/log.h: copy
+
+# loader/urlinstall.c = ASCII C program text
+loader/urlinstall.c: copy
+
+# loader/mediacheck.h = ASCII C program text
+loader/mediacheck.h: copy
+
+# loader/urlinstall.h = ASCII C program text
+loader/urlinstall.h: copy
+
+# loader/rpmextract.h = ASCII C program text
+loader/rpmextract.h: copy
+
+# loader/modules.c = ASCII C program text
+loader/modules.c: copy
+
+# loader/driverselect.c = ASCII C program text
+loader/driverselect.c: copy
+
+# loader/mediacheck.c = ASCII C program text
+loader/mediacheck.c: copy
+
+# loader/cdinstall.c = ASCII C program text
+loader/cdinstall.c: copy
+
+# loader/log.c = ASCII C program text
+loader/log.c: copy
+
+# loader/init.h = ASCII C program text
+loader/init.h: copy
+
+# loader/hardware.h = ASCII C program text
+loader/hardware.h: copy
+
+# loader/loadermisc.h = ASCII C program text
+loader/loadermisc.h: copy
+
+# loader/net.c = ASCII C program text
+loader/net.c: copy
+
+# loader/telnet.h = ASCII C program text
+loader/telnet.h: copy
+
+# loader/kbd.c = ASCII C program text
+loader/kbd.c: copy
+
+# loader/copy.h = ASCII C program text
+loader/copy.h: copy
+
+# loader/undomounts.c = ASCII C program text
+loader/undomounts.c: copy
+
+# loader/loader.h = ASCII C program text
+loader/loader.h: copy
+
+# loader/kbd.h = ASCII C program text
+loader/kbd.h: copy
+
+# loader/urls.h = ASCII C program text
+loader/urls.h: copy
+
+# loader/dirbrowser.c = ASCII C program text
+loader/dirbrowser.c: copy
+
+# loader/telnetd.c = ASCII C program text
+loader/telnetd.c: copy
+
+# loader/kickstart.c = ASCII C program text
+loader/kickstart.c: copy
+
+# loader/hardware.c = ASCII C program text
+loader/hardware.c: copy
+
+# loader/ibft.c = ASCII C program text
+loader/ibft.c: copy
+
+# loader/driverdisk.h = ASCII C program text
+loader/driverdisk.h: copy
+
+# loader/devices.h = ASCII C program text
+loader/devices.h: copy
+
+# loader/rpmextract.c = ASCII C program text
+loader/rpmextract.c: copy
+
+# loader/urls.c = ASCII C program text
+loader/urls.c: copy
+
+# loader/windows.c = ASCII C program text
+loader/windows.c: copy
+
+# loader/simplemot = a /usr/bin/perl script text executable
+loader/simplemot: copy
+
+# loader/telnetd.h = ASCII C program text
+loader/telnetd.h: copy
+
+# loader/fwloader.h = ASCII C program text
+loader/fwloader.h: copy
+
+# loader/method.h = ASCII C program text
+loader/method.h: copy
+
+# loader/nfsinstall.h = ASCII C program text
+loader/nfsinstall.h: copy
+
+# loader/cdinstall.h = ASCII C program text
+loader/cdinstall.h: copy
+
+# loader/devt.h = ASCII C program text
+loader/devt.h: copy
+
+# loader/nfsinstall.c = ASCII C program text
+loader/nfsinstall.c: copy
+
+# loader/moduleinfo.h = ASCII C program text
+loader/moduleinfo.h: copy
+
+# loader/udelay.h = ASCII C program text
+loader/udelay.h: copy
+
+# loader/hdinstall.h = ASCII C program text
+loader/hdinstall.h: copy
+
+# loader/copy.c = ASCII C program text
+loader/copy.c: copy
+
+# loader/keymaps-x86_64 = gzip compressed data, from Unix, last modified: Fri Oct 31 15:51:37 2008, max compression
+loader/keymaps-x86_64: copy
+
+# loader/getparts.c = ASCII C program text
+loader/getparts.c: copy
+
+# loader/hdinstall.c = ASCII C program text
+loader/hdinstall.c: copy
+
+# loader/dirbrowser.h = ASCII C program text
+loader/dirbrowser.h: copy
+
+# loader/keymaps-ppc = gzip compressed data, from Unix, last modified: Sat Nov  1 16:41:13 2008, max compression
+loader/keymaps-ppc: copy
+
+# loader/loadermisc.c = ASCII C program text
+loader/loadermisc.c: copy
+
+# loader/getparts.h = ASCII C program text
+loader/getparts.h: copy
+
+# loader/loader.c = ASCII C program text
+loader/loader.c: copy
+
+# loader/kickstart.h = ASCII C program text
+loader/kickstart.h: copy
+
+# loader/Makefile.in = ASCII English text, with very long lines
+loader/Makefile.in: copy
+
+# loader/net.h = ASCII C program text
+loader/net.h: copy
+
+# loader/init.c = ASCII C program text
+loader/init.c: copy
+
+# loader/selinux.c = ASCII C program text
+loader/selinux.c: copy
+
+# loader/windows.h = ASCII C program text
+loader/windows.h: copy
+
+# loader/keymaps-ppc64 = gzip compressed data, from Unix, last modified: Sat Nov  1 16:41:13 2008, max compression
+loader/keymaps-ppc64: copy
+
+# loader/lang.c = ASCII C program text
+loader/lang.c: copy
+
+# loader/fwloader.c = ASCII C program text
+loader/fwloader.c: copy
+
+# firewall.py = Python script text executable
+firewall.py: copy
+
+# pyudev.py = Python script text executable
+pyudev.py: copy
+
+# docs/rescue-mode = ASCII English text
+docs/rescue-mode: copy
+
+# docs/making-screenshots = ASCII English text
+docs/making-screenshots: copy
+
+# docs/Makefile.am = ASCII Pascal program text
+docs/Makefile.am: copy
+
+# docs/anaconda-release-notes.txt = ASCII English text
+docs/anaconda-release-notes.txt: copy
+
+# docs/gettext.txt = ASCII English text
+docs/gettext.txt: copy
+
+# docs/command-line.txt = ASCII English text, with very long lines
+docs/command-line.txt: copy
+
+# docs/lvm_sanity_checks.txt = ASCII English text
+docs/lvm_sanity_checks.txt: copy
+
+# docs/api.cfg = ASCII English text
+docs/api.cfg: copy
+
+# docs/transifex.txt = ASCII English text
+docs/transifex.txt: copy
+
+# docs/install-methods.txt = ASCII English text
+docs/install-methods.txt: copy
+
+# docs/threads.txt = Python script text executable
+docs/threads.txt: copy
+
+# docs/Makefile.in = ASCII English text
+docs/Makefile.in: copy
+
+# docs/mediacheck.txt = ASCII English text
+docs/mediacheck.txt: copy
+
+# yuminstall.py = Python script text executable
+yuminstall.py: copy
+
+# security.py = Python script text executable
+security.py: copy
+
+# simpleconfig.py = Python script text executable
+simpleconfig.py: copy
+
+# kickstart.py = Python script text executable
+kickstart.py: copy
+
+# command-stubs/list-harddrives-test = a /usr/bin/python script text executable
+command-stubs/list-harddrives-test: copy
+
+# command-stubs/list-harddrives-stub = a /usr/bin/python script text executable
+command-stubs/list-harddrives-stub: copy
+
+# command-stubs/Makefile.am = ASCII Pascal program text
+command-stubs/Makefile.am: copy
+
+# command-stubs/loadkeys-test = a /usr/bin/python script text executable
+command-stubs/loadkeys-test: copy
+
+# command-stubs/mknod-stub = a /usr/bin/python script text executable
+command-stubs/mknod-stub: copy
+
+# command-stubs/mknod-test = a /usr/bin/python script text executable
+command-stubs/mknod-test: copy
+
+# command-stubs/loadkeys-stub = a /usr/bin/python script text executable
+command-stubs/loadkeys-stub: copy
+
+# command-stubs/Makefile.in = ASCII English text
+command-stubs/Makefile.in: copy
+
+# command-stubs/syslogd-stub = a /usr/bin/python script text executable
+command-stubs/syslogd-stub: copy
+
+# liveinst/zz-liveinst.sh = Bourne-Again shell script text executable
+liveinst/zz-liveinst.sh: copy
+
+# liveinst/Makefile.am = ASCII Pascal program text
+liveinst/Makefile.am: copy
+
+# liveinst/liveinst.desktop.in = ASCII English text
+liveinst/liveinst.desktop.in: copy
+
+# liveinst/console.apps/Makefile.am = ASCII Pascal program text
+liveinst/console.apps/Makefile.am: copy
+
+# liveinst/console.apps/liveinst = ASCII text
+liveinst/console.apps/liveinst: copy
+
+# liveinst/console.apps/Makefile.in = ASCII English text
+liveinst/console.apps/Makefile.in: copy
+
+# liveinst/README = ASCII text
+liveinst/README: copy
+
+# liveinst/liveinst = POSIX shell script text executable
+liveinst/liveinst: copy
+
+# liveinst/pam.d/Makefile.am = ASCII Pascal program text
+liveinst/pam.d/Makefile.am: copy
+
+# liveinst/pam.d/liveinst = ASCII text
+liveinst/pam.d/liveinst: copy
+
+# liveinst/pam.d/Makefile.in = ASCII English text
+liveinst/pam.d/Makefile.in: copy
+
+# liveinst/Makefile.in = ASCII English text
+liveinst/Makefile.in: copy
+
+# pixmaps/filter-menu.png = PNG image data, 24 x 24, 8-bit/color RGBA, non-interlaced
+pixmaps/filter-menu.png: copy
+
+# pixmaps/config-language.png = PNG image data, 48 x 48, 8-bit/color RGBA, non-interlaced
+pixmaps/config-language.png: copy
+
+# pixmaps/upgrade.png = PNG image data, 48 x 79, 8-bit/color RGBA, non-interlaced
+pixmaps/upgrade.png: copy
+
+# pixmaps/Makefile.am = ASCII Pascal program text
+pixmaps/Makefile.am: copy
+
+# pixmaps/gnome-mouse.png = PNG image data, 48 x 48, 8-bit/color RGBA, non-interlaced
+pixmaps/gnome-mouse.png: copy
+
+# pixmaps/root-password.png = PNG image data, 48 x 48, 8-bit/color RGBA, non-interlaced
+pixmaps/root-password.png: copy
+
+# pixmaps/partscheme-all.png = PNG image data, 34 x 44, 8-bit/color RGBA, non-interlaced
+pixmaps/partscheme-all.png: copy
+
+# pixmaps/network.png = PNG image data, 48 x 48, 8-bit/color RGBA, non-interlaced
+pixmaps/network.png: copy
+
+# pixmaps/gnome-lock.png = PNG image data, 22 x 22, 8-bit/color RGBA, non-interlaced
+pixmaps/gnome-lock.png: copy
+
+# pixmaps/partscheme-custom.png = PNG image data, 34 x 44, 8-bit/color RGBA, non-interlaced
+pixmaps/partscheme-custom.png: copy
+
+# pixmaps/checkMark.png = PNG image data, 18 x 18, 8-bit/color RGBA, non-interlaced
+pixmaps/checkMark.png: copy
+
+# pixmaps/partscheme-freespace.png = PNG image data, 34 x 44, 8-bit/color RGBA, non-interlaced
+pixmaps/partscheme-freespace.png: copy
+
+# pixmaps/partscheme-replace.png = PNG image data, 34 x 44, 8-bit/color RGBA, non-interlaced
+pixmaps/partscheme-replace.png: copy
+
+# pixmaps/done.png = PNG image data, 200 x 175, 8-bit/color RGBA, non-interlaced
+pixmaps/done.png: copy
+
+# pixmaps/about-to-install.png = PNG image data, 200 x 175, 8-bit/color RGBA, non-interlaced
+pixmaps/about-to-install.png: copy
+
+# pixmaps/install.png = PNG image data, 48 x 79, 8-bit/color RGBA, non-interlaced
+pixmaps/install.png: copy
+
+# pixmaps/Makefile.in = ASCII English text
+pixmaps/Makefile.in: copy
+
+# pixmaps/partscheme-shrink.png = PNG image data, 34 x 44, 8-bit/color RGBA, non-interlaced
+pixmaps/partscheme-shrink.png: copy
+
+# install-sh = POSIX shell script text executable
+install-sh: copy
+
+# desktop.py = Python script text executable
+desktop.py: copy
+
+# configure.ac = ASCII Pascal program text
+configure.ac: copy
+
+# installclasses/fedora.py = Python script text executable
+installclasses/fedora.py: copy
+
+# installclasses/Makefile.am = ASCII Pascal program text
+installclasses/Makefile.am: copy
+
+# installclasses/rhel.py = Python script text executable
+installclasses/rhel.py: copy
+
+# installclasses/Makefile.in = ASCII English text
+installclasses/Makefile.in: copy
+
+# config.rpath = POSIX shell script text executable
+config.rpath: copy
+
+# pycheckrc-for-anaconda = ASCII English text
+pycheckrc-for-anaconda: copy
+
+# upgrade.py = Python script text executable
+upgrade.py: copy
+
+# sortedtransaction.py = Python script text executable
+sortedtransaction.py: copy
+
+# icons/hicolor/48x48/Makefile.am = ASCII Pascal program text
+icons/hicolor/48x48/Makefile.am: copy
+
+# icons/hicolor/48x48/apps/Makefile.am = ASCII Pascal program text
+icons/hicolor/48x48/apps/Makefile.am: copy
+
+# icons/hicolor/48x48/apps/anaconda.png = PNG image data, 48 x 48, 8-bit/color RGBA, non-interlaced
+icons/hicolor/48x48/apps/anaconda.png: copy
+
+# icons/hicolor/48x48/apps/Makefile.in = ASCII English text
+icons/hicolor/48x48/apps/Makefile.in: copy
+
+# icons/hicolor/48x48/Makefile.in = ASCII English text
+icons/hicolor/48x48/Makefile.in: copy
+
+# icons/hicolor/Makefile.am = ASCII Pascal program text
+icons/hicolor/Makefile.am: copy
+
+# icons/hicolor/16x16/Makefile.am = ASCII Pascal program text
+icons/hicolor/16x16/Makefile.am: copy
+
+# icons/hicolor/16x16/apps/Makefile.am = ASCII Pascal program text
+icons/hicolor/16x16/apps/Makefile.am: copy
+
+# icons/hicolor/16x16/apps/anaconda.png = PNG image data, 16 x 16, 8-bit/color RGBA, non-interlaced
+icons/hicolor/16x16/apps/anaconda.png: copy
+
+# icons/hicolor/16x16/apps/Makefile.in = ASCII English text
+icons/hicolor/16x16/apps/Makefile.in: copy
+
+# icons/hicolor/16x16/Makefile.in = ASCII English text
+icons/hicolor/16x16/Makefile.in: copy
+
+# icons/hicolor/22x22/Makefile.am = ASCII Pascal program text
+icons/hicolor/22x22/Makefile.am: copy
+
+# icons/hicolor/22x22/apps/Makefile.am = ASCII Pascal program text
+icons/hicolor/22x22/apps/Makefile.am: copy
+
+# icons/hicolor/22x22/apps/anaconda.png = PNG image data, 22 x 22, 8-bit/color RGBA, non-interlaced
+icons/hicolor/22x22/apps/anaconda.png: copy
+
+# icons/hicolor/22x22/apps/Makefile.in = ASCII English text
+icons/hicolor/22x22/apps/Makefile.in: copy
+
+# icons/hicolor/22x22/Makefile.in = ASCII English text
+icons/hicolor/22x22/Makefile.in: copy
+
+# icons/hicolor/32x32/Makefile.am = ASCII Pascal program text
+icons/hicolor/32x32/Makefile.am: copy
+
+# icons/hicolor/32x32/apps/Makefile.am = ASCII Pascal program text
+icons/hicolor/32x32/apps/Makefile.am: copy
+
+# icons/hicolor/32x32/apps/anaconda.png = PNG image data, 32 x 32, 8-bit/color RGBA, non-interlaced
+icons/hicolor/32x32/apps/anaconda.png: copy
+
+# icons/hicolor/32x32/apps/Makefile.in = ASCII English text
+icons/hicolor/32x32/apps/Makefile.in: copy
+
+# icons/hicolor/32x32/Makefile.in = ASCII English text
+icons/hicolor/32x32/Makefile.in: copy
+
+# icons/hicolor/Makefile.in = ASCII English text
+icons/hicolor/Makefile.in: copy
+
+# icons/hicolor/24x24/Makefile.am = ASCII Pascal program text
+icons/hicolor/24x24/Makefile.am: copy
+
+# icons/hicolor/24x24/apps/Makefile.am = ASCII Pascal program text
+icons/hicolor/24x24/apps/Makefile.am: copy
+
+# icons/hicolor/24x24/apps/anaconda.png = PNG image data, 24 x 24, 8-bit/color RGBA, non-interlaced
+icons/hicolor/24x24/apps/anaconda.png: copy
+
+# icons/hicolor/24x24/apps/Makefile.in = ASCII English text
+icons/hicolor/24x24/apps/Makefile.in: copy
+
+# icons/hicolor/24x24/Makefile.in = ASCII English text
+icons/hicolor/24x24/Makefile.in: copy
+
+# icons/Makefile.am = ASCII Pascal program text
+icons/Makefile.am: copy
+
+# icons/Makefile.in = ASCII English text
+icons/Makefile.in: copy
+
+# anaconda.spec.in = ASCII English text
+anaconda.spec.in: copy
+
+# po/ml.gmo = GNU message catalog (little endian), revision 0, 1234 messages
+po/ml.gmo: copy
+
+# po/cs.gmo = GNU message catalog (little endian), revision 0, 1137 messages
+po/cs.gmo: copy
+
+# po/ta.gmo = GNU message catalog (little endian), revision 0, 1237 messages
+po/ta.gmo: copy
+
+# po/es.gmo = GNU message catalog (little endian), revision 0, 1244 messages
+po/es.gmo: copy
+
+# po/uk.po = UTF-8 Unicode English text
+po/uk.po: copy
+
+# po/zh_TW.gmo = GNU message catalog (little endian), revision 0, 1238 messages
+po/zh_TW.gmo: copy
+
+# po/sr@latin.gmo = GNU message catalog (little endian), revision 0, 905 messages
+po/sr@latin.gmo: copy
+
+# po/pt.po = UTF-8 Unicode English text
+po/pt.po: copy
+
+# po/be.gmo = GNU message catalog (little endian), revision 0, 228 messages
+po/be.gmo: copy
+
+# po/te.po = UTF-8 Unicode English text
+po/te.po: copy
+
+# po/anaconda.pot = UTF-8 Unicode English text
+po/anaconda.pot: copy
+
+# po/boldquot.sed = UTF-8 Unicode text, with escape sequences
+po/boldquot.sed: copy
+
+# po/lt.po = UTF-8 Unicode English text
+po/lt.po: copy
+
+# po/ml.po = UTF-8 Unicode English text
+po/ml.po: copy
+
+# po/da.po = UTF-8 Unicode English text
+po/da.po: copy
+
+# po/is.gmo = GNU message catalog (little endian), revision 0, 673 messages
+po/is.gmo: copy
+
+# po/nl.po = UTF-8 Unicode English text
+po/nl.po: copy
+
+# po/lv.gmo = GNU message catalog (little endian), revision 0, 464 messages
+po/lv.gmo: copy
+
+# po/en_GB.po = UTF-8 Unicode English text
+po/en_GB.po: copy
+
+# po/hu.gmo = GNU message catalog (little endian), revision 0, 904 messages
+po/hu.gmo: copy
+
+# po/nb.po = UTF-8 Unicode English text
+po/nb.po: copy
+
+# po/en@boldquot.gmo = GNU message catalog (little endian), revision 0, 1244 messages
+po/en@boldquot.gmo: copy
+
+# po/nso.gmo = GNU message catalog (little endian), revision 0, 437 messages
+po/nso.gmo: copy
+
+# po/fa.gmo = GNU message catalog (little endian), revision 65537, 1089 messages
+po/fa.gmo: copy
+
+# po/de.gmo = GNU message catalog (little endian), revision 0, 1238 messages
+po/de.gmo: copy
+
+# po/nl.gmo = GNU message catalog (little endian), revision 0, 1244 messages
+po/nl.gmo: copy
+
+# po/or.po = UTF-8 Unicode English text
+po/or.po: copy
+
+# po/as.gmo = GNU message catalog (little endian), revision 0, 1244 messages
+po/as.gmo: copy
+
+# po/vi.po = UTF-8 Unicode English text
+po/vi.po: copy
+
+# po/mai.po = UTF-8 Unicode English text
+po/mai.po: copy
+
+# po/id.po = UTF-8 Unicode English text
+po/id.po: copy
+
+# po/lt.gmo = GNU message catalog (little endian), revision 0, 269 messages
+po/lt.gmo: copy
+
+# po/ja.gmo = GNU message catalog (little endian), revision 0, 1244 messages
+po/ja.gmo: copy
+
+# po/bs.gmo = GNU message catalog (little endian), revision 0, 518 messages
+po/bs.gmo: copy
+
+# po/en@quot.gmo = GNU message catalog (little endian), revision 0, 1244 messages
+po/en@quot.gmo: copy
+
+# po/zh_CN.gmo = GNU message catalog (little endian), revision 0, 1244 messages
+po/zh_CN.gmo: copy
+
+# po/eu.gmo = GNU message catalog (little endian), revision 0, 39 messages
+po/eu.gmo: copy
+
+# po/af.gmo = GNU message catalog (little endian), revision 0, 437 messages
+po/af.gmo: copy
+
+# po/tr.po = UTF-8 Unicode English text
+po/tr.po: copy
+
+# po/bn.gmo = GNU message catalog (little endian), revision 0, 1127 messages
+po/bn.gmo: copy
+
+# po/he.po = UTF-8 Unicode English text
+po/he.po: copy
+
+# po/mk.po = UTF-8 Unicode English text
+po/mk.po: copy
+
+# po/hi.gmo = GNU message catalog (little endian), revision 0, 1241 messages
+po/hi.gmo: copy
+
+# po/zh_CN.po = UTF-8 Unicode English text
+po/zh_CN.po: copy
+
+# po/bn.po = UTF-8 Unicode English text
+po/bn.po: copy
+
+# po/cs.po = UTF-8 Unicode English text
+po/cs.po: copy
+
+# po/as.po = UTF-8 Unicode English text
+po/as.po: copy
+
+# po/pa.po = UTF-8 Unicode English text
+po/pa.po: copy
+
+# po/eu_ES.po = UTF-8 Unicode English text
+po/eu_ES.po: copy
+
+# po/pt.gmo = GNU message catalog (little endian), revision 0, 920 messages
+po/pt.gmo: copy
+
+# po/ko.po = UTF-8 Unicode English text
+po/ko.po: copy
+
+# po/ms.gmo = GNU message catalog (little endian), revision 0, 518 messages
+po/ms.gmo: copy
+
+# po/ilo.po = UTF-8 Unicode English text
+po/ilo.po: copy
+
+# po/ja.po = UTF-8 Unicode English text
+po/ja.po: copy
+
+# po/de.po = UTF-8 Unicode English text
+po/de.po: copy
+
+# po/gu.po = UTF-8 Unicode English text
+po/gu.po: copy
+
+# po/hr.gmo = GNU message catalog (little endian), revision 0, 592 messages
+po/hr.gmo: copy
+
+# po/he.gmo = GNU message catalog (little endian), revision 0, 766 messages
+po/he.gmo: copy
+
+# po/Makevars = ASCII English text
+po/Makevars: copy
+
+# po/nso.po = UTF-8 Unicode English text
+po/nso.po: copy
+
+# po/si.gmo = GNU message catalog (little endian), revision 0, 541 messages
+po/si.gmo: copy
+
+# po/kn.po = UTF-8 Unicode English text
+po/kn.po: copy
+
+# po/POTFILES.in = ASCII C++ program text
+po/POTFILES.in: copy
+
+# po/de_CH.po = UTF-8 Unicode English text
+po/de_CH.po: copy
+
+# po/ru.gmo = GNU message catalog (little endian), revision 0, 1235 messages
+po/ru.gmo: copy
+
+# po/stamp-po = ASCII text
+po/stamp-po: copy
+
+# po/sr.po = UTF-8 Unicode English text
+po/sr.po: copy
+
+# po/insert-header.sin = ASCII English text
+po/insert-header.sin: copy
+
+# po/be.po = UTF-8 Unicode English text
+po/be.po: copy
+
+# po/sl.gmo = GNU message catalog (little endian), revision 0, 592 messages
+po/sl.gmo: copy
+
+# po/af.po = UTF-8 Unicode English text
+po/af.po: copy
+
+# po/eu.po = UTF-8 Unicode English text
+po/eu.po: copy
+
+# po/hi.po = UTF-8 Unicode English text
+po/hi.po: copy
+
+# po/bal.po = UTF-8 Unicode English text
+po/bal.po: copy
+
+# po/or.gmo = GNU message catalog (little endian), revision 0, 1234 messages
+po/or.gmo: copy
+
+# po/bg.po = UTF-8 Unicode English text
+po/bg.po: copy
+
+# po/mr.po = UTF-8 Unicode English text
+po/mr.po: copy
+
+# po/bal.gmo = GNU message catalog (little endian), revision 0, 76 messages
+po/bal.gmo: copy
+
+# po/ta.po = UTF-8 Unicode English text
+po/ta.po: copy
+
+# po/ur.gmo = GNU message catalog (little endian), revision 0, 456 messages
+po/ur.gmo: copy
+
+# po/ne.gmo = GNU message catalog (little endian), revision 0, 592 messages
+po/ne.gmo: copy
+
+# po/zu.po = UTF-8 Unicode English text
+po/zu.po: copy
+
+# po/lv.po = UTF-8 Unicode English text
+po/lv.po: copy
+
+# po/bg.gmo = GNU message catalog (little endian), revision 0, 592 messages
+po/bg.gmo: copy
+
+# po/ru.po = UTF-8 Unicode English text
+po/ru.po: copy
+
+# po/en_GB.gmo = GNU message catalog (little endian), revision 0, 570 messages
+po/en_GB.gmo: copy
+
+# po/cy.po = UTF-8 Unicode English text
+po/cy.po: copy
+
+# po/mr.gmo = GNU message catalog (little endian), revision 0, 1234 messages
+po/mr.gmo: copy
+
+# po/zh_TW.po = UTF-8 Unicode English text
+po/zh_TW.po: copy
+
+# po/fr.po = UTF-8 Unicode English text
+po/fr.po: copy
+
+# po/da.gmo = GNU message catalog (little endian), revision 0, 906 messages
+po/da.gmo: copy
+
+# po/th.gmo = GNU message catalog (little endian), revision 0, 893 messages
+po/th.gmo: copy
+
+# po/am.gmo = GNU message catalog (little endian), revision 0, 443 messages
+po/am.gmo: copy
+
+# po/sr.gmo = GNU message catalog (little endian), revision 0, 905 messages
+po/sr.gmo: copy
+
+# po/en@quot.po = UTF-8 Unicode English text
+po/en@quot.po: copy
+
+# po/pl.gmo = GNU message catalog (little endian), revision 0, 1244 messages
+po/pl.gmo: copy
+
+# po/fa.po = UTF-8 Unicode English text
+po/fa.po: copy
+
+# po/nb.gmo = GNU message catalog (little endian), revision 0, 756 messages
+po/nb.gmo: copy
+
+# po/ko.gmo = GNU message catalog (little endian), revision 0, 1235 messages
+po/ko.gmo: copy
+
+# po/fi.gmo = GNU message catalog (little endian), revision 0, 1192 messages
+po/fi.gmo: copy
+
+# po/ms.po = UTF-8 Unicode English text
+po/ms.po: copy
+
+# po/sl.po = UTF-8 Unicode English text
+po/sl.po: copy
+
+# po/sq.po = UTF-8 Unicode English text
+po/sq.po: copy
+
+# po/uk.gmo = GNU message catalog (little endian), revision 0, 1244 messages
+po/uk.gmo: copy
+
+# po/ro.gmo = GNU message catalog (little endian), revision 0, 568 messages
+po/ro.gmo: copy
+
+# po/vi.gmo = GNU message catalog (little endian), revision 0, 417 messages
+po/vi.gmo: copy
+
+# po/quot.sed = UTF-8 Unicode text
+po/quot.sed: copy
+
+# po/sr@latin.po = UTF-8 Unicode English text
+po/sr@latin.po: copy
+
+# po/es.po = UTF-8 Unicode English text
+po/es.po: copy
+
+# po/ur.po = UTF-8 Unicode English text
+po/ur.po: copy
+
+# po/ar.po = UTF-8 Unicode English text
+po/ar.po: copy
+
+# po/pt_BR.po = UTF-8 Unicode English text
+po/pt_BR.po: copy
+
+# po/fi.po = UTF-8 Unicode English text
+po/fi.po: copy
+
+# po/tg.po = UTF-8 Unicode English text
+po/tg.po: copy
+
+# po/nn.gmo = GNU message catalog (little endian), revision 0, 66 messages
+po/nn.gmo: copy
+
+# po/tr.gmo = GNU message catalog (little endian), revision 0, 518 messages
+po/tr.gmo: copy
+
+# po/bs.po = UTF-8 Unicode English text
+po/bs.po: copy
+
+# po/ka.po = UTF-8 Unicode English text
+po/ka.po: copy
+
+# po/ro.po = UTF-8 Unicode English text
+po/ro.po: copy
+
+# po/hy.po = UTF-8 Unicode English text
+po/hy.po: copy
+
+# po/mk.gmo = GNU message catalog (little endian), revision 0, 592 messages
+po/mk.gmo: copy
+
+# po/id.gmo = GNU message catalog (little endian), revision 0, 1217 messages
+po/id.gmo: copy
+
+# po/ca.po = UTF-8 Unicode English text
+po/ca.po: copy
+
+# po/pt_BR.gmo = GNU message catalog (little endian), revision 0, 1244 messages
+po/pt_BR.gmo: copy
+
+# po/hu.po = UTF-8 Unicode English text
+po/hu.po: copy
+
+# po/pl.po = UTF-8 Unicode English text
+po/pl.po: copy
+
+# po/sk.gmo = GNU message catalog (little endian), revision 0, 905 messages
+po/sk.gmo: copy
+
+# po/am.po = UTF-8 Unicode English text
+po/am.po: copy
+
+# po/de_CH.gmo = GNU message catalog (little endian), revision 0, 820 messages
+po/de_CH.gmo: copy
+
+# po/Makefile.in.in = ASCII English text
+po/Makefile.in.in: copy
+
+# po/ca.gmo = GNU message catalog (little endian), revision 0, 905 messages
+po/ca.gmo: copy
+
+# po/el.gmo = GNU message catalog (little endian), revision 0, 966 messages
+po/el.gmo: copy
+
+# po/ar.gmo = GNU message catalog (little endian), revision 0, 776 messages
+po/ar.gmo: copy
+
+# po/gl.po = UTF-8 Unicode English text
+po/gl.po: copy
+
+# po/tg.gmo = GNU message catalog (little endian), revision 0, 339 messages
+po/tg.gmo: copy
+
+# po/is.po = UTF-8 Unicode English text
+po/is.po: copy
+
+# po/hr.po = UTF-8 Unicode English text
+po/hr.po: copy
+
+# po/hy.gmo = GNU message catalog (little endian), revision 0, 93 messages
+po/hy.gmo: copy
+
+# po/en@boldquot.header = ASCII English text
+po/en@boldquot.header: copy
+
+# po/sv.gmo = GNU message catalog (little endian), revision 0, 1128 messages
+po/sv.gmo: copy
+
+# po/pa.gmo = GNU message catalog (little endian), revision 0, 1244 messages
+po/pa.gmo: copy
+
+# po/it.po = UTF-8 Unicode English text
+po/it.po: copy
+
+# po/sq.gmo = GNU message catalog (little endian), revision 0, 790 messages
+po/sq.gmo: copy
+
+# po/bn_IN.po = UTF-8 Unicode English text
+po/bn_IN.po: copy
+
+# po/zu.gmo = GNU message catalog (little endian), revision 0, 392 messages
+po/zu.gmo: copy
+
+# po/et.gmo = GNU message catalog (little endian), revision 0, 443 messages
+po/et.gmo: copy
+
+# po/ilo.gmo = GNU message catalog (little endian), revision 0, 518 messages
+po/ilo.gmo: copy
+
+# po/Rules-quot = ASCII text
+po/Rules-quot: copy
+
+# po/kn.gmo = GNU message catalog (little endian), revision 0, 1238 messages
+po/kn.gmo: copy
+
+# po/cy.gmo = GNU message catalog (little endian), revision 0, 509 messages
+po/cy.gmo: copy
+
+# po/ka.gmo = GNU message catalog (little endian), revision 0, 158 messages
+po/ka.gmo: copy
+
+# po/ne.po = UTF-8 Unicode English text
+po/ne.po: copy
+
+# po/en@quot.header = ASCII English text
+po/en@quot.header: copy
+
+# po/gu.gmo = GNU message catalog (little endian), revision 0, 1234 messages
+po/gu.gmo: copy
+
+# po/th.po = UTF-8 Unicode English text
+po/th.po: copy
+
+# po/mai.gmo = GNU message catalog (little endian), revision 0, 904 messages
+po/mai.gmo: copy
+
+# po/sv.po = UTF-8 Unicode English text
+po/sv.po: copy
+
+# po/LINGUAS = ASCII text
+po/LINGUAS: copy
+
+# po/en@boldquot.po = UTF-8 Unicode English text, with escape sequences
+po/en@boldquot.po: copy
+
+# po/et.po = UTF-8 Unicode English text
+po/et.po: copy
+
+# po/remove-potcdate.sin = ASCII English text
+po/remove-potcdate.sin: copy
+
+# po/sk.po = UTF-8 Unicode English text
+po/sk.po: copy
+
+# po/bn_IN.gmo = GNU message catalog (little endian), revision 0, 1244 messages
+po/bn_IN.gmo: copy
+
+# po/el.po = UTF-8 Unicode English text
+po/el.po: copy
+
+# po/si.po = UTF-8 Unicode English text
+po/si.po: copy
+
+# po/gl.gmo = GNU message catalog (little endian), revision 0, 95 messages
+po/gl.gmo: copy
+
+# po/eu_ES.gmo = GNU message catalog (little endian), revision 0, 6 messages
+po/eu_ES.gmo: copy
+
+# po/fr.gmo = GNU message catalog (little endian), revision 0, 1244 messages
+po/fr.gmo: copy
+
+# po/te.gmo = GNU message catalog (little endian), revision 0, 1238 messages
+po/te.gmo: copy
+
+# po/it.gmo = GNU message catalog (little endian), revision 0, 1243 messages
+po/it.gmo: copy
+
+# po/nn.po = UTF-8 Unicode English text
+po/nn.po: copy
+
+# missing = POSIX shell script text executable
+missing: copy
+
+# ltmain.sh = ASCII English text
+ltmain.sh: copy
+
+# tests/__init__.py = Python script text executable
+tests/__init__.py: copy
+
+# tests/Makefile.am = ASCII Pascal program text
+tests/Makefile.am: copy
+
+# tests/regex/__init__.py = empty
+tests/regex/__init__.py: copy
+
+# tests/regex/Makefile.am = ASCII Pascal program text
+tests/regex/Makefile.am: copy
+
+# tests/regex/proxy.py = Python script text executable
+tests/regex/proxy.py: copy
+
+# tests/regex/Makefile.in = ASCII English text
+tests/regex/Makefile.in: copy
+
+# tests/storage/devicelibs/swap.py = Python script text executable
+tests/storage/devicelibs/swap.py: copy
+
+# tests/storage/devicelibs/baseclass.py = Python script text executable
+tests/storage/devicelibs/baseclass.py: copy
+
+# tests/storage/devicelibs/__init__.py = empty
+tests/storage/devicelibs/__init__.py: copy
+
+# tests/storage/devicelibs/Makefile.am = ASCII Pascal program text
+tests/storage/devicelibs/Makefile.am: copy
+
+# tests/storage/devicelibs/edd_test.py = Python script text executable
+tests/storage/devicelibs/edd_test.py: copy
+
+# tests/storage/devicelibs/mpath.py = a /usr/bin/python script text executable
+tests/storage/devicelibs/mpath.py: copy
+
+# tests/storage/devicelibs/mdraid.py = Python script text executable
+tests/storage/devicelibs/mdraid.py: copy
+
+# tests/storage/devicelibs/Makefile.in = ASCII English text
+tests/storage/devicelibs/Makefile.in: copy
+
+# tests/storage/devicelibs/crypto.py = Python script text executable
+tests/storage/devicelibs/crypto.py: copy
+
+# tests/storage/devicelibs/lvm.py = Python script text executable
+tests/storage/devicelibs/lvm.py: copy
+
+# tests/storage/__init__.py = empty
+tests/storage/__init__.py: copy
+
+# tests/storage/Makefile.am = ASCII Pascal program text
+tests/storage/Makefile.am: copy
+
+# tests/storage/Makefile.in = ASCII English text
+tests/storage/Makefile.in: copy
+
+# tests/Makefile.in = ASCII English text
+tests/Makefile.in: copy
+
+# isys/iface.c = ASCII C program text
+isys/iface.c: copy
+
+# isys/lang.h = ASCII C program text
+isys/lang.h: copy
+
+# isys/vio.c = ASCII C program text
+isys/vio.c: copy
+
+# isys/imount.h = ASCII C program text
+isys/imount.h: copy
+
+# isys/str.c = ASCII C program text
+isys/str.c: copy
+
+# isys/Makefile.am = ASCII Pascal program text
+isys/Makefile.am: copy
+
+# isys/imount.c = ASCII C program text
+isys/imount.c: copy
+
+# isys/isys.py = Python script text executable
+isys/isys.py: copy
+
+# isys/cpio.h = ASCII C program text
+isys/cpio.h: copy
+
+# isys/isys.h = ASCII C program text
+isys/isys.h: copy
+
+# isys/minifind.h = ASCII C program text
+isys/minifind.h: copy
+
+# isys/eddsupport.c = ASCII C program text
+isys/eddsupport.c: copy
+
+# isys/minifind.c = ASCII C program text
+isys/minifind.c: copy
+
+# isys/ethtool.c = ASCII C program text
+isys/ethtool.c: copy
+
+# isys/str.h = ASCII C program text
+isys/str.h: copy
+
+# isys/isys.c = ASCII C program text
+isys/isys.c: copy
+
+# isys/isofs.c = ASCII C program text
+isys/isofs.c: copy
+
+# isys/devices.h = ASCII C program text
+isys/devices.h: copy
+
+# isys/ethtool.h = ASCII C program text
+isys/ethtool.h: copy
+
+# isys/cpio.c = ASCII C program text
+isys/cpio.c: copy
+
+# isys/linkdetect.c = ASCII C program text
+isys/linkdetect.c: copy
+
+# isys/auditd.h = ASCII C program text
+isys/auditd.h: copy
+
+# isys/auditd.c = ASCII C program text
+isys/auditd.c: copy
+
+# isys/devices.c = ASCII C program text
+isys/devices.c: copy
+
+# isys/eddsupport.h = ASCII C program text
+isys/eddsupport.h: copy
+
+# isys/iface.h = ASCII C program text
+isys/iface.h: copy
+
+# isys/Makefile.in = ASCII English text, with very long lines
+isys/Makefile.in: copy
+
+# isys/dasd.c = ASCII C program text
+isys/dasd.c: copy
+
+# isys/stubs.h = ASCII C program text
+isys/stubs.h: copy
+
+# isys/lang.c = ASCII C program text
+isys/lang.c: copy
+
+# isys/uncpio.c = ASCII C program text
+isys/uncpio.c: copy
+
+# constants.py = Python script text executable
+constants.py: copy
+
+# configure = POSIX shell script text executable
+configure: copy
+
+# py-compile = POSIX shell script text executable
+py-compile: copy
+
+# partIntfHelpers.py = Python script text executable
+partIntfHelpers.py: copy
+
+# installmethod.py = Python script text executable
+installmethod.py: copy
+
+# product.py = ASCII Pascal program text
+product.py: copy
+
+# COPYING = ASCII English text
+COPYING: copy
+
+# runpychecker.sh = Bourne-Again shell script text executable
+runpychecker.sh: copy
+
+# xutils.c = ASCII C program text
+xutils.c: copy
+
+# storage/errors.py = Python script text executable
+storage/errors.py: copy
+
+# storage/devicelibs/swap.py = Python script text executable
+storage/devicelibs/swap.py: copy
+
+# storage/devicelibs/__init__.py = empty
+storage/devicelibs/__init__.py: copy
+
+# storage/devicelibs/Makefile.am = ASCII Pascal program text
+storage/devicelibs/Makefile.am: copy
+
+# storage/devicelibs/dm.py = Python script text executable
+storage/devicelibs/dm.py: copy
+
+# storage/devicelibs/mpath.py = Python script text executable
+storage/devicelibs/mpath.py: copy
+
+# storage/devicelibs/edd.py = Python script text executable
+storage/devicelibs/edd.py: copy
+
+# storage/devicelibs/mdraid.py = Python script text executable
+storage/devicelibs/mdraid.py: copy
+
+# storage/devicelibs/Makefile.in = ASCII English text
+storage/devicelibs/Makefile.in: copy
+
+# storage/devicelibs/crypto.py = Python script text executable
+storage/devicelibs/crypto.py: copy
+
+# storage/devicelibs/lvm.py = Python script text executable
+storage/devicelibs/lvm.py: copy
+
+# storage/devices.py = Python script text executable
+storage/devices.py: copy
+
+# storage/__init__.py = Python script text executable
+storage/__init__.py: copy
+
+# storage/dasd.py = Python script text executable
+storage/dasd.py: copy
+
+# storage/miscutils.py = Python script text executable
+storage/miscutils.py: copy
+
+# storage/Makefile.am = ASCII Pascal program text
+storage/Makefile.am: copy
+
+# storage/partitioning.py = Python script text executable
+storage/partitioning.py: copy
+
+# storage/deviceaction.py = Python script text executable
+storage/deviceaction.py: copy
+
+# storage/zfcp.py = Python script text executable
+storage/zfcp.py: copy
+
+# storage/storage_log.py = Python script text executable
+storage/storage_log.py: copy
+
+# storage/partspec.py = Python script text executable
+storage/partspec.py: copy
+
+# storage/iscsi.py = Python script text executable
+storage/iscsi.py: copy
+
+# storage/fcoe.py = Python script text executable
+storage/fcoe.py: copy
+
+# storage/devicetree.py = Python script text executable
+storage/devicetree.py: copy
+
+# storage/formats/swap.py = Python script text executable
+storage/formats/swap.py: copy
+
+# storage/formats/__init__.py = Python script text executable
+storage/formats/__init__.py: copy
+
+# storage/formats/Makefile.am = ASCII Pascal program text
+storage/formats/Makefile.am: copy
+
+# storage/formats/luks.py = Python script text executable
+storage/formats/luks.py: copy
+
+# storage/formats/lvmpv.py = Python script text executable
+storage/formats/lvmpv.py: copy
+
+# storage/formats/prepboot.py = Python script text executable
+storage/formats/prepboot.py: copy
+
+# storage/formats/dmraid.py = Python script text executable
+storage/formats/dmraid.py: copy
+
+# storage/formats/disklabel.py = Python script text executable
+storage/formats/disklabel.py: copy
+
+# storage/formats/multipath.py = Python script text executable
+storage/formats/multipath.py: copy
+
+# storage/formats/fs.py = Python script text executable
+storage/formats/fs.py: copy
+
+# storage/formats/mdraid.py = Python script text executable
+storage/formats/mdraid.py: copy
+
+# storage/formats/Makefile.in = ASCII English text
+storage/formats/Makefile.in: copy
+
+# storage/Makefile.in = ASCII English text
+storage/Makefile.in: copy
+
+# storage/udev.py = Python script text executable
+storage/udev.py: copy
+
+# instdata.py = Python script text executable
+instdata.py: copy
+
+# anaconda_log.py = Python script text executable
+anaconda_log.py: copy
+
+# installinterfacebase.py = Python script text executable
+installinterfacebase.py: copy
+
+# syslogd.py = Python script text executable
+syslogd.py: copy
+
+# config.sub = POSIX shell script text executable
+config.sub: copy
+
+# users.py = Python script text executable
+users.py: copy
+
+# cmdline.py = Python script text executable
+cmdline.py: copy
+
+# vnc.py = Python script text executable
+vnc.py: copy
+
+# Makefile.in = ASCII English text, with very long lines
+Makefile.in: copy
+
+# rescue.py = Python script text executable
+rescue.py: copy
+
+# image.py = Python script text executable
+image.py: copy
+
+# timezone.py = Python script text executable
+timezone.py: copy
+
+# bootdisk/Makefile.am = ASCII Pascal program text
+bootdisk/Makefile.am: copy
+
+# bootdisk/i386/Makefile.am = ASCII Pascal program text
+bootdisk/i386/Makefile.am: copy
+
+# bootdisk/i386/grub.conf = ASCII text
+bootdisk/i386/grub.conf: copy
+
+# bootdisk/i386/syslinux.cfg = ASCII text
+bootdisk/i386/syslinux.cfg: copy
+
+# bootdisk/i386/boot.msg = data
+bootdisk/i386/boot.msg: copy
+
+# bootdisk/i386/Makefile.in = ASCII English text
+bootdisk/i386/Makefile.in: copy
+
+# bootdisk/ppc/yaboot.conf.in = ASCII English text
+bootdisk/ppc/yaboot.conf.in: copy
+
+# bootdisk/ppc/Makefile.am = ASCII Pascal program text
+bootdisk/ppc/Makefile.am: copy
+
+# bootdisk/ppc/bootinfo.txt = ASCII text
+bootdisk/ppc/bootinfo.txt: copy
+
+# bootdisk/ppc/mapping = ASCII text
+bootdisk/ppc/mapping: copy
+
+# bootdisk/ppc/yaboot.conf.3264 = ASCII English text
+bootdisk/ppc/yaboot.conf.3264: copy
+
+# bootdisk/ppc/ofboot.b = ASCII text
+bootdisk/ppc/ofboot.b: copy
+
+# bootdisk/ppc/magic = ASCII English text
+bootdisk/ppc/magic: copy
+
+# bootdisk/ppc/Makefile.in = ASCII English text
+bootdisk/ppc/Makefile.in: copy
+
+# bootdisk/x86_64/Makefile.am = ASCII Pascal program text
+bootdisk/x86_64/Makefile.am: copy
+
+# bootdisk/x86_64/grub.conf = ASCII text
+bootdisk/x86_64/grub.conf: copy
+
+# bootdisk/x86_64/syslinux.cfg = ASCII text
+bootdisk/x86_64/syslinux.cfg: copy
+
+# bootdisk/x86_64/boot.msg = data
+bootdisk/x86_64/boot.msg: copy
+
+# bootdisk/x86_64/Makefile.in = ASCII English text
+bootdisk/x86_64/Makefile.in: copy
+
+# bootdisk/Makefile.in = ASCII English text
+bootdisk/Makefile.in: copy
+
+# bootdisk/s390x/generic.ins = ASCII text
+bootdisk/s390x/generic.ins: copy
+
+# bootdisk/s390x/redhat.exec = ASCII C program text
+bootdisk/s390x/redhat.exec: copy
+
+# bootdisk/s390x/Makefile.am = ASCII Pascal program text
+bootdisk/s390x/Makefile.am: copy
+
+# bootdisk/s390x/generic.prm = ASCII text
+bootdisk/s390x/generic.prm: copy
+
+# bootdisk/s390x/Makefile.in = ASCII English text
+bootdisk/s390x/Makefile.in: copy
+
+# text.py = Python script text executable
+text.py: copy
+
+# iutil.py = Python script text executable
+iutil.py: copy
+
+# depcomp = POSIX shell script text executable
+depcomp: copy

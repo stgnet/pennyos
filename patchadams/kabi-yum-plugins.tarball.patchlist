@@ -1,0 +1,10 @@
+# Patchlist created Fri Mar  7 20:22:52 CST 2014
+
+# Makefile = ASCII English text
+Makefile: copy
+
+# kabi.py = Python script text executable
+kabi.py: copy
+
+# kabi.conf = ASCII English text
+kabi.conf: copy

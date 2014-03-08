@@ -1,0 +1,307 @@
+# Patchlist created Fri Mar  7 21:40:40 CST 2014
+
+# doc/Makefile.am = ASCII English text
+doc/Makefile.am: copy
+
+# doc/README = UTF-8 Unicode Pascal program text
+doc/README: copy
+
+# doc/README.html.in = xHTML document text
+doc/README.html.in: copy
+
+# doc/style.css = ASCII English text
+doc/style.css: copy
+
+# doc/README.html = xHTML document text
+doc/README.html: copy
+
+# doc/Makefile.in = ASCII English text
+doc/Makefile.in: copy
+
+# libcanberra-gtk.pc.in = ASCII text
+libcanberra-gtk.pc.in: copy
+
+# aclocal.m4 = UTF-8 Unicode English text
+aclocal.m4: copy
+
+# Makefile.am = ASCII English text
+Makefile.am: copy
+
+# config.guess = POSIX shell script text executable
+config.guess: copy
+
+# m4/libtool.m4 = Ruby module source text
+m4/libtool.m4: copy
+
+# m4/ltoptions.m4 = ASCII English text
+m4/ltoptions.m4: copy
+
+# m4/gtk-doc.m4 = ASCII M4 macro language pre-processor text
+m4/gtk-doc.m4: copy
+
+# m4/attributes.m4 = UTF-8 Unicode M4 macro language pre-processor text
+m4/attributes.m4: copy
+
+# m4/ltsugar.m4 = ASCII English text
+m4/ltsugar.m4: copy
+
+# m4/lt~obsolete.m4 = ASCII English text
+m4/lt~obsolete.m4: copy
+
+# m4/ltversion.m4 = ASCII English text
+m4/ltversion.m4: copy
+
+# config.h.in = ASCII C program text
+config.h.in: copy
+
+# libcanberra.schemas = XML  document text
+libcanberra.schemas: copy
+
+# autogen.sh = POSIX shell script text executable
+autogen.sh: copy
+
+# README = UTF-8 Unicode Pascal program text
+README: copy
+
+# LGPL = ASCII English text
+LGPL: copy
+
+# src/mutex.h = ASCII English text
+src/mutex.h: copy
+
+# src/libcanberra-login-sound.desktop.in = ASCII text
+src/libcanberra-login-sound.desktop.in: copy
+
+# src/canberra.h = ASCII English text
+src/canberra.h: copy
+
+# src/driver-order.c = ASCII English text
+src/driver-order.c: copy
+
+# src/gstreamer.c = ASCII English text
+src/gstreamer.c: copy
+
+# src/Makefile.am = ASCII English text
+src/Makefile.am: copy
+
+# src/oss.c = ASCII English text
+src/oss.c: copy
+
+# src/test-canberra.c = ASCII English text
+src/test-canberra.c: copy
+
+# src/malloc.h = ASCII English text
+src/malloc.h: copy
+
+# src/malloc.c = ASCII English text
+src/malloc.c: copy
+
+# src/macro.c = ASCII English text
+src/macro.c: copy
+
+# src/common.c = ASCII English text
+src/common.c: copy
+
+# src/sound-theme-spec.c = ASCII English text
+src/sound-theme-spec.c: copy
+
+# src/canberra-gtk.c = ASCII English text
+src/canberra-gtk.c: copy
+
+# src/libcanberra-ready-sound.desktop.in = ASCII text
+src/libcanberra-ready-sound.desktop.in: copy
+
+# src/canberra-gtk-module.c = ASCII English text
+src/canberra-gtk-module.c: copy
+
+# src/dso.c = ASCII English text
+src/dso.c: copy
+
+# src/read-wav.c = ASCII English text
+src/read-wav.c: copy
+
+# src/driver.h = ASCII English text
+src/driver.h: copy
+
+# src/read-wav.h = ASCII English text
+src/read-wav.h: copy
+
+# src/canberra.h.in = ASCII English text
+src/canberra.h.in: copy
+
+# src/proplist.h = ASCII English text
+src/proplist.h: copy
+
+# src/read-sound-file.h = ASCII English text
+src/read-sound-file.h: copy
+
+# src/proplist.c = ASCII English text
+src/proplist.c: copy
+
+# src/alsa.c = ASCII English text
+src/alsa.c: copy
+
+# src/libcanberra-logout-sound.sh.in = POSIX shell script text executable
+src/libcanberra-logout-sound.sh.in: copy
+
+# src/cache.c = ASCII English text
+src/cache.c: copy
+
+# src/common.h = ASCII English text
+src/common.h: copy
+
+# src/canberra-gtk.h = ASCII English text
+src/canberra-gtk.h: copy
+
+# src/llist.h = ASCII English text
+src/llist.h: copy
+
+# src/canberra-gtk-play.c = ASCII English text
+src/canberra-gtk-play.c: copy
+
+# src/fork-detect.c = ASCII English text
+src/fork-detect.c: copy
+
+# src/read-vorbis.c = ASCII English text
+src/read-vorbis.c: copy
+
+# src/null.c = ASCII English text
+src/null.c: copy
+
+# src/pulse.c = ASCII English text
+src/pulse.c: copy
+
+# src/map-file = ASCII text
+src/map-file: copy
+
+# src/sound-theme-spec.h = ASCII English text
+src/sound-theme-spec.h: copy
+
+# src/multi.c = ASCII English text
+src/multi.c: copy
+
+# src/macro.h = ASCII English text
+src/macro.h: copy
+
+# src/read-sound-file.c = ASCII English text
+src/read-sound-file.c: copy
+
+# src/read-vorbis.h = ASCII English text
+src/read-vorbis.h: copy
+
+# src/fork-detect.h = ASCII English text
+src/fork-detect.h: copy
+
+# src/mutex-posix.c = ASCII English text
+src/mutex-posix.c: copy
+
+# src/Makefile.in = ASCII English text, with very long lines
+src/Makefile.in: copy
+
+# src/driver-order.h = ASCII English text
+src/driver-order.h: copy
+
+# src/cache.h = ASCII English text
+src/cache.h: copy
+
+# bootstrap.sh = Bourne-Again shell script text executable
+bootstrap.sh: copy
+
+# compile = POSIX shell script text executable
+compile: copy
+
+# install-sh = POSIX shell script text executable
+install-sh: copy
+
+# configure.ac = ASCII English text, with very long lines
+configure.ac: copy
+
+# config.rpath = empty
+config.rpath: copy
+
+# missing = POSIX shell script text executable
+missing: copy
+
+# ltmain.sh = ASCII English text
+ltmain.sh: copy
+
+# configure = POSIX shell script text executable
+configure: copy
+
+# libcanberra.pc.in = ASCII text
+libcanberra.pc.in: copy
+
+# vala/libcanberra-gtk.vapi = ASCII English text
+vala/libcanberra-gtk.vapi: copy
+
+# vala/libcanberra.vapi = ASCII English text
+vala/libcanberra.vapi: copy
+
+# gtkdoc/html/home.png = PNG image data, 24 x 24, 8-bit/color RGBA, non-interlaced
+gtkdoc/html/home.png: copy
+
+# gtkdoc/html/index.sgml = ASCII text
+gtkdoc/html/index.sgml: copy
+
+# gtkdoc/html/right.png = PNG image data, 24 x 24, 8-bit/color RGBA, non-interlaced
+gtkdoc/html/right.png: copy
+
+# gtkdoc/html/left.png = PNG image data, 24 x 24, 8-bit/color RGBA, non-interlaced
+gtkdoc/html/left.png: copy
+
+# gtkdoc/html/ch01.html = HTML document text
+gtkdoc/html/ch01.html: copy
+
+# gtkdoc/html/libcanberra-canberra.html = HTML document text
+gtkdoc/html/libcanberra-canberra.html: copy
+
+# gtkdoc/html/libcanberra-canberra-gtk.html = HTML document text
+gtkdoc/html/libcanberra-canberra-gtk.html: copy
+
+# gtkdoc/html/up.png = PNG image data, 24 x 24, 8-bit/color RGBA, non-interlaced
+gtkdoc/html/up.png: copy
+
+# gtkdoc/html/style.css = ASCII C program text
+gtkdoc/html/style.css: copy
+
+# gtkdoc/html/libcanberra.devhelp2 = XML  document text
+gtkdoc/html/libcanberra.devhelp2: copy
+
+# gtkdoc/html/index.html = HTML document text
+gtkdoc/html/index.html: copy
+
+# gtkdoc/html/libcanberra.devhelp = XML  document text
+gtkdoc/html/libcanberra.devhelp: copy
+
+# gtkdoc/libcanberra-sections.txt = ASCII text
+gtkdoc/libcanberra-sections.txt: copy
+
+# gtkdoc/Makefile.am = ASCII English text
+gtkdoc/Makefile.am: copy
+
+# gtkdoc/gtk-doc.make = ASCII text
+gtkdoc/gtk-doc.make: copy
+
+# gtkdoc/libcanberra.types = empty
+gtkdoc/libcanberra.types: copy
+
+# gtkdoc/libcanberra-docs.sgml = XML  document text
+gtkdoc/libcanberra-docs.sgml: copy
+
+# gtkdoc/libcanberra-overrides.txt = empty
+gtkdoc/libcanberra-overrides.txt: copy
+
+# gtkdoc/Makefile.in = ASCII English text
+gtkdoc/Makefile.in: copy
+
+# acinclude.m4 = ASCII M4 macro language pre-processor text
+acinclude.m4: copy
+
+# config.sub = POSIX shell script text executable
+config.sub: copy
+
+# Makefile.in = ASCII English text
+Makefile.in: copy
+
+# depcomp = POSIX shell script text executable
+depcomp: copy

@@ -1,0 +1,4780 @@
+# Patchlist created Fri Mar  7 21:17:08 CST 2014
+
+# gnome-applets.spec.in = ASCII English text
+gnome-applets.spec.in: copy
+
+# configure.in = ASCII M4 macro language pre-processor text
+configure.in: copy
+
+# xmldocs.make = ASCII English text
+xmldocs.make: copy
+
+# gswitchit/gswitchit-applet.h = ASCII C program text
+gswitchit/gswitchit-applet.h: copy
+
+# gswitchit/Makefile.am = ASCII text
+gswitchit/Makefile.am: copy
+
+# gswitchit/gswitchit.ui = XML  document text
+gswitchit/gswitchit.ui: copy
+
+# gswitchit/help/uk/uk.po = UTF-8 Unicode PO (gettext message catalogue) text
+gswitchit/help/uk/uk.po: copy
+
+# gswitchit/help/uk/gswitchit.xml = XML  document text
+gswitchit/help/uk/gswitchit.xml: copy
+
+# gswitchit/help/es/gswitchit.xml = XML  document text
+gswitchit/help/es/gswitchit.xml: copy
+
+# gswitchit/help/es/es.po = UTF-8 Unicode PO (gettext message catalogue) text
+gswitchit/help/es/es.po: copy
+
+# gswitchit/help/Makefile.am = ASCII text
+gswitchit/help/Makefile.am: copy
+
+# gswitchit/help/oc/gswitchit.xml = XML  document text
+gswitchit/help/oc/gswitchit.xml: copy
+
+# gswitchit/help/oc/oc.po = UTF-8 Unicode English text
+gswitchit/help/oc/oc.po: copy
+
+# gswitchit/help/zh_CN/gswitchit.xml = XML  document text
+gswitchit/help/zh_CN/gswitchit.xml: copy
+
+# gswitchit/help/zh_CN/zh_CN.po = UTF-8 Unicode English text
+gswitchit/help/zh_CN/zh_CN.po: copy
+
+# gswitchit/help/eu/gswitchit.xml = XML  document text
+gswitchit/help/eu/gswitchit.xml: copy
+
+# gswitchit/help/eu/eu.po = UTF-8 Unicode PO (gettext message catalogue) text, with very long lines
+gswitchit/help/eu/eu.po: copy
+
+# gswitchit/help/el/gswitchit.xml = XML  document text
+gswitchit/help/el/gswitchit.xml: copy
+
+# gswitchit/help/el/el.po = UTF-8 Unicode English text
+gswitchit/help/el/el.po: copy
+
+# gswitchit/help/sv/gswitchit.xml = XML  document text
+gswitchit/help/sv/gswitchit.xml: copy
+
+# gswitchit/help/sv/sv.po = UTF-8 Unicode PO (gettext message catalogue) text, with very long lines
+gswitchit/help/sv/sv.po: copy
+
+# gswitchit/help/en_GB/gswitchit.xml = XML  document text
+gswitchit/help/en_GB/gswitchit.xml: copy
+
+# gswitchit/help/en_GB/en_GB.po = ASCII PO (gettext message catalogue) text, with very long lines
+gswitchit/help/en_GB/en_GB.po: copy
+
+# gswitchit/help/de/gswitchit.xml = XML  document text
+gswitchit/help/de/gswitchit.xml: copy
+
+# gswitchit/help/de/de.po = UTF-8 Unicode English text
+gswitchit/help/de/de.po: copy
+
+# gswitchit/help/C/legal.xml = ASCII English text
+gswitchit/help/C/legal.xml: copy
+
+# gswitchit/help/C/gswitchit.xml = XML  document text
+gswitchit/help/C/gswitchit.xml: copy
+
+# gswitchit/help/ca/gswitchit.xml = XML  document text
+gswitchit/help/ca/gswitchit.xml: copy
+
+# gswitchit/help/ca/ca.po = UTF-8 Unicode PO (gettext message catalogue) text, with very long lines
+gswitchit/help/ca/ca.po: copy
+
+# gswitchit/help/fr/gswitchit.xml = XML  document text
+gswitchit/help/fr/gswitchit.xml: copy
+
+# gswitchit/help/fr/fr.po = UTF-8 Unicode English text
+gswitchit/help/fr/fr.po: copy
+
+# gswitchit/help/cs/gswitchit.xml = XML  document text
+gswitchit/help/cs/gswitchit.xml: copy
+
+# gswitchit/help/cs/cs.po = UTF-8 Unicode English text
+gswitchit/help/cs/cs.po: copy
+
+# gswitchit/help/gswitchit.omf.in = XML  document text
+gswitchit/help/gswitchit.omf.in: copy
+
+# gswitchit/help/fi/gswitchit.xml = XML  document text
+gswitchit/help/fi/gswitchit.xml: copy
+
+# gswitchit/help/fi/fi.po = UTF-8 Unicode PO (gettext message catalogue) text, with very long lines
+gswitchit/help/fi/fi.po: copy
+
+# gswitchit/help/Makefile.in = ASCII English text
+gswitchit/help/Makefile.in: copy
+
+# gswitchit/help/ru/gswitchit.xml = XML  document text
+gswitchit/help/ru/gswitchit.xml: copy
+
+# gswitchit/help/ru/ru.po = UTF-8 Unicode PO (gettext message catalogue) text
+gswitchit/help/ru/ru.po: copy
+
+# gswitchit/switch.c = ASCII C program text
+gswitchit/switch.c: copy
+
+# gswitchit/gswitchit-applet.c = ASCII C program text
+gswitchit/gswitchit-applet.c: copy
+
+# gswitchit/GNOME_GSwitchItApplet.xml = ASCII text
+gswitchit/GNOME_GSwitchItApplet.xml: copy
+
+# gswitchit/GNOME_KeyboardApplet.server.in.in = ASCII text
+gswitchit/GNOME_KeyboardApplet.server.in.in: copy
+
+# gswitchit/Makefile.in = ASCII English text, with very long lines
+gswitchit/Makefile.in: copy
+
+# gweather/Makefile.am = ASCII text
+gweather/Makefile.am: copy
+
+# gweather/main.c = ASCII C program text
+gweather/main.c: copy
+
+# gweather/docs/uk/uk.po = UTF-8 Unicode PO (gettext message catalogue) text, with very long lines
+gweather/docs/uk/uk.po: copy
+
+# gweather/docs/uk/figures/gweather_applet.png = PNG image data, 49 x 25, 8-bit/color RGBA, non-interlaced
+gweather/docs/uk/figures/gweather_applet.png: copy
+
+# gweather/docs/uk/figures/gweather-details.png = PNG image data, 612 x 509, 8-bit/color RGBA, non-interlaced
+gweather/docs/uk/figures/gweather-details.png: copy
+
+# gweather/docs/uk/figures/gweather-prefs-general.png = PNG image data, 398 x 516, 8-bit/color RGBA, non-interlaced
+gweather/docs/uk/figures/gweather-prefs-general.png: copy
+
+# gweather/docs/uk/figures/gweather-prefs-locations.png = PNG image data, 398 x 516, 8-bit/color RGBA, non-interlaced
+gweather/docs/uk/figures/gweather-prefs-locations.png: copy
+
+# gweather/docs/uk/gweather.xml = XML  document text
+gweather/docs/uk/gweather.xml: copy
+
+# gweather/docs/es/es.po = UTF-8 Unicode PO (gettext message catalogue) text
+gweather/docs/es/es.po: copy
+
+# gweather/docs/es/figures/gweather-details.png = PNG image data, 598 x 426, 8-bit/color RGBA, non-interlaced
+gweather/docs/es/figures/gweather-details.png: copy
+
+# gweather/docs/es/figures/gweather-prefs-general.png = PNG image data, 456 x 463, 8-bit/color RGBA, non-interlaced
+gweather/docs/es/figures/gweather-prefs-general.png: copy
+
+# gweather/docs/es/figures/gweather-prefs-locations.png = PNG image data, 456 x 463, 8-bit/color RGBA, non-interlaced
+gweather/docs/es/figures/gweather-prefs-locations.png: copy
+
+# gweather/docs/es/figures/gweather-menu-prefs.png = PNG image data, 202 x 206, 8-bit/color RGBA, non-interlaced
+gweather/docs/es/figures/gweather-menu-prefs.png: copy
+
+# gweather/docs/es/gweather.xml = XML  document text
+gweather/docs/es/gweather.xml: copy
+
+# gweather/docs/Makefile.am = ASCII text
+gweather/docs/Makefile.am: copy
+
+# gweather/docs/oc/oc.po = UTF-8 Unicode English text
+gweather/docs/oc/oc.po: copy
+
+# gweather/docs/oc/gweather.xml = XML  document text
+gweather/docs/oc/gweather.xml: copy
+
+# gweather/docs/zh_CN/zh_CN.po = UTF-8 Unicode English text
+gweather/docs/zh_CN/zh_CN.po: copy
+
+# gweather/docs/zh_CN/figures/gweather_applet.png = PNG image data, 27 x 47, 8-bit/color RGB, non-interlaced
+gweather/docs/zh_CN/figures/gweather_applet.png: copy
+
+# gweather/docs/zh_CN/gweather.xml = XML  document text
+gweather/docs/zh_CN/gweather.xml: copy
+
+# gweather/docs/eu/eu.po = UTF-8 Unicode PO (gettext message catalogue) text, with very long lines
+gweather/docs/eu/eu.po: copy
+
+# gweather/docs/eu/figures/gweather-details.png = PNG image data, 439 x 428, 8-bit/color RGBA, non-interlaced
+gweather/docs/eu/figures/gweather-details.png: copy
+
+# gweather/docs/eu/figures/gweather-prefs-general.png = PNG image data, 439 x 465, 8-bit/color RGBA, non-interlaced
+gweather/docs/eu/figures/gweather-prefs-general.png: copy
+
+# gweather/docs/eu/figures/gweather-prefs-locations.png = PNG image data, 439 x 465, 8-bit/color RGBA, non-interlaced
+gweather/docs/eu/figures/gweather-prefs-locations.png: copy
+
+# gweather/docs/eu/figures/gweather-menu-prefs.png = PNG image data, 208 x 210, 8-bit/color RGBA, non-interlaced
+gweather/docs/eu/figures/gweather-menu-prefs.png: copy
+
+# gweather/docs/eu/gweather.xml = XML  document text
+gweather/docs/eu/gweather.xml: copy
+
+# gweather/docs/el/figures/gweather-details.png = PNG image data, 388 x 458, 8-bit/color RGBA, non-interlaced
+gweather/docs/el/figures/gweather-details.png: copy
+
+# gweather/docs/el/figures/gweather-prefs-general.png = PNG image data, 442 x 485, 8-bit/color RGBA, non-interlaced
+gweather/docs/el/figures/gweather-prefs-general.png: copy
+
+# gweather/docs/el/figures/gweather-prefs-locations.png = PNG image data, 442 x 485, 8-bit/color RGBA, non-interlaced
+gweather/docs/el/figures/gweather-prefs-locations.png: copy
+
+# gweather/docs/el/figures/gweather-menu-prefs.png = PNG image data, 281 x 229, 8-bit/color RGBA, non-interlaced
+gweather/docs/el/figures/gweather-menu-prefs.png: copy
+
+# gweather/docs/el/gweather.xml = XML  document text
+gweather/docs/el/gweather.xml: copy
+
+# gweather/docs/el/el.po = UTF-8 Unicode PO (gettext message catalogue) text, with very long lines
+gweather/docs/el/el.po: copy
+
+# gweather/docs/sv/sv.po = UTF-8 Unicode PO (gettext message catalogue) text, with very long lines
+gweather/docs/sv/sv.po: copy
+
+# gweather/docs/sv/figures/gweather_applet.png = PNG image data, 27 x 47, 8-bit/color RGB, non-interlaced
+gweather/docs/sv/figures/gweather_applet.png: copy
+
+# gweather/docs/sv/figures/gweather-details.png = PNG image data, 502 x 457, 8-bit/color RGBA, non-interlaced
+gweather/docs/sv/figures/gweather-details.png: copy
+
+# gweather/docs/sv/figures/gweather-prefs-general.png = PNG image data, 402 x 470, 8-bit/color RGBA, non-interlaced
+gweather/docs/sv/figures/gweather-prefs-general.png: copy
+
+# gweather/docs/sv/figures/gweather-prefs-locations.png = PNG image data, 402 x 470, 8-bit/color RGBA, non-interlaced
+gweather/docs/sv/figures/gweather-prefs-locations.png: copy
+
+# gweather/docs/sv/figures/gweather-menu-prefs.png = PNG image data, 223 x 220, 8-bit/color RGBA, non-interlaced
+gweather/docs/sv/figures/gweather-menu-prefs.png: copy
+
+# gweather/docs/sv/gweather.xml = XML  document text
+gweather/docs/sv/gweather.xml: copy
+
+# gweather/docs/en_GB/en_GB.po = ASCII PO (gettext message catalogue) text
+gweather/docs/en_GB/en_GB.po: copy
+
+# gweather/docs/en_GB/gweather.xml = XML  document text
+gweather/docs/en_GB/gweather.xml: copy
+
+# gweather/docs/de/de.po = UTF-8 Unicode PO (gettext message catalogue) text
+gweather/docs/de/de.po: copy
+
+# gweather/docs/de/figures/gweather_applet.png = PNG image data, 27 x 47, 8-bit/color RGB, non-interlaced
+gweather/docs/de/figures/gweather_applet.png: copy
+
+# gweather/docs/de/figures/gweather-details.png = PNG image data, 612 x 427, 8-bit/color RGBA, non-interlaced
+gweather/docs/de/figures/gweather-details.png: copy
+
+# gweather/docs/de/figures/gweather-prefs-general.png = PNG image data, 466 x 469, 8-bit/color RGBA, non-interlaced
+gweather/docs/de/figures/gweather-prefs-general.png: copy
+
+# gweather/docs/de/figures/gweather-prefs-locations.png = PNG image data, 466 x 469, 8-bit/color RGBA, non-interlaced
+gweather/docs/de/figures/gweather-prefs-locations.png: copy
+
+# gweather/docs/de/figures/gweather-menu-prefs.png = PNG image data, 181 x 212, 8-bit/color RGBA, non-interlaced
+gweather/docs/de/figures/gweather-menu-prefs.png: copy
+
+# gweather/docs/de/gweather.xml = XML  document text
+gweather/docs/de/gweather.xml: copy
+
+# gweather/docs/ar/ar.po = UTF-8 Unicode PO (gettext message catalogue) text, with very long lines
+gweather/docs/ar/ar.po: copy
+
+# gweather/docs/ar/gweather.xml = XML  document text
+gweather/docs/ar/gweather.xml: copy
+
+# gweather/docs/gweather.omf.in = XML  document text
+gweather/docs/gweather.omf.in: copy
+
+# gweather/docs/pa/pa.po = UTF-8 Unicode PO (gettext message catalogue) text, with very long lines
+gweather/docs/pa/pa.po: copy
+
+# gweather/docs/pa/gweather.xml = XML  document text
+gweather/docs/pa/gweather.xml: copy
+
+# gweather/docs/C/legal.xml = ASCII English text
+gweather/docs/C/legal.xml: copy
+
+# gweather/docs/C/figures/gweather_applet.png = PNG image data, 49 x 25, 8-bit/color RGBA, non-interlaced
+gweather/docs/C/figures/gweather_applet.png: copy
+
+# gweather/docs/C/figures/stock_weather-night-clear.png = PNG image data, 16 x 16, 8-bit/color RGB, non-interlaced
+gweather/docs/C/figures/stock_weather-night-clear.png: copy
+
+# gweather/docs/C/figures/gweather-details.png = PNG image data, 382 x 418, 8-bit/color RGBA, non-interlaced
+gweather/docs/C/figures/gweather-details.png: copy
+
+# gweather/docs/C/figures/gweather-prefs-general.png = PNG image data, 396 x 455, 8-bit/color RGBA, non-interlaced
+gweather/docs/C/figures/gweather-prefs-general.png: copy
+
+# gweather/docs/C/figures/stock_weather-storm.png = PNG image data, 16 x 16, 8-bit/color RGBA, non-interlaced
+gweather/docs/C/figures/stock_weather-storm.png: copy
+
+# gweather/docs/C/figures/stock_weather-showers.png = PNG image data, 16 x 16, 8-bit/color RGBA, non-interlaced
+gweather/docs/C/figures/stock_weather-showers.png: copy
+
+# gweather/docs/C/figures/stock_weather-snow.png = PNG image data, 16 x 16, 8-bit/color RGBA, non-interlaced
+gweather/docs/C/figures/stock_weather-snow.png: copy
+
+# gweather/docs/C/figures/stock_weather-night-few-clouds.png = PNG image data, 16 x 16, 8-bit/color RGB, non-interlaced
+gweather/docs/C/figures/stock_weather-night-few-clouds.png: copy
+
+# gweather/docs/C/figures/stock_weather-cloudy.png = PNG image data, 16 x 16, 8-bit/color RGBA, non-interlaced
+gweather/docs/C/figures/stock_weather-cloudy.png: copy
+
+# gweather/docs/C/figures/gweather-prefs-locations.png = PNG image data, 396 x 455, 8-bit/color RGBA, non-interlaced
+gweather/docs/C/figures/gweather-prefs-locations.png: copy
+
+# gweather/docs/C/figures/stock_weather-fog.png = PNG image data, 16 x 16, 8-bit/color RGBA, non-interlaced
+gweather/docs/C/figures/stock_weather-fog.png: copy
+
+# gweather/docs/C/figures/gweather-menu-prefs.png = PNG image data, 210 x 226, 8-bit/color RGBA, non-interlaced
+gweather/docs/C/figures/gweather-menu-prefs.png: copy
+
+# gweather/docs/C/figures/stock_weather-sunny.png = PNG image data, 16 x 16, 8-bit/color RGBA, non-interlaced
+gweather/docs/C/figures/stock_weather-sunny.png: copy
+
+# gweather/docs/C/figures/stock_weather-few-clouds.png = PNG image data, 16 x 16, 8-bit/color RGBA, non-interlaced
+gweather/docs/C/figures/stock_weather-few-clouds.png: copy
+
+# gweather/docs/C/gweather.xml = XML  document text
+gweather/docs/C/gweather.xml: copy
+
+# gweather/docs/ca/ca.po = UTF-8 Unicode PO (gettext message catalogue) text
+gweather/docs/ca/ca.po: copy
+
+# gweather/docs/ca/figures/gweather-details.png = PNG image data, 514 x 483, 8-bit/color RGBA, non-interlaced
+gweather/docs/ca/figures/gweather-details.png: copy
+
+# gweather/docs/ca/figures/gweather-prefs-general.png = PNG image data, 504 x 499, 8-bit/color RGBA, non-interlaced
+gweather/docs/ca/figures/gweather-prefs-general.png: copy
+
+# gweather/docs/ca/figures/gweather-prefs-locations.png = PNG image data, 504 x 499, 8-bit/color RGBA, non-interlaced
+gweather/docs/ca/figures/gweather-prefs-locations.png: copy
+
+# gweather/docs/ca/figures/gweather-menu-prefs.png = PNG image data, 182 x 236, 8-bit/color RGBA, non-interlaced
+gweather/docs/ca/figures/gweather-menu-prefs.png: copy
+
+# gweather/docs/ca/gweather.xml = XML  document text
+gweather/docs/ca/gweather.xml: copy
+
+# gweather/docs/fr/fr.po = UTF-8 Unicode English text
+gweather/docs/fr/fr.po: copy
+
+# gweather/docs/fr/figures/gweather_applet.png = PNG image data, 58 x 25, 8-bit/color RGB, non-interlaced
+gweather/docs/fr/figures/gweather_applet.png: copy
+
+# gweather/docs/fr/figures/gweather-details.png = PNG image data, 585 x 551, 8-bit/color RGBA, non-interlaced
+gweather/docs/fr/figures/gweather-details.png: copy
+
+# gweather/docs/fr/figures/gweather-prefs-general.png = PNG image data, 513 x 476, 8-bit/color RGBA, non-interlaced
+gweather/docs/fr/figures/gweather-prefs-general.png: copy
+
+# gweather/docs/fr/figures/gweather-prefs-locations.png = PNG image data, 513 x 476, 8-bit/color RGBA, non-interlaced
+gweather/docs/fr/figures/gweather-prefs-locations.png: copy
+
+# gweather/docs/fr/figures/gweather-menu-prefs.png = PNG image data, 295 x 241, 8-bit/color RGBA, non-interlaced
+gweather/docs/fr/figures/gweather-menu-prefs.png: copy
+
+# gweather/docs/fr/gweather.xml = XML  document text
+gweather/docs/fr/gweather.xml: copy
+
+# gweather/docs/cs/cs.po = UTF-8 Unicode English text
+gweather/docs/cs/cs.po: copy
+
+# gweather/docs/cs/figures/gweather-details.png = PNG image data, 434 x 424, 8-bit/color RGBA, non-interlaced
+gweather/docs/cs/figures/gweather-details.png: copy
+
+# gweather/docs/cs/figures/gweather-prefs-general.png = PNG image data, 418 x 463, 8-bit/color RGBA, non-interlaced
+gweather/docs/cs/figures/gweather-prefs-general.png: copy
+
+# gweather/docs/cs/figures/gweather-prefs-locations.png = PNG image data, 418 x 463, 8-bit/color RGBA, non-interlaced
+gweather/docs/cs/figures/gweather-prefs-locations.png: copy
+
+# gweather/docs/cs/figures/gweather-menu-prefs.png = PNG image data, 196 x 217, 8-bit/color RGBA, non-interlaced
+gweather/docs/cs/figures/gweather-menu-prefs.png: copy
+
+# gweather/docs/cs/gweather.xml = XML  document text
+gweather/docs/cs/gweather.xml: copy
+
+# gweather/docs/ko/ko.po = UTF-8 Unicode PO (gettext message catalogue) text, with very long lines
+gweather/docs/ko/ko.po: copy
+
+# gweather/docs/ko/gweather.xml = XML  document text
+gweather/docs/ko/gweather.xml: copy
+
+# gweather/docs/fi/fi.po = UTF-8 Unicode PO (gettext message catalogue) text, with very long lines
+gweather/docs/fi/fi.po: copy
+
+# gweather/docs/fi/figures/gweather-details.png = PNG image data, 425 x 460, 8-bit/color RGBA, non-interlaced
+gweather/docs/fi/figures/gweather-details.png: copy
+
+# gweather/docs/fi/figures/gweather-prefs-general.png = PNG image data, 389 x 487, 8-bit/color RGBA, non-interlaced
+gweather/docs/fi/figures/gweather-prefs-general.png: copy
+
+# gweather/docs/fi/figures/gweather-prefs-locations.png = PNG image data, 389 x 487, 8-bit/color RGBA, non-interlaced
+gweather/docs/fi/figures/gweather-prefs-locations.png: copy
+
+# gweather/docs/fi/figures/gweather-menu-prefs.png = PNG image data, 198 x 220, 8-bit/color RGB, non-interlaced
+gweather/docs/fi/figures/gweather-menu-prefs.png: copy
+
+# gweather/docs/fi/gweather.xml = XML  document text
+gweather/docs/fi/gweather.xml: copy
+
+# gweather/docs/pt_BR/pt_BR.po = UTF-8 Unicode English text
+gweather/docs/pt_BR/pt_BR.po: copy
+
+# gweather/docs/pt_BR/figures/gweather-details.png = PNG image data, 434 x 454, 8-bit/color RGBA, non-interlaced
+gweather/docs/pt_BR/figures/gweather-details.png: copy
+
+# gweather/docs/pt_BR/figures/gweather-prefs-general.png = PNG image data, 459 x 481, 8-bit/color RGBA, non-interlaced
+gweather/docs/pt_BR/figures/gweather-prefs-general.png: copy
+
+# gweather/docs/pt_BR/figures/gweather-prefs-locations.png = PNG image data, 459 x 481, 8-bit/color RGBA, non-interlaced
+gweather/docs/pt_BR/figures/gweather-prefs-locations.png: copy
+
+# gweather/docs/pt_BR/figures/gweather-menu-prefs.png = PNG image data, 210 x 224, 8-bit/color RGBA, non-interlaced
+gweather/docs/pt_BR/figures/gweather-menu-prefs.png: copy
+
+# gweather/docs/pt_BR/gweather.xml = XML  document text
+gweather/docs/pt_BR/gweather.xml: copy
+
+# gweather/docs/Makefile.in = ASCII English text
+gweather/docs/Makefile.in: copy
+
+# gweather/docs/nl/nl.po = UTF-8 Unicode PO (gettext message catalogue) text
+gweather/docs/nl/nl.po: copy
+
+# gweather/docs/nl/figures/gweather_applet.png = PNG image data, 49 x 25, 8-bit/color RGBA, non-interlaced
+gweather/docs/nl/figures/gweather_applet.png: copy
+
+# gweather/docs/nl/figures/gweather-details.png = PNG image data, 382 x 418, 8-bit/color RGBA, non-interlaced
+gweather/docs/nl/figures/gweather-details.png: copy
+
+# gweather/docs/nl/figures/gweather-prefs-general.png = PNG image data, 396 x 455, 8-bit/color RGBA, non-interlaced
+gweather/docs/nl/figures/gweather-prefs-general.png: copy
+
+# gweather/docs/nl/figures/gweather-prefs-locations.png = PNG image data, 396 x 455, 8-bit/color RGBA, non-interlaced
+gweather/docs/nl/figures/gweather-prefs-locations.png: copy
+
+# gweather/docs/nl/figures/gweather-menu-prefs.png = PNG image data, 210 x 226, 8-bit/color RGBA, non-interlaced
+gweather/docs/nl/figures/gweather-menu-prefs.png: copy
+
+# gweather/docs/nl/gweather.xml = XML  document text
+gweather/docs/nl/gweather.xml: copy
+
+# gweather/docs/ru/ru.po = UTF-8 Unicode PO (gettext message catalogue) text
+gweather/docs/ru/ru.po: copy
+
+# gweather/docs/ru/figures/gweather-details.png = PNG image data, 598 x 454, 8-bit/color RGBA, non-interlaced
+gweather/docs/ru/figures/gweather-details.png: copy
+
+# gweather/docs/ru/figures/gweather-prefs-general.png = PNG image data, 465 x 481, 8-bit/color RGBA, non-interlaced
+gweather/docs/ru/figures/gweather-prefs-general.png: copy
+
+# gweather/docs/ru/figures/gweather-prefs-locations.png = PNG image data, 465 x 481, 8-bit/color RGBA, non-interlaced
+gweather/docs/ru/figures/gweather-prefs-locations.png: copy
+
+# gweather/docs/ru/figures/gweather-menu-prefs.png = PNG image data, 235 x 244, 8-bit/color RGBA, non-interlaced
+gweather/docs/ru/figures/gweather-menu-prefs.png: copy
+
+# gweather/docs/ru/gweather.xml = XML  document text
+gweather/docs/ru/gweather.xml: copy
+
+# gweather/gweather-pref.c = ASCII C program text
+gweather/gweather-pref.c: copy
+
+# gweather/AUTHORS = ASCII text
+gweather/AUTHORS: copy
+
+# gweather/GNOME_GWeatherApplet.xml = ASCII text
+gweather/GNOME_GWeatherApplet.xml: copy
+
+# gweather/GNOME_GWeatherApplet_Factory.server.in.in = XML  document text
+gweather/GNOME_GWeatherApplet_Factory.server.in.in: copy
+
+# gweather/gweather-dialog.c = ASCII C program text
+gweather/gweather-dialog.c: copy
+
+# gweather/gweather.h = ASCII C program text
+gweather/gweather.h: copy
+
+# gweather/gweather-dialog.h = ASCII C program text
+gweather/gweather-dialog.h: copy
+
+# gweather/gweather-about.c = ASCII C program text
+gweather/gweather-about.c: copy
+
+# gweather/gweather-about.h = ASCII C program text
+gweather/gweather-about.h: copy
+
+# gweather/gweather-applet.h = ASCII C program text
+gweather/gweather-applet.h: copy
+
+# gweather/gweather-pref.h = ASCII C program text
+gweather/gweather-pref.h: copy
+
+# gweather/gweather-applet.c = ASCII C program text
+gweather/gweather-applet.c: copy
+
+# gweather/Makefile.in = ASCII English text
+gweather/Makefile.in: copy
+
+# trashapplet/trashapplet-empty-progress.ui = XML  document text
+trashapplet/trashapplet-empty-progress.ui: copy
+
+# trashapplet/Makefile.am = ASCII text
+trashapplet/Makefile.am: copy
+
+# trashapplet/GNOME_Panel_TrashApplet.server.in.in = XML  document text
+trashapplet/GNOME_Panel_TrashApplet.server.in.in: copy
+
+# trashapplet/README = ASCII English text
+trashapplet/README: copy
+
+# trashapplet/docs/uk/uk.po = UTF-8 Unicode PO (gettext message catalogue) text
+trashapplet/docs/uk/uk.po: copy
+
+# trashapplet/docs/uk/trashapplet.xml = XML  document text
+trashapplet/docs/uk/trashapplet.xml: copy
+
+# trashapplet/docs/uk/figures/trash-applet.png = PNG image data, 181 x 224, 8-bit/color RGBA, non-interlaced
+trashapplet/docs/uk/figures/trash-applet.png: copy
+
+# trashapplet/docs/es/trashapplet.xml = XML  document text
+trashapplet/docs/es/trashapplet.xml: copy
+
+# trashapplet/docs/es/es.po = UTF-8 Unicode PO (gettext message catalogue) text
+trashapplet/docs/es/es.po: copy
+
+# trashapplet/docs/es/figures/trash-applet.png = PNG image data, 141 x 186, 8-bit/color RGBA, non-interlaced
+trashapplet/docs/es/figures/trash-applet.png: copy
+
+# trashapplet/docs/Makefile.am = ASCII text
+trashapplet/docs/Makefile.am: copy
+
+# trashapplet/docs/oc/trashapplet.xml = XML  document text
+trashapplet/docs/oc/trashapplet.xml: copy
+
+# trashapplet/docs/oc/oc.po = UTF-8 Unicode English text
+trashapplet/docs/oc/oc.po: copy
+
+# trashapplet/docs/zh_CN/zh_CN.po = UTF-8 Unicode PO (gettext message catalogue) text
+trashapplet/docs/zh_CN/zh_CN.po: copy
+
+# trashapplet/docs/zh_CN/trashapplet.xml = XML  document text
+trashapplet/docs/zh_CN/trashapplet.xml: copy
+
+# trashapplet/docs/eu/eu.po = UTF-8 Unicode PO (gettext message catalogue) text, with very long lines
+trashapplet/docs/eu/eu.po: copy
+
+# trashapplet/docs/eu/trashapplet.xml = XML  document text
+trashapplet/docs/eu/trashapplet.xml: copy
+
+# trashapplet/docs/eu/figures/trash-applet.png = PNG image data, 157 x 189, 8-bit/color RGBA, non-interlaced
+trashapplet/docs/eu/figures/trash-applet.png: copy
+
+# trashapplet/docs/trashapplet.omf.in = XML  document text
+trashapplet/docs/trashapplet.omf.in: copy
+
+# trashapplet/docs/el/trashapplet.xml = XML  document text
+trashapplet/docs/el/trashapplet.xml: copy
+
+# trashapplet/docs/el/figures/trash-applet.png = PNG image data, 281 x 206, 8-bit/color RGB, non-interlaced
+trashapplet/docs/el/figures/trash-applet.png: copy
+
+# trashapplet/docs/el/el.po = UTF-8 Unicode PO (gettext message catalogue) text, with very long lines
+trashapplet/docs/el/el.po: copy
+
+# trashapplet/docs/sv/trashapplet.xml = XML  document text
+trashapplet/docs/sv/trashapplet.xml: copy
+
+# trashapplet/docs/sv/sv.po = UTF-8 Unicode PO (gettext message catalogue) text, with very long lines
+trashapplet/docs/sv/sv.po: copy
+
+# trashapplet/docs/sv/figures/trash-applet.png = PNG image data, 211 x 238, 8-bit/color RGB, non-interlaced
+trashapplet/docs/sv/figures/trash-applet.png: copy
+
+# trashapplet/docs/en_GB/en_GB.po = ASCII PO (gettext message catalogue) text, with very long lines
+trashapplet/docs/en_GB/en_GB.po: copy
+
+# trashapplet/docs/en_GB/trashapplet.xml = XML  document text
+trashapplet/docs/en_GB/trashapplet.xml: copy
+
+# trashapplet/docs/de/de.po = UTF-8 Unicode PO (gettext message catalogue) text, with very long lines
+trashapplet/docs/de/de.po: copy
+
+# trashapplet/docs/de/trashapplet.xml = XML  document text
+trashapplet/docs/de/trashapplet.xml: copy
+
+# trashapplet/docs/de/figures/trash-applet.png = PNG image data, 199 x 224, 8-bit/color RGB, interlaced
+trashapplet/docs/de/figures/trash-applet.png: copy
+
+# trashapplet/docs/zh_TW/zh_TW.po = UTF-8 Unicode PO (gettext message catalogue) text, with very long lines
+trashapplet/docs/zh_TW/zh_TW.po: copy
+
+# trashapplet/docs/zh_TW/trashapplet.xml = XML  document text
+trashapplet/docs/zh_TW/trashapplet.xml: copy
+
+# trashapplet/docs/pa/pa.po = UTF-8 Unicode PO (gettext message catalogue) text
+trashapplet/docs/pa/pa.po: copy
+
+# trashapplet/docs/pa/trashapplet.xml = XML  document text
+trashapplet/docs/pa/trashapplet.xml: copy
+
+# trashapplet/docs/pa/figures/trash-applet.png = PNG image data, 201 x 303, 8-bit/color RGB, non-interlaced
+trashapplet/docs/pa/figures/trash-applet.png: copy
+
+# trashapplet/docs/hu/trashapplet.xml = XML  document text
+trashapplet/docs/hu/trashapplet.xml: copy
+
+# trashapplet/docs/hu/hu.po = UTF-8 Unicode PO (gettext message catalogue) text, with very long lines
+trashapplet/docs/hu/hu.po: copy
+
+# trashapplet/docs/C/legal.xml = XML  document text
+trashapplet/docs/C/legal.xml: copy
+
+# trashapplet/docs/C/trashapplet.xml = XML  document text
+trashapplet/docs/C/trashapplet.xml: copy
+
+# trashapplet/docs/C/figures/trash-applet.png = PNG image data, 193 x 206, 8-bit/color RGBA, non-interlaced
+trashapplet/docs/C/figures/trash-applet.png: copy
+
+# trashapplet/docs/it/trashapplet.xml = XML  document text
+trashapplet/docs/it/trashapplet.xml: copy
+
+# trashapplet/docs/it/it.po = UTF-8 Unicode PO (gettext message catalogue) text
+trashapplet/docs/it/it.po: copy
+
+# trashapplet/docs/it/figures/trash-applet.png = PNG image data, 287 x 229, 8-bit/color RGBA, non-interlaced
+trashapplet/docs/it/figures/trash-applet.png: copy
+
+# trashapplet/docs/ca/trashapplet.xml = XML  document text
+trashapplet/docs/ca/trashapplet.xml: copy
+
+# trashapplet/docs/ca/ca.po = UTF-8 Unicode PO (gettext message catalogue) text
+trashapplet/docs/ca/ca.po: copy
+
+# trashapplet/docs/fr/trashapplet.xml = XML  document text
+trashapplet/docs/fr/trashapplet.xml: copy
+
+# trashapplet/docs/fr/fr.po = UTF-8 Unicode English text
+trashapplet/docs/fr/fr.po: copy
+
+# trashapplet/docs/fr/figures/trash-applet.png = PNG image data, 247 x 219, 8-bit/color RGBA, non-interlaced
+trashapplet/docs/fr/figures/trash-applet.png: copy
+
+# trashapplet/docs/cs/cs.po = UTF-8 Unicode English text
+trashapplet/docs/cs/cs.po: copy
+
+# trashapplet/docs/cs/trashapplet.xml = XML  document text
+trashapplet/docs/cs/trashapplet.xml: copy
+
+# trashapplet/docs/da/da.po = UTF-8 Unicode PO (gettext message catalogue) text
+trashapplet/docs/da/da.po: copy
+
+# trashapplet/docs/da/trashapplet.xml = XML  document text
+trashapplet/docs/da/trashapplet.xml: copy
+
+# trashapplet/docs/zh_HK/zh_HK.po = UTF-8 Unicode PO (gettext message catalogue) text, with very long lines
+trashapplet/docs/zh_HK/zh_HK.po: copy
+
+# trashapplet/docs/zh_HK/trashapplet.xml = XML  document text
+trashapplet/docs/zh_HK/trashapplet.xml: copy
+
+# trashapplet/docs/fi/trashapplet.xml = XML  document text
+trashapplet/docs/fi/trashapplet.xml: copy
+
+# trashapplet/docs/fi/fi.po = UTF-8 Unicode PO (gettext message catalogue) text, with very long lines
+trashapplet/docs/fi/fi.po: copy
+
+# trashapplet/docs/fi/figures/trash-applet.png = PNG image data, 158 x 221, 8-bit/color RGBA, non-interlaced
+trashapplet/docs/fi/figures/trash-applet.png: copy
+
+# trashapplet/docs/pt_BR/trashapplet.xml = XML  document text
+trashapplet/docs/pt_BR/trashapplet.xml: copy
+
+# trashapplet/docs/pt_BR/pt_BR.po = UTF-8 Unicode English text
+trashapplet/docs/pt_BR/pt_BR.po: copy
+
+# trashapplet/docs/Makefile.in = ASCII English text
+trashapplet/docs/Makefile.in: copy
+
+# trashapplet/docs/nl/nl.po = UTF-8 Unicode PO (gettext message catalogue) text
+trashapplet/docs/nl/nl.po: copy
+
+# trashapplet/docs/nl/trashapplet.xml = XML  document text
+trashapplet/docs/nl/trashapplet.xml: copy
+
+# trashapplet/docs/nl/figures/trash-applet.png = PNG image data, 193 x 206, 8-bit/color RGBA, non-interlaced
+trashapplet/docs/nl/figures/trash-applet.png: copy
+
+# trashapplet/docs/ru/ru.po = UTF-8 Unicode PO (gettext message catalogue) text, with very long lines
+trashapplet/docs/ru/ru.po: copy
+
+# trashapplet/docs/ru/trashapplet.xml = XML  document text
+trashapplet/docs/ru/trashapplet.xml: copy
+
+# trashapplet/src/xstuff.c = ASCII C program text
+trashapplet/src/xstuff.c: copy
+
+# trashapplet/src/Makefile.am = ASCII text
+trashapplet/src/Makefile.am: copy
+
+# trashapplet/src/trash-empty.h = UTF-8 Unicode C program text
+trashapplet/src/trash-empty.h: copy
+
+# trashapplet/src/xstuff.h = ASCII C program text
+trashapplet/src/xstuff.h: copy
+
+# trashapplet/src/trashapplet.c = ASCII C program text
+trashapplet/src/trashapplet.c: copy
+
+# trashapplet/src/trash-empty.c = UTF-8 Unicode C program text
+trashapplet/src/trash-empty.c: copy
+
+# trashapplet/src/Makefile.in = ASCII English text
+trashapplet/src/Makefile.in: copy
+
+# trashapplet/Makefile.in = ASCII English text
+trashapplet/Makefile.in: copy
+
+# trashapplet/GNOME_Panel_TrashApplet.xml = ASCII text
+trashapplet/GNOME_Panel_TrashApplet.xml: copy
+
+# intltool-update.in = empty
+intltool-update.in: copy
+
+# INSTALL = ASCII English text
+INSTALL: copy
+
+# NEWS = UTF-8 Unicode English text
+NEWS: copy
+
+# aclocal.m4 = UTF-8 Unicode English text
+aclocal.m4: copy
+
+# Makefile.am = ASCII English text
+Makefile.am: copy
+
+# config.guess = POSIX shell script text executable
+config.guess: copy
+
+# m4/libtool.m4 = Ruby module source text
+m4/libtool.m4: copy
+
+# m4/ltoptions.m4 = ASCII English text
+m4/ltoptions.m4: copy
+
+# m4/ac-define-dir.m4 = ASCII M4 macro language pre-processor text
+m4/ac-define-dir.m4: copy
+
+# m4/gnome-doc-utils.m4 = ASCII M4 macro language pre-processor text
+m4/gnome-doc-utils.m4: copy
+
+# m4/intltool.m4 = ASCII English text
+m4/intltool.m4: copy
+
+# m4/acinclude.m4 = ASCII M4 macro language pre-processor text
+m4/acinclude.m4: copy
+
+# m4/ltsugar.m4 = ASCII English text
+m4/ltsugar.m4: copy
+
+# m4/lt~obsolete.m4 = ASCII English text
+m4/lt~obsolete.m4: copy
+
+# m4/ltversion.m4 = ASCII English text
+m4/ltversion.m4: copy
+
+# m4/python.m4 = Python script text executable
+m4/python.m4: copy
+
+# COPYING-DOCS = ASCII English text
+COPYING-DOCS: copy
+
+# intltool-extract.in = empty
+intltool-extract.in: copy
+
+# config.h.in = ASCII C program text
+config.h.in: copy
+
+# intltool-merge.in = empty
+intltool-merge.in: copy
+
+# cpufreq/cpufreq-preferences.ui = XML  document text
+cpufreq/cpufreq-preferences.ui: copy
+
+# cpufreq/Makefile.am = ASCII text
+cpufreq/Makefile.am: copy
+
+# cpufreq/GNOME_CPUFreqApplet.server.in.in = XML  document text
+cpufreq/GNOME_CPUFreqApplet.server.in.in: copy
+
+# cpufreq/README = ASCII English text
+cpufreq/README: copy
+
+# cpufreq/help/uk/uk.po = UTF-8 Unicode PO (gettext message catalogue) text
+cpufreq/help/uk/uk.po: copy
+
+# cpufreq/help/uk/cpufreq-applet.xml = XML  document text
+cpufreq/help/uk/cpufreq-applet.xml: copy
+
+# cpufreq/help/uk/figures/cpufreq-applet-preferences.png = PNG image data, 366 x 260, 8-bit/color RGBA, non-interlaced
+cpufreq/help/uk/figures/cpufreq-applet-preferences.png: copy
+
+# cpufreq/help/uk/figures/cpufreq-applet-selector.png = PNG image data, 106 x 92, 8-bit/color RGBA, non-interlaced
+cpufreq/help/uk/figures/cpufreq-applet-selector.png: copy
+
+# cpufreq/help/es/cpufreq-applet.xml = XML  document text
+cpufreq/help/es/cpufreq-applet.xml: copy
+
+# cpufreq/help/es/es.po = UTF-8 Unicode PO (gettext message catalogue) text
+cpufreq/help/es/es.po: copy
+
+# cpufreq/help/es/figures/cpufreq-applet-preferences-smp.png = PNG image data, 390 x 100, 8-bit/color RGBA, non-interlaced
+cpufreq/help/es/figures/cpufreq-applet-preferences-smp.png: copy
+
+# cpufreq/help/es/figures/cpufreq-applet-preferences.png = PNG image data, 379 x 296, 8-bit/color RGBA, non-interlaced
+cpufreq/help/es/figures/cpufreq-applet-preferences.png: copy
+
+# cpufreq/help/Makefile.am = ASCII text
+cpufreq/help/Makefile.am: copy
+
+# cpufreq/help/oc/cpufreq-applet.xml = XML  document text
+cpufreq/help/oc/cpufreq-applet.xml: copy
+
+# cpufreq/help/oc/oc.po = UTF-8 Unicode English text
+cpufreq/help/oc/oc.po: copy
+
+# cpufreq/help/zh_CN/cpufreq-applet.xml = XML  document text
+cpufreq/help/zh_CN/cpufreq-applet.xml: copy
+
+# cpufreq/help/zh_CN/zh_CN.po = UTF-8 Unicode English text
+cpufreq/help/zh_CN/zh_CN.po: copy
+
+# cpufreq/help/eu/cpufreq-applet.xml = XML  document text
+cpufreq/help/eu/cpufreq-applet.xml: copy
+
+# cpufreq/help/eu/eu.po = UTF-8 Unicode PO (gettext message catalogue) text, with very long lines
+cpufreq/help/eu/eu.po: copy
+
+# cpufreq/help/eu/figures/cpufreq-applet-preferences.png = PNG image data, 354 x 230, 8-bit/color RGBA, non-interlaced
+cpufreq/help/eu/figures/cpufreq-applet-preferences.png: copy
+
+# cpufreq/help/el/cpufreq-applet.xml = XML  document text
+cpufreq/help/el/cpufreq-applet.xml: copy
+
+# cpufreq/help/el/el.po = UTF-8 Unicode PO (gettext message catalogue) text, with very long lines
+cpufreq/help/el/el.po: copy
+
+# cpufreq/help/sv/cpufreq-applet.xml = XML  document text
+cpufreq/help/sv/cpufreq-applet.xml: copy
+
+# cpufreq/help/sv/sv.po = UTF-8 Unicode PO (gettext message catalogue) text, with very long lines
+cpufreq/help/sv/sv.po: copy
+
+# cpufreq/help/sv/figures/cpufreq-applet-preferences-smp.png = PNG image data, 336 x 119, 8-bit/color RGBA, non-interlaced
+cpufreq/help/sv/figures/cpufreq-applet-preferences-smp.png: copy
+
+# cpufreq/help/sv/figures/cpufreq-applet-preferences.png = PNG image data, 311 x 234, 8-bit/color RGBA, non-interlaced
+cpufreq/help/sv/figures/cpufreq-applet-preferences.png: copy
+
+# cpufreq/help/en_GB/cpufreq-applet.xml = XML  document text
+cpufreq/help/en_GB/cpufreq-applet.xml: copy
+
+# cpufreq/help/en_GB/en_GB.po = ASCII PO (gettext message catalogue) text, with very long lines
+cpufreq/help/en_GB/en_GB.po: copy
+
+# cpufreq/help/de/cpufreq-applet.xml = XML  document text
+cpufreq/help/de/cpufreq-applet.xml: copy
+
+# cpufreq/help/de/de.po = UTF-8 Unicode English text
+cpufreq/help/de/de.po: copy
+
+# cpufreq/help/de/figures/cpufreq-applet-preferences.png = PNG image data, 307 x 246, 8-bit/color RGBA, non-interlaced
+cpufreq/help/de/figures/cpufreq-applet-preferences.png: copy
+
+# cpufreq/help/zh_TW/cpufreq-applet.xml = XML  document text
+cpufreq/help/zh_TW/cpufreq-applet.xml: copy
+
+# cpufreq/help/zh_TW/zh_TW.po = UTF-8 Unicode PO (gettext message catalogue) text, with very long lines
+cpufreq/help/zh_TW/zh_TW.po: copy
+
+# cpufreq/help/hu/cpufreq-applet.xml = XML  document text
+cpufreq/help/hu/cpufreq-applet.xml: copy
+
+# cpufreq/help/hu/hu.po = UTF-8 Unicode English text, with very long lines
+cpufreq/help/hu/hu.po: copy
+
+# cpufreq/help/C/legal.xml = ASCII English text
+cpufreq/help/C/legal.xml: copy
+
+# cpufreq/help/C/cpufreq-applet.xml = XML  document text
+cpufreq/help/C/cpufreq-applet.xml: copy
+
+# cpufreq/help/C/figures/cpufreq-applet-selector-both.png = PNG image data, 227 x 146, 8-bit/color RGBA, non-interlaced
+cpufreq/help/C/figures/cpufreq-applet-selector-both.png: copy
+
+# cpufreq/help/C/figures/cpufreq-applet-preferences-smp.png = PNG image data, 310 x 101, 8-bit/color RGBA, non-interlaced
+cpufreq/help/C/figures/cpufreq-applet-preferences-smp.png: copy
+
+# cpufreq/help/C/figures/cpufreq-applet.png = PNG image data, 108 x 27, 8-bit/color RGBA, non-interlaced
+cpufreq/help/C/figures/cpufreq-applet.png: copy
+
+# cpufreq/help/C/figures/cpufreq-75.png = PNG image data, 24 x 24, 8-bit/color RGBA, non-interlaced
+cpufreq/help/C/figures/cpufreq-75.png: copy
+
+# cpufreq/help/C/figures/cpufreq-50.png = PNG image data, 24 x 24, 8-bit/color RGBA, non-interlaced
+cpufreq/help/C/figures/cpufreq-50.png: copy
+
+# cpufreq/help/C/figures/cpufreq-100.png = PNG image data, 24 x 24, 8-bit/color RGBA, non-interlaced
+cpufreq/help/C/figures/cpufreq-100.png: copy
+
+# cpufreq/help/C/figures/cpufreq-applet-preferences.png = PNG image data, 361 x 315, 8-bit/color RGBA, non-interlaced
+cpufreq/help/C/figures/cpufreq-applet-preferences.png: copy
+
+# cpufreq/help/C/figures/cpufreq-25.png = PNG image data, 24 x 24, 8-bit/color RGBA, non-interlaced
+cpufreq/help/C/figures/cpufreq-25.png: copy
+
+# cpufreq/help/C/figures/cpufreq-applet-selector.png = PNG image data, 186 x 253, 8-bit/color RGBA, non-interlaced
+cpufreq/help/C/figures/cpufreq-applet-selector.png: copy
+
+# cpufreq/help/ca/cpufreq-applet.xml = XML  document text
+cpufreq/help/ca/cpufreq-applet.xml: copy
+
+# cpufreq/help/ca/ca.po = UTF-8 Unicode PO (gettext message catalogue) text, with very long lines
+cpufreq/help/ca/ca.po: copy
+
+# cpufreq/help/fr/cpufreq-applet.xml = XML  document text
+cpufreq/help/fr/cpufreq-applet.xml: copy
+
+# cpufreq/help/fr/fr.po = UTF-8 Unicode English text
+cpufreq/help/fr/fr.po: copy
+
+# cpufreq/help/fr/figures/cpufreq-applet-selector-both.png = PNG image data, 211 x 133, 8-bit/color RGBA, non-interlaced
+cpufreq/help/fr/figures/cpufreq-applet-selector-both.png: copy
+
+# cpufreq/help/fr/figures/cpufreq-applet-preferences-smp.png = PNG image data, 402 x 104, 8-bit/color RGBA, non-interlaced
+cpufreq/help/fr/figures/cpufreq-applet-preferences-smp.png: copy
+
+# cpufreq/help/fr/figures/cpufreq-applet-preferences.png = PNG image data, 424 x 320, 8-bit/color RGBA, non-interlaced
+cpufreq/help/fr/figures/cpufreq-applet-preferences.png: copy
+
+# cpufreq/help/cs/cpufreq-applet.xml = XML  document text
+cpufreq/help/cs/cpufreq-applet.xml: copy
+
+# cpufreq/help/cs/cs.po = UTF-8 Unicode English text
+cpufreq/help/cs/cs.po: copy
+
+# cpufreq/help/cs/figures/cpufreq-applet-preferences-smp.png = PNG image data, 305 x 110, 8-bit/color RGBA, non-interlaced
+cpufreq/help/cs/figures/cpufreq-applet-preferences-smp.png: copy
+
+# cpufreq/help/cs/figures/cpufreq-applet-preferences.png = PNG image data, 305 x 232, 8-bit/color RGBA, non-interlaced
+cpufreq/help/cs/figures/cpufreq-applet-preferences.png: copy
+
+# cpufreq/help/cpufreq-applet.omf.in = XML  document text
+cpufreq/help/cpufreq-applet.omf.in: copy
+
+# cpufreq/help/zh_HK/cpufreq-applet.xml = XML  document text
+cpufreq/help/zh_HK/cpufreq-applet.xml: copy
+
+# cpufreq/help/zh_HK/zh_HK.po = UTF-8 Unicode PO (gettext message catalogue) text, with very long lines
+cpufreq/help/zh_HK/zh_HK.po: copy
+
+# cpufreq/help/fi/cpufreq-applet.xml = XML  document text
+cpufreq/help/fi/cpufreq-applet.xml: copy
+
+# cpufreq/help/fi/fi.po = UTF-8 Unicode PO (gettext message catalogue) text, with very long lines
+cpufreq/help/fi/fi.po: copy
+
+# cpufreq/help/fi/figures/cpufreq-applet-preferences-smp.png = PNG image data, 288 x 103, 8-bit/color RGBA, non-interlaced
+cpufreq/help/fi/figures/cpufreq-applet-preferences-smp.png: copy
+
+# cpufreq/help/fi/figures/cpufreq-applet-preferences.png = PNG image data, 288 x 311, 8-bit/color RGBA, non-interlaced
+cpufreq/help/fi/figures/cpufreq-applet-preferences.png: copy
+
+# cpufreq/help/pt_BR/cpufreq-applet.xml = XML  document text
+cpufreq/help/pt_BR/cpufreq-applet.xml: copy
+
+# cpufreq/help/pt_BR/pt_BR.po = UTF-8 Unicode English text
+cpufreq/help/pt_BR/pt_BR.po: copy
+
+# cpufreq/help/Makefile.in = ASCII English text
+cpufreq/help/Makefile.in: copy
+
+# cpufreq/help/nl/cpufreq-applet.xml = XML  document text
+cpufreq/help/nl/cpufreq-applet.xml: copy
+
+# cpufreq/help/nl/nl.po = UTF-8 Unicode PO (gettext message catalogue) text
+cpufreq/help/nl/nl.po: copy
+
+# cpufreq/help/nl/figures/cpufreq-applet-selector-both.png = PNG image data, 227 x 146, 8-bit/color RGBA, non-interlaced
+cpufreq/help/nl/figures/cpufreq-applet-selector-both.png: copy
+
+# cpufreq/help/nl/figures/cpufreq-applet-preferences-smp.png = PNG image data, 310 x 101, 8-bit/color RGBA, non-interlaced
+cpufreq/help/nl/figures/cpufreq-applet-preferences-smp.png: copy
+
+# cpufreq/help/nl/figures/cpufreq-applet-preferences.png = PNG image data, 361 x 315, 8-bit/color RGBA, non-interlaced
+cpufreq/help/nl/figures/cpufreq-applet-preferences.png: copy
+
+# cpufreq/help/nl/figures/cpufreq-applet-selector.png = PNG image data, 186 x 253, 8-bit/color RGBA, non-interlaced
+cpufreq/help/nl/figures/cpufreq-applet-selector.png: copy
+
+# cpufreq/help/ru/cpufreq-applet.xml = XML  document text
+cpufreq/help/ru/cpufreq-applet.xml: copy
+
+# cpufreq/help/ru/ru.po = UTF-8 Unicode PO (gettext message catalogue) text, with very long lines
+cpufreq/help/ru/ru.po: copy
+
+# cpufreq/src/cpufreq-monitor-sysfs.h = ISO-8859 C program text
+cpufreq/src/cpufreq-monitor-sysfs.h: copy
+
+# cpufreq/src/cpufreq-selector/cpufreq-selector-sysfs.h = ISO-8859 C program text
+cpufreq/src/cpufreq-selector/cpufreq-selector-sysfs.h: copy
+
+# cpufreq/src/cpufreq-selector/Makefile.am = ASCII text
+cpufreq/src/cpufreq-selector/Makefile.am: copy
+
+# cpufreq/src/cpufreq-selector/main.c = ISO-8859 C program text
+cpufreq/src/cpufreq-selector/main.c: copy
+
+# cpufreq/src/cpufreq-selector/cpufreq-selector-libcpufreq.c = ISO-8859 C program text
+cpufreq/src/cpufreq-selector/cpufreq-selector-libcpufreq.c: copy
+
+# cpufreq/src/cpufreq-selector/cpufreq-selector-libcpufreq.h = ISO-8859 C program text
+cpufreq/src/cpufreq-selector/cpufreq-selector-libcpufreq.h: copy
+
+# cpufreq/src/cpufreq-selector/cpufreq-selector-procfs.h = ISO-8859 C program text
+cpufreq/src/cpufreq-selector/cpufreq-selector-procfs.h: copy
+
+# cpufreq/src/cpufreq-selector/cpufreq-selector-service.xml = exported SGML document text
+cpufreq/src/cpufreq-selector/cpufreq-selector-service.xml: copy
+
+# cpufreq/src/cpufreq-selector/cpufreq-selector-sysfs.c = ISO-8859 C program text
+cpufreq/src/cpufreq-selector/cpufreq-selector-sysfs.c: copy
+
+# cpufreq/src/cpufreq-selector/cpufreq-selector.c = ISO-8859 C program text
+cpufreq/src/cpufreq-selector/cpufreq-selector.c: copy
+
+# cpufreq/src/cpufreq-selector/cpufreq-selector-service.c = ASCII C program text
+cpufreq/src/cpufreq-selector/cpufreq-selector-service.c: copy
+
+# cpufreq/src/cpufreq-selector/org.gnome.CPUFreqSelector.service.in = ASCII text
+cpufreq/src/cpufreq-selector/org.gnome.CPUFreqSelector.service.in: copy
+
+# cpufreq/src/cpufreq-selector/cpufreq-selector-service.h = ASCII C program text
+cpufreq/src/cpufreq-selector/cpufreq-selector-service.h: copy
+
+# cpufreq/src/cpufreq-selector/cpufreq-selector.h = ISO-8859 C program text
+cpufreq/src/cpufreq-selector/cpufreq-selector.h: copy
+
+# cpufreq/src/cpufreq-selector/org.gnome.cpufreqselector.policy.in = XML  document text
+cpufreq/src/cpufreq-selector/org.gnome.cpufreqselector.policy.in: copy
+
+# cpufreq/src/cpufreq-selector/cpufreq-selector-factory.c = ASCII C program text
+cpufreq/src/cpufreq-selector/cpufreq-selector-factory.c: copy
+
+# cpufreq/src/cpufreq-selector/cpufreq-selector-factory.h = ASCII C program text
+cpufreq/src/cpufreq-selector/cpufreq-selector-factory.h: copy
+
+# cpufreq/src/cpufreq-selector/cpufreq-selector-service-glue.h = ASCII C program text
+cpufreq/src/cpufreq-selector/cpufreq-selector-service-glue.h: copy
+
+# cpufreq/src/cpufreq-selector/cpufreq-selector-procfs.c = ISO-8859 C program text
+cpufreq/src/cpufreq-selector/cpufreq-selector-procfs.c: copy
+
+# cpufreq/src/cpufreq-selector/org.gnome.CPUFreqSelector.conf = XML  document text
+cpufreq/src/cpufreq-selector/org.gnome.CPUFreqSelector.conf: copy
+
+# cpufreq/src/cpufreq-selector/Makefile.in = ASCII English text
+cpufreq/src/cpufreq-selector/Makefile.in: copy
+
+# cpufreq/src/cpufreq-monitor-libcpufreq.h = ISO-8859 C program text
+cpufreq/src/cpufreq-monitor-libcpufreq.h: copy
+
+# cpufreq/src/Makefile.am = ASCII text
+cpufreq/src/Makefile.am: copy
+
+# cpufreq/src/cpufreq-prefs.c = ISO-8859 C program text
+cpufreq/src/cpufreq-prefs.c: copy
+
+# cpufreq/src/cpufreq-prefs.h = ISO-8859 C program text
+cpufreq/src/cpufreq-prefs.h: copy
+
+# cpufreq/src/cpufreq-monitor-cpuinfo.c = ISO-8859 C program text
+cpufreq/src/cpufreq-monitor-cpuinfo.c: copy
+
+# cpufreq/src/cpufreq-monitor-procfs.c = ISO-8859 C program text
+cpufreq/src/cpufreq-monitor-procfs.c: copy
+
+# cpufreq/src/cpufreq-monitor-sysfs.c = ISO-8859 C program text
+cpufreq/src/cpufreq-monitor-sysfs.c: copy
+
+# cpufreq/src/cpufreq-monitor-procfs.h = ISO-8859 C program text
+cpufreq/src/cpufreq-monitor-procfs.h: copy
+
+# cpufreq/src/cpufreq-popup.c = ISO-8859 C program text
+cpufreq/src/cpufreq-popup.c: copy
+
+# cpufreq/src/cpufreq-monitor-cpuinfo.h = ISO-8859 C program text
+cpufreq/src/cpufreq-monitor-cpuinfo.h: copy
+
+# cpufreq/src/cpufreq-selector.c = ASCII C program text
+cpufreq/src/cpufreq-selector.c: copy
+
+# cpufreq/src/cpufreq-utils.h = ISO-8859 C program text
+cpufreq/src/cpufreq-utils.h: copy
+
+# cpufreq/src/cpufreq-popup.h = ISO-8859 C program text
+cpufreq/src/cpufreq-popup.h: copy
+
+# cpufreq/src/cpufreq-selector.h = ASCII C program text
+cpufreq/src/cpufreq-selector.h: copy
+
+# cpufreq/src/cpufreq-monitor.h = ISO-8859 C program text
+cpufreq/src/cpufreq-monitor.h: copy
+
+# cpufreq/src/cpufreq-utils.c = ISO-8859 C program text
+cpufreq/src/cpufreq-utils.c: copy
+
+# cpufreq/src/cpufreq-applet.c = ISO-8859 C program text
+cpufreq/src/cpufreq-applet.c: copy
+
+# cpufreq/src/cpufreq-monitor.c = ISO-8859 C program text
+cpufreq/src/cpufreq-monitor.c: copy
+
+# cpufreq/src/cpufreq-applet.h = ISO-8859 C program text
+cpufreq/src/cpufreq-applet.h: copy
+
+# cpufreq/src/cpufreq-monitor-factory.c = ISO-8859 C program text
+cpufreq/src/cpufreq-monitor-factory.c: copy
+
+# cpufreq/src/Makefile.in = ASCII English text
+cpufreq/src/Makefile.in: copy
+
+# cpufreq/src/cpufreq-monitor-libcpufreq.c = ISO-8859 C program text
+cpufreq/src/cpufreq-monitor-libcpufreq.c: copy
+
+# cpufreq/src/cpufreq-monitor-factory.h = ISO-8859 C program text
+cpufreq/src/cpufreq-monitor-factory.h: copy
+
+# cpufreq/AUTHORS = ISO-8859 text
+cpufreq/AUTHORS: copy
+
+# cpufreq/pixmaps/gnome-cpu-frequency-applet.32.png = PNG image data, 32 x 32, 8-bit/color RGBA, non-interlaced
+cpufreq/pixmaps/gnome-cpu-frequency-applet.32.png: copy
+
+# cpufreq/pixmaps/Makefile.am = ASCII text
+cpufreq/pixmaps/Makefile.am: copy
+
+# cpufreq/pixmaps/gnome-cpu-frequency-applet.16.png = PNG image data, 16 x 16, 8-bit/color RGBA, non-interlaced
+cpufreq/pixmaps/gnome-cpu-frequency-applet.16.png: copy
+
+# cpufreq/pixmaps/cpufreq-75.png = PNG image data, 24 x 24, 8-bit/color RGBA, non-interlaced
+cpufreq/pixmaps/cpufreq-75.png: copy
+
+# cpufreq/pixmaps/cpufreq-na.png = PNG image data, 24 x 24, 8-bit/color RGBA, non-interlaced
+cpufreq/pixmaps/cpufreq-na.png: copy
+
+# cpufreq/pixmaps/gnome-cpu-frequency-applet.24.png = PNG image data, 24 x 24, 8-bit/color RGBA, non-interlaced
+cpufreq/pixmaps/gnome-cpu-frequency-applet.24.png: copy
+
+# cpufreq/pixmaps/cpufreq-50.png = PNG image data, 24 x 24, 8-bit/color RGBA, non-interlaced
+cpufreq/pixmaps/cpufreq-50.png: copy
+
+# cpufreq/pixmaps/cpufreq-100.png = PNG image data, 24 x 24, 8-bit/color RGBA, non-interlaced
+cpufreq/pixmaps/cpufreq-100.png: copy
+
+# cpufreq/pixmaps/gnome-cpu-frequency-applet.22.png = PNG image data, 22 x 22, 8-bit/color RGBA, non-interlaced
+cpufreq/pixmaps/gnome-cpu-frequency-applet.22.png: copy
+
+# cpufreq/pixmaps/cpufreq-25.png = PNG image data, 24 x 24, 8-bit/color RGBA, non-interlaced
+cpufreq/pixmaps/cpufreq-25.png: copy
+
+# cpufreq/pixmaps/Makefile.in = ASCII English text
+cpufreq/pixmaps/Makefile.in: copy
+
+# cpufreq/pixmaps/gnome-cpu-frequency-applet.svg = SVG Scalable Vector Graphics image
+cpufreq/pixmaps/gnome-cpu-frequency-applet.svg: copy
+
+# cpufreq/cpufreq-applet.schemas.in = ASCII English text
+cpufreq/cpufreq-applet.schemas.in: copy
+
+# cpufreq/GNOME_CPUFreqApplet.xml = ASCII text
+cpufreq/GNOME_CPUFreqApplet.xml: copy
+
+# cpufreq/Makefile.in = ASCII English text
+cpufreq/Makefile.in: copy
+
+# omf.make = ASCII English text
+omf.make: copy
+
+# README = ASCII English text
+README: copy
+
+# mini-commander/NEWS = ASCII English text
+mini-commander/NEWS: copy
+
+# mini-commander/Makefile.am = ASCII English text
+mini-commander/Makefile.am: copy
+
+# mini-commander/README = ASCII English text
+mini-commander/README: copy
+
+# mini-commander/help/uk/uk.po = UTF-8 Unicode PO (gettext message catalogue) text
+mini-commander/help/uk/uk.po: copy
+
+# mini-commander/help/uk/command-line.xml = XML  document text
+mini-commander/help/uk/command-line.xml: copy
+
+# mini-commander/help/uk/figures/prefs-macros.png = PNG image data, 444 x 430, 8-bit/color RGBA, non-interlaced
+mini-commander/help/uk/figures/prefs-macros.png: copy
+
+# mini-commander/help/uk/figures/command-line.png = PNG image data, 165 x 51, 8-bit colormap, non-interlaced
+mini-commander/help/uk/figures/command-line.png: copy
+
+# mini-commander/help/uk/figures/prefs.png = PNG image data, 444 x 430, 8-bit/color RGBA, non-interlaced
+mini-commander/help/uk/figures/prefs.png: copy
+
+# mini-commander/help/es/es.po = UTF-8 Unicode PO (gettext message catalogue) text
+mini-commander/help/es/es.po: copy
+
+# mini-commander/help/es/command-line.xml = XML  document text
+mini-commander/help/es/command-line.xml: copy
+
+# mini-commander/help/es/figures/prefs-macros.png = PNG image data, 667 x 465, 8-bit/color RGBA, non-interlaced
+mini-commander/help/es/figures/prefs-macros.png: copy
+
+# mini-commander/help/es/figures/prefs.png = PNG image data, 439 x 404, 8-bit/color RGBA, non-interlaced
+mini-commander/help/es/figures/prefs.png: copy
+
+# mini-commander/help/Makefile.am = ASCII text
+mini-commander/help/Makefile.am: copy
+
+# mini-commander/help/oc/command-line.xml = XML  document text
+mini-commander/help/oc/command-line.xml: copy
+
+# mini-commander/help/oc/oc.po = UTF-8 Unicode English text
+mini-commander/help/oc/oc.po: copy
+
+# mini-commander/help/zh_CN/zh_CN.po = UTF-8 Unicode English text
+mini-commander/help/zh_CN/zh_CN.po: copy
+
+# mini-commander/help/zh_CN/command-line.xml = XML  document text
+mini-commander/help/zh_CN/command-line.xml: copy
+
+# mini-commander/help/zh_CN/figures/command-line.png = PNG image data, 165 x 51, 8-bit colormap, non-interlaced
+mini-commander/help/zh_CN/figures/command-line.png: copy
+
+# mini-commander/help/eu/eu.po = UTF-8 Unicode PO (gettext message catalogue) text, with very long lines
+mini-commander/help/eu/eu.po: copy
+
+# mini-commander/help/eu/command-line.xml = XML  document text
+mini-commander/help/eu/command-line.xml: copy
+
+# mini-commander/help/eu/figures/command-line.png = PNG image data, 165 x 51, 8-bit colormap, non-interlaced
+mini-commander/help/eu/figures/command-line.png: copy
+
+# mini-commander/help/el/command-line.xml = XML  document text
+mini-commander/help/el/command-line.xml: copy
+
+# mini-commander/help/el/el.po = UTF-8 Unicode PO (gettext message catalogue) text, with very long lines
+mini-commander/help/el/el.po: copy
+
+# mini-commander/help/sv/command-line.xml = XML  document text
+mini-commander/help/sv/command-line.xml: copy
+
+# mini-commander/help/sv/sv.po = UTF-8 Unicode PO (gettext message catalogue) text, with very long lines
+mini-commander/help/sv/sv.po: copy
+
+# mini-commander/help/sv/figures/command-line.png = PNG image data, 165 x 51, 8-bit colormap, non-interlaced
+mini-commander/help/sv/figures/command-line.png: copy
+
+# mini-commander/help/en_GB/en_GB.po = ASCII PO (gettext message catalogue) text, with very long lines
+mini-commander/help/en_GB/en_GB.po: copy
+
+# mini-commander/help/en_GB/command-line.xml = XML  document text
+mini-commander/help/en_GB/command-line.xml: copy
+
+# mini-commander/help/de/de.po = UTF-8 Unicode English text
+mini-commander/help/de/de.po: copy
+
+# mini-commander/help/de/command-line.xml = XML  document text
+mini-commander/help/de/command-line.xml: copy
+
+# mini-commander/help/de/figures/prefs-macros.png = PNG image data, 432 x 411, 8-bit/color RGBA, non-interlaced
+mini-commander/help/de/figures/prefs-macros.png: copy
+
+# mini-commander/help/de/figures/prefs.png = PNG image data, 432 x 411, 8-bit/color RGBA, non-interlaced
+mini-commander/help/de/figures/prefs.png: copy
+
+# mini-commander/help/C/legal.xml = ASCII English text
+mini-commander/help/C/legal.xml: copy
+
+# mini-commander/help/C/command-line.xml = XML  document text
+mini-commander/help/C/command-line.xml: copy
+
+# mini-commander/help/C/figures/prefs-macros.png = PNG image data, 422 x 402, 8-bit/color RGBA, non-interlaced
+mini-commander/help/C/figures/prefs-macros.png: copy
+
+# mini-commander/help/C/figures/command-line.png = PNG image data, 246 x 25, 8-bit/color RGBA, non-interlaced
+mini-commander/help/C/figures/command-line.png: copy
+
+# mini-commander/help/C/figures/prefs.png = PNG image data, 422 x 402, 8-bit/color RGBA, non-interlaced
+mini-commander/help/C/figures/prefs.png: copy
+
+# mini-commander/help/ca/ca.po = UTF-8 Unicode PO (gettext message catalogue) text
+mini-commander/help/ca/ca.po: copy
+
+# mini-commander/help/ca/command-line.xml = XML  document text
+mini-commander/help/ca/command-line.xml: copy
+
+# mini-commander/help/fr/fr.po = UTF-8 Unicode English text
+mini-commander/help/fr/fr.po: copy
+
+# mini-commander/help/fr/command-line.xml = XML  document text
+mini-commander/help/fr/command-line.xml: copy
+
+# mini-commander/help/fr/figures/prefs-macros.png = PNG image data, 462 x 404, 8-bit/color RGBA, non-interlaced
+mini-commander/help/fr/figures/prefs-macros.png: copy
+
+# mini-commander/help/fr/figures/prefs.png = PNG image data, 462 x 404, 8-bit/color RGBA, non-interlaced
+mini-commander/help/fr/figures/prefs.png: copy
+
+# mini-commander/help/ko/ko.po = UTF-8 Unicode PO (gettext message catalogue) text, with very long lines
+mini-commander/help/ko/ko.po: copy
+
+# mini-commander/help/ko/command-line.xml = XML  document text
+mini-commander/help/ko/command-line.xml: copy
+
+# mini-commander/help/command-line.omf.in = XML  document text
+mini-commander/help/command-line.omf.in: copy
+
+# mini-commander/help/pt_BR/pt_BR.po = UTF-8 Unicode English text
+mini-commander/help/pt_BR/pt_BR.po: copy
+
+# mini-commander/help/pt_BR/command-line.xml = XML  document text
+mini-commander/help/pt_BR/command-line.xml: copy
+
+# mini-commander/help/Makefile.in = ASCII English text
+mini-commander/help/Makefile.in: copy
+
+# mini-commander/src/gnome-mini-commander.png = PNG image data, 48 x 48, 8-bit/color RGBA, non-interlaced
+mini-commander/src/gnome-mini-commander.png: copy
+
+# mini-commander/src/GNOME_MiniCommanderApplet.server.in.in = ASCII text
+mini-commander/src/GNOME_MiniCommanderApplet.server.in.in: copy
+
+# mini-commander/src/Makefile.am = ASCII text
+mini-commander/src/Makefile.am: copy
+
+# mini-commander/src/mini-commander.schemas.in = ASCII English text
+mini-commander/src/mini-commander.schemas.in: copy
+
+# mini-commander/src/mc-default-macros.h = ASCII C program text
+mini-commander/src/mc-default-macros.h: copy
+
+# mini-commander/src/macro.c = ASCII C program text
+mini-commander/src/macro.c: copy
+
+# mini-commander/src/preferences.h = ASCII C program text
+mini-commander/src/preferences.h: copy
+
+# mini-commander/src/mini-commander_applet.c = ASCII C program text
+mini-commander/src/mini-commander_applet.c: copy
+
+# mini-commander/src/exec.c = ASCII C program text
+mini-commander/src/exec.c: copy
+
+# mini-commander/src/command_line.h = ASCII C program text
+mini-commander/src/command_line.h: copy
+
+# mini-commander/src/cmd_completion.c = ASCII C program text
+mini-commander/src/cmd_completion.c: copy
+
+# mini-commander/src/help.c = ASCII C program text
+mini-commander/src/help.c: copy
+
+# mini-commander/src/history.c = ASCII C program text
+mini-commander/src/history.c: copy
+
+# mini-commander/src/mini-commander_applet.h = ASCII C program text
+mini-commander/src/mini-commander_applet.h: copy
+
+# mini-commander/src/about.h = ASCII C program text
+mini-commander/src/about.h: copy
+
+# mini-commander/src/preferences.c = ASCII C program text
+mini-commander/src/preferences.c: copy
+
+# mini-commander/src/mini-commander-global.schemas.in = ASCII HTML document text
+mini-commander/src/mini-commander-global.schemas.in: copy
+
+# mini-commander/src/mini-commander.ui = XML  document text
+mini-commander/src/mini-commander.ui: copy
+
+# mini-commander/src/mc-install-default-macros.c = ASCII C program text
+mini-commander/src/mc-install-default-macros.c: copy
+
+# mini-commander/src/browser-mini.xpm = X pixmap image text
+mini-commander/src/browser-mini.xpm: copy
+
+# mini-commander/src/history-mini.xpm = X pixmap image text
+mini-commander/src/history-mini.xpm: copy
+
+# mini-commander/src/macro.h = ASCII C program text
+mini-commander/src/macro.h: copy
+
+# mini-commander/src/about.c = ASCII C program text
+mini-commander/src/about.c: copy
+
+# mini-commander/src/exec.h = ASCII C program text
+mini-commander/src/exec.h: copy
+
+# mini-commander/src/cmd_completion.h = ASCII C program text
+mini-commander/src/cmd_completion.h: copy
+
+# mini-commander/src/Makefile.in = ASCII English text
+mini-commander/src/Makefile.in: copy
+
+# mini-commander/src/history.h = ASCII C program text
+mini-commander/src/history.h: copy
+
+# mini-commander/src/command_line.c = ASCII C program text
+mini-commander/src/command_line.c: copy
+
+# mini-commander/src/help.h = ASCII C program text
+mini-commander/src/help.h: copy
+
+# mini-commander/src/GNOME_MiniCommanderApplet.xml = ASCII text
+mini-commander/src/GNOME_MiniCommanderApplet.xml: copy
+
+# mini-commander/AUTHORS = ASCII text
+mini-commander/AUTHORS: copy
+
+# mini-commander/TODO = ASCII English text
+mini-commander/TODO: copy
+
+# mini-commander/GNOME_MiniCommanderApplet.server.in = exported SGML document text
+mini-commander/GNOME_MiniCommanderApplet.server.in: copy
+
+# mini-commander/Makefile.in = ASCII English text
+mini-commander/Makefile.in: copy
+
+# multiload/GNOME_MultiloadApplet.xml = ASCII text
+multiload/GNOME_MultiloadApplet.xml: copy
+
+# multiload/linux-proc.c = UTF-8 Unicode C program text
+multiload/linux-proc.c: copy
+
+# multiload/autoscaler.c = ASCII C program text
+multiload/autoscaler.c: copy
+
+# multiload/Makefile.am = ASCII text
+multiload/Makefile.am: copy
+
+# multiload/main.c = UTF-8 Unicode C program text
+multiload/main.c: copy
+
+# multiload/netspeed.h = ASCII C program text
+multiload/netspeed.h: copy
+
+# multiload/docs/uk/uk.po = UTF-8 Unicode PO (gettext message catalogue) text
+multiload/docs/uk/uk.po: copy
+
+# multiload/docs/uk/multiload.xml = XML  document text
+multiload/docs/uk/multiload.xml: copy
+
+# multiload/docs/uk/figures/multiload-preferences.png = PNG image data, 684 x 416, 8-bit/color RGB, non-interlaced
+multiload/docs/uk/figures/multiload-preferences.png: copy
+
+# multiload/docs/uk/figures/system-monitor-applet_window.png = PNG image data, 208 x 23, 8-bit/color RGB, non-interlaced
+multiload/docs/uk/figures/system-monitor-applet_window.png: copy
+
+# multiload/docs/uk/figures/system_monitor.png = PNG image data, 167 x 50, 8-bit/color RGB, non-interlaced
+multiload/docs/uk/figures/system_monitor.png: copy
+
+# multiload/docs/es/multiload.xml = XML  document text
+multiload/docs/es/multiload.xml: copy
+
+# multiload/docs/es/es.po = UTF-8 Unicode PO (gettext message catalogue) text, with very long lines
+multiload/docs/es/es.po: copy
+
+# multiload/docs/es/figures/multiload-preferences.png = PNG image data, 743 x 395, 8-bit/color RGBA, non-interlaced
+multiload/docs/es/figures/multiload-preferences.png: copy
+
+# multiload/docs/Makefile.am = ASCII text
+multiload/docs/Makefile.am: copy
+
+# multiload/docs/oc/multiload.xml = XML  document text
+multiload/docs/oc/multiload.xml: copy
+
+# multiload/docs/oc/oc.po = UTF-8 Unicode English text
+multiload/docs/oc/oc.po: copy
+
+# multiload/docs/zh_CN/zh_CN.po = UTF-8 Unicode English text
+multiload/docs/zh_CN/zh_CN.po: copy
+
+# multiload/docs/zh_CN/multiload.xml = XML  document text
+multiload/docs/zh_CN/multiload.xml: copy
+
+# multiload/docs/zh_CN/figures/system-monitor-applet_window.png = PNG image data, 167 x 50, 8-bit/color RGB, non-interlaced
+multiload/docs/zh_CN/figures/system-monitor-applet_window.png: copy
+
+# multiload/docs/eu/eu.po = UTF-8 Unicode PO (gettext message catalogue) text, with very long lines
+multiload/docs/eu/eu.po: copy
+
+# multiload/docs/eu/multiload.xml = XML  document text
+multiload/docs/eu/multiload.xml: copy
+
+# multiload/docs/eu/figures/multiload-preferences.png = PNG image data, 623 x 382, 8-bit/color RGBA, non-interlaced
+multiload/docs/eu/figures/multiload-preferences.png: copy
+
+# multiload/docs/eu/figures/system_monitor.png = PNG image data, 167 x 50, 8-bit/color RGB, non-interlaced
+multiload/docs/eu/figures/system_monitor.png: copy
+
+# multiload/docs/el/multiload.xml = XML  document text
+multiload/docs/el/multiload.xml: copy
+
+# multiload/docs/el/el.po = UTF-8 Unicode PO (gettext message catalogue) text
+multiload/docs/el/el.po: copy
+
+# multiload/docs/sv/multiload.xml = XML  document text
+multiload/docs/sv/multiload.xml: copy
+
+# multiload/docs/sv/sv.po = UTF-8 Unicode PO (gettext message catalogue) text, with very long lines
+multiload/docs/sv/sv.po: copy
+
+# multiload/docs/sv/figures/multiload-preferences.png = PNG image data, 550 x 343, 8-bit/color RGBA, non-interlaced
+multiload/docs/sv/figures/multiload-preferences.png: copy
+
+# multiload/docs/sv/figures/system-monitor-applet_window.png = PNG image data, 167 x 50, 8-bit/color RGB, non-interlaced
+multiload/docs/sv/figures/system-monitor-applet_window.png: copy
+
+# multiload/docs/en_GB/en_GB.po = ASCII PO (gettext message catalogue) text, with very long lines
+multiload/docs/en_GB/en_GB.po: copy
+
+# multiload/docs/en_GB/multiload.xml = XML  document text
+multiload/docs/en_GB/multiload.xml: copy
+
+# multiload/docs/de/de.po = UTF-8 Unicode PO (gettext message catalogue) text
+multiload/docs/de/de.po: copy
+
+# multiload/docs/de/multiload.xml = XML  document text
+multiload/docs/de/multiload.xml: copy
+
+# multiload/docs/de/figures/multiload-preferences.png = PNG image data, 686 x 327, 8-bit/color RGBA, non-interlaced
+multiload/docs/de/figures/multiload-preferences.png: copy
+
+# multiload/docs/de/figures/system-monitor-applet_window.png = PNG image data, 167 x 50, 8-bit/color RGB, non-interlaced
+multiload/docs/de/figures/system-monitor-applet_window.png: copy
+
+# multiload/docs/pa/pa.po = UTF-8 Unicode PO (gettext message catalogue) text, with very long lines
+multiload/docs/pa/pa.po: copy
+
+# multiload/docs/pa/multiload.xml = XML  document text
+multiload/docs/pa/multiload.xml: copy
+
+# multiload/docs/multiload.omf.in = XML  document text
+multiload/docs/multiload.omf.in: copy
+
+# multiload/docs/C/legal.xml = ASCII English text
+multiload/docs/C/legal.xml: copy
+
+# multiload/docs/C/multiload.xml = XML  document text
+multiload/docs/C/multiload.xml: copy
+
+# multiload/docs/C/figures/multiload-preferences.png = PNG image data, 557 x 371, 8-bit/color RGBA, non-interlaced
+multiload/docs/C/figures/multiload-preferences.png: copy
+
+# multiload/docs/C/figures/system-monitor-applet_window.png = PNG image data, 208 x 23, 8-bit/color RGB, non-interlaced
+multiload/docs/C/figures/system-monitor-applet_window.png: copy
+
+# multiload/docs/C/figures/system_monitor.png = PNG image data, 167 x 50, 8-bit/color RGB, non-interlaced
+multiload/docs/C/figures/system_monitor.png: copy
+
+# multiload/docs/ca/multiload.xml = XML  document text
+multiload/docs/ca/multiload.xml: copy
+
+# multiload/docs/ca/ca.po = UTF-8 Unicode PO (gettext message catalogue) text, with very long lines
+multiload/docs/ca/ca.po: copy
+
+# multiload/docs/fr/multiload.xml = XML  document text
+multiload/docs/fr/multiload.xml: copy
+
+# multiload/docs/fr/fr.po = UTF-8 Unicode English text
+multiload/docs/fr/fr.po: copy
+
+# multiload/docs/fr/figures/multiload-preferences.png = PNG image data, 657 x 401, 8-bit/color RGBA, non-interlaced
+multiload/docs/fr/figures/multiload-preferences.png: copy
+
+# multiload/docs/cs/cs.po = UTF-8 Unicode English text
+multiload/docs/cs/cs.po: copy
+
+# multiload/docs/cs/multiload.xml = XML  document text
+multiload/docs/cs/multiload.xml: copy
+
+# multiload/docs/cs/figures/multiload-preferences.png = PNG image data, 540 x 366, 8-bit/color RGBA, non-interlaced
+multiload/docs/cs/figures/multiload-preferences.png: copy
+
+# multiload/docs/ko/ko.po = UTF-8 Unicode PO (gettext message catalogue) text
+multiload/docs/ko/ko.po: copy
+
+# multiload/docs/ko/multiload.xml = XML  document text
+multiload/docs/ko/multiload.xml: copy
+
+# multiload/docs/ko/figures/multiload-preferences.png = PNG image data, 637 x 377, 8-bit/color RGBA, non-interlaced
+multiload/docs/ko/figures/multiload-preferences.png: copy
+
+# multiload/docs/fi/multiload.xml = XML  document text
+multiload/docs/fi/multiload.xml: copy
+
+# multiload/docs/fi/fi.po = UTF-8 Unicode PO (gettext message catalogue) text, with very long lines
+multiload/docs/fi/fi.po: copy
+
+# multiload/docs/fi/figures/multiload-preferences.png = PNG image data, 556 x 402, 8-bit/color RGBA, non-interlaced
+multiload/docs/fi/figures/multiload-preferences.png: copy
+
+# multiload/docs/fi/figures/system_monitor.png = PNG image data, 167 x 50, 8-bit/color RGB, non-interlaced
+multiload/docs/fi/figures/system_monitor.png: copy
+
+# multiload/docs/pt_BR/multiload.xml = XML  document text
+multiload/docs/pt_BR/multiload.xml: copy
+
+# multiload/docs/pt_BR/pt_BR.po = UTF-8 Unicode English text, with very long lines
+multiload/docs/pt_BR/pt_BR.po: copy
+
+# multiload/docs/pt_BR/figures/multiload-preferences.png = PNG image data, 638 x 396, 8-bit/color RGBA, non-interlaced
+multiload/docs/pt_BR/figures/multiload-preferences.png: copy
+
+# multiload/docs/Makefile.in = ASCII English text
+multiload/docs/Makefile.in: copy
+
+# multiload/docs/ru/multiload.xml = XML  document text
+multiload/docs/ru/multiload.xml: copy
+
+# multiload/docs/ru/ru.po = UTF-8 Unicode PO (gettext message catalogue) text, with very long lines
+multiload/docs/ru/ru.po: copy
+
+# multiload/load-graph.c = ASCII C program text
+multiload/load-graph.c: copy
+
+# multiload/properties.c = ASCII C program text
+multiload/properties.c: copy
+
+# multiload/AUTHORS = ASCII text
+multiload/AUTHORS: copy
+
+# multiload/linux-proc.h = ASCII C program text
+multiload/linux-proc.h: copy
+
+# multiload/netspeed.c = ASCII C program text
+multiload/netspeed.c: copy
+
+# multiload/multiload.schemas.in = ASCII English text
+multiload/multiload.schemas.in: copy
+
+# multiload/GNOME_MultiLoadApplet_Factory.server.in.in = XML  document text
+multiload/GNOME_MultiLoadApplet_Factory.server.in.in: copy
+
+# multiload/autoscaler.h = ASCII C program text
+multiload/autoscaler.h: copy
+
+# multiload/load-graph.h = ASCII C program text
+multiload/load-graph.h: copy
+
+# multiload/Makefile.in = ASCII English text
+multiload/Makefile.in: copy
+
+# multiload/global.h = ASCII C program text
+multiload/global.h: copy
+
+# ChangeLog = UTF-8 Unicode English text
+ChangeLog: copy
+
+# battstat/acpi-freebsd.h = ASCII C program text
+battstat/acpi-freebsd.h: copy
+
+# battstat/pixmaps.h = ISO-8859 C program text
+battstat/pixmaps.h: copy
+
+# battstat/battstat.schemas.in = ASCII English text
+battstat/battstat.schemas.in: copy
+
+# battstat/battstat_applet.ui = XML  document text
+battstat/battstat_applet.ui: copy
+
+# battstat/acpi-freebsd.c = ISO-8859 C program text
+battstat/acpi-freebsd.c: copy
+
+# battstat/Makefile.am = ASCII text
+battstat/Makefile.am: copy
+
+# battstat/battstat_applet.c = UTF-8 Unicode C program text
+battstat/battstat_applet.c: copy
+
+# battstat/power-management.c = UTF-8 Unicode C program text
+battstat/power-management.c: copy
+
+# battstat/acpi-linux.c = ISO-8859 C program text
+battstat/acpi-linux.c: copy
+
+# battstat/GNOME_BattstatApplet.xml = ASCII text
+battstat/GNOME_BattstatApplet.xml: copy
+
+# battstat/docs/uk/uk.po = UTF-8 Unicode PO (gettext message catalogue) text
+battstat/docs/uk/uk.po: copy
+
+# battstat/docs/uk/battstat.xml = XML  document text
+battstat/docs/uk/battstat.xml: copy
+
+# battstat/docs/uk/figures/battstat-preferences.png = PNG image data, 455 x 449, 8-bit/color RGBA, non-interlaced
+battstat/docs/uk/figures/battstat-preferences.png: copy
+
+# battstat/docs/uk/figures/battstat-applet.png = PNG image data, 90 x 24, 8-bit/color RGB, non-interlaced
+battstat/docs/uk/figures/battstat-applet.png: copy
+
+# battstat/docs/es/es.po = UTF-8 Unicode PO (gettext message catalogue) text
+battstat/docs/es/es.po: copy
+
+# battstat/docs/es/battstat.xml = XML  document text
+battstat/docs/es/battstat.xml: copy
+
+# battstat/docs/es/figures/battstat-applet-expanded.png = PNG image data, 269 x 62, 8-bit/color RGBA, non-interlaced
+battstat/docs/es/figures/battstat-applet-expanded.png: copy
+
+# battstat/docs/es/figures/context-menu.png = PNG image data, 141 x 160, 8-bit/color RGBA, non-interlaced
+battstat/docs/es/figures/context-menu.png: copy
+
+# battstat/docs/es/figures/battstat-preferences.png = PNG image data, 461 x 399, 8-bit/color RGBA, non-interlaced
+battstat/docs/es/figures/battstat-preferences.png: copy
+
+# battstat/docs/es/figures/battstat-credits-hal.png = PNG image data, 625 x 366, 8-bit/color RGBA, non-interlaced
+battstat/docs/es/figures/battstat-credits-hal.png: copy
+
+# battstat/docs/es/figures/battstat-applet.png = PNG image data, 269 x 63, 8-bit/color RGBA, non-interlaced
+battstat/docs/es/figures/battstat-applet.png: copy
+
+# battstat/docs/Makefile.am = ASCII text
+battstat/docs/Makefile.am: copy
+
+# battstat/docs/oc/battstat.xml = XML  document text
+battstat/docs/oc/battstat.xml: copy
+
+# battstat/docs/oc/oc.po = UTF-8 Unicode English text
+battstat/docs/oc/oc.po: copy
+
+# battstat/docs/zh_CN/zh_CN.po = UTF-8 Unicode English text
+battstat/docs/zh_CN/zh_CN.po: copy
+
+# battstat/docs/zh_CN/battstat.xml = XML  document text
+battstat/docs/zh_CN/battstat.xml: copy
+
+# battstat/docs/zh_CN/figures/battstat-applet.png = PNG image data, 90 x 24, 8-bit/color RGB, non-interlaced
+battstat/docs/zh_CN/figures/battstat-applet.png: copy
+
+# battstat/docs/eu/eu.po = UTF-8 Unicode PO (gettext message catalogue) text, with very long lines
+battstat/docs/eu/eu.po: copy
+
+# battstat/docs/eu/battstat.xml = XML  document text
+battstat/docs/eu/battstat.xml: copy
+
+# battstat/docs/eu/figures/battstat-applet-expanded.png = PNG image data, 237 x 66, 8-bit/color RGBA, non-interlaced
+battstat/docs/eu/figures/battstat-applet-expanded.png: copy
+
+# battstat/docs/eu/figures/context-menu.png = PNG image data, 196 x 196, 8-bit/color RGBA, non-interlaced
+battstat/docs/eu/figures/context-menu.png: copy
+
+# battstat/docs/eu/figures/battstat-preferences.png = PNG image data, 508 x 446, 8-bit/color RGBA, non-interlaced
+battstat/docs/eu/figures/battstat-preferences.png: copy
+
+# battstat/docs/eu/figures/battstat-credits-hal.png = PNG image data, 604 x 352, 8-bit/color RGBA, non-interlaced
+battstat/docs/eu/figures/battstat-credits-hal.png: copy
+
+# battstat/docs/eu/figures/battstat-applet.png = PNG image data, 245 x 66, 8-bit/color RGBA, non-interlaced
+battstat/docs/eu/figures/battstat-applet.png: copy
+
+# battstat/docs/el/battstat.xml = XML  document text
+battstat/docs/el/battstat.xml: copy
+
+# battstat/docs/el/el.po = UTF-8 Unicode English text
+battstat/docs/el/el.po: copy
+
+# battstat/docs/sv/battstat.xml = XML  document text
+battstat/docs/sv/battstat.xml: copy
+
+# battstat/docs/sv/sv.po = UTF-8 Unicode PO (gettext message catalogue) text, with very long lines
+battstat/docs/sv/sv.po: copy
+
+# battstat/docs/sv/figures/battstat-applet-expanded.png = PNG image data, 230 x 70, 8-bit/color RGB, non-interlaced
+battstat/docs/sv/figures/battstat-applet-expanded.png: copy
+
+# battstat/docs/sv/figures/context-menu.png = PNG image data, 165 x 188, 8-bit/color RGB, non-interlaced
+battstat/docs/sv/figures/context-menu.png: copy
+
+# battstat/docs/sv/figures/battstat-preferences.png = PNG image data, 339 x 406, 8-bit/color RGBA, non-interlaced
+battstat/docs/sv/figures/battstat-preferences.png: copy
+
+# battstat/docs/sv/figures/battstat-credits-hal.png = PNG image data, 611 x 397, 8-bit/color RGB, non-interlaced
+battstat/docs/sv/figures/battstat-credits-hal.png: copy
+
+# battstat/docs/sv/figures/battstat-applet.png = PNG image data, 229 x 70, 8-bit/color RGB, non-interlaced
+battstat/docs/sv/figures/battstat-applet.png: copy
+
+# battstat/docs/en_GB/en_GB.po = ASCII PO (gettext message catalogue) text
+battstat/docs/en_GB/en_GB.po: copy
+
+# battstat/docs/en_GB/battstat.xml = XML  document text
+battstat/docs/en_GB/battstat.xml: copy
+
+# battstat/docs/de/de.po = UTF-8 Unicode PO (gettext message catalogue) text
+battstat/docs/de/de.po: copy
+
+# battstat/docs/de/battstat.xml = XML  document text
+battstat/docs/de/battstat.xml: copy
+
+# battstat/docs/de/figures/battstat-applet.png = PNG image data, 90 x 24, 8-bit/color RGB, non-interlaced
+battstat/docs/de/figures/battstat-applet.png: copy
+
+# battstat/docs/pa/pa.po = UTF-8 Unicode PO (gettext message catalogue) text, with very long lines
+battstat/docs/pa/pa.po: copy
+
+# battstat/docs/pa/battstat.xml = XML  document text
+battstat/docs/pa/battstat.xml: copy
+
+# battstat/docs/C/legal.xml = ASCII English text
+battstat/docs/C/legal.xml: copy
+
+# battstat/docs/C/battstat.xml = XML  document text
+battstat/docs/C/battstat.xml: copy
+
+# battstat/docs/C/figures/battstat-applet-expanded.png = PNG image data, 237 x 66, 8-bit/color RGBA, non-interlaced
+battstat/docs/C/figures/battstat-applet-expanded.png: copy
+
+# battstat/docs/C/figures/context-menu.png = PNG image data, 155 x 174, 8-bit/color RGBA, non-interlaced
+battstat/docs/C/figures/context-menu.png: copy
+
+# battstat/docs/C/figures/battstat-preferences.png = PNG image data, 327 x 400, 8-bit/color RGBA, non-interlaced
+battstat/docs/C/figures/battstat-preferences.png: copy
+
+# battstat/docs/C/figures/battstat-credits-hal.png = PNG image data, 481 x 323, 8-bit/color RGBA, non-interlaced
+battstat/docs/C/figures/battstat-credits-hal.png: copy
+
+# battstat/docs/C/figures/battstat-applet.png = PNG image data, 245 x 66, 8-bit/color RGBA, non-interlaced
+battstat/docs/C/figures/battstat-applet.png: copy
+
+# battstat/docs/ca/battstat.xml = XML  document text
+battstat/docs/ca/battstat.xml: copy
+
+# battstat/docs/ca/ca.po = UTF-8 Unicode PO (gettext message catalogue) text
+battstat/docs/ca/ca.po: copy
+
+# battstat/docs/ca/figures/battstat-applet-expanded.png = PNG image data, 310 x 77, 8-bit/color RGBA, non-interlaced
+battstat/docs/ca/figures/battstat-applet-expanded.png: copy
+
+# battstat/docs/ca/figures/context-menu.png = PNG image data, 187 x 186, 8-bit/color RGBA, non-interlaced
+battstat/docs/ca/figures/context-menu.png: copy
+
+# battstat/docs/ca/figures/battstat-preferences.png = PNG image data, 460 x 425, 8-bit/color RGBA, non-interlaced
+battstat/docs/ca/figures/battstat-preferences.png: copy
+
+# battstat/docs/ca/figures/battstat-credits-hal.png = PNG image data, 608 x 352, 8-bit/color RGBA, non-interlaced
+battstat/docs/ca/figures/battstat-credits-hal.png: copy
+
+# battstat/docs/ca/figures/battstat-applet.png = PNG image data, 312 x 73, 8-bit/color RGBA, non-interlaced
+battstat/docs/ca/figures/battstat-applet.png: copy
+
+# battstat/docs/fr/fr.po = UTF-8 Unicode English text
+battstat/docs/fr/fr.po: copy
+
+# battstat/docs/fr/battstat.xml = XML  document text
+battstat/docs/fr/battstat.xml: copy
+
+# battstat/docs/fr/figures/battstat-applet-expanded.png = PNG image data, 192 x 70, 8-bit/color RGBA, non-interlaced
+battstat/docs/fr/figures/battstat-applet-expanded.png: copy
+
+# battstat/docs/fr/figures/context-menu.png = PNG image data, 223 x 174, 8-bit/color RGBA, non-interlaced
+battstat/docs/fr/figures/context-menu.png: copy
+
+# battstat/docs/fr/figures/battstat-preferences.png = PNG image data, 483 x 411, 8-bit/color RGBA, non-interlaced
+battstat/docs/fr/figures/battstat-preferences.png: copy
+
+# battstat/docs/fr/figures/battstat-credits-hal.png = PNG image data, 528 x 403, 8-bit/color RGBA, non-interlaced
+battstat/docs/fr/figures/battstat-credits-hal.png: copy
+
+# battstat/docs/fr/figures/battstat-applet.png = PNG image data, 279 x 70, 8-bit/color RGBA, non-interlaced
+battstat/docs/fr/figures/battstat-applet.png: copy
+
+# battstat/docs/cs/cs.po = UTF-8 Unicode English text, with very long lines
+battstat/docs/cs/cs.po: copy
+
+# battstat/docs/cs/battstat.xml = XML  document text
+battstat/docs/cs/battstat.xml: copy
+
+# battstat/docs/cs/figures/battstat-applet-expanded.png = PNG image data, 211 x 69, 8-bit/color RGBA, non-interlaced
+battstat/docs/cs/figures/battstat-applet-expanded.png: copy
+
+# battstat/docs/cs/figures/context-menu.png = PNG image data, 197 x 187, 8-bit/color RGBA, non-interlaced
+battstat/docs/cs/figures/context-menu.png: copy
+
+# battstat/docs/cs/figures/battstat-preferences.png = PNG image data, 327 x 399, 8-bit/color RGBA, non-interlaced
+battstat/docs/cs/figures/battstat-preferences.png: copy
+
+# battstat/docs/cs/figures/battstat-credits-hal.png = PNG image data, 488 x 323, 8-bit/color RGBA, non-interlaced
+battstat/docs/cs/figures/battstat-credits-hal.png: copy
+
+# battstat/docs/cs/figures/battstat-applet.png = PNG image data, 233 x 68, 8-bit/color RGBA, non-interlaced
+battstat/docs/cs/figures/battstat-applet.png: copy
+
+# battstat/docs/ko/ko.po = UTF-8 Unicode PO (gettext message catalogue) text, with very long lines
+battstat/docs/ko/ko.po: copy
+
+# battstat/docs/ko/battstat.xml = XML  document text
+battstat/docs/ko/battstat.xml: copy
+
+# battstat/docs/bg/bg.po = UTF-8 Unicode PO (gettext message catalogue) text, with very long lines
+battstat/docs/bg/bg.po: copy
+
+# battstat/docs/bg/battstat.xml = XML  document text
+battstat/docs/bg/battstat.xml: copy
+
+# battstat/docs/bg/figures/context-menu.png = PNG image data, 185 x 207, 8-bit/color RGBA, non-interlaced
+battstat/docs/bg/figures/context-menu.png: copy
+
+# battstat/docs/bg/figures/battstat-preferences.png = PNG image data, 415 x 443, 8-bit/color RGBA, non-interlaced
+battstat/docs/bg/figures/battstat-preferences.png: copy
+
+# battstat/docs/bg/figures/battstat-credits-hal.png = PNG image data, 721 x 322, 8-bit/color RGBA, non-interlaced
+battstat/docs/bg/figures/battstat-credits-hal.png: copy
+
+# battstat/docs/fi/fi.po = UTF-8 Unicode PO (gettext message catalogue) text, with very long lines
+battstat/docs/fi/fi.po: copy
+
+# battstat/docs/fi/battstat.xml = XML  document text
+battstat/docs/fi/battstat.xml: copy
+
+# battstat/docs/fi/figures/battstat-applet-expanded.png = PNG image data, 219 x 70, 8-bit/color RGBA, non-interlaced
+battstat/docs/fi/figures/battstat-applet-expanded.png: copy
+
+# battstat/docs/fi/figures/context-menu.png = PNG image data, 140 x 185, 8-bit/color RGBA, non-interlaced
+battstat/docs/fi/figures/context-menu.png: copy
+
+# battstat/docs/fi/figures/battstat-preferences.png = PNG image data, 365 x 413, 8-bit/color RGBA, non-interlaced
+battstat/docs/fi/figures/battstat-preferences.png: copy
+
+# battstat/docs/fi/figures/battstat-credits-hal.png = PNG image data, 518 x 330, 8-bit/color RGBA, non-interlaced
+battstat/docs/fi/figures/battstat-credits-hal.png: copy
+
+# battstat/docs/fi/figures/battstat-applet.png = PNG image data, 237 x 71, 8-bit/color RGBA, non-interlaced
+battstat/docs/fi/figures/battstat-applet.png: copy
+
+# battstat/docs/battstat.omf.in = XML  document text
+battstat/docs/battstat.omf.in: copy
+
+# battstat/docs/pt_BR/pt_BR.po = UTF-8 Unicode English text
+battstat/docs/pt_BR/pt_BR.po: copy
+
+# battstat/docs/pt_BR/battstat.xml = XML  document text
+battstat/docs/pt_BR/battstat.xml: copy
+
+# battstat/docs/pt_BR/figures/battstat-applet-expanded.png = PNG image data, 268 x 66, 8-bit/color RGBA, non-interlaced
+battstat/docs/pt_BR/figures/battstat-applet-expanded.png: copy
+
+# battstat/docs/pt_BR/figures/context-menu.png = PNG image data, 150 x 172, 8-bit/color RGBA, non-interlaced
+battstat/docs/pt_BR/figures/context-menu.png: copy
+
+# battstat/docs/pt_BR/figures/battstat-preferences.png = PNG image data, 442 x 411, 8-bit/color RGBA, non-interlaced
+battstat/docs/pt_BR/figures/battstat-preferences.png: copy
+
+# battstat/docs/pt_BR/figures/battstat-credits-hal.png = PNG image data, 508 x 331, 8-bit/color RGB, non-interlaced
+battstat/docs/pt_BR/figures/battstat-credits-hal.png: copy
+
+# battstat/docs/pt_BR/figures/battstat-applet.png = PNG image data, 269 x 66, 8-bit/color RGBA, non-interlaced
+battstat/docs/pt_BR/figures/battstat-applet.png: copy
+
+# battstat/docs/Makefile.in = ASCII English text
+battstat/docs/Makefile.in: copy
+
+# battstat/properties.c = UTF-8 Unicode C program text
+battstat/properties.c: copy
+
+# battstat/battstat-hal.c = ASCII C program text
+battstat/battstat-hal.c: copy
+
+# battstat/battstat-hal.h = ASCII C program text
+battstat/battstat-hal.h: copy
+
+# battstat/GNOME_BattstatApplet.server.in.in = ASCII text
+battstat/GNOME_BattstatApplet.server.in.in: copy
+
+# battstat/battstat.h = UTF-8 Unicode C program text
+battstat/battstat.h: copy
+
+# battstat/acpi-linux.h = ISO-8859 C program text
+battstat/acpi-linux.h: copy
+
+# battstat/sounds/Makefile.am = ASCII text
+battstat/sounds/Makefile.am: copy
+
+# battstat/sounds/battstat_applet.soundlist.in = ASCII text
+battstat/sounds/battstat_applet.soundlist.in: copy
+
+# battstat/sounds/battstat_applet.soundlist = UTF-8 Unicode text
+battstat/sounds/battstat_applet.soundlist: copy
+
+# battstat/sounds/Makefile.in = ASCII English text
+battstat/sounds/Makefile.in: copy
+
+# battstat/Makefile.in = ASCII English text
+battstat/Makefile.in: copy
+
+# battstat/apmlib/Makefile.am = ISO-8859 text
+battstat/apmlib/Makefile.am: copy
+
+# battstat/apmlib/apm.h = ASCII C program text
+battstat/apmlib/apm.h: copy
+
+# battstat/apmlib/Makefile.in = ISO-8859 English text
+battstat/apmlib/Makefile.in: copy
+
+# battstat/apmlib/apmlib.c = ASCII C program text
+battstat/apmlib/apmlib.c: copy
+
+# AUTHORS = ASCII text
+AUTHORS: copy
+
+# geyes/gnome-eyes-applet.svg = SVG Scalable Vector Graphics image
+geyes/gnome-eyes-applet.svg: copy
+
+# geyes/gnome-eyes-applet.22.png = PNG image data, 22 x 22, 8-bit/color RGBA, non-interlaced
+geyes/gnome-eyes-applet.22.png: copy
+
+# geyes/geyes.h = ASCII C program text
+geyes/geyes.h: copy
+
+# geyes/gnome-eyes-applet.32.png = PNG image data, 32 x 32, 8-bit/color RGBA, non-interlaced
+geyes/gnome-eyes-applet.32.png: copy
+
+# geyes/GNOME_GeyesApplet.xml = ASCII text
+geyes/GNOME_GeyesApplet.xml: copy
+
+# geyes/README.themes = ASCII English text
+geyes/README.themes: copy
+
+# geyes/themes/Makefile.am = ASCII text
+geyes/themes/Makefile.am: copy
+
+# geyes/themes/Horrid/horrid_pupil.png = PNG image data, 20 x 18, 8-bit/color RGBA, non-interlaced
+geyes/themes/Horrid/horrid_pupil.png: copy
+
+# geyes/themes/Horrid/horrid_eye.png = PNG image data, 41 x 41, 8-bit/color RGB, non-interlaced
+geyes/themes/Horrid/horrid_eye.png: copy
+
+# geyes/themes/Horrid/config = ASCII text, with CRLF line terminators
+geyes/themes/Horrid/config: copy
+
+# geyes/themes/Bloodshot/Bloodshot-pupil.png = PNG image data, 11 x 11, 8-bit/color RGBA, non-interlaced
+geyes/themes/Bloodshot/Bloodshot-pupil.png: copy
+
+# geyes/themes/Bloodshot/config = ASCII text
+geyes/themes/Bloodshot/config: copy
+
+# geyes/themes/Bloodshot/Bloodshot-eye.png = PNG image data, 31 x 41, 8-bit/color RGBA, non-interlaced
+geyes/themes/Bloodshot/Bloodshot-eye.png: copy
+
+# geyes/themes/Tango/tango-pupil.png = PNG image data, 7 x 7, 8-bit/color RGBA, non-interlaced
+geyes/themes/Tango/tango-pupil.png: copy
+
+# geyes/themes/Tango/tango-eye.png = PNG image data, 18 x 19, 8-bit/color RGBA, non-interlaced
+geyes/themes/Tango/tango-eye.png: copy
+
+# geyes/themes/Tango/config = ASCII text
+geyes/themes/Tango/config: copy
+
+# geyes/themes/Default/Default-pupil.png = PNG image data, 11 x 11, 8-bit/color RGBA, non-interlaced
+geyes/themes/Default/Default-pupil.png: copy
+
+# geyes/themes/Default/Default-eye.png = PNG image data, 31 x 41, 8-bit/color RGBA, non-interlaced
+geyes/themes/Default/Default-eye.png: copy
+
+# geyes/themes/Default/config = ASCII text
+geyes/themes/Default/config: copy
+
+# geyes/themes/Default-tiny/Default-tiny-pupil.png = PNG image data, 5 x 5, 8-bit/color RGBA, non-interlaced
+geyes/themes/Default-tiny/Default-tiny-pupil.png: copy
+
+# geyes/themes/Default-tiny/config = ASCII text
+geyes/themes/Default-tiny/config: copy
+
+# geyes/themes/Default-tiny/Default-tiny-eye.png = PNG image data, 15 x 20, 8-bit/color RGBA, non-interlaced
+geyes/themes/Default-tiny/Default-tiny-eye.png: copy
+
+# geyes/themes/Bizarre/Bizarre-pupil.png = PNG image data, 5 x 10, 8-bit/color RGBA, non-interlaced
+geyes/themes/Bizarre/Bizarre-pupil.png: copy
+
+# geyes/themes/Bizarre/Bizarre-eye.png = PNG image data, 21 x 21, 8-bit/color RGBA, non-interlaced
+geyes/themes/Bizarre/Bizarre-eye.png: copy
+
+# geyes/themes/Bizarre/config = ASCII text
+geyes/themes/Bizarre/config: copy
+
+# geyes/themes/Makefile.in = ASCII English text
+geyes/themes/Makefile.in: copy
+
+# geyes/NEWS = ASCII English text
+geyes/NEWS: copy
+
+# geyes/Makefile.am = ASCII text
+geyes/Makefile.am: copy
+
+# geyes/geyes.schemas.in = ASCII English text
+geyes/geyes.schemas.in: copy
+
+# geyes/gnome-eyes-applet.16.png = PNG image data, 16 x 16, 8-bit/color RGBA, non-interlaced
+geyes/gnome-eyes-applet.16.png: copy
+
+# geyes/README = empty
+geyes/README: copy
+
+# geyes/docs/uk/uk.po = UTF-8 Unicode PO (gettext message catalogue) text
+geyes/docs/uk/uk.po: copy
+
+# geyes/docs/uk/figures/geyes_applet.png = PNG image data, 69 x 48, 8-bit/color RGB, non-interlaced
+geyes/docs/uk/figures/geyes_applet.png: copy
+
+# geyes/docs/uk/geyes.xml = XML  document text
+geyes/docs/uk/geyes.xml: copy
+
+# geyes/docs/es/es.po = UTF-8 Unicode PO (gettext message catalogue) text
+geyes/docs/es/es.po: copy
+
+# geyes/docs/es/geyes.xml = XML  document text
+geyes/docs/es/geyes.xml: copy
+
+# geyes/docs/Makefile.am = ASCII text
+geyes/docs/Makefile.am: copy
+
+# geyes/docs/oc/oc.po = UTF-8 Unicode English text
+geyes/docs/oc/oc.po: copy
+
+# geyes/docs/oc/geyes.xml = XML  document text
+geyes/docs/oc/geyes.xml: copy
+
+# geyes/docs/zh_CN/zh_CN.po = UTF-8 Unicode English text
+geyes/docs/zh_CN/zh_CN.po: copy
+
+# geyes/docs/zh_CN/figures/geyes_applet.png = PNG image data, 71 x 45, 8-bit grayscale, non-interlaced
+geyes/docs/zh_CN/figures/geyes_applet.png: copy
+
+# geyes/docs/zh_CN/geyes.xml = XML  document text
+geyes/docs/zh_CN/geyes.xml: copy
+
+# geyes/docs/eu/eu.po = UTF-8 Unicode PO (gettext message catalogue) text, with very long lines
+geyes/docs/eu/eu.po: copy
+
+# geyes/docs/eu/figures/geyes_applet.png = PNG image data, 71 x 45, 8-bit grayscale, non-interlaced
+geyes/docs/eu/figures/geyes_applet.png: copy
+
+# geyes/docs/eu/geyes.xml = XML  document text
+geyes/docs/eu/geyes.xml: copy
+
+# geyes/docs/el/el.po = UTF-8 Unicode PO (gettext message catalogue) text
+geyes/docs/el/el.po: copy
+
+# geyes/docs/el/geyes.xml = XML  document text
+geyes/docs/el/geyes.xml: copy
+
+# geyes/docs/sv/sv.po = UTF-8 Unicode PO (gettext message catalogue) text, with very long lines
+geyes/docs/sv/sv.po: copy
+
+# geyes/docs/sv/figures/geyes_applet.png = PNG image data, 71 x 45, 8-bit grayscale, non-interlaced
+geyes/docs/sv/figures/geyes_applet.png: copy
+
+# geyes/docs/sv/geyes.xml = XML  document text
+geyes/docs/sv/geyes.xml: copy
+
+# geyes/docs/en_GB/en_GB.po = ASCII PO (gettext message catalogue) text, with very long lines
+geyes/docs/en_GB/en_GB.po: copy
+
+# geyes/docs/en_GB/geyes.xml = XML  document text
+geyes/docs/en_GB/geyes.xml: copy
+
+# geyes/docs/de/de.po = UTF-8 Unicode English text
+geyes/docs/de/de.po: copy
+
+# geyes/docs/de/geyes.xml = XML  document text
+geyes/docs/de/geyes.xml: copy
+
+# geyes/docs/C/legal.xml = ASCII English text
+geyes/docs/C/legal.xml: copy
+
+# geyes/docs/C/figures/geyes_applet.png = PNG image data, 69 x 48, 8-bit/color RGB, non-interlaced
+geyes/docs/C/figures/geyes_applet.png: copy
+
+# geyes/docs/C/geyes.xml = XML  document text
+geyes/docs/C/geyes.xml: copy
+
+# geyes/docs/geyes.omf.in = XML  document text
+geyes/docs/geyes.omf.in: copy
+
+# geyes/docs/it/it.po = UTF-8 Unicode PO (gettext message catalogue) text
+geyes/docs/it/it.po: copy
+
+# geyes/docs/it/figures/geyes_applet.png = PNG image data, 71 x 45, 8-bit grayscale, non-interlaced
+geyes/docs/it/figures/geyes_applet.png: copy
+
+# geyes/docs/it/geyes.xml = XML  document text
+geyes/docs/it/geyes.xml: copy
+
+# geyes/docs/ca/ca.po = UTF-8 Unicode PO (gettext message catalogue) text, with very long lines
+geyes/docs/ca/ca.po: copy
+
+# geyes/docs/ca/geyes.xml = XML  document text
+geyes/docs/ca/geyes.xml: copy
+
+# geyes/docs/fr/fr.po = UTF-8 Unicode English text
+geyes/docs/fr/fr.po: copy
+
+# geyes/docs/fr/geyes.xml = XML  document text
+geyes/docs/fr/geyes.xml: copy
+
+# geyes/docs/cs/cs.po = UTF-8 Unicode English text
+geyes/docs/cs/cs.po: copy
+
+# geyes/docs/cs/geyes.xml = XML  document text
+geyes/docs/cs/geyes.xml: copy
+
+# geyes/docs/ko/ko.po = UTF-8 Unicode PO (gettext message catalogue) text, with very long lines
+geyes/docs/ko/ko.po: copy
+
+# geyes/docs/ko/geyes.xml = XML  document text
+geyes/docs/ko/geyes.xml: copy
+
+# geyes/docs/da/da.po = UTF-8 Unicode PO (gettext message catalogue) text
+geyes/docs/da/da.po: copy
+
+# geyes/docs/da/geyes.xml = XML  document text
+geyes/docs/da/geyes.xml: copy
+
+# geyes/docs/bg/bg.po = UTF-8 Unicode PO (gettext message catalogue) text
+geyes/docs/bg/bg.po: copy
+
+# geyes/docs/bg/geyes.xml = XML  document text
+geyes/docs/bg/geyes.xml: copy
+
+# geyes/docs/fi/fi.po = UTF-8 Unicode PO (gettext message catalogue) text, with very long lines
+geyes/docs/fi/fi.po: copy
+
+# geyes/docs/fi/geyes.xml = XML  document text
+geyes/docs/fi/geyes.xml: copy
+
+# geyes/docs/Makefile.in = ASCII English text
+geyes/docs/Makefile.in: copy
+
+# geyes/docs/ru/ru.po = UTF-8 Unicode PO (gettext message catalogue) text, with very long lines
+geyes/docs/ru/ru.po: copy
+
+# geyes/docs/ru/geyes.xml = XML  document text
+geyes/docs/ru/geyes.xml: copy
+
+# geyes/AUTHORS = ASCII text
+geyes/AUTHORS: copy
+
+# geyes/geyes.c = ASCII C program text
+geyes/geyes.c: copy
+
+# geyes/gnome-eyes-applet.24.png = PNG image data, 24 x 24, 8-bit/color RGBA, non-interlaced
+geyes/gnome-eyes-applet.24.png: copy
+
+# geyes/Makefile.in = ASCII English text
+geyes/Makefile.in: copy
+
+# geyes/themes.c = ASCII C program text
+geyes/themes.c: copy
+
+# geyes/GNOME_GeyesApplet.server.in.in = XML  document text
+geyes/GNOME_GeyesApplet.server.in.in: copy
+
+# null_applet/GNOME_NullApplet_Factory.server.in.in = ASCII HTML document text
+null_applet/GNOME_NullApplet_Factory.server.in.in: copy
+
+# null_applet/Makefile.am = ASCII English text
+null_applet/Makefile.am: copy
+
+# null_applet/GNOME_CDPlayerApplet.server.in = ASCII text
+null_applet/GNOME_CDPlayerApplet.server.in: copy
+
+# null_applet/README = ASCII English text
+null_applet/README: copy
+
+# null_applet/GNOME_MixerApplet.server.in = ASCII English text
+null_applet/GNOME_MixerApplet.server.in: copy
+
+# null_applet/null_applet.c = UTF-8 Unicode C program text
+null_applet/null_applet.c: copy
+
+# null_applet/Makefile.in = ASCII English text
+null_applet/Makefile.in: copy
+
+# null_applet/GNOME_Panel_WirelessApplet.server.in = ASCII English text
+null_applet/GNOME_Panel_WirelessApplet.server.in: copy
+
+# null_applet/GNOME_MailcheckApplet_Factory.server.in = ASCII text
+null_applet/GNOME_MailcheckApplet_Factory.server.in: copy
+
+# install-sh = POSIX shell script text executable
+install-sh: copy
+
+# drivemount/Makefile.am = ASCII text
+drivemount/Makefile.am: copy
+
+# drivemount/drive-list.h = ASCII C program text
+drivemount/drive-list.h: copy
+
+# drivemount/GNOME_DriveMountApplet.server.in.in = XML  document text
+drivemount/GNOME_DriveMountApplet.server.in.in: copy
+
+# drivemount/help/uk/uk.po = UTF-8 Unicode PO (gettext message catalogue) text
+drivemount/help/uk/uk.po: copy
+
+# drivemount/help/uk/drivemount.xml = XML  document text
+drivemount/help/uk/drivemount.xml: copy
+
+# drivemount/help/uk/figures/drivemount-applet_mount.png = PNG image data, 286 x 88, 8-bit/color RGBA, non-interlaced
+drivemount/help/uk/figures/drivemount-applet_mount.png: copy
+
+# drivemount/help/uk/figures/drivemount-applet_example.png = PNG image data, 31 x 27, 8-bit/color RGBA, non-interlaced
+drivemount/help/uk/figures/drivemount-applet_example.png: copy
+
+# drivemount/help/uk/figures/drivemount-applet_open.png = PNG image data, 265 x 84, 8-bit/color RGBA, non-interlaced
+drivemount/help/uk/figures/drivemount-applet_open.png: copy
+
+# drivemount/help/uk/figures/drivemount-applet_eject.png = PNG image data, 264 x 85, 8-bit/color RGBA, non-interlaced
+drivemount/help/uk/figures/drivemount-applet_eject.png: copy
+
+# drivemount/help/uk/figures/drivemount-applet_status.png = PNG image data, 209 x 82, 8-bit/color RGBA, non-interlaced
+drivemount/help/uk/figures/drivemount-applet_status.png: copy
+
+# drivemount/help/drivemount.omf.in = XML  document text
+drivemount/help/drivemount.omf.in: copy
+
+# drivemount/help/es/es.po = UTF-8 Unicode PO (gettext message catalogue) text
+drivemount/help/es/es.po: copy
+
+# drivemount/help/es/drivemount.xml = XML  document text
+drivemount/help/es/drivemount.xml: copy
+
+# drivemount/help/es/figures/drivemount-applet_mount.png = PNG image data, 236 x 87, 8-bit/color RGBA, non-interlaced
+drivemount/help/es/figures/drivemount-applet_mount.png: copy
+
+# drivemount/help/es/figures/drivemount-applet_open.png = PNG image data, 235 x 66, 8-bit/color RGBA, non-interlaced
+drivemount/help/es/figures/drivemount-applet_open.png: copy
+
+# drivemount/help/es/figures/drivemount-applet_eject.png = PNG image data, 235 x 66, 8-bit/color RGBA, non-interlaced
+drivemount/help/es/figures/drivemount-applet_eject.png: copy
+
+# drivemount/help/es/figures/drivemount-applet_status.png = PNG image data, 155 x 65, 8-bit/color RGBA, non-interlaced
+drivemount/help/es/figures/drivemount-applet_status.png: copy
+
+# drivemount/help/Makefile.am = ASCII text
+drivemount/help/Makefile.am: copy
+
+# drivemount/help/oc/drivemount.xml = XML  document text
+drivemount/help/oc/drivemount.xml: copy
+
+# drivemount/help/oc/oc.po = UTF-8 Unicode English text
+drivemount/help/oc/oc.po: copy
+
+# drivemount/help/zh_CN/zh_CN.po = UTF-8 Unicode English text
+drivemount/help/zh_CN/zh_CN.po: copy
+
+# drivemount/help/zh_CN/drivemount.xml = XML  document text
+drivemount/help/zh_CN/drivemount.xml: copy
+
+# drivemount/help/eu/eu.po = UTF-8 Unicode PO (gettext message catalogue) text, with very long lines
+drivemount/help/eu/eu.po: copy
+
+# drivemount/help/eu/drivemount.xml = XML  document text
+drivemount/help/eu/drivemount.xml: copy
+
+# drivemount/help/eu/figures/drivemount-applet_mount.png = PNG image data, 271 x 89, 8-bit/color RGBA, non-interlaced
+drivemount/help/eu/figures/drivemount-applet_mount.png: copy
+
+# drivemount/help/eu/figures/drivemount-applet_example.png = PNG image data, 43 x 25, 8-bit/color RGBA, non-interlaced
+drivemount/help/eu/figures/drivemount-applet_example.png: copy
+
+# drivemount/help/eu/figures/drivemount-applet_open.png = PNG image data, 255 x 66, 8-bit/color RGBA, non-interlaced
+drivemount/help/eu/figures/drivemount-applet_open.png: copy
+
+# drivemount/help/eu/figures/drivemount-applet_eject.png = PNG image data, 256 x 68, 8-bit/color RGBA, non-interlaced
+drivemount/help/eu/figures/drivemount-applet_eject.png: copy
+
+# drivemount/help/eu/figures/drivemount-applet_status.png = PNG image data, 212 x 69, 8-bit/color RGBA, non-interlaced
+drivemount/help/eu/figures/drivemount-applet_status.png: copy
+
+# drivemount/help/el/drivemount.xml = XML  document text
+drivemount/help/el/drivemount.xml: copy
+
+# drivemount/help/el/el.po = UTF-8 Unicode PO (gettext message catalogue) text
+drivemount/help/el/el.po: copy
+
+# drivemount/help/sv/drivemount.xml = XML  document text
+drivemount/help/sv/drivemount.xml: copy
+
+# drivemount/help/sv/sv.po = UTF-8 Unicode PO (gettext message catalogue) text, with very long lines
+drivemount/help/sv/sv.po: copy
+
+# drivemount/help/sv/figures/drivemount-applet_mount.png = PNG image data, 177 x 84, 8-bit/color RGB, non-interlaced
+drivemount/help/sv/figures/drivemount-applet_mount.png: copy
+
+# drivemount/help/sv/figures/drivemount-applet_open.png = PNG image data, 252 x 88, 8-bit/color RGB, non-interlaced
+drivemount/help/sv/figures/drivemount-applet_open.png: copy
+
+# drivemount/help/sv/figures/drivemount-applet_eject.png = PNG image data, 248 x 82, 8-bit/color RGB, non-interlaced
+drivemount/help/sv/figures/drivemount-applet_eject.png: copy
+
+# drivemount/help/sv/figures/drivemount-applet_status.png = PNG image data, 130 x 75, 8-bit/color RGB, non-interlaced
+drivemount/help/sv/figures/drivemount-applet_status.png: copy
+
+# drivemount/help/en_GB/en_GB.po = ASCII PO (gettext message catalogue) text, with very long lines
+drivemount/help/en_GB/en_GB.po: copy
+
+# drivemount/help/en_GB/drivemount.xml = XML  document text
+drivemount/help/en_GB/drivemount.xml: copy
+
+# drivemount/help/de/de.po = UTF-8 Unicode English text
+drivemount/help/de/de.po: copy
+
+# drivemount/help/de/drivemount.xml = XML  document text
+drivemount/help/de/drivemount.xml: copy
+
+# drivemount/help/pa/pa.po = UTF-8 Unicode PO (gettext message catalogue) text
+drivemount/help/pa/pa.po: copy
+
+# drivemount/help/pa/drivemount.xml = XML  document text
+drivemount/help/pa/drivemount.xml: copy
+
+# drivemount/help/C/legal.xml = ASCII English text
+drivemount/help/C/legal.xml: copy
+
+# drivemount/help/C/drivemount.xml = XML  document text
+drivemount/help/C/drivemount.xml: copy
+
+# drivemount/help/C/figures/drivemount-applet_mount.png = PNG image data, 232 x 83, 8-bit/color RGB, non-interlaced
+drivemount/help/C/figures/drivemount-applet_mount.png: copy
+
+# drivemount/help/C/figures/drivemount-applet_example.png = PNG image data, 31 x 27, 8-bit/color RGBA, non-interlaced
+drivemount/help/C/figures/drivemount-applet_example.png: copy
+
+# drivemount/help/C/figures/drivemount-applet_open.png = PNG image data, 231 x 85, 8-bit/color RGB, non-interlaced
+drivemount/help/C/figures/drivemount-applet_open.png: copy
+
+# drivemount/help/C/figures/drivemount-applet_eject.png = PNG image data, 219 x 76, 8-bit/color RGB, non-interlaced
+drivemount/help/C/figures/drivemount-applet_eject.png: copy
+
+# drivemount/help/C/figures/drivemount-applet_status.png = PNG image data, 167 x 82, 8-bit/color RGB, non-interlaced
+drivemount/help/C/figures/drivemount-applet_status.png: copy
+
+# drivemount/help/it/drivemount.xml = XML  document text
+drivemount/help/it/drivemount.xml: copy
+
+# drivemount/help/it/it.po = UTF-8 Unicode English text, with very long lines
+drivemount/help/it/it.po: copy
+
+# drivemount/help/it/figures/drivemount-applet_mount.png = PNG image data, 190 x 90, 8-bit/color RGB, non-interlaced
+drivemount/help/it/figures/drivemount-applet_mount.png: copy
+
+# drivemount/help/it/figures/drivemount-applet_example.png = PNG image data, 63 x 32, 8-bit/color RGBA, non-interlaced
+drivemount/help/it/figures/drivemount-applet_example.png: copy
+
+# drivemount/help/it/figures/drivemount-applet_open.png = PNG image data, 190 x 90, 8-bit/color RGB, non-interlaced
+drivemount/help/it/figures/drivemount-applet_open.png: copy
+
+# drivemount/help/it/figures/drivemount-applet_eject.png = PNG image data, 190 x 90, 8-bit/color RGB, non-interlaced
+drivemount/help/it/figures/drivemount-applet_eject.png: copy
+
+# drivemount/help/it/figures/drivemount-applet_status.png = PNG image data, 190 x 90, 8-bit/color RGB, non-interlaced
+drivemount/help/it/figures/drivemount-applet_status.png: copy
+
+# drivemount/help/ca/drivemount.xml = XML  document text
+drivemount/help/ca/drivemount.xml: copy
+
+# drivemount/help/ca/ca.po = UTF-8 Unicode PO (gettext message catalogue) text
+drivemount/help/ca/ca.po: copy
+
+# drivemount/help/ca/figures/drivemount-applet_mount.png = PNG image data, 232 x 83, 8-bit/color RGBA, non-interlaced
+drivemount/help/ca/figures/drivemount-applet_mount.png: copy
+
+# drivemount/help/ca/figures/drivemount-applet_example.png = PNG image data, 31 x 27, 8-bit/color RGBA, non-interlaced
+drivemount/help/ca/figures/drivemount-applet_example.png: copy
+
+# drivemount/help/ca/figures/drivemount-applet_open.png = PNG image data, 231 x 85, 8-bit/color RGBA, non-interlaced
+drivemount/help/ca/figures/drivemount-applet_open.png: copy
+
+# drivemount/help/ca/figures/drivemount-applet_eject.png = PNG image data, 219 x 76, 8-bit/color RGBA, non-interlaced
+drivemount/help/ca/figures/drivemount-applet_eject.png: copy
+
+# drivemount/help/ca/figures/drivemount-applet_status.png = PNG image data, 167 x 82, 8-bit/color RGBA, non-interlaced
+drivemount/help/ca/figures/drivemount-applet_status.png: copy
+
+# drivemount/help/fr/fr.po = UTF-8 Unicode English text
+drivemount/help/fr/fr.po: copy
+
+# drivemount/help/fr/drivemount.xml = XML  document text
+drivemount/help/fr/drivemount.xml: copy
+
+# drivemount/help/fr/figures/drivemount-applet_mount.png = PNG image data, 242 x 79, 8-bit/color RGBA, non-interlaced
+drivemount/help/fr/figures/drivemount-applet_mount.png: copy
+
+# drivemount/help/fr/figures/drivemount-applet_example.png = PNG image data, 243 x 34, 8-bit/color RGB, non-interlaced
+drivemount/help/fr/figures/drivemount-applet_example.png: copy
+
+# drivemount/help/fr/figures/drivemount-applet_open.png = PNG image data, 239 x 81, 8-bit/color RGBA, non-interlaced
+drivemount/help/fr/figures/drivemount-applet_open.png: copy
+
+# drivemount/help/fr/figures/drivemount-applet_eject.png = PNG image data, 233 x 81, 8-bit/color RGBA, non-interlaced
+drivemount/help/fr/figures/drivemount-applet_eject.png: copy
+
+# drivemount/help/fr/figures/drivemount-applet_status.png = PNG image data, 193 x 75, 8-bit/color RGBA, non-interlaced
+drivemount/help/fr/figures/drivemount-applet_status.png: copy
+
+# drivemount/help/cs/cs.po = UTF-8 Unicode English text
+drivemount/help/cs/cs.po: copy
+
+# drivemount/help/cs/drivemount.xml = XML  document text
+drivemount/help/cs/drivemount.xml: copy
+
+# drivemount/help/ko/ko.po = UTF-8 Unicode PO (gettext message catalogue) text, with very long lines
+drivemount/help/ko/ko.po: copy
+
+# drivemount/help/ko/drivemount.xml = XML  document text
+drivemount/help/ko/drivemount.xml: copy
+
+# drivemount/help/fi/fi.po = UTF-8 Unicode PO (gettext message catalogue) text, with very long lines
+drivemount/help/fi/fi.po: copy
+
+# drivemount/help/fi/drivemount.xml = XML  document text
+drivemount/help/fi/drivemount.xml: copy
+
+# drivemount/help/fi/figures/drivemount-applet_mount.png = PNG image data, 115 x 69, 8-bit/color RGB, non-interlaced
+drivemount/help/fi/figures/drivemount-applet_mount.png: copy
+
+# drivemount/help/fi/figures/drivemount-applet_open.png = PNG image data, 246 x 69, 8-bit/color RGB, non-interlaced
+drivemount/help/fi/figures/drivemount-applet_open.png: copy
+
+# drivemount/help/fi/figures/drivemount-applet_eject.png = PNG image data, 246 x 69, 8-bit/color RGB, non-interlaced
+drivemount/help/fi/figures/drivemount-applet_eject.png: copy
+
+# drivemount/help/fi/figures/drivemount-applet_status.png = PNG image data, 186 x 68, 8-bit/color RGBA, non-interlaced
+drivemount/help/fi/figures/drivemount-applet_status.png: copy
+
+# drivemount/help/Makefile.in = ASCII English text
+drivemount/help/Makefile.in: copy
+
+# drivemount/help/ru/ru.po = UTF-8 Unicode PO (gettext message catalogue) text, with very long lines
+drivemount/help/ru/ru.po: copy
+
+# drivemount/help/ru/drivemount.xml = XML  document text
+drivemount/help/ru/drivemount.xml: copy
+
+# drivemount/drivemount.c = ASCII C program text
+drivemount/drivemount.c: copy
+
+# drivemount/drive-list.c = ASCII C program text
+drivemount/drive-list.c: copy
+
+# drivemount/drive-button.c = ASCII C program text
+drivemount/drive-button.c: copy
+
+# drivemount/AUTHORS = ASCII text
+drivemount/AUTHORS: copy
+
+# drivemount/GNOME_DriveMountApplet.xml = ASCII text
+drivemount/GNOME_DriveMountApplet.xml: copy
+
+# drivemount/drivemount.schemas.in = ASCII text
+drivemount/drivemount.schemas.in: copy
+
+# drivemount/drive-button.h = ASCII C program text
+drivemount/drive-button.h: copy
+
+# drivemount/Makefile.in = ASCII English text
+drivemount/Makefile.in: copy
+
+# modemlights/Makefile.am = ASCII text
+modemlights/Makefile.am: copy
+
+# modemlights/GNOME_ModemLights.xml = ASCII text
+modemlights/GNOME_ModemLights.xml: copy
+
+# modemlights/gnome-modem-monitor-applet.32.png = PNG image data, 32 x 32, 8-bit/color RGBA, non-interlaced
+modemlights/gnome-modem-monitor-applet.32.png: copy
+
+# modemlights/gnome-modem-monitor-applet.16.png = PNG image data, 16 x 16, 8-bit/color RGBA, non-interlaced
+modemlights/gnome-modem-monitor-applet.16.png: copy
+
+# modemlights/gnome-modem-monitor-applet.22.png = PNG image data, 22 x 22, 8-bit/color RGBA, non-interlaced
+modemlights/gnome-modem-monitor-applet.22.png: copy
+
+# modemlights/gnome-modem-monitor-applet.24.png = PNG image data, 24 x 24, 8-bit/color RGBA, non-interlaced
+modemlights/gnome-modem-monitor-applet.24.png: copy
+
+# modemlights/AUTHORS = ASCII English text
+modemlights/AUTHORS: copy
+
+# modemlights/gnome-modem-monitor-applet.svg = SVG Scalable Vector Graphics image
+modemlights/gnome-modem-monitor-applet.svg: copy
+
+# modemlights/GNOME_ModemLights.server.in.in = XML  document text
+modemlights/GNOME_ModemLights.server.in.in: copy
+
+# modemlights/modem-applet.c = ASCII C program text
+modemlights/modem-applet.c: copy
+
+# modemlights/modemlights.ui = XML  document text
+modemlights/modemlights.ui: copy
+
+# modemlights/modem-applet.h = ASCII C program text
+modemlights/modem-applet.h: copy
+
+# modemlights/Makefile.in = ASCII English text
+modemlights/Makefile.in: copy
+
+# stickynotes/stickynotes_applet.h = ASCII C program text
+stickynotes/stickynotes_applet.h: copy
+
+# stickynotes/stickynotes_callbacks.c = ASCII C program text
+stickynotes/stickynotes_callbacks.c: copy
+
+# stickynotes/stickynotes.ui = XML  document text
+stickynotes/stickynotes.ui: copy
+
+# stickynotes/Makefile.am = ASCII text
+stickynotes/Makefile.am: copy
+
+# stickynotes/util.h = ASCII C program text
+stickynotes/util.h: copy
+
+# stickynotes/stickynotes_applet.c = ASCII C program text
+stickynotes/stickynotes_applet.c: copy
+
+# stickynotes/GNOME_StickyNotesApplet.xml = ASCII text
+stickynotes/GNOME_StickyNotesApplet.xml: copy
+
+# stickynotes/README = ASCII English text
+stickynotes/README: copy
+
+# stickynotes/docs/uk/uk.po = UTF-8 Unicode PO (gettext message catalogue) text, with very long lines
+stickynotes/docs/uk/uk.po: copy
+
+# stickynotes/docs/uk/stickynotes_applet.xml = XML  document text
+stickynotes/docs/uk/stickynotes_applet.xml: copy
+
+# stickynotes/docs/uk/figures/stickynotes_applet.png = PNG image data, 28 x 24, 8-bit/color RGB, non-interlaced
+stickynotes/docs/uk/figures/stickynotes_applet.png: copy
+
+# stickynotes/docs/uk/figures/stickynotes-prefs.png = PNG image data, 373 x 476, 8-bit/color RGBA, non-interlaced
+stickynotes/docs/uk/figures/stickynotes-prefs.png: copy
+
+# stickynotes/docs/uk/figures/stickynotes-note-prefs.png = PNG image data, 337 x 336, 8-bit/color RGBA, non-interlaced
+stickynotes/docs/uk/figures/stickynotes-note-prefs.png: copy
+
+# stickynotes/docs/stickynotes_applet.omf.in = XML  document text
+stickynotes/docs/stickynotes_applet.omf.in: copy
+
+# stickynotes/docs/es/es.po = UTF-8 Unicode PO (gettext message catalogue) text
+stickynotes/docs/es/es.po: copy
+
+# stickynotes/docs/es/stickynotes_applet.xml = XML  document text
+stickynotes/docs/es/stickynotes_applet.xml: copy
+
+# stickynotes/docs/es/figures/stickynote-right-menu-new.png = PNG image data, 169 x 258, 8-bit/color RGBA, non-interlaced
+stickynotes/docs/es/figures/stickynote-right-menu-new.png: copy
+
+# stickynotes/docs/es/figures/stickynotes_applet.png = PNG image data, 221 x 181, 8-bit/color RGBA, non-interlaced
+stickynotes/docs/es/figures/stickynotes_applet.png: copy
+
+# stickynotes/docs/es/figures/stickynotes-prefs.png = PNG image data, 457 x 429, 8-bit/color RGBA, non-interlaced
+stickynotes/docs/es/figures/stickynotes-prefs.png: copy
+
+# stickynotes/docs/es/figures/stickynote-right-menu-lock.png = PNG image data, 169 x 258, 8-bit/color RGBA, non-interlaced
+stickynotes/docs/es/figures/stickynote-right-menu-lock.png: copy
+
+# stickynotes/docs/es/figures/stickynotes-note-prefs.png = PNG image data, 371 x 303, 8-bit/color RGBA, non-interlaced
+stickynotes/docs/es/figures/stickynotes-note-prefs.png: copy
+
+# stickynotes/docs/Makefile.am = ASCII text
+stickynotes/docs/Makefile.am: copy
+
+# stickynotes/docs/oc/stickynotes_applet.xml = XML  document text
+stickynotes/docs/oc/stickynotes_applet.xml: copy
+
+# stickynotes/docs/oc/oc.po = UTF-8 Unicode English text
+stickynotes/docs/oc/oc.po: copy
+
+# stickynotes/docs/zh_CN/zh_CN.po = UTF-8 Unicode English text
+stickynotes/docs/zh_CN/zh_CN.po: copy
+
+# stickynotes/docs/zh_CN/stickynotes_applet.xml = XML  document text
+stickynotes/docs/zh_CN/stickynotes_applet.xml: copy
+
+# stickynotes/docs/zh_CN/figures/stickynotes_applet.png = PNG image data, 26 x 23, 8-bit/color RGB, non-interlaced
+stickynotes/docs/zh_CN/figures/stickynotes_applet.png: copy
+
+# stickynotes/docs/eu/eu.po = UTF-8 Unicode PO (gettext message catalogue) text, with very long lines
+stickynotes/docs/eu/eu.po: copy
+
+# stickynotes/docs/eu/stickynotes_applet.xml = XML  document text
+stickynotes/docs/eu/stickynotes_applet.xml: copy
+
+# stickynotes/docs/eu/figures/stickynote-right-menu-new.png = PNG image data, 153 x 251, 8-bit/color RGBA, non-interlaced
+stickynotes/docs/eu/figures/stickynote-right-menu-new.png: copy
+
+# stickynotes/docs/eu/figures/stickynotes_applet.png = PNG image data, 211 x 152, 8-bit/color RGBA, non-interlaced
+stickynotes/docs/eu/figures/stickynotes_applet.png: copy
+
+# stickynotes/docs/eu/figures/stickynotes-prefs.png = PNG image data, 395 x 431, 8-bit/color RGBA, non-interlaced
+stickynotes/docs/eu/figures/stickynotes-prefs.png: copy
+
+# stickynotes/docs/eu/figures/stickynote-right-menu-lock.png = PNG image data, 152 x 249, 8-bit/color RGBA, non-interlaced
+stickynotes/docs/eu/figures/stickynote-right-menu-lock.png: copy
+
+# stickynotes/docs/eu/figures/stickynotes-note-prefs.png = PNG image data, 380 x 305, 8-bit/color RGBA, non-interlaced
+stickynotes/docs/eu/figures/stickynotes-note-prefs.png: copy
+
+# stickynotes/docs/el/stickynotes_applet.xml = XML  document text
+stickynotes/docs/el/stickynotes_applet.xml: copy
+
+# stickynotes/docs/el/el.po = UTF-8 Unicode English text
+stickynotes/docs/el/el.po: copy
+
+# stickynotes/docs/sv/stickynotes_applet.xml = XML  document text
+stickynotes/docs/sv/stickynotes_applet.xml: copy
+
+# stickynotes/docs/sv/sv.po = UTF-8 Unicode PO (gettext message catalogue) text, with very long lines
+stickynotes/docs/sv/sv.po: copy
+
+# stickynotes/docs/sv/figures/stickynote-right-menu-new.png = PNG image data, 188 x 306, 8-bit/color RGBA, non-interlaced
+stickynotes/docs/sv/figures/stickynote-right-menu-new.png: copy
+
+# stickynotes/docs/sv/figures/stickynotes_applet.png = PNG image data, 26 x 23, 8-bit/color RGB, non-interlaced
+stickynotes/docs/sv/figures/stickynotes_applet.png: copy
+
+# stickynotes/docs/sv/figures/stickynotes-prefs.png = PNG image data, 340 x 320, 8-bit/color RGBA, non-interlaced
+stickynotes/docs/sv/figures/stickynotes-prefs.png: copy
+
+# stickynotes/docs/sv/figures/stickynote-right-menu-lock.png = PNG image data, 194 x 308, 8-bit/color RGBA, non-interlaced
+stickynotes/docs/sv/figures/stickynote-right-menu-lock.png: copy
+
+# stickynotes/docs/sv/figures/stickynotes-note-prefs.png = PNG image data, 400 x 450, 8-bit/color RGBA, non-interlaced
+stickynotes/docs/sv/figures/stickynotes-note-prefs.png: copy
+
+# stickynotes/docs/en_GB/en_GB.po = ASCII PO (gettext message catalogue) text, with very long lines
+stickynotes/docs/en_GB/en_GB.po: copy
+
+# stickynotes/docs/en_GB/stickynotes_applet.xml = XML  document text
+stickynotes/docs/en_GB/stickynotes_applet.xml: copy
+
+# stickynotes/docs/de/de.po = UTF-8 Unicode PO (gettext message catalogue) text
+stickynotes/docs/de/de.po: copy
+
+# stickynotes/docs/de/stickynotes_applet.xml = XML  document text
+stickynotes/docs/de/stickynotes_applet.xml: copy
+
+# stickynotes/docs/de/figures/stickynote-right-menu-new.png = PNG image data, 181 x 254, 8-bit/color RGBA, non-interlaced
+stickynotes/docs/de/figures/stickynote-right-menu-new.png: copy
+
+# stickynotes/docs/de/figures/stickynotes_applet.png = PNG image data, 140 x 114, 8-bit/color RGBA, non-interlaced
+stickynotes/docs/de/figures/stickynotes_applet.png: copy
+
+# stickynotes/docs/de/figures/stickynotes-prefs.png = PNG image data, 358 x 429, 8-bit/color RGBA, non-interlaced
+stickynotes/docs/de/figures/stickynotes-prefs.png: copy
+
+# stickynotes/docs/de/figures/stickynote-right-menu-lock.png = PNG image data, 181 x 254, 8-bit/color RGBA, non-interlaced
+stickynotes/docs/de/figures/stickynote-right-menu-lock.png: copy
+
+# stickynotes/docs/de/figures/stickynotes-note-prefs.png = PNG image data, 340 x 307, 8-bit/color RGBA, non-interlaced
+stickynotes/docs/de/figures/stickynotes-note-prefs.png: copy
+
+# stickynotes/docs/pa/pa.po = UTF-8 Unicode PO (gettext message catalogue) text, with very long lines
+stickynotes/docs/pa/pa.po: copy
+
+# stickynotes/docs/pa/stickynotes_applet.xml = XML  document text
+stickynotes/docs/pa/stickynotes_applet.xml: copy
+
+# stickynotes/docs/C/legal.xml = ASCII English text
+stickynotes/docs/C/legal.xml: copy
+
+# stickynotes/docs/C/stickynotes_applet.xml = XML  document text
+stickynotes/docs/C/stickynotes_applet.xml: copy
+
+# stickynotes/docs/C/figures/stickynote-right-menu-new.png = PNG image data, 175 x 260, 8-bit/color RGBA, non-interlaced
+stickynotes/docs/C/figures/stickynote-right-menu-new.png: copy
+
+# stickynotes/docs/C/figures/stickynotes_applet.png = PNG image data, 172 x 198, 8-bit/color RGBA, non-interlaced
+stickynotes/docs/C/figures/stickynotes_applet.png: copy
+
+# stickynotes/docs/C/figures/stickynotes-prefs.png = PNG image data, 323 x 442, 8-bit/color RGBA, non-interlaced
+stickynotes/docs/C/figures/stickynotes-prefs.png: copy
+
+# stickynotes/docs/C/figures/stickynote-right-menu-lock.png = PNG image data, 175 x 260, 8-bit/color RGBA, non-interlaced
+stickynotes/docs/C/figures/stickynote-right-menu-lock.png: copy
+
+# stickynotes/docs/C/figures/stickynotes-note-prefs.png = PNG image data, 322 x 316, 8-bit/color RGBA, non-interlaced
+stickynotes/docs/C/figures/stickynotes-note-prefs.png: copy
+
+# stickynotes/docs/ca/ca.po = UTF-8 Unicode PO (gettext message catalogue) text
+stickynotes/docs/ca/ca.po: copy
+
+# stickynotes/docs/ca/stickynotes_applet.xml = XML  document text
+stickynotes/docs/ca/stickynotes_applet.xml: copy
+
+# stickynotes/docs/fr/fr.po = UTF-8 Unicode English text
+stickynotes/docs/fr/fr.po: copy
+
+# stickynotes/docs/fr/stickynotes_applet.xml = XML  document text
+stickynotes/docs/fr/stickynotes_applet.xml: copy
+
+# stickynotes/docs/fr/figures/stickynote-right-menu-new.png = PNG image data, 245 x 287, 8-bit/color RGBA, non-interlaced
+stickynotes/docs/fr/figures/stickynote-right-menu-new.png: copy
+
+# stickynotes/docs/fr/figures/stickynotes_applet.png = PNG image data, 180 x 204, 8-bit/color RGBA, non-interlaced
+stickynotes/docs/fr/figures/stickynotes_applet.png: copy
+
+# stickynotes/docs/fr/figures/stickynotes-prefs.png = PNG image data, 481 x 446, 8-bit/color RGBA, non-interlaced
+stickynotes/docs/fr/figures/stickynotes-prefs.png: copy
+
+# stickynotes/docs/fr/figures/stickynote-right-menu-lock.png = PNG image data, 245 x 287, 8-bit/color RGBA, non-interlaced
+stickynotes/docs/fr/figures/stickynote-right-menu-lock.png: copy
+
+# stickynotes/docs/fr/figures/stickynotes-note-prefs.png = PNG image data, 412 x 324, 8-bit/color RGBA, non-interlaced
+stickynotes/docs/fr/figures/stickynotes-note-prefs.png: copy
+
+# stickynotes/docs/cs/cs.po = UTF-8 Unicode English text
+stickynotes/docs/cs/cs.po: copy
+
+# stickynotes/docs/cs/stickynotes_applet.xml = XML  document text
+stickynotes/docs/cs/stickynotes_applet.xml: copy
+
+# stickynotes/docs/cs/figures/stickynote-right-menu-new.png = PNG image data, 216 x 281, 8-bit/color RGBA, non-interlaced
+stickynotes/docs/cs/figures/stickynote-right-menu-new.png: copy
+
+# stickynotes/docs/cs/figures/stickynotes_applet.png = PNG image data, 194 x 199, 8-bit/color RGBA, non-interlaced
+stickynotes/docs/cs/figures/stickynotes_applet.png: copy
+
+# stickynotes/docs/cs/figures/stickynotes-prefs.png = PNG image data, 363 x 427, 8-bit/color RGBA, non-interlaced
+stickynotes/docs/cs/figures/stickynotes-prefs.png: copy
+
+# stickynotes/docs/cs/figures/stickynote-right-menu-lock.png = PNG image data, 216 x 281, 8-bit/color RGBA, non-interlaced
+stickynotes/docs/cs/figures/stickynote-right-menu-lock.png: copy
+
+# stickynotes/docs/cs/figures/stickynotes-note-prefs.png = PNG image data, 335 x 306, 8-bit/color RGBA, non-interlaced
+stickynotes/docs/cs/figures/stickynotes-note-prefs.png: copy
+
+# stickynotes/docs/ko/ko.po = UTF-8 Unicode PO (gettext message catalogue) text
+stickynotes/docs/ko/ko.po: copy
+
+# stickynotes/docs/ko/stickynotes_applet.xml = XML  document text
+stickynotes/docs/ko/stickynotes_applet.xml: copy
+
+# stickynotes/docs/fi/fi.po = UTF-8 Unicode PO (gettext message catalogue) text, with very long lines
+stickynotes/docs/fi/fi.po: copy
+
+# stickynotes/docs/fi/stickynotes_applet.xml = XML  document text
+stickynotes/docs/fi/stickynotes_applet.xml: copy
+
+# stickynotes/docs/fi/figures/stickynote-right-menu-new.png = PNG image data, 151 x 266, 8-bit/color RGB, non-interlaced
+stickynotes/docs/fi/figures/stickynote-right-menu-new.png: copy
+
+# stickynotes/docs/fi/figures/stickynotes_applet.png = PNG image data, 240 x 208, 8-bit/color RGBA, non-interlaced
+stickynotes/docs/fi/figures/stickynotes_applet.png: copy
+
+# stickynotes/docs/fi/figures/stickynotes-prefs.png = PNG image data, 443 x 449, 8-bit/color RGBA, non-interlaced
+stickynotes/docs/fi/figures/stickynotes-prefs.png: copy
+
+# stickynotes/docs/fi/figures/stickynote-right-menu-lock.png = PNG image data, 151 x 266, 8-bit/color RGB, non-interlaced
+stickynotes/docs/fi/figures/stickynote-right-menu-lock.png: copy
+
+# stickynotes/docs/fi/figures/stickynotes-note-prefs.png = PNG image data, 339 x 319, 8-bit/color RGBA, non-interlaced
+stickynotes/docs/fi/figures/stickynotes-note-prefs.png: copy
+
+# stickynotes/docs/pt_BR/pt_BR.po = UTF-8 Unicode English text, with very long lines
+stickynotes/docs/pt_BR/pt_BR.po: copy
+
+# stickynotes/docs/pt_BR/stickynotes_applet.xml = XML  document text
+stickynotes/docs/pt_BR/stickynotes_applet.xml: copy
+
+# stickynotes/docs/pt_BR/figures/stickynote-right-menu-new.png = PNG image data, 164 x 275, 8-bit/color RGBA, non-interlaced
+stickynotes/docs/pt_BR/figures/stickynote-right-menu-new.png: copy
+
+# stickynotes/docs/pt_BR/figures/stickynotes_applet.png = PNG image data, 132 x 137, 8-bit/color RGB, non-interlaced
+stickynotes/docs/pt_BR/figures/stickynotes_applet.png: copy
+
+# stickynotes/docs/pt_BR/figures/stickynotes-prefs.png = PNG image data, 392 x 461, 8-bit/color RGBA, non-interlaced
+stickynotes/docs/pt_BR/figures/stickynotes-prefs.png: copy
+
+# stickynotes/docs/pt_BR/figures/stickynote-right-menu-lock.png = PNG image data, 160 x 273, 8-bit/color RGBA, non-interlaced
+stickynotes/docs/pt_BR/figures/stickynote-right-menu-lock.png: copy
+
+# stickynotes/docs/pt_BR/figures/stickynotes-note-prefs.png = PNG image data, 336 x 331, 8-bit/color RGBA, non-interlaced
+stickynotes/docs/pt_BR/figures/stickynotes-note-prefs.png: copy
+
+# stickynotes/docs/Makefile.in = ASCII English text
+stickynotes/docs/Makefile.in: copy
+
+# stickynotes/docs/ru/ru.po = UTF-8 Unicode PO (gettext message catalogue) text
+stickynotes/docs/ru/ru.po: copy
+
+# stickynotes/docs/ru/stickynotes_applet.xml = XML  document text
+stickynotes/docs/ru/stickynotes_applet.xml: copy
+
+# stickynotes/docs/ru/figures/stickynote-right-menu-new.png = PNG image data, 199 x 291, 8-bit/color RGBA, non-interlaced
+stickynotes/docs/ru/figures/stickynote-right-menu-new.png: copy
+
+# stickynotes/docs/ru/figures/stickynotes_applet.png = PNG image data, 184 x 137, 8-bit/color RGBA, non-interlaced
+stickynotes/docs/ru/figures/stickynotes_applet.png: copy
+
+# stickynotes/docs/ru/figures/stickynotes-prefs.png = PNG image data, 455 x 461, 8-bit/color RGBA, non-interlaced
+stickynotes/docs/ru/figures/stickynotes-prefs.png: copy
+
+# stickynotes/docs/ru/figures/stickynote-right-menu-lock.png = PNG image data, 197 x 290, 8-bit/color RGBA, non-interlaced
+stickynotes/docs/ru/figures/stickynote-right-menu-lock.png: copy
+
+# stickynotes/docs/ru/figures/stickynotes-note-prefs.png = PNG image data, 348 x 331, 8-bit/color RGBA, non-interlaced
+stickynotes/docs/ru/figures/stickynotes-note-prefs.png: copy
+
+# stickynotes/stickynotes.c = ASCII C program text
+stickynotes/stickynotes.c: copy
+
+# stickynotes/pixmaps/gnome-sticky-notes-applet.22.png = PNG image data, 22 x 22, 8-bit/color RGBA, non-interlaced
+stickynotes/pixmaps/gnome-sticky-notes-applet.22.png: copy
+
+# stickynotes/pixmaps/Makefile.am = ASCII text
+stickynotes/pixmaps/Makefile.am: copy
+
+# stickynotes/pixmaps/locked.png = PNG image data, 48 x 48, 8-bit gray+alpha, non-interlaced
+stickynotes/pixmaps/locked.png: copy
+
+# stickynotes/pixmaps/unlocked.png = PNG image data, 48 x 48, 8-bit gray+alpha, non-interlaced
+stickynotes/pixmaps/unlocked.png: copy
+
+# stickynotes/pixmaps/gnome-sticky-notes-applet.32.png = PNG image data, 32 x 32, 8-bit/color RGBA, non-interlaced
+stickynotes/pixmaps/gnome-sticky-notes-applet.32.png: copy
+
+# stickynotes/pixmaps/gnome-sticky-notes-applet.24.png = PNG image data, 24 x 24, 8-bit/color RGBA, non-interlaced
+stickynotes/pixmaps/gnome-sticky-notes-applet.24.png: copy
+
+# stickynotes/pixmaps/gnome-sticky-notes-applet.16.png = PNG image data, 16 x 16, 8-bit/color RGBA, non-interlaced
+stickynotes/pixmaps/gnome-sticky-notes-applet.16.png: copy
+
+# stickynotes/pixmaps/close.png = PNG image data, 48 x 48, 8-bit gray+alpha, non-interlaced
+stickynotes/pixmaps/close.png: copy
+
+# stickynotes/pixmaps/gnome-sticky-notes-applet.svg = SVG Scalable Vector Graphics image
+stickynotes/pixmaps/gnome-sticky-notes-applet.svg: copy
+
+# stickynotes/pixmaps/resize_se.png = PNG image data, 48 x 48, 8-bit gray+alpha, non-interlaced
+stickynotes/pixmaps/resize_se.png: copy
+
+# stickynotes/pixmaps/Makefile.in = ASCII English text
+stickynotes/pixmaps/Makefile.in: copy
+
+# stickynotes/pixmaps/resize_sw.png = PNG image data, 48 x 48, 8-bit gray+alpha, non-interlaced
+stickynotes/pixmaps/resize_sw.png: copy
+
+# stickynotes/TODO = ASCII English text
+stickynotes/TODO: copy
+
+# stickynotes/util.c = ASCII C program text
+stickynotes/util.c: copy
+
+# stickynotes/data/Makefile.am = ASCII English text
+stickynotes/data/Makefile.am: copy
+
+# stickynotes/data/GNOME_StickyNotesApplet.server.in = XML  document text
+stickynotes/data/GNOME_StickyNotesApplet.server.in: copy
+
+# stickynotes/data/Makefile.in = ASCII English text
+stickynotes/data/Makefile.in: copy
+
+# stickynotes/stickynotes_applet_callbacks.c = ASCII C program text
+stickynotes/stickynotes_applet_callbacks.c: copy
+
+# stickynotes/GNOME_StickyNotesApplet.server.in.in = XML  document text
+stickynotes/GNOME_StickyNotesApplet.server.in.in: copy
+
+# stickynotes/stickynotes_callbacks.h = ASCII C program text
+stickynotes/stickynotes_callbacks.h: copy
+
+# stickynotes/stickynotes.schemas.in = ASCII English text
+stickynotes/stickynotes.schemas.in: copy
+
+# stickynotes/stickynotes.h = ASCII C program text
+stickynotes/stickynotes.h: copy
+
+# stickynotes/stickynotes_applet_callbacks.h = ASCII C program text
+stickynotes/stickynotes_applet_callbacks.h: copy
+
+# stickynotes/Makefile.in = ASCII English text
+stickynotes/Makefile.in: copy
+
+# po/ps.po = UTF-8 Unicode English text
+po/ps.po: copy
+
+# po/es_EC.po = UTF-8 Unicode English text
+po/es_EC.po: copy
+
+# po/es_PR.po = UTF-8 Unicode English text
+po/es_PR.po: copy
+
+# po/uk.po = UTF-8 Unicode PO (gettext message catalogue) text
+po/uk.po: copy
+
+# po/wa.po = UTF-8 Unicode English text
+po/wa.po: copy
+
+# po/pt.po = UTF-8 Unicode English text
+po/pt.po: copy
+
+# po/te.po = UTF-8 Unicode English text
+po/te.po: copy
+
+# po/ky.po = UTF-8 Unicode English text
+po/ky.po: copy
+
+# po/lt.po = UTF-8 Unicode PO (gettext message catalogue) text
+po/lt.po: copy
+
+# po/ml.po = UTF-8 Unicode English text
+po/ml.po: copy
+
+# po/da.po = UTF-8 Unicode English text
+po/da.po: copy
+
+# po/nl.po = UTF-8 Unicode English text
+po/nl.po: copy
+
+# po/es_PE.po = UTF-8 Unicode English text
+po/es_PE.po: copy
+
+# po/en_GB.po = UTF-8 Unicode PO (gettext message catalogue) text
+po/en_GB.po: copy
+
+# po/es_PA.po = UTF-8 Unicode English text
+po/es_PA.po: copy
+
+# po/es_GT.po = UTF-8 Unicode English text
+po/es_GT.po: copy
+
+# po/rw.po = UTF-8 Unicode English text
+po/rw.po: copy
+
+# po/nb.po = UTF-8 Unicode PO (gettext message catalogue) text
+po/nb.po: copy
+
+# po/ku.po = UTF-8 Unicode English text
+po/ku.po: copy
+
+# po/or.po = UTF-8 Unicode English text
+po/or.po: copy
+
+# po/vi.po = UTF-8 Unicode English text
+po/vi.po: copy
+
+# po/mai.po = UTF-8 Unicode English text
+po/mai.po: copy
+
+# po/id.po = UTF-8 Unicode English text
+po/id.po: copy
+
+# po/tr.po = UTF-8 Unicode PO (gettext message catalogue) text
+po/tr.po: copy
+
+# po/he.po = UTF-8 Unicode English text
+po/he.po: copy
+
+# po/mk.po = UTF-8 Unicode English text
+po/mk.po: copy
+
+# po/zh_CN.po = UTF-8 Unicode PO (gettext message catalogue) text
+po/zh_CN.po: copy
+
+# po/es_VE.po = UTF-8 Unicode English text
+po/es_VE.po: copy
+
+# po/bn.po = UTF-8 Unicode English text
+po/bn.po: copy
+
+# po/cs.po = UTF-8 Unicode English text
+po/cs.po: copy
+
+# po/as.po = UTF-8 Unicode English text
+po/as.po: copy
+
+# po/pa.po = UTF-8 Unicode English text
+po/pa.po: copy
+
+# po/be@latin.po = UTF-8 Unicode English text
+po/be@latin.po: copy
+
+# po/es_SV.po = UTF-8 Unicode English text
+po/es_SV.po: copy
+
+# po/ko.po = UTF-8 Unicode English text
+po/ko.po: copy
+
+# po/ja.po = UTF-8 Unicode PO (gettext message catalogue) text
+po/ja.po: copy
+
+# po/de.po = UTF-8 Unicode PO (gettext message catalogue) text
+po/de.po: copy
+
+# po/gu.po = UTF-8 Unicode PO (gettext message catalogue) text
+po/gu.po: copy
+
+# po/kn.po = UTF-8 Unicode English text
+po/kn.po: copy
+
+# po/POTFILES.in = ASCII text
+po/POTFILES.in: copy
+
+# po/sr.po = UTF-8 Unicode English text
+po/sr.po: copy
+
+# po/es_CR.po = UTF-8 Unicode English text
+po/es_CR.po: copy
+
+# po/be.po = UTF-8 Unicode PO (gettext message catalogue) text
+po/be.po: copy
+
+# po/af.po = UTF-8 Unicode English text
+po/af.po: copy
+
+# po/eu.po = UTF-8 Unicode PO (gettext message catalogue) text
+po/eu.po: copy
+
+# po/hi.po = UTF-8 Unicode English text
+po/hi.po: copy
+
+# po/bg.po = UTF-8 Unicode English text
+po/bg.po: copy
+
+# po/mr.po = UTF-8 Unicode English text
+po/mr.po: copy
+
+# po/ta.po = UTF-8 Unicode PO (gettext message catalogue) text
+po/ta.po: copy
+
+# po/zh_HK.po = UTF-8 Unicode PO (gettext message catalogue) text
+po/zh_HK.po: copy
+
+# po/ast.po = UTF-8 Unicode English text
+po/ast.po: copy
+
+# po/mn.po = UTF-8 Unicode English text
+po/mn.po: copy
+
+# po/lv.po = UTF-8 Unicode PO (gettext message catalogue) text
+po/lv.po: copy
+
+# po/es_CL.po = UTF-8 Unicode English text
+po/es_CL.po: copy
+
+# po/ru.po = UTF-8 Unicode PO (gettext message catalogue) text
+po/ru.po: copy
+
+# po/cy.po = UTF-8 Unicode PO (gettext message catalogue) text
+po/cy.po: copy
+
+# po/zh_TW.po = UTF-8 Unicode PO (gettext message catalogue) text
+po/zh_TW.po: copy
+
+# po/fr.po = UTF-8 Unicode English text
+po/fr.po: copy
+
+# po/xh.po = UTF-8 Unicode English text
+po/xh.po: copy
+
+# po/es_NI.po = UTF-8 Unicode English text
+po/es_NI.po: copy
+
+# po/fa.po = UTF-8 Unicode English text
+po/fa.po: copy
+
+# po/en_CA.po = UTF-8 Unicode English text
+po/en_CA.po: copy
+
+# po/ms.po = UTF-8 Unicode PO (gettext message catalogue) text
+po/ms.po: copy
+
+# po/sl.po = UTF-8 Unicode English text
+po/sl.po: copy
+
+# po/es_HN.po = UTF-8 Unicode English text
+po/es_HN.po: copy
+
+# po/sq.po = UTF-8 Unicode English text
+po/sq.po: copy
+
+# po/sr@latin.po = UTF-8 Unicode English text
+po/sr@latin.po: copy
+
+# po/crh.po = UTF-8 Unicode English text
+po/crh.po: copy
+
+# po/es.po = UTF-8 Unicode English text
+po/es.po: copy
+
+# po/ar.po = UTF-8 Unicode English text
+po/ar.po: copy
+
+# po/pt_BR.po = UTF-8 Unicode English text
+po/pt_BR.po: copy
+
+# po/es_MX.po = UTF-8 Unicode English text
+po/es_MX.po: copy
+
+# po/fi.po = UTF-8 Unicode PO (gettext message catalogue) text
+po/fi.po: copy
+
+# po/es_UY.po = UTF-8 Unicode English text
+po/es_UY.po: copy
+
+# po/es_DO.po = UTF-8 Unicode English text
+po/es_DO.po: copy
+
+# po/bs.po = UTF-8 Unicode English text, with very long lines
+po/bs.po: copy
+
+# po/ka.po = UTF-8 Unicode PO (gettext message catalogue) text
+po/ka.po: copy
+
+# po/ro.po = UTF-8 Unicode PO (gettext message catalogue) text
+po/ro.po: copy
+
+# po/hy.po = UTF-8 Unicode English text
+po/hy.po: copy
+
+# po/ca.po = UTF-8 Unicode English text
+po/ca.po: copy
+
+# po/hu.po = UTF-8 Unicode English text
+po/hu.po: copy
+
+# po/ca@valencia.po = UTF-8 Unicode English text
+po/ca@valencia.po: copy
+
+# po/pl.po = UTF-8 Unicode PO (gettext message catalogue) text
+po/pl.po: copy
+
+# po/am.po = UTF-8 Unicode English text
+po/am.po: copy
+
+# po/Makefile.in.in = ASCII Pascal program text
+po/Makefile.in.in: copy
+
+# po/gl.po = UTF-8 Unicode PO (gettext message catalogue) text
+po/gl.po: copy
+
+# po/mg.po = UTF-8 Unicode English text
+po/mg.po: copy
+
+# po/es_ES.po = UTF-8 Unicode English text
+po/es_ES.po: copy
+
+# po/is.po = UTF-8 Unicode PO (gettext message catalogue) text
+po/is.po: copy
+
+# po/hr.po = UTF-8 Unicode PO (gettext message catalogue) text
+po/hr.po: copy
+
+# po/es_CO.po = UTF-8 Unicode English text
+po/es_CO.po: copy
+
+# po/it.po = UTF-8 Unicode English text
+po/it.po: copy
+
+# po/ga.po = UTF-8 Unicode English text
+po/ga.po: copy
+
+# po/bn_IN.po = UTF-8 Unicode English text
+po/bn_IN.po: copy
+
+# po/es_AR.po = UTF-8 Unicode English text
+po/es_AR.po: copy
+
+# po/ne.po = UTF-8 Unicode English text
+po/ne.po: copy
+
+# po/th.po = UTF-8 Unicode English text
+po/th.po: copy
+
+# po/oc.po = UTF-8 Unicode English text
+po/oc.po: copy
+
+# po/br.po = UTF-8 Unicode English text
+po/br.po: copy
+
+# po/sv.po = UTF-8 Unicode PO (gettext message catalogue) text
+po/sv.po: copy
+
+# po/LINGUAS = ASCII text
+po/LINGUAS: copy
+
+# po/dz.po = UTF-8 Unicode PO (gettext message catalogue) text
+po/dz.po: copy
+
+# po/et.po = UTF-8 Unicode English text
+po/et.po: copy
+
+# po/sk.po = UTF-8 Unicode PO (gettext message catalogue) text
+po/sk.po: copy
+
+# po/el.po = UTF-8 Unicode PO (gettext message catalogue) text
+po/el.po: copy
+
+# po/si.po = UTF-8 Unicode English text
+po/si.po: copy
+
+# po/az.po = UTF-8 Unicode PO (gettext message catalogue) text
+po/az.po: copy
+
+# po/POTFILES.skip = ASCII English text
+po/POTFILES.skip: copy
+
+# po/nn.po = data
+po/nn.po: copy
+
+# mkinstalldirs = POSIX shell script text executable
+mkinstalldirs: copy
+
+# missing = POSIX shell script text executable
+missing: copy
+
+# ltmain.sh = ASCII English text
+ltmain.sh: copy
+
+# gnome-applets.spec = ASCII English text
+gnome-applets.spec: copy
+
+# configure = POSIX shell script text executable
+configure: copy
+
+# charpick/GNOME_CharpickerApplet.xml = ASCII text
+charpick/GNOME_CharpickerApplet.xml: copy
+
+# charpick/Makefile.am = ASCII text
+charpick/Makefile.am: copy
+
+# charpick/help/uk/uk.po = UTF-8 Unicode PO (gettext message catalogue) text
+charpick/help/uk/uk.po: copy
+
+# charpick/help/uk/char-palette.xml = XML  document text
+charpick/help/uk/char-palette.xml: copy
+
+# charpick/help/uk/figures/charpick-preferences.png = PNG image data, 372 x 389, 8-bit/color RGBA, non-interlaced
+charpick/help/uk/figures/charpick-preferences.png: copy
+
+# charpick/help/uk/figures/charpick_characters.png = PNG image data, 445 x 403, 8-bit/color RGB, non-interlaced
+charpick/help/uk/figures/charpick_characters.png: copy
+
+# charpick/help/uk/figures/charpalette_chargroup.png = PNG image data, 178 x 35, 8-bit colormap, non-interlaced
+charpick/help/uk/figures/charpalette_chargroup.png: copy
+
+# charpick/help/uk/figures/charpalette_applet.png = PNG image data, 289 x 30, 8-bit/color RGB, non-interlaced
+charpick/help/uk/figures/charpalette_applet.png: copy
+
+# charpick/help/char-palette.omf.in = XML  document text
+charpick/help/char-palette.omf.in: copy
+
+# charpick/help/es/char-palette.xml = XML  document text
+charpick/help/es/char-palette.xml: copy
+
+# charpick/help/es/es.po = UTF-8 Unicode PO (gettext message catalogue) text
+charpick/help/es/es.po: copy
+
+# charpick/help/es/figures/charpick-preferences.png = PNG image data, 358 x 374, 8-bit/color RGBA, non-interlaced
+charpick/help/es/figures/charpick-preferences.png: copy
+
+# charpick/help/Makefile.am = ASCII text
+charpick/help/Makefile.am: copy
+
+# charpick/help/oc/char-palette.xml = XML  document text
+charpick/help/oc/char-palette.xml: copy
+
+# charpick/help/oc/oc.po = UTF-8 Unicode English text
+charpick/help/oc/oc.po: copy
+
+# charpick/help/zh_CN/char-palette.xml = XML  document text
+charpick/help/zh_CN/char-palette.xml: copy
+
+# charpick/help/zh_CN/zh_CN.po = UTF-8 Unicode English text
+charpick/help/zh_CN/zh_CN.po: copy
+
+# charpick/help/eu/char-palette.xml = XML  document text
+charpick/help/eu/char-palette.xml: copy
+
+# charpick/help/eu/eu.po = UTF-8 Unicode PO (gettext message catalogue) text, with very long lines
+charpick/help/eu/eu.po: copy
+
+# charpick/help/eu/figures/charpick-preferences.png = PNG image data, 358 x 376, 8-bit/color RGBA, non-interlaced
+charpick/help/eu/figures/charpick-preferences.png: copy
+
+# charpick/help/eu/figures/charpalette_chargroup.png = PNG image data, 178 x 35, 8-bit colormap, non-interlaced
+charpick/help/eu/figures/charpalette_chargroup.png: copy
+
+# charpick/help/el/char-palette.xml = XML  document text
+charpick/help/el/char-palette.xml: copy
+
+# charpick/help/el/figures/charpick-preferences.png = PNG image data, 358 x 378, 8-bit/color RGBA, non-interlaced
+charpick/help/el/figures/charpick-preferences.png: copy
+
+# charpick/help/el/el.po = UTF-8 Unicode PO (gettext message catalogue) text
+charpick/help/el/el.po: copy
+
+# charpick/help/sv/char-palette.xml = XML  document text
+charpick/help/sv/char-palette.xml: copy
+
+# charpick/help/sv/sv.po = UTF-8 Unicode PO (gettext message catalogue) text, with very long lines
+charpick/help/sv/sv.po: copy
+
+# charpick/help/sv/figures/charpick-preferences.png = PNG image data, 360 x 378, 8-bit/color RGBA, non-interlaced
+charpick/help/sv/figures/charpick-preferences.png: copy
+
+# charpick/help/en_GB/en_GB.po = ASCII PO (gettext message catalogue) text
+charpick/help/en_GB/en_GB.po: copy
+
+# charpick/help/en_GB/char-palette.xml = XML  document text
+charpick/help/en_GB/char-palette.xml: copy
+
+# charpick/help/de/char-palette.xml = XML  document text
+charpick/help/de/char-palette.xml: copy
+
+# charpick/help/de/de.po = UTF-8 Unicode English text
+charpick/help/de/de.po: copy
+
+# charpick/help/de/figures/charpick-preferences.png = PNG image data, 372 x 389, 8-bit/color RGBA, non-interlaced
+charpick/help/de/figures/charpick-preferences.png: copy
+
+# charpick/help/de/figures/charpalette_chargroup.png = PNG image data, 178 x 35, 8-bit colormap, non-interlaced
+charpick/help/de/figures/charpalette_chargroup.png: copy
+
+# charpick/help/C/legal.xml = ASCII English text
+charpick/help/C/legal.xml: copy
+
+# charpick/help/C/char-palette.xml = XML  document text
+charpick/help/C/char-palette.xml: copy
+
+# charpick/help/C/figures/charpick-preferences.png = PNG image data, 372 x 389, 8-bit/color RGBA, non-interlaced
+charpick/help/C/figures/charpick-preferences.png: copy
+
+# charpick/help/C/figures/charpick_characters.png = PNG image data, 445 x 403, 8-bit/color RGB, non-interlaced
+charpick/help/C/figures/charpick_characters.png: copy
+
+# charpick/help/C/figures/charpalette_chargroup.png = PNG image data, 178 x 35, 8-bit colormap, non-interlaced
+charpick/help/C/figures/charpalette_chargroup.png: copy
+
+# charpick/help/C/figures/charpalette_applet.png = PNG image data, 289 x 30, 8-bit/color RGB, non-interlaced
+charpick/help/C/figures/charpalette_applet.png: copy
+
+# charpick/help/it/char-palette.xml = XML  document text
+charpick/help/it/char-palette.xml: copy
+
+# charpick/help/it/it.po = UTF-8 Unicode PO (gettext message catalogue) text, with very long lines
+charpick/help/it/it.po: copy
+
+# charpick/help/it/figures/charpick-preferences.png = PNG image data, 374 x 393, 8-bit/color RGBA, non-interlaced
+charpick/help/it/figures/charpick-preferences.png: copy
+
+# charpick/help/it/figures/charpalette_chargroup.png = PNG image data, 178 x 35, 8-bit colormap, non-interlaced
+charpick/help/it/figures/charpalette_chargroup.png: copy
+
+# charpick/help/it/figures/charpalette_applet.png = PNG image data, 263 x 25, 8-bit/color RGBA, non-interlaced
+charpick/help/it/figures/charpalette_applet.png: copy
+
+# charpick/help/ca/char-palette.xml = XML  document text
+charpick/help/ca/char-palette.xml: copy
+
+# charpick/help/ca/ca.po = UTF-8 Unicode PO (gettext message catalogue) text
+charpick/help/ca/ca.po: copy
+
+# charpick/help/ca/figures/charpick-preferences.png = PNG image data, 374 x 393, 8-bit/color RGBA, non-interlaced
+charpick/help/ca/figures/charpick-preferences.png: copy
+
+# charpick/help/fr/char-palette.xml = XML  document text
+charpick/help/fr/char-palette.xml: copy
+
+# charpick/help/fr/fr.po = UTF-8 Unicode English text
+charpick/help/fr/fr.po: copy
+
+# charpick/help/fr/figures/charpick-preferences.png = PNG image data, 382 x 401, 8-bit/color RGBA, non-interlaced
+charpick/help/fr/figures/charpick-preferences.png: copy
+
+# charpick/help/fr/figures/charpalette_applet.png = PNG image data, 249 x 25, 8-bit/color RGBA, non-interlaced
+charpick/help/fr/figures/charpalette_applet.png: copy
+
+# charpick/help/cs/char-palette.xml = XML  document text
+charpick/help/cs/char-palette.xml: copy
+
+# charpick/help/cs/cs.po = UTF-8 Unicode English text
+charpick/help/cs/cs.po: copy
+
+# charpick/help/ko/char-palette.xml = XML  document text
+charpick/help/ko/char-palette.xml: copy
+
+# charpick/help/ko/ko.po = UTF-8 Unicode English text, with very long lines
+charpick/help/ko/ko.po: copy
+
+# charpick/help/bg/char-palette.xml = XML  document text
+charpick/help/bg/char-palette.xml: copy
+
+# charpick/help/bg/bg.po = UTF-8 Unicode PO (gettext message catalogue) text
+charpick/help/bg/bg.po: copy
+
+# charpick/help/bg/figures/charpick-preferences.png = PNG image data, 360 x 379, 8-bit/color RGBA, non-interlaced
+charpick/help/bg/figures/charpick-preferences.png: copy
+
+# charpick/help/fi/char-palette.xml = XML  document text
+charpick/help/fi/char-palette.xml: copy
+
+# charpick/help/fi/fi.po = UTF-8 Unicode PO (gettext message catalogue) text, with very long lines
+charpick/help/fi/fi.po: copy
+
+# charpick/help/fi/figures/charpick-preferences.png = PNG image data, 358 x 378, 8-bit/color RGBA, non-interlaced
+charpick/help/fi/figures/charpick-preferences.png: copy
+
+# charpick/help/fi/figures/charpalette_chargroup.png = PNG image data, 178 x 35, 8-bit colormap, non-interlaced
+charpick/help/fi/figures/charpalette_chargroup.png: copy
+
+# charpick/help/pt_BR/char-palette.xml = XML  document text
+charpick/help/pt_BR/char-palette.xml: copy
+
+# charpick/help/pt_BR/pt_BR.po = UTF-8 Unicode English text
+charpick/help/pt_BR/pt_BR.po: copy
+
+# charpick/help/Makefile.in = ASCII English text
+charpick/help/Makefile.in: copy
+
+# charpick/help/nl/nl.po = UTF-8 Unicode PO (gettext message catalogue) text
+charpick/help/nl/nl.po: copy
+
+# charpick/help/nl/char-palette.xml = XML  document text
+charpick/help/nl/char-palette.xml: copy
+
+# charpick/help/nl/figures/charpick-preferences.png = PNG image data, 372 x 389, 8-bit/color RGBA, non-interlaced
+charpick/help/nl/figures/charpick-preferences.png: copy
+
+# charpick/help/nl/figures/charpick_characters.png = PNG image data, 445 x 403, 8-bit/color RGB, non-interlaced
+charpick/help/nl/figures/charpick_characters.png: copy
+
+# charpick/help/nl/figures/charpalette_chargroup.png = PNG image data, 178 x 35, 8-bit colormap, non-interlaced
+charpick/help/nl/figures/charpalette_chargroup.png: copy
+
+# charpick/help/nl/figures/charpalette_applet.png = PNG image data, 289 x 30, 8-bit/color RGB, non-interlaced
+charpick/help/nl/figures/charpalette_applet.png: copy
+
+# charpick/help/ru/char-palette.xml = XML  document text
+charpick/help/ru/char-palette.xml: copy
+
+# charpick/help/ru/ru.po = UTF-8 Unicode PO (gettext message catalogue) text, with very long lines
+charpick/help/ru/ru.po: copy
+
+# charpick/charpick.c = UTF-8 Unicode C program text
+charpick/charpick.c: copy
+
+# charpick/properties.c = ASCII C program text
+charpick/properties.c: copy
+
+# charpick/GNOME_CharpickerApplet.server.in.in = ASCII text
+charpick/GNOME_CharpickerApplet.server.in.in: copy
+
+# charpick/Makefile.in = ASCII English text
+charpick/Makefile.in: copy
+
+# charpick/charpick.h = ASCII C program text
+charpick/charpick.h: copy
+
+# charpick/charpick.schemas.in = ASCII English text
+charpick/charpick.schemas.in: copy
+
+# py-compile = POSIX shell script text executable
+py-compile: copy
+
+# COPYING = ASCII English text
+COPYING: copy
+
+# gnome-doc-utils.make = ASCII Pascal program text
+gnome-doc-utils.make: copy
+
+# gkb-new/Makefile.am = ASCII text
+gkb-new/Makefile.am: copy
+
+# gkb-new/README = ASCII text
+gkb-new/README: copy
+
+# gkb-new/xmodmap/xmodmap.cz = ASCII English text
+gkb-new/xmodmap/xmodmap.cz: copy
+
+# gkb-new/xmodmap/xmodmap.pl = ASCII English text
+gkb-new/xmodmap/xmodmap.pl: copy
+
+# gkb-new/xmodmap/xmodmap.mn-phonet = ASCII English text
+gkb-new/xmodmap/xmodmap.mn-phonet: copy
+
+# gkb-new/xmodmap/xmodmap.dvorak = ASCII English text
+gkb-new/xmodmap/xmodmap.dvorak: copy
+
+# gkb-new/xmodmap/xmodmap.pt-dead = ISO-8859 text
+gkb-new/xmodmap/xmodmap.pt-dead: copy
+
+# gkb-new/xmodmap/xmodmap.ru_yawerty = ASCII English text
+gkb-new/xmodmap/xmodmap.ru_yawerty: copy
+
+# gkb-new/xmodmap/xmodmap.ar = ASCII text
+gkb-new/xmodmap/xmodmap.ar: copy
+
+# gkb-new/xmodmap/xmodmap.kr = ASCII English text
+gkb-new/xmodmap/xmodmap.kr: copy
+
+# gkb-new/xmodmap/xmodmap.si = ASCII English text
+gkb-new/xmodmap/xmodmap.si: copy
+
+# gkb-new/xmodmap/xmodmap.th = ASCII text
+gkb-new/xmodmap/xmodmap.th: copy
+
+# gkb-new/xmodmap/xmodmap.pt = ASCII English text
+gkb-new/xmodmap/xmodmap.pt: copy
+
+# gkb-new/xmodmap/xmodmap.hu-ibm = ASCII text
+gkb-new/xmodmap/xmodmap.hu-ibm: copy
+
+# gkb-new/xmodmap/base.xml.in = XML  document text
+gkb-new/xmodmap/base.xml.in: copy
+
+# gkb-new/xmodmap/xmodmap.uk = ASCII English text
+gkb-new/xmodmap/xmodmap.uk: copy
+
+# gkb-new/xmodmap/Makefile.am = ASCII text
+gkb-new/xmodmap/Makefile.am: copy
+
+# gkb-new/xmodmap/xmodmap.fi = ASCII English text
+gkb-new/xmodmap/xmodmap.fi: copy
+
+# gkb-new/xmodmap/xmodmap.se = ASCII English text
+gkb-new/xmodmap/xmodmap.se: copy
+
+# gkb-new/xmodmap/xmodmap.il = ASCII text
+gkb-new/xmodmap/xmodmap.il: copy
+
+# gkb-new/xmodmap/xmodmap.us-101 = ASCII English text
+gkb-new/xmodmap/xmodmap.us-101: copy
+
+# gkb-new/xmodmap/xmodmap.lt_b = ASCII English text
+gkb-new/xmodmap/xmodmap.lt_b: copy
+
+# gkb-new/xmodmap/xmodmap.mk = ASCII English text
+gkb-new/xmodmap/xmodmap.mk: copy
+
+# gkb-new/xmodmap/xmodmap.us-dec = ASCII English text
+gkb-new/xmodmap/xmodmap.us-dec: copy
+
+# gkb-new/xmodmap/xmodmap.mn-rev = ASCII text
+gkb-new/xmodmap/xmodmap.mn-rev: copy
+
+# gkb-new/xmodmap/xmodmap.us-int = ASCII English text
+gkb-new/xmodmap/xmodmap.us-int: copy
+
+# gkb-new/xmodmap/xmodmap.sk = ASCII English text
+gkb-new/xmodmap/xmodmap.sk: copy
+
+# gkb-new/xmodmap/xmodmap.ch = ASCII English text
+gkb-new/xmodmap/xmodmap.ch: copy
+
+# gkb-new/xmodmap/xmodmap.is = ASCII English text
+gkb-new/xmodmap/xmodmap.is: copy
+
+# gkb-new/xmodmap/xmodmap.us-sgi-101 = ASCII English text
+gkb-new/xmodmap/xmodmap.us-sgi-101: copy
+
+# gkb-new/xmodmap/xmodmap.gb-102 = ISO-8859 English text
+gkb-new/xmodmap/xmodmap.gb-102: copy
+
+# gkb-new/xmodmap/xmodmap.hu-101-lat2 = ASCII text
+gkb-new/xmodmap/xmodmap.hu-101-lat2: copy
+
+# gkb-new/xmodmap/xmodmap.tr_f = ASCII English text
+gkb-new/xmodmap/xmodmap.tr_f: copy
+
+# gkb-new/xmodmap/xmodmap.gr = ISO-8859 English text
+gkb-new/xmodmap/xmodmap.gr: copy
+
+# gkb-new/xmodmap/xmodmap.ch_de = ASCII English text
+gkb-new/xmodmap/xmodmap.ch_de: copy
+
+# gkb-new/xmodmap/xmodmap.br = ASCII English text
+gkb-new/xmodmap/xmodmap.br: copy
+
+# gkb-new/xmodmap/xmodmap.jp = ASCII English text
+gkb-new/xmodmap/xmodmap.jp: copy
+
+# gkb-new/xmodmap/xmodmap.uk_x86 = ASCII text
+gkb-new/xmodmap/xmodmap.uk_x86: copy
+
+# gkb-new/xmodmap/xmodmap.fr-2 = ASCII English text
+gkb-new/xmodmap/xmodmap.fr-2: copy
+
+# gkb-new/xmodmap/xmodmap.hu.old = ISO-8859 text
+gkb-new/xmodmap/xmodmap.hu.old: copy
+
+# gkb-new/xmodmap/xmodmap.us-mac = ASCII English text
+gkb-new/xmodmap/xmodmap.us-mac: copy
+
+# gkb-new/xmodmap/xmodmap.qc = ASCII English text
+gkb-new/xmodmap/xmodmap.qc: copy
+
+# gkb-new/xmodmap/xmodmap.dk = ASCII English text
+gkb-new/xmodmap/xmodmap.dk: copy
+
+# gkb-new/xmodmap/xmodmap.fr = ASCII English text
+gkb-new/xmodmap/xmodmap.fr: copy
+
+# gkb-new/xmodmap/xmodmap.us-sun = ASCII text
+gkb-new/xmodmap/xmodmap.us-sun: copy
+
+# gkb-new/xmodmap/xmodmap.am = ASCII text
+gkb-new/xmodmap/xmodmap.am: copy
+
+# gkb-new/xmodmap/xmodmap.qc-2 = ASCII text
+gkb-new/xmodmap/xmodmap.qc-2: copy
+
+# gkb-new/xmodmap/xmodmap.sf = ASCII English text
+gkb-new/xmodmap/xmodmap.sf: copy
+
+# gkb-new/xmodmap/xmodmap.hu-101-lat1 = ASCII text
+gkb-new/xmodmap/xmodmap.hu-101-lat1: copy
+
+# gkb-new/xmodmap/xmodmap.il_phonetic = ASCII English text
+gkb-new/xmodmap/xmodmap.il_phonetic: copy
+
+# gkb-new/xmodmap/xmodmap.ge_la = ISO-8859 English text
+gkb-new/xmodmap/xmodmap.ge_la: copy
+
+# gkb-new/xmodmap/xmodmap.yu = ASCII English text
+gkb-new/xmodmap/xmodmap.yu: copy
+
+# gkb-new/xmodmap/xmodmap.ru = ASCII English text
+gkb-new/xmodmap/xmodmap.ru: copy
+
+# gkb-new/xmodmap/xmodmap.ge_ru = ISO-8859 English text
+gkb-new/xmodmap/xmodmap.ge_ru: copy
+
+# gkb-new/xmodmap/xmodmap.pl2 = ASCII English text
+gkb-new/xmodmap/xmodmap.pl2: copy
+
+# gkb-new/xmodmap/xmodmap.us-ibm = ASCII text
+gkb-new/xmodmap/xmodmap.us-ibm: copy
+
+# gkb-new/xmodmap/xmodmap.lt = ASCII English text
+gkb-new/xmodmap/xmodmap.lt: copy
+
+# gkb-new/xmodmap/xmodmap.ro = ASCII text
+gkb-new/xmodmap/xmodmap.ro: copy
+
+# gkb-new/xmodmap/xmodmap.tr_q = ASCII English text
+gkb-new/xmodmap/xmodmap.tr_q: copy
+
+# gkb-new/xmodmap/xmodmap.us_intl = ASCII English text
+gkb-new/xmodmap/xmodmap.us_intl: copy
+
+# gkb-new/xmodmap/xmodmap.hu_latin1 = ASCII text
+gkb-new/xmodmap/xmodmap.hu_latin1: copy
+
+# gkb-new/xmodmap/xmodmap.gb-105 = ISO-8859 English text
+gkb-new/xmodmap/xmodmap.gb-105: copy
+
+# gkb-new/xmodmap/xmodmap.us.old = ASCII English text
+gkb-new/xmodmap/xmodmap.us.old: copy
+
+# gkb-new/xmodmap/xmodmap.ch_fr = ASCII English text
+gkb-new/xmodmap/xmodmap.ch_fr: copy
+
+# gkb-new/xmodmap/xmodmap.fr_x86 = ASCII text
+gkb-new/xmodmap/xmodmap.fr_x86: copy
+
+# gkb-new/xmodmap/xmodmap.es_x86 = ASCII text
+gkb-new/xmodmap/xmodmap.es_x86: copy
+
+# gkb-new/xmodmap/xmodmap.hu = ASCII text
+gkb-new/xmodmap/xmodmap.hu: copy
+
+# gkb-new/xmodmap/xmodmap.us101A_x86 = ASCII text
+gkb-new/xmodmap/xmodmap.us101A_x86: copy
+
+# gkb-new/xmodmap/xmodmap.sg = ASCII English text
+gkb-new/xmodmap/xmodmap.sg: copy
+
+# gkb-new/xmodmap/xmodmap.no = ASCII English text
+gkb-new/xmodmap/xmodmap.no: copy
+
+# gkb-new/xmodmap/xmodmap.mn = ASCII English text
+gkb-new/xmodmap/xmodmap.mn: copy
+
+# gkb-new/xmodmap/xmodmap.nl = ASCII English text
+gkb-new/xmodmap/xmodmap.nl: copy
+
+# gkb-new/xmodmap/xmodmap.us-84 = ASCII English text
+gkb-new/xmodmap/xmodmap.us-84: copy
+
+# gkb-new/xmodmap/xmodmap.hu_x86 = ASCII text
+gkb-new/xmodmap/xmodmap.hu_x86: copy
+
+# gkb-new/xmodmap/xmodmap.de = ASCII English text
+gkb-new/xmodmap/xmodmap.de: copy
+
+# gkb-new/xmodmap/xmodmap.ee = ASCII English text
+gkb-new/xmodmap/xmodmap.ee: copy
+
+# gkb-new/xmodmap/xmodmap.es = ISO-8859 English text
+gkb-new/xmodmap/xmodmap.es: copy
+
+# gkb-new/xmodmap/xmodmap.it = ASCII English text
+gkb-new/xmodmap/xmodmap.it: copy
+
+# gkb-new/xmodmap/xmodmap.bg = ASCII English text
+gkb-new/xmodmap/xmodmap.bg: copy
+
+# gkb-new/xmodmap/xmodmap.mn-uni = ASCII text
+gkb-new/xmodmap/xmodmap.mn-uni: copy
+
+# gkb-new/xmodmap/xmodmap.de-apple = ISO-8859 English text
+gkb-new/xmodmap/xmodmap.de-apple: copy
+
+# gkb-new/xmodmap/xmodmap.be = ASCII English text
+gkb-new/xmodmap/xmodmap.be: copy
+
+# gkb-new/xmodmap/xmodmap.hu-sun-lat2 = ASCII text
+gkb-new/xmodmap/xmodmap.hu-sun-lat2: copy
+
+# gkb-new/xmodmap/xmodmap.hu-lat1 = ASCII text
+gkb-new/xmodmap/xmodmap.hu-lat1: copy
+
+# gkb-new/xmodmap/Makefile.in = ASCII English text
+gkb-new/xmodmap/Makefile.in: copy
+
+# gkb-new/xmodmap/xmodmap.la = ASCII English text
+gkb-new/xmodmap/xmodmap.la: copy
+
+# gkb-new/xmodmap/xmodmap.ru-rev = ASCII text
+gkb-new/xmodmap/xmodmap.ru-rev: copy
+
+# gkb-new/xmodmap/xmodmap.gb = ISO-8859 English text
+gkb-new/xmodmap/xmodmap.gb: copy
+
+# gkb-new/xmodmap/xmodmap.lt_p = ASCII English text
+gkb-new/xmodmap/xmodmap.lt_p: copy
+
+# gkb-new/xmodmap/xmodmap.us = ASCII English text
+gkb-new/xmodmap/xmodmap.us: copy
+
+# gkb-new/AUTHORS = ASCII text
+gkb-new/AUTHORS: copy
+
+# gkb-new/TODO = ASCII English text
+gkb-new/TODO: copy
+
+# gkb-new/xmodmap.sun/xmodmap.cz = ASCII text
+gkb-new/xmodmap.sun/xmodmap.cz: copy
+
+# gkb-new/xmodmap.sun/xmodmap.pl = ASCII text
+gkb-new/xmodmap.sun/xmodmap.pl: copy
+
+# gkb-new/xmodmap.sun/xmodmap.de-usb = ASCII text
+gkb-new/xmodmap.sun/xmodmap.de-usb: copy
+
+# gkb-new/xmodmap.sun/xmodmap.pt-type4 = ASCII text
+gkb-new/xmodmap.sun/xmodmap.pt-type4: copy
+
+# gkb-new/xmodmap.sun/xmodmap.si = ASCII text
+gkb-new/xmodmap.sun/xmodmap.si: copy
+
+# gkb-new/xmodmap.sun/xmodmap.th = ASCII text
+gkb-new/xmodmap.sun/xmodmap.th: copy
+
+# gkb-new/xmodmap.sun/xmodmap.pt = ASCII text
+gkb-new/xmodmap.sun/xmodmap.pt: copy
+
+# gkb-new/xmodmap.sun/xmodmap.se-usb = ASCII text
+gkb-new/xmodmap.sun/xmodmap.se-usb: copy
+
+# gkb-new/xmodmap.sun/xmodmap.es-usb = ASCII text
+gkb-new/xmodmap.sun/xmodmap.es-usb: copy
+
+# gkb-new/xmodmap.sun/base.xml.in = XML  document text
+gkb-new/xmodmap.sun/base.xml.in: copy
+
+# gkb-new/xmodmap.sun/Makefile.am = ASCII text
+gkb-new/xmodmap.sun/Makefile.am: copy
+
+# gkb-new/xmodmap.sun/xmodmap.fi = ASCII text
+gkb-new/xmodmap.sun/xmodmap.fi: copy
+
+# gkb-new/xmodmap.sun/xmodmap.vn = ASCII text
+gkb-new/xmodmap.sun/xmodmap.vn: copy
+
+# gkb-new/xmodmap.sun/xmodmap.se = ASCII text
+gkb-new/xmodmap.sun/xmodmap.se: copy
+
+# gkb-new/xmodmap.sun/xmodmap.il = ASCII text
+gkb-new/xmodmap.sun/xmodmap.il: copy
+
+# gkb-new/xmodmap.sun/xmodmap.us-usb = ASCII text
+gkb-new/xmodmap.sun/xmodmap.us-usb: copy
+
+# gkb-new/xmodmap.sun/xmodmap.mk = ASCII text
+gkb-new/xmodmap.sun/xmodmap.mk: copy
+
+# gkb-new/xmodmap.sun/xmodmap.dk-usb = ASCII text
+gkb-new/xmodmap.sun/xmodmap.dk-usb: copy
+
+# gkb-new/xmodmap.sun/xmodmap.sk = ASCII text
+gkb-new/xmodmap.sun/xmodmap.sk: copy
+
+# gkb-new/xmodmap.sun/xmodmap.dk-type4 = ASCII text
+gkb-new/xmodmap.sun/xmodmap.dk-type4: copy
+
+# gkb-new/xmodmap.sun/xmodmap.is = ASCII text
+gkb-new/xmodmap.sun/xmodmap.is: copy
+
+# gkb-new/xmodmap.sun/xmodmap.es-type4 = ASCII text
+gkb-new/xmodmap.sun/xmodmap.es-type4: copy
+
+# gkb-new/xmodmap.sun/xmodmap.us-type4 = ASCII text
+gkb-new/xmodmap.sun/xmodmap.us-type4: copy
+
+# gkb-new/xmodmap.sun/xmodmap.br = ASCII text
+gkb-new/xmodmap.sun/xmodmap.br: copy
+
+# gkb-new/xmodmap.sun/xmodmap.jp = ASCII text
+gkb-new/xmodmap.sun/xmodmap.jp: copy
+
+# gkb-new/xmodmap.sun/xmodmap.gb-usb = ASCII text
+gkb-new/xmodmap.sun/xmodmap.gb-usb: copy
+
+# gkb-new/xmodmap.sun/xmodmap.gb-type4 = ASCII text
+gkb-new/xmodmap.sun/xmodmap.gb-type4: copy
+
+# gkb-new/xmodmap.sun/xmodmap.dk = ASCII text
+gkb-new/xmodmap.sun/xmodmap.dk: copy
+
+# gkb-new/xmodmap.sun/xmodmap.fr = ASCII text
+gkb-new/xmodmap.sun/xmodmap.fr: copy
+
+# gkb-new/xmodmap.sun/xmodmap.am = ASCII text
+gkb-new/xmodmap.sun/xmodmap.am: copy
+
+# gkb-new/xmodmap.sun/xmodmap.us-type6 = ASCII text
+gkb-new/xmodmap.sun/xmodmap.us-type6: copy
+
+# gkb-new/xmodmap.sun/xmodmap.it-type4 = ASCII text
+gkb-new/xmodmap.sun/xmodmap.it-type4: copy
+
+# gkb-new/xmodmap.sun/xmodmap.de_CH = ASCII text
+gkb-new/xmodmap.sun/xmodmap.de_CH: copy
+
+# gkb-new/xmodmap.sun/xmodmap.az = ASCII text
+gkb-new/xmodmap.sun/xmodmap.az: copy
+
+# gkb-new/xmodmap.sun/xmodmap.tr = ASCII text
+gkb-new/xmodmap.sun/xmodmap.tr: copy
+
+# gkb-new/xmodmap.sun/xmodmap.by = ASCII text
+gkb-new/xmodmap.sun/xmodmap.by: copy
+
+# gkb-new/xmodmap.sun/xmodmap.ru = ASCII text
+gkb-new/xmodmap.sun/xmodmap.ru: copy
+
+# gkb-new/xmodmap.sun/xmodmap.lt = ASCII text
+gkb-new/xmodmap.sun/xmodmap.lt: copy
+
+# gkb-new/xmodmap.sun/xmodmap.ro = ASCII text
+gkb-new/xmodmap.sun/xmodmap.ro: copy
+
+# gkb-new/xmodmap.sun/xmodmap.fr-usb = ASCII text
+gkb-new/xmodmap.sun/xmodmap.fr-usb: copy
+
+# gkb-new/xmodmap.sun/xmodmap.sr = ASCII text
+gkb-new/xmodmap.sun/xmodmap.sr: copy
+
+# gkb-new/xmodmap.sun/xmodmap.se-type4 = ASCII text
+gkb-new/xmodmap.sun/xmodmap.se-type4: copy
+
+# gkb-new/xmodmap.sun/xmodmap.br-usb = ASCII text
+gkb-new/xmodmap.sun/xmodmap.br-usb: copy
+
+# gkb-new/xmodmap.sun/xmodmap.ca = ASCII text
+gkb-new/xmodmap.sun/xmodmap.ca: copy
+
+# gkb-new/xmodmap.sun/xmodmap.hu = ASCII text
+gkb-new/xmodmap.sun/xmodmap.hu: copy
+
+# gkb-new/xmodmap.sun/xmodmap.lv = ASCII text
+gkb-new/xmodmap.sun/xmodmap.lv: copy
+
+# gkb-new/xmodmap.sun/xmodmap.no = ASCII text
+gkb-new/xmodmap.sun/xmodmap.no: copy
+
+# gkb-new/xmodmap.sun/xmodmap.mn = ASCII text
+gkb-new/xmodmap.sun/xmodmap.mn: copy
+
+# gkb-new/xmodmap.sun/xmodmap.de = ASCII text
+gkb-new/xmodmap.sun/xmodmap.de: copy
+
+# gkb-new/xmodmap.sun/xmodmap.it-usb = ASCII text
+gkb-new/xmodmap.sun/xmodmap.it-usb: copy
+
+# gkb-new/xmodmap.sun/xmodmap.ee = ASCII text
+gkb-new/xmodmap.sun/xmodmap.ee: copy
+
+# gkb-new/xmodmap.sun/xmodmap.es = ASCII text
+gkb-new/xmodmap.sun/xmodmap.es: copy
+
+# gkb-new/xmodmap.sun/xmodmap.it = ASCII text
+gkb-new/xmodmap.sun/xmodmap.it: copy
+
+# gkb-new/xmodmap.sun/xmodmap.bg = ASCII text
+gkb-new/xmodmap.sun/xmodmap.bg: copy
+
+# gkb-new/xmodmap.sun/xmodmap.jp-type4 = ASCII text
+gkb-new/xmodmap.sun/xmodmap.jp-type4: copy
+
+# gkb-new/xmodmap.sun/xmodmap.be = ASCII text
+gkb-new/xmodmap.sun/xmodmap.be: copy
+
+# gkb-new/xmodmap.sun/xmodmap.hu-lat1 = ASCII text
+gkb-new/xmodmap.sun/xmodmap.hu-lat1: copy
+
+# gkb-new/xmodmap.sun/Makefile.in = ASCII English text
+gkb-new/xmodmap.sun/Makefile.in: copy
+
+# gkb-new/xmodmap.sun/xmodmap.gb = ASCII text
+gkb-new/xmodmap.sun/xmodmap.gb: copy
+
+# gkb-new/xmodmap.sun/xmodmap.de-type4 = ASCII text
+gkb-new/xmodmap.sun/xmodmap.de-type4: copy
+
+# gkb-new/xmodmap.sun/xmodmap.ua = ASCII text
+gkb-new/xmodmap.sun/xmodmap.ua: copy
+
+# gkb-new/xmodmap.sun/xmodmap.us = ASCII text
+gkb-new/xmodmap.sun/xmodmap.us: copy
+
+# gkb-new/Makefile.in = ASCII English text
+gkb-new/Makefile.in: copy
+
+# man/mini_commander_applet.1 = troff or preprocessor input text
+man/mini_commander_applet.1: copy
+
+# man/mixer_applet.1 = troff or preprocessor input text
+man/mixer_applet.1: copy
+
+# man/Makefile.am = ASCII text
+man/Makefile.am: copy
+
+# man/charpick_applet.1 = troff or preprocessor input text
+man/charpick_applet.1: copy
+
+# man/modemlights_applet.1 = troff or preprocessor input text
+man/modemlights_applet.1: copy
+
+# man/gkb_xmmap.1 = troff or preprocessor input text
+man/gkb_xmmap.1: copy
+
+# man/whereami_applet.1 = troff or preprocessor input text
+man/whereami_applet.1: copy
+
+# man/geyes_applet.1 = troff or preprocessor input text
+man/geyes_applet.1: copy
+
+# man/cdplayer_applet.1 = troff or preprocessor input text
+man/cdplayer_applet.1: copy
+
+# man/screenshooter_applet.1 = troff or preprocessor input text
+man/screenshooter_applet.1: copy
+
+# man/gweather.1 = troff or preprocessor input text
+man/gweather.1: copy
+
+# man/drivemount_applet.1 = troff or preprocessor input text
+man/drivemount_applet.1: copy
+
+# man/sound-monitor_applet.1 = troff or preprocessor input text
+man/sound-monitor_applet.1: copy
+
+# man/multiload_applet.1 = troff or preprocessor input text
+man/multiload_applet.1: copy
+
+# man/Makefile.in = ASCII English text
+man/Makefile.in: copy
+
+# man/gkb_applet.1 = troff or preprocessor input text
+man/gkb_applet.1: copy
+
+# config.sub = POSIX shell script text executable
+config.sub: copy
+
+# mixer/Makefile.am = ASCII text
+mixer/Makefile.am: copy
+
+# mixer/GNOME_MixerApplet.xml = ASCII text
+mixer/GNOME_MixerApplet.xml: copy
+
+# mixer/preferences.h = ASCII C program text
+mixer/preferences.h: copy
+
+# mixer/docs/uk/uk.po = UTF-8 Unicode PO (gettext message catalogue) text
+mixer/docs/uk/uk.po: copy
+
+# mixer/docs/uk/mixer_applet2.xml = XML  document text
+mixer/docs/uk/mixer_applet2.xml: copy
+
+# mixer/docs/uk/figures/volumecontrol_applet.png = PNG image data, 27 x 39, 8-bit colormap, non-interlaced
+mixer/docs/uk/figures/volumecontrol_applet.png: copy
+
+# mixer/docs/mixer_applet2.omf.in = XML  document text
+mixer/docs/mixer_applet2.omf.in: copy
+
+# mixer/docs/es/mixer_applet2.xml = XML  document text
+mixer/docs/es/mixer_applet2.xml: copy
+
+# mixer/docs/es/es.po = UTF-8 Unicode PO (gettext message catalogue) text
+mixer/docs/es/es.po: copy
+
+# mixer/docs/Makefile.am = ASCII text
+mixer/docs/Makefile.am: copy
+
+# mixer/docs/oc/mixer_applet2.xml = XML  document text
+mixer/docs/oc/mixer_applet2.xml: copy
+
+# mixer/docs/oc/oc.po = UTF-8 Unicode English text
+mixer/docs/oc/oc.po: copy
+
+# mixer/docs/zh_CN/zh_CN.po = UTF-8 Unicode PO (gettext message catalogue) text
+mixer/docs/zh_CN/zh_CN.po: copy
+
+# mixer/docs/zh_CN/mixer_applet2.xml = XML  document text
+mixer/docs/zh_CN/mixer_applet2.xml: copy
+
+# mixer/docs/eu/mixer_applet2.xml = XML  document text
+mixer/docs/eu/mixer_applet2.xml: copy
+
+# mixer/docs/eu/eu.po = UTF-8 Unicode PO (gettext message catalogue) text, with very long lines
+mixer/docs/eu/eu.po: copy
+
+# mixer/docs/el/mixer_applet2.xml = XML  document text
+mixer/docs/el/mixer_applet2.xml: copy
+
+# mixer/docs/el/el.po = UTF-8 Unicode PO (gettext message catalogue) text, with very long lines
+mixer/docs/el/el.po: copy
+
+# mixer/docs/sv/mixer_applet2.xml = XML  document text
+mixer/docs/sv/mixer_applet2.xml: copy
+
+# mixer/docs/sv/sv.po = UTF-8 Unicode PO (gettext message catalogue) text, with very long lines
+mixer/docs/sv/sv.po: copy
+
+# mixer/docs/en_GB/en_GB.po = ASCII PO (gettext message catalogue) text, with very long lines
+mixer/docs/en_GB/en_GB.po: copy
+
+# mixer/docs/en_GB/mixer_applet2.xml = XML  document text
+mixer/docs/en_GB/mixer_applet2.xml: copy
+
+# mixer/docs/de/de.po = UTF-8 Unicode English text
+mixer/docs/de/de.po: copy
+
+# mixer/docs/de/mixer_applet2.xml = XML  document text
+mixer/docs/de/mixer_applet2.xml: copy
+
+# mixer/docs/de/figures/volumecontrol_applet.png = PNG image data, 34 x 27, 8-bit/color RGBA, non-interlaced
+mixer/docs/de/figures/volumecontrol_applet.png: copy
+
+# mixer/docs/pa/pa.po = UTF-8 Unicode PO (gettext message catalogue) text, with very long lines
+mixer/docs/pa/pa.po: copy
+
+# mixer/docs/pa/mixer_applet2.xml = XML  document text
+mixer/docs/pa/mixer_applet2.xml: copy
+
+# mixer/docs/hu/mixer_applet2.xml = XML  document text
+mixer/docs/hu/mixer_applet2.xml: copy
+
+# mixer/docs/hu/hu.po = UTF-8 Unicode PO (gettext message catalogue) text, with very long lines
+mixer/docs/hu/hu.po: copy
+
+# mixer/docs/C/legal.xml = ASCII English text
+mixer/docs/C/legal.xml: copy
+
+# mixer/docs/C/mixer_applet2.xml = XML  document text
+mixer/docs/C/mixer_applet2.xml: copy
+
+# mixer/docs/C/figures/volumecontrol_applet.png = PNG image data, 27 x 39, 8-bit colormap, non-interlaced
+mixer/docs/C/figures/volumecontrol_applet.png: copy
+
+# mixer/docs/it/mixer_applet2.xml = XML  document text
+mixer/docs/it/mixer_applet2.xml: copy
+
+# mixer/docs/it/it.po = UTF-8 Unicode PO (gettext message catalogue) text, with very long lines
+mixer/docs/it/it.po: copy
+
+# mixer/docs/ca/mixer_applet2.xml = XML  document text
+mixer/docs/ca/mixer_applet2.xml: copy
+
+# mixer/docs/ca/ca.po = UTF-8 Unicode PO (gettext message catalogue) text, with very long lines
+mixer/docs/ca/ca.po: copy
+
+# mixer/docs/fr/mixer_applet2.xml = XML  document text
+mixer/docs/fr/mixer_applet2.xml: copy
+
+# mixer/docs/fr/fr.po = UTF-8 Unicode English text
+mixer/docs/fr/fr.po: copy
+
+# mixer/docs/fr/figures/volumecontrol_applet.png = PNG image data, 27 x 25, 8-bit/color RGB, non-interlaced
+mixer/docs/fr/figures/volumecontrol_applet.png: copy
+
+# mixer/docs/cs/cs.po = UTF-8 Unicode English text
+mixer/docs/cs/cs.po: copy
+
+# mixer/docs/cs/mixer_applet2.xml = XML  document text
+mixer/docs/cs/mixer_applet2.xml: copy
+
+# mixer/docs/ko/ko.po = UTF-8 Unicode English text
+mixer/docs/ko/ko.po: copy
+
+# mixer/docs/ko/mixer_applet2.xml = XML  document text
+mixer/docs/ko/mixer_applet2.xml: copy
+
+# mixer/docs/fi/mixer_applet2.xml = XML  document text
+mixer/docs/fi/mixer_applet2.xml: copy
+
+# mixer/docs/fi/fi.po = UTF-8 Unicode PO (gettext message catalogue) text, with very long lines
+mixer/docs/fi/fi.po: copy
+
+# mixer/docs/pt_BR/mixer_applet2.xml = XML  document text
+mixer/docs/pt_BR/mixer_applet2.xml: copy
+
+# mixer/docs/pt_BR/pt_BR.po = UTF-8 Unicode PO (gettext message catalogue) text, with very long lines
+mixer/docs/pt_BR/pt_BR.po: copy
+
+# mixer/docs/Makefile.in = ASCII English text
+mixer/docs/Makefile.in: copy
+
+# mixer/docs/ru/mixer_applet2.xml = XML  document text
+mixer/docs/ru/mixer_applet2.xml: copy
+
+# mixer/docs/ru/ru.po = UTF-8 Unicode PO (gettext message catalogue) text
+mixer/docs/ru/ru.po: copy
+
+# mixer/GNOME_MixerApplet.server.in.in = ASCII English text
+mixer/GNOME_MixerApplet.server.in.in: copy
+
+# mixer/dock.h = ASCII C program text
+mixer/dock.h: copy
+
+# mixer/AUTHORS = ASCII text
+mixer/AUTHORS: copy
+
+# mixer/applet.c = ASCII C program text
+mixer/applet.c: copy
+
+# mixer/applet.h = ASCII C program text
+mixer/applet.h: copy
+
+# mixer/preferences.c = ASCII C program text
+mixer/preferences.c: copy
+
+# mixer/dock.c = ASCII C program text
+mixer/dock.c: copy
+
+# mixer/keys.h = ASCII C program text
+mixer/keys.h: copy
+
+# mixer/load.c = ASCII C program text
+mixer/load.c: copy
+
+# mixer/mixer.schemas.in = ASCII text
+mixer/mixer.schemas.in: copy
+
+# mixer/Makefile.in = ASCII English text
+mixer/Makefile.in: copy
+
+# accessx-status/Makefile.am = ASCII text
+accessx-status/Makefile.am: copy
+
+# accessx-status/GNOME_AccessxStatusApplet.server.in.in = ASCII English text
+accessx-status/GNOME_AccessxStatusApplet.server.in.in: copy
+
+# accessx-status/docs/uk/uk.po = UTF-8 Unicode PO (gettext message catalogue) text
+accessx-status/docs/uk/uk.po: copy
+
+# accessx-status/docs/uk/accessx-status.xml = XML  document text
+accessx-status/docs/uk/accessx-status.xml: copy
+
+# accessx-status/docs/uk/figures/accessx-status-applet.png = PNG image data, 144 x 26, 8-bit/color RGB, non-interlaced
+accessx-status/docs/uk/figures/accessx-status-applet.png: copy
+
+# accessx-status/docs/es/accessx-status.xml = XML  document text
+accessx-status/docs/es/accessx-status.xml: copy
+
+# accessx-status/docs/es/es.po = UTF-8 Unicode PO (gettext message catalogue) text
+accessx-status/docs/es/es.po: copy
+
+# accessx-status/docs/Makefile.am = ASCII text
+accessx-status/docs/Makefile.am: copy
+
+# accessx-status/docs/oc/accessx-status.xml = XML  document text
+accessx-status/docs/oc/accessx-status.xml: copy
+
+# accessx-status/docs/oc/oc.po = UTF-8 Unicode English text
+accessx-status/docs/oc/oc.po: copy
+
+# accessx-status/docs/zh_CN/zh_CN.po = UTF-8 Unicode English text
+accessx-status/docs/zh_CN/zh_CN.po: copy
+
+# accessx-status/docs/zh_CN/accessx-status.xml = XML  document text
+accessx-status/docs/zh_CN/accessx-status.xml: copy
+
+# accessx-status/docs/eu/eu.po = UTF-8 Unicode PO (gettext message catalogue) text, with very long lines
+accessx-status/docs/eu/eu.po: copy
+
+# accessx-status/docs/eu/accessx-status.xml = XML  document text
+accessx-status/docs/eu/accessx-status.xml: copy
+
+# accessx-status/docs/el/accessx-status.xml = XML  document text
+accessx-status/docs/el/accessx-status.xml: copy
+
+# accessx-status/docs/el/el.po = UTF-8 Unicode PO (gettext message catalogue) text
+accessx-status/docs/el/el.po: copy
+
+# accessx-status/docs/sv/accessx-status.xml = XML  document text
+accessx-status/docs/sv/accessx-status.xml: copy
+
+# accessx-status/docs/sv/sv.po = UTF-8 Unicode PO (gettext message catalogue) text, with very long lines
+accessx-status/docs/sv/sv.po: copy
+
+# accessx-status/docs/en_GB/en_GB.po = ASCII PO (gettext message catalogue) text, with very long lines
+accessx-status/docs/en_GB/en_GB.po: copy
+
+# accessx-status/docs/en_GB/accessx-status.xml = XML  document text
+accessx-status/docs/en_GB/accessx-status.xml: copy
+
+# accessx-status/docs/de/de.po = UTF-8 Unicode English text, with very long lines
+accessx-status/docs/de/de.po: copy
+
+# accessx-status/docs/de/accessx-status.xml = XML  document text
+accessx-status/docs/de/accessx-status.xml: copy
+
+# accessx-status/docs/C/legal.xml = ASCII English text
+accessx-status/docs/C/legal.xml: copy
+
+# accessx-status/docs/C/accessx-status.xml = XML  document text
+accessx-status/docs/C/accessx-status.xml: copy
+
+# accessx-status/docs/C/figures/accessx_sticky-windows-key.png = PNG image data, 24 x 24, 8-bit/color RGB, non-interlaced
+accessx-status/docs/C/figures/accessx_sticky-windows-key.png: copy
+
+# accessx-status/docs/C/figures/accessx_mouse-keys.png = PNG image data, 28 x 26, 8-bit/color RGB, non-interlaced
+accessx-status/docs/C/figures/accessx_mouse-keys.png: copy
+
+# accessx-status/docs/C/figures/accessx_sticky-ctrl-key.png = PNG image data, 24 x 24, 8-bit/color RGB, non-interlaced
+accessx-status/docs/C/figures/accessx_sticky-ctrl-key.png: copy
+
+# accessx-status/docs/C/figures/accessx_bounce-keys.png = PNG image data, 26 x 24, 8-bit/color RGB, non-interlaced
+accessx-status/docs/C/figures/accessx_bounce-keys.png: copy
+
+# accessx-status/docs/C/figures/accessx-status-disabled.png = PNG image data, 30 x 24, 8-bit/color RGB, non-interlaced
+accessx-status/docs/C/figures/accessx-status-disabled.png: copy
+
+# accessx-status/docs/C/figures/accessx_sticky-altGr-key.png = PNG image data, 26 x 24, 8-bit/color RGB, non-interlaced
+accessx-status/docs/C/figures/accessx_sticky-altGr-key.png: copy
+
+# accessx-status/docs/C/figures/accessx_slow-keys.png = PNG image data, 24 x 26, 8-bit/color RGB, non-interlaced
+accessx-status/docs/C/figures/accessx_slow-keys.png: copy
+
+# accessx-status/docs/C/figures/accessx_sticky-meta-key.png = PNG image data, 25 x 24, 8-bit/color RGB, non-interlaced
+accessx-status/docs/C/figures/accessx_sticky-meta-key.png: copy
+
+# accessx-status/docs/C/figures/accessx-status-applet.png = PNG image data, 144 x 26, 8-bit/color RGB, non-interlaced
+accessx-status/docs/C/figures/accessx-status-applet.png: copy
+
+# accessx-status/docs/C/figures/accessx_sticky-shift-key.png = PNG image data, 26 x 24, 8-bit/color RGB, non-interlaced
+accessx-status/docs/C/figures/accessx_sticky-shift-key.png: copy
+
+# accessx-status/docs/C/figures/accessx_sticky-keys.png = PNG image data, 147 x 24, 8-bit/color RGB, non-interlaced
+accessx-status/docs/C/figures/accessx_sticky-keys.png: copy
+
+# accessx-status/docs/it/accessx-status.xml = XML  document text
+accessx-status/docs/it/accessx-status.xml: copy
+
+# accessx-status/docs/it/it.po = UTF-8 Unicode PO (gettext message catalogue) text, with very long lines
+accessx-status/docs/it/it.po: copy
+
+# accessx-status/docs/ca/accessx-status.xml = XML  document text
+accessx-status/docs/ca/accessx-status.xml: copy
+
+# accessx-status/docs/ca/ca.po = UTF-8 Unicode PO (gettext message catalogue) text, with very long lines
+accessx-status/docs/ca/ca.po: copy
+
+# accessx-status/docs/fr/accessx-status.xml = XML  document text
+accessx-status/docs/fr/accessx-status.xml: copy
+
+# accessx-status/docs/fr/fr.po = UTF-8 Unicode English text
+accessx-status/docs/fr/fr.po: copy
+
+# accessx-status/docs/cs/cs.po = UTF-8 Unicode English text
+accessx-status/docs/cs/cs.po: copy
+
+# accessx-status/docs/cs/accessx-status.xml = XML  document text
+accessx-status/docs/cs/accessx-status.xml: copy
+
+# accessx-status/docs/ko/ko.po = UTF-8 Unicode English text, with very long lines
+accessx-status/docs/ko/ko.po: copy
+
+# accessx-status/docs/ko/accessx-status.xml = XML  document text
+accessx-status/docs/ko/accessx-status.xml: copy
+
+# accessx-status/docs/accessx-status.omf.in = XML  document text
+accessx-status/docs/accessx-status.omf.in: copy
+
+# accessx-status/docs/bg/bg.po = UTF-8 Unicode PO (gettext message catalogue) text
+accessx-status/docs/bg/bg.po: copy
+
+# accessx-status/docs/bg/accessx-status.xml = XML  document text
+accessx-status/docs/bg/accessx-status.xml: copy
+
+# accessx-status/docs/fi/accessx-status.xml = XML  document text
+accessx-status/docs/fi/accessx-status.xml: copy
+
+# accessx-status/docs/fi/fi.po = UTF-8 Unicode PO (gettext message catalogue) text, with very long lines
+accessx-status/docs/fi/fi.po: copy
+
+# accessx-status/docs/Makefile.in = ASCII English text
+accessx-status/docs/Makefile.in: copy
+
+# accessx-status/docs/nl/nl.po = UTF-8 Unicode PO (gettext message catalogue) text, with very long lines
+accessx-status/docs/nl/nl.po: copy
+
+# accessx-status/docs/nl/accessx-status.xml = XML  document text
+accessx-status/docs/nl/accessx-status.xml: copy
+
+# accessx-status/AUTHORS = ASCII text
+accessx-status/AUTHORS: copy
+
+# accessx-status/applet.c = UTF-8 Unicode C program text
+accessx-status/applet.c: copy
+
+# accessx-status/pixmaps/sticky-super-none.png = PNG image data, 48 x 48, 8-bit/color RGBA, non-interlaced
+accessx-status/pixmaps/sticky-super-none.png: copy
+
+# accessx-status/pixmaps/sticky-super-latched.png = PNG image data, 48 x 48, 8-bit/color RGBA, non-interlaced
+accessx-status/pixmaps/sticky-super-latched.png: copy
+
+# accessx-status/pixmaps/ax-slowkeys.png = PNG image data, 48 x 48, 8-bit/color RGBA, non-interlaced
+accessx-status/pixmaps/ax-slowkeys.png: copy
+
+# accessx-status/pixmaps/sticky-shift-latched.png = PNG image data, 48 x 48, 8-bit/color RGBA, non-interlaced
+accessx-status/pixmaps/sticky-shift-latched.png: copy
+
+# accessx-status/pixmaps/Makefile.am = ASCII text
+accessx-status/pixmaps/Makefile.am: copy
+
+# accessx-status/pixmaps/ax-key-none.png = PNG image data, 48 x 48, 8-bit/color RGBA, non-interlaced
+accessx-status/pixmaps/ax-key-none.png: copy
+
+# accessx-status/pixmaps/ax-key-inverse.png = PNG image data, 48 x 48, 8-bit/color RGBA, non-interlaced
+accessx-status/pixmaps/ax-key-inverse.png: copy
+
+# accessx-status/pixmaps/sticky-alt-latched.png = PNG image data, 48 x 48, 8-bit/color RGBA, non-interlaced
+accessx-status/pixmaps/sticky-alt-latched.png: copy
+
+# accessx-status/pixmaps/sticky-hyper-locked.png = PNG image data, 48 x 48, 8-bit/color RGBA, non-interlaced
+accessx-status/pixmaps/sticky-hyper-locked.png: copy
+
+# accessx-status/pixmaps/sticky-meta-locked.png = PNG image data, 48 x 48, 8-bit/color RGBA, non-interlaced
+accessx-status/pixmaps/sticky-meta-locked.png: copy
+
+# accessx-status/pixmaps/sticky-hyper-none.png = PNG image data, 48 x 48, 8-bit/color RGBA, non-interlaced
+accessx-status/pixmaps/sticky-hyper-none.png: copy
+
+# accessx-status/pixmaps/ax-applet.png = PNG image data, 48 x 48, 8-bit/color RGBA, non-interlaced
+accessx-status/pixmaps/ax-applet.png: copy
+
+# accessx-status/pixmaps/ax-bouncekeys.png = PNG image data, 48 x 48, 8-bit/color RGBA, non-interlaced
+accessx-status/pixmaps/ax-bouncekeys.png: copy
+
+# accessx-status/pixmaps/mousekeys-default-left.png = PNG image data, 48 x 48, 8-bit/color RGBA, non-interlaced
+accessx-status/pixmaps/mousekeys-default-left.png: copy
+
+# accessx-status/pixmaps/sticky-ctrl-latched.png = PNG image data, 48 x 48, 8-bit/color RGBA, non-interlaced
+accessx-status/pixmaps/sticky-ctrl-latched.png: copy
+
+# accessx-status/pixmaps/ax-key-no.png = PNG image data, 48 x 48, 8-bit/color RGBA, non-interlaced
+accessx-status/pixmaps/ax-key-no.png: copy
+
+# accessx-status/pixmaps/mousekeys-default-right.png = PNG image data, 48 x 48, 8-bit/color RGBA, non-interlaced
+accessx-status/pixmaps/mousekeys-default-right.png: copy
+
+# accessx-status/pixmaps/sticky-ctrl-none.png = PNG image data, 48 x 48, 8-bit/color RGBA, non-interlaced
+accessx-status/pixmaps/sticky-ctrl-none.png: copy
+
+# accessx-status/pixmaps/sticky-shift-none.png = PNG image data, 48 x 48, 8-bit/color RGBA, non-interlaced
+accessx-status/pixmaps/sticky-shift-none.png: copy
+
+# accessx-status/pixmaps/sticky-meta-none.png = PNG image data, 48 x 48, 8-bit/color RGBA, non-interlaced
+accessx-status/pixmaps/sticky-meta-none.png: copy
+
+# accessx-status/pixmaps/ax-slowkeys-yes.png = PNG image data, 20 x 20, 8-bit/color RGBA, non-interlaced
+accessx-status/pixmaps/ax-slowkeys-yes.png: copy
+
+# accessx-status/pixmaps/sticky-meta-latched.png = PNG image data, 48 x 48, 8-bit/color RGBA, non-interlaced
+accessx-status/pixmaps/sticky-meta-latched.png: copy
+
+# accessx-status/pixmaps/ax-slowkeys-pending.png = PNG image data, 24 x 24, 8-bit/color RGBA, non-interlaced
+accessx-status/pixmaps/ax-slowkeys-pending.png: copy
+
+# accessx-status/pixmaps/sticky-ctrl-locked.png = PNG image data, 48 x 48, 8-bit/color RGBA, non-interlaced
+accessx-status/pixmaps/sticky-ctrl-locked.png: copy
+
+# accessx-status/pixmaps/ax-key-base.png = PNG image data, 48 x 48, 8-bit/color RGBA, non-interlaced
+accessx-status/pixmaps/ax-key-base.png: copy
+
+# accessx-status/pixmaps/mousekeys-pressed-middle.png = PNG image data, 48 x 48, 8-bit/color RGBA, non-interlaced
+accessx-status/pixmaps/mousekeys-pressed-middle.png: copy
+
+# accessx-status/pixmaps/sticky-alt-locked.png = PNG image data, 48 x 48, 8-bit/color RGBA, non-interlaced
+accessx-status/pixmaps/sticky-alt-locked.png: copy
+
+# accessx-status/pixmaps/mousekeys-base.png = PNG image data, 48 x 48, 8-bit/color RGBA, non-interlaced
+accessx-status/pixmaps/mousekeys-base.png: copy
+
+# accessx-status/pixmaps/mousekeys-pressed-left.png = PNG image data, 48 x 48, 8-bit/color RGBA, non-interlaced
+accessx-status/pixmaps/mousekeys-pressed-left.png: copy
+
+# accessx-status/pixmaps/sticky-super-locked.png = PNG image data, 48 x 48, 8-bit/color RGBA, non-interlaced
+accessx-status/pixmaps/sticky-super-locked.png: copy
+
+# accessx-status/pixmaps/mousekeys-default-middle.png = PNG image data, 48 x 48, 8-bit/color RGBA, non-interlaced
+accessx-status/pixmaps/mousekeys-default-middle.png: copy
+
+# accessx-status/pixmaps/sticky-hyper-latched.png = PNG image data, 48 x 48, 8-bit/color RGBA, non-interlaced
+accessx-status/pixmaps/sticky-hyper-latched.png: copy
+
+# accessx-status/pixmaps/mousekeys-pressed-right.png = PNG image data, 48 x 48, 8-bit/color RGBA, non-interlaced
+accessx-status/pixmaps/mousekeys-pressed-right.png: copy
+
+# accessx-status/pixmaps/ax-key-yes.png = PNG image data, 48 x 48, 8-bit/color RGBA, non-interlaced
+accessx-status/pixmaps/ax-key-yes.png: copy
+
+# accessx-status/pixmaps/ax-slowkeys-no.png = PNG image data, 20 x 20, 8-bit/color RGBA, non-interlaced
+accessx-status/pixmaps/ax-slowkeys-no.png: copy
+
+# accessx-status/pixmaps/sticky-alt-none.png = PNG image data, 48 x 48, 8-bit/color RGBA, non-interlaced
+accessx-status/pixmaps/sticky-alt-none.png: copy
+
+# accessx-status/pixmaps/Makefile.in = ASCII English text
+accessx-status/pixmaps/Makefile.in: copy
+
+# accessx-status/pixmaps/sticky-shift-locked.png = PNG image data, 48 x 48, 8-bit/color RGBA, non-interlaced
+accessx-status/pixmaps/sticky-shift-locked.png: copy
+
+# accessx-status/applet.h = ASCII C program text
+accessx-status/applet.h: copy
+
+# accessx-status/GNOME_AccessxApplet.xml = ASCII text
+accessx-status/GNOME_AccessxApplet.xml: copy
+
+# accessx-status/COPYING = ASCII English text
+accessx-status/COPYING: copy
+
+# accessx-status/Makefile.in = ASCII English text
+accessx-status/Makefile.in: copy
+
+# Makefile.in = ASCII English text
+Makefile.in: copy
+
+# invest-applet/Makefile.am = ASCII text
+invest-applet/Makefile.am: copy
+
+# invest-applet/docs/es/es.po = UTF-8 Unicode PO (gettext message catalogue) text
+invest-applet/docs/es/es.po: copy
+
+# invest-applet/docs/es/invest-applet.xml = XML  document text
+invest-applet/docs/es/invest-applet.xml: copy
+
+# invest-applet/docs/invest-applet.omf.in = XML  document text
+invest-applet/docs/invest-applet.omf.in: copy
+
+# invest-applet/docs/Makefile.am = ASCII text
+invest-applet/docs/Makefile.am: copy
+
+# invest-applet/docs/zh_CN/zh_CN.po = UTF-8 Unicode English text
+invest-applet/docs/zh_CN/zh_CN.po: copy
+
+# invest-applet/docs/zh_CN/invest-applet.xml = XML  document text
+invest-applet/docs/zh_CN/invest-applet.xml: copy
+
+# invest-applet/docs/el/el.po = UTF-8 Unicode PO (gettext message catalogue) text
+invest-applet/docs/el/el.po: copy
+
+# invest-applet/docs/el/invest-applet.xml = XML  document text
+invest-applet/docs/el/invest-applet.xml: copy
+
+# invest-applet/docs/sv/sv.po = UTF-8 Unicode PO (gettext message catalogue) text, with very long lines
+invest-applet/docs/sv/sv.po: copy
+
+# invest-applet/docs/sv/invest-applet.xml = XML  document text
+invest-applet/docs/sv/invest-applet.xml: copy
+
+# invest-applet/docs/en_GB/en_GB.po = ASCII PO (gettext message catalogue) text
+invest-applet/docs/en_GB/en_GB.po: copy
+
+# invest-applet/docs/en_GB/invest-applet.xml = XML  document text
+invest-applet/docs/en_GB/invest-applet.xml: copy
+
+# invest-applet/docs/de/de.po = UTF-8 Unicode English text
+invest-applet/docs/de/de.po: copy
+
+# invest-applet/docs/de/invest-applet.xml = XML  document text
+invest-applet/docs/de/invest-applet.xml: copy
+
+# invest-applet/docs/C/legal.xml = ASCII English text
+invest-applet/docs/C/legal.xml: copy
+
+# invest-applet/docs/C/invest-applet.xml = XML  document text
+invest-applet/docs/C/invest-applet.xml: copy
+
+# invest-applet/docs/ca/ca.po = UTF-8 Unicode PO (gettext message catalogue) text
+invest-applet/docs/ca/ca.po: copy
+
+# invest-applet/docs/ca/invest-applet.xml = XML  document text
+invest-applet/docs/ca/invest-applet.xml: copy
+
+# invest-applet/docs/fi/fi.po = UTF-8 Unicode PO (gettext message catalogue) text, with very long lines
+invest-applet/docs/fi/fi.po: copy
+
+# invest-applet/docs/fi/invest-applet.xml = XML  document text
+invest-applet/docs/fi/invest-applet.xml: copy
+
+# invest-applet/docs/Makefile.in = ASCII English text
+invest-applet/docs/Makefile.in: copy
+
+# invest-applet/docs/ru/ru.po = UTF-8 Unicode PO (gettext message catalogue) text
+invest-applet/docs/ru/ru.po: copy
+
+# invest-applet/docs/ru/invest-applet.xml = XML  document text
+invest-applet/docs/ru/invest-applet.xml: copy
+
+# invest-applet/invest/__init__.py = Python script text executable
+invest-applet/invest/__init__.py: copy
+
+# invest-applet/invest/chart.py = a /usr/bin/env python script text executable
+invest-applet/invest/chart.py: copy
+
+# invest-applet/invest/Makefile.am = ASCII text
+invest-applet/invest/Makefile.am: copy
+
+# invest-applet/invest/preferences.py = Python script text executable
+invest-applet/invest/preferences.py: copy
+
+# invest-applet/invest/quotes.py = Python script text executable
+invest-applet/invest/quotes.py: copy
+
+# invest-applet/invest/invest-chart = a /usr/bin/env python script text executable
+invest-applet/invest/invest-chart: copy
+
+# invest-applet/invest/defs.py.in = ASCII text
+invest-applet/invest/defs.py.in: copy
+
+# invest-applet/invest/applet.py = Python script text executable
+invest-applet/invest/applet.py: copy
+
+# invest-applet/invest/test.py = a /usr/bin/env python script text executable
+invest-applet/invest/test.py: copy
+
+# invest-applet/invest/widgets.py = Python script text executable
+invest-applet/invest/widgets.py: copy
+
+# invest-applet/invest/about.py = Python script text executable
+invest-applet/invest/about.py: copy
+
+# invest-applet/invest/invest-applet.py = a /usr/bin/env python script text executable
+invest-applet/invest/invest-applet.py: copy
+
+# invest-applet/invest/Makefile.in = ASCII English text
+invest-applet/invest/Makefile.in: copy
+
+# invest-applet/data/GNOME_GtikApplet.server = ASCII HTML document text
+invest-applet/data/GNOME_GtikApplet.server: copy
+
+# invest-applet/data/Makefile.am = ASCII text
+invest-applet/data/Makefile.am: copy
+
+# invest-applet/data/prefs-dialog.ui = XML  document text
+invest-applet/data/prefs-dialog.ui: copy
+
+# invest-applet/data/art/invest_up.svg = SVG Scalable Vector Graphics image
+invest-applet/data/art/invest_up.svg: copy
+
+# invest-applet/data/art/invest-applet.16.png = PNG image data, 16 x 16, 8-bit/color RGBA, non-interlaced
+invest-applet/data/art/invest-applet.16.png: copy
+
+# invest-applet/data/art/invest-applet.svg = SVG Scalable Vector Graphics image
+invest-applet/data/art/invest-applet.svg: copy
+
+# invest-applet/data/art/invest-22_down.png = PNG image data, 22 x 22, 8-bit/color RGBA, non-interlaced
+invest-applet/data/art/invest-22_down.png: copy
+
+# invest-applet/data/art/Makefile.am = ASCII text
+invest-applet/data/art/Makefile.am: copy
+
+# invest-applet/data/art/invest_down.svg = SVG Scalable Vector Graphics image
+invest-applet/data/art/invest_down.svg: copy
+
+# invest-applet/data/art/invest-16_neutral.png = PNG image data, 16 x 16, 8-bit/color RGBA, non-interlaced
+invest-applet/data/art/invest-16_neutral.png: copy
+
+# invest-applet/data/art/invest-22_neutral.png = PNG image data, 22 x 22, 8-bit/color RGBA, non-interlaced
+invest-applet/data/art/invest-22_neutral.png: copy
+
+# invest-applet/data/art/invest_neutral.svg = SVG Scalable Vector Graphics image
+invest-applet/data/art/invest_neutral.svg: copy
+
+# invest-applet/data/art/invest-applet.22.png = PNG image data, 22 x 22, 8-bit/color RGBA, non-interlaced
+invest-applet/data/art/invest-applet.22.png: copy
+
+# invest-applet/data/art/invest-22_up.png = PNG image data, 22 x 22, 8-bit/color RGBA, non-interlaced
+invest-applet/data/art/invest-22_up.png: copy
+
+# invest-applet/data/art/Makefile.in = ASCII English text
+invest-applet/data/art/Makefile.in: copy
+
+# invest-applet/data/art/invest-applet.48.png = PNG image data, 48 x 48, 8-bit/color RGBA, non-interlaced
+invest-applet/data/art/invest-applet.48.png: copy
+
+# invest-applet/data/Invest_Applet.xml = ASCII text
+invest-applet/data/Invest_Applet.xml: copy
+
+# invest-applet/data/financialchart.ui = XML  document text
+invest-applet/data/financialchart.ui: copy
+
+# invest-applet/data/Invest_Applet.server.in.in = ASCII text
+invest-applet/data/Invest_Applet.server.in.in: copy
+
+# invest-applet/data/Makefile.in = ASCII English text
+invest-applet/data/Makefile.in: copy
+
+# invest-applet/Makefile.in = ASCII English text
+invest-applet/Makefile.in: copy
+
+# depcomp = POSIX shell script text executable
+depcomp: copy
+
+# MAINTAINERS = ASCII text
+MAINTAINERS: copy

@@ -1,0 +1,298 @@
+# Patchlist created Fri Mar  7 21:28:40 CST 2014
+
+# pcsd/pcsd = POSIX shell script text executable
+pcsd/pcsd: copy
+
+# pcsd/wizard.rb = Ruby module source text
+pcsd/wizard.rb: copy
+
+# pcsd/resource.rb = Ruby script text
+pcsd/resource.rb: copy
+
+# pcsd/pcsd.pam = ASCII text
+pcsd/pcsd.pam: copy
+
+# pcsd/config.rb = Ruby script text
+pcsd/config.rb: copy
+
+# pcsd/pcsd.service = ASCII text
+pcsd/pcsd.service: copy
+
+# pcsd/pcs.rb = ASCII English text
+pcsd/pcs.rb: copy
+
+# pcsd/remote.rb = Ruby script text
+pcsd/remote.rb: copy
+
+# pcsd/systemd-notify-fix.py = ASCII Java program text
+pcsd/systemd-notify-fix.py: copy
+
+# pcsd/views/configure.erb = ASCII text
+pcsd/views/configure.erb: copy
+
+# pcsd/views/fenceagentform.erb = ASCII text
+pcsd/views/fenceagentform.erb: copy
+
+# pcsd/views/_resource.erb = ASCII HTML document text, with very long lines
+pcsd/views/_resource.erb: copy
+
+# pcsd/views/resourcedeps.erb = ASCII text
+pcsd/views/resourcedeps.erb: copy
+
+# pcsd/views/login.erb = ASCII English text
+pcsd/views/login.erb: copy
+
+# pcsd/views/_wizards.erb = ASCII text
+pcsd/views/_wizards.erb: copy
+
+# pcsd/views/resourceagentform.erb = ASCII text
+pcsd/views/resourceagentform.erb: copy
+
+# pcsd/views/_resource_list.erb = ASCII text
+pcsd/views/_resource_list.erb: copy
+
+# pcsd/views/manage.erb = ASCII English text
+pcsd/views/manage.erb: copy
+
+# pcsd/views/_configure.erb = ASCII HTML document text
+pcsd/views/_configure.erb: copy
+
+# pcsd/views/nodes.erb = ASCII English text
+pcsd/views/nodes.erb: copy
+
+# pcsd/views/_cluster_list.erb = ASCII text, with very long lines
+pcsd/views/_cluster_list.erb: copy
+
+# pcsd/views/main.erb = HTML document text
+pcsd/views/main.erb: copy
+
+# pcsd/config.ru = ASCII text
+pcsd/config.ru: copy
+
+# pcsd/auth.rb = Ruby script text
+pcsd/auth.rb: copy
+
+# pcsd/pcsd.logrotate = ASCII text
+pcsd/pcsd.logrotate: copy
+
+# pcsd/pcsd.rb = Ruby script text
+pcsd/pcsd.rb: copy
+
+# pcsd/public/images/HAM-logo.png = PNG image data, 170 x 40, 8-bit/color RGBA, non-interlaced
+pcsd/public/images/HAM-logo.png: copy
+
+# pcsd/public/images/field_bg.png = PNG image data, 1 x 24, 8-bit/color RGB, non-interlaced
+pcsd/public/images/field_bg.png: copy
+
+# pcsd/public/images/action-icons.png = PNG image data, 560 x 32, 8-bit/color RGBA, non-interlaced
+pcsd/public/images/action-icons.png: copy
+
+# pcsd/public/images/Shell_bg.png = PNG image data, 2 x 79, 8-bit/color RGB, non-interlaced
+pcsd/public/images/Shell_bg.png: copy
+
+# pcsd/public/favicon.ico = MS Windows icon resource - 1 icon
+pcsd/public/favicon.ico: copy
+
+# pcsd/public/css/liberation.css = ASCII text
+pcsd/public/css/liberation.css: copy
+
+# pcsd/public/css/overpass_regular-web.ttf = TrueType font data
+pcsd/public/css/overpass_regular-web.ttf: copy
+
+# pcsd/public/css/overpass_bold-web.ttf = TrueType font data
+pcsd/public/css/overpass_bold-web.ttf: copy
+
+# pcsd/public/css/overpass_bold-web.eot = data
+pcsd/public/css/overpass_bold-web.eot: copy
+
+# pcsd/public/css/overpass_bold-web.woff = data
+pcsd/public/css/overpass_bold-web.woff: copy
+
+# pcsd/public/css/LiberationSans-Bold.ttf = TrueType font data
+pcsd/public/css/LiberationSans-Bold.ttf: copy
+
+# pcsd/public/css/images/ui-icons_4b8e0b_256x240.png = PNG image data, 256 x 240, 8-bit colormap, non-interlaced
+pcsd/public/css/images/ui-icons_4b8e0b_256x240.png: copy
+
+# pcsd/public/css/images/ui-bg_inset-soft_25_000000_1x100.png = PNG image data, 1 x 100, 16-bit grayscale, non-interlaced
+pcsd/public/css/images/ui-bg_inset-soft_25_000000_1x100.png: copy
+
+# pcsd/public/css/images/ui-bg_inset-soft_30_f58400_1x100.png = PNG image data, 1 x 100, 16-bit/color RGB, non-interlaced
+pcsd/public/css/images/ui-bg_inset-soft_30_f58400_1x100.png: copy
+
+# pcsd/public/css/images/ui-icons_ffffff_256x240.png = PNG image data, 256 x 240, 8-bit gray+alpha, non-interlaced
+pcsd/public/css/images/ui-icons_ffffff_256x240.png: copy
+
+# pcsd/public/css/images/animated-overlay.gif = GIF image data, version 89a, 40 x 40
+pcsd/public/css/images/animated-overlay.gif: copy
+
+# pcsd/public/css/images/ui-bg_highlight-soft_80_eeeeee_1x100.png = PNG image data, 1 x 100, 16-bit grayscale, non-interlaced
+pcsd/public/css/images/ui-bg_highlight-soft_80_eeeeee_1x100.png: copy
+
+# pcsd/public/css/images/ui-bg_flat_50_5c5c5c_40x100.png = PNG image data, 40 x 100, 8-bit grayscale, non-interlaced
+pcsd/public/css/images/ui-bg_flat_50_5c5c5c_40x100.png: copy
+
+# pcsd/public/css/images/ui-bg_flat_30_cccccc_40x100.png = PNG image data, 40 x 100, 4-bit grayscale, non-interlaced
+pcsd/public/css/images/ui-bg_flat_30_cccccc_40x100.png: copy
+
+# pcsd/public/css/images/ui-bg_gloss-wave_25_333333_500x100.png = PNG image data, 500 x 100, 16-bit grayscale, non-interlaced
+pcsd/public/css/images/ui-bg_gloss-wave_25_333333_500x100.png: copy
+
+# pcsd/public/css/images/ui-icons_a83300_256x240.png = PNG image data, 256 x 240, 8-bit colormap, non-interlaced
+pcsd/public/css/images/ui-icons_a83300_256x240.png: copy
+
+# pcsd/public/css/images/pbar-ani.gif = GIF image data, version 89a, 48 x 22
+pcsd/public/css/images/pbar-ani.gif: copy
+
+# pcsd/public/css/images/ui-bg_glass_20_555555_1x400.png = PNG image data, 1 x 400, 16-bit grayscale, non-interlaced
+pcsd/public/css/images/ui-bg_glass_20_555555_1x400.png: copy
+
+# pcsd/public/css/images/ui-bg_glass_40_ffc73d_1x400.png = PNG image data, 1 x 400, 16-bit/color RGB, non-interlaced
+pcsd/public/css/images/ui-bg_glass_40_ffc73d_1x400.png: copy
+
+# pcsd/public/css/images/ui-icons_222222_256x240.png = PNG image data, 256 x 240, 8-bit gray+alpha, non-interlaced
+pcsd/public/css/images/ui-icons_222222_256x240.png: copy
+
+# pcsd/public/css/images/ui-bg_glass_40_0078a3_1x400.png = PNG image data, 1 x 400, 16-bit/color RGB, non-interlaced
+pcsd/public/css/images/ui-bg_glass_40_0078a3_1x400.png: copy
+
+# pcsd/public/css/images/ui-icons_cccccc_256x240.png = PNG image data, 256 x 240, 8-bit gray+alpha, non-interlaced
+pcsd/public/css/images/ui-icons_cccccc_256x240.png: copy
+
+# pcsd/public/css/LiberationSans-Italic.ttf = TrueType font data
+pcsd/public/css/LiberationSans-Italic.ttf: copy
+
+# pcsd/public/css/overpass_regular-web.eot = data
+pcsd/public/css/overpass_regular-web.eot: copy
+
+# pcsd/public/css/style.css = ASCII C program text
+pcsd/public/css/style.css: copy
+
+# pcsd/public/css/overpass.css = ASCII text
+pcsd/public/css/overpass.css: copy
+
+# pcsd/public/css/LiberationSans-BoldItalic.ttf = TrueType font data
+pcsd/public/css/LiberationSans-BoldItalic.ttf: copy
+
+# pcsd/public/css/jquery-ui-1.10.1.custom.css = ASCII C program text, with very long lines
+pcsd/public/css/jquery-ui-1.10.1.custom.css: copy
+
+# pcsd/public/css/overpass_bold-web.svg = SVG Scalable Vector Graphics image
+pcsd/public/css/overpass_bold-web.svg: copy
+
+# pcsd/public/css/overpass_regular-web.svg = SVG Scalable Vector Graphics image
+pcsd/public/css/overpass_regular-web.svg: copy
+
+# pcsd/public/css/LiberationSans-Regular.ttf = TrueType font data
+pcsd/public/css/LiberationSans-Regular.ttf: copy
+
+# pcsd/public/css/overpass_regular-web.woff = data
+pcsd/public/css/overpass_regular-web.woff: copy
+
+# pcsd/public/js/pcsd.js = ASCII C++ program text
+pcsd/public/js/pcsd.js: copy
+
+# pcsd/public/js/handlebars-1.0.0-rc.3.js = ASCII C program text, with very long lines
+pcsd/public/js/handlebars-1.0.0-rc.3.js: copy
+
+# pcsd/public/js/ember-1.0.0.js = UTF-8 Unicode C++ program text, with very long lines
+pcsd/public/js/ember-1.0.0.js: copy
+
+# pcsd/public/js/handlebars-1.0.0.js = ASCII C program text, with very long lines
+pcsd/public/js/handlebars-1.0.0.js: copy
+
+# pcsd/public/js/ember-1.0.0-rc.3.js = UTF-8 Unicode C++ program text
+pcsd/public/js/ember-1.0.0-rc.3.js: copy
+
+# pcsd/public/js/ember-debug-1.0.0.js = ASCII C++ program text
+pcsd/public/js/ember-debug-1.0.0.js: copy
+
+# pcsd/public/js/jquery-ui-1.10.1.custom.min.js = ASCII text, with very long lines
+pcsd/public/js/jquery-ui-1.10.1.custom.min.js: copy
+
+# pcsd/public/js/jquery-1.9.1.min.js = ASCII text, with very long lines
+pcsd/public/js/jquery-1.9.1.min.js: copy
+
+# pcsd/public/js/nodes-ember.js = ASCII C++ program text
+pcsd/public/js/nodes-ember.js: copy
+
+# pcsd/Makefile = ASCII text
+pcsd/Makefile: copy
+
+# pcsd/wizards/apache2.rb = Ruby script text
+pcsd/wizards/apache2.rb: copy
+
+# pcsd/wizards/apache.rb = Ruby script text
+pcsd/wizards/apache.rb: copy
+
+# pcsd/fenceagent.rb = Ruby module source text
+pcsd/fenceagent.rb: copy
+
+# pcsd/ssl.rb = Ruby script text
+pcsd/ssl.rb: copy
+
+# pcsd/pcsd.conf = ASCII text
+pcsd/pcsd.conf: copy
+
+# pcsd/cluster.rb = Ruby module source text
+pcsd/cluster.rb: copy
+
+# README = ASCII English text
+README: copy
+
+# pcs/__init__.py = empty
+pcs/__init__.py: copy
+
+# pcs/stonith.py = Python script text executable
+pcs/stonith.py: copy
+
+# pcs/prop.py = Python script text executable
+pcs/prop.py: copy
+
+# pcs/corosync.conf.template = ASCII English text
+pcs/corosync.conf.template: copy
+
+# pcs/bash_completion.d.pcs = ASCII text
+pcs/bash_completion.d.pcs: copy
+
+# pcs/resource.py = Python script text executable
+pcs/resource.py: copy
+
+# pcs/pcs.py = a /usr/bin/python script text executable
+pcs/pcs.py: copy
+
+# pcs/usage.py = Python script text executable
+pcs/usage.py: copy
+
+# pcs/utils.py = Python script text executable
+pcs/utils.py: copy
+
+# pcs/status.py = Python script text executable
+pcs/status.py: copy
+
+# pcs/corosync.conf.fedora.template = ASCII text
+pcs/corosync.conf.fedora.template: copy
+
+# pcs/settings.py = ASCII text
+pcs/settings.py: copy
+
+# pcs/cluster.py = Python script text executable
+pcs/cluster.py: copy
+
+# pcs/constraint.py = Python script text executable
+pcs/constraint.py: copy
+
+# pcs/pcs.8 = troff or preprocessor input text
+pcs/pcs.8: copy
+
+# Makefile = ASCII Java program text
+Makefile: copy
+
+# COPYING = ASCII English text
+COPYING: copy
+
+# PKG-INFO = ASCII text
+PKG-INFO: copy
+
+# setup.py = a /usr/bin/env python script text executable
+setup.py: copy

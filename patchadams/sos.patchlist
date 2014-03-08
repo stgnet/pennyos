@@ -1,0 +1,563 @@
+# Patchlist created Fri Mar  7 21:42:02 CST 2014
+
+# sos-bz825968-collect-subscription-manager-output.patch = unified diff output text
+sos-bz825968-collect-subscription-manager-output.patch: copy
+
+# sos-bz924839-collect-vmcore-dmesg-in-kdump.patch = unified diff output text
+sos-bz924839-collect-vmcore-dmesg-in-kdump.patch: copy
+
+# sos-bz812395-ipa-updates.patch = unified diff output text
+sos-bz812395-ipa-updates.patch: copy
+
+# sos-bz771393-improve-report-name-sanitization.patch = unified diff output text
+sos-bz771393-improve-report-name-sanitization.patch: copy
+
+# sos-bz736718-fix-hardware.py-exec.patch = unified diff output text
+sos-bz736718-fix-hardware.py-exec.patch: copy
+
+# sos-bz824378-fix-sos-get-command-output-logging.patch = unified diff output text
+sos-bz824378-fix-sos-get-command-output-logging.patch: copy
+
+# sos-bz821323-add-rhui-module.patch = unified diff output text
+sos-bz821323-add-rhui-module.patch: copy
+
+# sos-2.2-bz709491-add-vmmemctl-to-vmware-plugin.patch = unified diff output text
+sos-2.2-bz709491-add-vmmemctl-to-vmware-plugin.patch: copy
+
+# sos-bz767827-fix-rpm-qa-for-long-pkg-name.patch = unified diff output text
+sos-bz767827-fix-rpm-qa-for-long-pkg-name.patch: copy
+
+# sos-bz955671-collect-var-log-squid.patch = unified diff output text
+sos-bz955671-collect-var-log-squid.patch: copy
+
+# sos-bz955671-fix-collection-of-squid-logs.patch = unified diff output text
+sos-bz955671-fix-collection-of-squid-logs.patch: copy
+
+# sos-bz694813-general-collect-etc-init-and-fix-whitespace.patch = unified diff output text
+sos-bz694813-general-collect-etc-init-and-fix-whitespace.patch: copy
+
+# sos-bz749919-add-modprobe-dot-d.patch = unified diff output text
+sos-bz749919-add-modprobe-dot-d.patch: copy
+
+# sos-bz989292-sos-integration-for-pacemaker.patch = unified diff output text
+sos-bz989292-sos-integration-for-pacemaker.patch: copy
+
+# sos-bz752549-add-gluster-module.patch = unified diff output text
+sos-bz752549-add-gluster-module.patch: copy
+
+# sos-bz689387-use-sha256-in-fips-mode.patch = unified diff output text
+sos-bz689387-use-sha256-in-fips-mode.patch: copy
+
+# sos-bz809727-collect-pagetypeinfo.patch = unified diff output text
+sos-bz809727-collect-pagetypeinfo.patch: copy
+
+# sos-bz751273-fix-brctl-showstp.patch = unified diff output text
+sos-bz751273-fix-brctl-showstp.patch: copy
+
+# sos-bz721163-add-ipv6-neighbour-table-to-networking-plugin.patch = unified diff output text
+sos-bz721163-add-ipv6-neighbour-table-to-networking-plugin.patch: copy
+
+# sos-bz682124-add-nslcd-conf-to-ldap-plugin.patch = unified diff output text
+sos-bz682124-add-nslcd-conf-to-ldap-plugin.patch: copy
+
+# sos-bz697899-collect-brctl-output.patch = unified diff output text
+sos-bz697899-collect-brctl-output.patch: copy
+
+# sos-bz771501-fix-rsyslog-collection-and-size-limit.patch = unified diff output text
+sos-bz771501-fix-rsyslog-collection-and-size-limit.patch: copy
+
+# sos-bz924338-fix-regex-substitution-in-openhpi.patch = unified diff output text
+sos-bz924338-fix-regex-substitution-in-openhpi.patch: copy
+
+# sos-bz675559-devicemapper-collect-ls-tree.patch = unified diff output text
+sos-bz675559-devicemapper-collect-ls-tree.patch: copy
+
+# sos-bz883443-fix-sar-plug-in-traceback.patch = unified diff output text
+sos-bz883443-fix-sar-plug-in-traceback.patch: copy
+
+# sos-bz888488-force-lc_all-c-for-ext-commands.patch = unified diff output text
+sos-bz888488-force-lc_all-c-for-ext-commands.patch: copy
+
+# sos-bz622527-add-anacrontab.patch = unified diff output text
+sos-bz622527-add-anacrontab.patch: copy
+
+# sos-bz966602-tar-explicit-stdout.patch = unified diff output text
+sos-bz966602-tar-explicit-stdout.patch: copy
+
+# sos-bz810702-hw-collect-mcelog.patch = unified diff output text
+sos-bz810702-hw-collect-mcelog.patch: copy
+
+# sos-bz850542-limit-psacct-collection.patch = unified diff output text
+sos-bz850542-limit-psacct-collection.patch: copy
+
+# sos-bz986301-cluster-obfuscate-luci-secrets.patch = unified diff output text
+sos-bz986301-cluster-obfuscate-luci-secrets.patch: copy
+
+# sos-bz760995-fence_virt-conf.patch = unified diff output text
+sos-bz760995-fence_virt-conf.patch: copy
+
+# sos-bz822113-prompt-cmdline-defaults.patch = unified diff output text
+sos-bz822113-prompt-cmdline-defaults.patch: copy
+
+# sos-bz924338-bz907861-backport-addCopySpecs.patch = unified diff output text
+sos-bz924338-bz907861-backport-addCopySpecs.patch: copy
+
+# sos-bz683404-fix-autofs-LC_ALL-usage.patch = unified diff output text
+sos-bz683404-fix-autofs-LC_ALL-usage.patch: copy
+
+# sos-bz850779-add-sanlock-module.patch = unified diff output text
+sos-bz850779-add-sanlock-module.patch: copy
+
+# sos-bz852049-psql-fix-postproc-exception.patch = unified diff output text
+sos-bz852049-psql-fix-postproc-exception.patch: copy
+
+# sos-bz849546-gluster-fix-postproc-exception.patch = unified diff output text
+sos-bz849546-gluster-fix-postproc-exception.patch: copy
+
+# sos-bz947424-Fix-calls-to-udevadm-info.patch = unified diff output text
+sos-bz947424-Fix-calls-to-udevadm-info.patch: copy
+
+# sos-bz784061-gluster-sunrpc.patch = unified diff output text
+sos-bz784061-gluster-sunrpc.patch: copy
+
+# sos-bz980959-devicemapper-collect-lvmdump-metadata.patch = unified diff output text
+sos-bz980959-devicemapper-collect-lvmdump-metadata.patch: copy
+
+# sos-bz789096-kernel_realtime.patch = unified diff output text
+sos-bz789096-kernel_realtime.patch: copy
+
+# sos-bz859142-call-spacewalk-debug-in-rhn.patch = unified diff output text
+sos-bz859142-call-spacewalk-debug-in-rhn.patch: copy
+
+# sos-bz987103-krb5-syntax-fixes.patch = unified diff output text
+sos-bz987103-krb5-syntax-fixes.patch: copy
+
+# sos-bz750607-forbid-more-pki-paths.patch = unified diff output text
+sos-bz750607-forbid-more-pki-paths.patch: copy
+
+# sos-bz833170-networking-use-ip-not-ifconfig.patch = unified diff output text
+sos-bz833170-networking-use-ip-not-ifconfig.patch: copy
+
+# sos-bz825149-ipa-additional-files.patch = unified diff output text
+sos-bz825149-ipa-additional-files.patch: copy
+
+# sos-bz782339-unbreak-logging.patch = unified diff output text
+sos-bz782339-unbreak-logging.patch: copy
+
+# sos-bz877395-add-pam_ldap-conf.patch = unified diff output text
+sos-bz877395-add-pam_ldap-conf.patch: copy
+
+# sos-bz986973-sos-restrict-wbinfo-domains.patch = unified diff output text
+sos-bz986973-sos-restrict-wbinfo-domains.patch: copy
+
+# sos-bz752549-gluster-forbid-more-pem-paths.patch = unified diff output text
+sos-bz752549-gluster-forbid-more-pem-paths.patch: copy
+
+# sos-bz766583-allow-nonroot-symlinks.patch = unified diff output text
+sos-bz766583-allow-nonroot-symlinks.patch: copy
+
+# sos-bz924925-openswan-turn-off-ipsec-barf.patch = unified diff output text
+sos-bz924925-openswan-turn-off-ipsec-barf.patch: copy
+
+# sos-bz852049-fix-params-and-rename-psql.patch = unified diff output text
+sos-bz852049-fix-params-and-rename-psql.patch: copy
+
+# sos-bz883811-libvirt-fix-path-aliasing-on-regex-sub.patch = unified diff output text
+sos-bz883811-libvirt-fix-path-aliasing-on-regex-sub.patch: copy
+
+# sos-bz784862-collect-proc-irq.patch = unified diff output text
+sos-bz784862-collect-proc-irq.patch: copy
+
+# sos-bz752666-cloudforms-debug.patch = unified diff output text
+sos-bz752666-cloudforms-debug.patch: copy
+
+# sos-bz987103-do-not-collect-krb5-keytab.patch = unified diff output text
+sos-bz987103-do-not-collect-krb5-keytab.patch: copy
+
+# sos-bz726360-qpidd-extend.patch = unified diff output text
+sos-bz726360-qpidd-extend.patch: copy
+
+# sos-bz622784-parted-dumpe2fs-s390.patch = unified diff output text
+sos-bz622784-parted-dumpe2fs-s390.patch: copy
+
+# sos-bz691477-support-new-usbutils.patch = unified diff output text
+sos-bz691477-support-new-usbutils.patch: copy
+
+# sos-bz749262-fix-sat-proxy-package-detection.patch = unified diff output text
+sos-bz749262-fix-sat-proxy-package-detection.patch: copy
+
+# sos-bz729455-collect-basic-cgroups-data.patch = unified diff output text
+sos-bz729455-collect-basic-cgroups-data.patch: copy
+
+# sos-bz790402-obscure-anaconda-ks-passwords.patch = unified diff output text
+sos-bz790402-obscure-anaconda-ks-passwords.patch: copy
+
+# sos-bz928748-nis-data-additions.patch = unified diff output text
+sos-bz928748-nis-data-additions.patch: copy
+
+# sos-bz868719-fix-devicemapper-systool-usage.patch = unified diff output text
+sos-bz868719-fix-devicemapper-systool-usage.patch: copy
+
+# sos-bz673244-add-infiniband-plugin.patch = unified diff output text
+sos-bz673244-add-infiniband-plugin.patch: copy
+
+# sos-bz622784-filesys-no-print-regex-debug.patch = unified diff output text
+sos-bz622784-filesys-no-print-regex-debug.patch: copy
+
+# sos-bz822442-collect-etc-swift-in-gluster.patch = unified diff output text
+sos-bz822442-collect-etc-swift-in-gluster.patch: copy
+
+# sos-bz814474-libvirt-wildcard-logs.patch = unified diff output text
+sos-bz814474-libvirt-wildcard-logs.patch: copy
+
+# sos-bz622407-cluster-el6-fixes.patch = unified diff output text
+sos-bz622407-cluster-el6-fixes.patch: copy
+
+# sos-bz782589-fix-symlink-target-collection.patch = unified diff output text
+sos-bz782589-fix-symlink-target-collection.patch: copy
+
+# sos-bz600813-collect-repolist-by-default.patch = unified diff output text
+sos-bz600813-collect-repolist-by-default.patch: copy
+
+# sos-bz876309-Backport-SELinux-improvements-from-master.patch = unified diff output text
+sos-bz876309-Backport-SELinux-improvements-from-master.patch: copy
+
+# sos-bz824378-fix-dm-command-exec-logging.patch = unified diff output text
+sos-bz824378-fix-dm-command-exec-logging.patch: copy
+
+# sos-bz821005-rpm-quote-tilde-for-shell.patch = unified diff output text
+sos-bz821005-rpm-quote-tilde-for-shell.patch: copy
+
+# sos-bz821323-rhui-support-cds-hosts.patch = unified diff output text
+sos-bz821323-rhui-support-cds-hosts.patch: copy
+
+# sos-bz622528-redhat-release-6-fixes.patch = unified diff output text
+sos-bz622528-redhat-release-6-fixes.patch: copy
+
+# sos-bz822113-catch-empty-ticket-nr.patch = unified diff output text
+sos-bz822113-catch-empty-ticket-nr.patch: copy
+
+# sos-bz976386-add-foreman-plug-in.patch = unified diff output text
+sos-bz976386-add-foreman-plug-in.patch: copy
+
+# sos-bz913201-networking-forbid-rpc-proc-paths.patch = unified diff output text
+sos-bz913201-networking-forbid-rpc-proc-paths.patch: copy
+
+# sos-bz883811-fix-libvirt-regex-quoting-and-anchors.patch = unified diff output text
+sos-bz883811-fix-libvirt-regex-quoting-and-anchors.patch: copy
+
+# sos-bz585942.patch = unified diff output text
+sos-bz585942.patch: copy
+
+# sos-bz878589-improve-sosreport-preamble.patch = unified diff output text
+sos-bz878589-improve-sosreport-preamble.patch: copy
+
+# sos-bz679433-filesys-add-lsblk-output.patch = unified diff output text
+sos-bz679433-filesys-add-lsblk-output.patch: copy
+
+# sos-bz739080-collect-stderr.patch = unified diff output text
+sos-bz739080-collect-stderr.patch: copy
+
+# sos-bz678665-collect-entitlement-certs.patch = unified diff output text
+sos-bz678665-collect-entitlement-certs.patch: copy
+
+# sos-bz714293-collect-etc-rhsm.patch = unified diff output text
+sos-bz714293-collect-etc-rhsm.patch: copy
+
+# sos-bz582259.patch = unified diff output text
+sos-bz582259.patch: copy
+
+# sos-bz817093-collect-etc-multipath.patch = unified diff output text
+sos-bz817093-collect-etc-multipath.patch: copy
+
+# sos-bz624162-add-sssd.patch = unified diff output text
+sos-bz624162-add-sssd.patch: copy
+
+# sos-2.2-bz704383-fix-lvm-data-collection.patch = unified diff output text
+sos-2.2-bz704383-fix-lvm-data-collection.patch: copy
+
+# sos-bz736718-fix-hardware-plugin-paths.patch = unified diff output text
+sos-bz736718-fix-hardware-plugin-paths.patch: copy
+
+# sos-bz924338-add-openhpi-plug-in.patch = unified diff output text
+sos-bz924338-add-openhpi-plug-in.patch: copy
+
+# sos-bz822113-propagate-ticket-nr.patch = unified diff output text
+sos-bz822113-propagate-ticket-nr.patch: copy
+
+# sos-bz850433-strip-newline-from-pipes.patch = unified diff output text
+sos-bz850433-strip-newline-from-pipes.patch: copy
+
+# sos-bz726427-add-ethtool-acg.patch = unified diff output text
+sos-bz726427-add-ethtool-acg.patch: copy
+
+# sos-bz896713-collect-ls-l-var-named.patch = unified diff output text
+sos-bz896713-collect-ls-l-var-named.patch: copy
+
+# sos-bz852049-psql.patch = unified diff output text
+sos-bz852049-psql.patch: copy
+
+# sos-bz888724-preserve-ownership-and-perms.patch = unified diff output text
+sos-bz888724-preserve-ownership-and-perms.patch: copy
+
+# sos-bz730641-fix-prox-net.patch = unified diff output text
+sos-bz730641-fix-prox-net.patch: copy
+
+# sos-bz907861-add-nfs-client-plugin.patch = unified diff output text
+sos-bz907861-add-nfs-client-plugin.patch: copy
+
+# sos-bz849546-avoid-taking-volume-status-in-gluster.patch = unified diff output text
+sos-bz849546-avoid-taking-volume-status-in-gluster.patch: copy
+
+# sos-bz834594-avoid-deprecated-sysctls.patch = unified diff output text
+sos-bz834594-avoid-deprecated-sysctls.patch: copy
+
+# sos-bz883811-obscure-libvirt-corosync-passwords.patch = unified diff output text
+sos-bz883811-obscure-libvirt-corosync-passwords.patch: copy
+
+# sos-bz584253.patch = unified diff output text
+sos-bz584253.patch: copy
+
+# sos-bz884609-remove-rpm-duplication-rhn-plugin.patch = unified diff output text
+sos-bz884609-remove-rpm-duplication-rhn-plugin.patch: copy
+
+# sos-bz988417-collect-mountstats-and-mountinfo.patch = unified diff output text
+sos-bz988417-collect-mountstats-and-mountinfo.patch: copy
+
+# sos-bz659467-startup-drop-LC_ALL.patch = unified diff output text
+sos-bz659467-startup-drop-LC_ALL.patch: copy
+
+# sos-bz822113-use-default-report-name.patch = unified diff output text
+sos-bz822113-use-default-report-name.patch: copy
+
+# sos-bz986301-bz883811-fix-cmd-postproc-exception.patch = unified diff output text
+sos-bz986301-bz883811-fix-cmd-postproc-exception.patch: copy
+
+# sos-bz970417-fix-symbol-collection-kallsyms.patch = unified diff output text
+sos-bz970417-fix-symbol-collection-kallsyms.patch: copy
+
+# sos-bz840975-collect-proc-iomem.patch = unified diff output text
+sos-bz840975-collect-proc-iomem.patch: copy
+
+# sos-centos-branding.patch = unified diff output text
+# +Name-Real: CentOS Support
+# +Upload the report to CentOS (use exclusively if advised from a CentOS support representative).
+# +msgid "There was a problem uploading your report to CentOS support."
+# +msgid "There was a problem uploading your report to CentOS support."
+# +msgstr "আপোনাৰ ৰিপোৰ্টটি CentOS সহায়তা ব্যৱস্থাত আপলোড কৰিবলৈ সমস্যা ।"
+# +"আপোনাৰ প্ৰদত্ত ৰিপোৰ্ট সফলতাৰে সৈতে CentOS-ৰ ftp সেৱকত নিম্নলিখিত নামত আপলোড "
+# +"এই সামগ্ৰীৰ সহায়ত যান্ত্ৰিক সামগ্ৰী আৰু CentOS Enterprise Linux\n"
+# +"CentOS দ্বাৰা এই তথ্য অকল সমস্যাৰ কাৰণ নিৰ্ণয় কৰাৰ বাবে ব্যৱহাৰ কৰা হ'ব\n"
+# +msgid "There was a problem uploading your report to CentOS support."
+# +"Hebo un problema al cargar el to informe al equipu d'asistencia de CentOS"
+# +msgstr "El to informe cargóse bien a los sirvidores ftp e CentOS col nome:"
+# +"hardware y la configuración del to sistema CentOS Enterprise Linux.\n"
+# +"CentOS usará esta información pa diagnosticar el sistema\n"
+# +msgid "There was a problem uploading your report to CentOS support."
+# +msgid "There was a problem uploading your report to CentOS support."
+# +msgid "There was a problem uploading your report to CentOS support."
+# +msgstr "আপনার রিপোর্টটি CentOS সহায়তা ব্যবস্থায় আপলোড করতে সমস্যা।"
+# +"আপনার প্রদত্ত রিপোর্টটি সাফল্যের সাথে CentOS-র ftp সার্ভারে নিম্নলিখিত নামে আপলোড "
+# +"এই সামগ্রীর সাহায্যে হার্ডওয়্যার ও CentOS Enterprise Linux\n"
+# +"CentOS দ্বারা এই তথ্য শুধমাত্র সমস্যার কারণ নির্ণয় করার জন্য ব্যবহার করা হবে\n"
+# +msgid "There was a problem uploading your report to CentOS support."
+# +msgid "There was a problem uploading your report to CentOS support."
+# +msgstr "Bilo je problema u postavljanju vaseg izvjestaja na CentOS podrsku. "
+# +msgid "There was a problem uploading your report to CentOS support."
+# +msgstr "Hi ha hagut un problema en pujar l'informe al manteniment de CentOS."
+# +"L'informe s'ha pujat correctament al servidor d'ftp de CentOS amb el nom:"
+# +"CentOS utilitzarà aquesta informació únicament per a diagnòstics\n"
+# +msgid "There was a problem uploading your report to CentOS support."
+# +msgstr "Při odesílání zprávy do firmy CentOS vznikla chyba."
+# +msgstr "Vaše zpráva byla úspěšně odeslána na FTP server firmy CentOS:"
+# +msgid "There was a problem uploading your report to CentOS support."
+# +msgid "There was a problem uploading your report to CentOS support."
+# +"Der opstod et problem under overførsel af din rapport til CentOS-support."
+# +msgid "There was a problem uploading your report to CentOS support."
+# +msgstr "Beim Hochladen Ihres Berichts zum CentOS Support trat ein Fehler auf."
+# +"Ihr Bericht wurde erfolgreich auf den CentOS FTP-Server hochgeladen, mit "
+# +"zur Hardware und Einrichtung Ihres CentOS Enterprise Linux Systems.\n"
+# +"können. CentOS verwendet diese Informationen AUSSCHLIESSLICH zu\n"
+# +msgid "There was a problem uploading your report to CentOS support."
+# +msgstr "Beim Hochladen Ihres Berichts zum CentOS Support trat ein Fehler auf."
+# +msgid "There was a problem uploading your report to CentOS support."
+# +msgstr "Υπήρξε ένα πρόβλημα κατα το upload της αναφοράς σας στην CentOS."
+# +msgstr "Η αναφορά σας στάλθηκε επιτυχώς στο ftp server της CentOS με όνομα:"
+# +"Αυτό το εργαλείο θα συγκετρώσει ορισμένες πληροφορίες για τον υπολογιστή σας και την εγκατάσταση του CentOS Enterprise Linux συστήματος.\n"
+# +"Η CentOS θα χρησιμοποιήσει αυτα τα δεδομένα ΜΟΝΟ για διαγνωστικούς σκοπούς\n"
+# +msgid "There was a problem uploading your report to CentOS support."
+# +msgstr "There was a problem uploading your report to CentOS support."
+# +"Your report was successfully uploaded to CentOS's ftp server with name:"
+# +"hardware and  setup of your  CentOS Enterprise Linux  system.\n"
+# +"CentOS will use this information for diagnostic purposes ONLY\n"
+# +msgid "There was a problem uploading your report to CentOS support."
+# +msgid "There was a problem uploading your report to CentOS support."
+# +"Hubo un problema al cargar su reporte al equipo de asistencia de CentOS"
+# +msgid "There was a problem uploading your report to CentOS support."
+# +msgid "There was a problem uploading your report to CentOS support."
+# +msgid "There was a problem uploading your report to CentOS support."
+# +msgid "There was a problem uploading your report to CentOS support."
+# +msgstr "Raportin lähettämisessä CentOSin käyttötukeen oli ongelmia."
+# +msgid "There was a problem uploading your report to CentOS support."
+# +msgstr "Une erreur s'est produite lors du téléchargement de votre rapport vers le support CentOS."
+# +msgid "There was a problem uploading your report to CentOS support."
+# +msgid "There was a problem uploading your report to CentOS support."
+# +msgstr "તમારા અહેવાલને CentOS આધારમાં અપલોડ કરવામાં સમસ્યા હતી."
+# +msgstr "તમારો અહેવાલ CentOS ના ftp સર્વરમાં આ નામ સાથે સફળતાપૂર્વક અપલોડ થયો હતો:"
+# +"ભેગી કરશે અને તમારી CentOS Enterprise Linux સિસ્ટમ સુયોજીત કરશે.\n"
+# +"CentOS આ જાણકારીનો માત્ર તપાસ હેતુઓ માટે જ ઉપયોગ કરશે\n"
+# +msgid "There was a problem uploading your report to CentOS support."
+# +msgid "There was a problem uploading your report to CentOS support."
+# +msgstr "आपके रिपोर्ट को CentOS समर्थन में अपलोड करने में समस्या थी."
+# +msgstr "आपका रिपोर्ट CentOS के ftp सर्वर में नाम के साथ सफलतापूर्वक अपलोड किया गया:"
+# +"हार्डवेयर और आपके CentOS Enterprise Linux  सिस्टम के बारे में.\n"
+# +"CentOS इस सूचना को निदानार्थ सिर्फ प्रयोग करेगा\n"
+# +msgid "There was a problem uploading your report to CentOS support."
+# +msgid "There was a problem uploading your report to CentOS support."
+# +msgstr "A jelentést a CentOS támogatáshoz feltöltvén baj történt."
+# +msgid "There was a problem uploading your report to CentOS support."
+# +msgid "There was a problem uploading your report to CentOS support."
+# +msgid "There was a problem uploading your report to CentOS support."
+# +msgid "There was a problem uploading your report to CentOS support."
+# +msgid "There was a problem uploading your report to CentOS support."
+# +msgid "There was a problem uploading your report to CentOS support."
+# +msgstr "レポートを CentOS サポートにアップロードするのに問題がありました。"
+# +msgid "There was a problem uploading your report to CentOS support."
+# +msgid "There was a problem uploading your report to CentOS support."
+# +"ನಿಮ್ಮ ವರದಿಯನ್ನು CentOS ಬೆಂಬಲದ ಸ್ಥಳಕ್ಕೆ ಅಪ್‌ಲೋಡ್ ಮಾಡುವಲ್ಲಿ ಒಂದು ತೊಂದರೆ ಉಂಟಾಗಿದೆ."
+# +"ನಿಮ್ಮ ವರದಿಯನ್ನು ಈ ಹೆಸರಿನೊಂದಿಗೆ CentOS ನ ftp ಪರಿಚಾರಕಕ್ಕೆ ಯಶಸ್ವಿಯಾಗಿ ಅಪ್‌ಲೋಡ್ "
+# +"ಸಂಗ್ರಹಿಸಿ ನಂತರ ನಿಮ್ಮ CentOS Enterprise Linux ವ್ಯವಸ್ಥೆಯನ್ನು ಸಿದ್ಧಪಡಿಸುತ್ತದೆ.\n"
+# +"CentOS ಇದನ್ನು ಕೇವಲ ದೋಷ ಪತ್ತೆ ಹಚ್ಚಲು ಮಾತ್ರವೆ ಬಳಸಲಾಗುತ್ತದೆ\n"
+# +msgid "There was a problem uploading your report to CentOS support."
+# +msgstr "리포트를 CentOS 지원 센터로 업로드하는 데 문제가 발생했습니다."
+# +"이 유틸리티는 CentOS Enterprise Linux 시스템의 하드웨어와 \n"
+# +"아카이브로 저장됩니다. CentOS은 이 정보를 문제 해결 목적으로만 사용하며 기밀 정보로 \n"
+# +msgid "There was a problem uploading your report to CentOS support."
+# +msgid "There was a problem uploading your report to CentOS support."
+# +msgid "There was a problem uploading your report to CentOS support."
+# +msgid "There was a problem uploading your report to CentOS support."
+# +msgid "There was a problem uploading your report to CentOS support."
+# +msgid "There was a problem uploading your report to CentOS support."
+# +msgstr "CentOS-ലേക്ക് നിങ്ങളുടെ റിപ്പോറ്‍ട്ട് അയയ്ക്കുന്നതില്‍ ഏതോ പ്റശ്നം ഉണ്ടായിരിക്കുന്നു."
+# +"താഴെ പറഞ്ഞിരിക്കുന്ന പേരില്‍ നിങ്ങളുടെ റിപ്പോറ്‍ട്ട് CentOS-ന്റെ ftp സറ്‍വറില്‍ സൂക്ഷിച്ചിരിക്കുന്നു:"
+# +"ഈ പ്റയോഗം നിങ്ങളുടെ CentOS Enterprise Linux  സിസ്റ്റവും ഹാറ്‍ഡ്‌വെയറും\n"
+# +"പരിഹരിക്കുന്നതിനും മാത്റം CentOS ഈ വിവരങ്ങള്‍ ഉപയോഗിക്കുന്നതാകുന്നു.\n"
+# +msgid "There was a problem uploading your report to CentOS support."
+# +msgstr "तुमचा अहवाल CentOS सपोर्टकडे पाठवतेवेळी अडचण आढळली."
+# +msgstr "तुमचा अहवाल यशस्वीरित्या नावासह CentOS च्या ftp सर्व्हरवर अपलोड केले:"
+# +"गोळा करते व तुमची CentOS Enterprise Linux  प्रणली सेटअप करते.\n"
+# +"CentOS या माहितीचा वापर फक्त विश्लेषण कारणास्तवच करेल\n"
+# +msgid "There was a problem uploading your report to CentOS support."
+# +msgid "There was a problem uploading your report to CentOS support."
+# +msgid "There was a problem uploading your report to CentOS support."
+# +msgid "There was a problem uploading your report to CentOS support."
+# +"Er trad een probleem op bij het uploaden van jouw melding naar CentOS "
+# +msgid "There was a problem uploading your report to CentOS support."
+# +msgid "There was a problem uploading your report to CentOS support."
+# +msgid "There was a problem uploading your report to CentOS support."
+# +msgstr "CentOS ସହାୟତାରେ ଆପଣଙ୍କର ବିବରଣୀକୁ ଧାରଣ କରିବାରେ ସମସ୍ୟା ଦୋଇଥିଲା।"
+# +msgstr "ଆପଣଙ୍କର ବିବରଣୀ CentOS's ftp ସର୍ଭରରେ ନିମ୍ନଲିଖିତ ନାମରେ ସଫଳତାର ସହିତ ଧାରଣ ହୋଇଛି:"
+# +"ଏବଂ ଆପଣଙ୍କର CentOS Enterprise Linux  ତନ୍ତ୍ରକୁ ବିନ୍ୟାସ କରିଥାଏ।\n"
+# +"CentOS ଏହି ସୂଚନାକୁ କେବଳ ନିରୂପଣ କରିବା ଉଦ୍ଦେଶ୍ୟରେ ବ୍ୟବହାର କରିଥାଏ\n"
+# +msgid "There was a problem uploading your report to CentOS support."
+# +msgstr "ਤੁਹਾਡੀ ਰਿਪੋਰਟ ਨੂੰ CentOS ਸਹਿਯੋਗ ਤੇ ਅੱਪਲੋਡ ਕਰਨ ਵੇਲੇ ਗਲਤੀ ਆਈ ਹੈ।"
+# +msgstr "ਤੁਹਾਡੀ ਰਿਪੋਰਟ ਸਫਲਤਾਪੂਰਕ CentOS ਦੇ ftp ਸਰਵਰ ਤੇ ਇਸ ਨਾਂ ਨਾਲ ਅੱਪਲੋਡ ਹੋ ਗਈ ਹੈ:"
+# +"ਕਰੇਗੀ ਅਤੇ ਤੁਹਾਡੇ CentOS Enterprise Linux ਸਿਸਟਮ ਨੂੰ ਨਿਰਧਾਰਤ ਕਰੇਗੀ।\n"
+# +"CentOS ਇਸ ਜਾਣਕਾਰੀ ਨੂੰ ਸਿਰਫ ਹੱਲ ਕਰਨ ਲਈ ਵਰਤੇਗਾ\n"
+# +msgid "There was a problem uploading your report to CentOS support."
+# +"CentOS."
+# +msgid "There was a problem uploading your report to CentOS support."
+# +msgstr "Houve um problema ao enviar o seu relatório para o suporte da CentOS."
+# +msgid "There was a problem uploading your report to CentOS support."
+# +msgstr "Ocorreu um erro ao submeter o seu relatório para o suporte CentOS."
+# +msgid "There was a problem uploading your report to CentOS support."
+# +msgid "There was a problem uploading your report to CentOS support."
+# +"Произошла ошибка при попытке отправить отчёт в службу поддержки CentOS."
+# +msgid "There was a problem uploading your report to CentOS support."
+# +msgstr "ඔබගේ වාර්තාව CentOS සහය වෙතට ලබා දිමේදි දෝෂයල් ඇති විය."
+# +msgstr "ඔබගේ වාර්තාව සාර්තකව CentOS's ftp සේවාදායකයට ලබාදුන් අතර නම වූයේ:"
+# +"මෙම උපයෝගි තාවය දෘඩාංග පිළිබදව සවිස්තරාත්මක තොරතුරු රැස්කරණ අතර ඔබගේ  CentOS "
+# +"CentOS මෙම තොරතුරු  භාවිතා කරන්නේ දෝෂ විනිශ්චය පමණක් වන අතර එම තොරතුරු රහසිගත තොරතුරු "
+# +msgid "There was a problem uploading your report to CentOS support."
+# +msgstr "Nastal problém pri odosielaní vašej správy na podporu CentOS."
+# +msgid "There was a problem uploading your report to CentOS support."
+# +msgid "There was a problem uploading your report to CentOS support."
+# +msgid "There was a problem uploading your report to CentOS support."
+# +msgid "There was a problem uploading your report to CentOS support."
+# +msgstr "Pojavio se problem pri slanju vašeg izveštaja CentOS podršci."
+# +# Copyright (C) 2007 CentOS, Inc.
+# +msgid "There was a problem uploading your report to CentOS support."
+# +msgstr "Појавио се проблем при слању вашег извештаја CentOS подршци."
+# +msgid "There was a problem uploading your report to CentOS support."
+# +msgstr "Ett problem uppstod när din rapport skickades till CentOS support."
+# +msgstr "Din rapport har skickats till CentOSs ftp-server med namnet:"
+# +msgid "There was a problem uploading your report to CentOS support."
+# +msgstr "உங்கள் அறிக்கையை CentOS சேவைக்கு அனுப்புவதில் சிக்கல்."
+# +msgstr "உங்கள் அறிக்கை வெற்றிகரமாக CentOS ftp சேவையகத்தில் பெயருடன் ஏற்றப்பட்டது:"
+# +"இந்த வசதி வன்பொருள் பற்றியும் மற்றும் உங்கள் CentOS Enterprise \n"
+# +"CentOS இந்த தகவலை ஆராய மட்டுமே பயன்படுத்தி\n"
+# +msgid "There was a problem uploading your report to CentOS support."
+# +msgstr "మీ సమస్యను CentOS మద్దతునకు అప్‌లోడు చేయుటలో వొక సమస్యవుంది."
+# +msgstr "మీ నివేదిక సమర్దవంతంగా CentOS ftp సేవికకు నామముతో అప్‌లోడ్ చేయబడింది:"
+# +"మీ CentOS Enterprise Linux సిస్టమ్ యొక్క హార్డువేరు మరియు అమర్పు గురించిన\n"
+# +"CentOS ఈ సమాచారమును విశ్లేషణ ప్రయోజనముల కొరకు మాత్రమే వుపయోగిస్తుంది\n"
+# +msgid "There was a problem uploading your report to CentOS support."
+# +msgstr "มีปัญหาในการอัพโหลดรายงานของคุณไปยังฝ่ายสนับสนุน CentOS"
+# +msgstr "รายงานของคุณได้ถูกส่งไปยังเซิร์ฟเวอร์ ftp ของ CentOS ในชื่อ:"
+# +"ระบบ CentOS Enterprise Linux ของคุณ ข้อมูลจะถูกเก็บและ\n"
+# +"CentOS จะใช้ข้อมูลนี้ในการแก้ไขปัญหาเท่านั้น และจะถือว่าเป็น\n"
+# +msgid "There was a problem uploading your report to CentOS support."
+# +msgid "There was a problem uploading your report to CentOS support."
+# +msgstr "Виникла помилка при спробі надіслати звіт до служби підтримки CentOS."
+# +msgid "There was a problem uploading your report to CentOS support."
+# +msgid "There was a problem uploading your report to CentOS support."
+# +msgid "There was a problem uploading your report to CentOS support."
+# +msgid "There was a problem uploading your report to CentOS support."
+# +msgstr "將報告上傳至 CentOS 技術支援時，出現問題。"
+# +msgstr "您的報告已經成功地傳送至 CentOS 的 FTP 伺服器，名稱為："
+# +"這工具程式會蒐集 CentOS Enterprise Linux 的硬體與設定資訊。\n"
+# +"這些訊息傳給技術人員以尋求支持。CentOS 將這些資訊視為機密，\n"
+# +msgid "There was a problem uploading your report to CentOS support."
+# +    """CentOS Hardware Test Suite related information
+# +    """CentOS Update Infrastructure for Cloud Providers
+# +            print _("There was a problem uploading your report to CentOS support.")
+# +    __distro__ = 'CentOS Linux'
+# +    __vendor__ = 'CentOS'
+# +    #                     help="encrypt with GPG using CentOS's public key")
+sos-centos-branding.patch: patch
+
+# sos-bz784874-collect-proc-cgroups.patch = unified diff output text
+sos-bz784874-collect-proc-cgroups.patch: copy
+
+# sos-bz749279-fix-rhn-el6-tomcat.patch = unified diff output text
+sos-bz749279-fix-rhn-el6-tomcat.patch: copy
+
+# sos-bz713449-dont-strip-command-output.patch = unified diff output text
+sos-bz713449-dont-strip-command-output.patch: copy
+
+# sos-bz760424-gather-cpufreq-info.patch = unified diff output text
+sos-bz760424-gather-cpufreq-info.patch: copy
+
+# sos-bz683219-truncate-large-files.patch = unified diff output text
+sos-bz683219-truncate-large-files.patch: copy
+
+# sos-bz676656-add-iscsi-target-plugin.patch = unified diff output text
+sos-bz676656-add-iscsi-target-plugin.patch: copy
+
+# sos-bz691477-fix-lsusb-and-add-t-and-v.patch = unified diff output text
+sos-bz691477-fix-lsusb-and-add-t-and-v.patch: copy
+
+# sos-bz676522-collect-etc-dhcp.patch = unified diff output text
+sos-bz676522-collect-etc-dhcp.patch: copy
+
+# sos-bz822174-sanitize-hostname-characters.patch = unified diff output text
+sos-bz822174-sanitize-hostname-characters.patch: copy
+
+# sos-bz888589-add-restricted-rpm-verify.patch = unified diff output text
+sos-bz888589-add-restricted-rpm-verify.patch: copy
+
+# sos-bz826312-collect-rhsm-logs.patch = unified diff output text
+sos-bz826312-collect-rhsm-logs.patch: copy
+
+# sos-bz868711-gluster-sync-with-rhs.patch = unified diff output text
+sos-bz868711-gluster-sync-with-rhs.patch: copy

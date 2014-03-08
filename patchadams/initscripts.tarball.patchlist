@@ -1,0 +1,646 @@
+# Patchlist created Fri Mar  7 16:25:52 CST 2014
+
+# sysconfig/init.s390 = ASCII English text
+sysconfig/init.s390: copy
+
+# sysconfig/readonly-root = ASCII English text
+sysconfig/readonly-root: copy
+
+# sysconfig/netconsole = ASCII English text
+sysconfig/netconsole: copy
+
+# sysconfig/debug = ASCII English text
+sysconfig/debug: copy
+
+# sysconfig/network-scripts/ifdown-ppp = Bourne-Again shell script text executable
+sysconfig/network-scripts/ifdown-ppp: copy
+
+# sysconfig/network-scripts/ifup-plip = POSIX shell script text executable
+sysconfig/network-scripts/ifup-plip: copy
+
+# sysconfig/network-scripts/ifdown-eth = Bourne-Again shell script text executable
+sysconfig/network-scripts/ifdown-eth: copy
+
+# sysconfig/network-scripts/ifup-ppp = Bourne-Again shell script text executable
+sysconfig/network-scripts/ifup-ppp: copy
+
+# sysconfig/network-scripts/ifdown-routes = Bourne-Again shell script text executable
+sysconfig/network-scripts/ifdown-routes: copy
+
+# sysconfig/network-scripts/ifdown-tunnel = Bourne-Again shell script text executable
+sysconfig/network-scripts/ifdown-tunnel: copy
+
+# sysconfig/network-scripts/ifup-bnep = Bourne-Again shell script text executable
+sysconfig/network-scripts/ifup-bnep: copy
+
+# sysconfig/network-scripts/network-functions-ipv6 = ASCII English text
+sysconfig/network-scripts/network-functions-ipv6: copy
+
+# sysconfig/network-scripts/ifdown-bnep = Bourne-Again shell script text executable
+sysconfig/network-scripts/ifdown-bnep: copy
+
+# sysconfig/network-scripts/ifup-plusb = POSIX shell script text executable
+sysconfig/network-scripts/ifup-plusb: copy
+
+# sysconfig/network-scripts/ifup-ippp = POSIX shell script text executable
+sysconfig/network-scripts/ifup-ippp: copy
+
+# sysconfig/network-scripts/init.ipv6-global = POSIX shell script text executable
+sysconfig/network-scripts/init.ipv6-global: copy
+
+# sysconfig/network-scripts/ifup-eth = Bourne-Again shell script text executable
+sysconfig/network-scripts/ifup-eth: copy
+
+# sysconfig/network-scripts/ifdown-ipv6 = POSIX shell script text executable
+sysconfig/network-scripts/ifdown-ipv6: copy
+
+# sysconfig/network-scripts/net.hotplug = POSIX shell script text executable
+sysconfig/network-scripts/net.hotplug: copy
+
+# sysconfig/network-scripts/ifup-wireless = Bourne-Again shell script text executable
+sysconfig/network-scripts/ifup-wireless: copy
+
+# sysconfig/network-scripts/ifdown-ippp = POSIX shell script text executable
+sysconfig/network-scripts/ifdown-ippp: copy
+
+# sysconfig/network-scripts/ifup-sit = POSIX shell script text executable
+sysconfig/network-scripts/ifup-sit: copy
+
+# sysconfig/network-scripts/ifdown-sit = POSIX shell script text executable
+sysconfig/network-scripts/ifdown-sit: copy
+
+# sysconfig/network-scripts/ifup-aliases = Bourne-Again shell script text executable
+sysconfig/network-scripts/ifup-aliases: copy
+
+# sysconfig/network-scripts/ifup-post = POSIX shell script text executable
+sysconfig/network-scripts/ifup-post: copy
+
+# sysconfig/network-scripts/ifup-ipv6 = POSIX shell script text executable
+sysconfig/network-scripts/ifup-ipv6: copy
+
+# sysconfig/network-scripts/ifup-ctc = Bourne-Again shell script text executable
+sysconfig/network-scripts/ifup-ctc: copy
+
+# sysconfig/network-scripts/ifup = Bourne-Again shell script text executable
+sysconfig/network-scripts/ifup: copy
+
+# sysconfig/network-scripts/ifcfg-lo = ASCII text
+sysconfig/network-scripts/ifcfg-lo: copy
+
+# sysconfig/network-scripts/ifup-routes = Bourne-Again shell script text executable
+sysconfig/network-scripts/ifup-routes: copy
+
+# sysconfig/network-scripts/ifdown-post = POSIX shell script text executable
+sysconfig/network-scripts/ifdown-post: copy
+
+# sysconfig/network-scripts/network-functions = ASCII English text
+sysconfig/network-scripts/network-functions: copy
+
+# sysconfig/network-scripts/ifdown = Bourne-Again shell script text executable
+sysconfig/network-scripts/ifdown: copy
+
+# sysconfig/network-scripts/ifup-tunnel = Bourne-Again shell script text executable
+sysconfig/network-scripts/ifup-tunnel: copy
+
+# sysconfig/init = ASCII English text
+sysconfig/init: copy
+
+# ppp/ip-down = Bourne-Again shell script text executable
+ppp/ip-down: copy
+
+# ppp/ipv6-up = POSIX shell script text executable
+ppp/ipv6-up: copy
+
+# ppp/ip-up = Bourne-Again shell script text executable
+ppp/ip-up: copy
+
+# ppp/ip-down.ipv6to4 = POSIX shell script text executable
+ppp/ip-down.ipv6to4: copy
+
+# ppp/ip-up.ipv6to4 = POSIX shell script text executable
+ppp/ip-up.ipv6to4: copy
+
+# ppp/ipv6-down = POSIX shell script text executable
+ppp/ipv6-down: copy
+
+# changes.ipv6 = ASCII English text
+changes.ipv6: copy
+
+# service.8 = troff or preprocessor input text
+service.8: copy
+
+# .gitignore = ASCII text
+.gitignore: copy
+
+# static-routes-ipv6 = ASCII C++ program text
+static-routes-ipv6: copy
+
+# ipv6-6to4.howto = ASCII English text
+ipv6-6to4.howto: copy
+
+# debug.sh = ASCII text
+debug.sh: copy
+
+# setsysfont = POSIX shell script text executable
+setsysfont: copy
+
+# udev/rules.d/81-kvm-rhel.rules = ASCII text
+udev/rules.d/81-kvm-rhel.rules: copy
+
+# udev/rules.d/88-clock.rules = ASCII text
+udev/rules.d/88-clock.rules: copy
+
+# udev/rules.d/60-net.rules = ASCII text
+udev/rules.d/60-net.rules: copy
+
+# udev/rules.d/10-console.rules = ASCII text
+udev/rules.d/10-console.rules: copy
+
+# udev/udev-kvm-check = POSIX shell script text executable
+udev/udev-kvm-check: copy
+
+# prefdm = POSIX shell script text executable
+prefdm: copy
+
+# sysctl.conf = ASCII English text
+sysctl.conf: copy
+
+# inittab.upstart = ASCII English text
+inittab.upstart: copy
+
+# sysctl.conf.s390 = ASCII English text
+sysctl.conf.s390: copy
+
+# sysctl.conf.x86_64 = ASCII English text
+sysctl.conf.x86_64: copy
+
+# ChangeLog = UTF-8 Unicode English text
+ChangeLog: copy
+
+# sysctl.conf.ppc64 = ASCII English text
+sysctl.conf.ppc64: copy
+
+# src/.gitignore = ASCII text
+src/.gitignore: copy
+
+# src/usleep.1 = troff or preprocessor input text
+src/usleep.1: copy
+
+# src/sushell.8 = troff or preprocessor input text
+src/sushell.8: copy
+
+# src/usernetctl.8 = troff or preprocessor input text
+src/usernetctl.8: copy
+
+# src/rename_device.c = ASCII C program text
+src/rename_device.c: copy
+
+# src/genhostid.1 = troff or preprocessor input text
+src/genhostid.1: copy
+
+# src/netreport.1 = troff or preprocessor input text
+src/netreport.1: copy
+
+# src/securetty.8 = troff or preprocessor input text
+src/securetty.8: copy
+
+# src/getkey.c = ASCII C program text, with CRLF, LF line terminators
+src/getkey.c: copy
+
+# src/usernetctl.c = ASCII C program text
+src/usernetctl.c: copy
+
+# src/ppp-watch.8 = troff or preprocessor input text
+src/ppp-watch.8: copy
+
+# src/ipcalc.1 = troff or preprocessor input text
+src/ipcalc.1: copy
+
+# src/ipcalc-tests = Bourne-Again shell script text executable
+src/ipcalc-tests: copy
+
+# src/getkey.1 = troff or preprocessor input text
+src/getkey.1: copy
+
+# src/shvar.c = ASCII C program text
+src/shvar.c: copy
+
+# src/securetty.c = ASCII C program text
+src/securetty.c: copy
+
+# src/console_check.c = ASCII C program text
+src/console_check.c: copy
+
+# src/testdinit = POSIX shell script text executable
+src/testdinit: copy
+
+# src/setsysfont.8 = troff or preprocessor input text
+src/setsysfont.8: copy
+
+# src/consoletype.1 = troff or preprocessor input text
+src/consoletype.1: copy
+
+# src/shvar.h = ASCII C program text
+src/shvar.h: copy
+
+# src/Makefile = ASCII make commands text
+src/Makefile: copy
+
+# src/consoletype.c = ASCII C program text
+src/consoletype.c: copy
+
+# src/ifup.8 = troff or preprocessor input text
+src/ifup.8: copy
+
+# src/console_init.c = ASCII C program text
+src/console_init.c: copy
+
+# src/fstab-decode.8 = troff or preprocessor input text
+src/fstab-decode.8: copy
+
+# src/ipcalc.c = ASCII C program text
+src/ipcalc.c: copy
+
+# src/usleep.c = ASCII C program text
+src/usleep.c: copy
+
+# src/fstab-decode.c = ASCII C program text
+src/fstab-decode.c: copy
+
+# src/ppp-watch.c = ASCII C program text
+src/ppp-watch.c: copy
+
+# src/testd.c = ASCII C program text
+src/testd.c: copy
+
+# src/netreport.c = ASCII C program text
+src/netreport.c: copy
+
+# src/sushell = Bourne-Again shell script text executable
+src/sushell: copy
+
+# src/genhostid.c = ASCII C program text
+src/genhostid.c: copy
+
+# sys-unconfig = POSIX shell script text executable
+sys-unconfig: copy
+
+# debug.csh = ASCII text
+debug.csh: copy
+
+# statetab = ASCII text
+statetab: copy
+
+# networks = ASCII text
+networks: copy
+
+# adjtime = ASCII text
+adjtime: copy
+
+# inittab = ASCII English text
+inittab: copy
+
+# sys-unconfig.8 = troff or preprocessor input text
+sys-unconfig.8: copy
+
+# NetworkManager/dispatcher.d/00-netreport = POSIX shell script text executable
+NetworkManager/dispatcher.d/00-netreport: copy
+
+# NetworkManager/dispatcher.d/05-netfs = POSIX shell script text executable
+NetworkManager/dispatcher.d/05-netfs: copy
+
+# sysvinitfiles = ASCII English text
+sysvinitfiles: copy
+
+# po/uk.po = UTF-8 Unicode English text
+po/uk.po: copy
+
+# po/wa.po = UTF-8 Unicode PO (gettext message catalogue) text
+po/wa.po: copy
+
+# po/pt.po = UTF-8 Unicode PO (gettext message catalogue) text
+po/pt.po: copy
+
+# po/te.po = UTF-8 Unicode PO (gettext message catalogue) text
+po/te.po: copy
+
+# po/lt.po = UTF-8 Unicode PO (gettext message catalogue) text
+po/lt.po: copy
+
+# po/ml.po = UTF-8 Unicode PO (gettext message catalogue) text
+po/ml.po: copy
+
+# po/da.po = UTF-8 Unicode English text
+po/da.po: copy
+
+# po/nl.po = UTF-8 Unicode English text
+po/nl.po: copy
+
+# po/en_GB.po = UTF-8 Unicode PO (gettext message catalogue) text
+po/en_GB.po: copy
+
+# po/nb.po = UTF-8 Unicode PO (gettext message catalogue) text
+po/nb.po: copy
+
+# po/ku.po = UTF-8 Unicode English text
+po/ku.po: copy
+
+# po/or.po = UTF-8 Unicode PO (gettext message catalogue) text
+po/or.po: copy
+
+# po/vi.po = UTF-8 Unicode PO (gettext message catalogue) text
+po/vi.po: copy
+
+# po/mai.po = UTF-8 Unicode PO (gettext message catalogue) text
+po/mai.po: copy
+
+# po/id.po = UTF-8 Unicode PO (gettext message catalogue) text
+po/id.po: copy
+
+# po/.cvsignore = ASCII text
+po/.cvsignore: copy
+
+# po/tr.po = UTF-8 Unicode PO (gettext message catalogue) text, with CRLF, CR, LF line terminators
+po/tr.po: copy
+
+# po/he.po = UTF-8 Unicode English text
+po/he.po: copy
+
+# po/mk.po = UTF-8 Unicode English text
+po/mk.po: copy
+
+# po/zh_CN.po = UTF-8 Unicode PO (gettext message catalogue) text
+po/zh_CN.po: copy
+
+# po/bn.po = UTF-8 Unicode English text
+po/bn.po: copy
+
+# po/cs.po = UTF-8 Unicode PO (gettext message catalogue) text
+po/cs.po: copy
+
+# po/as.po = UTF-8 Unicode PO (gettext message catalogue) text
+po/as.po: copy
+
+# po/pa.po = UTF-8 Unicode PO (gettext message catalogue) text
+po/pa.po: copy
+
+# po/eu_ES.po = UTF-8 Unicode PO (gettext message catalogue) text
+po/eu_ES.po: copy
+
+# po/ko.po = UTF-8 Unicode PO (gettext message catalogue) text
+po/ko.po: copy
+
+# po/ja.po = UTF-8 Unicode PO (gettext message catalogue) text
+po/ja.po: copy
+
+# po/de.po = UTF-8 Unicode PO (gettext message catalogue) text
+po/de.po: copy
+
+# po/gu.po = UTF-8 Unicode English text
+po/gu.po: copy
+
+# po/kn.po = UTF-8 Unicode PO (gettext message catalogue) text
+po/kn.po: copy
+
+# po/xgettext_sh.py = a /usr/bin/python script text executable
+po/xgettext_sh.py: copy
+
+# po/sr.po = UTF-8 Unicode English text
+po/sr.po: copy
+
+# po/hi.po = UTF-8 Unicode PO (gettext message catalogue) text
+po/hi.po: copy
+
+# po/my.po = UTF-8 Unicode PO (gettext message catalogue) text
+po/my.po: copy
+
+# po/bg.po = UTF-8 Unicode English text
+po/bg.po: copy
+
+# po/mr.po = UTF-8 Unicode English text
+po/mr.po: copy
+
+# po/ta.po = UTF-8 Unicode PO (gettext message catalogue) text
+po/ta.po: copy
+
+# po/lv.po = UTF-8 Unicode PO (gettext message catalogue) text
+po/lv.po: copy
+
+# po/ru.po = Non-ISO extended-ASCII PO (gettext message catalogue) text
+po/ru.po: copy
+
+# po/cy.po = UTF-8 Unicode PO (gettext message catalogue) text
+po/cy.po: copy
+
+# po/zh_TW.po = UTF-8 Unicode English text
+po/zh_TW.po: copy
+
+# po/fr.po = UTF-8 Unicode PO (gettext message catalogue) text
+po/fr.po: copy
+
+# po/ms.po = UTF-8 Unicode PO (gettext message catalogue) text
+po/ms.po: copy
+
+# po/sl.po = UTF-8 Unicode PO (gettext message catalogue) text
+po/sl.po: copy
+
+# po/sq.po = UTF-8 Unicode English text
+po/sq.po: copy
+
+# po/sr@latin.po = UTF-8 Unicode English text
+po/sr@latin.po: copy
+
+# po/es.po = UTF-8 Unicode PO (gettext message catalogue) text
+po/es.po: copy
+
+# po/ur.po = UTF-8 Unicode English text
+po/ur.po: copy
+
+# po/ar.po = UTF-8 Unicode PO (gettext message catalogue) text, with CRLF, LF line terminators
+po/ar.po: copy
+
+# po/pt_BR.po = UTF-8 Unicode English text
+po/pt_BR.po: copy
+
+# po/fi.po = UTF-8 Unicode PO (gettext message catalogue) text
+po/fi.po: copy
+
+# po/Makefile = ASCII make commands text
+po/Makefile: copy
+
+# po/bs.po = UTF-8 Unicode PO (gettext message catalogue) text
+po/bs.po: copy
+
+# po/ka.po = UTF-8 Unicode English text
+po/ka.po: copy
+
+# po/ro.po = UTF-8 Unicode PO (gettext message catalogue) text
+po/ro.po: copy
+
+# po/hy.po = UTF-8 Unicode PO (gettext message catalogue) text
+po/hy.po: copy
+
+# po/ca.po = UTF-8 Unicode English text
+po/ca.po: copy
+
+# po/xgettext_sh = a /usr/bin/python script text executable
+po/xgettext_sh: copy
+
+# po/hu.po = UTF-8 Unicode PO (gettext message catalogue) text
+po/hu.po: copy
+
+# po/pl.po = UTF-8 Unicode PO (gettext message catalogue) text
+po/pl.po: copy
+
+# po/gl.po = ISO-8859 PO (gettext message catalogue) text
+po/gl.po: copy
+
+# po/is.po = UTF-8 Unicode English text
+po/is.po: copy
+
+# po/hr.po = UTF-8 Unicode PO (gettext message catalogue) text
+po/hr.po: copy
+
+# po/it.po = UTF-8 Unicode PO (gettext message catalogue) text
+po/it.po: copy
+
+# po/bn_IN.po = UTF-8 Unicode English text
+po/bn_IN.po: copy
+
+# po/sv.po = UTF-8 Unicode PO (gettext message catalogue) text
+po/sv.po: copy
+
+# po/et.po = ISO-8859 PO (gettext message catalogue) text
+po/et.po: copy
+
+# po/sk.po = UTF-8 Unicode PO (gettext message catalogue) text
+po/sk.po: copy
+
+# po/initscripts.pot = UTF-8 Unicode PO (gettext message catalogue) text, with very long lines
+po/initscripts.pot: copy
+
+# po/el.po = UTF-8 Unicode English text
+po/el.po: copy
+
+# po/si.po = UTF-8 Unicode English text
+po/si.po: copy
+
+# po/lo.po = UTF-8 Unicode English text
+po/lo.po: copy
+
+# po/nn.po = ISO-8859 PO (gettext message catalogue) text
+po/nn.po: copy
+
+# Makefile = ASCII make commands text
+Makefile: copy
+
+# lang.sh = ASCII text
+lang.sh: copy
+
+# sysctl.conf.sparc = ASCII English text
+sysctl.conf.sparc: copy
+
+# ipv6-tunnel.howto = ASCII English text
+ipv6-tunnel.howto: copy
+
+# sysctl.conf.s390x = ASCII English text
+sysctl.conf.s390x: copy
+
+# inittab.s390 = ASCII English text
+inittab.s390: copy
+
+# lang.csh = ASCII text
+lang.csh: copy
+
+# COPYING = ASCII English text
+COPYING: copy
+
+# crypttab.5 = troff or preprocessor input text
+crypttab.5: copy
+
+# initscripts.spec = UTF-8 Unicode English text
+initscripts.spec: copy
+
+# sysconfig.txt = ASCII English text
+sysconfig.txt: copy
+
+# service = POSIX shell script text executable
+service: copy
+
+# .tx/config = ASCII text
+.tx/config: copy
+
+# init/splash-manager.conf = ASCII English text
+init/splash-manager.conf: copy
+
+# init/kexec-disable.conf = ASCII English text
+init/kexec-disable.conf: copy
+
+# init/plymouth-shutdown.conf = ASCII English text
+init/plymouth-shutdown.conf: copy
+
+# init/tty.conf = ASCII English text
+init/tty.conf: copy
+
+# init/rcS-emergency.conf = ASCII English text
+init/rcS-emergency.conf: copy
+
+# init/rcS.conf = ASCII English text
+init/rcS.conf: copy
+
+# init/quit-plymouth.conf = ASCII English text
+init/quit-plymouth.conf: copy
+
+# init/start-ttys.conf = ASCII English text
+init/start-ttys.conf: copy
+
+# init/prefdm.conf = ASCII English text
+init/prefdm.conf: copy
+
+# init/rcS-sulogin.conf = ASCII English text
+init/rcS-sulogin.conf: copy
+
+# init/serial.conf = ASCII English text
+init/serial.conf: copy
+
+# init/rc.conf = ASCII English text
+init/rc.conf: copy
+
+# init/control-alt-delete.conf = ASCII English text
+init/control-alt-delete.conf: copy
+
+# rc.d/rc.local = POSIX shell script text executable
+rc.d/rc.local: copy
+
+# rc.d/rc.sysinit = Bourne-Again shell script text executable
+rc.d/rc.sysinit: copy
+
+# rc.d/rc = Bourne-Again shell script text executable
+rc.d/rc: copy
+
+# rc.d/init.d/netfs = Bourne-Again shell script text executable
+rc.d/init.d/netfs: copy
+
+# rc.d/init.d/network = Bourne-Again shell script text executable
+rc.d/init.d/network: copy
+
+# rc.d/init.d/netconsole = Bourne-Again shell script text executable
+rc.d/init.d/netconsole: copy
+
+# rc.d/init.d/halt = Bourne-Again shell script text executable
+rc.d/init.d/halt: copy
+
+# rc.d/init.d/functions = ASCII English text
+rc.d/init.d/functions: copy
+
+# rc.d/init.d/single = Bourne-Again shell script text executable
+rc.d/init.d/single: copy
+
+# rc.d/init.d/killall = Bourne-Again shell script text executable
+rc.d/init.d/killall: copy
+
+# rwtab = ASCII text
+rwtab: copy
+
+# README-init = UTF-8 Unicode English text
+README-init: copy

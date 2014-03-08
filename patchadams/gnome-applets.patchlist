@@ -1,0 +1,28 @@
+# Patchlist created Fri Mar  7 21:22:57 CST 2014
+
+# gnome-applets-no-mixer-icon.patch = unified diff output text
+gnome-applets-no-mixer-icon.patch: copy
+
+# gnome-applets-doc-category.patch = unified diff output text
+gnome-applets-doc-category.patch: copy
+
+# gnome-applets-null-battstat.patch = unified diff output text
+gnome-applets-null-battstat.patch: copy
+
+# seriesid-clash.patch = unified diff output text
+seriesid-clash.patch: copy
+
+# stickynotes-null.patch = unified diff output text
+stickynotes-null.patch: copy
+
+# gnome-applets-2.23.3-use-builtin-apm.patch = unified diff output text
+gnome-applets-2.23.3-use-builtin-apm.patch: copy
+
+# gnome-applets-translations.patch = unified diff output text
+gnome-applets-translations.patch: copy
+
+# gnome-applets-2.15.1.1-dont-require-display.patch = unified diff output text
+gnome-applets-2.15.1.1-dont-require-display.patch: copy
+
+# gnome-applets-2.18.0-fix-find.patch = unified diff output text
+gnome-applets-2.18.0-fix-find.patch: copy

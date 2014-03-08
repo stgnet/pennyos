@@ -1,0 +1,25 @@
+# Patchlist created Fri Mar  7 21:28:36 CST 2014
+
+# libwmf-0.2.8.4-fallbackfont.patch = unified diff output text
+libwmf-0.2.8.4-fallbackfont.patch: copy
+
+# libwmf-0.2.8.4-multiarchdevel.patch = unified diff output text
+libwmf-0.2.8.4-multiarchdevel.patch: copy
+
+# libwmf-0.2.8.3-relocatablefonts.patch = unified diff output text
+libwmf-0.2.8.3-relocatablefonts.patch: copy
+
+# libwmf-0.2.8.4-intoverflow.patch = unified diff output text
+libwmf-0.2.8.4-intoverflow.patch: copy
+
+# libwmf-0.2.8.4-useafterfree.patch = unified diff output text
+libwmf-0.2.8.4-useafterfree.patch: copy
+
+# libwmf-0.2.8.4-reducesymbols.patch = unified diff output text
+libwmf-0.2.8.4-reducesymbols.patch: copy
+
+# libwmf-0.2.8.3-nodocs.patch = unified diff output text
+libwmf-0.2.8.3-nodocs.patch: copy
+
+# libwmf-0.2.8.4-deps.patch = unified diff output text
+libwmf-0.2.8.4-deps.patch: copy

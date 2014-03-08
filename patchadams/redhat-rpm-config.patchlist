@@ -1,0 +1,92 @@
+# Patchlist created Fri Mar  7 21:40:08 CST 2014
+
+# redhat-rpm-config-9.0.3-RHEL6-smp-ncpus-max.patch = unified diff output text
+redhat-rpm-config-9.0.3-RHEL6-smp-ncpus-max.patch: copy
+
+# redhat-rpm-config-9.0.3-RHEL6.2-ksyms-fixes.patch = unified diff output text
+redhat-rpm-config-9.0.3-RHEL6.2-ksyms-fixes.patch: copy
+
+# redhat-rpm-config-9.0.3-RHEL6-ksyms-updates3.patch = unified diff output text
+redhat-rpm-config-9.0.3-RHEL6-ksyms-updates3.patch: copy
+
+# redhat-rpm-config-9.0.3-RHEL6-kmodtool-fix-nobuildreqs.patch = unified diff output text
+redhat-rpm-config-9.0.3-RHEL6-kmodtool-fix-nobuildreqs.patch: copy
+
+# limit-smp-16-threads.patch = unified diff output text
+limit-smp-16-threads.patch: copy
+
+# redhat-rpm-config-9.0.3-RHEL6.3-fix-kmod-package.patch = unified diff output text
+redhat-rpm-config-9.0.3-RHEL6.3-fix-kmod-package.patch: copy
+
+# redhat-rpm-config-9.0.3-F-12-Architectures.patch = unified diff output text
+redhat-rpm-config-9.0.3-F-12-Architectures.patch: copy
+
+# redhat-rpm-config-9.0.3-RHEL6-macros-kernel_module_package_moddir.patch = unified diff output text
+redhat-rpm-config-9.0.3-RHEL6-macros-kernel_module_package_moddir.patch: copy
+
+# redhat-rpm-config-9.0.3-empty-jars.patch = unified diff output text
+redhat-rpm-config-9.0.3-empty-jars.patch: copy
+
+# redhat-rpm-config-9.0.3-brpssa-speedup.patch = unified diff output text
+redhat-rpm-config-9.0.3-brpssa-speedup.patch: copy
+
+# redhat-rpm-config-9.0.3-RHEL6.3-add-kabi-check.patch = unified diff output text
+redhat-rpm-config-9.0.3-RHEL6.3-add-kabi-check.patch: copy
+
+# redhat-rpm-config-9.0.3-always_delete_buildroot_at_install.patch = unified diff output text
+redhat-rpm-config-9.0.3-always_delete_buildroot_at_install.patch: copy
+
+# redhat-rpm-config-9.0.3-configure-path.patch = unified diff output text
+redhat-rpm-config-9.0.3-configure-path.patch: copy
+
+# redhat-rpm-config-9.0.3-xz-payload.patch = unified diff output text
+redhat-rpm-config-9.0.3-xz-payload.patch: copy
+
+# redhat-rpm-config-9.0.3-jars-with-spaces.patch = unified diff output text
+redhat-rpm-config-9.0.3-jars-with-spaces.patch: copy
+
+# redhat-rpm-config-9.0.3-RHEL6.3-fix-find-provides-modalias-permissions.patch = unified diff output text
+redhat-rpm-config-9.0.3-RHEL6.3-fix-find-provides-modalias-permissions.patch: copy
+
+# redhat-rpm-config-9.0.3-fix-requires.patch = unified diff output text
+redhat-rpm-config-9.0.3-fix-requires.patch: copy
+
+# redhat-rpm-config-9.0.3-RHEL6-brp-java-repack-jars-fix-permissions.patch = unified diff output text
+redhat-rpm-config-9.0.3-RHEL6-brp-java-repack-jars-fix-permissions.patch: copy
+
+# redhat-rpm-config-9.0.3-RHEL6-ksyms-updates2.patch = unified diff output text
+redhat-rpm-config-9.0.3-RHEL6-ksyms-updates2.patch: copy
+
+# redhat-rpm-config-9.0.3-no-macrofiles.patch = unified diff output text
+redhat-rpm-config-9.0.3-no-macrofiles.patch: copy
+
+# redhat-rpm-config-9.0.3-RHEL6-fix-buildreqs-in-kmodtool-for-brew.patch = unified diff output text
+redhat-rpm-config-9.0.3-RHEL6-fix-buildreqs-in-kmodtool-for-brew.patch: copy
+
+# redhat-rpm-config-9.0.3-RHEL6-kmod-post-uninstall-add-target-cpu-to-depmod-fix.patch = unified diff output text
+redhat-rpm-config-9.0.3-RHEL6-kmod-post-uninstall-add-target-cpu-to-depmod-fix.patch: copy
+
+# redhat-rpm-config-9.0.3-RHEL6.3-fix-ksym-generation.patch = unified diff output text
+redhat-rpm-config-9.0.3-RHEL6.3-fix-ksym-generation.patch: copy
+
+# redhat-rpm-config-9.0.3-centos-dist.patch = unified diff output text
+# +    egrep -q "(Enterprise|Advanced|CentOS)" $RELEASEFILE && echo $DISTNUM
+redhat-rpm-config-9.0.3-centos-dist.patch: patch
+
+# redhat-rpm-config-9.0.3-F-11-StrongerHashes.patch = unified diff output text
+redhat-rpm-config-9.0.3-F-11-StrongerHashes.patch: copy
+
+# redhat-rpm-config-9.0.3-F-11-Architectures.patch = unified diff output text
+redhat-rpm-config-9.0.3-F-11-Architectures.patch: copy
+
+# redhat-rpm-config-9.0.3-filtering-macros.patch = unified diff output text
+redhat-rpm-config-9.0.3-filtering-macros.patch: copy
+
+# redhat-rpm-config-9.0.3-RHEL6-kmodtool-fix-module-removal.patch = unified diff output text
+redhat-rpm-config-9.0.3-RHEL6-kmodtool-fix-module-removal.patch: copy
+
+# redhat-rpm-config-9.0.3-RHEL6-ksyms-updates.patch = unified diff output text
+redhat-rpm-config-9.0.3-RHEL6-ksyms-updates.patch: copy
+
+# redhat-rpm-config-9.0.3-RHEL6-kmodtool-fix-variant.patch = unified diff output text
+redhat-rpm-config-9.0.3-RHEL6-kmodtool-fix-variant.patch: copy

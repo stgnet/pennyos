@@ -1,0 +1,97 @@
+# Patchlist created Fri Mar  7 21:40:06 CST 2014
+
+# kmodtool = Bourne-Again shell script text executable
+kmodtool: copy
+
+# find-requires = Bourne-Again shell script text executable
+find-requires: copy
+
+# brp-python-hardlink = POSIX shell script text executable
+brp-python-hardlink: copy
+
+# find-provides.d/modalias.prov = POSIX shell script text executable
+find-provides.d/modalias.prov: copy
+
+# find-provides.d/firmware.prov = POSIX shell script text executable
+find-provides.d/firmware.prov: copy
+
+# config.guess = POSIX shell script text executable
+config.guess: copy
+
+# find-requires.ksyms = Bourne-Again shell script text executable
+find-requires.ksyms: copy
+
+# brp-redhat = POSIX shell script text executable
+brp-redhat: copy
+
+# find-requires.pkgconfig = Bourne-Again shell script text executable
+find-requires.pkgconfig: copy
+
+# find-provides.libtool = POSIX shell script text executable
+find-provides.libtool: copy
+
+# brp-java-repack-jars = POSIX shell script text executable
+brp-java-repack-jars: copy
+
+# perl.req = a /usr/bin/perl script text executable
+perl.req: copy
+
+# brp-strip-shared = POSIX shell script text executable
+brp-strip-shared: copy
+
+# find-provides = Bourne-Again shell script text executable
+find-provides: copy
+
+# find-provides.pkgconfig = Bourne-Again shell script text executable
+find-provides.pkgconfig: copy
+
+# brp-compress = POSIX shell script text executable
+brp-compress: copy
+
+# brp-implant-ident-static = Bourne-Again shell script text executable
+brp-implant-ident-static: copy
+
+# redhat-rpm-config.spec = UTF-8 Unicode English text
+redhat-rpm-config.spec: copy
+
+# macros = ASCII English text
+macros: copy
+
+# find-provides.ksyms = POSIX shell script text executable
+find-provides.ksyms: copy
+
+# brp-strip-static-archive = POSIX shell script text executable
+brp-strip-static-archive: copy
+
+# Makefile = ASCII make commands text
+Makefile: copy
+
+# rpmrc = ASCII text
+rpmrc: copy
+
+# find-requires.libtool = POSIX shell script text executable
+find-requires.libtool: copy
+
+# rpmsort = a /usr/bin/perl -w script text executable
+rpmsort: copy
+
+# dist.sh = Bourne-Again shell script text executable
+dist.sh: copy
+
+# brp-strip = POSIX shell script text executable
+brp-strip: copy
+
+# perl.prov = a /usr/bin/perl script text executable
+perl.prov: copy
+
+# brp-sparc64-linux = POSIX shell script text executable
+brp-sparc64-linux: copy
+
+# config.sub = POSIX shell script text executable
+config.sub: copy
+
+# symset-table = POSIX shell script text executable
+symset-table: copy
+
+# brp-strip-comment-note = POSIX shell script text executable
+brp-strip-comment-note: copy

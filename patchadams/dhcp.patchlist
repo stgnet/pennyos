@@ -1,0 +1,189 @@
+# Patchlist created Sat Mar  8 17:17:01 CST 2014
+
+# dhcp-4.1.1-P1-CVE-2011-2748-2749.patch = unified diff output text
+dhcp-4.1.1-P1-CVE-2011-2748-2749.patch: copy
+
+# dhcp-4.1.1-P1-CVE-2012-3954.patch = unified diff output text
+dhcp-4.1.1-P1-CVE-2012-3954.patch: copy
+
+# dhcp-4.1.1-failover-ports.patch = unified diff output text
+dhcp-4.1.1-failover-ports.patch: copy
+
+# dhcp-4.1.1-add_timeout_when_NULL.patch = unified diff output text
+dhcp-4.1.1-add_timeout_when_NULL.patch: copy
+
+# dhcp-4.1.1-P1-seed-pid.patch = unified diff output text
+dhcp-4.1.1-P1-seed-pid.patch: copy
+
+# dhcp-4.1.1-P1-reply-to-source-port.patch = unified diff output text
+dhcp-4.1.1-P1-reply-to-source-port.patch: copy
+
+# dhcp-4.1.1-P1-decline-onetry.patch = unified diff output text
+dhcp-4.1.1-P1-decline-onetry.patch: copy
+
+# dhcp-4.1.1-unicast-bootp.patch = unified diff output text
+dhcp-4.1.1-unicast-bootp.patch: copy
+
+# dhcp-4.1.1-P1-CVE-2010-3611.patch = unified diff output text
+dhcp-4.1.1-P1-CVE-2010-3611.patch: copy
+
+# README.dhclient.d = ASCII English text
+README.dhclient.d: copy
+
+# dhcp-4.1.1-P1-dupl-key.patch = unified diff output text
+dhcp-4.1.1-P1-dupl-key.patch: copy
+
+# dhcp-4.1.1-P1-rfc5970-dhcpv6-options-for-network-boot.patch = unified diff output text
+dhcp-4.1.1-P1-rfc5970-dhcpv6-options-for-network-boot.patch: copy
+
+# dhcp-4.1.1-retransmission.patch = unified diff output text
+dhcp-4.1.1-retransmission.patch: copy
+
+# dhcp-4.1.1-P1-PIE-RELRO.patch = unified diff output text
+dhcp-4.1.1-P1-PIE-RELRO.patch: copy
+
+# dhcp-4.1.1-dhclient-decline-backoff.patch = unified diff output text
+dhcp-4.1.1-dhclient-decline-backoff.patch: copy
+
+# dhcp-4.1.1-release-by-ifup.patch = unified diff output text
+dhcp-4.1.1-release-by-ifup.patch: copy
+
+# dhcp-4.1.1-P1-rfc3442-classless-static-routes.patch = unified diff output text
+dhcp-4.1.1-P1-rfc3442-classless-static-routes.patch: copy
+
+# dhcp-4.1.1-P1-getifaddrs.patch = unified diff output text
+dhcp-4.1.1-P1-getifaddrs.patch: copy
+
+# dhcp-4.1.1-P1-match_by_duid.patch = unified diff output text
+dhcp-4.1.1-P1-match_by_duid.patch: copy
+
+# dhcp-4.1.1-P1-ipv6-bind-to-interface.patch = unified diff output text
+dhcp-4.1.1-P1-ipv6-bind-to-interface.patch: copy
+
+# dhcp-4.1.1-P1-do_relay4.patch = unified diff output text
+dhcp-4.1.1-P1-do_relay4.patch: copy
+
+# dhcp-4.1.1-P1-confpars_ia.patch = unified diff output text
+dhcp-4.1.1-P1-confpars_ia.patch: copy
+
+# dhcp-4.1.1-xen-checksum.patch = unified diff output text
+dhcp-4.1.1-xen-checksum.patch: copy
+
+# dhcrelay.init = POSIX shell script text executable
+dhcrelay.init: copy
+
+# dhcp-4.1.1-P1-centos-branding.patch = unified diff output text
+# +  log_error ("Please report for this software via the CentOS Bugs Database:");
+# +  log_error ("    http://bugs.centos.org/");
+dhcp-4.1.1-P1-centos-branding.patch: patch
+
+# dhcp-4.1.1-P1-CVE-2011-0997.patch = unified diff output text
+dhcp-4.1.1-P1-CVE-2011-0997.patch: copy
+
+# dhcpd6.init = POSIX shell script text executable
+dhcpd6.init: copy
+
+# dhcp-4.1.1-P1-parse_optional.patch = unified diff output text
+dhcp-4.1.1-P1-parse_optional.patch: copy
+
+# dhcp-4.1.1-dhclient-usage.patch = unified diff output text
+dhcp-4.1.1-dhclient-usage.patch: copy
+
+# dhcp-4.1.1-invalid-dhclient-conf.patch = unified diff output text
+dhcp-4.1.1-invalid-dhclient-conf.patch: copy
+
+# dhcp-4.1.1-UseMulticast.patch = unified diff output text
+dhcp-4.1.1-UseMulticast.patch: copy
+
+# dhcpd.init = POSIX shell script text executable
+dhcpd.init: copy
+
+# dhcp-4.1.1-P1-paranoia-pid.patch = unified diff output text
+dhcp-4.1.1-P1-paranoia-pid.patch: copy
+
+# dhcp-4.1.1-errwarn-message.patch = unified diff output text
+dhcp-4.1.1-errwarn-message.patch: copy
+
+# dhcp-4.1.1-paths.patch = unified diff output text
+dhcp-4.1.1-paths.patch: copy
+
+# dhcp-4.1.1-sendDecline.patch = unified diff output text
+dhcp-4.1.1-sendDecline.patch: copy
+
+# dhcp-4.1.1-options.patch = unified diff output text
+dhcp-4.1.1-options.patch: copy
+
+# dhcp-4.1.1-P1-CVE-2011-0413.patch = unified diff output text
+dhcp-4.1.1-P1-CVE-2011-0413.patch: copy
+
+# 10-dhclient = Bourne-Again shell script text executable
+10-dhclient: copy
+
+# dhclient-script = Bourne-Again shell script text executable
+dhclient-script: copy
+
+# dhcp-4.1.1-default-requested-options.patch = unified diff output text
+dhcp-4.1.1-default-requested-options.patch: copy
+
+# dhcp-4.1.1-P1-CVE-2012-3571.patch = unified diff output text
+dhcp-4.1.1-P1-CVE-2012-3571.patch: copy
+
+# dhcp-4.1.1-P1-CVE-2011-4539.patch = unified diff output text
+dhcp-4.1.1-P1-CVE-2011-4539.patch: copy
+
+# dhcp-4.1.1-CLOEXEC.patch = unified diff output text
+dhcp-4.1.1-CLOEXEC.patch: copy
+
+# dhcp-4.1.1-P1-CVE-2012-3955.patch = unified diff output text
+dhcp-4.1.1-P1-CVE-2012-3955.patch: copy
+
+# dhcp-4.1.1-P1-omapi-leak.patch = unified diff output text
+dhcp-4.1.1-P1-omapi-leak.patch: copy
+
+# dhcp-4.1.1-P1-lpf-ib.patch = unified diff output text
+dhcp-4.1.1-P1-lpf-ib.patch: copy
+
+# dhcp-4.1.1-release6-elapsed.patch = unified diff output text
+dhcp-4.1.1-release6-elapsed.patch: copy
+
+# dhcp-4.1.1-P1-range6.patch = unified diff output text
+dhcp-4.1.1-P1-range6.patch: copy
+
+# dhcp-4.1.1-P1-next-server.patch = unified diff output text
+dhcp-4.1.1-P1-next-server.patch: copy
+
+# dhcp-4.1.1-missing-ipv6-not-fatal.patch = unified diff output text
+dhcp-4.1.1-missing-ipv6-not-fatal.patch: copy
+
+# dhcp-4.1.1-P1-parse_date.patch = unified diff output text
+dhcp-4.1.1-P1-parse_date.patch: copy
+
+# dhcp-4.1.1-P1-logpid.patch = unified diff output text
+dhcp-4.1.1-P1-logpid.patch: copy
+
+# dhcp-4.1.1-P1-improved-xid.patch = unified diff output text
+dhcp-4.1.1-P1-improved-xid.patch: copy
+
+# dhcp-4.1.1-64_bit_lease_parse.patch = unified diff output text
+dhcp-4.1.1-64_bit_lease_parse.patch: copy
+
+# dhcp-4.1.1-manpages.patch = unified diff output text
+dhcp-4.1.1-manpages.patch: copy
+
+# dhcp-4.1.1-IFNAMSIZ.patch = unified diff output text
+dhcp-4.1.1-IFNAMSIZ.patch: copy
+
+# 56dhclient = POSIX shell script text executable
+56dhclient: copy
+
+# dhcp-4.1.1-capability.patch = unified diff output text
+dhcp-4.1.1-capability.patch: copy
+
+# dhcp-4.1.1-P1-gpxe-cid.patch = unified diff output text
+dhcp-4.1.1-P1-gpxe-cid.patch: copy
+
+# dhcp-4.1.1-dhclient-anycast.patch = unified diff output text
+dhcp-4.1.1-dhclient-anycast.patch: copy
+
+# dhcp-4.1.1-garbage-chars.patch = unified diff output text
+dhcp-4.1.1-garbage-chars.patch: copy

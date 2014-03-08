@@ -1,0 +1,10 @@
+# Patchlist created Fri Mar  7 21:41:53 CST 2014
+
+# redhat-lsb-trigger.patch = unified diff output text
+redhat-lsb-trigger.patch: copy
+
+# redhat-lsb-lsb_start_daemon-fix.patch = unified diff output text
+redhat-lsb-lsb_start_daemon-fix.patch: copy
+
+# lsb-release-3.1-update-init-functions.patch = unified diff output text
+lsb-release-3.1-update-init-functions.patch: copy

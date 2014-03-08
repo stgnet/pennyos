@@ -1,0 +1,11 @@
+# Patchlist created Fri Mar  7 21:42:49 CST 2014
+
+# centos-kde-settings-branding.patch = unified diff output text
+# +Theme=/usr/share/kde4/apps/kdm/themes/CentOS6
+# +Theme=CentOS6
+# +userswallpapers=/usr/share/wallpapers/CentOS6/
+# +wallpaper=/usr/share/wallpapers/CentOS6/
+centos-kde-settings-branding.patch: patch
+
+# kde-settings-4.3.1-disable-java.patch = unified diff output text
+kde-settings-4.3.1-disable-java.patch: copy

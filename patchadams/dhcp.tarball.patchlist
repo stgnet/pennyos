@@ -1,0 +1,772 @@
+# Patchlist created Sat Mar  8 17:06:13 CST 2014
+
+# dhcpctl/cltest.c = ASCII C program text
+dhcpctl/cltest.c: copy
+
+# dhcpctl/Makefile.am = ASCII text
+dhcpctl/Makefile.am: copy
+
+# dhcpctl/callback.c = ASCII C program text
+dhcpctl/callback.c: copy
+
+# dhcpctl/dhcpctl.3 = troff or preprocessor input text
+dhcpctl/dhcpctl.3: copy
+
+# dhcpctl/remote.c = ASCII C program text
+dhcpctl/remote.c: copy
+
+# dhcpctl/omshell.1 = troff or preprocessor input text
+dhcpctl/omshell.1: copy
+
+# dhcpctl/dhcpctl.c = ASCII C program text
+dhcpctl/dhcpctl.c: copy
+
+# dhcpctl/dhcpctl.h = ASCII C program text
+dhcpctl/dhcpctl.h: copy
+
+# dhcpctl/omshell.c = ASCII C program text
+dhcpctl/omshell.c: copy
+
+# dhcpctl/Makefile.in = ASCII English text
+dhcpctl/Makefile.in: copy
+
+# doc/References.html = HTML document text
+doc/References.html: copy
+
+# doc/References.txt = ASCII English text
+doc/References.txt: copy
+
+# doc/ja_JP.eucJP/dhclient.8 = troff or preprocessor input text
+doc/ja_JP.eucJP/dhclient.8: copy
+
+# doc/ja_JP.eucJP/dhclient.leases.5 = troff or preprocessor input text
+doc/ja_JP.eucJP/dhclient.leases.5: copy
+
+# doc/ja_JP.eucJP/dhcp-eval.5 = troff or preprocessor input text
+doc/ja_JP.eucJP/dhcp-eval.5: copy
+
+# doc/ja_JP.eucJP/dhclient-script.8 = troff or preprocessor input text
+doc/ja_JP.eucJP/dhclient-script.8: copy
+
+# doc/ja_JP.eucJP/dhclient.conf.5 = troff or preprocessor input text
+doc/ja_JP.eucJP/dhclient.conf.5: copy
+
+# doc/ja_JP.eucJP/dhcp-options.5 = troff or preprocessor input text
+doc/ja_JP.eucJP/dhcp-options.5: copy
+
+# doc/api+protocol = ASCII English text
+doc/api+protocol: copy
+
+# doc/examples/dhclient-dhcpv6.conf = ASCII English text
+doc/examples/dhclient-dhcpv6.conf: copy
+
+# doc/examples/dhcpd-dhcpv6.conf = ASCII English text
+doc/examples/dhcpd-dhcpv6.conf: copy
+
+# doc/References.xml = XML  document text
+doc/References.xml: copy
+
+# doc/Makefile = ASCII English text
+doc/Makefile: copy
+
+# doc/IANA-arp-parameters = ASCII English text
+doc/IANA-arp-parameters: copy
+
+# relay/Makefile.am = ASCII text
+relay/Makefile.am: copy
+
+# relay/dhcrelay.c = ASCII C program text
+relay/dhcrelay.c: copy
+
+# relay/dhcrelay.8 = troff or preprocessor input text
+relay/dhcrelay.8: copy
+
+# relay/Makefile.in = ASCII English text
+relay/Makefile.in: copy
+
+# aclocal.m4 = ASCII English text
+aclocal.m4: copy
+
+# LICENSE = ASCII English text
+LICENSE: copy
+
+# minires/ns_date.c = ASCII C program text
+minires/ns_date.c: copy
+
+# minires/ns_sign.c = ASCII C program text
+minires/ns_sign.c: copy
+
+# minires/Makefile.am = ASCII text
+minires/Makefile.am: copy
+
+# minires/res_update.c = ASCII C program text
+minires/res_update.c: copy
+
+# minires/res_findzonecut.c = ASCII C program text
+minires/res_findzonecut.c: copy
+
+# minires/res_mkupdate.c = ASCII C program text
+minires/res_mkupdate.c: copy
+
+# minires/res_sendsigned.c = ASCII C program text
+minires/res_sendsigned.c: copy
+
+# minires/ns_verify.c = ASCII C program text
+minires/ns_verify.c: copy
+
+# minires/ns_parse.c = ASCII C program text
+minires/ns_parse.c: copy
+
+# minires/res_init.c = ASCII C program text
+minires/res_init.c: copy
+
+# minires/ns_samedomain.c = ASCII C program text
+minires/ns_samedomain.c: copy
+
+# minires/res_query.c = ASCII C program text
+minires/res_query.c: copy
+
+# minires/res_comp.c = ASCII C program text
+minires/res_comp.c: copy
+
+# minires/res_mkquery.c = ASCII C program text
+minires/res_mkquery.c: copy
+
+# minires/ns_name.c = ASCII C program text
+minires/ns_name.c: copy
+
+# minires/res_send.c = ASCII C program text
+minires/res_send.c: copy
+
+# minires/Makefile.in = ASCII English text
+minires/Makefile.in: copy
+
+# Makefile.am = ASCII English text
+Makefile.am: copy
+
+# common/dispatch.c = ASCII C program text
+common/dispatch.c: copy
+
+# common/dns.c = ASCII C program text
+common/dns.c: copy
+
+# common/options.c = ASCII C program text
+common/options.c: copy
+
+# common/raw.c = ASCII C program text
+common/raw.c: copy
+
+# common/alloc.c = ASCII C program text
+common/alloc.c: copy
+
+# common/inet.c = ASCII C program text
+common/inet.c: copy
+
+# common/Makefile.am = ASCII text
+common/Makefile.am: copy
+
+# common/tr.c = ASCII C program text
+common/tr.c: copy
+
+# common/ctrace.c = ASCII C program text
+common/ctrace.c: copy
+
+# common/tree.c = ASCII C program text
+common/tree.c: copy
+
+# common/packet.c = ASCII C program text
+common/packet.c: copy
+
+# common/nit.c = ASCII C program text
+common/nit.c: copy
+
+# common/upf.c = ASCII C program text
+common/upf.c: copy
+
+# common/parse.c = ASCII C program text
+common/parse.c: copy
+
+# common/tables.c = ASCII C program text
+common/tables.c: copy
+
+# common/conflex.c = ASCII C program text
+common/conflex.c: copy
+
+# common/execute.c = ASCII C program text
+common/execute.c: copy
+
+# common/lpf.c = ASCII C program text
+common/lpf.c: copy
+
+# common/bpf.c = ASCII C program text
+common/bpf.c: copy
+
+# common/heap.c = ASCII C program text
+common/heap.c: copy
+
+# common/resolv.c = ASCII C program text
+common/resolv.c: copy
+
+# common/dhcp-eval.5 = troff or preprocessor input text
+common/dhcp-eval.5: copy
+
+# common/fddi.c = ASCII C program text
+common/fddi.c: copy
+
+# common/icmp.c = ASCII C program text
+common/icmp.c: copy
+
+# common/memory.c = ASCII C program text
+common/memory.c: copy
+
+# common/comapi.c = ASCII C program text
+common/comapi.c: copy
+
+# common/tests/Makefile.am = ASCII text
+common/tests/Makefile.am: copy
+
+# common/tests/test_alloc.c = ASCII C program text
+common/tests/test_alloc.c: copy
+
+# common/tests/Makefile.in = ASCII English text
+common/tests/Makefile.in: copy
+
+# common/print.c = ASCII C program text
+common/print.c: copy
+
+# common/discover.c = ASCII C program text
+common/discover.c: copy
+
+# common/dhcp-options.5 = troff or preprocessor input text
+common/dhcp-options.5: copy
+
+# common/ethernet.c = ASCII C program text
+common/ethernet.c: copy
+
+# common/Makefile.in = ASCII English text
+common/Makefile.in: copy
+
+# common/socket.c = ASCII C program text
+common/socket.c: copy
+
+# common/dlpi.c = ASCII C program text
+common/dlpi.c: copy
+
+# dst/prandom.c = ASCII C program text
+dst/prandom.c: copy
+
+# dst/dst_internal.h = ASCII C program text
+dst/dst_internal.h: copy
+
+# dst/Makefile.am = ASCII text
+dst/Makefile.am: copy
+
+# dst/hmac_link.c = ASCII C program text
+dst/hmac_link.c: copy
+
+# dst/md5_dgst.c = ASCII C program text
+dst/md5_dgst.c: copy
+
+# dst/dst_support.c = ASCII C program text
+dst/dst_support.c: copy
+
+# dst/md5_locl.h = ASCII C program text
+dst/md5_locl.h: copy
+
+# dst/base64.c = ASCII C program text
+dst/base64.c: copy
+
+# dst/md5.h = ASCII C program text
+dst/md5.h: copy
+
+# dst/Makefile.in = ASCII English text
+dst/Makefile.in: copy
+
+# dst/dst_api.c = ASCII C program text
+dst/dst_api.c: copy
+
+# README = ASCII English text
+README: copy
+
+# includes/netinet/ip_icmp.h = ASCII C program text
+includes/netinet/ip_icmp.h: copy
+
+# includes/netinet/if_ether.h = ASCII C program text
+includes/netinet/if_ether.h: copy
+
+# includes/netinet/udp.h = ASCII C program text
+includes/netinet/udp.h: copy
+
+# includes/netinet/ip.h = ASCII C program text
+includes/netinet/ip.h: copy
+
+# includes/dhcp.h = ASCII C program text
+includes/dhcp.h: copy
+
+# includes/ctrace.h = ASCII C program text
+includes/ctrace.h: copy
+
+# includes/heap.h = ASCII C program text
+includes/heap.h: copy
+
+# includes/statement.h = ASCII C program text
+includes/statement.h: copy
+
+# includes/minires/minires.h = ASCII C program text
+includes/minires/minires.h: copy
+
+# includes/minires/res_update.h = ASCII C program text
+includes/minires/res_update.h: copy
+
+# includes/minires/resolv.h = ASCII C program text
+includes/minires/resolv.h: copy
+
+# includes/Makefile.am = ASCII text
+includes/Makefile.am: copy
+
+# includes/config.h.in = ASCII C program text
+includes/config.h.in: copy
+
+# includes/site.h = ASCII C program text
+includes/site.h: copy
+
+# includes/tree.h = ASCII C program text
+includes/tree.h: copy
+
+# includes/cdefs.h = ASCII C program text
+includes/cdefs.h: copy
+
+# includes/dhcpd.h = ASCII C program text
+includes/dhcpd.h: copy
+
+# includes/omapip/trace.h = ASCII C program text
+includes/omapip/trace.h: copy
+
+# includes/omapip/alloc.h = ASCII C program text
+includes/omapip/alloc.h: copy
+
+# includes/omapip/omapip_p.h = Palm OS dynamic library data "/* omapip_p.h"
+includes/omapip/omapip_p.h: copy
+
+# includes/omapip/omapip.h = ASCII C program text
+includes/omapip/omapip.h: copy
+
+# includes/omapip/convert.h = ASCII C program text
+includes/omapip/convert.h: copy
+
+# includes/omapip/hash.h = ASCII C program text
+includes/omapip/hash.h: copy
+
+# includes/omapip/buffer.h = ASCII C program text
+includes/omapip/buffer.h: copy
+
+# includes/t_api.h = ASCII C program text
+includes/t_api.h: copy
+
+# includes/inet.h = ASCII C program text
+includes/inet.h: copy
+
+# includes/arpa/nameser_compat.h = ASCII C program text
+includes/arpa/nameser_compat.h: copy
+
+# includes/arpa/nameser.h = ASCII C program text
+includes/arpa/nameser.h: copy
+
+# includes/dhcp6.h = ASCII C program text
+includes/dhcp6.h: copy
+
+# includes/dhctoken.h = ASCII C program text
+includes/dhctoken.h: copy
+
+# includes/isc-dhcp/lang.h = ASCII C program text
+includes/isc-dhcp/lang.h: copy
+
+# includes/isc-dhcp/print.h = ASCII C program text
+includes/isc-dhcp/print.h: copy
+
+# includes/isc-dhcp/string.h = ASCII C program text
+includes/isc-dhcp/string.h: copy
+
+# includes/isc-dhcp/mem.h = ASCII C program text
+includes/isc-dhcp/mem.h: copy
+
+# includes/isc-dhcp/list.h = ASCII C program text
+includes/isc-dhcp/list.h: copy
+
+# includes/isc-dhcp/commandline.h = ASCII C program text
+includes/isc-dhcp/commandline.h: copy
+
+# includes/isc-dhcp/int.h = ASCII C program text
+includes/isc-dhcp/int.h: copy
+
+# includes/isc-dhcp/result.h = ASCII C program text
+includes/isc-dhcp/result.h: copy
+
+# includes/isc-dhcp/formatcheck.h = ASCII C program text
+includes/isc-dhcp/formatcheck.h: copy
+
+# includes/isc-dhcp/boolean.h = ASCII C program text
+includes/isc-dhcp/boolean.h: copy
+
+# includes/isc-dhcp/types.h = ASCII C program text
+includes/isc-dhcp/types.h: copy
+
+# includes/isc-dhcp/dst.h = ASCII C program text
+includes/isc-dhcp/dst.h: copy
+
+# includes/Makefile.in = ASCII English text
+includes/Makefile.in: copy
+
+# includes/failover.h = ASCII C program text
+includes/failover.h: copy
+
+# includes/osdep.h = ASCII C program text
+includes/osdep.h: copy
+
+# server/stables.c = ASCII C program text
+server/stables.c: copy
+
+# server/dhcp.c = UTF-8 Unicode C program text
+server/dhcp.c: copy
+
+# server/dhcpv6.c = ASCII C program text
+server/dhcpv6.c: copy
+
+# server/Makefile.am = ASCII text
+server/Makefile.am: copy
+
+# server/mdb.c = ASCII C program text
+server/mdb.c: copy
+
+# server/dhcpd.8 = troff or preprocessor input text
+server/dhcpd.8: copy
+
+# server/ddns.c = ASCII C program text
+server/ddns.c: copy
+
+# server/omapi.c = ASCII C program text
+server/omapi.c: copy
+
+# server/bootp.c = ASCII C program text
+server/bootp.c: copy
+
+# server/salloc.c = ASCII C program text
+server/salloc.c: copy
+
+# server/db.c = ASCII C program text
+server/db.c: copy
+
+# server/failover.c = ASCII C program text
+server/failover.c: copy
+
+# server/dhcpd.conf = ASCII English text
+server/dhcpd.conf: copy
+
+# server/dhcpd.conf.5 = troff or preprocessor input text
+server/dhcpd.conf.5: copy
+
+# server/dhcpleasequery.c = ASCII C program text
+server/dhcpleasequery.c: copy
+
+# server/dhcpd.c = ASCII C program text
+server/dhcpd.c: copy
+
+# server/class.c = ASCII C program text
+server/class.c: copy
+
+# server/dhcpd.leases.5 = troff or preprocessor input text
+server/dhcpd.leases.5: copy
+
+# server/mdb6.c = ASCII C program text
+server/mdb6.c: copy
+
+# server/confpars.c = ASCII C program text
+server/confpars.c: copy
+
+# server/Makefile.in = ASCII English text
+server/Makefile.in: copy
+
+# install-sh = POSIX shell script text executable
+install-sh: copy
+
+# configure.ac = ASCII English text
+configure.ac: copy
+
+# omapip/dispatch.c = ASCII C program text
+omapip/dispatch.c: copy
+
+# omapip/support.c = ASCII C program text
+omapip/support.c: copy
+
+# omapip/message.c = ASCII C program text
+omapip/message.c: copy
+
+# omapip/protocol.c = ASCII C program text
+omapip/protocol.c: copy
+
+# omapip/alloc.c = ASCII C program text
+omapip/alloc.c: copy
+
+# omapip/iscprint.c = ASCII C program text
+omapip/iscprint.c: copy
+
+# omapip/omapi.3 = troff or preprocessor input text
+omapip/omapi.3: copy
+
+# omapip/Makefile.am = ASCII text
+omapip/Makefile.am: copy
+
+# omapip/trace.c = ASCII C program text
+omapip/trace.c: copy
+
+# omapip/hash.c = ASCII C program text
+omapip/hash.c: copy
+
+# omapip/buffer.c = ASCII C program text
+omapip/buffer.c: copy
+
+# omapip/auth.c = ASCII C program text
+omapip/auth.c: copy
+
+# omapip/toisc.c = ASCII C program text
+omapip/toisc.c: copy
+
+# omapip/connection.c = ASCII C program text
+omapip/connection.c: copy
+
+# omapip/listener.c = ASCII C program text
+omapip/listener.c: copy
+
+# omapip/generic.c = ASCII C program text
+omapip/generic.c: copy
+
+# omapip/array.c = ASCII C program text
+omapip/array.c: copy
+
+# omapip/handle.c = ASCII C program text
+omapip/handle.c: copy
+
+# omapip/test.c = ASCII C program text
+omapip/test.c: copy
+
+# omapip/mrtrace.c = ASCII C program text
+omapip/mrtrace.c: copy
+
+# omapip/convert.c = ASCII C program text
+omapip/convert.c: copy
+
+# omapip/result.c = ASCII C program text
+omapip/result.c: copy
+
+# omapip/errwarn.c = ASCII C program text
+omapip/errwarn.c: copy
+
+# omapip/inet_addr.c = ASCII C program text
+omapip/inet_addr.c: copy
+
+# omapip/Makefile.in = ASCII English text
+omapip/Makefile.in: copy
+
+# client/scripts/openwrt = POSIX shell script text executable
+client/scripts/openwrt: copy
+
+# client/scripts/openbsd = POSIX shell script text executable
+client/scripts/openbsd: copy
+
+# client/scripts/bsdos = POSIX shell script text executable
+client/scripts/bsdos: copy
+
+# client/scripts/solaris = POSIX shell script text executable
+client/scripts/solaris: copy
+
+# client/scripts/linux = Bourne-Again shell script text executable
+client/scripts/linux: copy
+
+# client/scripts/nextstep = POSIX shell script text executable
+client/scripts/nextstep: copy
+
+# client/scripts/netbsd = POSIX shell script text executable
+client/scripts/netbsd: copy
+
+# client/scripts/freebsd = POSIX shell script text executable
+client/scripts/freebsd: copy
+
+# client/scripts/macos = POSIX shell script text executable
+client/scripts/macos: copy
+
+# client/dhclient.8 = troff or preprocessor input text
+client/dhclient.8: copy
+
+# client/Makefile.am = ASCII text
+client/Makefile.am: copy
+
+# client/dhclient.leases.5 = troff or preprocessor input text
+client/dhclient.leases.5: copy
+
+# client/clparse.c = ASCII C program text
+client/clparse.c: copy
+
+# client/dhclient.c = ASCII C program text
+client/dhclient.c: copy
+
+# client/dhclient.conf = ASCII text
+client/dhclient.conf: copy
+
+# client/dhclient-script.8 = troff or preprocessor input text
+client/dhclient-script.8: copy
+
+# client/dhclient.conf.5 = troff or preprocessor input text
+client/dhclient.conf.5: copy
+
+# client/dhc6.c = ASCII C program text
+client/dhc6.c: copy
+
+# client/Makefile.in = ASCII English text
+client/Makefile.in: copy
+
+# missing = POSIX shell script text executable
+missing: copy
+
+# tests/unit_test_sample.c = ASCII C program text
+tests/unit_test_sample.c: copy
+
+# tests/Makefile.am = ASCII text
+tests/Makefile.am: copy
+
+# tests/t_api.c = ASCII C program text
+tests/t_api.c: copy
+
+# tests/HOWTO-unit-test = ASCII English text
+tests/HOWTO-unit-test: copy
+
+# tests/failover/new-failover = POSIX shell script text executable
+tests/failover/new-failover: copy
+
+# tests/failover/dhcp-1.cf = ASCII C++ program text
+tests/failover/dhcp-1.cf: copy
+
+# tests/failover/dhcp-2.cf = ASCII C++ program text
+tests/failover/dhcp-2.cf: copy
+
+# tests/DHCPv6/000-badmsgtype.pl = a /usr/bin/perl -w script text executable
+tests/DHCPv6/000-badmsgtype.pl: copy
+
+# tests/DHCPv6/stubcli-opt-in-na.pl = a /usr/bin/perl -w script text executable
+tests/DHCPv6/stubcli-opt-in-na.pl: copy
+
+# tests/DHCPv6/211-solicit-opt-in-na.pl = a /usr/bin/perl -w script text executable
+tests/DHCPv6/211-solicit-opt-in-na.pl: copy
+
+# tests/DHCPv6/212-solicit-opt-in-na-norapidcommit.pl = a /usr/bin/perl -w script text executable
+tests/DHCPv6/212-solicit-opt-in-na-norapidcommit.pl: copy
+
+# tests/DHCPv6/dhcp_client.pm = a /usr/bin/perl -w script text executable
+tests/DHCPv6/dhcp_client.pm: copy
+
+# tests/DHCPv6/291-decline-bad-address.pl = a /usr/bin/perl -w script text executable
+tests/DHCPv6/291-decline-bad-address.pl: copy
+
+# tests/DHCPv6/290-decline-nohost.pl = a /usr/bin/perl -w script text executable
+tests/DHCPv6/290-decline-nohost.pl: copy
+
+# tests/DHCPv6/020-advertise-mcast.pl = a /usr/bin/perl -w script text executable
+tests/DHCPv6/020-advertise-mcast.pl: copy
+
+# tests/DHCPv6/111-information-request-ia_ta.pl = a /usr/bin/perl -w script text executable
+tests/DHCPv6/111-information-request-ia_ta.pl: copy
+
+# tests/DHCPv6/010-solicit-noclientid.pl = a /usr/bin/perl -w script text executable
+tests/DHCPv6/010-solicit-noclientid.pl: copy
+
+# tests/DHCPv6/031-request-noserverid.pl = a /usr/bin/perl -w script text executable
+tests/DHCPv6/031-request-noserverid.pl: copy
+
+# tests/DHCPv6/test-a.conf = ASCII English text
+tests/DHCPv6/test-a.conf: copy
+
+# tests/DHCPv6/210-solicit-nohost.pl = a /usr/bin/perl -w script text executable
+tests/DHCPv6/210-solicit-nohost.pl: copy
+
+# tests/DHCPv6/011-solicit-serverid.pl = a /usr/bin/perl -w script text executable
+tests/DHCPv6/011-solicit-serverid.pl: copy
+
+# tests/DHCPv6/README = ASCII English text
+tests/DHCPv6/README: copy
+
+# tests/DHCPv6/stubcli.pl = a /usr/bin/perl -w script text executable
+tests/DHCPv6/stubcli.pl: copy
+
+# tests/DHCPv6/293-decline.pl = a /usr/bin/perl -w script text executable
+tests/DHCPv6/293-decline.pl: copy
+
+# tests/DHCPv6/test-b.conf = ASCII English text
+tests/DHCPv6/test-b.conf: copy
+
+# tests/DHCPv6/032-request-badduid.pl = a /usr/bin/perl -w script text executable
+tests/DHCPv6/032-request-badduid.pl: copy
+
+# tests/DHCPv6/292-decline-no-address.pl = a /usr/bin/perl -w script text executable
+tests/DHCPv6/292-decline-no-address.pl: copy
+
+# tests/DHCPv6/283-release.pl = a /usr/bin/perl -w script text executable
+tests/DHCPv6/283-release.pl: copy
+
+# tests/DHCPv6/112-badduid.pl = a /usr/bin/perl -w script text executable
+tests/DHCPv6/112-badduid.pl: copy
+
+# tests/DHCPv6/030-request-noclientid.pl = a /usr/bin/perl -w script text executable
+tests/DHCPv6/030-request-noclientid.pl: copy
+
+# tests/DHCPv6/281-release-bad-address.pl = a /usr/bin/perl -w script text executable
+tests/DHCPv6/281-release-bad-address.pl: copy
+
+# tests/DHCPv6/110-information-request-ia_na.pl = a /usr/bin/perl -w script text executable
+tests/DHCPv6/110-information-request-ia_na.pl: copy
+
+# tests/DHCPv6/280-release-nohost.pl = a /usr/bin/perl -w script text executable
+tests/DHCPv6/280-release-nohost.pl: copy
+
+# tests/DHCPv6/282-release-no-address.pl = a /usr/bin/perl -w script text executable
+tests/DHCPv6/282-release-no-address.pl: copy
+
+# tests/t_api_dhcp.c = ASCII C program text
+tests/t_api_dhcp.c: copy
+
+# tests/Makefile.in = ASCII English text
+tests/Makefile.in: copy
+
+# RELNOTES = ASCII English text
+RELNOTES: copy
+
+# configure = POSIX shell script text executable
+configure: copy
+
+# Makefile.in = ASCII English text
+Makefile.in: copy
+
+# contrib/sethostname.sh = POSIX shell script text executable
+contrib/sethostname.sh: copy
+
+# contrib/solaris.init = POSIX shell script text executable
+contrib/solaris.init: copy
+
+# contrib/dhcp.spec = ASCII English text
+contrib/dhcp.spec: copy
+
+# contrib/ms2isc/ms2isc.pl = ASCII English text, with very long lines, with CRLF line terminators
+contrib/ms2isc/ms2isc.pl: copy
+
+# contrib/ms2isc/Registry.pm = Perl5 module source text
+contrib/ms2isc/Registry.pm: copy
+
+# contrib/ms2isc/readme.txt = ASCII English text, with CRLF line terminators
+contrib/ms2isc/readme.txt: copy
+
+# contrib/3.0b1-lease-convert = a /usr/bin/perl script text executable
+contrib/3.0b1-lease-convert: copy
+
+# contrib/dhclient-tz-exithook.sh = Bourne-Again shell script text executable
+contrib/dhclient-tz-exithook.sh: copy
+
+# depcomp = POSIX shell script text executable
+depcomp: copy

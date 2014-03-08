@@ -1,0 +1,76 @@
+# Patchlist created Fri Mar  7 15:46:31 CST 2014
+
+# esc-1.1.0-fix22.patch = unified diff output text
+esc-1.1.0-fix22.patch: copy
+
+# esc-1.1.0-fix19.patch = unified diff output text
+esc-1.1.0-fix19.patch: copy
+
+# esc = POSIX shell script text executable
+esc: copy
+
+# esc.desktop = ASCII text
+esc.desktop: copy
+
+# esc-1.1.0-fix6.patch = unified diff output text
+esc-1.1.0-fix6.patch: copy
+
+# esc-1.1.0-fix7.patch = unified diff output text
+esc-1.1.0-fix7.patch: copy
+
+# esc-1.1.0-fix12.patch = unified diff output text
+esc-1.1.0-fix12.patch: copy
+
+# esc-1.1.0-fix21.patch = unified diff output text
+esc-1.1.0-fix21.patch: copy
+
+# esc-1.1.0-fix1.patch = unified diff output text
+esc-1.1.0-fix1.patch: copy
+
+# esc-1.1.0-fix14.patch = unified diff output text
+esc-1.1.0-fix14.patch: copy
+
+# esc-1.1.0-fix3.patch = unified diff output text
+esc-1.1.0-fix3.patch: copy
+
+# esc-1.1.0-fix17.patch = unified diff output text
+esc-1.1.0-fix17.patch: copy
+
+# esc-1.1.0-fix2.patch = unified diff output text
+esc-1.1.0-fix2.patch: copy
+
+# esc-1.1.0-fix15.patch = unified diff output text
+esc-1.1.0-fix15.patch: copy
+
+# esc-1.1.0-fix13.patch = unified diff output text
+esc-1.1.0-fix13.patch: copy
+
+# esc-1.1.0-fix5.patch = unified diff output text
+esc-1.1.0-fix5.patch: copy
+
+# esc-1.1.0-fix9.patch = unified diff output text
+esc-1.1.0-fix9.patch: copy
+
+# esc-1.1.0-fix18.patch = unified diff output text
+esc-1.1.0-fix18.patch: copy
+
+# esc-1.1.0-fix4.patch = unified diff output text
+esc-1.1.0-fix4.patch: copy
+
+# esc.png = PNG image data, 61 x 54, 8-bit/color RGBA, non-interlaced
+esc.png: copy
+
+# esc-1.1.0-fix10.patch = unified diff output text
+esc-1.1.0-fix10.patch: copy
+
+# esc-1.1.0-fix8.patch = unified diff output text
+esc-1.1.0-fix8.patch: copy
+
+# esc-1.1.0-fix11.patch = unified diff output text
+esc-1.1.0-fix11.patch: copy
+
+# esc-1.1.0-fix16.patch = unified diff output text
+esc-1.1.0-fix16.patch: copy
+
+# esc-1.1.0-fix20.patch = unified diff output text
+esc-1.1.0-fix20.patch: copy

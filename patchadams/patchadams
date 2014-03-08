@@ -195,8 +195,8 @@ process_upstream_srpm()
 	REPO=${SRPM_PATH%/*}
 	REPO=${REPO##*/}
 
-	DEST_DIR="PennyOS/$REPO"
-	mkdir -p $DEST_DIR
+	REPO_DIR="PennyOS/$REPO"
+	mkdir -p $REPO_DIR
 
 	# try to guess at correct dest src.rpm file
 	DEST_FILE=${SRPM_PATH##*/}
@@ -204,12 +204,11 @@ process_upstream_srpm()
 	DEST_FILE=${DEST_FILE%.centos}
 	DEST_FILE=${DEST_FILE%.el6}
 
-	DEST_FILE="$DEST_FILE.centos.src.rpm"
+	DEST_FILE="$DEST_FILE.pennyos.src.rpm"
 
-	if [ -f "$DEST_DIR/$DEST_FILE" ]
+	if [ -f "$REPO_DIR/$DEST_FILE" ]
 	then
 		echo "SKIPPING $DEST_FILE as it already exists"
-		sleep 3
 		continue
 	fi
 
@@ -248,11 +247,16 @@ process_upstream_srpm()
 		#	[ ! -f $BUILD_DIR/SOURCES/$source ] && echo "ERROR: file $source not found" && exit 1
 		#fi
 
-		TARBALLS=(`echo $BUILD_DIR/SOURCES/*.tar.*`)
+		# prepare target directory
+		rm -rf $BUILD_DIR/PATCHED
+		mkdir -p $BUILD_DIR/PATCHED
+
+		TARBALLS=(`echo $BUILD_DIR/SOURCES/*.tar.* $BUILD_DIR/SOURCES/*.tgz`)
 		TBCOUNT=0
 
 		for TARBALL_FILE in ${TARBALLS[@]}
 		do
+			[ ! -f $TARBALL_FILE ] && continue
 			TBCOUNT=`expr $TBCOUNT + 1`
 			SUFFIX="tarball"
 			[ $TBCOUNT -gt 1 ] && SUFFIX="tarball$TBCOUNT"
@@ -260,9 +264,6 @@ process_upstream_srpm()
 			[ ! -f $TARBALL_FILE ] && TARBALLS=""
 			TARBALL="${TARBALL_FILE##*/}"
 
-			# prepare target directory
-			rm -rf $BUILD_DIR/PATCHED
-			mkdir -p $BUILD_DIR/PATCHED
 
 			TARDIS="${TARBALL%.tar.*}"
 			PATCHLIST="$PKG_NAME.$SUFFIX.patchlist"
@@ -284,15 +285,17 @@ process_upstream_srpm()
 
 			rm -rf $BUILD_DIR/NEWBALL
 			mkdir -p $BUILD_DIR/NEWBALL/$TARDIS
-			apply_patchlist $PATCHLIST  $BUILD_DIR/ORIGINAL/$TARDIS $BUILD_DIR/NEWBALL/$TARDIS
+			apply_patchlist $PATCHLIST  $BUILD_DIR/ORIGINAL/$TARDIS $BUILD_DIR/NEWBALL/$TARDIS >$PATCHLIST.log 2>&1
 
 			tar cf $BUILD_DIR/PATCHED/$TARBALL --directory=$BUILD_DIR/NEWBALL $TARDIS
+
 			rm -rf $BUILD_DIR/NEWBALL
 			# also, remove the original tarball so it's not in patchlist
 			rm -rf $BUILD_DIR/SOURCES/$TARBALL
 		done
 
-		apply_patchlist $PKG_NAME.patchlist $BUILD_DIR/SOURCES $BUILD_DIR/PATCHED
+		PATCHLIST="$PKG_NAME.patchlist"
+		apply_patchlist $PATCHLIST $BUILD_DIR/SOURCES $BUILD_DIR/PATCHED >$PATCHLIST.log 2>&1
 
 		rm -rf $BUILD_DIR/SOURCES
 		mv $BUILD_DIR/PATCHED $BUILD_DIR/SOURCES
@@ -308,7 +311,7 @@ process_upstream_srpm()
 
 		[ -z "$NEW_SRCRPM" ] && echo "ERROR: no src rpm found" && exit 1
 
-		mv $NEW_SRCRPM $DEST_DIR
+		mv -v $NEW_SRCRPM $REPO_DIR
 		# now push it up to mirror and trigger rebuild
 
 		rm -rf $BUILD_DIR/*/*

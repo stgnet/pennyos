@@ -1,0 +1,61 @@
+# Patchlist created Fri Mar  7 21:41:49 CST 2014
+
+# README = ASCII English text
+README: copy
+
+# tests.py = Python script text executable
+tests.py: copy
+
+# data/kabi_whitelist_ppc64 = ASCII text
+data/kabi_whitelist_ppc64: copy
+
+# data/ppc64.all-kernel-symbols.txt = ASCII text
+data/ppc64.all-kernel-symbols.txt: copy
+
+# data/ksc.conf = ASCII text
+data/ksc.conf: copy
+
+# data/i686.all-kernel-symbols.txt = ASCII text
+data/i686.all-kernel-symbols.txt: copy
+
+# data/s390x.all-kernel-symbols.txt = ASCII text
+data/s390x.all-kernel-symbols.txt: copy
+
+# data/x86_64.all-kernel-symbols.txt = ASCII text
+data/x86_64.all-kernel-symbols.txt: copy
+
+# data/kabi_whitelist_x86_64 = ASCII text
+data/kabi_whitelist_x86_64: copy
+
+# data/kabi_whitelist_i686 = ASCII text
+data/kabi_whitelist_i686: copy
+
+# data/kabi_whitelist_s390x = ASCII text
+data/kabi_whitelist_s390x: copy
+
+# data/test.c = ASCII C program text
+data/test.c: copy
+
+# ksc.py = a /usr/bin/env python script text executable
+ksc.py: copy
+
+# utils.py = Python script text executable
+utils.py: copy
+
+# ksc = POSIX shell script text executable
+ksc: copy
+
+# ksc.1 = troff or preprocessor input text
+ksc.1: copy
+
+# COPYING = ASCII English text
+COPYING: copy
+
+# PKG-INFO = ASCII text
+PKG-INFO: copy
+
+# setup.py = a /usr/bin/env python script text executable
+setup.py: copy
+
+# keywords.py = Python script text executable
+keywords.py: copy

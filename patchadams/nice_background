@@ -1,0 +1,14 @@
+#!/bin/bash
+# nice_background  FILENAME X Y
+# construct image file with some lightweight patterny background
+set -ex
+. ./project-settings
+
+X="$2"
+Y="$3"
+
+[ -z "$X" -o -z "$Y" ] && echo "ERROR: Invalid size" && exit 1
+
+# construct the base image
+convert -size ${X}x${Y} granite: -fill $BACK -tint 100 $1
+

@@ -1,0 +1,7 @@
+# Patchlist created Fri Mar  7 15:48:10 CST 2014
+
+# gtk-engines-2.18.2-change-bullet.patch = unified diff output text
+gtk-engines-2.18.2-change-bullet.patch: copy
+
+# tooltips.patch = unified diff output text
+tooltips.patch: copy

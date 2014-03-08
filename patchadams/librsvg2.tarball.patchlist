@@ -1,0 +1,469 @@
+# Patchlist created Fri Mar  7 21:23:12 CST 2014
+
+# configure.in = ASCII M4 macro language pre-processor text
+configure.in: copy
+
+# librsvg-features.c = ASCII C program text
+librsvg-features.c: copy
+
+# doc/rsvg.types = empty
+doc/rsvg.types: copy
+
+# doc/html/home.png = PNG image data, 24 x 24, 8-bit/color RGBA, non-interlaced
+doc/html/home.png: copy
+
+# doc/html/index.sgml = ASCII text
+doc/html/index.sgml: copy
+
+# doc/html/right.png = PNG image data, 24 x 24, 8-bit/color RGBA, non-interlaced
+doc/html/right.png: copy
+
+# doc/html/left.png = PNG image data, 24 x 24, 8-bit/color RGBA, non-interlaced
+doc/html/left.png: copy
+
+# doc/html/rsvg-Core-API.html = HTML document text
+doc/html/rsvg-Core-API.html: copy
+
+# doc/html/up.png = PNG image data, 24 x 24, 8-bit/color RGBA, non-interlaced
+doc/html/up.png: copy
+
+# doc/html/ix01.html = HTML document text
+doc/html/ix01.html: copy
+
+# doc/html/rsvg-Cairo.html = HTML document text
+doc/html/rsvg-Cairo.html: copy
+
+# doc/html/style.css = ASCII C program text
+doc/html/style.css: copy
+
+# doc/html/rsvg.devhelp2 = XML  document text
+doc/html/rsvg.devhelp2: copy
+
+# doc/html/rsvg.html = HTML document text
+doc/html/rsvg.html: copy
+
+# doc/html/pt04.html = HTML document text
+doc/html/pt04.html: copy
+
+# doc/html/index.html = HTML document text
+doc/html/index.html: copy
+
+# doc/html/rsvg.devhelp = XML  document text
+doc/html/rsvg.devhelp: copy
+
+# doc/html/pt02.html = HTML document text
+doc/html/pt02.html: copy
+
+# doc/html/pt03.html = HTML document text
+doc/html/pt03.html: copy
+
+# doc/html/rsvg-GdkPixbuf.html = HTML document text
+doc/html/rsvg-GdkPixbuf.html: copy
+
+# doc/tmpl/rsvg-cairo.sgml = exported SGML document text
+doc/tmpl/rsvg-cairo.sgml: copy
+
+# doc/tmpl/rsvg-file-util.sgml = exported SGML document text
+doc/tmpl/rsvg-file-util.sgml: copy
+
+# doc/tmpl/rsvg.sgml = exported SGML document text
+doc/tmpl/rsvg.sgml: copy
+
+# doc/tmpl/rsvg-unused.sgml = exported SGML document text
+doc/tmpl/rsvg-unused.sgml: copy
+
+# doc/Makefile.am = ASCII English text
+doc/Makefile.am: copy
+
+# doc/rsvg-docs.sgml = XML  document text
+doc/rsvg-docs.sgml: copy
+
+# doc/rsvg-overrides.txt = ASCII English text
+doc/rsvg-overrides.txt: copy
+
+# doc/xml/rsvg-file-util.xml = UTF-8 Unicode English text, with very long lines
+doc/xml/rsvg-file-util.xml: copy
+
+# doc/xml/rsvg-cairo.xml = ASCII English text
+doc/xml/rsvg-cairo.xml: copy
+
+# doc/xml/rsvg.xml = ASCII English text, with very long lines
+doc/xml/rsvg.xml: copy
+
+# doc/rsvg-sections.txt = ASCII text
+doc/rsvg-sections.txt: copy
+
+# doc/Makefile.in = ASCII English text
+doc/Makefile.in: copy
+
+# rsvg.h = ASCII C program text
+rsvg.h: copy
+
+# rsvg-shapes.c = UTF-8 Unicode C program text
+rsvg-shapes.c: copy
+
+# rsvg-css.h = ASCII C program text
+rsvg-css.h: copy
+
+# rsvg-cairo-draw.h = ASCII C program text
+rsvg-cairo-draw.h: copy
+
+# test-performance.c = ASCII C program text
+test-performance.c: copy
+
+# rsvg-bpath-util.h = ASCII C program text
+rsvg-bpath-util.h: copy
+
+# INSTALL = ASCII English text
+INSTALL: copy
+
+# rsvg-defs.h = ASCII C program text
+rsvg-defs.h: copy
+
+# NEWS = ASCII English text
+NEWS: copy
+
+# aclocal.m4 = Ruby module source text
+aclocal.m4: copy
+
+# Makefile.am = ASCII English text
+Makefile.am: copy
+
+# config.guess = POSIX shell script text executable
+config.guess: copy
+
+# gtk-doc.make = ASCII C++ program text
+gtk-doc.make: copy
+
+# librsvg-features.h.in = ASCII C program text
+librsvg-features.h.in: copy
+
+# COPYING.LIB = ASCII English text
+COPYING.LIB: copy
+
+# moz-plugin/Makefile.am = ASCII text
+moz-plugin/Makefile.am: copy
+
+# moz-plugin/moz-plugin.c = ASCII C program text
+moz-plugin/moz-plugin.c: copy
+
+# moz-plugin/Makefile.in = ASCII English text
+moz-plugin/Makefile.in: copy
+
+# rsvg-cairo-clip.c = ASCII C program text
+rsvg-cairo-clip.c: copy
+
+# librsvg-features.h = ASCII C program text
+librsvg-features.h: copy
+
+# rsvg-mask.h = ASCII C program text
+rsvg-mask.h: copy
+
+# rsvg-text.h = ASCII C program text
+rsvg-text.h: copy
+
+# librsvg.spec.in = ISO-8859 English text
+librsvg.spec.in: copy
+
+# config.h.in = ASCII C program text
+config.h.in: copy
+
+# rsvg-convert.c = ASCII C program text
+rsvg-convert.c: copy
+
+# rsvg-paint-server.c = ASCII C program text
+rsvg-paint-server.c: copy
+
+# rsvg-filter.c = ASCII C program text
+rsvg-filter.c: copy
+
+# librsvg-2.0.pc.in = ASCII text
+librsvg-2.0.pc.in: copy
+
+# README = ASCII English text
+README: copy
+
+# rsvg-styles.c = ASCII C program text
+rsvg-styles.c: copy
+
+# ChangeLog = ASCII English text, with very long lines
+ChangeLog: copy
+
+# rsvg.c = ASCII C program text
+rsvg.c: copy
+
+# rsvg-mask.c = ASCII C program text
+rsvg-mask.c: copy
+
+# AUTHORS = ASCII text
+AUTHORS: copy
+
+# rsvg-defs.c = ASCII C program text
+rsvg-defs.c: copy
+
+# rsvg-cairo.h = ASCII C program text
+rsvg-cairo.h: copy
+
+# rsvg-cairo-draw.c = ASCII C program text
+rsvg-cairo-draw.c: copy
+
+# rsvg-affine.c = ASCII C program text
+rsvg-affine.c: copy
+
+# rsvg-css.c = ASCII C program text
+rsvg-css.c: copy
+
+# rsvg-cairo-render.c = ASCII C program text
+rsvg-cairo-render.c: copy
+
+# rsvg.1 = troff or preprocessor input text
+rsvg.1: copy
+
+# gtk-engine/svg-main.c = ASCII C program text
+gtk-engine/svg-main.c: copy
+
+# gtk-engine/Makefile.am = ASCII text
+gtk-engine/Makefile.am: copy
+
+# gtk-engine/svg-rc-style.c = ASCII C program text
+gtk-engine/svg-rc-style.c: copy
+
+# gtk-engine/README = ASCII English text
+gtk-engine/README: copy
+
+# gtk-engine/svg.h = ASCII C program text
+gtk-engine/svg.h: copy
+
+# gtk-engine/examples/Makefile.am = ASCII text
+gtk-engine/examples/Makefile.am: copy
+
+# gtk-engine/examples/Makefile.in = ASCII English text
+gtk-engine/examples/Makefile.in: copy
+
+# gtk-engine/examples/bubble/Makefile.am = ASCII text
+gtk-engine/examples/bubble/Makefile.am: copy
+
+# gtk-engine/examples/bubble/README = ASCII English text
+gtk-engine/examples/bubble/README: copy
+
+# gtk-engine/examples/bubble/gtk-2.0/purple.svg = SVG Scalable Vector Graphics image
+gtk-engine/examples/bubble/gtk-2.0/purple.svg: copy
+
+# gtk-engine/examples/bubble/gtk-2.0/orange.svg = SVG Scalable Vector Graphics image
+gtk-engine/examples/bubble/gtk-2.0/orange.svg: copy
+
+# gtk-engine/examples/bubble/gtk-2.0/gtkrc = ASCII C++ program text
+gtk-engine/examples/bubble/gtk-2.0/gtkrc: copy
+
+# gtk-engine/examples/bubble/gtk-2.0/Makefile.am = ASCII text
+gtk-engine/examples/bubble/gtk-2.0/Makefile.am: copy
+
+# gtk-engine/examples/bubble/gtk-2.0/green.svg = SVG Scalable Vector Graphics image
+gtk-engine/examples/bubble/gtk-2.0/green.svg: copy
+
+# gtk-engine/examples/bubble/gtk-2.0/red.svg = SVG Scalable Vector Graphics image
+gtk-engine/examples/bubble/gtk-2.0/red.svg: copy
+
+# gtk-engine/examples/bubble/gtk-2.0/blue.svg = SVG Scalable Vector Graphics image
+gtk-engine/examples/bubble/gtk-2.0/blue.svg: copy
+
+# gtk-engine/examples/bubble/gtk-2.0/Makefile.in = ASCII English text
+gtk-engine/examples/bubble/gtk-2.0/Makefile.in: copy
+
+# gtk-engine/examples/bubble/Makefile.in = ASCII English text
+gtk-engine/examples/bubble/Makefile.in: copy
+
+# gtk-engine/svg-style.h = ASCII C program text
+gtk-engine/svg-style.h: copy
+
+# gtk-engine/svg-render.c = ASCII C program text
+gtk-engine/svg-render.c: copy
+
+# gtk-engine/svg-rc-style.h = ASCII C program text
+gtk-engine/svg-rc-style.h: copy
+
+# gtk-engine/Makefile.in = ASCII English text
+gtk-engine/Makefile.in: copy
+
+# gtk-engine/svg-draw.c = ASCII C program text
+gtk-engine/svg-draw.c: copy
+
+# TODO = ASCII English text
+TODO: copy
+
+# rsvg-text.c = ASCII C program text
+rsvg-text.c: copy
+
+# compile = POSIX shell script text executable
+compile: copy
+
+# install-sh = POSIX shell script text executable
+install-sh: copy
+
+# test-display.c = UTF-8 Unicode C program text
+test-display.c: copy
+
+# gdk-pixbuf-loader/Makefile.am = ASCII text
+gdk-pixbuf-loader/Makefile.am: copy
+
+# gdk-pixbuf-loader/io-svg.c = ASCII C program text
+gdk-pixbuf-loader/io-svg.c: copy
+
+# gdk-pixbuf-loader/Makefile.in = ASCII English text
+gdk-pixbuf-loader/Makefile.in: copy
+
+# rsvg-cairo-render.h = ASCII C program text
+rsvg-cairo-render.h: copy
+
+# rsvg-image.h = ASCII C program text
+rsvg-image.h: copy
+
+# rsvg-styles.h = ASCII C program text
+rsvg-styles.h: copy
+
+# data/svg-viewer.svg = SVG Scalable Vector Graphics image
+data/svg-viewer.svg: copy
+
+# data/Makefile.am = ASCII text
+data/Makefile.am: copy
+
+# data/Makefile.in = ASCII English text
+data/Makefile.in: copy
+
+# missing = POSIX shell script text executable
+missing: copy
+
+# ltmain.sh = ASCII English text
+ltmain.sh: copy
+
+# librsvg-2.0-uninstalled.pc.in = ASCII text
+librsvg-2.0-uninstalled.pc.in: copy
+
+# tests/Makefile.am = Palm OS dynamic library data "SUBDIRS=pdiff ."
+tests/Makefile.am: copy
+
+# tests/pdiff/lpyramid.c = ASCII C program text
+tests/pdiff/lpyramid.c: copy
+
+# tests/pdiff/Makefile.am = ASCII text
+tests/pdiff/Makefile.am: copy
+
+# tests/pdiff/pdiff.h = ASCII C program text
+tests/pdiff/pdiff.h: copy
+
+# tests/pdiff/lpyramid.h = ASCII C program text
+tests/pdiff/lpyramid.h: copy
+
+# tests/pdiff/args.c = ASCII C program text
+tests/pdiff/args.c: copy
+
+# tests/pdiff/pdiff.c = ASCII C program text
+tests/pdiff/pdiff.c: copy
+
+# tests/pdiff/args.h = ASCII C program text
+tests/pdiff/args.h: copy
+
+# tests/pdiff/Makefile.in = ASCII English text
+tests/pdiff/Makefile.in: copy
+
+# tests/pdiff/perceptualdiff.c = ASCII C program text
+tests/pdiff/perceptualdiff.c: copy
+
+# tests/rsvg-test.c = UTF-8 Unicode C program text
+tests/rsvg-test.c: copy
+
+# tests/Makefile.in = ASCII English text
+tests/Makefile.in: copy
+
+# rsvg-shapes.h = ASCII C program text
+rsvg-shapes.h: copy
+
+# librsvg-enum-types.h = ASCII C program text
+librsvg-enum-types.h: copy
+
+# librsvg-enum-types.c = ASCII C program text
+librsvg-enum-types.c: copy
+
+# rsvg-bpath-util.c = ASCII C program text
+rsvg-bpath-util.c: copy
+
+# configure = POSIX shell script text executable
+configure: copy
+
+# rsvg-path.h = ASCII C program text
+rsvg-path.h: copy
+
+# rsvg-structure.c = ASCII C program text
+rsvg-structure.c: copy
+
+# rsvg-path.c = ASCII C program text
+rsvg-path.c: copy
+
+# rsvg-filter.h = ASCII C program text
+rsvg-filter.h: copy
+
+# librsvg.spec = ISO-8859 English text
+librsvg.spec: copy
+
+# rsvg-private.h = ASCII C program text
+rsvg-private.h: copy
+
+# rsvg-paint-server.h = ASCII C program text
+rsvg-paint-server.h: copy
+
+# rsvg-file-util.c = UTF-8 Unicode C program text
+rsvg-file-util.c: copy
+
+# COPYING = ASCII English text
+COPYING: copy
+
+# librsvg.def = ASCII text
+librsvg.def: copy
+
+# rsvg-base.c = ASCII C program text
+rsvg-base.c: copy
+
+# rsvg-dimensions.c = ASCII C program text
+rsvg-dimensions.c: copy
+
+# rsvg-marker.c = ASCII C program text
+rsvg-marker.c: copy
+
+# config.sub = POSIX shell script text executable
+config.sub: copy
+
+# rsvg-cond.c = ASCII C program text
+rsvg-cond.c: copy
+
+# rsvg-structure.h = ASCII C program text
+rsvg-structure.h: copy
+
+# librsvg-zip.in = POSIX shell script text executable
+librsvg-zip.in: copy
+
+# rsvg.in = a /usr/bin/env python script text executable
+rsvg.in: copy
+
+# rsvg-gobject.c = ASCII C program text
+rsvg-gobject.c: copy
+
+# Makefile.in = ASCII English text
+Makefile.in: copy
+
+# rsvg-base-file-util.c = ASCII C program text
+rsvg-base-file-util.c: copy
+
+# rsvg-marker.h = ASCII C program text
+rsvg-marker.h: copy
+
+# rsvg-cairo-clip.h = ASCII C program text
+rsvg-cairo-clip.h: copy
+
+# rsvg-image.c = ASCII C program text
+rsvg-image.c: copy
+
+# depcomp = POSIX shell script text executable
+depcomp: copy
+
+# MAINTAINERS = ASCII text
+MAINTAINERS: copy

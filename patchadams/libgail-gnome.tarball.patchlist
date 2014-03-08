@@ -1,0 +1,124 @@
+# Patchlist created Sat Mar  8 16:49:30 CST 2014
+
+# configure.in = ASCII English text
+configure.in: copy
+
+# libgail-gnome.pc.in = ASCII text
+libgail-gnome.pc.in: copy
+
+# NEWS = ASCII English text
+NEWS: copy
+
+# aclocal.m4 = Ruby module source text
+aclocal.m4: copy
+
+# Makefile.am = ASCII text
+Makefile.am: copy
+
+# config.guess = POSIX shell script text executable
+config.guess: copy
+
+# config.h.in = ASCII C program text
+config.h.in: copy
+
+# README = ASCII English text
+README: copy
+
+# ChangeLog = ASCII English text
+ChangeLog: copy
+
+# AUTHORS = ASCII English text
+AUTHORS: copy
+
+# install-sh = POSIX shell script text executable
+install-sh: copy
+
+# missing = POSIX shell script text executable
+missing: copy
+
+# ltmain.sh = ASCII Pascal program text
+ltmain.sh: copy
+
+# configure = POSIX shell script text executable
+configure: copy
+
+# gail-gnome/bonobo-control-frame-accessible.h = ASCII C program text
+gail-gnome/bonobo-control-frame-accessible.h: copy
+
+# gail-gnome/bonobo_plug_atk_object.c = ASCII C program text
+gail-gnome/bonobo_plug_atk_object.c: copy
+
+# gail-gnome/Makefile.am = ASCII text
+gail-gnome/Makefile.am: copy
+
+# gail-gnome/bonobo_plug_atk_object_factory.c = ASCII C program text
+gail-gnome/bonobo_plug_atk_object_factory.c: copy
+
+# gail-gnome/bonobo-control-frame-accessible.c = ASCII C program text
+gail-gnome/bonobo-control-frame-accessible.c: copy
+
+# gail-gnome/bonobo_socket_atk_object.c = ASCII C program text
+gail-gnome/bonobo_socket_atk_object.c: copy
+
+# gail-gnome/bonobo_plug_atk_object_factory.h = ASCII C program text
+gail-gnome/bonobo_plug_atk_object_factory.h: copy
+
+# gail-gnome/bonobo_socket_atk_object_factory.h = ASCII C program text
+gail-gnome/bonobo_socket_atk_object_factory.h: copy
+
+# gail-gnome/bonobo_socket_atk_object_factory.c = ASCII C program text
+gail-gnome/bonobo_socket_atk_object_factory.c: copy
+
+# gail-gnome/panel-applet-atk-object.c = ASCII C program text
+gail-gnome/panel-applet-atk-object.c: copy
+
+# gail-gnome/panel-applet-atk-object.h = ASCII C program text
+gail-gnome/panel-applet-atk-object.h: copy
+
+# gail-gnome/panel-applet-atk-object-factory.h = ASCII C program text
+gail-gnome/panel-applet-atk-object-factory.h: copy
+
+# gail-gnome/bonobo_plug_atk_object.h = ASCII C program text
+gail-gnome/bonobo_plug_atk_object.h: copy
+
+# gail-gnome/bonobo_socket_atk_object.h = ASCII C program text
+gail-gnome/bonobo_socket_atk_object.h: copy
+
+# gail-gnome/bonobo-control-accessible.c = ASCII C program text
+gail-gnome/bonobo-control-accessible.c: copy
+
+# gail-gnome/bonobo-accessibility-init.c = ASCII C program text
+gail-gnome/bonobo-accessibility-init.c: copy
+
+# gail-gnome/panel-applet-atk-object-factory.c = ASCII C program text
+gail-gnome/panel-applet-atk-object-factory.c: copy
+
+# gail-gnome/Makefile.in = ASCII English text, with very long lines
+gail-gnome/Makefile.in: copy
+
+# gail-gnome/bonobo-control-accessible.h = ASCII C program text
+gail-gnome/bonobo-control-accessible.h: copy
+
+# gail-gnome/gail-gnome-debug.h = ASCII C program text
+gail-gnome/gail-gnome-debug.h: copy
+
+# COPYING = ASCII English text
+COPYING: copy
+
+# config.sub = POSIX shell script text executable
+config.sub: copy
+
+# Makefile.in = ASCII English text
+Makefile.in: copy
+
+# test/Makefile.am = ASCII text
+test/Makefile.am: copy
+
+# test/Makefile.in = ASCII English text
+test/Makefile.in: copy
+
+# test/test-gail-gnome.c = ASCII C program text
+test/test-gail-gnome.c: copy
+
+# depcomp = POSIX shell script text executable
+depcomp: copy

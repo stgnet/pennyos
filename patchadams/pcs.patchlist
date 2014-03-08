@@ -1,0 +1,13 @@
+# Patchlist created Fri Mar  7 21:31:19 CST 2014
+
+# pcs-0.9.90-clones-utils.py.patch = unified diff output text
+# +    elif re.search(r'CentOS release 6\.', issue):
+pcs-0.9.90-clones-utils.py.patch: patch
+
+# pcs-0.9.90-clones-utils.py.patch = unified diff output text
+# +    elif re.search(r'CentOS release 6\.', issue):
+pcs-0.9.90-clones-utils.py.patch: patch
+
+# pcs-0.9.90-clones-utils.py.patch = unified diff output text
+# +    elif re.search(r'CentOS release 6\.', issue):
+pcs-0.9.90-clones-utils.py.patch: patch

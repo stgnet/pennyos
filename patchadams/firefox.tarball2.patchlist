@@ -1,0 +1,265 @@
+# Patchlist created Sat Mar  8 08:40:48 CST 2014
+
+# es-AR.xpi = Zip archive data, at least v2.0 to extract
+es-AR.xpi: copy
+
+# gd.xpi = Zip archive data, at least v2.0 to extract
+gd.xpi: copy
+
+# ca.xpi = Zip archive data, at least v2.0 to extract
+ca.xpi: copy
+
+# ach.xpi = Zip archive data, at least v2.0 to extract
+ach.xpi: copy
+
+# el.xpi = Zip archive data, at least v2.0 to extract
+el.xpi: copy
+
+# it.xpi = Zip archive data, at least v2.0 to extract
+it.xpi: copy
+
+# hu.xpi = Zip archive data, at least v2.0 to extract
+hu.xpi: copy
+
+# nl.xpi = Zip archive data, at least v2.0 to extract
+nl.xpi: copy
+
+# ro.xpi = Zip archive data, at least v2.0 to extract
+ro.xpi: copy
+
+# be.xpi = Zip archive data, at least v2.0 to extract
+be.xpi: copy
+
+# zh-CN.xpi = Zip archive data, at least v2.0 to extract
+zh-CN.xpi: copy
+
+# as.xpi = Zip archive data, at least v2.0 to extract
+as.xpi: copy
+
+# rm.xpi = Zip archive data, at least v2.0 to extract
+rm.xpi: copy
+
+# pt-BR.xpi = Zip archive data, at least v2.0 to extract
+pt-BR.xpi: copy
+
+# es-ES.xpi = Zip archive data, at least v2.0 to extract
+es-ES.xpi: copy
+
+# de.xpi = Zip archive data, at least v2.0 to extract
+de.xpi: copy
+
+# en-ZA.xpi = Zip archive data, at least v2.0 to extract
+en-ZA.xpi: copy
+
+# ak.xpi = Zip archive data, at least v2.0 to extract
+ak.xpi: copy
+
+# pa-IN.xpi = Zip archive data, at least v2.0 to extract
+pa-IN.xpi: copy
+
+# ta.xpi = Zip archive data, at least v2.0 to extract
+ta.xpi: copy
+
+# is.xpi = Zip archive data, at least v2.0 to extract
+is.xpi: copy
+
+# pl.xpi = Zip archive data, at least v2.0 to extract
+pl.xpi: copy
+
+# id.xpi = Zip archive data, at least v2.0 to extract
+id.xpi: copy
+
+# zu.xpi = Zip archive data, at least v2.0 to extract
+zu.xpi: copy
+
+# hr.xpi = Zip archive data, at least v2.0 to extract
+hr.xpi: copy
+
+# nso.xpi = Zip archive data, at least v2.0 to extract
+nso.xpi: copy
+
+# son.xpi = Zip archive data, at least v2.0 to extract
+son.xpi: copy
+
+# cy.xpi = Zip archive data, at least v2.0 to extract
+cy.xpi: copy
+
+# ko.xpi = Zip archive data, at least v2.0 to extract
+ko.xpi: copy
+
+# ku.xpi = Zip archive data, at least v2.0 to extract
+ku.xpi: copy
+
+# mai.xpi = Zip archive data, at least v2.0 to extract
+mai.xpi: copy
+
+# en-GB.xpi = Zip archive data, at least v2.0 to extract
+en-GB.xpi: copy
+
+# cs.xpi = Zip archive data, at least v2.0 to extract
+cs.xpi: copy
+
+# zh-TW.xpi = Zip archive data, at least v2.0 to extract
+zh-TW.xpi: copy
+
+# README = ASCII text
+README: copy
+
+# ml.xpi = Zip archive data, at least v2.0 to extract
+ml.xpi: copy
+
+# vi.xpi = Zip archive data, at least v2.0 to extract
+vi.xpi: copy
+
+# hy-AM.xpi = Zip archive data, at least v2.0 to extract
+hy-AM.xpi: copy
+
+# br.xpi = Zip archive data, at least v2.0 to extract
+br.xpi: copy
+
+# et.xpi = Zip archive data, at least v2.0 to extract
+et.xpi: copy
+
+# sv-SE.xpi = Zip archive data, at least v2.0 to extract
+sv-SE.xpi: copy
+
+# nn-NO.xpi = Zip archive data, at least v2.0 to extract
+nn-NO.xpi: copy
+
+# ga-IE.xpi = Zip archive data, at least v2.0 to extract
+ga-IE.xpi: copy
+
+# he.xpi = Zip archive data, at least v2.0 to extract
+he.xpi: copy
+
+# km.xpi = Zip archive data, at least v2.0 to extract
+km.xpi: copy
+
+# ast.xpi = Zip archive data, at least v2.0 to extract
+ast.xpi: copy
+
+# gl.xpi = Zip archive data, at least v2.0 to extract
+gl.xpi: copy
+
+# sq.xpi = Zip archive data, at least v2.0 to extract
+sq.xpi: copy
+
+# fr.xpi = Zip archive data, at least v2.0 to extract
+fr.xpi: copy
+
+# nb-NO.xpi = Zip archive data, at least v2.0 to extract
+nb-NO.xpi: copy
+
+# sk.xpi = Zip archive data, at least v2.0 to extract
+sk.xpi: copy
+
+# or.xpi = Zip archive data, at least v2.0 to extract
+or.xpi: copy
+
+# ru.xpi = Zip archive data, at least v2.0 to extract
+ru.xpi: copy
+
+# bg.xpi = Zip archive data, at least v2.0 to extract
+bg.xpi: copy
+
+# sl.xpi = Zip archive data, at least v2.0 to extract
+sl.xpi: copy
+
+# fi.xpi = Zip archive data, at least v2.0 to extract
+fi.xpi: copy
+
+# mk.xpi = Zip archive data, at least v2.0 to extract
+mk.xpi: copy
+
+# fa.xpi = Zip archive data, at least v2.0 to extract
+fa.xpi: copy
+
+# lg.xpi = Zip archive data, at least v2.0 to extract
+lg.xpi: copy
+
+# gu-IN.xpi = Zip archive data, at least v2.0 to extract
+gu-IN.xpi: copy
+
+# pt-PT.xpi = Zip archive data, at least v2.0 to extract
+pt-PT.xpi: copy
+
+# kn.xpi = Zip archive data, at least v2.0 to extract
+kn.xpi: copy
+
+# eu.xpi = Zip archive data, at least v2.0 to extract
+eu.xpi: copy
+
+# fy-NL.xpi = Zip archive data, at least v2.0 to extract
+fy-NL.xpi: copy
+
+# da.xpi = Zip archive data, at least v2.0 to extract
+da.xpi: copy
+
+# sr.xpi = Zip archive data, at least v2.0 to extract
+sr.xpi: copy
+
+# tr.xpi = Zip archive data, at least v2.0 to extract
+tr.xpi: copy
+
+# bs.xpi = Zip archive data, at least v2.0 to extract
+bs.xpi: copy
+
+# bn-BD.xpi = Zip archive data, at least v2.0 to extract
+bn-BD.xpi: copy
+
+# lv.xpi = Zip archive data, at least v2.0 to extract
+lv.xpi: copy
+
+# lt.xpi = Zip archive data, at least v2.0 to extract
+lt.xpi: copy
+
+# es-MX.xpi = Zip archive data, at least v2.0 to extract
+es-MX.xpi: copy
+
+# lij.xpi = Zip archive data, at least v2.0 to extract
+lij.xpi: copy
+
+# bn-IN.xpi = Zip archive data, at least v2.0 to extract
+bn-IN.xpi: copy
+
+# af.xpi = Zip archive data, at least v2.0 to extract
+af.xpi: copy
+
+# ta-LK.xpi = Zip archive data, at least v2.0 to extract
+ta-LK.xpi: copy
+
+# th.xpi = Zip archive data, at least v2.0 to extract
+th.xpi: copy
+
+# ja.xpi = Zip archive data, at least v2.0 to extract
+ja.xpi: copy
+
+# si.xpi = Zip archive data, at least v2.0 to extract
+si.xpi: copy
+
+# uk.xpi = Zip archive data, at least v2.0 to extract
+uk.xpi: copy
+
+# es-CL.xpi = Zip archive data, at least v2.0 to extract
+es-CL.xpi: copy
+
+# mr.xpi = Zip archive data, at least v2.0 to extract
+mr.xpi: copy
+
+# te.xpi = Zip archive data, at least v2.0 to extract
+te.xpi: copy
+
+# kk.xpi = Zip archive data, at least v2.0 to extract
+kk.xpi: copy
+
+# ar.xpi = Zip archive data, at least v2.0 to extract
+ar.xpi: copy
+
+# hi-IN.xpi = Zip archive data, at least v2.0 to extract
+hi-IN.xpi: copy
+
+# eo.xpi = Zip archive data, at least v2.0 to extract
+eo.xpi: copy
+
+# ff.xpi = Zip archive data, at least v2.0 to extract
+ff.xpi: copy

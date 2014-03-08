@@ -1,0 +1,44 @@
+# Patchlist created Sat Mar  8 08:41:01 CST 2014
+
+# firefox-duckduckgo.patch = unified diff output text
+firefox-duckduckgo.patch: copy
+
+# firefox-mozconfig-branded = ASCII text
+firefox-mozconfig-branded: copy
+
+# firefox-centos-default-prefs.js = ASCII text
+# pref("general.useragent.vendor", "CentOS");
+firefox-centos-default-prefs.js: patch
+
+# xulrunner-nasm-webm.patch = unified diff output text
+xulrunner-nasm-webm.patch: copy
+
+# firefox.desktop = UTF-8 Unicode English text
+firefox.desktop: copy
+
+# firefox.sh.in = POSIX shell script text executable
+firefox.sh.in: copy
+
+# find-external-requires = POSIX shell script text executable
+find-external-requires: copy
+
+# firefox-15.0-enable-addons.patch = unified diff output text
+firefox-15.0-enable-addons.patch: copy
+
+# firefox-5.0-asciidel.patch = unified diff output text
+firefox-5.0-asciidel.patch: copy
+
+# firefox-mozconfig = ASCII text
+firefox-mozconfig: copy
+
+# firefox.1 = troff or preprocessor input text
+firefox.1: copy
+
+# mozilla-815120.patch = unified diff output text
+mozilla-815120.patch: copy
+
+# mozilla-601442.patch = unified diff output text
+mozilla-601442.patch: copy
+
+# firefox-install-dir.patch = unified diff output text
+firefox-install-dir.patch: copy

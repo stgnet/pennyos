@@ -1,0 +1,727 @@
+# Patchlist created Fri Mar  7 21:14:28 CST 2014
+
+# doc/abrt-action-generate-backtrace.txt = ASCII English text
+doc/abrt-action-generate-backtrace.txt: copy
+
+# doc/abrt-action-analyze-python.txt = ASCII English text
+doc/abrt-action-analyze-python.txt: copy
+
+# doc/abrt-action-list-dsos.txt = ASCII English text
+doc/abrt-action-list-dsos.txt: copy
+
+# doc/abrt-retrace-client.txt = ASCII English text
+doc/abrt-retrace-client.txt: copy
+
+# doc/abrt-server.txt = ASCII English text
+doc/abrt-server.txt: copy
+
+# doc/abrt-handle-upload.txt = ASCII English text
+doc/abrt-handle-upload.txt: copy
+
+# doc/Makefile.am = ASCII text
+doc/Makefile.am: copy
+
+# doc/coding-style = ASCII English text
+doc/coding-style: copy
+
+# doc/abrt-install-ccpp-hook.txt = ASCII text
+doc/abrt-install-ccpp-hook.txt: copy
+
+# doc/abrt-action-analyze-backtrace.txt = ASCII English text
+doc/abrt-action-analyze-backtrace.txt: copy
+
+# doc/abrt-action-analyze-oops.txt = ASCII English text
+doc/abrt-action-analyze-oops.txt: copy
+
+# doc/abrt-action-save-package-data.txt = ASCII English text
+doc/abrt-action-save-package-data.txt: copy
+
+# doc/abrt-dbus.txt = ASCII English text
+doc/abrt-dbus.txt: copy
+
+# doc/abrt.conf.txt = ASCII English text
+doc/abrt.conf.txt: copy
+
+# doc/abrtd.txt = ASCII English text
+doc/abrtd.txt: copy
+
+# doc/abrt-action-analyze-c.txt = ASCII English text
+doc/abrt-action-analyze-c.txt: copy
+
+# doc/abrt-cli.txt = ASCII text
+doc/abrt-cli.txt: copy
+
+# doc/Makefile.in = ASCII English text
+doc/Makefile.in: copy
+
+# doc/abrt-action-trim-files.txt = ASCII text
+doc/abrt-action-trim-files.txt: copy
+
+# doc/abrt-action-save-package-data.conf.txt = ASCII English text
+doc/abrt-action-save-package-data.conf.txt: copy
+
+# init-scripts/abrt-vmcore.service = ASCII text
+init-scripts/abrt-vmcore.service: copy
+
+# init-scripts/abrt-vmcore = Bourne-Again shell script text executable
+init-scripts/abrt-vmcore: copy
+
+# init-scripts/abrt-ccpp.service = ASCII text
+init-scripts/abrt-ccpp.service: copy
+
+# init-scripts/abrt-oops.service = ASCII text
+init-scripts/abrt-oops.service: copy
+
+# init-scripts/abrt-ccpp = Bourne-Again shell script text executable
+init-scripts/abrt-ccpp: copy
+
+# init-scripts/abrt-oops = Bourne-Again shell script text executable
+init-scripts/abrt-oops: copy
+
+# init-scripts/abrtd = Bourne-Again shell script text executable
+init-scripts/abrtd: copy
+
+# init-scripts/abrtd.service = ASCII text
+init-scripts/abrtd.service: copy
+
+# INSTALL = ASCII text
+INSTALL: copy
+
+# aclocal.m4 = UTF-8 Unicode English text
+aclocal.m4: copy
+
+# Makefile.am = ASCII text
+Makefile.am: copy
+
+# config.guess = POSIX shell script text executable
+config.guess: copy
+
+# m4/lib-link.m4 = ASCII M4 macro language pre-processor text
+m4/lib-link.m4: copy
+
+# m4/lib-ld.m4 = ASCII M4 macro language pre-processor text
+m4/lib-ld.m4: copy
+
+# m4/intlmacosx.m4 = ASCII M4 macro language pre-processor text
+m4/intlmacosx.m4: copy
+
+# m4/po.m4 = ASCII M4 macro language pre-processor text, with very long lines
+m4/po.m4: copy
+
+# m4/nls.m4 = ASCII M4 macro language pre-processor text
+m4/nls.m4: copy
+
+# m4/progtest.m4 = ASCII M4 macro language pre-processor text
+m4/progtest.m4: copy
+
+# m4/libtool.m4 = Ruby module source text
+m4/libtool.m4: copy
+
+# m4/ltoptions.m4 = ASCII English text
+m4/ltoptions.m4: copy
+
+# m4/iconv.m4 = ASCII M4 macro language pre-processor text
+m4/iconv.m4: copy
+
+# m4/intltool.m4 = ASCII English text
+m4/intltool.m4: copy
+
+# m4/gettext.m4 = ASCII M4 macro language pre-processor text
+m4/gettext.m4: copy
+
+# m4/ltsugar.m4 = ASCII English text
+m4/ltsugar.m4: copy
+
+# m4/lt~obsolete.m4 = ASCII English text
+m4/lt~obsolete.m4: copy
+
+# m4/ltversion.m4 = ASCII English text
+m4/ltversion.m4: copy
+
+# m4/lib-prefix.m4 = ASCII M4 macro language pre-processor text
+m4/lib-prefix.m4: copy
+
+# config.h.in = ASCII C program text
+config.h.in: copy
+
+# README = ASCII text
+README: copy
+
+# ChangeLog = ASCII text
+ChangeLog: copy
+
+# abrt-version = ASCII text, with no line terminators
+abrt-version: copy
+
+# src/hooks/CCpp.conf = ASCII English text
+src/hooks/CCpp.conf: copy
+
+# src/hooks/abrt-install-ccpp-hook = Bourne-Again shell script text executable
+src/hooks/abrt-install-ccpp-hook: copy
+
+# src/hooks/Makefile.am = ASCII make commands text
+src/hooks/Makefile.am: copy
+
+# src/hooks/abrt-hook-ccpp.c = ASCII C program text
+src/hooks/abrt-hook-ccpp.c: copy
+
+# src/hooks/abrt_exception_handler.py.in = Python script text executable
+src/hooks/abrt_exception_handler.py.in: copy
+
+# src/hooks/abrt.pth = ASCII Java program text
+src/hooks/abrt.pth: copy
+
+# src/hooks/abrt-harvest-vmcore = POSIX shell script text executable
+src/hooks/abrt-harvest-vmcore: copy
+
+# src/hooks/abrt_exception_handler.py = Python script text executable
+src/hooks/abrt_exception_handler.py: copy
+
+# src/hooks/python.conf = ASCII text
+src/hooks/python.conf: copy
+
+# src/hooks/Makefile.in = ASCII English text, with very long lines
+src/hooks/Makefile.in: copy
+
+# src/include/Makefile.am = ASCII text
+src/include/Makefile.am: copy
+
+# src/include/libabrt.h = ASCII C program text
+src/include/libabrt.h: copy
+
+# src/include/Makefile.in = ASCII English text
+src/include/Makefile.in: copy
+
+# src/Makefile.am = ASCII text
+src/Makefile.am: copy
+
+# src/lib/Makefile.am = ASCII English text
+src/lib/Makefile.am: copy
+
+# src/lib/daemon_is_ok.c = ASCII C program text
+src/lib/daemon_is_ok.c: copy
+
+# src/lib/hooklib.c = ASCII C program text
+src/lib/hooklib.c: copy
+
+# src/lib/kernel.c = ASCII C program text
+src/lib/kernel.c: copy
+
+# src/lib/abrt_conf.c = ASCII C program text
+src/lib/abrt_conf.c: copy
+
+# src/lib/Makefile.in = ASCII English text, with very long lines
+src/lib/Makefile.in: copy
+
+# src/gui-gtk/Makefile.am = ASCII text
+src/gui-gtk/Makefile.am: copy
+
+# src/gui-gtk/main.c = UTF-8 Unicode C program text
+src/gui-gtk/main.c: copy
+
+# src/gui-gtk/abrt.desktop.in = ASCII text
+src/gui-gtk/abrt.desktop.in: copy
+
+# src/gui-gtk/Makefile.in = ASCII English text, with very long lines
+src/gui-gtk/Makefile.in: copy
+
+# src/daemon/abrt_event.conf = ASCII English text
+src/daemon/abrt_event.conf: copy
+
+# src/daemon/rpm.c = ASCII C program text
+src/daemon/rpm.c: copy
+
+# src/daemon/gpg_keys = ASCII text
+src/daemon/gpg_keys: copy
+
+# src/daemon/Makefile.am = ASCII text
+src/daemon/Makefile.am: copy
+
+# src/daemon/com.redhat.abrt.service = ASCII text
+src/daemon/com.redhat.abrt.service: copy
+
+# src/daemon/abrt.conf = ASCII text
+src/daemon/abrt.conf: copy
+
+# src/daemon/abrt-server.c = ASCII C program text
+src/daemon/abrt-server.c: copy
+
+# src/daemon/rpm.h = ASCII C program text
+src/daemon/rpm.h: copy
+
+# src/daemon/abrt-dbus.c = ASCII C program text
+src/daemon/abrt-dbus.c: copy
+
+# src/daemon/abrt-action-save-package-data.c = ASCII C program text
+src/daemon/abrt-action-save-package-data.c: copy
+
+# src/daemon/abrt-handle-event.c = ASCII C program text
+src/daemon/abrt-handle-event.c: copy
+
+# src/daemon/abrt-handle-upload = POSIX shell script text executable
+src/daemon/abrt-handle-upload: copy
+
+# src/daemon/abrt-action-save-package-data.conf = ASCII English text
+src/daemon/abrt-action-save-package-data.conf: copy
+
+# src/daemon/Makefile.in = ASCII English text, with very long lines
+src/daemon/Makefile.in: copy
+
+# src/daemon/dbus-abrt.conf = exported SGML document text
+src/daemon/dbus-abrt.conf: copy
+
+# src/daemon/abrtd.c = ASCII C program text
+src/daemon/abrtd.c: copy
+
+# src/cli/abrt-cli-core.c = ASCII C program text
+src/cli/abrt-cli-core.c: copy
+
+# src/cli/abrt-cli-core.h = ASCII C program text
+src/cli/abrt-cli-core.h: copy
+
+# src/cli/report.c = ASCII C program text
+src/cli/report.c: copy
+
+# src/cli/Makefile.am = ASCII text
+src/cli/Makefile.am: copy
+
+# src/cli/abrt-cli.c = ASCII C program text
+src/cli/abrt-cli.c: copy
+
+# src/cli/builtin-cmd.h = ASCII C program text
+src/cli/builtin-cmd.h: copy
+
+# src/cli/rm.c = ASCII C program text
+src/cli/rm.c: copy
+
+# src/cli/Makefile.in = ASCII English text, with very long lines
+src/cli/Makefile.in: copy
+
+# src/cli/list.c = ASCII C program text
+src/cli/list.c: copy
+
+# src/applet/abrt-applet.desktop.in = ASCII text
+src/applet/abrt-applet.desktop.in: copy
+
+# src/applet/Makefile.am = ASCII text
+src/applet/Makefile.am: copy
+
+# src/applet/applet.c = UTF-8 Unicode C program text
+src/applet/applet.c: copy
+
+# src/applet/Makefile.in = ASCII English text, with very long lines
+src/applet/Makefile.in: copy
+
+# src/plugins/https-utils.c = ASCII C program text
+src/plugins/https-utils.c: copy
+
+# src/plugins/abrt-action-generate-core-backtrace.c = ASCII C program text
+src/plugins/abrt-action-generate-core-backtrace.c: copy
+
+# src/plugins/collect_xsession_errors.xml = XML  document text
+src/plugins/collect_xsession_errors.xml: copy
+
+# src/plugins/collect_vimrc_user.xml.in = XML  document text
+src/plugins/collect_vimrc_user.xml.in: copy
+
+# src/plugins/abrt-action-analyze-vmcore.in = a /usr/bin/python -u script text executable
+src/plugins/abrt-action-analyze-vmcore.in: copy
+
+# src/plugins/vimrc_event.conf = ASCII English text
+src/plugins/vimrc_event.conf: copy
+
+# src/plugins/Makefile.am = ASCII text
+src/plugins/Makefile.am: copy
+
+# src/plugins/abrt-dump-oops.c = ASCII C program text
+src/plugins/abrt-dump-oops.c: copy
+
+# src/plugins/collect_GConf.xml = XML  document text
+src/plugins/collect_GConf.xml: copy
+
+# src/plugins/collect_Smolt.xml = XML  document text
+src/plugins/collect_Smolt.xml: copy
+
+# src/plugins/analyze_RetraceServer.xml = XML  document text
+src/plugins/analyze_RetraceServer.xml: copy
+
+# src/plugins/collect_xsession_errors.xml.in = XML  document text
+src/plugins/collect_xsession_errors.xml.in: copy
+
+# src/plugins/abrt-action-generate-backtrace.c = ASCII C program text
+src/plugins/abrt-action-generate-backtrace.c: copy
+
+# src/plugins/abrt-action-analyze-vmcore = a /usr/bin/python -u script text executable
+src/plugins/abrt-action-analyze-vmcore: copy
+
+# src/plugins/https-utils.h = ASCII C program text
+src/plugins/https-utils.h: copy
+
+# src/plugins/abrt-action-analyze-backtrace.c = ASCII C program text
+src/plugins/abrt-action-analyze-backtrace.c: copy
+
+# src/plugins/collect_vimrc_user.xml = XML  document text
+src/plugins/collect_vimrc_user.xml: copy
+
+# src/plugins/collect_Smolt.xml.in = XML  document text
+src/plugins/collect_Smolt.xml.in: copy
+
+# src/plugins/abrt-action-analyze-core = a /usr/bin/python -u script text executable
+src/plugins/abrt-action-analyze-core: copy
+
+# src/plugins/analyze_VMcore.xml.in = XML  document text
+src/plugins/analyze_VMcore.xml.in: copy
+
+# src/plugins/collect_vimrc_system.xml = XML  document text
+src/plugins/collect_vimrc_system.xml: copy
+
+# src/plugins/gconf_event.conf = ASCII text
+src/plugins/gconf_event.conf: copy
+
+# src/plugins/analyze_LocalGDB.xml.in = XML  document text
+src/plugins/analyze_LocalGDB.xml.in: copy
+
+# src/plugins/abrt-action-analyze-python.c = ASCII C program text
+src/plugins/abrt-action-analyze-python.c: copy
+
+# src/plugins/abrt-action-install-debuginfo.in = a /usr/bin/python -u script text executable
+src/plugins/abrt-action-install-debuginfo.in: copy
+
+# src/plugins/python_event.conf = ASCII text
+src/plugins/python_event.conf: copy
+
+# src/plugins/abrt-action-analyze-oops.c = ASCII C program text
+src/plugins/abrt-action-analyze-oops.c: copy
+
+# src/plugins/smart_event.conf = ASCII English text
+src/plugins/smart_event.conf: copy
+
+# src/plugins/analyze_RetraceServer.xml.in = XML  document text
+src/plugins/analyze_RetraceServer.xml.in: copy
+
+# src/plugins/vmcore_event.conf = ASCII text
+src/plugins/vmcore_event.conf: copy
+
+# src/plugins/collect_GConf.xml.in = XML  document text
+src/plugins/collect_GConf.xml.in: copy
+
+# src/plugins/abrt-action-list-dsos = a /usr/bin/python -u script text executable
+src/plugins/abrt-action-list-dsos: copy
+
+# src/plugins/analyze_VMcore.xml = XML  document text
+src/plugins/analyze_VMcore.xml: copy
+
+# src/plugins/ccpp_retrace_event.conf = ASCII text
+src/plugins/ccpp_retrace_event.conf: copy
+
+# src/plugins/ccpp_event.conf = ASCII English text
+src/plugins/ccpp_event.conf: copy
+
+# src/plugins/smolt_event.conf = ASCII English text
+src/plugins/smolt_event.conf: copy
+
+# src/plugins/abrt-dedup-client.c = ASCII C program text
+src/plugins/abrt-dedup-client.c: copy
+
+# src/plugins/abrt-retrace-client.c = ASCII C program text
+src/plugins/abrt-retrace-client.c: copy
+
+# src/plugins/abrt-action-analyze-c.c = ASCII C program text
+src/plugins/abrt-action-analyze-c.c: copy
+
+# src/plugins/abrt-action-trim-files.c = ASCII C program text
+src/plugins/abrt-action-trim-files.c: copy
+
+# src/plugins/analyze_LocalGDB.xml = XML  document text
+src/plugins/analyze_LocalGDB.xml: copy
+
+# src/plugins/Makefile.in = ASCII English text, with very long lines
+src/plugins/Makefile.in: copy
+
+# src/plugins/collect_vimrc_system.xml.in = XML  document text
+src/plugins/collect_vimrc_system.xml.in: copy
+
+# src/plugins/abrt-action-install-debuginfo-to-abrt-cache.c = ASCII C program text
+src/plugins/abrt-action-install-debuginfo-to-abrt-cache.c: copy
+
+# src/plugins/koops_event.conf = ASCII text
+src/plugins/koops_event.conf: copy
+
+# src/Makefile.in = ASCII English text
+src/Makefile.in: copy
+
+# ABOUT-NLS = ASCII English text
+ABOUT-NLS: copy
+
+# install-sh = POSIX shell script text executable
+install-sh: copy
+
+# configure.ac = ASCII M4 macro language pre-processor text
+configure.ac: copy
+
+# config.rpath = POSIX shell script text executable
+config.rpath: copy
+
+# asciidoc.conf = ASCII text
+asciidoc.conf: copy
+
+# icons/hicolor_apps_22x22_abrt.png = PNG image data, 22 x 22, 8-bit/color RGBA, non-interlaced
+icons/hicolor_apps_22x22_abrt.png: copy
+
+# icons/hicolor_status_24x24_abrt.png = PNG image data, 24 x 24, 8-bit/color RGBA, non-interlaced
+icons/hicolor_status_24x24_abrt.png: copy
+
+# icons/Makefile.am = ASCII text
+icons/Makefile.am: copy
+
+# icons/hicolor_apps_32x32_abrt.png = PNG image data, 32 x 32, 8-bit/color RGBA, non-interlaced
+icons/hicolor_apps_32x32_abrt.png: copy
+
+# icons/hicolor_apps_24x24_abrt.png = PNG image data, 24 x 24, 8-bit/color RGBA, non-interlaced
+icons/hicolor_apps_24x24_abrt.png: copy
+
+# icons/hicolor_status_256x256_abrt.png = PNG image data, 256 x 256, 8-bit/color RGBA, non-interlaced
+icons/hicolor_status_256x256_abrt.png: copy
+
+# icons/hicolor_status_22x22_abrt.png = PNG image data, 22 x 22, 8-bit/color RGBA, non-interlaced
+icons/hicolor_status_22x22_abrt.png: copy
+
+# icons/hicolor_status_32x32_abrt.png = PNG image data, 32 x 32, 8-bit/color RGBA, non-interlaced
+icons/hicolor_status_32x32_abrt.png: copy
+
+# icons/hicolor_apps_16x16_abrt.png = PNG image data, 16 x 16, 8-bit/color RGBA, non-interlaced
+icons/hicolor_apps_16x16_abrt.png: copy
+
+# icons/hicolor_apps_48x48_abrt.png = PNG image data, 48 x 48, 8-bit/color RGBA, non-interlaced
+icons/hicolor_apps_48x48_abrt.png: copy
+
+# icons/Makefile.in = ASCII English text
+icons/Makefile.in: copy
+
+# icons/hicolor_status_16x16_abrt.png = PNG image data, 16 x 16, 8-bit/color RGBA, non-interlaced
+icons/hicolor_status_16x16_abrt.png: copy
+
+# icons/hicolor_status_48x48_abrt.png = PNG image data, 48 x 48, 8-bit/color RGBA, non-interlaced
+icons/hicolor_status_48x48_abrt.png: copy
+
+# po/uk.po = data
+po/uk.po: copy
+
+# po/pt.po = UTF-8 Unicode English text, with very long lines
+po/pt.po: copy
+
+# po/te.po = UTF-8 Unicode English text
+po/te.po: copy
+
+# po/ml.po = UTF-8 Unicode English text, with very long lines
+po/ml.po: copy
+
+# po/da.po = UTF-8 Unicode English text, with very long lines
+po/da.po: copy
+
+# po/nl.po = UTF-8 Unicode English text, with very long lines
+po/nl.po: copy
+
+# po/en_GB.po = UTF-8 Unicode English text, with very long lines
+po/en_GB.po: copy
+
+# po/nb.po = UTF-8 Unicode English text
+po/nb.po: copy
+
+# po/or.po = UTF-8 Unicode English text, with very long lines
+po/or.po: copy
+
+# po/id.po = UTF-8 Unicode English text
+po/id.po: copy
+
+# po/he.po = UTF-8 Unicode English text, with very long lines
+po/he.po: copy
+
+# po/zh_CN.po = UTF-8 Unicode English text, with very long lines
+po/zh_CN.po: copy
+
+# po/cs.po = UTF-8 Unicode English text, with very long lines
+po/cs.po: copy
+
+# po/as.po = UTF-8 Unicode English text
+po/as.po: copy
+
+# po/pa.po = UTF-8 Unicode English text, with very long lines
+po/pa.po: copy
+
+# po/ko.po = UTF-8 Unicode English text
+po/ko.po: copy
+
+# po/ja.po = UTF-8 Unicode English text
+po/ja.po: copy
+
+# po/de.po = UTF-8 Unicode English text, with very long lines
+po/de.po: copy
+
+# po/gu.po = UTF-8 Unicode English text, with very long lines
+po/gu.po: copy
+
+# po/Makevars = ASCII English text
+po/Makevars: copy
+
+# po/ChangeLog = empty
+po/ChangeLog: copy
+
+# po/kn.po = UTF-8 Unicode English text
+po/kn.po: copy
+
+# po/POTFILES.in = ASCII text
+po/POTFILES.in: copy
+
+# po/sr.po = UTF-8 Unicode English text
+po/sr.po: copy
+
+# po/hi.po = UTF-8 Unicode English text
+po/hi.po: copy
+
+# po/bg.po = UTF-8 Unicode English text, with very long lines
+po/bg.po: copy
+
+# po/mr.po = UTF-8 Unicode English text
+po/mr.po: copy
+
+# po/ta.po = UTF-8 Unicode English text
+po/ta.po: copy
+
+# po/ast.po = UTF-8 Unicode English text
+po/ast.po: copy
+
+# po/ru.po = UTF-8 Unicode English text, with very long lines
+po/ru.po: copy
+
+# po/zh_TW.po = UTF-8 Unicode English text, with very long lines
+po/zh_TW.po: copy
+
+# po/fr.po = UTF-8 Unicode English text, with very long lines
+po/fr.po: copy
+
+# po/fa.po = UTF-8 Unicode English text
+po/fa.po: copy
+
+# po/sr@latin.po = UTF-8 Unicode English text
+po/sr@latin.po: copy
+
+# po/es.po = UTF-8 Unicode English text, with very long lines
+po/es.po: copy
+
+# po/ar.po = UTF-8 Unicode English text
+po/ar.po: copy
+
+# po/pt_BR.po = UTF-8 Unicode English text, with very long lines
+po/pt_BR.po: copy
+
+# po/fi.po = UTF-8 Unicode English text, with very long lines
+po/fi.po: copy
+
+# po/ca.po = UTF-8 Unicode English text
+po/ca.po: copy
+
+# po/hu.po = UTF-8 Unicode English text, with very long lines
+po/hu.po: copy
+
+# po/pl.po = UTF-8 Unicode English text, with very long lines
+po/pl.po: copy
+
+# po/Makefile.in.in = ASCII Pascal program text
+po/Makefile.in.in: copy
+
+# po/it.po = UTF-8 Unicode English text, with very long lines
+po/it.po: copy
+
+# po/bn_IN.po = UTF-8 Unicode English text
+po/bn_IN.po: copy
+
+# po/sv.po = UTF-8 Unicode English text, with very long lines
+po/sv.po: copy
+
+# po/LINGUAS = ASCII text
+po/LINGUAS: copy
+
+# po/sk.po = UTF-8 Unicode English text, with very long lines
+po/sk.po: copy
+
+# po/el.po = UTF-8 Unicode English text
+po/el.po: copy
+
+# po/POTFILES.skip = ASCII text
+po/POTFILES.skip: copy
+
+# missing = POSIX shell script text executable
+missing: copy
+
+# ltmain.sh = ASCII English text
+ltmain.sh: copy
+
+# abrt.spec.in = lex description text
+abrt.spec.in: copy
+
+# examples/koops-tainted-gw = ASCII text
+examples/koops-tainted-gw: copy
+
+# examples/oops-kernel-3.x.x = ASCII text
+examples/oops-kernel-3.x.x: copy
+
+# examples/cut_here.right = ASCII text
+examples/cut_here.right: copy
+
+# examples/koops-tainted-bg1 = ASCII text
+examples/koops-tainted-bg1: copy
+
+# examples/oops1.right = ASCII text
+examples/oops1.right: copy
+
+# examples/oops-same-as-oops4.right = ASCII text
+examples/oops-same-as-oops4.right: copy
+
+# tests/Makefile.am = ASCII English text
+tests/Makefile.am: copy
+
+# tests/testsuite.at = ASCII text
+tests/testsuite.at: copy
+
+# tests/atlocal.in = ASCII text
+tests/atlocal.in: copy
+
+# tests/koops-test.h = ASCII C program text
+tests/koops-test.h: copy
+
+# tests/local.at = ASCII English text
+tests/local.at: copy
+
+# tests/pyhook.at = Python script text executable
+tests/pyhook.at: copy
+
+# tests/koops-parser.at = ASCII C program text
+tests/koops-parser.at: copy
+
+# tests/Makefile.in = ASCII English text
+tests/Makefile.in: copy
+
+# tests/package.m4 = ASCII English text
+tests/package.m4: copy
+
+# configure = POSIX shell script text executable
+configure: copy
+
+# py-compile = POSIX shell script text executable
+py-compile: copy
+
+# COPYING = ASCII English text
+COPYING: copy
+
+# abrt.pc.in = ASCII text
+abrt.pc.in: copy
+
+# config.sub = POSIX shell script text executable
+config.sub: copy
+
+# Makefile.in = ASCII English text
+Makefile.in: copy
+
+# depcomp = POSIX shell script text executable
+depcomp: copy

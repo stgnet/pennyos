@@ -1,0 +1,8 @@
+. ./project-settings
+ 
+TEMP="temp.png"
+FILE="test.png"
+
+convert -size 200x40 -background none -fill white -font $FONT -gravity center label:"$NAME" name.png && convert -size 640x480 xc:$BACK $TEMP && composite -geometry +10+430 name.png $TEMP $TEMP && composite -geometry 40x40+580+430 $LOGO $TEMP $FILE
+
+display $FILE

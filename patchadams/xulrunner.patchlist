@@ -1,0 +1,86 @@
+# Patchlist created Sat Mar  8 15:27:38 CST 2014
+
+# mozilla-746112.patch = unified diff output text
+mozilla-746112.patch: copy
+
+# mozilla-633001.patch = unified diff output text
+mozilla-633001.patch: copy
+
+# xulrunner-centos-default-prefs.js = ASCII text
+# pref("general.useragent.vendor", "CentOS");
+# pref("browser.startup.homepage", "http://www.centos.org");
+# pref("startup.homepage_override_url", "http://www.centos.org");
+# pref("startup.homepage_welcome_url", "http://www.centos.org");
+xulrunner-centos-default-prefs.js: patch
+
+# mozilla-193-pkgconfig.patch = unified diff output text
+mozilla-193-pkgconfig.patch: copy
+
+# mozilla-gcc-4.4.patch = unified diff output text
+mozilla-gcc-4.4.patch: copy
+
+# xulrunner-nasm-webm.patch = unified diff output text
+xulrunner-nasm-webm.patch: copy
+
+# mozilla-abort.patch = unified diff output text
+mozilla-abort.patch: copy
+
+# find-external-requires = POSIX shell script text executable
+find-external-requires: copy
+
+# add-gtkmozembed-17.0.patch = unified diff output text
+add-gtkmozembed-17.0.patch: copy
+
+# xulrunner-17.0-jemalloc-ppc.patch = unified diff output text
+xulrunner-17.0-jemalloc-ppc.patch: copy
+
+# mozilla-build.patch = unified diff output text
+mozilla-build.patch: copy
+
+# mozilla-720682-jemalloc-missing.patch = unified diff output text
+mozilla-720682-jemalloc-missing.patch: copy
+
+# xulrunner.sh.in = POSIX shell script text executable
+xulrunner.sh.in: copy
+
+# camelia.patch = unified diff output text
+camelia.patch: copy
+
+# xulrunner-secarch.patch = unified diff output text
+xulrunner-secarch.patch: copy
+
+# rhbz-966424.patch = unified diff output text
+rhbz-966424.patch: copy
+
+# xulrunner-install-dir.patch = unified diff output text
+xulrunner-install-dir.patch: copy
+
+# mozilla-813997.patch = unified diff output text
+mozilla-813997.patch: copy
+
+# mozilla-815120.patch = unified diff output text
+mozilla-815120.patch: copy
+
+# xulrunner.1 = troff or preprocessor input text
+xulrunner.1: copy
+
+# xulrunner-nspr-version.patch = unified diff output text
+xulrunner-nspr-version.patch: copy
+
+# mozilla-821502.patch = unified diff output text
+mozilla-821502.patch: copy
+
+# mozilla-601442.patch = unified diff output text
+mozilla-601442.patch: copy
+
+# xulrunner-2.0-chromium-types.patch = unified diff output text
+xulrunner-2.0-chromium-types.patch: copy
+
+# xulrunner-mozconfig = ASCII text
+xulrunner-mozconfig: copy
+
+# rhbz-872752.patch = unified diff output text
+rhbz-872752.patch: copy
+
+# mozilla-791626.patch = unified diff output text
+mozilla-791626.patch: copy

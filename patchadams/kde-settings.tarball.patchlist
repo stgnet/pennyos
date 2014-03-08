@@ -1,0 +1,103 @@
+# Patchlist created Fri Mar  7 21:42:48 CST 2014
+
+# etc/profile.d/kde.csh = ASCII text
+etc/profile.d/kde.csh: copy
+
+# etc/profile.d/kde.sh = ASCII text
+etc/profile.d/kde.sh: copy
+
+# etc/kde4rc = ASCII text
+etc/kde4rc: copy
+
+# etc/kde/env/env.sh = ASCII text
+etc/kde/env/env.sh: copy
+
+# etc/kde/env/gpg-agent-startup.sh = POSIX shell script text executable
+etc/kde/env/gpg-agent-startup.sh: copy
+
+# etc/kde/shutdown/gpg-agent-shutdown.sh = POSIX shell script text executable
+etc/kde/shutdown/gpg-agent-shutdown.sh: copy
+
+# etc/kde/kdm/kdmrc = ASCII English text
+etc/kde/kdm/kdmrc: copy
+
+# etc/kde/kdm/Xsession = POSIX shell script text executable
+etc/kde/kdm/Xsession: copy
+
+# etc/kde/kdm/backgroundrc = ASCII text
+etc/kde/kdm/backgroundrc: copy
+
+# etc/pam.d/kscreensaver = ASCII text
+etc/pam.d/kscreensaver: copy
+
+# etc/pam.d/kcheckpass = ASCII text
+etc/pam.d/kcheckpass: copy
+
+# etc/pam.d/kdm-np = ASCII text
+etc/pam.d/kdm-np: copy
+
+# etc/pam.d/kdm = ASCII text
+etc/pam.d/kdm: copy
+
+# etc/kderc = ASCII text
+etc/kderc: copy
+
+# Makefile = ASCII text
+Makefile: copy
+
+# usr/share/kde-settings/kde-profile/default/share/apps/konqueror/profiles/webbrowsing = UTF-8 Unicode text
+usr/share/kde-settings/kde-profile/default/share/apps/konqueror/profiles/webbrowsing: copy
+
+# usr/share/kde-settings/kde-profile/default/share/icons/Fedora-KDE/index.theme = ASCII text
+usr/share/kde-settings/kde-profile/default/share/icons/Fedora-KDE/index.theme: copy
+
+# usr/share/kde-settings/kde-profile/default/share/config/ksplashrc = ASCII text
+usr/share/kde-settings/kde-profile/default/share/config/ksplashrc: copy
+
+# usr/share/kde-settings/kde-profile/default/share/config/nepomukserverrc = ASCII text
+usr/share/kde-settings/kde-profile/default/share/config/nepomukserverrc: copy
+
+# usr/share/kde-settings/kde-profile/default/share/config/kaccessrc = ASCII text
+usr/share/kde-settings/kde-profile/default/share/config/kaccessrc: copy
+
+# usr/share/kde-settings/kde-profile/default/share/config/kcminputrc = ASCII text
+usr/share/kde-settings/kde-profile/default/share/config/kcminputrc: copy
+
+# usr/share/kde-settings/kde-profile/default/share/config/kxkbrc = ASCII text
+usr/share/kde-settings/kde-profile/default/share/config/kxkbrc: copy
+
+# usr/share/kde-settings/kde-profile/default/share/config/kdeglobals = ASCII text
+usr/share/kde-settings/kde-profile/default/share/config/kdeglobals: copy
+
+# usr/share/kde-settings/kde-profile/default/share/config/gtkrc-2.0 = UTF-8 Unicode C++ program text
+usr/share/kde-settings/kde-profile/default/share/config/gtkrc-2.0: copy
+
+# usr/share/kde-settings/kde-profile/default/share/config/kdewizardrc = ASCII text
+usr/share/kde-settings/kde-profile/default/share/config/kdewizardrc: copy
+
+# usr/share/kde-settings/kde-profile/default/share/config/kwinrc = ASCII text
+usr/share/kde-settings/kde-profile/default/share/config/kwinrc: copy
+
+# usr/share/kde-settings/kde-profile/default/share/config/kcmdisplayrc = ASCII text
+usr/share/kde-settings/kde-profile/default/share/config/kcmdisplayrc: copy
+
+# usr/share/kde-settings/kde-profile/default/share/config/konquerorrc = ASCII text
+usr/share/kde-settings/kde-profile/default/share/config/konquerorrc: copy
+
+# usr/share/kde-settings/kde-profile/default/share/config/ktiprc = ASCII text
+usr/share/kde-settings/kde-profile/default/share/config/ktiprc: copy
+
+# usr/share/kde-settings/kde-profile/default/share/config/plasmarc = ASCII text
+usr/share/kde-settings/kde-profile/default/share/config/plasmarc: copy
+
+# usr/share/kde-settings/kde-profile/default/share/config/korgacrc = ASCII text
+usr/share/kde-settings/kde-profile/default/share/config/korgacrc: copy
+
+# usr/share/kde-settings/kde-profile/default/share/config/plasma-desktop-appletsrc = ASCII text
+usr/share/kde-settings/kde-profile/default/share/config/plasma-desktop-appletsrc: copy
+
+# usr/share/kde-settings/kde-profile/default/share/config/konsolerc = ASCII text
+usr/share/kde-settings/kde-profile/default/share/config/konsolerc: copy
+
+# usr/share/kde-settings/kde-profile/default/.kdeprofile = ASCII text
+usr/share/kde-settings/kde-profile/default/.kdeprofile: copy

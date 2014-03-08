@@ -1,0 +1,10 @@
+# Patchlist created Fri Mar  7 21:25:06 CST 2014
+
+# librsvg-python-env.patch = unified diff output text
+librsvg-python-env.patch: copy
+
+# no-xml-cleanup.patch = unified diff output text
+no-xml-cleanup.patch: copy
+
+# librsvg-CVE-2011-3146.patch = unified diff output text
+librsvg-CVE-2011-3146.patch: copy

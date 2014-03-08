@@ -8,6 +8,7 @@ NAME="PennyOS"
 SED="pennyos.sed"
 
 # a square transparent image containing project logo
+# make this the svg file when transparent is fixed
 LOGO="US_Penny_front_T.png"
 
 # preferred font for rendering project name into graphic images

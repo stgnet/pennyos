@@ -1,0 +1,952 @@
+# Patchlist created Fri Mar  7 15:47:52 CST 2014
+
+# gtk-engines-2.pc.in = ASCII text
+gtk-engines-2.pc.in: copy
+
+# gtk-engines.spec = ASCII English text
+gtk-engines.spec: copy
+
+# intltool-update.in = empty
+intltool-update.in: copy
+
+# INSTALL = ASCII English text
+INSTALL: copy
+
+# themes/Makefile.am = ASCII text
+themes/Makefile.am: copy
+
+# themes/Industrial/Makefile.am = ASCII text
+themes/Industrial/Makefile.am: copy
+
+# themes/Industrial/gtk-2.0/gtkrc = ASCII English text
+themes/Industrial/gtk-2.0/gtkrc: copy
+
+# themes/Industrial/gtk-2.0/Makefile.am = ASCII text
+themes/Industrial/gtk-2.0/Makefile.am: copy
+
+# themes/Industrial/gtk-2.0/Makefile.in = ASCII English text
+themes/Industrial/gtk-2.0/Makefile.in: copy
+
+# themes/Industrial/Makefile.in = ASCII English text
+themes/Industrial/Makefile.in: copy
+
+# themes/ThinIce/Makefile.am = ASCII text
+themes/ThinIce/Makefile.am: copy
+
+# themes/ThinIce/gtk-2.0/gtkrc = ASCII English text
+themes/ThinIce/gtk-2.0/gtkrc: copy
+
+# themes/ThinIce/gtk-2.0/Makefile.am = ASCII text
+themes/ThinIce/gtk-2.0/Makefile.am: copy
+
+# themes/ThinIce/gtk-2.0/Makefile.in = ASCII English text
+themes/ThinIce/gtk-2.0/Makefile.in: copy
+
+# themes/ThinIce/Makefile.in = ASCII English text
+themes/ThinIce/Makefile.in: copy
+
+# themes/Mist/Makefile.am = ASCII text
+themes/Mist/Makefile.am: copy
+
+# themes/Mist/gtk-2.0/gtkrc = ASCII C++ program text
+themes/Mist/gtk-2.0/gtkrc: copy
+
+# themes/Mist/gtk-2.0/Makefile.am = ASCII text
+themes/Mist/gtk-2.0/Makefile.am: copy
+
+# themes/Mist/gtk-2.0/Makefile.in = ASCII English text
+themes/Mist/gtk-2.0/Makefile.in: copy
+
+# themes/Mist/Makefile.in = ASCII English text
+themes/Mist/Makefile.in: copy
+
+# themes/Clearlooks/Makefile.am = ASCII text
+themes/Clearlooks/Makefile.am: copy
+
+# themes/Clearlooks/gtk-2.0/gtkrc = ASCII English text
+themes/Clearlooks/gtk-2.0/gtkrc: copy
+
+# themes/Clearlooks/gtk-2.0/Makefile.am = ASCII text
+themes/Clearlooks/gtk-2.0/Makefile.am: copy
+
+# themes/Clearlooks/gtk-2.0/Makefile.in = ASCII English text
+themes/Clearlooks/gtk-2.0/Makefile.in: copy
+
+# themes/Clearlooks/Makefile.in = ASCII English text
+themes/Clearlooks/Makefile.in: copy
+
+# themes/Redmond/Makefile.am = ASCII text
+themes/Redmond/Makefile.am: copy
+
+# themes/Redmond/gtk-2.0/gtkrc = ASCII C++ program text
+themes/Redmond/gtk-2.0/gtkrc: copy
+
+# themes/Redmond/gtk-2.0/Makefile.am = ASCII text
+themes/Redmond/gtk-2.0/Makefile.am: copy
+
+# themes/Redmond/gtk-2.0/Makefile.in = ASCII English text
+themes/Redmond/gtk-2.0/Makefile.in: copy
+
+# themes/Redmond/Makefile.in = ASCII English text
+themes/Redmond/Makefile.in: copy
+
+# themes/Makefile.in = ASCII English text
+themes/Makefile.in: copy
+
+# themes/Crux/Makefile.am = ASCII text
+themes/Crux/Makefile.am: copy
+
+# themes/Crux/gtk-2.0/gtkrc = ASCII Pascal program text
+themes/Crux/gtk-2.0/gtkrc: copy
+
+# themes/Crux/gtk-2.0/Makefile.am = ASCII text
+themes/Crux/gtk-2.0/Makefile.am: copy
+
+# themes/Crux/gtk-2.0/Makefile.in = ASCII English text
+themes/Crux/gtk-2.0/Makefile.in: copy
+
+# themes/Crux/Makefile.in = ASCII English text
+themes/Crux/Makefile.in: copy
+
+# NEWS = UTF-8 Unicode English text
+NEWS: copy
+
+# aclocal.m4 = Ruby module source text
+aclocal.m4: copy
+
+# Makefile.am = ASCII English text
+Makefile.am: copy
+
+# config.guess = POSIX shell script text executable
+config.guess: copy
+
+# intltool-extract.in = empty
+intltool-extract.in: copy
+
+# intltool-merge.in = empty
+intltool-merge.in: copy
+
+# schema/crux-engine.xml.in.in = XML  document text
+schema/crux-engine.xml.in.in: copy
+
+# schema/Makefile.am = ASCII text
+schema/Makefile.am: copy
+
+# schema/industrial.xml.in.in = XML  document text
+schema/industrial.xml.in.in: copy
+
+# schema/thinice.xml.in.in = XML  document text
+schema/thinice.xml.in.in: copy
+
+# schema/clearlooks.xml.in.in = XML  document text
+schema/clearlooks.xml.in.in: copy
+
+# schema/redmond95.xml.in.in = XML  document text
+schema/redmond95.xml.in.in: copy
+
+# schema/mist.xml.in.in = XML  document text
+schema/mist.xml.in.in: copy
+
+# schema/hcengine.xml.in.in = XML  document text
+schema/hcengine.xml.in.in: copy
+
+# schema/glide.xml.in.in = XML  document text
+schema/glide.xml.in.in: copy
+
+# schema/Makefile.in = ASCII English text
+schema/Makefile.in: copy
+
+# autogen.sh = POSIX shell script text executable
+autogen.sh: copy
+
+# README = ASCII English text
+README: copy
+
+# ChangeLog = UTF-8 Unicode English text
+ChangeLog: copy
+
+# AUTHORS = ASCII text
+AUTHORS: copy
+
+# compile = POSIX shell script text executable
+compile: copy
+
+# install-sh = POSIX shell script text executable
+install-sh: copy
+
+# gtk-engines.spec.in = ASCII English text
+gtk-engines.spec.in: copy
+
+# configure.ac = ASCII M4 macro language pre-processor text
+configure.ac: copy
+
+# po/uk.po = UTF-8 Unicode PO (gettext message catalogue) text
+po/uk.po: copy
+
+# po/pt.po = UTF-8 Unicode English text
+po/pt.po: copy
+
+# po/te.po = UTF-8 Unicode English text
+po/te.po: copy
+
+# po/lt.po = UTF-8 Unicode English text
+po/lt.po: copy
+
+# po/ml.po = UTF-8 Unicode English text
+po/ml.po: copy
+
+# po/da.po = UTF-8 Unicode English text
+po/da.po: copy
+
+# po/nl.po = UTF-8 Unicode English text
+po/nl.po: copy
+
+# po/en_GB.po = ASCII English text
+po/en_GB.po: copy
+
+# po/nb.po = UTF-8 Unicode English text
+po/nb.po: copy
+
+# po/or.po = UTF-8 Unicode English text
+po/or.po: copy
+
+# po/vi.po = UTF-8 Unicode PO (gettext message catalogue) text
+po/vi.po: copy
+
+# po/mai.po = UTF-8 Unicode English text
+po/mai.po: copy
+
+# po/tr.po = UTF-8 Unicode English text
+po/tr.po: copy
+
+# po/he.po = ASCII English text
+po/he.po: copy
+
+# po/mk.po = UTF-8 Unicode English text
+po/mk.po: copy
+
+# po/zh_CN.po = UTF-8 Unicode English text
+po/zh_CN.po: copy
+
+# po/bn.po = UTF-8 Unicode English text
+po/bn.po: copy
+
+# po/cs.po = UTF-8 Unicode English text
+po/cs.po: copy
+
+# po/as.po = UTF-8 Unicode English text
+po/as.po: copy
+
+# po/pa.po = UTF-8 Unicode English text
+po/pa.po: copy
+
+# po/be@latin.po = UTF-8 Unicode English text
+po/be@latin.po: copy
+
+# po/ko.po = UTF-8 Unicode English text
+po/ko.po: copy
+
+# po/ja.po = UTF-8 Unicode English text
+po/ja.po: copy
+
+# po/de.po = UTF-8 Unicode English text
+po/de.po: copy
+
+# po/gu.po = UTF-8 Unicode English text
+po/gu.po: copy
+
+# po/ChangeLog = UTF-8 Unicode English text
+po/ChangeLog: copy
+
+# po/kn.po = UTF-8 Unicode English text
+po/kn.po: copy
+
+# po/POTFILES.in = ASCII text
+po/POTFILES.in: copy
+
+# po/sr.po = UTF-8 Unicode English text
+po/sr.po: copy
+
+# po/eu.po = UTF-8 Unicode English text
+po/eu.po: copy
+
+# po/hi.po = UTF-8 Unicode English text
+po/hi.po: copy
+
+# po/fur.po = UTF-8 Unicode PO (gettext message catalogue) text, with CRLF, LF line terminators
+po/fur.po: copy
+
+# po/bg.po = UTF-8 Unicode English text
+po/bg.po: copy
+
+# po/mr.po = UTF-8 Unicode English text
+po/mr.po: copy
+
+# po/ta.po = UTF-8 Unicode English text
+po/ta.po: copy
+
+# po/zh_HK.po = UTF-8 Unicode PO (gettext message catalogue) text
+po/zh_HK.po: copy
+
+# po/ru.po = UTF-8 Unicode English text
+po/ru.po: copy
+
+# po/zh_TW.po = UTF-8 Unicode PO (gettext message catalogue) text
+po/zh_TW.po: copy
+
+# po/fr.po = UTF-8 Unicode English text
+po/fr.po: copy
+
+# po/sl.po = UTF-8 Unicode English text
+po/sl.po: copy
+
+# po/sq.po = UTF-8 Unicode English text
+po/sq.po: copy
+
+# po/sr@latin.po = UTF-8 Unicode English text
+po/sr@latin.po: copy
+
+# po/es.po = UTF-8 Unicode English text
+po/es.po: copy
+
+# po/ar.po = UTF-8 Unicode English text
+po/ar.po: copy
+
+# po/pt_BR.po = UTF-8 Unicode English text
+po/pt_BR.po: copy
+
+# po/fi.po = UTF-8 Unicode English text
+po/fi.po: copy
+
+# po/ro.po = UTF-8 Unicode English text
+po/ro.po: copy
+
+# po/ca.po = UTF-8 Unicode English text
+po/ca.po: copy
+
+# po/hu.po = UTF-8 Unicode English text
+po/hu.po: copy
+
+# po/ca@valencia.po = UTF-8 Unicode English text
+po/ca@valencia.po: copy
+
+# po/pl.po = UTF-8 Unicode PO (gettext message catalogue) text
+po/pl.po: copy
+
+# po/Makefile.in.in = ASCII Pascal program text
+po/Makefile.in.in: copy
+
+# po/gl.po = UTF-8 Unicode English text
+po/gl.po: copy
+
+# po/it.po = UTF-8 Unicode English text
+po/it.po: copy
+
+# po/ga.po = UTF-8 Unicode English text
+po/ga.po: copy
+
+# po/bn_IN.po = UTF-8 Unicode English text
+po/bn_IN.po: copy
+
+# po/th.po = UTF-8 Unicode English text
+po/th.po: copy
+
+# po/oc.po = UTF-8 Unicode English text
+po/oc.po: copy
+
+# po/sv.po = UTF-8 Unicode English text
+po/sv.po: copy
+
+# po/LINGUAS = ASCII text
+po/LINGUAS: copy
+
+# po/dz.po = UTF-8 Unicode English text
+po/dz.po: copy
+
+# po/et.po = UTF-8 Unicode English text
+po/et.po: copy
+
+# po/el.po = UTF-8 Unicode English text
+po/el.po: copy
+
+# po/si.po = UTF-8 Unicode English text
+po/si.po: copy
+
+# po/POTFILES.skip = ASCII text
+po/POTFILES.skip: copy
+
+# po/nn.po = UTF-8 Unicode English text
+po/nn.po: copy
+
+# missing = POSIX shell script text executable
+missing: copy
+
+# ltmain.sh = ASCII English text
+ltmain.sh: copy
+
+# configure = POSIX shell script text executable
+configure: copy
+
+# COPYING = ASCII English text
+COPYING: copy
+
+# engines/support/cairo-support.c = ASCII C program text
+engines/support/cairo-support.c: copy
+
+# engines/support/Makefile.am = ASCII text
+engines/support/Makefile.am: copy
+
+# engines/support/widget-information.h = ASCII C program text
+engines/support/widget-information.h: copy
+
+# engines/support/general-support.h = ASCII C program text
+engines/support/general-support.h: copy
+
+# engines/support/config.h.in = ASCII C program text
+engines/support/config.h.in: copy
+
+# engines/support/cairo-support.h = ASCII C program text
+engines/support/cairo-support.h: copy
+
+# engines/support/widget-information.c = ASCII C program text
+engines/support/widget-information.c: copy
+
+# engines/support/ge-support.h = ASCII C program text
+engines/support/ge-support.h: copy
+
+# engines/support/config.h = ASCII C program text
+engines/support/config.h: copy
+
+# engines/support/Makefile.in = ASCII English text, with very long lines
+engines/support/Makefile.in: copy
+
+# engines/Makefile.am = ASCII text
+engines/Makefile.am: copy
+
+# engines/lua/Makefile.am = ASCII English text
+engines/lua/Makefile.am: copy
+
+# engines/lua/src/misc_utils.c = ASCII C program text
+engines/lua/src/misc_utils.c: copy
+
+# engines/lua/src/draw_utils.c = ASCII C program text
+engines/lua/src/draw_utils.c: copy
+
+# engines/lua/src/draw_lib.h = ASCII C program text
+engines/lua/src/draw_lib.h: copy
+
+# engines/lua/src/draw_lib.c = ASCII C program text
+engines/lua/src/draw_lib.c: copy
+
+# engines/lua/src/lua_utils.c = ASCII C program text
+engines/lua/src/lua_utils.c: copy
+
+# engines/lua/src/main.c = ASCII C program text
+engines/lua/src/main.c: copy
+
+# engines/lua/src/lua_style.c = ASCII C program text
+engines/lua/src/lua_style.c: copy
+
+# engines/lua/src/misc_utils.h = ASCII C program text
+engines/lua/src/misc_utils.h: copy
+
+# engines/lua/src/lua_rc_style.c = ASCII C program text
+engines/lua/src/lua_rc_style.c: copy
+
+# engines/lua/src/draw_utils.h = ASCII C program text
+engines/lua/src/draw_utils.h: copy
+
+# engines/lua/src/lua_style.h = ASCII C program text
+engines/lua/src/lua_style.h: copy
+
+# engines/lua/src/lua_rc_style.h = ASCII C program text
+engines/lua/src/lua_rc_style.h: copy
+
+# engines/lua/src/liblua/ldump.c = ASCII C program text
+engines/lua/src/liblua/ldump.c: copy
+
+# engines/lua/src/liblua/lundump.h = ASCII C program text
+engines/lua/src/liblua/lundump.h: copy
+
+# engines/lua/src/liblua/ltm.c = ASCII C program text
+engines/lua/src/liblua/ltm.c: copy
+
+# engines/lua/src/liblua/ldo.c = ASCII C program text
+engines/lua/src/liblua/ldo.c: copy
+
+# engines/lua/src/liblua/llimits.h = ASCII C program text
+engines/lua/src/liblua/llimits.h: copy
+
+# engines/lua/src/liblua/lzio.c = ASCII C program text
+engines/lua/src/liblua/lzio.c: copy
+
+# engines/lua/src/liblua/ltable.h = ASCII C program text
+engines/lua/src/liblua/ltable.h: copy
+
+# engines/lua/src/liblua/lmathlib.c = ASCII C program text
+engines/lua/src/liblua/lmathlib.c: copy
+
+# engines/lua/src/liblua/lauxlib.h = ASCII C program text
+engines/lua/src/liblua/lauxlib.h: copy
+
+# engines/lua/src/liblua/lua.h = ASCII C program text
+engines/lua/src/liblua/lua.h: copy
+
+# engines/lua/src/liblua/lfunc.h = ASCII C program text
+engines/lua/src/liblua/lfunc.h: copy
+
+# engines/lua/src/liblua/lgc.c = ASCII C program text
+engines/lua/src/liblua/lgc.c: copy
+
+# engines/lua/src/liblua/lapi.h = ASCII C program text
+engines/lua/src/liblua/lapi.h: copy
+
+# engines/lua/src/liblua/lcode.h = ASCII C program text
+engines/lua/src/liblua/lcode.h: copy
+
+# engines/lua/src/liblua/ldblib.c = ASCII C program text
+engines/lua/src/liblua/ldblib.c: copy
+
+# engines/lua/src/liblua/lapi.c = ASCII C program text
+engines/lua/src/liblua/lapi.c: copy
+
+# engines/lua/src/liblua/lvm.c = ASCII C program text
+engines/lua/src/liblua/lvm.c: copy
+
+# engines/lua/src/liblua/lvm.h = ASCII C program text
+engines/lua/src/liblua/lvm.h: copy
+
+# engines/lua/src/liblua/loslib.c = ASCII C program text
+engines/lua/src/liblua/loslib.c: copy
+
+# engines/lua/src/liblua/ldebug.h = ASCII C program text
+engines/lua/src/liblua/ldebug.h: copy
+
+# engines/lua/src/liblua/lobject.h = ASCII C program text
+engines/lua/src/liblua/lobject.h: copy
+
+# engines/lua/src/liblua/ltablib.c = ASCII C program text
+engines/lua/src/liblua/ltablib.c: copy
+
+# engines/lua/src/liblua/lparser.c = ASCII C program text
+engines/lua/src/liblua/lparser.c: copy
+
+# engines/lua/src/liblua/ltm.h = ASCII C program text
+engines/lua/src/liblua/ltm.h: copy
+
+# engines/lua/src/liblua/lparser.h = ASCII C program text
+engines/lua/src/liblua/lparser.h: copy
+
+# engines/lua/src/liblua/linit.c = ASCII C program text
+engines/lua/src/liblua/linit.c: copy
+
+# engines/lua/src/liblua/lgc.h = ASCII C program text
+engines/lua/src/liblua/lgc.h: copy
+
+# engines/lua/src/liblua/lopcodes.c = ASCII C program text
+engines/lua/src/liblua/lopcodes.c: copy
+
+# engines/lua/src/liblua/llex.h = ASCII C program text
+engines/lua/src/liblua/llex.h: copy
+
+# engines/lua/src/liblua/ltable.c = ASCII C program text
+engines/lua/src/liblua/ltable.c: copy
+
+# engines/lua/src/liblua/lstate.c = ASCII C program text
+engines/lua/src/liblua/lstate.c: copy
+
+# engines/lua/src/liblua/lbaselib.c = ASCII C program text
+engines/lua/src/liblua/lbaselib.c: copy
+
+# engines/lua/src/liblua/lopcodes.h = ASCII C program text
+engines/lua/src/liblua/lopcodes.h: copy
+
+# engines/lua/src/liblua/lmem.h = ASCII C program text
+engines/lua/src/liblua/lmem.h: copy
+
+# engines/lua/src/liblua/llex.c = ASCII C program text
+engines/lua/src/liblua/llex.c: copy
+
+# engines/lua/src/liblua/lstate.h = ASCII C program text
+engines/lua/src/liblua/lstate.h: copy
+
+# engines/lua/src/liblua/lualib.h = ASCII C program text
+engines/lua/src/liblua/lualib.h: copy
+
+# engines/lua/src/liblua/ldo.h = ASCII C program text
+engines/lua/src/liblua/ldo.h: copy
+
+# engines/lua/src/liblua/lauxlib.c = ASCII C program text
+engines/lua/src/liblua/lauxlib.c: copy
+
+# engines/lua/src/liblua/lstrlib.c = ASCII C program text
+engines/lua/src/liblua/lstrlib.c: copy
+
+# engines/lua/src/liblua/lstring.c = ASCII C program text
+engines/lua/src/liblua/lstring.c: copy
+
+# engines/lua/src/liblua/liolib.c = ASCII C program text
+engines/lua/src/liblua/liolib.c: copy
+
+# engines/lua/src/liblua/lstring.h = ASCII C program text
+engines/lua/src/liblua/lstring.h: copy
+
+# engines/lua/src/liblua/lfunc.c = ASCII C program text
+engines/lua/src/liblua/lfunc.c: copy
+
+# engines/lua/src/liblua/lmem.c = ASCII C program text
+engines/lua/src/liblua/lmem.c: copy
+
+# engines/lua/src/liblua/lzio.h = ASCII C program text
+engines/lua/src/liblua/lzio.h: copy
+
+# engines/lua/src/liblua/loadlib.c = ASCII C program text
+engines/lua/src/liblua/loadlib.c: copy
+
+# engines/lua/src/liblua/ldebug.c = ASCII C program text
+engines/lua/src/liblua/ldebug.c: copy
+
+# engines/lua/src/liblua/lcode.c = ASCII C program text
+engines/lua/src/liblua/lcode.c: copy
+
+# engines/lua/src/liblua/lobject.c = ASCII C program text
+engines/lua/src/liblua/lobject.c: copy
+
+# engines/lua/src/liblua/luaconf.h = ASCII C program text
+engines/lua/src/liblua/luaconf.h: copy
+
+# engines/lua/src/liblua/lundump.c = ASCII C program text
+engines/lua/src/liblua/lundump.c: copy
+
+# engines/lua/src/lua_utils.h = ASCII C program text
+engines/lua/src/lua_utils.h: copy
+
+# engines/lua/AUTHORS = ASCII text, with no line terminators
+engines/lua/AUTHORS: copy
+
+# engines/lua/Makefile.in = ASCII English text, with very long lines
+engines/lua/Makefile.in: copy
+
+# engines/redmond/Makefile.am = ASCII English text
+engines/redmond/Makefile.am: copy
+
+# engines/redmond/src/redmond_gtk2_misc.h = ASCII C program text
+engines/redmond/src/redmond_gtk2_misc.h: copy
+
+# engines/redmond/src/redmond_gtk2_drawing.c = ASCII C program text
+engines/redmond/src/redmond_gtk2_drawing.c: copy
+
+# engines/redmond/src/redmond_gtk2_engine.c = ASCII C program text
+engines/redmond/src/redmond_gtk2_engine.c: copy
+
+# engines/redmond/src/redmond_gtk2_misc.c = ASCII C program text
+engines/redmond/src/redmond_gtk2_misc.c: copy
+
+# engines/redmond/src/redmond_gtk2_drawing.h = ASCII C program text
+engines/redmond/src/redmond_gtk2_drawing.h: copy
+
+# engines/redmond/src/redmond_gtk2_engine.h = ASCII C program text
+engines/redmond/src/redmond_gtk2_engine.h: copy
+
+# engines/redmond/AUTHORS = ASCII text
+engines/redmond/AUTHORS: copy
+
+# engines/redmond/Makefile.in = ASCII English text, with very long lines
+engines/redmond/Makefile.in: copy
+
+# engines/clearlooks/Makefile.am = ASCII English text
+engines/clearlooks/Makefile.am: copy
+
+# engines/clearlooks/src/clearlooks_rc_style.h = ASCII C program text
+engines/clearlooks/src/clearlooks_rc_style.h: copy
+
+# engines/clearlooks/src/support.c = ASCII C program text
+engines/clearlooks/src/support.c: copy
+
+# engines/clearlooks/src/clearlooks_draw_gummy.c = ASCII C program text
+engines/clearlooks/src/clearlooks_draw_gummy.c: copy
+
+# engines/clearlooks/src/clearlooks_rc_style.c = ASCII C program text
+engines/clearlooks/src/clearlooks_rc_style.c: copy
+
+# engines/clearlooks/src/clearlooks_draw_glossy.c = ASCII C program text
+engines/clearlooks/src/clearlooks_draw_glossy.c: copy
+
+# engines/clearlooks/src/clearlooks_theme_main.c = ASCII C program text
+engines/clearlooks/src/clearlooks_theme_main.c: copy
+
+# engines/clearlooks/src/clearlooks_draw_inverted.c = ASCII C program text
+engines/clearlooks/src/clearlooks_draw_inverted.c: copy
+
+# engines/clearlooks/src/clearlooks_types.h = ASCII C program text
+engines/clearlooks/src/clearlooks_types.h: copy
+
+# engines/clearlooks/src/animation.c = ASCII C program text
+engines/clearlooks/src/animation.c: copy
+
+# engines/clearlooks/src/clearlooks_style.c = ASCII C program text
+engines/clearlooks/src/clearlooks_style.c: copy
+
+# engines/clearlooks/src/clearlooks_draw.h = ASCII C program text
+engines/clearlooks/src/clearlooks_draw.h: copy
+
+# engines/clearlooks/src/clearlooks_style.h = ASCII C program text
+engines/clearlooks/src/clearlooks_style.h: copy
+
+# engines/clearlooks/src/clearlooks_draw.c = ASCII C program text
+engines/clearlooks/src/clearlooks_draw.c: copy
+
+# engines/clearlooks/src/support.h = ASCII C program text
+engines/clearlooks/src/support.h: copy
+
+# engines/clearlooks/src/animation.h = ASCII C program text
+engines/clearlooks/src/animation.h: copy
+
+# engines/clearlooks/AUTHORS = ASCII text
+engines/clearlooks/AUTHORS: copy
+
+# engines/clearlooks/Makefile.in = ASCII English text, with very long lines
+engines/clearlooks/Makefile.in: copy
+
+# engines/thinice/Makefile.am = ASCII text
+engines/thinice/Makefile.am: copy
+
+# engines/thinice/src/thinice_main.c = ASCII C program text
+engines/thinice/src/thinice_main.c: copy
+
+# engines/thinice/src/thinice_misc.c = ASCII C program text
+engines/thinice/src/thinice_misc.c: copy
+
+# engines/thinice/src/thinice_theme_draw.c = ISO-8859 C program text
+engines/thinice/src/thinice_theme_draw.c: copy
+
+# engines/thinice/src/thinice_rc_style.h = ASCII C program text
+engines/thinice/src/thinice_rc_style.h: copy
+
+# engines/thinice/src/thinice_style.h = ASCII C program text
+engines/thinice/src/thinice_style.h: copy
+
+# engines/thinice/src/thinice_misc.h = ASCII C program text
+engines/thinice/src/thinice_misc.h: copy
+
+# engines/thinice/src/thinice_rc_style.c = ASCII C program text
+engines/thinice/src/thinice_rc_style.c: copy
+
+# engines/thinice/AUTHORS = UTF-8 Unicode text
+engines/thinice/AUTHORS: copy
+
+# engines/thinice/Makefile.in = ASCII English text, with very long lines
+engines/thinice/Makefile.in: copy
+
+# engines/crux/Makefile.am = ASCII text
+engines/crux/Makefile.am: copy
+
+# engines/crux/src/crux-draw.c = ASCII C program text
+engines/crux/src/crux-draw.c: copy
+
+# engines/crux/src/crux-style.h = ASCII C program text
+engines/crux/src/crux-style.h: copy
+
+# engines/crux/src/crux-rc-style.h = ASCII C program text
+engines/crux/src/crux-rc-style.h: copy
+
+# engines/crux/src/crux-style.c = ASCII C program text
+engines/crux/src/crux-style.c: copy
+
+# engines/crux/src/crux-main.c = ASCII C program text
+engines/crux/src/crux-main.c: copy
+
+# engines/crux/src/crux-draw.h = ASCII C program text
+engines/crux/src/crux-draw.h: copy
+
+# engines/crux/src/crux-rc-style.c = ASCII C program text
+engines/crux/src/crux-rc-style.c: copy
+
+# engines/crux/src/crux.h = ASCII C program text
+engines/crux/src/crux.h: copy
+
+# engines/crux/AUTHORS = ASCII text
+engines/crux/AUTHORS: copy
+
+# engines/crux/Makefile.in = ASCII English text, with very long lines
+engines/crux/Makefile.in: copy
+
+# engines/glide/Makefile.am = ASCII English text
+engines/glide/Makefile.am: copy
+
+# engines/glide/src/glide_gtk2_engine.h = ASCII C program text
+engines/glide/src/glide_gtk2_engine.h: copy
+
+# engines/glide/src/glide_gtk2_engine.c = ASCII C program text
+engines/glide/src/glide_gtk2_engine.c: copy
+
+# engines/glide/src/glide_gtk2_support.h = ASCII C program text
+engines/glide/src/glide_gtk2_support.h: copy
+
+# engines/glide/src/glide_gtk2_drawing.c = ASCII C program text
+engines/glide/src/glide_gtk2_drawing.c: copy
+
+# engines/glide/src/glide_gtk2_support.c = ASCII C program text
+engines/glide/src/glide_gtk2_support.c: copy
+
+# engines/glide/src/glide_gtk2_drawing.h = ASCII C program text
+engines/glide/src/glide_gtk2_drawing.h: copy
+
+# engines/glide/AUTHORS = UTF-8 Unicode English text
+engines/glide/AUTHORS: copy
+
+# engines/glide/Makefile.in = ASCII English text, with very long lines
+engines/glide/Makefile.in: copy
+
+# engines/industrial/Makefile.am = ASCII English text
+engines/industrial/Makefile.am: copy
+
+# engines/industrial/src/industrial_theme_main.c = ASCII C program text
+engines/industrial/src/industrial_theme_main.c: copy
+
+# engines/industrial/src/parse_rc_style.h = ASCII C program text
+engines/industrial/src/parse_rc_style.h: copy
+
+# engines/industrial/src/industrial_rc_style.c = ASCII C program text
+engines/industrial/src/industrial_rc_style.c: copy
+
+# engines/industrial/src/industrial_style.h = ASCII C program text
+engines/industrial/src/industrial_style.h: copy
+
+# engines/industrial/src/industrial_rc_style.h = ASCII C program text
+engines/industrial/src/industrial_rc_style.h: copy
+
+# engines/industrial/src/industrial_style.c = ASCII C program text
+engines/industrial/src/industrial_style.c: copy
+
+# engines/industrial/AUTHORS = ASCII English text
+engines/industrial/AUTHORS: copy
+
+# engines/industrial/Makefile.in = ASCII English text, with very long lines
+engines/industrial/Makefile.in: copy
+
+# engines/mist/Makefile.am = ASCII text
+engines/mist/Makefile.am: copy
+
+# engines/mist/src/mist-rc-style.c = ASCII C program text
+engines/mist/src/mist-rc-style.c: copy
+
+# engines/mist/src/mist-style.c = ISO-8859 C program text
+engines/mist/src/mist-style.c: copy
+
+# engines/mist/src/mist-rc-style.h = ASCII C program text
+engines/mist/src/mist-rc-style.h: copy
+
+# engines/mist/src/mist.c = ASCII C program text
+engines/mist/src/mist.c: copy
+
+# engines/mist/src/mist-style.h = ASCII C program text
+engines/mist/src/mist-style.h: copy
+
+# engines/mist/AUTHORS = ISO-8859 text
+engines/mist/AUTHORS: copy
+
+# engines/mist/Makefile.in = ASCII English text, with very long lines
+engines/mist/Makefile.in: copy
+
+# engines/engine.symbols = ASCII text
+engines/engine.symbols: copy
+
+# engines/Makefile.in = ASCII English text
+engines/Makefile.in: copy
+
+# engines/hc/Makefile.am = ASCII English text
+engines/hc/Makefile.am: copy
+
+# engines/hc/src/hc_gtk2_support.h = ASCII C program text
+engines/hc/src/hc_gtk2_support.h: copy
+
+# engines/hc/src/hc_gtk2_engine.h = ASCII C program text
+engines/hc/src/hc_gtk2_engine.h: copy
+
+# engines/hc/src/hc_gtk2_drawing.h = ASCII C program text
+engines/hc/src/hc_gtk2_drawing.h: copy
+
+# engines/hc/src/hc_gtk2_engine.c = ASCII C program text
+engines/hc/src/hc_gtk2_engine.c: copy
+
+# engines/hc/src/hc-style.c = ASCII C program text
+engines/hc/src/hc-style.c: copy
+
+# engines/hc/src/hc_gtk2_support.c = ASCII C program text
+engines/hc/src/hc_gtk2_support.c: copy
+
+# engines/hc/AUTHORS = ASCII text
+engines/hc/AUTHORS: copy
+
+# engines/hc/Makefile.in = ASCII English text, with very long lines
+engines/hc/Makefile.in: copy
+
+# config.sub = POSIX shell script text executable
+config.sub: copy
+
+# Makefile.in = ASCII English text
+Makefile.in: copy
+
+# test/exported = POSIX shell script text executable
+test/exported: copy
+
+# test/Makefile.am = ASCII English text
+test/Makefile.am: copy
+
+# test/runinx = POSIX shell script text executable
+test/runinx: copy
+
+# test/torture = POSIX shell script text executable
+test/torture: copy
+
+# test/gtkrcs/clearlooks-gummy = ASCII C++ program text
+test/gtkrcs/clearlooks-gummy: copy
+
+# test/gtkrcs/buildin = ASCII C++ program text
+test/gtkrcs/buildin: copy
+
+# test/gtkrcs/redmond = ASCII C++ program text
+test/gtkrcs/redmond: copy
+
+# test/gtkrcs/clearlooks = ASCII English text
+test/gtkrcs/clearlooks: copy
+
+# test/gtkrcs/thinice = ASCII C++ program text
+test/gtkrcs/thinice: copy
+
+# test/gtkrcs/clearlooks-inverted = ASCII C++ program text
+test/gtkrcs/clearlooks-inverted: copy
+
+# test/gtkrcs/crux = ASCII C++ program text
+test/gtkrcs/crux: copy
+
+# test/gtkrcs/glide = ASCII C++ program text
+test/gtkrcs/glide: copy
+
+# test/gtkrcs/industrial = ASCII C++ program text
+test/gtkrcs/industrial: copy
+
+# test/gtkrcs/clearlooks-glossy = ASCII C++ program text
+test/gtkrcs/clearlooks-glossy: copy
+
+# test/gtkrcs/mist = ASCII C++ program text
+test/gtkrcs/mist: copy
+
+# test/gtkrcs/hc = ASCII C++ program text
+test/gtkrcs/hc: copy
+
+# test/valgrind-suppressions = ASCII English text
+test/valgrind-suppressions: copy
+
+# test/torturetest.c = ASCII C program text, with very long lines
+test/torturetest.c: copy
+
+# test/Makefile.in = ASCII English text, with very long lines
+test/Makefile.in: copy
+
+# gtk-engines.doap = ASCII text
+gtk-engines.doap: copy
+
+# depcomp = POSIX shell script text executable
+depcomp: copy

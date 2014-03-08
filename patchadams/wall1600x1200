@@ -1,0 +1,8 @@
+. ./project-settings
+ 
+TEMP="temp.png"
+FILE="test.png"
+
+X=1600 && Y=1200 && L=`expr $X / 20` && convert -size ${X}x${Y} xc:$BACK $TEMP && composite -geometry ${L}x${L}+`expr $X - $L - 10`+`expr $Y - $L - 10` $LOGO $TEMP $FILE
+
+display $FILE

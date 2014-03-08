@@ -1,0 +1,73 @@
+# Patchlist created Fri Mar  7 21:41:52 CST 2014
+
+# mkbaselist2 = a /usr/bin/perl script text executable
+mkbaselist2: copy
+
+# mkgraphiclist2 = a /usr/bin/perl script text executable
+mkgraphiclist2: copy
+
+# init-functions = POSIX shell script text executable
+init-functions: copy
+
+# lsb_start_daemon = Bourne-Again shell script text executable
+lsb_start_daemon: copy
+
+# lsb_killproc = Bourne-Again shell script text executable
+lsb_killproc: copy
+
+# mkredhat-lsb = POSIX shell script text executable
+mkredhat-lsb: copy
+
+# README = ASCII English text
+README: copy
+
+# redhat-lsb.spec.in = ASCII English text
+redhat-lsb.spec.in: copy
+
+# redhat-lsb.spec = ASCII English text
+redhat-lsb.spec: copy
+
+# mkcmdlist2 = a /usr/bin/perl script text executable
+mkcmdlist2: copy
+
+# lsb_log_message = Bourne-Again shell script text executable
+lsb_log_message: copy
+
+# Makefile = ASCII text
+Makefile: copy
+
+# lsb-release-2.0/help2man = a /usr/bin/perl -w script text executable
+lsb-release-2.0/help2man: copy
+
+# lsb-release-2.0/lsb_release = POSIX shell script text executable
+lsb-release-2.0/lsb_release: copy
+
+# lsb-release-2.0/INSTALL = ASCII English text
+lsb-release-2.0/INSTALL: copy
+
+# lsb-release-2.0/README = ASCII Pascal program text
+lsb-release-2.0/README: copy
+
+# lsb-release-2.0/ChangeLog = ASCII English text
+lsb-release-2.0/ChangeLog: copy
+
+# lsb-release-2.0/lsb_release.examples = ASCII English text
+lsb-release-2.0/lsb_release.examples: copy
+
+# lsb-release-2.0/Makefile = ASCII Pascal program text
+lsb-release-2.0/Makefile: copy
+
+# lsb-release-2.0/COPYING = ASCII English text
+lsb-release-2.0/COPYING: copy
+
+# lsb-release-2.0/lsb-release.template = ASCII C++ program text
+lsb-release-2.0/lsb-release.template: copy
+
+# lsb_pidofproc = Bourne-Again shell script text executable
+lsb_pidofproc: copy
+
+# redhat_lsb_trigger.c = ASCII C program text
+redhat_lsb_trigger.c: copy
+
+# redhat_lsb_init = Bourne-Again shell script text executable
+redhat_lsb_init: copy
